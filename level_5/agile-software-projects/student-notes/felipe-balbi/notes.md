@@ -1,18 +1,23 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgd3d96d1)
-    1.  [1.01 Module introduction](#orgb519f7d)
-    2.  [1.07 The basics of interaction design](#org10b1c0a)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org1128441)
-2.  [Week 2](#orgd11fbfc)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org6028239)
-    2.  [1.305 Version control systems](#org03150eb)
-    3.  [1.401 The process of interaction design](#orgbcfae33)
+1.  [Week 1](#orgc4f1bf5)
+    1.  [1.01 Module introduction](#orgd255ea3)
+    2.  [1.07 The basics of interaction design](#orgc5870e4)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org0ae13ac)
+2.  [Week 2](#org9bedb84)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org0787548)
+    2.  [1.305 Version control systems](#org461a091)
+    3.  [1.401 The process of interaction design](#org9517ecb)
+3.  [Week 3](#org68ccd76)
+    1.  [2.01 Introduction to requirements and specification](#org4e438c6)
+    2.  [2.101 Purpose of gathering requirements](#orgdf118bc)
+    3.  [2.102 Introduction to requirements gathering](#orgcc9b7f7)
+    4.  [2.201 Modelling requirements](#orgd2d3d63)
 
 
 
-<a id="orgd3d96d1"></a>
+<a id="orgc4f1bf5"></a>
 
 # Week 1
 
@@ -23,7 +28,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="orgb519f7d"></a>
+<a id="orgd255ea3"></a>
 
 ## 1.01 Module introduction
 
@@ -31,7 +36,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="org10b1c0a"></a>
+<a id="orgc5870e4"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -45,7 +50,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org1128441"></a>
+<a id="org0ae13ac"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -91,7 +96,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="orgd11fbfc"></a>
+<a id="org9bedb84"></a>
 
 # Week 2
 
@@ -102,7 +107,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org6028239"></a>
+<a id="org0787548"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -360,7 +365,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org03150eb"></a>
+<a id="org461a091"></a>
 
 ## 1.305 Version control systems
 
@@ -371,11 +376,115 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="orgbcfae33"></a>
+<a id="org9517ecb"></a>
 
 ## 1.401 The process of interaction design
 
 Read Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
 human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and Sons
 Inc, 2019) pp.37–55.
+
+
+<a id="org68ccd76"></a>
+
+# Week 3
+
+Key Concepts
+
+-   Consider the wider implications of building a system for purpose.
+-   Explore formal specifications from both a functional and technical
+    perspective.
+-   Identify key stakeholders, challenges, risks and innovations.
+
+
+<a id="org4e438c6"></a>
+
+## 2.01 Introduction to requirements and specification
+
+Requirements vary depending on the target audience. While an
+average person may require around 2000 Calories per day, a
+competitive power lifter may require substantially more. When
+thinking about requirements, we need to consider the broad spectrum
+of possibilities.
+
+In the case of systems, we generally describe actions in the form
+of use cases. We assume a user wants to achieve something with our
+product and consider the steps necessary to achieve that goal. We
+also think about which steps or tasks are more important than
+other, which can be deferred or cancelled.
+
+We need to consider all these details in order to provoke further
+considerations.
+
+One way to define requirements is as a need or desired outcome for
+or from a system. If we&rsquo;re designing a payment system, it may be
+required to process transactions or accept certain payment methods.
+
+Requirements can be specified using formal documentation with a
+discernible outcome. In order to write these, we must first a good
+formal understanding of what we&rsquo;re trying to achieve, only then can
+we specify requirements in a measurable manner.
+
+The process that underpins this is referred to as
+Specification. One way to create specification is through modelling
+techniques such as UML, or Unified Modelling Language.
+
+UML offers several benefits for specifying systems. For example, we
+get a visual representation of the relationships between entities
+or objects within our system.
+
+UML has several types of diagrams, for example Use Case Diagrams
+and Class Diagrams, which are the most commonly used.
+
+
+<a id="orgdf118bc"></a>
+
+## 2.101 Purpose of gathering requirements
+
+Gathering requirements helps us understand the scope of the
+project. Moreover, requirements help us with:
+
+-   specifying things that can be measured and tracked
+-   keeping all stakeholders in the loop
+-   formalising contracts and legal obligations
+-   defining complex relationships and systems in a meaninful way
+
+In terms of specifications, there are two main categories:
+
+-   **Functional:** concerned with the ability to perform certain
+    actions
+-   **Technical:** concerned with the manifestation of a system to
+    achieve said outcomes
+
+Both types of specifications describe a set of actions, intentions,
+systems and outcomes.
+
+
+<a id="orgcc9b7f7"></a>
+
+## 2.102 Introduction to requirements gathering
+
+Read Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
+human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and Sons
+Inc, 2019) chapter 11 pp.385–418.
+
+
+<a id="orgd2d3d63"></a>
+
+## 2.201 Modelling requirements
+
+Use Cases define a set of actions necessary to achieve a goal. This
+goal is describe as a **main success scenario**. A user wants to
+achieve something and follows a set of steps.
+
+There are many ways to describe use cases, but in general they
+representations with a series of systems and how users engage with
+those parts of the systems at different levels.
+
+Class Diagrams, on the other hand, describe classes or
+objects. They capture the classes&rsquo; attributes and/or operations.
+
+These are very good for defining relationships between objects in a
+system and some explicit structure. They can also describe
+depedencies and abstraction.
 
