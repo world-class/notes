@@ -1,26 +1,34 @@
 
 # Table of Contents
 
-1.  [Week 1](#org0a1697c)
-    1.  [Reading: Ethics in information security](#orgaf23be7)
-    2.  [Defining computer security](#orge22221a)
-    3.  [Types of malicious software 1](#orge869c5a)
-        1.  [Viruses](#orgc804fa4)
-        2.  [Worms](#org4d47dc4)
-        3.  [Adware](#org0acf3b1)
-        4.  [Trojans](#org7023cd9)
-        5.  [Spyware](#org5879e84)
-    4.  [Types of malicious software 2](#orga63f137)
-2.  [Week 2](#orga1dafb6)
-    1.  [Malware analysis and techniques](#org0e1ab34)
-    2.  [Malware analysis 2](#org334d63c)
-    3.  [Ethics](#org5ec9a4a)
-    4.  [Passwords](#org9fc971b)
-    5.  [Social Engineering](#org7e12217)
+1.  [Week 1](#org94ad050)
+    1.  [Reading: Ethics in information security](#org2b67a8d)
+    2.  [Defining computer security](#org165fcd8)
+    3.  [Types of malicious software 1](#orgbe0ccbd)
+        1.  [Viruses](#org1188297)
+        2.  [Worms](#orgcc6e9ad)
+        3.  [Adware](#org360245b)
+        4.  [Trojans](#org1cb26ee)
+        5.  [Spyware](#org78eee61)
+    4.  [Types of malicious software 2](#orga6df6ed)
+2.  [Week 2](#org600c1f7)
+    1.  [Malware analysis and techniques](#org36d2322)
+    2.  [Malware analysis 2](#orgf302578)
+    3.  [Ethics](#orge895d05)
+    4.  [Passwords](#org38ba6b4)
+    5.  [Social Engineering](#orgf623549)
+3.  [Week 3](#org70aa323)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org7c3c1b1)
+    2.  [Paper about CIA](#orgb769b33)
+    3.  [The attack surface and the denial of service attack](#org39a436a)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#orgda81fe8)
+    5.  [Mirai GitHub and Research Paper](#orgae14d6d)
+    6.  [Wireless attacks: WiFi attack vectors](#org9d6c330)
+    7.  [Wireless Networking Security](#orgcff2238)
 
 
 
-<a id="org0a1697c"></a>
+<a id="org94ad050"></a>
 
 # Week 1
 
@@ -33,7 +41,7 @@ Key Concepts
     significance.
 
 
-<a id="orgaf23be7"></a>
+<a id="org2b67a8d"></a>
 
 ## Reading: Ethics in information security
 
@@ -46,7 +54,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="orge22221a"></a>
+<a id="org165fcd8"></a>
 
 ## Defining computer security
 
@@ -94,7 +102,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="orge869c5a"></a>
+<a id="orgbe0ccbd"></a>
 
 ## Types of malicious software 1
 
@@ -103,7 +111,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="orgc804fa4"></a>
+<a id="org1188297"></a>
 
 ### Viruses
 
@@ -125,7 +133,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="org4d47dc4"></a>
+<a id="orgcc6e9ad"></a>
 
 ### Worms
 
@@ -143,7 +151,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org0acf3b1"></a>
+<a id="org360245b"></a>
 
 ### Adware
 
@@ -152,7 +160,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="org7023cd9"></a>
+<a id="org1cb26ee"></a>
 
 ### Trojans
 
@@ -171,7 +179,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="org5879e84"></a>
+<a id="org78eee61"></a>
 
 ### Spyware
 
@@ -184,7 +192,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="orga63f137"></a>
+<a id="orga6df6ed"></a>
 
 ## Types of malicious software 2
 
@@ -227,7 +235,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="orga1dafb6"></a>
+<a id="org600c1f7"></a>
 
 # Week 2
 
@@ -238,7 +246,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org0e1ab34"></a>
+<a id="org36d2322"></a>
 
 ## Malware analysis and techniques
 
@@ -280,7 +288,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="org334d63c"></a>
+<a id="orgf302578"></a>
 
 ## Malware analysis 2
 
@@ -318,7 +326,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="org5ec9a4a"></a>
+<a id="orge895d05"></a>
 
 ## Ethics
 
@@ -362,7 +370,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org9fc971b"></a>
+<a id="org38ba6b4"></a>
 
 ## Passwords
 
@@ -397,7 +405,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org7e12217"></a>
+<a id="orgf623549"></a>
 
 ## Social Engineering
 
@@ -419,4 +427,241 @@ attacks. They try to trick you into thinking the email comes from a
 reliable source and convince you to give them the information
 they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
+
+
+<a id="org70aa323"></a>
+
+# Week 3
+
+Key Concepts
+
+-   Describe the CIA objectives of network security.
+-   Use real examples to describe how DoS attacks and DDoS attacks
+    work including those using botnets.
+-   Describe the levels of security in wireless networks and common
+    attack vectors.
+
+
+<a id="org7c3c1b1"></a>
+
+## The objectives of network security: confidentiality, integrity and accessibility
+
+Network security has three main objectives:
+
+-   **Confidentiality:** Read access control, i.e. who can **read** which
+    piece of information
+-   **Integrity:** Write access control, i.e. who can **write** which
+    piece of information
+-   **Availability:** Maintaining function, i.e. guaranteeing that the
+    information will be available to those who can access it
+
+It&rsquo;s composed of a set of policies and practices to protect the
+network. One example of a policy may be:
+
+*Every access to the network is unauthorized unless the user is
+authenticated with username and password*
+
+A practice related to the policy may be the fact that any user must
+be given a username and password and an authentication server needs
+to be maintained.
+
+
+<a id="orgb769b33"></a>
+
+## Paper about CIA
+
+Reading about the conflicting aspects of confidentiality, integrity
+and availability:
+
+K. S. Wilson, [Conflicts Among the Pillars of Information Assurance](https://ieeexplore.ieee.org/document/6152082),
+in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
+10.1109/MITP.2012.24.
+
+
+<a id="org39a436a"></a>
+
+## The attack surface and the denial of service attack
+
+A *Denial of Service*, or *DoS*, attack is when we flood a server
+with so many requests that it collapses under the load, therefore
+**denying service** to the users.
+
+This attack can happen in many of the [7 layers of OSI
+model](https://en.wikipedia.org/wiki/OSI_model). As a quick summary, here are what each of 7 layers
+represents:
+
+1.  Physical Layer
+    
+    The hardware pieces. Cables, networking cards, etc. Responsible
+    for the transmission of unstructured raw data. Converts digital
+    bits into electrical, radio, or optical signals.
+
+2.  Data Link Layer
+    
+    Provides node-to-node transfers. Can detect and maybe correct
+    errors.
+
+3.  Network Layer
+    
+    Provides the infrastructure for transmission of variable-length
+    packets from one node to another connected in different
+    networks.
+
+4.  Transport Layer
+    
+    Provides the infrastructure for the transmission of
+    variable-length data sequences from a source to a destination.
+
+5.  Session Layer
+    
+    Controls the dialogues between computers. Establishes, manages
+    and terminates connections between local and remote application.
+
+6.  Presentation Layer
+    
+    Establishes context between application-layer entities.
+
+7.  Application Layer
+    
+    The layer closest to the user. User and OSI interacts directly
+    with the application.
+
+With these in mind, we can look at some example attacks for some of
+these layers.
+
+ARP Flood Attack is a layer 2 attack where one would keep
+broadcasting the network with ARP requests consuming a lot of the
+available processing power of the target machine. ARP requests are
+broadcast messages used to ask the network which MAC address
+corresponds to an IP address.
+
+ICMP Ping Flood Attack is a layer 3 attack relying on the *ping*
+diagnostic message. Hosts are required to respond to ICMP Ping
+requests. By sending a flood of ping requests, one can keep a
+server busy processing such ping requests.
+
+TCP-SYN Flood Attack is a layer 4 attack which tries to open
+several TCP connections by sending a flood of TPC-SYN packets.
+
+
+<a id="orgda81fe8"></a>
+
+## The anatomy of a DDOS, botnets and Mirai
+
+A *Distributed Denial of Service* Attack, or *DDoS*, is similar to
+a *DoS* attack however it&rsquo;s accomplished with many different
+machines targetting a service, hence the &ldquo;distributed&rdquo; in the name.
+
+A BotNet is slightly different. An attacker will take over the
+control of several machines from regular users on the internet, and
+make those machines target a single service with a flood attack of
+some kind.
+
+Many *Internet of Things*, or *IoT*, devices on the market have
+poor security features, which makes them a target for BotNets and
+carry out DDoS attacks on other servers.
+
+One such case is the Mirai BotNet, which targets certain IoT
+devices. The most prominent Mirai DDoS attack, took down the DNS
+provider Dyn resulting in Netflix, Github, Twitter, Reddit and many
+other major services being rendered inaccessible. After analysis,
+Dyn claimed that there were up to 100,000 malicious endpoints
+involved in the attack.
+
+
+<a id="orgae14d6d"></a>
+
+## Mirai GitHub and Research Paper
+
+-   Analysis of the Mirai botnet:
+    
+    H. Sinanović and S. Mrdovic, [Analysis of Mirai malicious
+    software](https://ieeexplore.ieee.org/document/8115504), 2017 25th International Conference on Software,
+    Telecommunications and Computer Networks (SoftCOM), Split, 2017,
+    pp. 1-5, doi: 10.23919/SOFTCOM.2017.8115504.
+
+-   Mirai Source Code
+    
+    <https://github.com/jgamblin/Mirai-Source-Code>
+
+-   Recent Paper About the Threat of Botnets
+    
+    A. Woodiss-Field and M. N. Johnstone,
+    [Assessing the
+    Suitability of Traditional Botnet Detection against Contemporary
+    Threats](https://ieeexplore.ieee.org/document/9097759), 2020 Workshop on Emerging Technologies for Security in
+    IoT (ETSecIoT), Sydney, Australia, 2020, pp. 18-21, doi:
+    10.1109/ETSecIoT50046.2020.00008.
+
+
+<a id="org9d6c330"></a>
+
+## Wireless attacks: WiFi attack vectors
+
+The [Wi-Fi Alliance](https://www.wi-fi.org/) is a network of companies working on wifi
+technology and standards. The idea being that device manufacturers
+want their devices to interoperate, therefore a standard is created
+which describes the method of communication in the wireless
+network.
+
+A timeline of the different standards are as follows:
+
+-   802.11a: 1999
+-   802.11b: 1999
+-   802.11g: 2003
+-   802.11n: 2009
+-   802.11ac (wifi 5): 2012
+-   802.11ax (wifi 6): 2020
+
+Paired with the wireless standards, there a set of wireless
+security protocols:
+
+-   WEP (802.11a/b): 1997
+-   WPA (802.11g): 2003
+-   WPA2 (802.11i): 2004
+-   WPA3: due in 2020
+
+WEP is notorious for having weak encryption in several aspects,
+which allowed attackers to exploit it and gain access to the
+network.
+
+There are different attacks that can be carried out on Wireless
+networks. Some examples:
+
+-   **Dictionary Attacks:** short keys allow brute force encryption
+    breaking. In other words, if the key is small, it&rsquo;s feasible to
+    try all options
+-   **Fluhrer, Mantin and Shamir Attack:** famous encryption breaking
+    hack for WEP
+-   **Replay Attacks:** replay a sequence of packets, with edits. It
+    may allow an attacker to get a valid session key
+-   **PRGA / Packet Tampering Attack:** allows an attacker to
+    masquerade as another device
+
+
+<a id="orgcff2238"></a>
+
+## Wireless Networking Security
+
+-   Classic paper reporting on WEP’s vulnerabilities
+    
+    Scott R. Fluhrer, Itsik Mantin, and Adi Shamir. 2001. [Weaknesses
+    in the Key Scheduling Algorithm of RC4](https://dl.acm.org/doi/10.5555/646557.694759). In Revised Papers from
+    the 8th Annual International Workshop on Selected Areas in
+    Cryptography (SAC &rsquo;01). Springer-Verlag, Berlin, Heidelberg,
+    1–24.
+
+-   Article about attack vectors for different Wifi protocols such as
+    WEP, WPA and LEAP
+    
+    Hal Berghel and Jacob Uecker. 2005. [WiFi attack
+    vectors](https://dl.acm.org/doi/10.1145/1076211.1076229). Commun. ACM 48, 8 (August 2005),
+    21–28. DOI: <https://doi.org/10.1145/1076211.1076229>
+
+-   Very thorough review of security in different wireless
+    technologies used in IoT devices
+    
+    K. Lounis and M. Zulkernine, [Attacks and Defenses in Short-Range
+    Wireless Technologies for IoT](https://ieeexplore.ieee.org/abstract/document/9090905), in IEEE Access, vol. 8,
+    pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
