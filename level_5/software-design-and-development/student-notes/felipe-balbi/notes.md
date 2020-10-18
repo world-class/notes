@@ -1,31 +1,36 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgb97318f)
-    1.  [Module Introduction](#org0886a65)
-    2.  [1.0202 Reference points](#org4eb8735)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org6cb1bd8)
-    4.  [1.0204 What is a module?](#orgdcf6776)
-    5.  [1.0206 What is module complexity?](#orga56421d)
-    6.  [1.0208 Complexity references](#org1293665)
-2.  [Week 2](#orge5a36c5)
-    1.  [2.0102 Week 2 reading](#orgda6d5c8)
-    2.  [2.0201 What is module cohesion?](#org7a84149)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org8307721)
-3.  [Week 3](#org1a193b4)
-    1.  [3.0102 Week 3 reading](#orgfada102)
-    2.  [3.0201 What is module coupling?](#org0dbfd2d)
-    3.  [3.0203 Different types of coupling: good or bad?](#org720ca88)
-    4.  [3.0205 Common environment coupling: good or bad?](#org7e0fa1d)
-    5.  [3.0207 Content coupling: good or bad?](#orge308db2)
-    6.  [3.0209 Control coupling: good or bad?](#orgcd0b6c6)
-    7.  [3.0211 Data coupling: good or bad?](#orgf91035d)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org41803c2)
-    9.  [3.0215 Pathological coupling: good or bad?](#org42f1a99)
+1.  [Week 1](#orgb488e29)
+    1.  [Module Introduction](#orgeeaaf4a)
+    2.  [1.0202 Reference points](#orga87a35e)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgdb1b9d0)
+    4.  [1.0204 What is a module?](#org86b25b1)
+    5.  [1.0206 What is module complexity?](#org81f6097)
+    6.  [1.0208 Complexity references](#org5f1a978)
+2.  [Week 2](#orge679096)
+    1.  [2.0102 Week 2 reading](#orgea9bcc5)
+    2.  [2.0201 What is module cohesion?](#org235750d)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org9859355)
+3.  [Week 3](#org7430e7d)
+    1.  [3.0102 Week 3 reading](#orge5c2c34)
+    2.  [3.0201 What is module coupling?](#orgb95440d)
+    3.  [3.0203 Different types of coupling: good or bad?](#orgd2afa4e)
+    4.  [3.0205 Common environment coupling: good or bad?](#org7061428)
+    5.  [3.0207 Content coupling: good or bad?](#org4aff0bd)
+    6.  [3.0209 Control coupling: good or bad?](#orge99d5c2)
+    7.  [3.0211 Data coupling: good or bad?](#orga31439b)
+    8.  [3.0213 Hybrid coupling: good or bad?](#org0c0bf75)
+    9.  [3.0215 Pathological coupling: good or bad?](#org2dc8011)
+4.  [Week 4](#org2ec561c)
+    1.  [4.012 Week 4 reading](#orgad43a2b)
+    2.  [4.0201 Reasoning about scope](#org539d943)
+    3.  [4.0203 Reasoning about function parameters](#org35b1bc4)
+    4.  [4.0205 Replacing functions dynamically and const](#orga328bff)
 
 
 
-<a id="orgb97318f"></a>
+<a id="orgb488e29"></a>
 
 # Week 1
 
@@ -37,7 +42,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="org0886a65"></a>
+<a id="orgeeaaf4a"></a>
 
 ## Module Introduction
 
@@ -63,7 +68,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org4eb8735"></a>
+<a id="orga87a35e"></a>
 
 ## 1.0202 Reference points
 
@@ -84,7 +89,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org6cb1bd8"></a>
+<a id="orgdb1b9d0"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -97,7 +102,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="orgdcf6776"></a>
+<a id="org86b25b1"></a>
 
 ## 1.0204 What is a module?
 
@@ -120,7 +125,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="orga56421d"></a>
+<a id="org81f6097"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -146,7 +151,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org1293665"></a>
+<a id="org5f1a978"></a>
 
 ## 1.0208 Complexity references
 
@@ -161,7 +166,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="orge5a36c5"></a>
+<a id="orge679096"></a>
 
 # Week 2
 
@@ -173,7 +178,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="orgda6d5c8"></a>
+<a id="orgea9bcc5"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -186,7 +191,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org7a84149"></a>
+<a id="org235750d"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -237,7 +242,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org8307721"></a>
+<a id="org9859355"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -266,7 +271,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="org1a193b4"></a>
+<a id="org7430e7d"></a>
 
 # Week 3
 
@@ -280,7 +285,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="orgfada102"></a>
+<a id="orge5c2c34"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -289,7 +294,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org0dbfd2d"></a>
+<a id="orgb95440d"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -302,7 +307,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="org720ca88"></a>
+<a id="orgd2afa4e"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -325,7 +330,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org7e0fa1d"></a>
+<a id="org7061428"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -346,7 +351,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="orge308db2"></a>
+<a id="org4aff0bd"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -358,7 +363,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orgcd0b6c6"></a>
+<a id="orge99d5c2"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -383,7 +388,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="orgf91035d"></a>
+<a id="orga31439b"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -393,7 +398,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org41803c2"></a>
+<a id="org0c0bf75"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -412,7 +417,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org42f1a99"></a>
+<a id="org2dc8011"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -420,6 +425,216 @@ option, but in general Hybrid Coupling is bad.
 either affect the internal workings module 2, or it has a direct
 dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
+
+
+<a id="org2ec561c"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Explain the connection between common programming concepts and
+    module concepts.
+-   Use language features to improve module coupling and cohesion.
+-   Use programming techniques to improve module coupling and
+    cohesion.
+
+
+<a id="orgad43a2b"></a>
+
+## 4.012 Week 4 reading
+
+We will be looking at some JavaScript programming concepts this
+week. Here are some relevant links:
+
+-   w3schools [JavaScript scope](https://www.w3schools.com/js/js_scope.asp) (2020).
+-   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
+
+
+<a id="org539d943"></a>
+
+## 4.0201 Reasoning about scope
+
+Given the JavaScript code below, let&rsquo;s consider *scope* from the
+point of view of Module Coupling and Cohesion.
+
+    var x, y, z;
+    
+    function addition() {
+      z = x + y;
+    }
+    
+    console.log(z);
+    addition();
+    console.log(z);
+
+When we run this piece of code, we will see that all variables
+start with the value of `undefined`, which is expected. When we
+call `addition()`, `z` gets the value of `NaN`.
+
+From our definition of *Module*, this piece of code can be called a
+module. The `addition()` function is a little module inside our
+program which could, potentially, be part of a bigger module.
+
+In terms of coupling, the `addition()` function is coupled to the
+particular variables `x`, `y`, and `z`. Because all three variables
+are global, anything in the program can modify them. This is rather
+dangerous, because the data which `addition()` is coupled with, can
+be modified &ldquo;behind its back&rdquo;. If some other part of the program
+changes the value of `x` to a string and `y` to a number, then
+`addition()` won&rsquo;t work as expected.
+
+In terms of cohesion, `addition()` and the global variables are
+really strongly coupled but it&rsquo;s not disconnected from the rest. We
+want everything in `addition()` to be discrete and
+disconnected. The obvious fix is to pass `x` and `y` as parameters
+to `addition()` and have it evaluate a new value for `z`. This way,
+`addition()` won&rsquo;t depend on the global state.
+
+Therefore, we modify the code to the new version below:
+
+    var x, y, z;
+    
+    function addition(p1, p2) {
+      return p1 + p2;
+    }
+    
+    x = 10;
+    y = 11;
+    z = 12;
+    
+    console.log(z);
+    z = addition(x, y);
+    console.log(z);
+
+After this modification, we can see that `addition()` isn&rsquo;t
+depending on the rest of the program. As long as we pass sensible
+arguments, it contains everything it needs to produce a result
+that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
+
+
+<a id="org35b1bc4"></a>
+
+## 4.0203 Reasoning about function parameters
+
+Using the framework of module coupling and cohesion, let&rsquo;s look at
+function parameters and how to decide what parameters a function
+needs. The following code snippet is used to motivate the argument:
+
+    var game_state = {
+      'lives': 3,
+      'score': 125,
+      'level': 4
+    };
+    
+    function canHaveExtraLife(current_game_state) {
+      if (current_game_state.lives < 2 &&
+          current_game_state.level > 4) {
+        return true;
+      }
+    
+      return false;
+    }
+
+Because we&rsquo;re passing the entire `game_state` object as argument to
+`canHaveExtraLife`, we&rsquo;ve coupled that function to the structure of
+`game_state` object. What this means is that if we want to modify
+the internal representation of `game_state` we have to modify
+`canHaveExtraLife` as well.
+
+Instead, we should decouple the function from the internal
+structure of `game_state` and the easiest way to do that is to
+simply pass the number of lives and the current level as arguments
+to the function, instead of the entire `game_state` object.
+
+The modified code is shown below:
+
+    var game_state = {
+      'lives': 3,
+      'score': 125,
+      'level': 4
+    };
+    
+    function canHaveExtraLife(lives, level) {
+      if (lives < 2 && level > 4) {
+        return true;
+      }
+    
+      return false;
+    }
+
+Which can be further simplified to:
+
+    var game_state = {
+      'lives': 3,
+      'score': 125,
+      'level': 4
+    };
+    
+    function canHaveExtraLife(lives, level) {
+      return lives < 2 && level > 4;
+    }
+
+This function is now decoupled from the internal structure of
+`game_state`. It has now knowledge that it even exists. A caller
+only needs to know how to pass the number of lives and current
+level, regardless of where that data is held.
+
+
+<a id="orga328bff"></a>
+
+## 4.0205 Replacing functions dynamically and const
+
+The snippet below is an example of pathological coupling in
+JavaScript:
+
+    function addition(p1, p2) {
+      return p1 + p2;
+    }
+    
+    function pathos() {
+      addition = function(p1, p2) {
+        return p1 * p2;
+      }
+    }
+    
+    var z;
+    z = addition(10, 12);
+    console.log(z);
+    
+    pathos();
+    z = addition(10, 12);
+    console.log(z);
+
+We can see that `pathos()` re-implements `addition()` and modifies
+its behavior. It&rsquo;s a clear example of pathological coupling because
+`pathos()` modifies the inner workings of `addition()`.
+
+To prevent this sort of pathological coupling in JavaScript, we can
+make use of the `const` keyword to prevent a variable from being
+modified after its creation.
+
+    const addition = function(p1, p2) {
+      return p1 + p2;
+    }
+    
+    function pathos() {
+      addition = function(p1, p2) {
+        return p1 * p2;
+      }
+    }
+    
+    var z;
+    z = addition(10, 12);
+    console.log(z);
+    
+    pathos();
+    z = addition(10, 12);
+    console.log(z);
+
+When we try to run the modified code above, the JavaScript runtime
+will prevent `pathos()` from modifying `addition` and crash early
+on. This would force us to remove the pathological coupling.
 
 
 # Footnotes
