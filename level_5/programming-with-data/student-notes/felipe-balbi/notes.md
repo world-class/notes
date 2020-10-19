@@ -1,25 +1,30 @@
 
 # Table of Contents
 
-1.  [Week 1](#org8d13b23)
-    1.  [1.01 Welcome to the course](#org81ad04b)
-    2.  [1.06 Introduction to development environments and Python](#orgaa4bb00)
-    3.  [1.07 Getting to grips with Python](#org4904331)
-    4.  [1.103 Jupyter code cells](#orgeeb087e)
-    5.  [1.105 Jupyter Notebook basics](#orgb7d7420)
-    6.  [1.106 Using Python as a Calculator](#org437fca3)
-2.  [Week 3](#org6f1d692)
-    1.  [2.01 Becoming familiar with Python](#orgd60af37)
-    2.  [2.03 Built-in types in Python](#org1a93f46)
-    3.  [2.05 Mapping operators to functions](#org855ab68)
-    4.  [2.104 Introduction to conditional logic](#org3d1ca42)
-    5.  [2.105 Functions and reuse](#org820c5c8)
-    6.  [2.201 Conditions and logic](#org1f1b5ff)
-    7.  [2.202 More conditions](#orgf602c97)
+1.  [Week 1](#orga5c3868)
+    1.  [1.01 Welcome to the course](#orgf08617f)
+    2.  [1.06 Introduction to development environments and Python](#org43fbab4)
+    3.  [1.07 Getting to grips with Python](#orgb59776f)
+    4.  [1.103 Jupyter code cells](#org5ed21e6)
+    5.  [1.105 Jupyter Notebook basics](#org49cfbcf)
+    6.  [1.106 Using Python as a Calculator](#orgd10a82f)
+2.  [Week 3](#orgc44afad)
+    1.  [2.01 Becoming familiar with Python](#orgec8cb2f)
+    2.  [2.03 Built-in types in Python](#org0e90e47)
+    3.  [2.05 Mapping operators to functions](#org8e7c132)
+    4.  [2.104 Introduction to conditional logic](#orgb823f3e)
+    5.  [2.105 Functions and reuse](#orga2b3dc5)
+    6.  [2.201 Conditions and logic](#org20eb597)
+    7.  [2.202 More conditions](#org66fe31b)
+3.  [Week 4](#orgbc39455)
+    1.  [2.301 Introduction to lists](#orgf3137be)
+    2.  [2.302 Lists](#orgdf09438)
+    3.  [2.305 Loops and iteration](#org68c0978)
+    4.  [2.401 Libraries and dependencies](#orgf2db4c0)
 
 
 
-<a id="org8d13b23"></a>
+<a id="orga5c3868"></a>
 
 # Week 1
 
@@ -31,7 +36,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="org81ad04b"></a>
+<a id="orgf08617f"></a>
 
 ## 1.01 Welcome to the course
 
@@ -51,7 +56,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="orgaa4bb00"></a>
+<a id="org43fbab4"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -64,7 +69,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="org4904331"></a>
+<a id="orgb59776f"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -79,7 +84,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="orgeeb087e"></a>
+<a id="org5ed21e6"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -95,7 +100,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="orgb7d7420"></a>
+<a id="org49cfbcf"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -106,7 +111,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="org437fca3"></a>
+<a id="orgd10a82f"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -115,7 +120,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="org6f1d692"></a>
+<a id="orgc44afad"></a>
 
 # Week 3
 
@@ -129,7 +134,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgd60af37"></a>
+<a id="orgec8cb2f"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -265,7 +270,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="org1a93f46"></a>
+<a id="org0e90e47"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -274,7 +279,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org855ab68"></a>
+<a id="org8e7c132"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -284,7 +289,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="org3d1ca42"></a>
+<a id="orgb823f3e"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -293,7 +298,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="org820c5c8"></a>
+<a id="orga2b3dc5"></a>
 
 ## 2.105 Functions and reuse
 
@@ -317,7 +322,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org1f1b5ff"></a>
+<a id="org20eb597"></a>
 
 ## 2.201 Conditions and logic
 
@@ -333,7 +338,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="orgf602c97"></a>
+<a id="org66fe31b"></a>
 
 ## 2.202 More conditions
 
@@ -355,4 +360,124 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 8. Compound statements.
 -   Python [4.2. for statements](https://docs.python.org/3.5/tutorial/controlflow.html#for-statements), Python language documentation
     – 4. Built-in types.
+
+
+<a id="orgbc39455"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Import Python, NumPy and SciPy modules, and use them to compute
+    basic statistics.
+-   Use logic and iteration to fill arrays with data, sum array
+    elements and locate array elements with certain characteristics.
+-   Identify and use correct syntax and explain the purpose of
+    built-in variable types int, float and list.
+
+
+<a id="orgf3137be"></a>
+
+## 2.301 Introduction to lists
+
+Lists are akin to *arrays* in other languages. It&rsquo;s a method for
+storing multiple values in a single variable. We can create a list
+by placing comma separate values inside square brackets `[]`. Like
+shown below:
+
+    car_emissions = [1.5, 1.26, 2.6]
+    print(car_emissions)
+
+We can access individual elements of the list by indexing the
+variable. Note that indices start at 0, not 1. So the first element
+would be accessed like shown below:
+
+    print(car_emissions[0])
+
+For other values, we just change the index. An interest peculiarity
+of python lists is that it works like a *ring*; that is to say that
+using negative indices allows us to walk backwards. In other words,
+the last element of a list is always at index `-1`:
+
+    print(car_emissions[-1])
+
+We don&rsquo;t have to always index the list using a literal number. We
+can use a variable as well:
+
+    index = 1
+    print(car_emissions[index])
+
+We can easily compute the length of a list using the `len()`
+method:
+
+    print(len(car_emissions))
+
+Lists can also be indexed by ranges of numbers. If we want to print
+elements 0 through 2, we can use:
+
+    print(len(car_emissions[0:2]))
+
+As we can see, the interval of the range is not inclusive of the
+final value. This means that the range `0:1` will only print the
+0<sup>th</sup> element.
+
+
+<a id="orgdf09438"></a>
+
+## 2.302 Lists
+
+Click on the link below to read through the documentation on lists:
+
+-   Python [4.6.4. Lists](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#lists), Python language documentation – 4. Built-in
+    types.
+
+
+<a id="org68c0978"></a>
+
+## 2.305 Loops and iteration
+
+Iteration allows us to work through a series of objects. Python has
+different looping constructs to help us iterate through several
+objects. The first example is the `while` loop:
+
+    i = 1
+    while i <= 10:
+        print(i)
+        i += 1
+
+We can also use a `for` loop which works rather like `while` loop
+above:
+
+    for i in range(10):
+        print(i)
+        i += 1
+
+In Python, there are other ways to work through a list. For
+example:
+
+    teams = ["red", "blue", "green"]
+    
+    for x in teams:
+        print(x)
+
+
+<a id="orgf2db4c0"></a>
+
+## 2.401 Libraries and dependencies
+
+Python has a rich set of libraries available for our use. But how
+do we use them? We use the `import` keyword. To demonstrate, we
+import `NumPy` and `scipy`, two important libraries for data
+crunching.
+
+After importing the library we can start using functions from the
+library, as shown below:
+
+    import numpy as np
+    from scipy import stats
+    
+    x = np.array([1, 2, 3, 4, 5, 6])
+    
+    np.mean(x)
+    stats.describe(x)
 
