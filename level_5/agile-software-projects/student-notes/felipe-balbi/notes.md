@@ -1,23 +1,25 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc4f1bf5)
-    1.  [1.01 Module introduction](#orgd255ea3)
-    2.  [1.07 The basics of interaction design](#orgc5870e4)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org0ae13ac)
-2.  [Week 2](#org9bedb84)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org0787548)
-    2.  [1.305 Version control systems](#org461a091)
-    3.  [1.401 The process of interaction design](#org9517ecb)
-3.  [Week 3](#org68ccd76)
-    1.  [2.01 Introduction to requirements and specification](#org4e438c6)
-    2.  [2.101 Purpose of gathering requirements](#orgdf118bc)
-    3.  [2.102 Introduction to requirements gathering](#orgcc9b7f7)
-    4.  [2.201 Modelling requirements](#orgd2d3d63)
+1.  [Week 1](#org1ca3280)
+    1.  [1.01 Module introduction](#org64ecd3d)
+    2.  [1.07 The basics of interaction design](#org67f451d)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org5abd346)
+2.  [Week 2](#org36bfdab)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#orga55659b)
+    2.  [1.305 Version control systems](#org786f881)
+    3.  [1.401 The process of interaction design](#org421e16f)
+3.  [Week 3](#org74e9aec)
+    1.  [2.01 Introduction to requirements and specification](#orgfdc9e0c)
+    2.  [2.101 Purpose of gathering requirements](#orgc03b760)
+    3.  [2.102 Introduction to requirements gathering](#org360bfb5)
+    4.  [2.201 Modelling requirements](#org678ed9a)
+4.  [Week 4](#org1957a25)
+    1.  [2.301 User-centred design](#org866bd70)
 
 
 
-<a id="orgc4f1bf5"></a>
+<a id="org1ca3280"></a>
 
 # Week 1
 
@@ -28,7 +30,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="orgd255ea3"></a>
+<a id="org64ecd3d"></a>
 
 ## 1.01 Module introduction
 
@@ -36,7 +38,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="orgc5870e4"></a>
+<a id="org67f451d"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -50,7 +52,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org0ae13ac"></a>
+<a id="org5abd346"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -96,7 +98,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="org9bedb84"></a>
+<a id="org36bfdab"></a>
 
 # Week 2
 
@@ -107,7 +109,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org0787548"></a>
+<a id="orga55659b"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -365,7 +367,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org461a091"></a>
+<a id="org786f881"></a>
 
 ## 1.305 Version control systems
 
@@ -376,7 +378,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="org9517ecb"></a>
+<a id="org421e16f"></a>
 
 ## 1.401 The process of interaction design
 
@@ -385,7 +387,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="org68ccd76"></a>
+<a id="org74e9aec"></a>
 
 # Week 3
 
@@ -397,7 +399,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org4e438c6"></a>
+<a id="orgfdc9e0c"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -437,7 +439,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="orgdf118bc"></a>
+<a id="orgc03b760"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -460,7 +462,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="orgcc9b7f7"></a>
+<a id="org360bfb5"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -469,7 +471,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="orgd2d3d63"></a>
+<a id="org678ed9a"></a>
 
 ## 2.201 Modelling requirements
 
@@ -487,4 +489,94 @@ objects. They capture the classes&rsquo; attributes and/or operations.
 These are very good for defining relationships between objects in a
 system and some explicit structure. They can also describe
 depedencies and abstraction.
+
+
+<a id="org1957a25"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Consider the wider implications of building a system for purpose.
+-   Explore formal specifications from both a functional and technical
+    perspective.
+-   Identify key stakeholders, challenges, risks and innovations.
+
+
+<a id="org866bd70"></a>
+
+## 2.301 User-centred design
+
+[User-Centered Design or UCD](https://en.wikipedia.org/wiki/User-centered_design) is a framework of processes where
+usability goals, user characteristics, environment, tasks and
+workflow of a product, service or process are given attention at
+each stage of the design process. The main concern is with what a
+given user wants to achieve with our system and the means by which
+they intend to achieve that.
+
+UCD is a cyclic process. We don&rsquo;t specify some requirement and
+carry on with development without thought or care. Instead, our aim
+is to constantly refine our designs and developments in relation to
+feedback from the users; including processes such as regular
+stakeholder meetings, testing and feedback.
+
+There are a number of stages involved in User-Centered Design
+process, we may start by identifying a want or need that a user
+has. Once we&rsquo;re happy with our ideas, we can begin designing
+through a range of fidelities from sketches to interactive
+prototypes.
+
+What we&rsquo;re really doing here is a series of iterative steps. Based
+on user feedback, we refine our design also considering the broader
+implications in terms of universal design and in terms of
+accessible design.
+
+During this process, there are some common mistakes we want to
+avoid:
+
+-   **Wrong Assumptions:** we can&rsquo;t make assumptions about what our
+    users want, need or what their experience might be. Empirical
+    methods will help guide the work and provide quality metrics for
+    measuring success. *Test early and test often*
+-   **Planning too far into the future:** we are unable to consider
+    everything from the start. Instead, we can follow a process that
+    allows us to adapt to changes in our ecosystem.
+
+We should try to begin with robust requirements:
+
+-   Context of use
+    -   Intenttions, goals
+    -   Stakeholders
+    -   Market forces
+-   Constraints and mitigating factors
+    -   Mandated constraints
+    -   Conventions and formal processes
+    -   Knowns and assumptions
+-   Scoping
+    -   The scope of the work
+    -   The scope of the product
+    -   Functional and data requirements
+    -   Minimum viable product
+
+For each of our design choices, we should consider its impact in
+terms of:
+
+-   Aesthetics
+-   Usability and accessiblity
+-   Performance
+-   Operational
+-   Maintainability and support
+-   Security
+-   Cultural
+-   Political
+-   Legal
+-   Ethical
+-   Social
+
+Projects may fail and we should remain conscious of project
+pitfalls:
+
+-   Risks
+-   Costs
+-   Documentation and training
 
