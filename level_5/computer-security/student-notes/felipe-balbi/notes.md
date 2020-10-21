@@ -1,34 +1,38 @@
 
 # Table of Contents
 
-1.  [Week 1](#org94ad050)
-    1.  [Reading: Ethics in information security](#org2b67a8d)
-    2.  [Defining computer security](#org165fcd8)
-    3.  [Types of malicious software 1](#orgbe0ccbd)
-        1.  [Viruses](#org1188297)
-        2.  [Worms](#orgcc6e9ad)
-        3.  [Adware](#org360245b)
-        4.  [Trojans](#org1cb26ee)
-        5.  [Spyware](#org78eee61)
-    4.  [Types of malicious software 2](#orga6df6ed)
-2.  [Week 2](#org600c1f7)
-    1.  [Malware analysis and techniques](#org36d2322)
-    2.  [Malware analysis 2](#orgf302578)
-    3.  [Ethics](#orge895d05)
-    4.  [Passwords](#org38ba6b4)
-    5.  [Social Engineering](#orgf623549)
-3.  [Week 3](#org70aa323)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org7c3c1b1)
-    2.  [Paper about CIA](#orgb769b33)
-    3.  [The attack surface and the denial of service attack](#org39a436a)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#orgda81fe8)
-    5.  [Mirai GitHub and Research Paper](#orgae14d6d)
-    6.  [Wireless attacks: WiFi attack vectors](#org9d6c330)
-    7.  [Wireless Networking Security](#orgcff2238)
+1.  [Week 1](#orgab62521)
+    1.  [Reading: Ethics in information security](#org78a4177)
+    2.  [Defining computer security](#orgb510a13)
+    3.  [Types of malicious software 1](#org9519d97)
+        1.  [Viruses](#org7ffd77c)
+        2.  [Worms](#org9023306)
+        3.  [Adware](#org573cf89)
+        4.  [Trojans](#orgd84740d)
+        5.  [Spyware](#orgb6bd287)
+    4.  [Types of malicious software 2](#org3728f9e)
+2.  [Week 2](#orgfa79290)
+    1.  [Malware analysis and techniques](#org67358e9)
+    2.  [Malware analysis 2](#org0ce831d)
+    3.  [Ethics](#org8dd7ca0)
+    4.  [Passwords](#org777284d)
+    5.  [Social Engineering](#org2d73e84)
+3.  [Week 3](#org947d03e)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#orgdc46228)
+    2.  [Paper about CIA](#org57b2606)
+    3.  [The attack surface and the denial of service attack](#org3a30a1e)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#orgdb70f4e)
+    5.  [Mirai GitHub and Research Paper](#org48bf728)
+    6.  [Wireless attacks: WiFi attack vectors](#org217ffca)
+    7.  [Wireless Networking Security](#org93b9d6a)
+4.  [Week 4](#orgdf769e3)
+    1.  [Firewalls – our first line of defence](#orgca59662)
+    2.  [Intrusion detection systems (IDS)](#org64bf4f3)
+    3.  [Intrusion Detection Systems](#orgafcbacb)
 
 
 
-<a id="org94ad050"></a>
+<a id="orgab62521"></a>
 
 # Week 1
 
@@ -41,7 +45,7 @@ Key Concepts
     significance.
 
 
-<a id="org2b67a8d"></a>
+<a id="org78a4177"></a>
 
 ## Reading: Ethics in information security
 
@@ -54,7 +58,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="org165fcd8"></a>
+<a id="orgb510a13"></a>
 
 ## Defining computer security
 
@@ -102,7 +106,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="orgbe0ccbd"></a>
+<a id="org9519d97"></a>
 
 ## Types of malicious software 1
 
@@ -111,7 +115,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="org1188297"></a>
+<a id="org7ffd77c"></a>
 
 ### Viruses
 
@@ -133,7 +137,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="orgcc6e9ad"></a>
+<a id="org9023306"></a>
 
 ### Worms
 
@@ -151,7 +155,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org360245b"></a>
+<a id="org573cf89"></a>
 
 ### Adware
 
@@ -160,7 +164,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="org1cb26ee"></a>
+<a id="orgd84740d"></a>
 
 ### Trojans
 
@@ -179,7 +183,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="org78eee61"></a>
+<a id="orgb6bd287"></a>
 
 ### Spyware
 
@@ -192,7 +196,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="orga6df6ed"></a>
+<a id="org3728f9e"></a>
 
 ## Types of malicious software 2
 
@@ -235,7 +239,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="org600c1f7"></a>
+<a id="orgfa79290"></a>
 
 # Week 2
 
@@ -246,7 +250,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org36d2322"></a>
+<a id="org67358e9"></a>
 
 ## Malware analysis and techniques
 
@@ -288,7 +292,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="orgf302578"></a>
+<a id="org0ce831d"></a>
 
 ## Malware analysis 2
 
@@ -326,7 +330,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="orge895d05"></a>
+<a id="org8dd7ca0"></a>
 
 ## Ethics
 
@@ -370,7 +374,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org38ba6b4"></a>
+<a id="org777284d"></a>
 
 ## Passwords
 
@@ -405,7 +409,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="orgf623549"></a>
+<a id="org2d73e84"></a>
 
 ## Social Engineering
 
@@ -429,7 +433,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org70aa323"></a>
+<a id="org947d03e"></a>
 
 # Week 3
 
@@ -442,7 +446,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="org7c3c1b1"></a>
+<a id="orgdc46228"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -466,7 +470,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="orgb769b33"></a>
+<a id="org57b2606"></a>
 
 ## Paper about CIA
 
@@ -478,7 +482,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="org39a436a"></a>
+<a id="org3a30a1e"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -544,7 +548,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="orgda81fe8"></a>
+<a id="orgdb70f4e"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -569,7 +573,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="orgae14d6d"></a>
+<a id="org48bf728"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -594,7 +598,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org9d6c330"></a>
+<a id="org217ffca"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -639,7 +643,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="orgcff2238"></a>
+<a id="org93b9d6a"></a>
 
 ## Wireless Networking Security
 
@@ -664,4 +668,95 @@ networks. Some examples:
     K. Lounis and M. Zulkernine, [Attacks and Defenses in Short-Range
     Wireless Technologies for IoT](https://ieeexplore.ieee.org/abstract/document/9090905), in IEEE Access, vol. 8,
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
+
+
+<a id="orgdf769e3"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Describe three types of firewall and reason about the appropriate
+    type of firewall to use for a given situation.
+-   Explain how intrusion detection systems work and give examples of
+    historical and contemporary systems.
+
+
+<a id="orgca59662"></a>
+
+## Firewalls – our first line of defence
+
+-   **Stateless Firewalls:** A type of Access Control Lists (or
+    ACL). It checks all traffic against a set of rules;
+-   **stateful Firewalls:** More efficient than Stateless
+    Firewalls. Once a packet session is allowed, no filters need to
+    be applied
+-   **Proxy Firewall:** Carries out external network access.
+
+
+<a id="org64bf4f3"></a>
+
+## Intrusion detection systems (IDS)
+
+An Intrusion Detection System, or IDS, is a system which runs on a
+network and aims at detecting when a intruder has compromised the
+network. The reason such systems are used is because it&rsquo;s virtually
+impossible to make any network perfectly secure.
+
+/&ldquo;Most security experts agree that a completely secure system is
+impossible to achieve, so we must stay alert for
+attacks.&rdquo;/. (Kemmerer and Vigna, 2002.)
+
+The IDS is about staying alert for attacks and detecting them as
+soon as possible.
+
+When it comes to implementation of IDSs, Dorothy Denning state, in
+1987, that &ldquo;the model is based on the hypothesis that exploitation
+of a system&rsquo;s vulnerabilities involves abnormal use of the system;
+therefore, security violations could be detected from abnormal
+patterns of system usage&rdquo;. What this means is that an intruder is
+likely to exhibit abnormal usage patterns on the network.
+
+If one can detect such abnormal usage patterns, then we can detect
+intruders.
+
+While looking for intruders, we want to avoid false positives (a
+regular user classified as an intruder) or false negatives (an
+intruder classified as a regular user).
+
+We also want our IDS to be fast and come to a conclusion using
+minimal resources. All this while analyzing traffic over the entire
+network. Modern systems using Docker containers can have a complex
+network structure and our IDS still needs to be fast while
+analyzing traffic of complex networking schemes.
+
+Recent IDSs employ state-of-the-art Machine Learning and AI
+algorithms for improved pattern recognition. Deep-learning is used
+in many recent research papers in computer security related to IDS.
+
+When developing state-of-the-art IDS using Deep Learning, we need a
+dataset to train the neural network in order to verify correctness
+of the system. A common dataset to use for this case is the [KDD99
+Dataset](https://www.unb.ca/cic/datasets/nsl.html).
+
+
+<a id="orgafcbacb"></a>
+
+## Intrusion Detection Systems
+
+-   D. E. Denning, [An Intrusion-Detection Model](https://ieeexplore.ieee.org/document/1702202), in IEEE
+    Transactions on Software Engineering, vol. SE-13, no. 2,
+    pp. 222-232, Feb. 1987, doi: 10.1109/TSE.1987.232894.
+
+-   R. A. Kemmerer and G. Vigna, [Intrusion detection: a brief history
+    and overview](https://ieeexplore.ieee.org/document/1012428), in Computer, vol. 35, no. 4, pp. supl27-supl30,
+    April 2002, doi: 10.1109/MC.2002.1012428.
+
+-   S. Wang, C. Xia and T. Wang, [A Novel Intrusion Detector Based on
+    Deep Learning Hybrid Methods](https://ieeexplore.ieee.org/document/8819467), 2019 IEEE 5th Intl Conference on
+    Big Data Security on Cloud (BigDataSecurity), IEEE Intl
+    Conference on High Performance and Smart Computing, (HPSC) and
+    IEEE Intl Conference on Intelligent Data and Security (IDS),
+    Washington, DC, USA, 2019, pp. 300-305, doi:
+    10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
 
