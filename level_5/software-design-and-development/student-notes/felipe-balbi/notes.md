@@ -1,36 +1,40 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgb488e29)
-    1.  [Module Introduction](#orgeeaaf4a)
-    2.  [1.0202 Reference points](#orga87a35e)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgdb1b9d0)
-    4.  [1.0204 What is a module?](#org86b25b1)
-    5.  [1.0206 What is module complexity?](#org81f6097)
-    6.  [1.0208 Complexity references](#org5f1a978)
-2.  [Week 2](#orge679096)
-    1.  [2.0102 Week 2 reading](#orgea9bcc5)
-    2.  [2.0201 What is module cohesion?](#org235750d)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org9859355)
-3.  [Week 3](#org7430e7d)
-    1.  [3.0102 Week 3 reading](#orge5c2c34)
-    2.  [3.0201 What is module coupling?](#orgb95440d)
-    3.  [3.0203 Different types of coupling: good or bad?](#orgd2afa4e)
-    4.  [3.0205 Common environment coupling: good or bad?](#org7061428)
-    5.  [3.0207 Content coupling: good or bad?](#org4aff0bd)
-    6.  [3.0209 Control coupling: good or bad?](#orge99d5c2)
-    7.  [3.0211 Data coupling: good or bad?](#orga31439b)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org0c0bf75)
-    9.  [3.0215 Pathological coupling: good or bad?](#org2dc8011)
-4.  [Week 4](#org2ec561c)
-    1.  [4.012 Week 4 reading](#orgad43a2b)
-    2.  [4.0201 Reasoning about scope](#org539d943)
-    3.  [4.0203 Reasoning about function parameters](#org35b1bc4)
-    4.  [4.0205 Replacing functions dynamically and const](#orga328bff)
+1.  [Week 1](#org602d31c)
+    1.  [Module Introduction](#orgbff3136)
+    2.  [1.0202 Reference points](#org0386961)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#org354cc58)
+    4.  [1.0204 What is a module?](#org0e8dc87)
+    5.  [1.0206 What is module complexity?](#org30f86a2)
+    6.  [1.0208 Complexity references](#org22c175a)
+2.  [Week 2](#org7eee551)
+    1.  [2.0102 Week 2 reading](#org8a4c5b3)
+    2.  [2.0201 What is module cohesion?](#org1c69888)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#orge120b01)
+3.  [Week 3](#orgdb72b8e)
+    1.  [3.0102 Week 3 reading](#org7675f83)
+    2.  [3.0201 What is module coupling?](#org3e90a72)
+    3.  [3.0203 Different types of coupling: good or bad?](#orge0b552f)
+    4.  [3.0205 Common environment coupling: good or bad?](#org94ce7f6)
+    5.  [3.0207 Content coupling: good or bad?](#org6803722)
+    6.  [3.0209 Control coupling: good or bad?](#org8b20de2)
+    7.  [3.0211 Data coupling: good or bad?](#org62e74b8)
+    8.  [3.0213 Hybrid coupling: good or bad?](#org60e2ffb)
+    9.  [3.0215 Pathological coupling: good or bad?](#org69df3a3)
+4.  [Week 4](#org9f5e138)
+    1.  [4.012 Week 4 reading](#org5cec954)
+    2.  [4.0201 Reasoning about scope](#orgc9a062a)
+    3.  [4.0203 Reasoning about function parameters](#orga70fa7c)
+    4.  [4.0205 Replacing functions dynamically and const](#orgb1f89c1)
+5.  [Week 5](#org355eeea)
+    1.  [5.0002 Topic reading](#orga6d5e02)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#org50eecb8)
+    3.  [5.0113 What to test? An overview](#org434cfe2)
 
 
 
-<a id="orgb488e29"></a>
+<a id="org602d31c"></a>
 
 # Week 1
 
@@ -42,7 +46,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="orgeeaaf4a"></a>
+<a id="orgbff3136"></a>
 
 ## Module Introduction
 
@@ -68,7 +72,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="orga87a35e"></a>
+<a id="org0386961"></a>
 
 ## 1.0202 Reference points
 
@@ -89,7 +93,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="orgdb1b9d0"></a>
+<a id="org354cc58"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -102,7 +106,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org86b25b1"></a>
+<a id="org0e8dc87"></a>
 
 ## 1.0204 What is a module?
 
@@ -125,7 +129,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="org81f6097"></a>
+<a id="org30f86a2"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -151,7 +155,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org5f1a978"></a>
+<a id="org22c175a"></a>
 
 ## 1.0208 Complexity references
 
@@ -166,7 +170,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="orge679096"></a>
+<a id="org7eee551"></a>
 
 # Week 2
 
@@ -178,7 +182,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="orgea9bcc5"></a>
+<a id="org8a4c5b3"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -191,7 +195,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org235750d"></a>
+<a id="org1c69888"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -242,7 +246,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org9859355"></a>
+<a id="orge120b01"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -271,7 +275,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="org7430e7d"></a>
+<a id="orgdb72b8e"></a>
 
 # Week 3
 
@@ -285,7 +289,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="orge5c2c34"></a>
+<a id="org7675f83"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -294,7 +298,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="orgb95440d"></a>
+<a id="org3e90a72"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -307,7 +311,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="orgd2afa4e"></a>
+<a id="orge0b552f"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -330,7 +334,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org7061428"></a>
+<a id="org94ce7f6"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -351,7 +355,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="org4aff0bd"></a>
+<a id="org6803722"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -363,7 +367,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orge99d5c2"></a>
+<a id="org8b20de2"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -388,7 +392,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="orga31439b"></a>
+<a id="org62e74b8"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -398,7 +402,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org0c0bf75"></a>
+<a id="org60e2ffb"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -417,7 +421,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org2dc8011"></a>
+<a id="org69df3a3"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -427,7 +431,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org2ec561c"></a>
+<a id="org9f5e138"></a>
 
 # Week 4
 
@@ -440,7 +444,7 @@ Key Concepts
     cohesion.
 
 
-<a id="orgad43a2b"></a>
+<a id="org5cec954"></a>
 
 ## 4.012 Week 4 reading
 
@@ -451,7 +455,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="org539d943"></a>
+<a id="orgc9a062a"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -513,7 +517,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="org35b1bc4"></a>
+<a id="orga70fa7c"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -581,7 +585,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="orga328bff"></a>
+<a id="orgb1f89c1"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -635,6 +639,80 @@ modified after its creation.
 When we try to run the modified code above, the JavaScript runtime
 will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
+
+
+<a id="org355eeea"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Define test-driven development
+-   Identify the processes involved in test-driven development
+-   Critically analyse examples of test-driven development in source
+    code repositories
+
+
+<a id="orga6d5e02"></a>
+
+## 5.0002 Topic reading
+
+-   Martin, R.C. [Professionalism and test-driven development](https://ieeexplore.ieee.org/document/4163026), IEEE
+    Software 24(3) 2007, pp.32–36.
+
+-   [IEEE Software 24(3) 2007](https://ieeexplore.ieee.org/document/4163026)
+
+-   Segura, S. and Z.Q. Zhou, [Metamorphic testing 20 years later: a
+    hands-on introduction](https://ieeexplore.ieee.org/document/8449651), 2018 IEEE/ACM 40th International
+    Conference on Software Engineering: Companion (ICSE-Companion)
+    2018, pp.538–539
+
+-   Borle, N., M. Feghhi, E. Stroulia, R. Grenier and A. Hindle
+    [[Journal First] Analyzing the effects of test driven development
+    in GitHub](https://ieeexplore.ieee.org/document/8453184), 2018 IEEE/ACM 40th International Conference on
+    Software Engineering (ICSE) 2018, pp.1062–1062.
+
+
+<a id="org50eecb8"></a>
+
+## 5.0104 The Three Laws according to Uncle Bob
+
+Test-Driven Development is governed by the following three laws:
+
+1.  You may not write production code unless you have first written
+    a failing unit test
+
+2.  You may not write more of a unit test than is sufficient to
+    fail
+
+3.  You may not write more production code than is sufficient to
+    make the failing unit test pass
+
+As an added challenge: we have to complete this process in 2
+minutes. The idea is to have the tests guide the development
+process in short iterative bursts.
+
+
+<a id="org434cfe2"></a>
+
+## 5.0113 What to test? An overview
+
+-   **Interface Testing:** Tests that the function receives the
+    arguments it should receive and returns a value of the expected
+    kind
+
+-   **Exercising Data Structures:** Verifies that the module under test
+    utilizes the required data structures correctly
+
+-   **Boundary Conditions:** Testing boundary conditions of functions;
+    i.e. what happens if we send an unexpected value?
+
+-   **Execution Paths:** In a module that has multiple paths of
+    executions (conditionals), we want to make sure every path is
+    exercised
+
+-   **Error Handling:** Make sure that errors are properly identified
+    and handled to avoid crashes
 
 
 # Footnotes
