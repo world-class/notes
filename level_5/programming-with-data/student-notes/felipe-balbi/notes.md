@@ -1,30 +1,37 @@
 
 # Table of Contents
 
-1.  [Week 1](#orga5c3868)
-    1.  [1.01 Welcome to the course](#orgf08617f)
-    2.  [1.06 Introduction to development environments and Python](#org43fbab4)
-    3.  [1.07 Getting to grips with Python](#orgb59776f)
-    4.  [1.103 Jupyter code cells](#org5ed21e6)
-    5.  [1.105 Jupyter Notebook basics](#org49cfbcf)
-    6.  [1.106 Using Python as a Calculator](#orgd10a82f)
-2.  [Week 3](#orgc44afad)
-    1.  [2.01 Becoming familiar with Python](#orgec8cb2f)
-    2.  [2.03 Built-in types in Python](#org0e90e47)
-    3.  [2.05 Mapping operators to functions](#org8e7c132)
-    4.  [2.104 Introduction to conditional logic](#orgb823f3e)
-    5.  [2.105 Functions and reuse](#orga2b3dc5)
-    6.  [2.201 Conditions and logic](#org20eb597)
-    7.  [2.202 More conditions](#org66fe31b)
-3.  [Week 4](#orgbc39455)
-    1.  [2.301 Introduction to lists](#orgf3137be)
-    2.  [2.302 Lists](#orgdf09438)
-    3.  [2.305 Loops and iteration](#org68c0978)
-    4.  [2.401 Libraries and dependencies](#orgf2db4c0)
+1.  [Week 1](#orgf81ced6)
+    1.  [1.01 Welcome to the course](#org2948bd1)
+    2.  [1.06 Introduction to development environments and Python](#orge1b1007)
+    3.  [1.07 Getting to grips with Python](#org99ae315)
+    4.  [1.103 Jupyter code cells](#org03e24fe)
+    5.  [1.105 Jupyter Notebook basics](#org68ca2e2)
+    6.  [1.106 Using Python as a Calculator](#org4e6ba06)
+2.  [Week 3](#orgf316d77)
+    1.  [2.01 Becoming familiar with Python](#org87e25d6)
+    2.  [2.03 Built-in types in Python](#orgfdd053a)
+    3.  [2.05 Mapping operators to functions](#org03de508)
+    4.  [2.104 Introduction to conditional logic](#org5abdcc1)
+    5.  [2.105 Functions and reuse](#org05c8f95)
+    6.  [2.201 Conditions and logic](#org917ea8c)
+    7.  [2.202 More conditions](#org4afb0a8)
+3.  [Week 4](#org444b506)
+    1.  [2.301 Introduction to lists](#org11fe760)
+    2.  [2.302 Lists](#org3f6adf3)
+    3.  [2.305 Loops and iteration](#orgbf69392)
+    4.  [2.401 Libraries and dependencies](#orgd758480)
+4.  [Week 5](#org3fad00a)
+    1.  [3.01 Introduction to data](#orgc7f8d21)
+    2.  [3.02 Data structures and data types](#org474d785)
+    3.  [3.04 Data handling](#orgc2dca00)
+    4.  [3.05 Working with text-based data](#org5be5e46)
+    5.  [3.06 counting words the verbose way](#org91a02db)
+    6.  [3.07 Programming activity: reading files](#org83b54d6)
 
 
 
-<a id="orga5c3868"></a>
+<a id="orgf81ced6"></a>
 
 # Week 1
 
@@ -36,7 +43,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="orgf08617f"></a>
+<a id="org2948bd1"></a>
 
 ## 1.01 Welcome to the course
 
@@ -56,7 +63,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="org43fbab4"></a>
+<a id="orge1b1007"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -69,7 +76,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="orgb59776f"></a>
+<a id="org99ae315"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -84,7 +91,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="org5ed21e6"></a>
+<a id="org03e24fe"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -100,7 +107,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="org49cfbcf"></a>
+<a id="org68ca2e2"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -111,7 +118,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="orgd10a82f"></a>
+<a id="org4e6ba06"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -120,7 +127,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="orgc44afad"></a>
+<a id="orgf316d77"></a>
 
 # Week 3
 
@@ -134,7 +141,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgec8cb2f"></a>
+<a id="org87e25d6"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -270,7 +277,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="org0e90e47"></a>
+<a id="orgfdd053a"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -279,7 +286,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org8e7c132"></a>
+<a id="org03de508"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -289,7 +296,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="orgb823f3e"></a>
+<a id="org5abdcc1"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -298,7 +305,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="orga2b3dc5"></a>
+<a id="org05c8f95"></a>
 
 ## 2.105 Functions and reuse
 
@@ -322,7 +329,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org20eb597"></a>
+<a id="org917ea8c"></a>
 
 ## 2.201 Conditions and logic
 
@@ -338,7 +345,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="org66fe31b"></a>
+<a id="org4afb0a8"></a>
 
 ## 2.202 More conditions
 
@@ -362,7 +369,7 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 4. Built-in types.
 
 
-<a id="orgbc39455"></a>
+<a id="org444b506"></a>
 
 # Week 4
 
@@ -376,7 +383,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgf3137be"></a>
+<a id="org11fe760"></a>
 
 ## 2.301 Introduction to lists
 
@@ -422,7 +429,7 @@ final value. This means that the range `0:1` will only print the
 0<sup>th</sup> element.
 
 
-<a id="orgdf09438"></a>
+<a id="org3f6adf3"></a>
 
 ## 2.302 Lists
 
@@ -432,7 +439,7 @@ Click on the link below to read through the documentation on lists:
     types.
 
 
-<a id="org68c0978"></a>
+<a id="orgbf69392"></a>
 
 ## 2.305 Loops and iteration
 
@@ -461,7 +468,7 @@ example:
         print(x)
 
 
-<a id="orgf2db4c0"></a>
+<a id="orgd758480"></a>
 
 ## 2.401 Libraries and dependencies
 
@@ -480,4 +487,153 @@ library, as shown below:
     
     np.mean(x)
     stats.describe(x)
+
+
+<a id="org3fad00a"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Explain the difference between lists, dicts and NumPy arrays, and
+    select appropriate data structures for particular examples of
+    data.
+-   Write Python programs that can process and analyse text data in
+    lists, dicts and NumPy arrays.
+-   Implement linguistic analysis algorithms that can compute word
+    distributions, distances between distributions and a distance
+    matrix.
+
+
+<a id="orgc7f8d21"></a>
+
+## 3.01 Introduction to data
+
+Python has a rich set of data types available for our use. To name
+a few:
+
+-   **String:** a sequence of characters
+-   **Boolean:** `True` or `False`
+-   **Float:** Decimal numbers
+-   **Integer:** Whole numbers
+-   **Complex:** Complex numbers
+
+Python also has a rich set of built-in data structures which,
+typically, can hold different types of data::
+
+-   **Tuples:** Immutable arrays
+-   **Lists:** Mutable arrays
+-   **Dicts:** Hash tables
+
+When it comes to encoding, Python supports many character
+encodings, including:
+
+-   ASCII (7-bits)
+-   Extended ASCII (8-bits)
+-   UTF-8 (8-bits)
+-   UTF-32 (32-bits)
+
+We can use Python to work with many different file formats. Some
+formats are easier to work with than others. A few examples of file
+formats are:
+
+-   Flat File Formats
+    -   **CSV / TSV:** Tabular data, usually delimited by a special
+        character or a *TAB*
+-   Non-flat File Formats
+    -   **Markup:** HTML, XML, Markdown, etc.
+    -   **Data Exchange Formats:** JSON
+
+
+<a id="org474d785"></a>
+
+## 3.02 Data structures and data types
+
+-   McKinney, W. [Python for data analysis: data wrangling with
+    Pandas, NumPy, and IPython](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179). (Sebastopol, CA: O&rsquo;Reilly, 2017) 2nd
+    edition, Chapter 3 Built-in Data Structures, Functions, and
+    Files, pp.51–85.
+
+-   [Natural Language Toolkit](https://www.nltk.org/)
+
+
+<a id="orgc2dca00"></a>
+
+## 3.04 Data handling
+
+To open a file with python we use:
+
+    f = open("myfile.txt", "r")
+
+There are a few different flags that can be passed to `open()`,
+here&rsquo;s a summary:
+
+-   **`r`:** Read
+-   **`a`:** Append (to the end of the file)
+-   **`w`:** Write. If the file doesn&rsquo;t exist, it will also create the
+    file
+-   **`x`:** Create a file. If the file already exists, it produces an
+    error
+-   **`t`:** Tells `open()` we&rsquo;re dealing with a text file
+-   **`b`:** Tells `open()` we&rsquo;re dealing with binary file
+
+
+<a id="org5be5e46"></a>
+
+## 3.05 Working with text-based data
+
+Let&rsquo;s assume we have a file `myfile.txt` with the content:
+
+    The quick brown fox jumped over the lazy dog
+
+If we want to manipulate this data, we have to open the file for
+reading as before, then read the data into python, finally we close
+the file because it&rsquo;s not needed anymore:
+
+    f = open("myfile.txt", "r")
+    data = f.read()
+    f.close()
+
+If we want to count the number of words in the file, we need to
+break our file contents into words and store the result as a list,
+like so:
+
+    words = data.split(" ")
+
+To count the number of words, all we have to do now is compute the
+length of the returned list:
+
+    print(len(words))
+
+
+<a id="org91a02db"></a>
+
+## 3.06 counting words the verbose way
+
+Continuing from last section, let&rsquo;s count the frequency of words in
+a given input:
+
+    counter = {}
+    
+    for i in words:
+        if i in counter:
+    	counter[i] += 1
+        else:
+    	counter[i] = 1
+    
+    print(counter)
+
+
+<a id="org83b54d6"></a>
+
+## 3.07 Programming activity: reading files
+
+Write a program that reads a text file into memory, then tokenises
+it on the space character.
+
+-   <https://docs.python.org/3/library/stdtypes.html#str.split>
+
+The following NLTK documentation might be helpful here:
+
+-   [nltk.tokenize package](http://www.nltk.org/api/nltk.tokenize.html?highlight=tokenize%20package#module-nltk.tokenize)
 
