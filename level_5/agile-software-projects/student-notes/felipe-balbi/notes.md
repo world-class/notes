@@ -1,25 +1,31 @@
 
 # Table of Contents
 
-1.  [Week 1](#org1ca3280)
-    1.  [1.01 Module introduction](#org64ecd3d)
-    2.  [1.07 The basics of interaction design](#org67f451d)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org5abd346)
-2.  [Week 2](#org36bfdab)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#orga55659b)
-    2.  [1.305 Version control systems](#org786f881)
-    3.  [1.401 The process of interaction design](#org421e16f)
-3.  [Week 3](#org74e9aec)
-    1.  [2.01 Introduction to requirements and specification](#orgfdc9e0c)
-    2.  [2.101 Purpose of gathering requirements](#orgc03b760)
-    3.  [2.102 Introduction to requirements gathering](#org360bfb5)
-    4.  [2.201 Modelling requirements](#org678ed9a)
-4.  [Week 4](#org1957a25)
-    1.  [2.301 User-centred design](#org866bd70)
+1.  [Week 1](#org9ebe46c)
+    1.  [1.01 Module introduction](#org755d68a)
+    2.  [1.07 The basics of interaction design](#orge92bc2f)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org236f7d8)
+2.  [Week 2](#orgab8ee01)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org8db237f)
+    2.  [1.305 Version control systems](#org228b80b)
+    3.  [1.401 The process of interaction design](#orgd2eeb11)
+3.  [Week 3](#orgb57d236)
+    1.  [2.01 Introduction to requirements and specification](#org394f3d2)
+    2.  [2.101 Purpose of gathering requirements](#org4e33ec9)
+    3.  [2.102 Introduction to requirements gathering](#orgcdf35a6)
+    4.  [2.201 Modelling requirements](#orgf4c7e74)
+4.  [Week 4](#org6317337)
+    1.  [2.301 User-centred design](#org60b6461)
+5.  [Week 5](#orgb2542b7)
+    1.  [3.01 What is research?](#orga4a75cc)
+    2.  [3.101 Understanding the differences between quantitative and qualitative research](#org293019c)
+    3.  [3.102 Introduction to research methods](#orge287cf5)
+    4.  [3.201 Identifying useful sources of information](#org06c8184)
+    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org4e73691)
 
 
 
-<a id="org1ca3280"></a>
+<a id="org9ebe46c"></a>
 
 # Week 1
 
@@ -30,7 +36,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org64ecd3d"></a>
+<a id="org755d68a"></a>
 
 ## 1.01 Module introduction
 
@@ -38,7 +44,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="org67f451d"></a>
+<a id="orge92bc2f"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -52,7 +58,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org5abd346"></a>
+<a id="org236f7d8"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -98,7 +104,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="org36bfdab"></a>
+<a id="orgab8ee01"></a>
 
 # Week 2
 
@@ -109,7 +115,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="orga55659b"></a>
+<a id="org8db237f"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -367,7 +373,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org786f881"></a>
+<a id="org228b80b"></a>
 
 ## 1.305 Version control systems
 
@@ -378,7 +384,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="org421e16f"></a>
+<a id="orgd2eeb11"></a>
 
 ## 1.401 The process of interaction design
 
@@ -387,7 +393,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="org74e9aec"></a>
+<a id="orgb57d236"></a>
 
 # Week 3
 
@@ -399,7 +405,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="orgfdc9e0c"></a>
+<a id="org394f3d2"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -439,7 +445,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="orgc03b760"></a>
+<a id="org4e33ec9"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -462,7 +468,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="org360bfb5"></a>
+<a id="orgcdf35a6"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -471,7 +477,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="org678ed9a"></a>
+<a id="orgf4c7e74"></a>
 
 ## 2.201 Modelling requirements
 
@@ -491,7 +497,7 @@ system and some explicit structure. They can also describe
 depedencies and abstraction.
 
 
-<a id="org1957a25"></a>
+<a id="org6317337"></a>
 
 # Week 4
 
@@ -503,7 +509,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org866bd70"></a>
+<a id="org60b6461"></a>
 
 ## 2.301 User-centred design
 
@@ -579,4 +585,98 @@ pitfalls:
 -   Risks
 -   Costs
 -   Documentation and training
+
+
+<a id="orgb2542b7"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Identify interesting and valuable sources of information
+-   Make decisions based around research findings
+-   Consider the wider implications of building a system for purpose.
+
+
+<a id="orga4a75cc"></a>
+
+## 3.01 What is research?
+
+We use research methods to explore the contextual implications for
+the design and development of our software applications.
+
+The goal is to build an application that adds efficiency and
+utility to a given workflow, therefore we must define what
+**efficiency** and **utility** mean.
+
+We may want to consider similar products and services that exist in
+the market in order to design a product or service that adds value
+to our customers.
+
+Research is a systematic investigation into something
+unknown. During research, we aim to build knowledge or insights
+that relate to our area of application.
+
+Research explores our understanding of a given space in relation to
+a number of factors. We tend to focus on things we can measure to
+determine their effects on other things.
+
+We aim at isolating variables as best we can in order to avoid
+confounding factors that may impact our findings. We have to ensure
+that our research is robust and meaningful to our research agenda.
+
+Research also has a **validity** associated with it. This can tell us
+whether or not we are measuring what we say we are measuring.
+
+Another important topic is that of **reliability**. We want to ensure
+our results have meaning from the context of experimentation.
+
+
+<a id="org293019c"></a>
+
+## 3.101 Understanding the differences between quantitative and qualitative research
+
+There are two main types of research:
+
+-   **Quantitative:** explores measures, often relying on mathematical
+    models and tools such as statistics. Tends to focus on **what** is
+    happening, **who** is involved, **where** it&rsquo;s happening, **when** it&rsquo;s
+    happening and so on
+
+-   **Qualitative:** focuses on dynamic realities such as emergent
+    themes and behaviors. Often focuses on **how** and **why** things are
+    happening
+
+
+<a id="orge287cf5"></a>
+
+## 3.102 Introduction to research methods
+
+-   Read Sharp, H., J. Preece and Y. Rogers [Interaction design:
+    beyond human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley
+    and Sons Inc, 2019) chapters 8 and 9 pp.259–34.2
+
+
+<a id="org06c8184"></a>
+
+## 3.201 Identifying useful sources of information
+
+-   **Newspapers:** generally a good source of information, however
+    most publications probably <span class="underline">do</span> have some intrinsic bias.
+-   **Books:** consider the publisher, publication method, reviews,
+    suggests (e.g. from educators)
+-   **Social Media:** could be anything from very good to very bad
+-   **Peer Reviewed Sources:** High barrier to entry for
+    publication. In general the process improves quality
+-   **Data:** even data can be biased. The method used for sampling may
+    impose biases
+
+
+<a id="org4e73691"></a>
+
+## 3.202 Team activity and deliverable: doing prerequisite investigation
+
+-   Department for Education [Realising the potential of technology in
+    education: A strategy for education providers and the technology
+    industry](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/791931/DfE-Education_Technology_Strategy.pdf). (2019).
 
