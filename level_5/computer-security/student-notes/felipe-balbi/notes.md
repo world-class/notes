@@ -1,38 +1,42 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgab62521)
-    1.  [Reading: Ethics in information security](#org78a4177)
-    2.  [Defining computer security](#orgb510a13)
-    3.  [Types of malicious software 1](#org9519d97)
-        1.  [Viruses](#org7ffd77c)
-        2.  [Worms](#org9023306)
-        3.  [Adware](#org573cf89)
-        4.  [Trojans](#orgd84740d)
-        5.  [Spyware](#orgb6bd287)
-    4.  [Types of malicious software 2](#org3728f9e)
-2.  [Week 2](#orgfa79290)
-    1.  [Malware analysis and techniques](#org67358e9)
-    2.  [Malware analysis 2](#org0ce831d)
-    3.  [Ethics](#org8dd7ca0)
-    4.  [Passwords](#org777284d)
-    5.  [Social Engineering](#org2d73e84)
-3.  [Week 3](#org947d03e)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#orgdc46228)
-    2.  [Paper about CIA](#org57b2606)
-    3.  [The attack surface and the denial of service attack](#org3a30a1e)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#orgdb70f4e)
-    5.  [Mirai GitHub and Research Paper](#org48bf728)
-    6.  [Wireless attacks: WiFi attack vectors](#org217ffca)
-    7.  [Wireless Networking Security](#org93b9d6a)
-4.  [Week 4](#orgdf769e3)
-    1.  [Firewalls – our first line of defence](#orgca59662)
-    2.  [Intrusion detection systems (IDS)](#org64bf4f3)
-    3.  [Intrusion Detection Systems](#orgafcbacb)
+1.  [Week 1](#org05d5dd6)
+    1.  [Reading: Ethics in information security](#orga7f1826)
+    2.  [Defining computer security](#org7cbd5ee)
+    3.  [Types of malicious software 1](#org5b82169)
+        1.  [Viruses](#org5350ea9)
+        2.  [Worms](#orgba10ce7)
+        3.  [Adware](#org2674042)
+        4.  [Trojans](#orgd501e0f)
+        5.  [Spyware](#orgdd1f479)
+    4.  [Types of malicious software 2](#orga0fe9a0)
+2.  [Week 2](#orgc299a15)
+    1.  [Malware analysis and techniques](#org1d98438)
+    2.  [Malware analysis 2](#orga0d0117)
+    3.  [Ethics](#org957d740)
+    4.  [Passwords](#orge1edc53)
+    5.  [Social Engineering](#org8f20137)
+3.  [Week 3](#org67d437d)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org8bad9c0)
+    2.  [Paper about CIA](#org5a2de00)
+    3.  [The attack surface and the denial of service attack](#org3073392)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#org05eefbc)
+    5.  [Mirai GitHub and Research Paper](#orgb3c943f)
+    6.  [Wireless attacks: WiFi attack vectors](#org9883294)
+    7.  [Wireless Networking Security](#org590a3af)
+4.  [Week 4](#org35a347c)
+    1.  [Firewalls – our first line of defence](#org4ddf942)
+    2.  [Intrusion detection systems (IDS)](#orgb622946)
+    3.  [Intrusion Detection Systems](#org21996a1)
+5.  [Week 5](#org2ccd03e)
+    1.  [Operating systems: windows and OS hardening](#org186f379)
+    2.  [File system and directory structure](#org6790fc2)
+    3.  [Windows Security](#orgbb37ed2)
 
 
 
-<a id="orgab62521"></a>
+<a id="org05d5dd6"></a>
 
 # Week 1
 
@@ -45,7 +49,7 @@ Key Concepts
     significance.
 
 
-<a id="org78a4177"></a>
+<a id="orga7f1826"></a>
 
 ## Reading: Ethics in information security
 
@@ -58,7 +62,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="orgb510a13"></a>
+<a id="org7cbd5ee"></a>
 
 ## Defining computer security
 
@@ -106,7 +110,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="org9519d97"></a>
+<a id="org5b82169"></a>
 
 ## Types of malicious software 1
 
@@ -115,7 +119,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="org7ffd77c"></a>
+<a id="org5350ea9"></a>
 
 ### Viruses
 
@@ -137,7 +141,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="org9023306"></a>
+<a id="orgba10ce7"></a>
 
 ### Worms
 
@@ -155,7 +159,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org573cf89"></a>
+<a id="org2674042"></a>
 
 ### Adware
 
@@ -164,7 +168,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="orgd84740d"></a>
+<a id="orgd501e0f"></a>
 
 ### Trojans
 
@@ -183,7 +187,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="orgb6bd287"></a>
+<a id="orgdd1f479"></a>
 
 ### Spyware
 
@@ -196,7 +200,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="org3728f9e"></a>
+<a id="orga0fe9a0"></a>
 
 ## Types of malicious software 2
 
@@ -239,7 +243,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="orgfa79290"></a>
+<a id="orgc299a15"></a>
 
 # Week 2
 
@@ -250,7 +254,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org67358e9"></a>
+<a id="org1d98438"></a>
 
 ## Malware analysis and techniques
 
@@ -292,7 +296,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="org0ce831d"></a>
+<a id="orga0d0117"></a>
 
 ## Malware analysis 2
 
@@ -330,7 +334,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="org8dd7ca0"></a>
+<a id="org957d740"></a>
 
 ## Ethics
 
@@ -374,7 +378,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org777284d"></a>
+<a id="orge1edc53"></a>
 
 ## Passwords
 
@@ -409,7 +413,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org2d73e84"></a>
+<a id="org8f20137"></a>
 
 ## Social Engineering
 
@@ -433,7 +437,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org947d03e"></a>
+<a id="org67d437d"></a>
 
 # Week 3
 
@@ -446,7 +450,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="orgdc46228"></a>
+<a id="org8bad9c0"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -470,7 +474,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="org57b2606"></a>
+<a id="org5a2de00"></a>
 
 ## Paper about CIA
 
@@ -482,7 +486,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="org3a30a1e"></a>
+<a id="org3073392"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -548,7 +552,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="orgdb70f4e"></a>
+<a id="org05eefbc"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -573,7 +577,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="org48bf728"></a>
+<a id="orgb3c943f"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -598,7 +602,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org217ffca"></a>
+<a id="org9883294"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -643,7 +647,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="org93b9d6a"></a>
+<a id="org590a3af"></a>
 
 ## Wireless Networking Security
 
@@ -670,7 +674,7 @@ networks. Some examples:
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
 
-<a id="orgdf769e3"></a>
+<a id="org35a347c"></a>
 
 # Week 4
 
@@ -682,7 +686,7 @@ Key Concepts
     historical and contemporary systems.
 
 
-<a id="orgca59662"></a>
+<a id="org4ddf942"></a>
 
 ## Firewalls – our first line of defence
 
@@ -694,7 +698,7 @@ Key Concepts
 -   **Proxy Firewall:** Carries out external network access.
 
 
-<a id="org64bf4f3"></a>
+<a id="orgb622946"></a>
 
 ## Intrusion detection systems (IDS)
 
@@ -740,7 +744,7 @@ of the system. A common dataset to use for this case is the [KDD99
 Dataset](https://www.unb.ca/cic/datasets/nsl.html).
 
 
-<a id="orgafcbacb"></a>
+<a id="org21996a1"></a>
 
 ## Intrusion Detection Systems
 
@@ -759,4 +763,130 @@ Dataset](https://www.unb.ca/cic/datasets/nsl.html).
     IEEE Intl Conference on Intelligent Data and Security (IDS),
     Washington, DC, USA, 2019, pp. 300-305, doi:
     10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
+
+
+<a id="org2ccd03e"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Describe the features of a typical operating system, with specific
+    details about the Windows system.
+-   Explain the core functionality of a file system and why it needs
+    to be secure.
+-   Identify security features and flaws of contemporary and
+    historical versions of Windows operating systems.
+
+
+<a id="org186f379"></a>
+
+## Operating systems: windows and OS hardening
+
+The [Operating System](https://en.wikipedia.org/wiki/Operating_system) (OS) is a piece of Software that manages
+hardware resources and provides services to competing
+programs.
+
+A few important definitions:
+
+-   **OS Security:** The processes and methods involved in guaranteeing
+    the the integrity, confidentiality and availability of the OS
+
+-   **OS Protection:** Refers to methods and procedures to protect the
+    OS from intruders and attacks
+
+OS security includes all precautionary control techniques to help
+protect any computer resources that might be removed or modified if
+the OS is compromised.
+
+Some key components of an OS are:
+
+-   **Kernal:** Executes services of the OS at the lowest level
+-   **Security Kernal:** Manages all OS&rsquo;s security processes
+-   **Reference Monitor:** Manages access to the device
+
+The Security Kernal and Reference Monitor, together, for the
+Trusted Computing Base or TCB, which has everything necessary to
+enforce OS security policies.
+
+In the Windows OS, the basic security blocks are:
+
+-   **Security Reference Monitor:** executes access checks
+-   **Local Security Authority:** executes windows local security
+    policies
+-   **Security Account Manager:** database that stores credentials
+-   **Active Directory:** a directory service for Windows domain
+    networks
+-   **WinLogon and NetLogon:** WinLogon manages local input logins;
+    NetLogon manages network-wide logins
+
+Some of the most commonly found client-side vulnerabilities are
+found in web browsers, office suites and the like. While any
+software could be attacked, attacks are, in practice, concentrated
+on the most popular software titles.
+
+In order to overcome attacks, we must *harden* our systems before
+deployments. Hardening refers to the process of making an operating
+system more secure. For example, disabling automatic logins,
+enabling screen lock during screen saver, switching system security
+on, ensuring wireless connection is disabled if not needed, and so
+on.
+
+
+<a id="org6790fc2"></a>
+
+## File system and directory structure
+
+A file is a set of linked data stored in non-volatile media. Each
+file has a logical location for storage and retrieval. In the
+operating system the *File System* is the data structure used to
+store, retrieve, and keep track of the files stored on the disk.
+
+Some commonly used filesystems are:
+
+-   Windows
+    -   FAT32
+    -   exFAT
+    -   NTFS
+-   macOS
+    -   HFS+
+    -   APFS
+-   Linux
+    -   ext3
+    -   ext4
+    -   btrfs
+    -   ffs
+-   Unix
+    -   UFS
+    -   ZFS
+
+There are three main types of files available for use in the OS:
+
+-   **Text File:** sequence of letters arranged in lines
+-   **Object File:** collection of bits stored in blocks
+-   **Source File:** refers to a variety of operations and activities
+    in the operating system
+
+The file system also maintains a set of metadata for each file,
+including creation time, update time, the actual volume, etc. All
+of this information is referred to as the file attributes.
+
+Important attributes are:
+
+-   **File type:** the type of the file
+-   **Permissions:** who can read, write, and execute the file
+-   **Timestamps:** time and date of creation and last update
+
+A file system also has a directory structure.
+
+
+<a id="orgbb37ed2"></a>
+
+## Windows Security
+
+-   [Brief History of Windows Security](https://web.archive.org/web/20201007124103/https://resources.infosecinstitute.com/category/certifications-training/securing-windows-ten/windows-ten-security/windows-os-security-brief-history/)
+
+-   [Windows Consumer Security circa Oct 2020](https://web.archive.org/web/20201001021650/https://www.microsoft.com/en-us/windows/comprehensive-security):
+
+-   [Windows Enterprise Security circa Oct 2020](https://web.archive.org/web/20200611221008/https://docs.microsoft.com/en-us/windows/security)
 
