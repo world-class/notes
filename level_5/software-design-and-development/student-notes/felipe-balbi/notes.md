@@ -1,40 +1,50 @@
 
 # Table of Contents
 
-1.  [Week 1](#org602d31c)
-    1.  [Module Introduction](#orgbff3136)
-    2.  [1.0202 Reference points](#org0386961)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org354cc58)
-    4.  [1.0204 What is a module?](#org0e8dc87)
-    5.  [1.0206 What is module complexity?](#org30f86a2)
-    6.  [1.0208 Complexity references](#org22c175a)
-2.  [Week 2](#org7eee551)
-    1.  [2.0102 Week 2 reading](#org8a4c5b3)
-    2.  [2.0201 What is module cohesion?](#org1c69888)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#orge120b01)
-3.  [Week 3](#orgdb72b8e)
-    1.  [3.0102 Week 3 reading](#org7675f83)
-    2.  [3.0201 What is module coupling?](#org3e90a72)
-    3.  [3.0203 Different types of coupling: good or bad?](#orge0b552f)
-    4.  [3.0205 Common environment coupling: good or bad?](#org94ce7f6)
-    5.  [3.0207 Content coupling: good or bad?](#org6803722)
-    6.  [3.0209 Control coupling: good or bad?](#org8b20de2)
-    7.  [3.0211 Data coupling: good or bad?](#org62e74b8)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org60e2ffb)
-    9.  [3.0215 Pathological coupling: good or bad?](#org69df3a3)
-4.  [Week 4](#org9f5e138)
-    1.  [4.012 Week 4 reading](#org5cec954)
-    2.  [4.0201 Reasoning about scope](#orgc9a062a)
-    3.  [4.0203 Reasoning about function parameters](#orga70fa7c)
-    4.  [4.0205 Replacing functions dynamically and const](#orgb1f89c1)
-5.  [Week 5](#org355eeea)
-    1.  [5.0002 Topic reading](#orga6d5e02)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#org50eecb8)
-    3.  [5.0113 What to test? An overview](#org434cfe2)
+1.  [Week 1](#org78be000)
+    1.  [Module Introduction](#org2a0f913)
+    2.  [1.0202 Reference points](#orgba1e90d)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#org22578f3)
+    4.  [1.0204 What is a module?](#org5d3b255)
+    5.  [1.0206 What is module complexity?](#orgf5425f7)
+    6.  [1.0208 Complexity references](#org7e35a0a)
+2.  [Week 2](#orgbc69df2)
+    1.  [2.0102 Week 2 reading](#org1ba9dd0)
+    2.  [2.0201 What is module cohesion?](#orgec2c943)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org2a8849a)
+3.  [Week 3](#orgf312320)
+    1.  [3.0102 Week 3 reading](#org8b6d7d3)
+    2.  [3.0201 What is module coupling?](#orgbfff344)
+    3.  [3.0203 Different types of coupling: good or bad?](#orga77f48b)
+    4.  [3.0205 Common environment coupling: good or bad?](#orgafa75cc)
+    5.  [3.0207 Content coupling: good or bad?](#orgd6d4d5c)
+    6.  [3.0209 Control coupling: good or bad?](#org3f1ac83)
+    7.  [3.0211 Data coupling: good or bad?](#org77f2f8b)
+    8.  [3.0213 Hybrid coupling: good or bad?](#orgf136ca2)
+    9.  [3.0215 Pathological coupling: good or bad?](#org622bb89)
+4.  [Week 4](#org76ce853)
+    1.  [4.012 Week 4 reading](#orge83369c)
+    2.  [4.0201 Reasoning about scope](#org4a67882)
+    3.  [4.0203 Reasoning about function parameters](#orgb3c57f1)
+    4.  [4.0205 Replacing functions dynamically and const](#org1a47975)
+5.  [Week 5](#orge2527ee)
+    1.  [5.0002 Topic reading](#orgd50c6af)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#org35f5c28)
+    3.  [5.0113 What to test? An overview](#org694c4be)
+6.  [Week 6](#orgcd7d47e)
+    1.  [6.0102 Week 6 reading](#orgaaaf679)
+    2.  [6.013 Super quick Python tutorial](#orgb56b58d)
+        1.  [Variables](#org92aa8cc)
+        2.  [Lists](#orgdf53101)
+        3.  [Functions](#org5b4eb7e)
+    3.  [6.0201 Introduction to unittest in Python](#org0476b11)
+    4.  [6.0203 Assertion function in unittest](#org15324b4)
+    5.  [6.0205 Assert functions in unittest](#org26ad743)
+    6.  [6.0301 Introduction to statistics libraries](#orgc527e49)
 
 
 
-<a id="org602d31c"></a>
+<a id="org78be000"></a>
 
 # Week 1
 
@@ -46,7 +56,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="orgbff3136"></a>
+<a id="org2a0f913"></a>
 
 ## Module Introduction
 
@@ -72,7 +82,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org0386961"></a>
+<a id="orgba1e90d"></a>
 
 ## 1.0202 Reference points
 
@@ -93,7 +103,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org354cc58"></a>
+<a id="org22578f3"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -106,7 +116,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org0e8dc87"></a>
+<a id="org5d3b255"></a>
 
 ## 1.0204 What is a module?
 
@@ -129,7 +139,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="org30f86a2"></a>
+<a id="orgf5425f7"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -155,7 +165,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org22c175a"></a>
+<a id="org7e35a0a"></a>
 
 ## 1.0208 Complexity references
 
@@ -170,7 +180,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="org7eee551"></a>
+<a id="orgbc69df2"></a>
 
 # Week 2
 
@@ -182,7 +192,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="org8a4c5b3"></a>
+<a id="org1ba9dd0"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -195,7 +205,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org1c69888"></a>
+<a id="orgec2c943"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -246,7 +256,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="orge120b01"></a>
+<a id="org2a8849a"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -275,7 +285,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="orgdb72b8e"></a>
+<a id="orgf312320"></a>
 
 # Week 3
 
@@ -289,7 +299,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="org7675f83"></a>
+<a id="org8b6d7d3"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -298,7 +308,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org3e90a72"></a>
+<a id="orgbfff344"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -311,7 +321,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="orge0b552f"></a>
+<a id="orga77f48b"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -334,7 +344,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org94ce7f6"></a>
+<a id="orgafa75cc"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -355,7 +365,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="org6803722"></a>
+<a id="orgd6d4d5c"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -367,7 +377,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="org8b20de2"></a>
+<a id="org3f1ac83"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -392,7 +402,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="org62e74b8"></a>
+<a id="org77f2f8b"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -402,7 +412,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org60e2ffb"></a>
+<a id="orgf136ca2"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -421,7 +431,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org69df3a3"></a>
+<a id="org622bb89"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -431,7 +441,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org9f5e138"></a>
+<a id="org76ce853"></a>
 
 # Week 4
 
@@ -444,7 +454,7 @@ Key Concepts
     cohesion.
 
 
-<a id="org5cec954"></a>
+<a id="orge83369c"></a>
 
 ## 4.012 Week 4 reading
 
@@ -455,7 +465,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="orgc9a062a"></a>
+<a id="org4a67882"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -517,7 +527,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="orga70fa7c"></a>
+<a id="orgb3c57f1"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -585,7 +595,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="orgb1f89c1"></a>
+<a id="org1a47975"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -641,7 +651,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="org355eeea"></a>
+<a id="orge2527ee"></a>
 
 # Week 5
 
@@ -653,7 +663,7 @@ Key Concepts
     code repositories
 
 
-<a id="orga6d5e02"></a>
+<a id="orgd50c6af"></a>
 
 ## 5.0002 Topic reading
 
@@ -673,7 +683,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="org50eecb8"></a>
+<a id="org35f5c28"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -693,7 +703,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="org434cfe2"></a>
+<a id="org694c4be"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -713,6 +723,153 @@ process in short iterative bursts.
 
 -   **Error Handling:** Make sure that errors are properly identified
     and handled to avoid crashes
+
+
+<a id="orgcd7d47e"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Write unit tests using the Python unittest package
+-   Describe the elements of a unit testing framework.
+-   Carry out the test-driven development workflow in Python
+
+
+<a id="orgaaaf679"></a>
+
+## 6.0102 Week 6 reading
+
+-   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
+
+
+<a id="orgb56b58d"></a>
+
+## 6.013 Super quick Python tutorial
+
+
+<a id="org92aa8cc"></a>
+
+### Variables
+
+Variables don&rsquo;t need to be declared and their type is assigned
+when initializing. Whenever we need a variable, just type a name
+and give it a value:
+
+    myNumber = 10
+    myString = "Hello"
+
+
+<a id="orgdf53101"></a>
+
+### Lists
+
+Python lists are an implementation of a dynamic array. Values in a
+list are separated by commas and enclosed in square
+brackets. Individual items in a list can be index like in
+JavaScript or C.
+
+    myList = [0, 1, 2, 3, 4]
+    myOtherList = ["this", "is", "a", "list", "of", "strings"]
+    
+    myList[2]	# this gives me the number 2
+    myOtherList[0]	# this gives me the string "this"
+
+Python also has nice iterators for lists:
+
+    myList = [10, 11, 12, 13, 14, 15]
+    
+    for n in myLists:
+        print(n)
+
+We can get the length of a list using `len()` and produce a range
+of numbers using `range()`:
+
+    myList = [10, 11, 12, 13, 14, 15]
+    
+    for i in range(len(myList)):
+        print(myList[i])
+
+We can add more items to a list using `append()`:
+
+    myList = [10, 11, 12, 13, 14, 15]
+    
+    myList.append(20)
+
+To extend a list with the items from another list, we can use
+`extend()`:
+
+    myList = [10, 11, 12, 13, 14, 15]
+    anotherList = [20, 21, 22, 23, 24, 25]
+    
+    myList.extend(anotherList)
+
+
+<a id="org5b4eb7e"></a>
+
+### Functions
+
+We define functions in python with the `def` keyword:
+
+    def increment(n):
+        """ Increment argument by 1 """
+        return n + 1
+
+If we need more than one argument, they should be comma separated:
+
+    def add(a, b):
+        """ Return the addition of a and b """
+        return a + b
+
+Keep in mind that Python uses *pass-by-value*, not
+*pass-by-reference*.
+
+
+<a id="org0476b11"></a>
+
+## 6.0201 Introduction to unittest in Python
+
+Python has built-in unit test module named `unittest`. Here&rsquo;s an
+example of how to use it:
+
+    import unittest
+    
+    class TestSomething(unittest.TestCase):
+        def test_pass(self):
+    	self.assertEqual(2 + 2, 4)
+    
+        def test_fail(self):
+    	self.assertEqual(2 + 2, 42)
+    
+    unittest.main(argv = ['ignored', 'v'], exit = False)
+
+
+<a id="org15324b4"></a>
+
+## 6.0203 Assertion function in unittest
+
+The `unittest` module from python has a host of assertion functions
+built-in. Instead of repeating them here, it&rsquo;s to access its
+[documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
+
+
+<a id="org26ad743"></a>
+
+## 6.0205 Assert functions in unittest
+
+-   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
+
+
+<a id="orgc527e49"></a>
+
+## 6.0301 Introduction to statistics libraries
+
+A statistics library is a program which contains ready-made methods
+for computing common statistics on a set of data. Typically, these
+libraries contain methods for computing the mean, min, max,
+standard deviation, and variance. Some other common, but more
+advanced, methods would be calculating correlation coefficients,
+[ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
 
 
 # Footnotes
