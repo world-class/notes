@@ -1,37 +1,39 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgf81ced6)
-    1.  [1.01 Welcome to the course](#org2948bd1)
-    2.  [1.06 Introduction to development environments and Python](#orge1b1007)
-    3.  [1.07 Getting to grips with Python](#org99ae315)
-    4.  [1.103 Jupyter code cells](#org03e24fe)
-    5.  [1.105 Jupyter Notebook basics](#org68ca2e2)
-    6.  [1.106 Using Python as a Calculator](#org4e6ba06)
-2.  [Week 3](#orgf316d77)
-    1.  [2.01 Becoming familiar with Python](#org87e25d6)
-    2.  [2.03 Built-in types in Python](#orgfdd053a)
-    3.  [2.05 Mapping operators to functions](#org03de508)
-    4.  [2.104 Introduction to conditional logic](#org5abdcc1)
-    5.  [2.105 Functions and reuse](#org05c8f95)
-    6.  [2.201 Conditions and logic](#org917ea8c)
-    7.  [2.202 More conditions](#org4afb0a8)
-3.  [Week 4](#org444b506)
-    1.  [2.301 Introduction to lists](#org11fe760)
-    2.  [2.302 Lists](#org3f6adf3)
-    3.  [2.305 Loops and iteration](#orgbf69392)
-    4.  [2.401 Libraries and dependencies](#orgd758480)
-4.  [Week 5](#org3fad00a)
-    1.  [3.01 Introduction to data](#orgc7f8d21)
-    2.  [3.02 Data structures and data types](#org474d785)
-    3.  [3.04 Data handling](#orgc2dca00)
-    4.  [3.05 Working with text-based data](#org5be5e46)
-    5.  [3.06 counting words the verbose way](#org91a02db)
-    6.  [3.07 Programming activity: reading files](#org83b54d6)
+1.  [Week 1](#org2904619)
+    1.  [1.01 Welcome to the course](#orgb3a79f8)
+    2.  [1.06 Introduction to development environments and Python](#org29fa4d1)
+    3.  [1.07 Getting to grips with Python](#org1688021)
+    4.  [1.103 Jupyter code cells](#org8a3a8cd)
+    5.  [1.105 Jupyter Notebook basics](#orgf5a4496)
+    6.  [1.106 Using Python as a Calculator](#org3533ac6)
+2.  [Week 3](#org647f3d9)
+    1.  [2.01 Becoming familiar with Python](#orgadbfa18)
+    2.  [2.03 Built-in types in Python](#org040ce2c)
+    3.  [2.05 Mapping operators to functions](#orgea96644)
+    4.  [2.104 Introduction to conditional logic](#orge4e6872)
+    5.  [2.105 Functions and reuse](#orgd632607)
+    6.  [2.201 Conditions and logic](#org73b4475)
+    7.  [2.202 More conditions](#orgb502fbf)
+3.  [Week 4](#org260242d)
+    1.  [2.301 Introduction to lists](#org30029c3)
+    2.  [2.302 Lists](#org7764699)
+    3.  [2.305 Loops and iteration](#org786bc3c)
+    4.  [2.401 Libraries and dependencies](#org77cb671)
+4.  [Week 5](#org00bed73)
+    1.  [3.01 Introduction to data](#org8724c73)
+    2.  [3.02 Data structures and data types](#org51ad6c8)
+    3.  [3.04 Data handling](#org59328a1)
+    4.  [3.05 Working with text-based data](#org175c267)
+    5.  [3.06 counting words the verbose way](#orgc050d2d)
+    6.  [3.07 Programming activity: reading files](#org6e05436)
+5.  [Week 6](#org77eabb1)
+    1.  [3.201 The dictionary data type](#org70d323b)
 
 
 
-<a id="orgf81ced6"></a>
+<a id="org2904619"></a>
 
 # Week 1
 
@@ -43,7 +45,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="org2948bd1"></a>
+<a id="orgb3a79f8"></a>
 
 ## 1.01 Welcome to the course
 
@@ -63,7 +65,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="orge1b1007"></a>
+<a id="org29fa4d1"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -76,7 +78,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="org99ae315"></a>
+<a id="org1688021"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -91,7 +93,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="org03e24fe"></a>
+<a id="org8a3a8cd"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -107,7 +109,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="org68ca2e2"></a>
+<a id="orgf5a4496"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -118,7 +120,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="org4e6ba06"></a>
+<a id="org3533ac6"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -127,7 +129,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="orgf316d77"></a>
+<a id="org647f3d9"></a>
 
 # Week 3
 
@@ -141,7 +143,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="org87e25d6"></a>
+<a id="orgadbfa18"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -277,7 +279,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="orgfdd053a"></a>
+<a id="org040ce2c"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -286,7 +288,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org03de508"></a>
+<a id="orgea96644"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -296,7 +298,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="org5abdcc1"></a>
+<a id="orge4e6872"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -305,7 +307,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="org05c8f95"></a>
+<a id="orgd632607"></a>
 
 ## 2.105 Functions and reuse
 
@@ -329,7 +331,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org917ea8c"></a>
+<a id="org73b4475"></a>
 
 ## 2.201 Conditions and logic
 
@@ -345,7 +347,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="org4afb0a8"></a>
+<a id="orgb502fbf"></a>
 
 ## 2.202 More conditions
 
@@ -369,7 +371,7 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 4. Built-in types.
 
 
-<a id="org444b506"></a>
+<a id="org260242d"></a>
 
 # Week 4
 
@@ -383,7 +385,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="org11fe760"></a>
+<a id="org30029c3"></a>
 
 ## 2.301 Introduction to lists
 
@@ -429,7 +431,7 @@ final value. This means that the range `0:1` will only print the
 0<sup>th</sup> element.
 
 
-<a id="org3f6adf3"></a>
+<a id="org7764699"></a>
 
 ## 2.302 Lists
 
@@ -439,7 +441,7 @@ Click on the link below to read through the documentation on lists:
     types.
 
 
-<a id="orgbf69392"></a>
+<a id="org786bc3c"></a>
 
 ## 2.305 Loops and iteration
 
@@ -468,7 +470,7 @@ example:
         print(x)
 
 
-<a id="orgd758480"></a>
+<a id="org77cb671"></a>
 
 ## 2.401 Libraries and dependencies
 
@@ -489,7 +491,7 @@ library, as shown below:
     stats.describe(x)
 
 
-<a id="org3fad00a"></a>
+<a id="org00bed73"></a>
 
 # Week 5
 
@@ -505,7 +507,7 @@ Key Concepts
     matrix.
 
 
-<a id="orgc7f8d21"></a>
+<a id="org8724c73"></a>
 
 ## 3.01 Introduction to data
 
@@ -545,7 +547,7 @@ formats are:
     -   **Data Exchange Formats:** JSON
 
 
-<a id="org474d785"></a>
+<a id="org51ad6c8"></a>
 
 ## 3.02 Data structures and data types
 
@@ -557,7 +559,7 @@ formats are:
 -   [Natural Language Toolkit](https://www.nltk.org/)
 
 
-<a id="orgc2dca00"></a>
+<a id="org59328a1"></a>
 
 ## 3.04 Data handling
 
@@ -578,7 +580,7 @@ here&rsquo;s a summary:
 -   **`b`:** Tells `open()` we&rsquo;re dealing with binary file
 
 
-<a id="org5be5e46"></a>
+<a id="org175c267"></a>
 
 ## 3.05 Working with text-based data
 
@@ -606,7 +608,7 @@ length of the returned list:
     print(len(words))
 
 
-<a id="org91a02db"></a>
+<a id="orgc050d2d"></a>
 
 ## 3.06 counting words the verbose way
 
@@ -624,7 +626,7 @@ a given input:
     print(counter)
 
 
-<a id="org83b54d6"></a>
+<a id="org6e05436"></a>
 
 ## 3.07 Programming activity: reading files
 
@@ -636,4 +638,35 @@ it on the space character.
 The following NLTK documentation might be helpful here:
 
 -   [nltk.tokenize package](http://www.nltk.org/api/nltk.tokenize.html?highlight=tokenize%20package#module-nltk.tokenize)
+
+
+<a id="org77eabb1"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Write Python programs that can process and analyse text data in
+    lists, dicts and NumPy arrays.
+-   Explain the difference between lists, dicts and NumPy arrays, and
+    select appropriate data structures for particular examples of
+    data.
+-   Implement linguistic analysis algorithms that can compute word
+    distributions, distances between distributions and a distance
+    matrix.
+
+
+<a id="org70d323b"></a>
+
+## 3.201 The dictionary data type
+
+A dictionary is a kind of hash table, or associative array.
+
+    mydict = {
+        "team": "red",
+        "goals": "4",
+        "conceded": "2"
+    }
+    
+    x = mydict.get("goals")
 
