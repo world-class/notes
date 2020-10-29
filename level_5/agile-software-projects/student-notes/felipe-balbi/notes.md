@@ -1,31 +1,35 @@
 
 # Table of Contents
 
-1.  [Week 1](#org9ebe46c)
-    1.  [1.01 Module introduction](#org755d68a)
-    2.  [1.07 The basics of interaction design](#orge92bc2f)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org236f7d8)
-2.  [Week 2](#orgab8ee01)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org8db237f)
-    2.  [1.305 Version control systems](#org228b80b)
-    3.  [1.401 The process of interaction design](#orgd2eeb11)
-3.  [Week 3](#orgb57d236)
-    1.  [2.01 Introduction to requirements and specification](#org394f3d2)
-    2.  [2.101 Purpose of gathering requirements](#org4e33ec9)
-    3.  [2.102 Introduction to requirements gathering](#orgcdf35a6)
-    4.  [2.201 Modelling requirements](#orgf4c7e74)
-4.  [Week 4](#org6317337)
-    1.  [2.301 User-centred design](#org60b6461)
-5.  [Week 5](#orgb2542b7)
-    1.  [3.01 What is research?](#orga4a75cc)
-    2.  [3.101 Understanding the differences between quantitative and qualitative research](#org293019c)
-    3.  [3.102 Introduction to research methods](#orge287cf5)
-    4.  [3.201 Identifying useful sources of information](#org06c8184)
-    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org4e73691)
+1.  [Week 1](#org2515324)
+    1.  [1.01 Module introduction](#org10faf0c)
+    2.  [1.07 The basics of interaction design](#org0bf9a4c)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org85a074b)
+2.  [Week 2](#org48d2dec)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#orgb3287a6)
+    2.  [1.305 Version control systems](#org751ac14)
+    3.  [1.401 The process of interaction design](#org2479b4c)
+3.  [Week 3](#orge912e85)
+    1.  [2.01 Introduction to requirements and specification](#orgdf327f7)
+    2.  [2.101 Purpose of gathering requirements](#org1524998)
+    3.  [2.102 Introduction to requirements gathering](#orgd908c8b)
+    4.  [2.201 Modelling requirements](#orgdf3f0c1)
+4.  [Week 4](#orgb6a0dd0)
+    1.  [2.301 User-centred design](#orgc13b564)
+5.  [Week 5](#org611fd88)
+    1.  [3.01 What is research?](#orgacd9810)
+    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orgeb459a8)
+    3.  [3.102 Introduction to research methods](#orgfc96bd4)
+    4.  [3.201 Identifying useful sources of information](#org86d476d)
+    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org988a98b)
+6.  [Week 6](#org47d8a69)
+    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org3958d22)
+    2.  [3.302 SWOT analysis](#org8b11df7)
+    3.  [Alternative models](#org1f58d7e)
 
 
 
-<a id="org9ebe46c"></a>
+<a id="org2515324"></a>
 
 # Week 1
 
@@ -36,7 +40,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org755d68a"></a>
+<a id="org10faf0c"></a>
 
 ## 1.01 Module introduction
 
@@ -44,7 +48,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="orge92bc2f"></a>
+<a id="org0bf9a4c"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -58,7 +62,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org236f7d8"></a>
+<a id="org85a074b"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -104,7 +108,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="orgab8ee01"></a>
+<a id="org48d2dec"></a>
 
 # Week 2
 
@@ -115,7 +119,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org8db237f"></a>
+<a id="orgb3287a6"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -373,7 +377,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org228b80b"></a>
+<a id="org751ac14"></a>
 
 ## 1.305 Version control systems
 
@@ -384,7 +388,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="orgd2eeb11"></a>
+<a id="org2479b4c"></a>
 
 ## 1.401 The process of interaction design
 
@@ -393,7 +397,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="orgb57d236"></a>
+<a id="orge912e85"></a>
 
 # Week 3
 
@@ -405,7 +409,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org394f3d2"></a>
+<a id="orgdf327f7"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -445,7 +449,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="org4e33ec9"></a>
+<a id="org1524998"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -468,7 +472,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="orgcdf35a6"></a>
+<a id="orgd908c8b"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -477,7 +481,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="orgf4c7e74"></a>
+<a id="orgdf3f0c1"></a>
 
 ## 2.201 Modelling requirements
 
@@ -497,7 +501,7 @@ system and some explicit structure. They can also describe
 depedencies and abstraction.
 
 
-<a id="org6317337"></a>
+<a id="orgb6a0dd0"></a>
 
 # Week 4
 
@@ -509,7 +513,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org60b6461"></a>
+<a id="orgc13b564"></a>
 
 ## 2.301 User-centred design
 
@@ -587,7 +591,7 @@ pitfalls:
 -   Documentation and training
 
 
-<a id="orgb2542b7"></a>
+<a id="org611fd88"></a>
 
 # Week 5
 
@@ -598,7 +602,7 @@ Key Concepts
 -   Consider the wider implications of building a system for purpose.
 
 
-<a id="orga4a75cc"></a>
+<a id="orgacd9810"></a>
 
 ## 3.01 What is research?
 
@@ -632,7 +636,7 @@ Another important topic is that of **reliability**. We want to ensure
 our results have meaning from the context of experimentation.
 
 
-<a id="org293019c"></a>
+<a id="orgeb459a8"></a>
 
 ## 3.101 Understanding the differences between quantitative and qualitative research
 
@@ -648,7 +652,7 @@ There are two main types of research:
     happening
 
 
-<a id="orge287cf5"></a>
+<a id="orgfc96bd4"></a>
 
 ## 3.102 Introduction to research methods
 
@@ -657,7 +661,7 @@ There are two main types of research:
     and Sons Inc, 2019) chapters 8 and 9 pp.259–34.2
 
 
-<a id="org06c8184"></a>
+<a id="org86d476d"></a>
 
 ## 3.201 Identifying useful sources of information
 
@@ -672,11 +676,72 @@ There are two main types of research:
     impose biases
 
 
-<a id="org4e73691"></a>
+<a id="org988a98b"></a>
 
 ## 3.202 Team activity and deliverable: doing prerequisite investigation
 
 -   Department for Education [Realising the potential of technology in
     education: A strategy for education providers and the technology
     industry](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/791931/DfE-Education_Technology_Strategy.pdf). (2019).
+
+
+<a id="org47d8a69"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Consider the wider implications of building a system for purpose.
+-   Identify interesting and valuable sources of information
+-   Make decisions based around research findings
+
+
+<a id="org3958d22"></a>
+
+## 3.301 How to analyse the competition and place your ‘solution’ in a space
+
+A stakeholder is any person who has an interested in what we&rsquo;re
+doing. Our employer, for example, or those working on supporting
+roles of the business, team members, users and so on.
+
+There&rsquo;s a vast number of people who would be considered as a
+*stakeholder* in a system, even for small systems; therefore we
+can apply [STEEPLE](https://en.wikipedia.org/wiki/PEST_analysis) analysis to try and understand our external
+environment.
+
+STEEPLE is concerned with the following aspects:
+
+-   **Social:** changes in culture, demographics, and attitudes
+-   **Technological:** changes in technology that can affect our system
+-   **Economic:** financial implications of our decisions
+-   **Environmental:** concerned with environmental implications of our
+    product
+-   **Political:** labour law, taxation obligations, etc
+-   **Legal:** legal implications concerning data and privacy, for
+    example
+-   **Ethical:** besides legal ramifications, we want to ensure our
+    approach is ethical
+
+
+<a id="org8b11df7"></a>
+
+## 3.302 SWOT analysis
+
+[SWOT Analysis](https://en.wikipedia.org/wiki/SWOT_analysis) is a strategic planning technique to help an
+individual or organization identify strengths, weaknesses,
+opportunities, and threats related to business competition or
+project planning.
+
+-   **Strengths:** What&rsquo;s *special* or *unique* about the project?
+-   **Weaknesses:** What do we lack that may reflect on the project?
+-   **Opportunities:** What environmental or business qualities can we
+    exploit to our advantage?
+-   **Threats:** What can cause trouble to the project?
+
+
+<a id="org1f58d7e"></a>
+
+## Alternative models
+
+-   [UNICEF SWOT and STEEPLE](https://www.unicef.org/knowledge-exchange/files/SWOT_and_PESTEL_production.pdf)
 
