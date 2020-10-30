@@ -1,42 +1,49 @@
 
 # Table of Contents
 
-1.  [Week 1](#org05d5dd6)
-    1.  [Reading: Ethics in information security](#orga7f1826)
-    2.  [Defining computer security](#org7cbd5ee)
-    3.  [Types of malicious software 1](#org5b82169)
-        1.  [Viruses](#org5350ea9)
-        2.  [Worms](#orgba10ce7)
-        3.  [Adware](#org2674042)
-        4.  [Trojans](#orgd501e0f)
-        5.  [Spyware](#orgdd1f479)
-    4.  [Types of malicious software 2](#orga0fe9a0)
-2.  [Week 2](#orgc299a15)
-    1.  [Malware analysis and techniques](#org1d98438)
-    2.  [Malware analysis 2](#orga0d0117)
-    3.  [Ethics](#org957d740)
-    4.  [Passwords](#orge1edc53)
-    5.  [Social Engineering](#org8f20137)
-3.  [Week 3](#org67d437d)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org8bad9c0)
-    2.  [Paper about CIA](#org5a2de00)
-    3.  [The attack surface and the denial of service attack](#org3073392)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#org05eefbc)
-    5.  [Mirai GitHub and Research Paper](#orgb3c943f)
-    6.  [Wireless attacks: WiFi attack vectors](#org9883294)
-    7.  [Wireless Networking Security](#org590a3af)
-4.  [Week 4](#org35a347c)
-    1.  [Firewalls – our first line of defence](#org4ddf942)
-    2.  [Intrusion detection systems (IDS)](#orgb622946)
-    3.  [Intrusion Detection Systems](#org21996a1)
-5.  [Week 5](#org2ccd03e)
-    1.  [Operating systems: windows and OS hardening](#org186f379)
-    2.  [File system and directory structure](#org6790fc2)
-    3.  [Windows Security](#orgbb37ed2)
+1.  [Week 1](#orgc8d3785)
+    1.  [Reading: Ethics in information security](#org4d9709e)
+    2.  [Defining computer security](#orgae96f8b)
+    3.  [Types of malicious software 1](#org982cf6f)
+        1.  [Viruses](#org0fe95c0)
+        2.  [Worms](#org2e73bc5)
+        3.  [Adware](#orgcf12a12)
+        4.  [Trojans](#org565fb14)
+        5.  [Spyware](#org6218631)
+    4.  [Types of malicious software 2](#org030cbbe)
+2.  [Week 2](#org867c55b)
+    1.  [Malware analysis and techniques](#org09df50b)
+    2.  [Malware analysis 2](#org0906776)
+    3.  [Ethics](#orgfb5b598)
+    4.  [Passwords](#org32d75a6)
+    5.  [Social Engineering](#org5794f84)
+3.  [Week 3](#org4e9c06d)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org9f1366b)
+    2.  [Paper about CIA](#org98b38f3)
+    3.  [The attack surface and the denial of service attack](#org683fedf)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#orgf01be9b)
+    5.  [Mirai GitHub and Research Paper](#orgbf5886e)
+    6.  [Wireless attacks: WiFi attack vectors](#org48ce160)
+    7.  [Wireless Networking Security](#orgf6c83d6)
+4.  [Week 4](#org7b7a295)
+    1.  [Firewalls – our first line of defence](#orgc855799)
+    2.  [Intrusion detection systems (IDS)](#org16c0836)
+    3.  [Intrusion Detection Systems](#org683dfd9)
+5.  [Week 5](#org504fe95)
+    1.  [Operating systems: windows and OS hardening](#org9876c00)
+    2.  [File system and directory structure](#org55dbc0b)
+    3.  [Windows Security](#org3d763bc)
+6.  [Week 6](#org90f93fd)
+    1.  [Why is Linux important for security & hardening Linux with Harbian](#orge5b8165)
+    2.  [Harbian on Github](#org0bcc82b)
+    3.  [The Android attack surface](#org25ab4b7)
+    4.  [Smartphone security: an overview of emerging threats.](#org99da7af)
+    5.  [Virtualised and containerised operating systems](#org941324f)
+    6.  [Container Security](#org20a0584)
 
 
 
-<a id="org05d5dd6"></a>
+<a id="orgc8d3785"></a>
 
 # Week 1
 
@@ -49,7 +56,7 @@ Key Concepts
     significance.
 
 
-<a id="orga7f1826"></a>
+<a id="org4d9709e"></a>
 
 ## Reading: Ethics in information security
 
@@ -62,7 +69,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="org7cbd5ee"></a>
+<a id="orgae96f8b"></a>
 
 ## Defining computer security
 
@@ -110,7 +117,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="org5b82169"></a>
+<a id="org982cf6f"></a>
 
 ## Types of malicious software 1
 
@@ -119,7 +126,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="org5350ea9"></a>
+<a id="org0fe95c0"></a>
 
 ### Viruses
 
@@ -141,7 +148,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="orgba10ce7"></a>
+<a id="org2e73bc5"></a>
 
 ### Worms
 
@@ -159,7 +166,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org2674042"></a>
+<a id="orgcf12a12"></a>
 
 ### Adware
 
@@ -168,7 +175,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="orgd501e0f"></a>
+<a id="org565fb14"></a>
 
 ### Trojans
 
@@ -187,7 +194,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="orgdd1f479"></a>
+<a id="org6218631"></a>
 
 ### Spyware
 
@@ -200,7 +207,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="orga0fe9a0"></a>
+<a id="org030cbbe"></a>
 
 ## Types of malicious software 2
 
@@ -243,7 +250,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="orgc299a15"></a>
+<a id="org867c55b"></a>
 
 # Week 2
 
@@ -254,7 +261,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org1d98438"></a>
+<a id="org09df50b"></a>
 
 ## Malware analysis and techniques
 
@@ -296,7 +303,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="orga0d0117"></a>
+<a id="org0906776"></a>
 
 ## Malware analysis 2
 
@@ -334,7 +341,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="org957d740"></a>
+<a id="orgfb5b598"></a>
 
 ## Ethics
 
@@ -378,7 +385,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="orge1edc53"></a>
+<a id="org32d75a6"></a>
 
 ## Passwords
 
@@ -413,7 +420,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org8f20137"></a>
+<a id="org5794f84"></a>
 
 ## Social Engineering
 
@@ -437,7 +444,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org67d437d"></a>
+<a id="org4e9c06d"></a>
 
 # Week 3
 
@@ -450,7 +457,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="org8bad9c0"></a>
+<a id="org9f1366b"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -474,7 +481,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="org5a2de00"></a>
+<a id="org98b38f3"></a>
 
 ## Paper about CIA
 
@@ -486,7 +493,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="org3073392"></a>
+<a id="org683fedf"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -552,7 +559,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="org05eefbc"></a>
+<a id="orgf01be9b"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -577,7 +584,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="orgb3c943f"></a>
+<a id="orgbf5886e"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -602,7 +609,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org9883294"></a>
+<a id="org48ce160"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -647,7 +654,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="org590a3af"></a>
+<a id="orgf6c83d6"></a>
 
 ## Wireless Networking Security
 
@@ -674,7 +681,7 @@ networks. Some examples:
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
 
-<a id="org35a347c"></a>
+<a id="org7b7a295"></a>
 
 # Week 4
 
@@ -686,7 +693,7 @@ Key Concepts
     historical and contemporary systems.
 
 
-<a id="org4ddf942"></a>
+<a id="orgc855799"></a>
 
 ## Firewalls – our first line of defence
 
@@ -698,7 +705,7 @@ Key Concepts
 -   **Proxy Firewall:** Carries out external network access.
 
 
-<a id="orgb622946"></a>
+<a id="org16c0836"></a>
 
 ## Intrusion detection systems (IDS)
 
@@ -744,7 +751,7 @@ of the system. A common dataset to use for this case is the [KDD99
 Dataset](https://www.unb.ca/cic/datasets/nsl.html).
 
 
-<a id="org21996a1"></a>
+<a id="org683dfd9"></a>
 
 ## Intrusion Detection Systems
 
@@ -765,7 +772,7 @@ Dataset](https://www.unb.ca/cic/datasets/nsl.html).
     10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
 
 
-<a id="org2ccd03e"></a>
+<a id="org504fe95"></a>
 
 # Week 5
 
@@ -779,7 +786,7 @@ Key Concepts
     historical versions of Windows operating systems.
 
 
-<a id="org186f379"></a>
+<a id="org9876c00"></a>
 
 ## Operating systems: windows and OS hardening
 
@@ -833,7 +840,7 @@ on, ensuring wireless connection is disabled if not needed, and so
 on.
 
 
-<a id="org6790fc2"></a>
+<a id="org55dbc0b"></a>
 
 ## File system and directory structure
 
@@ -880,7 +887,7 @@ Important attributes are:
 A file system also has a directory structure.
 
 
-<a id="orgbb37ed2"></a>
+<a id="org3d763bc"></a>
 
 ## Windows Security
 
@@ -889,4 +896,111 @@ A file system also has a directory structure.
 -   [Windows Consumer Security circa Oct 2020](https://web.archive.org/web/20201001021650/https://www.microsoft.com/en-us/windows/comprehensive-security):
 
 -   [Windows Enterprise Security circa Oct 2020](https://web.archive.org/web/20200611221008/https://docs.microsoft.com/en-us/windows/security)
+
+
+<a id="org90f93fd"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Use a security auditing tool to identify and solve security
+    problems in a Linux operating system.
+-   Describe the attack surface presented by a typical Android device.
+-   Discuss the issues with containerised systems and explain why this
+    is relevant in contemporary internet architectures.
+
+
+<a id="orge5b8165"></a>
+
+## Why is Linux important for security & hardening Linux with Harbian
+
+Linux is, nowadays, used everywhere. It runs on baby monitors,
+Azure Sphere devices, Smartphones (Android), the Financial Market,
+many of the Top 500 supercomputers, and so on. Securing and
+hardening Linux is a very important endeavor.
+
+To that end, we look at Harbian &#x2013; A [Debian](https://www.debian.org/)-based distribution
+focused at security &#x2013; and how it can help us hardening a Linux
+system.
+
+
+<a id="org0bcc82b"></a>
+
+## Harbian on Github
+
+-   <https://github.com/hardenedlinux/harbian-audit>
+
+
+<a id="org25ab4b7"></a>
+
+## The Android attack surface
+
+An average android smartphone has a very large attack surface.
+
+-   **Wi-Fi:** connects to outside world (internet) and is a possible
+    attack vector. A badly written Firmware or Driver for this could
+    allow remote code execution and data leaks
+-   **Bluetooth:** used mostly to connect with headsets, fitness
+    devices, input devices, etc. One could design a malicious
+    Bluetooth device, perhaps something claiming to be a headset to
+    record private conversations
+-   **Cellular:** 5G, 4G, or any other mobile network goes here. It
+    relies on a large software stack running in a modem.
+-   **Sensors:** Any of the sensors in a phone (camera, microphone,
+    touchscreen, accelerometer, gyroscope, GPS, etc) have a software
+    stack required to make them function. Any of these pieces may be
+    susceptible to attacks
+-   **Android Stack:** The Linux kernel with a bunch of middleware and
+    vendor-specific extensions, any of which may be susceptible to
+    attacks
+-   **Apps:** Any of the apps installed on a phone may to prone to
+    contain security flaws
+
+
+<a id="org99da7af"></a>
+
+## Smartphone security: an overview of emerging threats.
+
+-   S. Grzonkowski, A. Mosquera, L. Aouad and D. Morss [Smartphone
+    security: an overview of emerging threats](https://ieeexplore.ieee.org/document/6914660/), IEEE Consumer
+    Electronics Magazine 3(4) Oct 2014, pp.40–44.
+
+-   Wang, Y., W. Cai, T. Gu and W. Shao [Your eyes reveal your
+    secrets: an eye movement based password inference on smartphone](https://ieeexplore.ieee.org/document/8798759),
+    IEEE Transactions on Mobile Computing 19(11) 2020, pp.2714–2730.
+
+
+<a id="org941324f"></a>
+
+## Virtualised and containerised operating systems
+
+In a virtual machine we spin up and entire model of a computer and,
+with it, an entire new operating system. Because of that, it ends
+up having a slow startup time.
+
+Containers, on the other hand, runs the same kernel as the host
+OS. Because of that, it&rsquo;s smaller and starts up pretty fast.
+
+There are four common attack routes to containers:
+
+-   **Host to Container:** The Host OS could be compromised and used to
+    attack its Guest containers
+-   **Container to Host:** A security flaw may allow a container to
+    leave its sandbox and access the Host&rsquo;s resources
+    directly. Another possibility would be hundreds of containers
+    running a DDoS attack against the Host
+-   **Container to Container:** A malicious container may attack
+    another container
+-   **Application to Container:** A malicious application running on a
+    container attacks it
+
+
+<a id="org20a0584"></a>
+
+## Container Security
+
+-   S. Sultan, I. Ahmad and T. Dimitriou, [Container Security: Issues,
+    Challenges, and the Road Ahead](https://ieeexplore.ieee.org/document/8693491), in IEEE Access, vol. 7,
+    pp. 52976-52996, 2019, doi: 10.1109/ACCESS.2019.2911732
 
