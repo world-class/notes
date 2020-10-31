@@ -7,7 +7,7 @@ Definitions:
 4. In software design, a measure of the interdependence among modules in a computer program.
 
 
-## Different type of module cohesions
+## Different type of module couplings
 
 
 | Type of coupling     | Description of module tasks                                                                                                       | Good or bad?                                                                           |
