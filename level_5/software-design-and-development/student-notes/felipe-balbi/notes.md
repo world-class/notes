@@ -1,50 +1,61 @@
 
 # Table of Contents
 
-1.  [Week 1](#org78be000)
-    1.  [Module Introduction](#org2a0f913)
-    2.  [1.0202 Reference points](#orgba1e90d)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org22578f3)
-    4.  [1.0204 What is a module?](#org5d3b255)
-    5.  [1.0206 What is module complexity?](#orgf5425f7)
-    6.  [1.0208 Complexity references](#org7e35a0a)
-2.  [Week 2](#orgbc69df2)
-    1.  [2.0102 Week 2 reading](#org1ba9dd0)
-    2.  [2.0201 What is module cohesion?](#orgec2c943)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org2a8849a)
-3.  [Week 3](#orgf312320)
-    1.  [3.0102 Week 3 reading](#org8b6d7d3)
-    2.  [3.0201 What is module coupling?](#orgbfff344)
-    3.  [3.0203 Different types of coupling: good or bad?](#orga77f48b)
-    4.  [3.0205 Common environment coupling: good or bad?](#orgafa75cc)
-    5.  [3.0207 Content coupling: good or bad?](#orgd6d4d5c)
-    6.  [3.0209 Control coupling: good or bad?](#org3f1ac83)
-    7.  [3.0211 Data coupling: good or bad?](#org77f2f8b)
-    8.  [3.0213 Hybrid coupling: good or bad?](#orgf136ca2)
-    9.  [3.0215 Pathological coupling: good or bad?](#org622bb89)
-4.  [Week 4](#org76ce853)
-    1.  [4.012 Week 4 reading](#orge83369c)
-    2.  [4.0201 Reasoning about scope](#org4a67882)
-    3.  [4.0203 Reasoning about function parameters](#orgb3c57f1)
-    4.  [4.0205 Replacing functions dynamically and const](#org1a47975)
-5.  [Week 5](#orge2527ee)
-    1.  [5.0002 Topic reading](#orgd50c6af)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#org35f5c28)
-    3.  [5.0113 What to test? An overview](#org694c4be)
-6.  [Week 6](#orgcd7d47e)
-    1.  [6.0102 Week 6 reading](#orgaaaf679)
-    2.  [6.013 Super quick Python tutorial](#orgb56b58d)
-        1.  [Variables](#org92aa8cc)
-        2.  [Lists](#orgdf53101)
-        3.  [Functions](#org5b4eb7e)
-    3.  [6.0201 Introduction to unittest in Python](#org0476b11)
-    4.  [6.0203 Assertion function in unittest](#org15324b4)
-    5.  [6.0205 Assert functions in unittest](#org26ad743)
-    6.  [6.0301 Introduction to statistics libraries](#orgc527e49)
+1.  [Week 1](#org9291042)
+    1.  [Module Introduction](#org8f01325)
+    2.  [1.0202 Reference points](#org1da09f7)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#org4197669)
+    4.  [1.0204 What is a module?](#org66a78f8)
+    5.  [1.0206 What is module complexity?](#org71b9f4c)
+    6.  [1.0208 Complexity references](#org2a2e966)
+2.  [Week 2](#org9e0881a)
+    1.  [2.0102 Week 2 reading](#orgd5631bc)
+    2.  [2.0201 What is module cohesion?](#org7bafa8f)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org8972cb0)
+3.  [Week 3](#org3fc32ee)
+    1.  [3.0102 Week 3 reading](#orgfef2bea)
+    2.  [3.0201 What is module coupling?](#org8bd7b9b)
+    3.  [3.0203 Different types of coupling: good or bad?](#org5cc3245)
+    4.  [3.0205 Common environment coupling: good or bad?](#orgc67be33)
+    5.  [3.0207 Content coupling: good or bad?](#org659615e)
+    6.  [3.0209 Control coupling: good or bad?](#orgd0e4dcf)
+    7.  [3.0211 Data coupling: good or bad?](#org009babe)
+    8.  [3.0213 Hybrid coupling: good or bad?](#orge319bd2)
+    9.  [3.0215 Pathological coupling: good or bad?](#org392b5f7)
+4.  [Week 4](#orgffe2e70)
+    1.  [4.012 Week 4 reading](#orgf449713)
+    2.  [4.0201 Reasoning about scope](#orgc3e46cc)
+    3.  [4.0203 Reasoning about function parameters](#org943c06e)
+    4.  [4.0205 Replacing functions dynamically and const](#org56ead5f)
+5.  [Week 5](#orgac86a22)
+    1.  [5.0002 Topic reading](#orgdc6cffe)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#orgfee863f)
+    3.  [5.0113 What to test? An overview](#orgabe3b05)
+6.  [Week 6](#org38846da)
+    1.  [6.0102 Week 6 reading](#orgae82ab5)
+    2.  [6.013 Super quick Python tutorial](#orgdc51cdb)
+        1.  [Variables](#org15fbe6f)
+        2.  [Lists](#org4b3ac3c)
+        3.  [Functions](#org3c92a96)
+    3.  [6.0201 Introduction to unittest in Python](#org1808176)
+    4.  [6.0203 Assertion function in unittest](#orgbd50c07)
+    5.  [6.0205 Assert functions in unittest](#org22af30d)
+    6.  [6.0301 Introduction to statistics libraries](#org448c69c)
+7.  [Week 7](#org7ff1d11)
+    1.  [7.0102 Week 7 reading](#orgc98882d)
+    2.  [7.0201 C++ primer](#org0188cae)
+        1.  [Variables](#orgfe6c253)
+        2.  [Arrays](#org7d947b0)
+        3.  [Loops](#org0b172cf)
+        4.  [Functions](#orge4faf9d)
+        5.  [Classes](#orgf0cc935)
+    3.  [7.0206 Introduction to cppunit](#org334d378)
+    4.  [7.0208 Adding better output and multiple tests](#org325fd08)
+    5.  [7.021 Assert functions in cppunit](#org923128e)
 
 
 
-<a id="org78be000"></a>
+<a id="org9291042"></a>
 
 # Week 1
 
@@ -56,7 +67,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="org2a0f913"></a>
+<a id="org8f01325"></a>
 
 ## Module Introduction
 
@@ -82,7 +93,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="orgba1e90d"></a>
+<a id="org1da09f7"></a>
 
 ## 1.0202 Reference points
 
@@ -103,7 +114,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org22578f3"></a>
+<a id="org4197669"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -116,7 +127,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org5d3b255"></a>
+<a id="org66a78f8"></a>
 
 ## 1.0204 What is a module?
 
@@ -139,7 +150,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="orgf5425f7"></a>
+<a id="org71b9f4c"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -165,7 +176,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org7e35a0a"></a>
+<a id="org2a2e966"></a>
 
 ## 1.0208 Complexity references
 
@@ -180,7 +191,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="orgbc69df2"></a>
+<a id="org9e0881a"></a>
 
 # Week 2
 
@@ -192,7 +203,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="org1ba9dd0"></a>
+<a id="orgd5631bc"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -205,7 +216,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="orgec2c943"></a>
+<a id="org7bafa8f"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -256,7 +267,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org2a8849a"></a>
+<a id="org8972cb0"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -285,7 +296,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="orgf312320"></a>
+<a id="org3fc32ee"></a>
 
 # Week 3
 
@@ -299,7 +310,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="org8b6d7d3"></a>
+<a id="orgfef2bea"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -308,7 +319,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="orgbfff344"></a>
+<a id="org8bd7b9b"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -321,7 +332,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="orga77f48b"></a>
+<a id="org5cc3245"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -344,7 +355,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="orgafa75cc"></a>
+<a id="orgc67be33"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -365,7 +376,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="orgd6d4d5c"></a>
+<a id="org659615e"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -377,7 +388,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="org3f1ac83"></a>
+<a id="orgd0e4dcf"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -402,7 +413,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="org77f2f8b"></a>
+<a id="org009babe"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -412,7 +423,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="orgf136ca2"></a>
+<a id="orge319bd2"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -431,7 +442,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org622bb89"></a>
+<a id="org392b5f7"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -441,7 +452,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org76ce853"></a>
+<a id="orgffe2e70"></a>
 
 # Week 4
 
@@ -454,7 +465,7 @@ Key Concepts
     cohesion.
 
 
-<a id="orge83369c"></a>
+<a id="orgf449713"></a>
 
 ## 4.012 Week 4 reading
 
@@ -465,7 +476,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="org4a67882"></a>
+<a id="orgc3e46cc"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -527,7 +538,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="orgb3c57f1"></a>
+<a id="org943c06e"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -595,7 +606,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="org1a47975"></a>
+<a id="org56ead5f"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -651,7 +662,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="orge2527ee"></a>
+<a id="orgac86a22"></a>
 
 # Week 5
 
@@ -663,7 +674,7 @@ Key Concepts
     code repositories
 
 
-<a id="orgd50c6af"></a>
+<a id="orgdc6cffe"></a>
 
 ## 5.0002 Topic reading
 
@@ -683,7 +694,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="org35f5c28"></a>
+<a id="orgfee863f"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -703,7 +714,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="org694c4be"></a>
+<a id="orgabe3b05"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -725,7 +736,7 @@ process in short iterative bursts.
     and handled to avoid crashes
 
 
-<a id="orgcd7d47e"></a>
+<a id="org38846da"></a>
 
 # Week 6
 
@@ -736,19 +747,19 @@ Key Concepts
 -   Carry out the test-driven development workflow in Python
 
 
-<a id="orgaaaf679"></a>
+<a id="orgae82ab5"></a>
 
 ## 6.0102 Week 6 reading
 
 -   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
 
 
-<a id="orgb56b58d"></a>
+<a id="orgdc51cdb"></a>
 
 ## 6.013 Super quick Python tutorial
 
 
-<a id="org92aa8cc"></a>
+<a id="org15fbe6f"></a>
 
 ### Variables
 
@@ -760,7 +771,7 @@ and give it a value:
     myString = "Hello"
 
 
-<a id="orgdf53101"></a>
+<a id="org4b3ac3c"></a>
 
 ### Lists
 
@@ -805,7 +816,7 @@ To extend a list with the items from another list, we can use
     myList.extend(anotherList)
 
 
-<a id="org5b4eb7e"></a>
+<a id="org3c92a96"></a>
 
 ### Functions
 
@@ -825,7 +836,7 @@ Keep in mind that Python uses *pass-by-value*, not
 *pass-by-reference*.
 
 
-<a id="org0476b11"></a>
+<a id="org1808176"></a>
 
 ## 6.0201 Introduction to unittest in Python
 
@@ -844,7 +855,7 @@ example of how to use it:
     unittest.main(argv = ['ignored', 'v'], exit = False)
 
 
-<a id="org15324b4"></a>
+<a id="orgbd50c07"></a>
 
 ## 6.0203 Assertion function in unittest
 
@@ -853,14 +864,14 @@ built-in. Instead of repeating them here, it&rsquo;s to access its
 [documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
 
 
-<a id="org26ad743"></a>
+<a id="org22af30d"></a>
 
 ## 6.0205 Assert functions in unittest
 
 -   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
 
 
-<a id="orgc527e49"></a>
+<a id="org448c69c"></a>
 
 ## 6.0301 Introduction to statistics libraries
 
@@ -870,6 +881,404 @@ libraries contain methods for computing the mean, min, max,
 standard deviation, and variance. Some other common, but more
 advanced, methods would be calculating correlation coefficients,
 [ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
+
+
+<a id="org7ff1d11"></a>
+
+# Week 7
+
+Key Concepts
+
+-   Write unit tests using the C++ cppunit package
+-   Describe the elements of a unit testing framework.
+-   Carry out the test-driven development workflow in C++
+
+
+<a id="orgc98882d"></a>
+
+## 7.0102 Week 7 reading
+
+-   cplusplus.com [Structure of a program](http://cplusplus.com/doc/tutorial/program_structure/) (2020).
+
+
+<a id="org0188cae"></a>
+
+## 7.0201 C++ primer
+
+Usually, a C++ program starts with including some libraries and a
+`main()` function. We can use the minimal skeleton below:
+
+    #include <iostream>
+    
+    int main(void)
+    {
+        return 0;
+    }
+
+
+<a id="orgfe6c253"></a>
+
+### Variables
+
+C++ is a strongly typed language. Variables must be explicitly
+declared, together with their types before they can be used.
+
+    #include <iostream>
+    
+    int main(void)
+    {
+        int x = 42;
+    
+        printf("x = %i\n", x);
+    
+        return 0;
+    }
+
+In order to run this, we must first compile it to generate a
+runnable binary, we do that at the terminal with the following
+command (assuming the code above is saved to a file named
+main.cpp):
+
+    $ g++ main.cpp -o main
+    $ ./main
+    x = 42
+
+C++ supports many different primitive data types, for example:
+
+    #include <iostream>
+    
+    int main(void)
+    {
+        int x = 42;
+        float y = 3.14f;
+    
+        printf("x = %i\n", x);
+        printf("y = %f\n", y);
+    
+        return 0;
+    }
+
+And [here](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) we can find a longer description of many of the possible
+data types in C++.
+
+
+<a id="org7d947b0"></a>
+
+### Arrays
+
+Arrays are declared using the skeleton below:
+
+    type arrayName[arraySize];
+
+For example, for an array of integers, we can use:
+
+    int numbers[10];
+
+Which would give us an array of 10 integers. Indices start at 0,
+i.e. the first element of the array is 0.
+
+    #include <iostream>
+    
+    int main(void)
+    {
+        int x[10] = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
+    
+        printf("x[4] = %i\n", x[4]);
+    
+        return 0;
+    }
+
+
+<a id="org0b172cf"></a>
+
+### Loops
+
+C++ supports several kinds of loops. A `for` loop can help us, for
+example, iterate over the elements of an array and print one by
+one:
+
+    #include <iostream>
+    
+    int main(void)
+    {
+        int x[10] = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
+        int i;
+    
+        for (i = 0; i < 10; i++)
+    	printf("x[i] = %i\n", x[i]);
+    
+        return 0;
+    }
+
+
+<a id="orge4faf9d"></a>
+
+### Functions
+
+We can define our own functions in C++. The basic format is:
+
+    type functionName(type arg1, type arg2, ...)
+    {
+        // function body
+    }
+
+For example, if we want to create a function that takes one
+integer and produces its successor, we would implement it like so:
+
+    #include <iostream>
+    
+    static int succ(int n)
+    {
+        return n + 1;
+    }
+    
+    int main(void)
+    {
+        int x = 41;
+    
+        printf("successor of %i is %i\n", x, succ(x));
+    
+        return 0;
+    }
+
+That `static` keywords tells the compiler that `succ()` is only
+supposed to be accessible from the current source file.
+
+
+<a id="orgf0cc935"></a>
+
+### Classes
+
+C++ is an object oriented language and, as such, has built-in
+support for classes. The basic syntax for declaring a class is:
+
+    class ClassName {
+    public:
+        ClassName(type arg1, ...);
+        type methodName1(type arg1, ...);
+        type methodName2(type arg1, ...);
+        ...
+    
+        type attribute1;
+        type attribute2;
+        ...
+    
+    private:
+        type privateAttribute1;
+        type privateAttribute2;
+        type privateAttribute3;
+    
+        type privateMethodName1(type arg1, ...);
+        type privateMethodName2(type arg1, ...);
+    };
+
+For example:
+
+    class Thing {
+    public:
+        Thing(float x, float y)
+        {
+    	this->x = x;
+    	this->y = y;
+        }
+    
+        float getX(void)
+        {
+    	return this->x;
+        }
+    
+    private:
+        float x;
+        float y;
+    };
+    
+    int main(void)
+    {
+        Thing thing {10.2f, 10.5f};
+    
+        printf("Thing's X is %f\n", thing.getX());
+    
+        return 0;
+    }
+
+
+<a id="org334d378"></a>
+
+## 7.0206 Introduction to cppunit
+
+[cppunit](https://www.freedesktop.org/wiki/Software/cppunit/) is a C++ Unit Testing framework which we can use to
+automate tests on C++ software. Here&rsquo;s a simple example:
+
+    #include <cppunit/TestCase.h>
+    
+    class BasicTest : public CppUnit::TestCase {
+    public:
+        BasicTest(std::string name) : CppUnitTestCase(name) {}
+    
+        void runTest(void) override
+        {
+    	CPPUNIT_ASSERT(2 + 2 == 4);
+    	CPPUNIT_ASSERT(2 + 2 == 3);
+        }
+    };
+    
+    int main(void)
+    {
+        BasicTest test{"BasicTest"};
+        test.runTest();
+    
+        return 0;
+    }
+
+By inheriting from `CppUnit::TestCase`, we get a set of
+functionality and assertions from `CppUnit` to test the
+functionality of our code.
+
+When compiling this code, we need to link it against the `cppunit`
+library. Like so:
+
+    $ g++ main.cpp -lcppunit -o test
+    $ ./test
+    terminate called after throwing an instance of 'CppUnit::Exception'
+      what():  assertion failed
+    - Expression: 2 + 2 == 3
+    
+    Aborted
+
+
+<a id="org325fd08"></a>
+
+## 7.0208 Adding better output and multiple tests
+
+We can implement some more advanced testing setup with cppunit.
+
+    #include <cppunit/TestCase.h>
+    #include <cppunit/TestCaller.h>
+    #include <cppunit/ui/text/TestRunner.h>
+    
+    class FixtureTests : public CppUnit::TestFixture {
+    public:
+        void testAddition(void)
+        {
+    	CPPUNIT_ASSERT(2 + 2 == 3);
+    	CPPUNIT_ASSERT(2 + 2 == 4);
+        }
+    };
+    
+    int main(void)
+    {
+        CppUnit::TextUi::TestRunner runner {};
+    
+        runner.addTest(new CppUnit::TestCaller<FixtureTests> {
+    	    "test the addition operator",
+    	    &FixtureTests::testAddition
+    	});
+    
+        runner.run();
+    
+        return 0;
+    }
+
+What this gives us, is an easier way to combine several tests
+together. Essentially, we can add as many tests as we want, for
+example:
+
+    #include <cppunit/TestCase.h>
+    #include <cppunit/TestCaller.h>
+    #include <cppunit/ui/text/TestRunner.h>
+    
+    class FixtureTests : public CppUnit::TestFixture {
+    public:
+        void testAddition(void)
+        {
+    	CPPUNIT_ASSERT(2 + 2 == 3);
+    	CPPUNIT_ASSERT(2 + 2 == 4);
+        }
+    
+        void testLogic(void)
+        {
+    	CPPUNIT_ASSERT(true == true);
+    	CPPUNIT_ASSERT(true == false);
+        }
+    };
+    
+    int main(void)
+    {
+        CppUnit::TextUi::TestRunner runner {};
+    
+        runner.addTest(new CppUnit::TestCaller<FixtureTests> {
+    	    "test the addition operator",
+    	    &FixtureTests::testAddition
+    	});
+    
+        runner.addTest(new CppUnit::TestCaller<FixtureTests> {
+    	    "test the logic",
+    	    &FixtureTests::testLogic
+    	});
+    
+        runner.run();
+    
+        return 0;
+    }
+
+This framework also has support for `setUp()` and `tearDown()`
+methods which can be used to allocate and free resources before and
+after each test. Like so:
+
+    #include <cppunit/TestCase.h>
+    #include <cppunit/TestCaller.h>
+    #include <cppunit/ui/text/TestRunner.h>
+    
+    class FixtureTests : public CppUnit::TestFixture {
+    public:
+        void setUp(void) override
+        {
+    	printf("Setup called\n");
+        }
+    
+        void tearDown(void) overrid
+        {
+    	printf("Teardown called\n");
+        }
+    
+        void testAddition(void)
+        {
+    	CPPUNIT_ASSERT(2 + 2 == 3);
+    	CPPUNIT_ASSERT(2 + 2 == 4);
+        }
+    
+        void testLogic(void)
+        {
+    	CPPUNIT_ASSERT(true == true);
+    	CPPUNIT_ASSERT(true == false);
+        }
+    };
+    
+    int main(void)
+    {
+        CppUnit::TextUi::TestRunner runner {};
+    
+        runner.addTest(new CppUnit::TestCaller<FixtureTests> {
+    	    "test the addition operator",
+    	    &FixtureTests::testAddition
+    	});
+    
+        runner.addTest(new CppUnit::TestCaller<FixtureTests> {
+    	    "test the logic",
+    	    &FixtureTests::testLogic
+    	});
+    
+        runner.run();
+    
+        return 0;
+    }
+
+
+<a id="org923128e"></a>
+
+## 7.021 Assert functions in cppunit
+
+-   [cppunit: Making assertions](https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html)
 
 
 # Footnotes
