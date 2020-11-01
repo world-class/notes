@@ -1,35 +1,42 @@
 
 # Table of Contents
 
-1.  [Week 1](#org2515324)
-    1.  [1.01 Module introduction](#org10faf0c)
-    2.  [1.07 The basics of interaction design](#org0bf9a4c)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org85a074b)
-2.  [Week 2](#org48d2dec)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#orgb3287a6)
-    2.  [1.305 Version control systems](#org751ac14)
-    3.  [1.401 The process of interaction design](#org2479b4c)
-3.  [Week 3](#orge912e85)
-    1.  [2.01 Introduction to requirements and specification](#orgdf327f7)
-    2.  [2.101 Purpose of gathering requirements](#org1524998)
-    3.  [2.102 Introduction to requirements gathering](#orgd908c8b)
-    4.  [2.201 Modelling requirements](#orgdf3f0c1)
-4.  [Week 4](#orgb6a0dd0)
-    1.  [2.301 User-centred design](#orgc13b564)
-5.  [Week 5](#org611fd88)
-    1.  [3.01 What is research?](#orgacd9810)
-    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orgeb459a8)
-    3.  [3.102 Introduction to research methods](#orgfc96bd4)
-    4.  [3.201 Identifying useful sources of information](#org86d476d)
-    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org988a98b)
-6.  [Week 6](#org47d8a69)
-    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org3958d22)
-    2.  [3.302 SWOT analysis](#org8b11df7)
-    3.  [Alternative models](#org1f58d7e)
+1.  [Week 1](#org1562a4e)
+    1.  [1.01 Module introduction](#org413fc40)
+    2.  [1.07 The basics of interaction design](#org4146816)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org613bcf0)
+2.  [Week 2](#org6fd9b47)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org011ade9)
+    2.  [1.305 Version control systems](#org28c4fcd)
+    3.  [1.401 The process of interaction design](#org414a497)
+3.  [Week 3](#org6b7b8e3)
+    1.  [2.01 Introduction to requirements and specification](#org29b41f8)
+    2.  [2.101 Purpose of gathering requirements](#org4ba0e75)
+    3.  [2.102 Introduction to requirements gathering](#org8394e0f)
+    4.  [2.201 Modelling requirements](#org336ee7c)
+4.  [Week 4](#orgbdb4ffb)
+    1.  [2.301 User-centred design](#org1c00007)
+5.  [Week 5](#org4341b86)
+    1.  [3.01 What is research?](#orgf1ab01b)
+    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orga60f447)
+    3.  [3.102 Introduction to research methods](#org001f6c9)
+    4.  [3.201 Identifying useful sources of information](#orgfbab818)
+    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org1f8975d)
+6.  [Week 6](#org5804c96)
+    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org0538996)
+    2.  [3.302 SWOT analysis](#org7e7128c)
+    3.  [Alternative models](#orgc64d434)
+7.  [Week 7](#orgedd49b9)
+    1.  [4.01 User-centred design in a nutshell](#org06fb751)
+    2.  [4.03 Design and prototyping](#orgb73f277)
+    3.  [4.101 Why ‘user-friendliness’ is a false metric](#org0d4a014)
+    4.  [4.102 Introduction to user-centred design](#org8381677)
+    5.  [4.201 Test early, test often, iterate](#org7e66117)
+    6.  [4.202 Heuristics for design](#org85ee240)
 
 
 
-<a id="org2515324"></a>
+<a id="org1562a4e"></a>
 
 # Week 1
 
@@ -40,7 +47,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org10faf0c"></a>
+<a id="org413fc40"></a>
 
 ## 1.01 Module introduction
 
@@ -48,7 +55,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="org0bf9a4c"></a>
+<a id="org4146816"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -62,7 +69,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org85a074b"></a>
+<a id="org613bcf0"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -108,7 +115,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="org48d2dec"></a>
+<a id="org6fd9b47"></a>
 
 # Week 2
 
@@ -119,7 +126,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="orgb3287a6"></a>
+<a id="org011ade9"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -377,7 +384,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org751ac14"></a>
+<a id="org28c4fcd"></a>
 
 ## 1.305 Version control systems
 
@@ -388,7 +395,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="org2479b4c"></a>
+<a id="org414a497"></a>
 
 ## 1.401 The process of interaction design
 
@@ -397,7 +404,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="orge912e85"></a>
+<a id="org6b7b8e3"></a>
 
 # Week 3
 
@@ -409,7 +416,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="orgdf327f7"></a>
+<a id="org29b41f8"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -449,7 +456,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="org1524998"></a>
+<a id="org4ba0e75"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -472,7 +479,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="orgd908c8b"></a>
+<a id="org8394e0f"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -481,7 +488,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="orgdf3f0c1"></a>
+<a id="org336ee7c"></a>
 
 ## 2.201 Modelling requirements
 
@@ -501,7 +508,7 @@ system and some explicit structure. They can also describe
 depedencies and abstraction.
 
 
-<a id="orgb6a0dd0"></a>
+<a id="orgbdb4ffb"></a>
 
 # Week 4
 
@@ -513,7 +520,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="orgc13b564"></a>
+<a id="org1c00007"></a>
 
 ## 2.301 User-centred design
 
@@ -591,7 +598,7 @@ pitfalls:
 -   Documentation and training
 
 
-<a id="org611fd88"></a>
+<a id="org4341b86"></a>
 
 # Week 5
 
@@ -602,7 +609,7 @@ Key Concepts
 -   Consider the wider implications of building a system for purpose.
 
 
-<a id="orgacd9810"></a>
+<a id="orgf1ab01b"></a>
 
 ## 3.01 What is research?
 
@@ -636,7 +643,7 @@ Another important topic is that of **reliability**. We want to ensure
 our results have meaning from the context of experimentation.
 
 
-<a id="orgeb459a8"></a>
+<a id="orga60f447"></a>
 
 ## 3.101 Understanding the differences between quantitative and qualitative research
 
@@ -652,7 +659,7 @@ There are two main types of research:
     happening
 
 
-<a id="orgfc96bd4"></a>
+<a id="org001f6c9"></a>
 
 ## 3.102 Introduction to research methods
 
@@ -661,7 +668,7 @@ There are two main types of research:
     and Sons Inc, 2019) chapters 8 and 9 pp.259–34.2
 
 
-<a id="org86d476d"></a>
+<a id="orgfbab818"></a>
 
 ## 3.201 Identifying useful sources of information
 
@@ -676,7 +683,7 @@ There are two main types of research:
     impose biases
 
 
-<a id="org988a98b"></a>
+<a id="org1f8975d"></a>
 
 ## 3.202 Team activity and deliverable: doing prerequisite investigation
 
@@ -685,7 +692,7 @@ There are two main types of research:
     industry](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/791931/DfE-Education_Technology_Strategy.pdf). (2019).
 
 
-<a id="org47d8a69"></a>
+<a id="org5804c96"></a>
 
 # Week 6
 
@@ -696,7 +703,7 @@ Key Concepts
 -   Make decisions based around research findings
 
 
-<a id="org3958d22"></a>
+<a id="org0538996"></a>
 
 ## 3.301 How to analyse the competition and place your ‘solution’ in a space
 
@@ -723,7 +730,7 @@ STEEPLE is concerned with the following aspects:
     approach is ethical
 
 
-<a id="org8b11df7"></a>
+<a id="org7e7128c"></a>
 
 ## 3.302 SWOT analysis
 
@@ -739,9 +746,198 @@ project planning.
 -   **Threats:** What can cause trouble to the project?
 
 
-<a id="org1f58d7e"></a>
+<a id="orgc64d434"></a>
 
 ## Alternative models
 
 -   [UNICEF SWOT and STEEPLE](https://www.unicef.org/knowledge-exchange/files/SWOT_and_PESTEL_production.pdf)
+
+
+<a id="orgedd49b9"></a>
+
+# Week 7
+
+Key Concepts
+
+-   Understand user-centred design and what it means to employ said
+    methods and strategies.
+-   Consider how user-centred design techniques can be used to
+    iteratively improve software quality.
+-   Formalize your findings and develop them as a series of
+    prototypes.
+
+
+<a id="org06fb751"></a>
+
+## 4.01 User-centred design in a nutshell
+
+As mentioned before, User-centred design is an iterative set of
+steps which focus on involving the users in the design process,
+development and testing of our software (i.e. our *Software
+Development Lifecycle*).
+
+A key concern in UCD is constantly re-evaluating the context of
+use. This helps us to specify (using e.g. UML) requirements which,
+in turn, help inform our designs.
+
+Because our conceptual understanding of how a system works is, in
+general, lacking, UCD provides a process to try and remove biases
+during system design an development.
+
+Ultimately, we want to produce better systems. We achieve that by
+taking into consideration feedback from our stakeholders. As we
+incorporate this feedback, the resulting product tends to better
+fit our users&rsquo; requirements.
+
+We also want our designs to fit the widest possible
+demographic. This is referred to as **Universal Design**.
+
+The result of all this effort also has tangible socio-technical
+benefits. Through an iterative design process we get:
+
+-   **Minimal training requirements:** when users are involved in the
+    design of the system, they won&rsquo;t need training afterwards
+
+-   **Minimal resistance to change:** the system embeds users&rsquo; values,
+    therefore they will be more willing to adopt the new system
+
+-   **Improved requirements:** because users are involved throughout
+    the design and development, we have many chances to clarify
+    requirements, which results in a much clearer set of requirements
+    for the system
+
+
+<a id="orgb73f277"></a>
+
+## 4.03 Design and prototyping
+
+-   Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
+    human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and
+    Sons Inc, 2019) chapter 12 pp.421–466.
+
+
+<a id="org0d4a014"></a>
+
+## 4.101 Why ‘user-friendliness’ is a false metric
+
+User-friendliness is not a universal, measurable metric. Its
+meaning changes depending on context.
+
+Our systems will, hopefully, be used by hundreds of different
+users from different backgrounds. How can we design a system that&rsquo;s
+*friendly* to this myriad of different users? In short, we can&rsquo;t.
+
+We can say that user-friendliness is a **false metric**, considering
+that there&rsquo;s no universal truth for what user-friendliness
+means. What is friendly to one person could be unfriendly to
+another.
+
+This is one reason why we can find so many options of SW doing
+roughly the same thing (IDEs, Operating Systems, Text Editor, etc).
+
+Instead of looking at user-friendliness, we should aim at
+understanding **Usability**. Here, our primary concerns are:
+
+-   **Effectiveness:** can I complete a task?
+-   **Efficiency:** How quickly/easily can I complete a task?
+-   **Satisfaction:** Do I enjoy using the system?
+
+Usability grew from the work on pioneers such as Jakob Nielsen,
+Donald Norman and Ben Shneiderman. The real revolution, however,
+came about with the increase in usage of systems.
+
+Along the way a series of innovations paved the way for big
+paradigm shifts. For example, the early Xerox Alto and Windows
+operating systems gave us a Graphical User Interface (GUI)
+operating system while affordable broadband internet largely
+increased the number of internet users. More recently the original
+iPhone revolutionized the mobile phone market and MOOCs have
+changed the way education is delivered.
+
+
+<a id="org8381677"></a>
+
+## 4.102 Introduction to user-centred design
+
+-   Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
+    human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and
+    Sons Inc, 2019) chapter 12 pp.471-491.
+
+
+<a id="org7e66117"></a>
+
+## 4.201 Test early, test often, iterate
+
+Testing is important in all Software Engineering. When we talk
+about *Iterative User Testing*, we might think of a test as way to
+**verify** the our systems behaves **as specified**.
+
+We can combine our testing methodology with our usability
+definition. For example, from an effectiveness and efficiency point
+of view, we can collect metrics on whether a user completed a
+specific task and how long did it take:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Task</th>
+<th scope="col" class="org-left">Completed?</th>
+<th scope="col" class="org-right">Time</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Task 1</td>
+<td class="org-left">Yes</td>
+<td class="org-right">00:23:17</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Task 2</td>
+<td class="org-left">No</td>
+<td class="org-right">N/A</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Task 3</td>
+<td class="org-left">Yes</td>
+<td class="org-right">00:11:46</td>
+</tr>
+</tbody>
+</table>
+
+User satisfaction testing is a bit more subjective. We probably
+want to collect more qualitative data regarding user
+satisfaction. We could watch people using our system to identify
+interaction patterns, or try to identify hesitation to counter user
+feedback.
+
+Sometimes, observational data and metrics may paint a different
+pictures, we have to resolve these sorts of problems as well.
+
+In order to *frame* our use cases, we may want to create
+*Personas*. They are an amalgamation of data that can help us think
+about what a typical user might look like. It should help us
+targeting users from a particular demographic.
+
+
+<a id="org85ee240"></a>
+
+## 4.202 Heuristics for design
+
+-   Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
+    human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and
+    Sons Inc, 2019) chapter 12 pp.549-576.
 
