@@ -1,49 +1,55 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc8d3785)
-    1.  [Reading: Ethics in information security](#org4d9709e)
-    2.  [Defining computer security](#orgae96f8b)
-    3.  [Types of malicious software 1](#org982cf6f)
-        1.  [Viruses](#org0fe95c0)
-        2.  [Worms](#org2e73bc5)
-        3.  [Adware](#orgcf12a12)
-        4.  [Trojans](#org565fb14)
-        5.  [Spyware](#org6218631)
-    4.  [Types of malicious software 2](#org030cbbe)
-2.  [Week 2](#org867c55b)
-    1.  [Malware analysis and techniques](#org09df50b)
-    2.  [Malware analysis 2](#org0906776)
-    3.  [Ethics](#orgfb5b598)
-    4.  [Passwords](#org32d75a6)
-    5.  [Social Engineering](#org5794f84)
-3.  [Week 3](#org4e9c06d)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org9f1366b)
-    2.  [Paper about CIA](#org98b38f3)
-    3.  [The attack surface and the denial of service attack](#org683fedf)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#orgf01be9b)
-    5.  [Mirai GitHub and Research Paper](#orgbf5886e)
-    6.  [Wireless attacks: WiFi attack vectors](#org48ce160)
-    7.  [Wireless Networking Security](#orgf6c83d6)
-4.  [Week 4](#org7b7a295)
-    1.  [Firewalls – our first line of defence](#orgc855799)
-    2.  [Intrusion detection systems (IDS)](#org16c0836)
-    3.  [Intrusion Detection Systems](#org683dfd9)
-5.  [Week 5](#org504fe95)
-    1.  [Operating systems: windows and OS hardening](#org9876c00)
-    2.  [File system and directory structure](#org55dbc0b)
-    3.  [Windows Security](#org3d763bc)
-6.  [Week 6](#org90f93fd)
-    1.  [Why is Linux important for security & hardening Linux with Harbian](#orge5b8165)
-    2.  [Harbian on Github](#org0bcc82b)
-    3.  [The Android attack surface](#org25ab4b7)
-    4.  [Smartphone security: an overview of emerging threats.](#org99da7af)
-    5.  [Virtualised and containerised operating systems](#org941324f)
-    6.  [Container Security](#org20a0584)
+1.  [Week 1](#orgf1d0d9a)
+    1.  [Reading: Ethics in information security](#orgf17b703)
+    2.  [Defining computer security](#org73bb2d9)
+    3.  [Types of malicious software 1](#org7f55d71)
+        1.  [Viruses](#orgd752c52)
+        2.  [Worms](#org14706f3)
+        3.  [Adware](#org89634f5)
+        4.  [Trojans](#org58be097)
+        5.  [Spyware](#org0c92269)
+    4.  [Types of malicious software 2](#orgeabe3d8)
+2.  [Week 2](#org38c8d4d)
+    1.  [Malware analysis and techniques](#orgc8ded02)
+    2.  [Malware analysis 2](#org653e268)
+    3.  [Ethics](#orgdbd2f41)
+    4.  [Passwords](#org3f328e3)
+    5.  [Social Engineering](#org832b93d)
+3.  [Week 3](#org137584f)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#orgab9a491)
+    2.  [Paper about CIA](#org3304206)
+    3.  [The attack surface and the denial of service attack](#orgf9309ac)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#org7eafe20)
+    5.  [Mirai GitHub and Research Paper](#org0e39a80)
+    6.  [Wireless attacks: WiFi attack vectors](#org051c5cb)
+    7.  [Wireless Networking Security](#orgc7bab7f)
+4.  [Week 4](#orgb5c4f7e)
+    1.  [Firewalls – our first line of defence](#orge6f6318)
+    2.  [Intrusion detection systems (IDS)](#org27475cb)
+    3.  [Intrusion Detection Systems](#org26c56f9)
+5.  [Week 5](#orgfeb9372)
+    1.  [Operating systems: windows and OS hardening](#org05ed6fa)
+    2.  [File system and directory structure](#org7295c25)
+    3.  [Windows Security](#orgbd186d3)
+6.  [Week 6](#orga68f755)
+    1.  [Why is Linux important for security & hardening Linux with Harbian](#org8c9ab9d)
+    2.  [Harbian on Github](#org9175b05)
+    3.  [The Android attack surface](#org9070b2b)
+    4.  [Smartphone security: an overview of emerging threats.](#org90cc931)
+    5.  [Virtualised and containerised operating systems](#org9455c71)
+    6.  [Container Security](#org9bfc8b0)
+7.  [Week 7](#org846385c)
+    1.  [What is Cryptography?](#org35275e0)
+    2.  [History of Cryptography](#orgbe93de1)
+    3.  [Symmetric cryptography](#orgf316750)
+    4.  [Asymmetric cryptography](#org402f3d1)
+    5.  [Some basic cyptographic techniques](#org137c5df)
 
 
 
-<a id="orgc8d3785"></a>
+<a id="orgf1d0d9a"></a>
 
 # Week 1
 
@@ -56,7 +62,7 @@ Key Concepts
     significance.
 
 
-<a id="org4d9709e"></a>
+<a id="orgf17b703"></a>
 
 ## Reading: Ethics in information security
 
@@ -69,7 +75,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="orgae96f8b"></a>
+<a id="org73bb2d9"></a>
 
 ## Defining computer security
 
@@ -117,7 +123,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="org982cf6f"></a>
+<a id="org7f55d71"></a>
 
 ## Types of malicious software 1
 
@@ -126,7 +132,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="org0fe95c0"></a>
+<a id="orgd752c52"></a>
 
 ### Viruses
 
@@ -148,7 +154,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="org2e73bc5"></a>
+<a id="org14706f3"></a>
 
 ### Worms
 
@@ -166,7 +172,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="orgcf12a12"></a>
+<a id="org89634f5"></a>
 
 ### Adware
 
@@ -175,7 +181,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="org565fb14"></a>
+<a id="org58be097"></a>
 
 ### Trojans
 
@@ -194,7 +200,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="org6218631"></a>
+<a id="org0c92269"></a>
 
 ### Spyware
 
@@ -207,7 +213,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="org030cbbe"></a>
+<a id="orgeabe3d8"></a>
 
 ## Types of malicious software 2
 
@@ -250,7 +256,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="org867c55b"></a>
+<a id="org38c8d4d"></a>
 
 # Week 2
 
@@ -261,7 +267,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org09df50b"></a>
+<a id="orgc8ded02"></a>
 
 ## Malware analysis and techniques
 
@@ -303,7 +309,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="org0906776"></a>
+<a id="org653e268"></a>
 
 ## Malware analysis 2
 
@@ -341,7 +347,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="orgfb5b598"></a>
+<a id="orgdbd2f41"></a>
 
 ## Ethics
 
@@ -385,7 +391,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org32d75a6"></a>
+<a id="org3f328e3"></a>
 
 ## Passwords
 
@@ -420,7 +426,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org5794f84"></a>
+<a id="org832b93d"></a>
 
 ## Social Engineering
 
@@ -444,7 +450,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org4e9c06d"></a>
+<a id="org137584f"></a>
 
 # Week 3
 
@@ -457,7 +463,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="org9f1366b"></a>
+<a id="orgab9a491"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -481,7 +487,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="org98b38f3"></a>
+<a id="org3304206"></a>
 
 ## Paper about CIA
 
@@ -493,7 +499,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="org683fedf"></a>
+<a id="orgf9309ac"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -559,7 +565,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="orgf01be9b"></a>
+<a id="org7eafe20"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -584,7 +590,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="orgbf5886e"></a>
+<a id="org0e39a80"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -609,7 +615,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org48ce160"></a>
+<a id="org051c5cb"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -654,7 +660,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="orgf6c83d6"></a>
+<a id="orgc7bab7f"></a>
 
 ## Wireless Networking Security
 
@@ -681,7 +687,7 @@ networks. Some examples:
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
 
-<a id="org7b7a295"></a>
+<a id="orgb5c4f7e"></a>
 
 # Week 4
 
@@ -693,7 +699,7 @@ Key Concepts
     historical and contemporary systems.
 
 
-<a id="orgc855799"></a>
+<a id="orge6f6318"></a>
 
 ## Firewalls – our first line of defence
 
@@ -705,7 +711,7 @@ Key Concepts
 -   **Proxy Firewall:** Carries out external network access.
 
 
-<a id="org16c0836"></a>
+<a id="org27475cb"></a>
 
 ## Intrusion detection systems (IDS)
 
@@ -751,7 +757,7 @@ of the system. A common dataset to use for this case is the [KDD99
 Dataset](https://www.unb.ca/cic/datasets/nsl.html).
 
 
-<a id="org683dfd9"></a>
+<a id="org26c56f9"></a>
 
 ## Intrusion Detection Systems
 
@@ -772,7 +778,7 @@ Dataset](https://www.unb.ca/cic/datasets/nsl.html).
     10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
 
 
-<a id="org504fe95"></a>
+<a id="orgfeb9372"></a>
 
 # Week 5
 
@@ -786,7 +792,7 @@ Key Concepts
     historical versions of Windows operating systems.
 
 
-<a id="org9876c00"></a>
+<a id="org05ed6fa"></a>
 
 ## Operating systems: windows and OS hardening
 
@@ -840,7 +846,7 @@ on, ensuring wireless connection is disabled if not needed, and so
 on.
 
 
-<a id="org55dbc0b"></a>
+<a id="org7295c25"></a>
 
 ## File system and directory structure
 
@@ -887,7 +893,7 @@ Important attributes are:
 A file system also has a directory structure.
 
 
-<a id="org3d763bc"></a>
+<a id="orgbd186d3"></a>
 
 ## Windows Security
 
@@ -898,7 +904,7 @@ A file system also has a directory structure.
 -   [Windows Enterprise Security circa Oct 2020](https://web.archive.org/web/20200611221008/https://docs.microsoft.com/en-us/windows/security)
 
 
-<a id="org90f93fd"></a>
+<a id="orga68f755"></a>
 
 # Week 6
 
@@ -911,7 +917,7 @@ Key Concepts
     is relevant in contemporary internet architectures.
 
 
-<a id="orge5b8165"></a>
+<a id="org8c9ab9d"></a>
 
 ## Why is Linux important for security & hardening Linux with Harbian
 
@@ -925,14 +931,14 @@ focused at security &#x2013; and how it can help us hardening a Linux
 system.
 
 
-<a id="org0bcc82b"></a>
+<a id="org9175b05"></a>
 
 ## Harbian on Github
 
 -   <https://github.com/hardenedlinux/harbian-audit>
 
 
-<a id="org25ab4b7"></a>
+<a id="org9070b2b"></a>
 
 ## The Android attack surface
 
@@ -958,7 +964,7 @@ An average android smartphone has a very large attack surface.
     contain security flaws
 
 
-<a id="org99da7af"></a>
+<a id="org90cc931"></a>
 
 ## Smartphone security: an overview of emerging threats.
 
@@ -971,7 +977,7 @@ An average android smartphone has a very large attack surface.
     IEEE Transactions on Mobile Computing 19(11) 2020, pp.2714–2730.
 
 
-<a id="org941324f"></a>
+<a id="org9455c71"></a>
 
 ## Virtualised and containerised operating systems
 
@@ -996,11 +1002,276 @@ There are four common attack routes to containers:
     container attacks it
 
 
-<a id="org20a0584"></a>
+<a id="org9bfc8b0"></a>
 
 ## Container Security
 
 -   S. Sultan, I. Ahmad and T. Dimitriou, [Container Security: Issues,
     Challenges, and the Road Ahead](https://ieeexplore.ieee.org/document/8693491), in IEEE Access, vol. 7,
     pp. 52976-52996, 2019, doi: 10.1109/ACCESS.2019.2911732
+
+
+<a id="org846385c"></a>
+
+# Week 7
+
+Key Concepts
+
+-   Familiarise yourself with the basic components that underpin
+    cryptography.
+-   Consider the application of cryptographic techniques in different
+    settings.
+-   Explore practical concerns around cryptographic techniques and
+    their associated security implications.
+
+
+<a id="org35275e0"></a>
+
+## What is Cryptography?
+
+Cryptography is all about encoding messages in a manner that can&rsquo;t
+be understood if intercepted by an eavesdropper. To motivate the
+discussion, let&rsquo;s introduce a scenario:
+
+*Alice* wants to send messages to *Bob* in a secure manner. While
+this is happening, *Eve* wants to eavesdrop the communication,
+something like shown in figure [1](#orge5f296a) below.
+
+\begin{figure}[h]
+\label{orge5f296a}
+  \centering
+  \begin{tikzpicture}
+    \node[alice]                             (alice) {Alice};
+    \node[bob, right of=alice,
+          mirrored]                          (bob)   {Bob};
+    \node[devil, female, mirrored,
+          above right of=alice]              (eve)   {Eve};
+
+    \draw[->, thick] (alice) -- coordinate[near start] (aux) (bob);
+    \draw[->,red, ultra thick] (eve)--(aux);
+  \end{tikzpicture}
+\end{figure}
+
+The goal is, therefore, to allow *Alice* to send messages to *Bob*
+in a way that even if *Eve* manages to intercept messages, they
+won&rsquo;t be able to understand the contents of said messages.
+
+We can think about this as if *Alice* puts the message inside a box
+and locks it with a key. *Bob* will, then, proceed to unlock the
+box upon its reception. For this to work, *Bob* must have a working
+key, provided by *Alice*.
+
+In a more real scenario, *Alice* takes her message (e.g. *The moon
+is full*) and proceeds to *encrypt* the message. Encrypting the
+message, modifies it in a way that it looks like random
+gibberish. One cannot *decrypt* the message without access to a
+*Decryption Key*. More technically, *Alice* converts *plaintext*
+into *ciphertext*.
+
+A new question arises: seeing that *Alice* converts *plaintext*
+into *ciphertext* and sends the *ciphertext* to *Bob*, we can
+conclude that *Bob* **must** be able to convert the *ciphertext*
+back into *plaintext*, otherwise the message can&rsquo;t be read. We need
+to come up with ways to agree on this method without telling *Eve*.
+
+
+<a id="orgbe93de1"></a>
+
+## History of Cryptography
+
+Cryptography is all around us:
+
+-   Military Applications
+-   Web browsing
+-   Email
+-   Social Media
+-   Online Transactions
+-   Pay-per-view Television
+-   Cloud Services (including storage)
+-   etc
+
+Brief history of cryptography:
+
+-   First used around 1900 BC at the tomb of Khnumhotep II
+-   Most early uses are Military
+-   Julius Caesar credited for the technique standard for centuries
+-   Al Kindi&rsquo;s book on cryptography involved the process of decoding
+    cryptographic messages
+    -   Technique used: frequency analysis
+-   In the 16<sup>th</sup> century, Vigenère created a [cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) which used and
+    encryption key (the first of its kind)
+-   Modern Times: Public Key Cryptography
+    -   **RSA:** Most of the internet
+    -   **Elliptic Curves:** bitcoin et al
+
+The goal of cryptography are:
+
+-   **Confidentiality:** noone can read the message except authorized
+    receiver
+-   **Integrity:** assurance that message hasn&rsquo;t been altered,
+    modified, or damaged accidentally by an attacker
+-   **Authentication:** assurance that messages comes from expected
+    source
+-   **Non-repudiation:** sender cannot deny a comment or action
+
+
+<a id="orgf316750"></a>
+
+## Symmetric cryptography
+
+Using our Alice and Bob scenario again, reproduced in figure
+[2](#org8565140) below:
+
+\begin{figure}[h]
+\label{org8565140}
+  \centering
+  \begin{tikzpicture}
+    \node[alice]                            (alice) {Alice};
+    \node[bob, right of=alice, mirrored]    (bob)   {Bob};
+
+    \node[draw, ellipse callout,
+          yshift=1cm, xshift=1.8cm,
+          callout absolute pointer={(alice.mouth)}] { Lipps };
+
+    \draw[->, thick] (alice) -- (bob);
+  \end{tikzpicture}
+\end{figure}
+
+In a Symmetric Cryptography scenario, the key used to lock and
+unlock the box with a message is the same exact key. All encryption
+worked like this for millennia.
+
+A famous example is the Caesar Cipher, where, given a message, we
+take all letter and slide down the alphabet by 4 (wrapping around
+to the beginning when necessary):
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">**Plaintext**</th>
+<th scope="col" class="org-left">**Ciphertext**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">E</td>
+</tr>
+
+
+<tr>
+<td class="org-left">B</td>
+<td class="org-left">F</td>
+</tr>
+
+
+<tr>
+<td class="org-left">C</td>
+<td class="org-left">G</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">V</td>
+<td class="org-left">Z</td>
+</tr>
+
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">A</td>
+</tr>
+
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">B</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Y</td>
+<td class="org-left">C</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Z</td>
+<td class="org-left">D</td>
+</tr>
+</tbody>
+</table>
+
+For example, if Alice wants to send the message *Hello*, she would
+convert each letter using the table above, therefore the ciphertext
+would be: *Lipps*.
+
+This is called a *Substitution Cipher* because we **substitute** each
+letter by another letter using a rule. Unfortunately, this is very
+easy to break, as there are only 26 letters in the alphabet,
+therefore each letter can only move by at most 25 places. We can
+easily test all possibilities.
+
+In case we have a large body of ciphertext, we can rely on the
+frequency of letters. In the English language, **a**, **s**, and **e**
+are very frequently used letters, therefore we can look at the most
+frequent letter in the ciphertext and assume it to be **a**, or **s**,
+or **e**, calculate the offset from **a**, or **s**, or **e** to that
+letter in the ciphertext and try that as a key.
+
+
+<a id="org402f3d1"></a>
+
+## Asymmetric cryptography
+
+In Asymmetric Cryptography, the keys used for locking and unlocking
+(or encrypting and decrypting) are different. Not only that, but it
+**must** be very difficult to determine one of the keys from the
+other in at least one direction.
+
+The main idea is that each player has two keys:
+
+-   **Private Key:** nobody, except for the owner, knows about
+    it. Let&rsquo;s denote it **G**
+-   **Public Key:** everybody has access it. Let&rsquo;s denote **P**
+
+These keys undo each other:
+
+1.  text  -> F(text)  -> G(F(text))  -> text
+2.  text2 -> G(text2) -> F(G(text2)) -> text2
+
+The public key has to be easy to compute, however, those with
+access to the public key, should be able to compute its inverse
+(the private key).
+
+When Alice wants to send a message to Bob, she should encrypt the
+message with Bob&rsquo;s public key. In thise situation only Bob&rsquo;s
+private key is able to decrypt the message.
+
+When Alice wants to **sign** a message, she uses her private key
+since she&rsquo;s the only one with access to that key.
+
+
+<a id="org137c5df"></a>
+
+## Some basic cyptographic techniques
+
+-   Buchanan, W.J. [Cryptography](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193). (Denmark: River Publishers, 2017)
+    pp.1–11.
 
