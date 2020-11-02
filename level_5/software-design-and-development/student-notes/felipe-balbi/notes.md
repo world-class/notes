@@ -1,61 +1,66 @@
 
 # Table of Contents
 
-1.  [Week 1](#org9291042)
-    1.  [Module Introduction](#org8f01325)
-    2.  [1.0202 Reference points](#org1da09f7)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org4197669)
-    4.  [1.0204 What is a module?](#org66a78f8)
-    5.  [1.0206 What is module complexity?](#org71b9f4c)
-    6.  [1.0208 Complexity references](#org2a2e966)
-2.  [Week 2](#org9e0881a)
-    1.  [2.0102 Week 2 reading](#orgd5631bc)
-    2.  [2.0201 What is module cohesion?](#org7bafa8f)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org8972cb0)
-3.  [Week 3](#org3fc32ee)
-    1.  [3.0102 Week 3 reading](#orgfef2bea)
-    2.  [3.0201 What is module coupling?](#org8bd7b9b)
-    3.  [3.0203 Different types of coupling: good or bad?](#org5cc3245)
-    4.  [3.0205 Common environment coupling: good or bad?](#orgc67be33)
-    5.  [3.0207 Content coupling: good or bad?](#org659615e)
-    6.  [3.0209 Control coupling: good or bad?](#orgd0e4dcf)
-    7.  [3.0211 Data coupling: good or bad?](#org009babe)
-    8.  [3.0213 Hybrid coupling: good or bad?](#orge319bd2)
-    9.  [3.0215 Pathological coupling: good or bad?](#org392b5f7)
-4.  [Week 4](#orgffe2e70)
-    1.  [4.012 Week 4 reading](#orgf449713)
-    2.  [4.0201 Reasoning about scope](#orgc3e46cc)
-    3.  [4.0203 Reasoning about function parameters](#org943c06e)
-    4.  [4.0205 Replacing functions dynamically and const](#org56ead5f)
-5.  [Week 5](#orgac86a22)
-    1.  [5.0002 Topic reading](#orgdc6cffe)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#orgfee863f)
-    3.  [5.0113 What to test? An overview](#orgabe3b05)
-6.  [Week 6](#org38846da)
-    1.  [6.0102 Week 6 reading](#orgae82ab5)
-    2.  [6.013 Super quick Python tutorial](#orgdc51cdb)
-        1.  [Variables](#org15fbe6f)
-        2.  [Lists](#org4b3ac3c)
-        3.  [Functions](#org3c92a96)
-    3.  [6.0201 Introduction to unittest in Python](#org1808176)
-    4.  [6.0203 Assertion function in unittest](#orgbd50c07)
-    5.  [6.0205 Assert functions in unittest](#org22af30d)
-    6.  [6.0301 Introduction to statistics libraries](#org448c69c)
-7.  [Week 7](#org7ff1d11)
-    1.  [7.0102 Week 7 reading](#orgc98882d)
-    2.  [7.0201 C++ primer](#org0188cae)
-        1.  [Variables](#orgfe6c253)
-        2.  [Arrays](#org7d947b0)
-        3.  [Loops](#org0b172cf)
-        4.  [Functions](#orge4faf9d)
-        5.  [Classes](#orgf0cc935)
-    3.  [7.0206 Introduction to cppunit](#org334d378)
-    4.  [7.0208 Adding better output and multiple tests](#org325fd08)
-    5.  [7.021 Assert functions in cppunit](#org923128e)
+1.  [Week 1](#org91efae2)
+    1.  [Module Introduction](#orgdc5580e)
+    2.  [1.0202 Reference points](#org4c7497f)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgf454360)
+    4.  [1.0204 What is a module?](#org462a10b)
+    5.  [1.0206 What is module complexity?](#org5883389)
+    6.  [1.0208 Complexity references](#org15d2bd6)
+2.  [Week 2](#org3ff0369)
+    1.  [2.0102 Week 2 reading](#orgb854a8e)
+    2.  [2.0201 What is module cohesion?](#orgc93d0ab)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org403c5da)
+3.  [Week 3](#orge13deb1)
+    1.  [3.0102 Week 3 reading](#org2b5aa19)
+    2.  [3.0201 What is module coupling?](#orgeeca815)
+    3.  [3.0203 Different types of coupling: good or bad?](#orgee6fcbe)
+    4.  [3.0205 Common environment coupling: good or bad?](#orgab40e0c)
+    5.  [3.0207 Content coupling: good or bad?](#orgdd35331)
+    6.  [3.0209 Control coupling: good or bad?](#orgacf6453)
+    7.  [3.0211 Data coupling: good or bad?](#org7251720)
+    8.  [3.0213 Hybrid coupling: good or bad?](#orgc7d4365)
+    9.  [3.0215 Pathological coupling: good or bad?](#org1b47b35)
+4.  [Week 4](#org0a96d16)
+    1.  [4.012 Week 4 reading](#org6db8138)
+    2.  [4.0201 Reasoning about scope](#org8267568)
+    3.  [4.0203 Reasoning about function parameters](#orga3debcd)
+    4.  [4.0205 Replacing functions dynamically and const](#orgafde3d5)
+5.  [Week 5](#org1799a6a)
+    1.  [5.0002 Topic reading](#orgab54089)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#org7698d4b)
+    3.  [5.0113 What to test? An overview](#orgc016861)
+6.  [Week 6](#org029c8c2)
+    1.  [6.0102 Week 6 reading](#orgc7237a1)
+    2.  [6.013 Super quick Python tutorial](#orgd138c79)
+        1.  [Variables](#org7341d95)
+        2.  [Lists](#orgd6af11e)
+        3.  [Functions](#org423eee6)
+    3.  [6.0201 Introduction to unittest in Python](#org029c5c6)
+    4.  [6.0203 Assertion function in unittest](#orgcdcd309)
+    5.  [6.0205 Assert functions in unittest](#org06a250a)
+    6.  [6.0301 Introduction to statistics libraries](#org02f871c)
+7.  [Week 7](#org7dedfc6)
+    1.  [7.0102 Week 7 reading](#org890b2ea)
+    2.  [7.0201 C++ primer](#org12249a3)
+        1.  [Variables](#org08acaf1)
+        2.  [Arrays](#org3a93bc4)
+        3.  [Loops](#org2cacb40)
+        4.  [Functions](#orgd5f04ce)
+        5.  [Classes](#org4c7ba15)
+    3.  [7.0206 Introduction to cppunit](#orgf737af8)
+    4.  [7.0208 Adding better output and multiple tests](#orgf4ac672)
+    5.  [7.021 Assert functions in cppunit](#orgad075fd)
+8.  [Week 8](#orgb08eebe)
+    1.  [8.0102 Week 8 reading](#org5298f30)
+    2.  [8.0204 Introduction to Mocha](#org78ed683)
+    3.  [8.0206 Mocha with es6 syntax](#orgc110d90)
+    4.  [8.0303 Considerations when testing a web API](#orgf6a2c42)
 
 
 
-<a id="org9291042"></a>
+<a id="org91efae2"></a>
 
 # Week 1
 
@@ -67,7 +72,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="org8f01325"></a>
+<a id="orgdc5580e"></a>
 
 ## Module Introduction
 
@@ -93,7 +98,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org1da09f7"></a>
+<a id="org4c7497f"></a>
 
 ## 1.0202 Reference points
 
@@ -114,7 +119,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org4197669"></a>
+<a id="orgf454360"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -127,7 +132,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org66a78f8"></a>
+<a id="org462a10b"></a>
 
 ## 1.0204 What is a module?
 
@@ -150,7 +155,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="org71b9f4c"></a>
+<a id="org5883389"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -176,7 +181,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org2a2e966"></a>
+<a id="org15d2bd6"></a>
 
 ## 1.0208 Complexity references
 
@@ -191,7 +196,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="org9e0881a"></a>
+<a id="org3ff0369"></a>
 
 # Week 2
 
@@ -203,7 +208,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="orgd5631bc"></a>
+<a id="orgb854a8e"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -216,7 +221,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org7bafa8f"></a>
+<a id="orgc93d0ab"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -267,7 +272,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org8972cb0"></a>
+<a id="org403c5da"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -296,7 +301,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="org3fc32ee"></a>
+<a id="orge13deb1"></a>
 
 # Week 3
 
@@ -310,7 +315,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="orgfef2bea"></a>
+<a id="org2b5aa19"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -319,7 +324,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org8bd7b9b"></a>
+<a id="orgeeca815"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -332,7 +337,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="org5cc3245"></a>
+<a id="orgee6fcbe"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -355,7 +360,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="orgc67be33"></a>
+<a id="orgab40e0c"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -376,7 +381,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="org659615e"></a>
+<a id="orgdd35331"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -388,7 +393,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orgd0e4dcf"></a>
+<a id="orgacf6453"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -413,7 +418,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="org009babe"></a>
+<a id="org7251720"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -423,7 +428,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="orge319bd2"></a>
+<a id="orgc7d4365"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -442,7 +447,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org392b5f7"></a>
+<a id="org1b47b35"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -452,7 +457,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="orgffe2e70"></a>
+<a id="org0a96d16"></a>
 
 # Week 4
 
@@ -465,7 +470,7 @@ Key Concepts
     cohesion.
 
 
-<a id="orgf449713"></a>
+<a id="org6db8138"></a>
 
 ## 4.012 Week 4 reading
 
@@ -476,7 +481,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="orgc3e46cc"></a>
+<a id="org8267568"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -538,7 +543,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="org943c06e"></a>
+<a id="orga3debcd"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -606,7 +611,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="org56ead5f"></a>
+<a id="orgafde3d5"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -662,7 +667,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="orgac86a22"></a>
+<a id="org1799a6a"></a>
 
 # Week 5
 
@@ -674,7 +679,7 @@ Key Concepts
     code repositories
 
 
-<a id="orgdc6cffe"></a>
+<a id="orgab54089"></a>
 
 ## 5.0002 Topic reading
 
@@ -694,7 +699,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="orgfee863f"></a>
+<a id="org7698d4b"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -714,7 +719,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="orgabe3b05"></a>
+<a id="orgc016861"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -736,7 +741,7 @@ process in short iterative bursts.
     and handled to avoid crashes
 
 
-<a id="org38846da"></a>
+<a id="org029c8c2"></a>
 
 # Week 6
 
@@ -747,19 +752,19 @@ Key Concepts
 -   Carry out the test-driven development workflow in Python
 
 
-<a id="orgae82ab5"></a>
+<a id="orgc7237a1"></a>
 
 ## 6.0102 Week 6 reading
 
 -   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
 
 
-<a id="orgdc51cdb"></a>
+<a id="orgd138c79"></a>
 
 ## 6.013 Super quick Python tutorial
 
 
-<a id="org15fbe6f"></a>
+<a id="org7341d95"></a>
 
 ### Variables
 
@@ -771,7 +776,7 @@ and give it a value:
     myString = "Hello"
 
 
-<a id="org4b3ac3c"></a>
+<a id="orgd6af11e"></a>
 
 ### Lists
 
@@ -816,7 +821,7 @@ To extend a list with the items from another list, we can use
     myList.extend(anotherList)
 
 
-<a id="org3c92a96"></a>
+<a id="org423eee6"></a>
 
 ### Functions
 
@@ -836,7 +841,7 @@ Keep in mind that Python uses *pass-by-value*, not
 *pass-by-reference*.
 
 
-<a id="org1808176"></a>
+<a id="org029c5c6"></a>
 
 ## 6.0201 Introduction to unittest in Python
 
@@ -855,7 +860,7 @@ example of how to use it:
     unittest.main(argv = ['ignored', 'v'], exit = False)
 
 
-<a id="orgbd50c07"></a>
+<a id="orgcdcd309"></a>
 
 ## 6.0203 Assertion function in unittest
 
@@ -864,14 +869,14 @@ built-in. Instead of repeating them here, it&rsquo;s to access its
 [documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
 
 
-<a id="org22af30d"></a>
+<a id="org06a250a"></a>
 
 ## 6.0205 Assert functions in unittest
 
 -   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
 
 
-<a id="org448c69c"></a>
+<a id="org02f871c"></a>
 
 ## 6.0301 Introduction to statistics libraries
 
@@ -883,7 +888,7 @@ advanced, methods would be calculating correlation coefficients,
 [ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
 
 
-<a id="org7ff1d11"></a>
+<a id="org7dedfc6"></a>
 
 # Week 7
 
@@ -894,14 +899,14 @@ Key Concepts
 -   Carry out the test-driven development workflow in C++
 
 
-<a id="orgc98882d"></a>
+<a id="org890b2ea"></a>
 
 ## 7.0102 Week 7 reading
 
 -   cplusplus.com [Structure of a program](http://cplusplus.com/doc/tutorial/program_structure/) (2020).
 
 
-<a id="org0188cae"></a>
+<a id="org12249a3"></a>
 
 ## 7.0201 C++ primer
 
@@ -916,7 +921,7 @@ Usually, a C++ program starts with including some libraries and a
     }
 
 
-<a id="orgfe6c253"></a>
+<a id="org08acaf1"></a>
 
 ### Variables
 
@@ -962,7 +967,7 @@ And [here](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) we can f
 data types in C++.
 
 
-<a id="org7d947b0"></a>
+<a id="org3a93bc4"></a>
 
 ### Arrays
 
@@ -989,7 +994,7 @@ i.e. the first element of the array is 0.
     }
 
 
-<a id="org0b172cf"></a>
+<a id="org2cacb40"></a>
 
 ### Loops
 
@@ -1011,7 +1016,7 @@ one:
     }
 
 
-<a id="orge4faf9d"></a>
+<a id="orgd5f04ce"></a>
 
 ### Functions
 
@@ -1045,7 +1050,7 @@ That `static` keywords tells the compiler that `succ()` is only
 supposed to be accessible from the current source file.
 
 
-<a id="orgf0cc935"></a>
+<a id="org4c7ba15"></a>
 
 ### Classes
 
@@ -1102,7 +1107,7 @@ For example:
     }
 
 
-<a id="org334d378"></a>
+<a id="orgf737af8"></a>
 
 ## 7.0206 Introduction to cppunit
 
@@ -1146,7 +1151,7 @@ library. Like so:
     Aborted
 
 
-<a id="org325fd08"></a>
+<a id="orgf4ac672"></a>
 
 ## 7.0208 Adding better output and multiple tests
 
@@ -1274,11 +1279,158 @@ after each test. Like so:
     }
 
 
-<a id="org923128e"></a>
+<a id="orgad075fd"></a>
 
 ## 7.021 Assert functions in cppunit
 
 -   [cppunit: Making assertions](https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html)
+
+
+<a id="orgb08eebe"></a>
+
+# Week 8
+
+Key Concepts
+
+-   Carry out the test-driven development workflow in JavaScript.
+-   Write unit tests using the JavaScript Mocha package.
+-   Describe the elements of a unit testing framework.
+
+
+<a id="org5298f30"></a>
+
+## 8.0102 Week 8 reading
+
+-   [Node.js](https://nodejs.org/en/) (version 12LTS recommended)
+-   [Mocha](https://mochajs.org/)
+-   [Chai](https://www.chaijs.com/)
+
+
+<a id="org78ed683"></a>
+
+## 8.0204 Introduction to Mocha
+
+In an empty directory, we run `npm init` and follow the prompts. At
+the end, we will have a `package.json` file created for us. It
+should look similar to this:
+
+    {
+      "name": "myproject",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+      },
+      "author": "",
+      "license": "ISC"
+    }
+
+When we run the command `npm test`, the line labeled `test` inside
+`scripts` will run. Whichever command is placed there, will
+run. That&rsquo;s how we will run our `mocha` tests.
+
+Before we use `mocha` and `chain`, we have to install them with
+`npm add mocha chai`. After this command completes, we will be able
+to use `mocha` and `chai`, so let&rsquo;s update our `package.json`
+accordingly:
+
+    {
+      "name": "myproject",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha"
+      },
+      "author": "",
+      "license": "ISC"
+    }
+
+With that setup, we can create a new folder `test` to hold all our
+tests. When `mocha` runs, it will look for a folder named `test`
+and will execute the files placed there. Let&rsquo;s create our first
+test in the file `test.js`.
+
+    var assert = require('assert')
+    
+    describe("A feature", function () {
+      describe("One test", function () {
+        // Passing test
+        it("should have two elements", function () {
+          var s = "Hello mocha"
+          var parts = s.split(" ")
+    
+          assert.equal(parts.length, 2)
+        })
+    
+        // Failing test
+        it("should have three elements", function () {
+          var s = "Hello mocha"
+          var parts = s.split(" ")
+    
+          assert.equal(parts.length, 3)
+        })
+      })
+    })
+
+
+<a id="orgc110d90"></a>
+
+## 8.0206 Mocha with es6 syntax
+
+Here&rsquo;s the previous code in ES6 syntax:
+
+    const assert = require('assert')
+    
+    describe("A feature", () => {
+      describe("One test", () => {
+        // Passing test
+        it("should have two elements", () => {
+          const s = "Hello mocha"
+          const parts = s.split(" ")
+    
+          assert.equal(parts.length, 2)
+        })
+    
+        // Failing test
+        it("should have three elements", () => {
+          const s = "Hello mocha"
+          const parts = s.split(" ")
+    
+          assert.equal(parts.length, 3)
+        })
+      })
+    })
+
+
+<a id="orgf6a2c42"></a>
+
+## 8.0303 Considerations when testing a web API
+
+When we need to run HTTP requests during testing, we can use
+`chai-http` package. We can use `npm add mocha chai chai-http` to
+make all necessary packages are installed.
+
+After creating the necessary `test` directory and a `test.js` file,
+we can fill it up with tests:
+
+    const chai = require('chai')
+    const chaiHttp = require('chai-http')
+    const assert = require('assert')
+    
+    chai.use(chaiHttp)
+    
+    describe("Top level / route", () => {
+      it("should have 200 status code", (done) => {
+        chai.request("http://localhost:3000")
+          .get("/")
+          .end((err, res) => {
+    	assert.equal(res.status, 200)
+    	done()
+          })
+      })
+    })
 
 
 # Footnotes
