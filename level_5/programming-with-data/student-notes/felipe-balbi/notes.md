@@ -1,44 +1,49 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgb1862a1)
-    1.  [1.01 Welcome to the course](#org7cf8b7c)
-    2.  [1.06 Introduction to development environments and Python](#org2408d03)
-    3.  [1.07 Getting to grips with Python](#orgaf1e274)
-    4.  [1.103 Jupyter code cells](#org9933a71)
-    5.  [1.105 Jupyter Notebook basics](#org3871a12)
-    6.  [1.106 Using Python as a Calculator](#orgfbbe35b)
-2.  [Week 3](#orgcc3c7eb)
-    1.  [2.01 Becoming familiar with Python](#org7e18d78)
-    2.  [2.03 Built-in types in Python](#org28aead3)
-    3.  [2.05 Mapping operators to functions](#org6e0962e)
-    4.  [2.104 Introduction to conditional logic](#org4087d24)
-    5.  [2.105 Functions and reuse](#orgfc24f0a)
-    6.  [2.201 Conditions and logic](#org077b6c1)
-    7.  [2.202 More conditions](#org64fd003)
-3.  [Week 4](#orge33bb9b)
-    1.  [2.301 Introduction to lists](#orgda15977)
-    2.  [2.302 Lists](#org66c8979)
-    3.  [2.305 Loops and iteration](#org464886b)
-    4.  [2.401 Libraries and dependencies](#org4dba8b0)
-4.  [Week 5](#org4fb48be)
-    1.  [3.01 Introduction to data](#org64491a6)
-    2.  [3.02 Data structures and data types](#orgc2ac4c7)
-    3.  [3.04 Data handling](#org00db309)
-    4.  [3.05 Working with text-based data](#org7f94b6e)
-    5.  [3.06 counting words the verbose way](#org2757da5)
-    6.  [3.07 Programming activity: reading files](#orgfb56134)
-5.  [Week 6](#org6cb6345)
-    1.  [3.201 The dictionary data type](#org26d6462)
-6.  [Week 7](#org8c04ab3)
-    1.  [4.01 Introduction](#org506fb6d)
-    2.  [4.03 Exploring the CSV data format](#orgee9fa35)
-    3.  [4.04 Online documentation](#orgc9367cb)
-    4.  [4.05 Getting started with Pandas and handling Data](#orga070253)
+1.  [Week 1](#org7c02aa0)
+    1.  [1.01 Welcome to the course](#org0dfa02e)
+    2.  [1.06 Introduction to development environments and Python](#org71c056b)
+    3.  [1.07 Getting to grips with Python](#orgbee17f5)
+    4.  [1.103 Jupyter code cells](#orgd02c464)
+    5.  [1.105 Jupyter Notebook basics](#org53bf745)
+    6.  [1.106 Using Python as a Calculator](#orgc7d3a2d)
+2.  [Week 3](#orgb729325)
+    1.  [2.01 Becoming familiar with Python](#orgedfbdf2)
+    2.  [2.03 Built-in types in Python](#orgfcabc32)
+    3.  [2.05 Mapping operators to functions](#org8a238f3)
+    4.  [2.104 Introduction to conditional logic](#orgd791d79)
+    5.  [2.105 Functions and reuse](#orga4bd06c)
+    6.  [2.201 Conditions and logic](#org3ef4f55)
+    7.  [2.202 More conditions](#org7cd0ded)
+3.  [Week 4](#org0d7823b)
+    1.  [2.301 Introduction to lists](#org0c14960)
+    2.  [2.302 Lists](#org95e83a1)
+    3.  [2.305 Loops and iteration](#org5a0fba1)
+    4.  [2.401 Libraries and dependencies](#org0e2346d)
+4.  [Week 5](#orgc9e4fff)
+    1.  [3.01 Introduction to data](#org84d559e)
+    2.  [3.02 Data structures and data types](#org63d2b3c)
+    3.  [3.04 Data handling](#org0c6dbc2)
+    4.  [3.05 Working with text-based data](#orgb7b7469)
+    5.  [3.06 counting words the verbose way](#org21aed90)
+    6.  [3.07 Programming activity: reading files](#org1e72994)
+5.  [Week 6](#org56e643a)
+    1.  [3.201 The dictionary data type](#orgdda9c65)
+6.  [Week 7](#orgf9dc532)
+    1.  [4.01 Introduction](#orga1c6e5f)
+    2.  [4.03 Exploring the CSV data format](#org16c558b)
+    3.  [4.04 Online documentation](#orgd54e61f)
+    4.  [4.05 Getting started with Pandas and handling Data](#org9b22dc9)
+7.  [Week 8](#orgc2fd813)
+    1.  [4.101 Working with CSV in Python](#orgc97d5f3)
+    2.  [4.104 Data processing libraries used to improve efficiency](#org64039cc)
+    3.  [4.105 Introduction to the JSON format](#orgf5379f1)
+    4.  [4.106 Handling JSON files in Python](#orgfcd032f)
 
 
 
-<a id="orgb1862a1"></a>
+<a id="org7c02aa0"></a>
 
 # Week 1
 
@@ -50,7 +55,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="org7cf8b7c"></a>
+<a id="org0dfa02e"></a>
 
 ## 1.01 Welcome to the course
 
@@ -70,7 +75,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="org2408d03"></a>
+<a id="org71c056b"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -83,7 +88,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="orgaf1e274"></a>
+<a id="orgbee17f5"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -98,7 +103,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="org9933a71"></a>
+<a id="orgd02c464"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -114,7 +119,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="org3871a12"></a>
+<a id="org53bf745"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -125,7 +130,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="orgfbbe35b"></a>
+<a id="orgc7d3a2d"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -134,7 +139,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="orgcc3c7eb"></a>
+<a id="orgb729325"></a>
 
 # Week 3
 
@@ -148,7 +153,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="org7e18d78"></a>
+<a id="orgedfbdf2"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -284,7 +289,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="org28aead3"></a>
+<a id="orgfcabc32"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -293,7 +298,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org6e0962e"></a>
+<a id="org8a238f3"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -303,7 +308,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="org4087d24"></a>
+<a id="orgd791d79"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -312,7 +317,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="orgfc24f0a"></a>
+<a id="orga4bd06c"></a>
 
 ## 2.105 Functions and reuse
 
@@ -336,7 +341,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org077b6c1"></a>
+<a id="org3ef4f55"></a>
 
 ## 2.201 Conditions and logic
 
@@ -352,7 +357,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="org64fd003"></a>
+<a id="org7cd0ded"></a>
 
 ## 2.202 More conditions
 
@@ -376,7 +381,7 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 4. Built-in types.
 
 
-<a id="orge33bb9b"></a>
+<a id="org0d7823b"></a>
 
 # Week 4
 
@@ -390,7 +395,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgda15977"></a>
+<a id="org0c14960"></a>
 
 ## 2.301 Introduction to lists
 
@@ -436,7 +441,7 @@ final value. This means that the range `0:1` will only print the
 0<sup>th</sup> element.
 
 
-<a id="org66c8979"></a>
+<a id="org95e83a1"></a>
 
 ## 2.302 Lists
 
@@ -446,7 +451,7 @@ Click on the link below to read through the documentation on lists:
     types.
 
 
-<a id="org464886b"></a>
+<a id="org5a0fba1"></a>
 
 ## 2.305 Loops and iteration
 
@@ -475,7 +480,7 @@ example:
         print(x)
 
 
-<a id="org4dba8b0"></a>
+<a id="org0e2346d"></a>
 
 ## 2.401 Libraries and dependencies
 
@@ -496,7 +501,7 @@ library, as shown below:
     stats.describe(x)
 
 
-<a id="org4fb48be"></a>
+<a id="orgc9e4fff"></a>
 
 # Week 5
 
@@ -512,7 +517,7 @@ Key Concepts
     matrix.
 
 
-<a id="org64491a6"></a>
+<a id="org84d559e"></a>
 
 ## 3.01 Introduction to data
 
@@ -552,7 +557,7 @@ formats are:
     -   **Data Exchange Formats:** JSON
 
 
-<a id="orgc2ac4c7"></a>
+<a id="org63d2b3c"></a>
 
 ## 3.02 Data structures and data types
 
@@ -564,7 +569,7 @@ formats are:
 -   [Natural Language Toolkit](https://www.nltk.org/)
 
 
-<a id="org00db309"></a>
+<a id="org0c6dbc2"></a>
 
 ## 3.04 Data handling
 
@@ -585,7 +590,7 @@ here&rsquo;s a summary:
 -   **`b`:** Tells `open()` we&rsquo;re dealing with binary file
 
 
-<a id="org7f94b6e"></a>
+<a id="orgb7b7469"></a>
 
 ## 3.05 Working with text-based data
 
@@ -613,7 +618,7 @@ length of the returned list:
     print(len(words))
 
 
-<a id="org2757da5"></a>
+<a id="org21aed90"></a>
 
 ## 3.06 counting words the verbose way
 
@@ -631,7 +636,7 @@ a given input:
     print(counter)
 
 
-<a id="orgfb56134"></a>
+<a id="org1e72994"></a>
 
 ## 3.07 Programming activity: reading files
 
@@ -645,7 +650,7 @@ The following NLTK documentation might be helpful here:
 -   [nltk.tokenize package](http://www.nltk.org/api/nltk.tokenize.html?highlight=tokenize%20package#module-nltk.tokenize)
 
 
-<a id="org6cb6345"></a>
+<a id="org56e643a"></a>
 
 # Week 6
 
@@ -661,7 +666,7 @@ Key Concepts
     matrix.
 
 
-<a id="org26d6462"></a>
+<a id="orgdda9c65"></a>
 
 ## 3.201 The dictionary data type
 
@@ -676,7 +681,7 @@ A dictionary is a kind of hash table, or associative array.
     x = mydict.get("goals")
 
 
-<a id="org8c04ab3"></a>
+<a id="orgf9dc532"></a>
 
 # Week 7
 
@@ -689,7 +694,7 @@ Key Concepts
 -   Process data for purpose.
 
 
-<a id="org506fb6d"></a>
+<a id="orga1c6e5f"></a>
 
 ## 4.01 Introduction
 
@@ -713,7 +718,7 @@ the data, i.e. remove superfluous, irrelevant, or incorrect
 data.
 
 
-<a id="orgee9fa35"></a>
+<a id="org16c558b"></a>
 
 ## 4.03 Exploring the CSV data format
 
@@ -733,7 +738,7 @@ to understand conventions about the data format and how it&rsquo;s
 usually laid out.
 
 
-<a id="orgc9367cb"></a>
+<a id="orgd54e61f"></a>
 
 ## 4.04 Online documentation
 
@@ -749,7 +754,7 @@ usually laid out.
     reference
 
 
-<a id="orga070253"></a>
+<a id="org9b22dc9"></a>
 
 ## 4.05 Getting started with Pandas and handling Data
 
@@ -757,4 +762,119 @@ usually laid out.
     Pandas, NumPy, and IPython](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179). (Sebastopol, CA: O&rsquo;Reilly, 2017) 2nd
     edition, **Chapter 5 Getting Started with pandas, pp.125–167** and
     **Chapter 6 Data Loading, Storage, and File Formats, pp.169–181**.
+
+
+<a id="orgc2fd813"></a>
+
+# Week 8
+
+Key Concepts
+
+-   Write Python programs that can read and write files in CSV and
+    JSON formats.
+-   Describe different types of data files and evaluate their
+    appropriateness for storing different types of data.
+-   Process data for purpose.
+
+
+<a id="orgc97d5f3"></a>
+
+## 4.101 Working with CSV in Python
+
+To work with CSV data in python, we must open the file and read its
+contents into python. Afterwards, we can parse the data into
+something we can work with.
+
+    import csv
+    
+    list = []
+    
+    with open("data.csv") as csvfile:
+        reader = csv.reader(csvfile, delimiter = ",")
+        for row in reader:
+    	list.append(float(row[6]))
+    
+    list = list[1:]
+    print(sum(list) / len(list))
+
+
+<a id="org64039cc"></a>
+
+## 4.104 Data processing libraries used to improve efficiency
+
+There are a plethora of python libraries to aid data processing,
+some of which provide very efficient data processing primitives for
+our use. Converting our previous example to use some of these
+libraries, we get:
+
+    import pandas as pd
+    
+    df = pd.read_csv("data.csv")
+    
+    # Basic statistics
+    print(df.describe())
+    
+    # Sorting
+    print(df.sort_values(by='Value', ascending=False, na_position='first'))
+    
+    # Filtering
+    print(df.filter(like='50', axis=0))
+
+
+<a id="orgf5379f1"></a>
+
+## 4.105 Introduction to the JSON format
+
+The *JavaScript Object Notation*, or [JSON](https://en.wikipedia.org/wiki/JSON), format is open standard
+data format that uses human-readable text to store and transfer
+data in key-value pair form.
+
+A JSON file represents data in a Tree structure, which can make it
+slightly more complex to deal with. An example of JSON format
+follows:
+
+    {
+      "staff":
+      {
+        "name": "Sean",
+        "age": 31,
+        "city": "London"
+      }
+    } 
+
+
+<a id="orgfcd032f"></a>
+
+## 4.106 Handling JSON files in Python
+
+To manipulate JSON data in python, we need the `json` package.
+
+    import json
+    
+    mestring = '{ "staff": { "name": "Sean", "age": 31, "city": "London" } }'
+    
+    # medict = {
+    #     "staff":
+    #     {
+    # 	"name": "Sean",
+    # 	"surname": "McGrath",
+    # 	"age": 31,
+    # 	"city": "London"
+    #     }
+    # } 
+    
+    with open('me.json', 'r') as handle:
+        medict = json.load(handle)
+        print(medict)
+        print(medict['name'])
+
+We can also use `pandas`:
+
+    import json
+    import pandas as pd
+    
+    with open('me.json', 'r') as handle:
+        medict = json.load(handle)
+    
+        df = pd.DataFrame.from_dict(medict, columns=['name', 'surname'])
 
