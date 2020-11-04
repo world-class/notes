@@ -1,42 +1,44 @@
 
 # Table of Contents
 
-1.  [Week 1](#org1562a4e)
-    1.  [1.01 Module introduction](#org413fc40)
-    2.  [1.07 The basics of interaction design](#org4146816)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org613bcf0)
-2.  [Week 2](#org6fd9b47)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org011ade9)
-    2.  [1.305 Version control systems](#org28c4fcd)
-    3.  [1.401 The process of interaction design](#org414a497)
-3.  [Week 3](#org6b7b8e3)
-    1.  [2.01 Introduction to requirements and specification](#org29b41f8)
-    2.  [2.101 Purpose of gathering requirements](#org4ba0e75)
-    3.  [2.102 Introduction to requirements gathering](#org8394e0f)
-    4.  [2.201 Modelling requirements](#org336ee7c)
-4.  [Week 4](#orgbdb4ffb)
-    1.  [2.301 User-centred design](#org1c00007)
-5.  [Week 5](#org4341b86)
-    1.  [3.01 What is research?](#orgf1ab01b)
-    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orga60f447)
-    3.  [3.102 Introduction to research methods](#org001f6c9)
-    4.  [3.201 Identifying useful sources of information](#orgfbab818)
-    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org1f8975d)
-6.  [Week 6](#org5804c96)
-    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org0538996)
-    2.  [3.302 SWOT analysis](#org7e7128c)
-    3.  [Alternative models](#orgc64d434)
-7.  [Week 7](#orgedd49b9)
-    1.  [4.01 User-centred design in a nutshell](#org06fb751)
-    2.  [4.03 Design and prototyping](#orgb73f277)
-    3.  [4.101 Why ‘user-friendliness’ is a false metric](#org0d4a014)
-    4.  [4.102 Introduction to user-centred design](#org8381677)
-    5.  [4.201 Test early, test often, iterate](#org7e66117)
-    6.  [4.202 Heuristics for design](#org85ee240)
+1.  [Week 1](#org73d179d)
+    1.  [1.01 Module introduction](#org4de45d0)
+    2.  [1.07 The basics of interaction design](#orgfd2512f)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org99ca9f6)
+2.  [Week 2](#org0e750a0)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#orgb9e7747)
+    2.  [1.305 Version control systems](#orgeb4ef5d)
+    3.  [1.401 The process of interaction design](#org3459cc6)
+3.  [Week 3](#orgbc5ad5c)
+    1.  [2.01 Introduction to requirements and specification](#org5a525b8)
+    2.  [2.101 Purpose of gathering requirements](#orgdb3b83a)
+    3.  [2.102 Introduction to requirements gathering](#org940c9df)
+    4.  [2.201 Modelling requirements](#orgb3ccced)
+4.  [Week 4](#org760f96f)
+    1.  [2.301 User-centred design](#orgc7c5656)
+5.  [Week 5](#org398fb60)
+    1.  [3.01 What is research?](#orga28c6cc)
+    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orge1a2bf9)
+    3.  [3.102 Introduction to research methods](#orgee5c0e0)
+    4.  [3.201 Identifying useful sources of information](#org9d60aa7)
+    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org8b5b613)
+6.  [Week 6](#org1102b93)
+    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org32ec0e5)
+    2.  [3.302 SWOT analysis](#orge1c15b9)
+    3.  [Alternative models](#org7cf4583)
+7.  [Week 7](#org3025b21)
+    1.  [4.01 User-centred design in a nutshell](#orgf170665)
+    2.  [4.03 Design and prototyping](#org624d420)
+    3.  [4.101 Why ‘user-friendliness’ is a false metric](#org0f14c9d)
+    4.  [4.102 Introduction to user-centred design](#org910c52f)
+    5.  [4.201 Test early, test often, iterate](#org9e31e2c)
+    6.  [4.202 Heuristics for design](#orgaa78e67)
+8.  [Week 8](#orgfc5414a)
+    1.  [4.301 Why do we prototype?](#org30265be)
 
 
 
-<a id="org1562a4e"></a>
+<a id="org73d179d"></a>
 
 # Week 1
 
@@ -47,7 +49,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org413fc40"></a>
+<a id="org4de45d0"></a>
 
 ## 1.01 Module introduction
 
@@ -55,7 +57,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="org4146816"></a>
+<a id="orgfd2512f"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -69,7 +71,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="org613bcf0"></a>
+<a id="org99ca9f6"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -115,7 +117,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="org6fd9b47"></a>
+<a id="org0e750a0"></a>
 
 # Week 2
 
@@ -126,7 +128,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org011ade9"></a>
+<a id="orgb9e7747"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -384,7 +386,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org28c4fcd"></a>
+<a id="orgeb4ef5d"></a>
 
 ## 1.305 Version control systems
 
@@ -395,7 +397,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="org414a497"></a>
+<a id="org3459cc6"></a>
 
 ## 1.401 The process of interaction design
 
@@ -404,7 +406,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="org6b7b8e3"></a>
+<a id="orgbc5ad5c"></a>
 
 # Week 3
 
@@ -416,7 +418,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org29b41f8"></a>
+<a id="org5a525b8"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -456,7 +458,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="org4ba0e75"></a>
+<a id="orgdb3b83a"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -479,7 +481,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="org8394e0f"></a>
+<a id="org940c9df"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -488,7 +490,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="org336ee7c"></a>
+<a id="orgb3ccced"></a>
 
 ## 2.201 Modelling requirements
 
@@ -508,7 +510,7 @@ system and some explicit structure. They can also describe
 depedencies and abstraction.
 
 
-<a id="orgbdb4ffb"></a>
+<a id="org760f96f"></a>
 
 # Week 4
 
@@ -520,7 +522,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org1c00007"></a>
+<a id="orgc7c5656"></a>
 
 ## 2.301 User-centred design
 
@@ -598,7 +600,7 @@ pitfalls:
 -   Documentation and training
 
 
-<a id="org4341b86"></a>
+<a id="org398fb60"></a>
 
 # Week 5
 
@@ -609,7 +611,7 @@ Key Concepts
 -   Consider the wider implications of building a system for purpose.
 
 
-<a id="orgf1ab01b"></a>
+<a id="orga28c6cc"></a>
 
 ## 3.01 What is research?
 
@@ -643,7 +645,7 @@ Another important topic is that of **reliability**. We want to ensure
 our results have meaning from the context of experimentation.
 
 
-<a id="orga60f447"></a>
+<a id="orge1a2bf9"></a>
 
 ## 3.101 Understanding the differences between quantitative and qualitative research
 
@@ -659,7 +661,7 @@ There are two main types of research:
     happening
 
 
-<a id="org001f6c9"></a>
+<a id="orgee5c0e0"></a>
 
 ## 3.102 Introduction to research methods
 
@@ -668,7 +670,7 @@ There are two main types of research:
     and Sons Inc, 2019) chapters 8 and 9 pp.259–34.2
 
 
-<a id="orgfbab818"></a>
+<a id="org9d60aa7"></a>
 
 ## 3.201 Identifying useful sources of information
 
@@ -683,7 +685,7 @@ There are two main types of research:
     impose biases
 
 
-<a id="org1f8975d"></a>
+<a id="org8b5b613"></a>
 
 ## 3.202 Team activity and deliverable: doing prerequisite investigation
 
@@ -692,7 +694,7 @@ There are two main types of research:
     industry](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/791931/DfE-Education_Technology_Strategy.pdf). (2019).
 
 
-<a id="org5804c96"></a>
+<a id="org1102b93"></a>
 
 # Week 6
 
@@ -703,7 +705,7 @@ Key Concepts
 -   Make decisions based around research findings
 
 
-<a id="org0538996"></a>
+<a id="org32ec0e5"></a>
 
 ## 3.301 How to analyse the competition and place your ‘solution’ in a space
 
@@ -730,7 +732,7 @@ STEEPLE is concerned with the following aspects:
     approach is ethical
 
 
-<a id="org7e7128c"></a>
+<a id="orge1c15b9"></a>
 
 ## 3.302 SWOT analysis
 
@@ -746,14 +748,14 @@ project planning.
 -   **Threats:** What can cause trouble to the project?
 
 
-<a id="orgc64d434"></a>
+<a id="org7cf4583"></a>
 
 ## Alternative models
 
 -   [UNICEF SWOT and STEEPLE](https://www.unicef.org/knowledge-exchange/files/SWOT_and_PESTEL_production.pdf)
 
 
-<a id="orgedd49b9"></a>
+<a id="org3025b21"></a>
 
 # Week 7
 
@@ -767,7 +769,7 @@ Key Concepts
     prototypes.
 
 
-<a id="org06fb751"></a>
+<a id="orgf170665"></a>
 
 ## 4.01 User-centred design in a nutshell
 
@@ -807,7 +809,7 @@ benefits. Through an iterative design process we get:
     for the system
 
 
-<a id="orgb73f277"></a>
+<a id="org624d420"></a>
 
 ## 4.03 Design and prototyping
 
@@ -816,7 +818,7 @@ benefits. Through an iterative design process we get:
     Sons Inc, 2019) chapter 12 pp.421–466.
 
 
-<a id="org0d4a014"></a>
+<a id="org0f14c9d"></a>
 
 ## 4.101 Why ‘user-friendliness’ is a false metric
 
@@ -855,7 +857,7 @@ iPhone revolutionized the mobile phone market and MOOCs have
 changed the way education is delivered.
 
 
-<a id="org8381677"></a>
+<a id="org910c52f"></a>
 
 ## 4.102 Introduction to user-centred design
 
@@ -864,7 +866,7 @@ changed the way education is delivered.
     Sons Inc, 2019) chapter 12 pp.471-491.
 
 
-<a id="org7e66117"></a>
+<a id="org9e31e2c"></a>
 
 ## 4.201 Test early, test often, iterate
 
@@ -933,11 +935,77 @@ about what a typical user might look like. It should help us
 targeting users from a particular demographic.
 
 
-<a id="org85ee240"></a>
+<a id="orgaa78e67"></a>
 
 ## 4.202 Heuristics for design
 
 -   Sharp, H., J. Preece and Y. Rogers [Interaction design: beyond
     human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446). (Indianapolis, IN: John Wiley and
     Sons Inc, 2019) chapter 12 pp.549-576.
+
+
+<a id="orgfc5414a"></a>
+
+# Week 8
+
+Key Concepts
+
+-   Understand user-centred design and what it means to employ said
+    methods and strategies.
+-   Consider how user-centred design techniques can be used to
+    iteratively improve software quality.
+-   Formalise your findings and develop them as a series of
+    prototypes.
+
+
+<a id="org30265be"></a>
+
+## 4.301 Why do we prototype?
+
+At some point during our research phase, we will start forming more
+concrete ideas about our designs. It will become necessary to **test**
+some of our assumptions to make we&rsquo;re following the right path.
+
+A protype helps us test these assumptions. It&rsquo;s essentially a
+smaller version of our application, with limitted functionality
+built solely to test a hypothesis. We could test a single feature,
+a certain algorithm, a UI Design, etc.
+
+We could depend on some parts of the system to be fully working to
+test a certain prototype. Perhaps, a registration page prototype
+needs the backend authentication and registration fully working.
+
+There are *levels of prototype* to consider:
+
+-   **Low-fidelity prototypes:** often paper-based mock-ups of areas of
+    our application with placeholder content
+
+-   **Medium-fidelity prototypes:** an extension of low-fidelity
+    prototypes. Often contain some more realistic data, images,
+    etc. May also include limitted functionality
+
+-   **High-fidelity prototypes:** typically functional or
+    semi-functional parts of our application. Generally closer to
+    what the final product will look like
+
+When it comes to testing assumptions, it&rsquo;s important to test
+frequently to avoid spending too much time pursuing a false
+premise. Besides, a series of small incremental changes is easier
+to reason about and, in general, improves the quality of the final
+product.
+
+Given all this information about levels of prototyping, there some
+prototyping techniques to be discussed.
+
+-   **Sketching and Storyboarding:** primitive design tool used to
+    generate ideas and concepts. Usually employed early in the design
+    phase
+
+-   **Wireframes:** provide a standardised framework for design
+    placeholders. Focused on *structure* and how pieces fit together
+
+The drawbacks of prototypes are that they won&rsquo;t give us a good
+sense of what to expect in the final version. They may also cause
+confusion to some users who may expect a fully functional system,
+and they can consume valuable resources (time and monetary).
 
