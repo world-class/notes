@@ -1,55 +1,63 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgf1d0d9a)
-    1.  [Reading: Ethics in information security](#orgf17b703)
-    2.  [Defining computer security](#org73bb2d9)
-    3.  [Types of malicious software 1](#org7f55d71)
-        1.  [Viruses](#orgd752c52)
-        2.  [Worms](#org14706f3)
-        3.  [Adware](#org89634f5)
-        4.  [Trojans](#org58be097)
-        5.  [Spyware](#org0c92269)
-    4.  [Types of malicious software 2](#orgeabe3d8)
-2.  [Week 2](#org38c8d4d)
-    1.  [Malware analysis and techniques](#orgc8ded02)
-    2.  [Malware analysis 2](#org653e268)
-    3.  [Ethics](#orgdbd2f41)
-    4.  [Passwords](#org3f328e3)
-    5.  [Social Engineering](#org832b93d)
-3.  [Week 3](#org137584f)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#orgab9a491)
-    2.  [Paper about CIA](#org3304206)
-    3.  [The attack surface and the denial of service attack](#orgf9309ac)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#org7eafe20)
-    5.  [Mirai GitHub and Research Paper](#org0e39a80)
-    6.  [Wireless attacks: WiFi attack vectors](#org051c5cb)
-    7.  [Wireless Networking Security](#orgc7bab7f)
-4.  [Week 4](#orgb5c4f7e)
-    1.  [Firewalls – our first line of defence](#orge6f6318)
-    2.  [Intrusion detection systems (IDS)](#org27475cb)
-    3.  [Intrusion Detection Systems](#org26c56f9)
-5.  [Week 5](#orgfeb9372)
-    1.  [Operating systems: windows and OS hardening](#org05ed6fa)
-    2.  [File system and directory structure](#org7295c25)
-    3.  [Windows Security](#orgbd186d3)
-6.  [Week 6](#orga68f755)
-    1.  [Why is Linux important for security & hardening Linux with Harbian](#org8c9ab9d)
-    2.  [Harbian on Github](#org9175b05)
-    3.  [The Android attack surface](#org9070b2b)
-    4.  [Smartphone security: an overview of emerging threats.](#org90cc931)
-    5.  [Virtualised and containerised operating systems](#org9455c71)
-    6.  [Container Security](#org9bfc8b0)
-7.  [Week 7](#org846385c)
-    1.  [What is Cryptography?](#org35275e0)
-    2.  [History of Cryptography](#orgbe93de1)
-    3.  [Symmetric cryptography](#orgf316750)
-    4.  [Asymmetric cryptography](#org402f3d1)
-    5.  [Some basic cyptographic techniques](#org137c5df)
+1.  [Week 1](#orge297d84)
+    1.  [Reading: Ethics in information security](#org9fd05ab)
+    2.  [Defining computer security](#org83fa0f9)
+    3.  [Types of malicious software 1](#org863f78c)
+        1.  [Viruses](#org35c1e07)
+        2.  [Worms](#org94072e6)
+        3.  [Adware](#orgc1fe87a)
+        4.  [Trojans](#orgb9fd801)
+        5.  [Spyware](#orgfb2de66)
+    4.  [Types of malicious software 2](#org2098ea2)
+2.  [Week 2](#orgdfef318)
+    1.  [Malware analysis and techniques](#orge8fab6e)
+    2.  [Malware analysis 2](#org55349a1)
+    3.  [Ethics](#org0e03d77)
+    4.  [Passwords](#org3d51bb5)
+    5.  [Social Engineering](#org6b7dbc3)
+3.  [Week 3](#org68019b2)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org6ae723e)
+    2.  [Paper about CIA](#orgd5534a1)
+    3.  [The attack surface and the denial of service attack](#orgb493875)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#orgb4af147)
+    5.  [Mirai GitHub and Research Paper](#orgdb7d367)
+    6.  [Wireless attacks: WiFi attack vectors](#org619189f)
+    7.  [Wireless Networking Security](#orgf8aa1e3)
+4.  [Week 4](#org1b727de)
+    1.  [Firewalls – our first line of defence](#org67d1057)
+    2.  [Intrusion detection systems (IDS)](#org3cf4239)
+    3.  [Intrusion Detection Systems](#org41f9998)
+5.  [Week 5](#org6e961eb)
+    1.  [Operating systems: windows and OS hardening](#org250b00f)
+    2.  [File system and directory structure](#orgc7d4268)
+    3.  [Windows Security](#org9654ee2)
+6.  [Week 6](#orgc2dc105)
+    1.  [Why is Linux important for security & hardening Linux with Harbian](#org63fdd43)
+    2.  [Harbian on Github](#org5bd180a)
+    3.  [The Android attack surface](#org0576e4f)
+    4.  [Smartphone security: an overview of emerging threats.](#orgb888383)
+    5.  [Virtualised and containerised operating systems](#org0b6c28d)
+    6.  [Container Security](#org064e7e1)
+7.  [Week 7](#org89cd08d)
+    1.  [What is Cryptography?](#org5fbbd0b)
+    2.  [History of Cryptography](#org63cc69a)
+    3.  [Symmetric cryptography](#org718a122)
+    4.  [Asymmetric cryptography](#org9060af3)
+    5.  [Some basic cyptographic techniques](#org28007b1)
+8.  [Week 8](#org75acf65)
+    1.  [Cryptography techniques transposition methods](#org54fdffa)
+    2.  [The basics of transposition cipher](#org20493a5)
+    3.  [Cryptographic techniques substitution 1: Playfair](#org654c3dd)
+    4.  [Playfair](#org29ed6a8)
+    5.  [Cryptographic techniques substitution 2: Vigenere](#orgb701c12)
+    6.  [Vigenère](#org7ecdd54)
+    7.  [Frequency analysis](#orgca2f230)
 
 
 
-<a id="orgf1d0d9a"></a>
+<a id="orge297d84"></a>
 
 # Week 1
 
@@ -62,7 +70,7 @@ Key Concepts
     significance.
 
 
-<a id="orgf17b703"></a>
+<a id="org9fd05ab"></a>
 
 ## Reading: Ethics in information security
 
@@ -75,7 +83,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="org73bb2d9"></a>
+<a id="org83fa0f9"></a>
 
 ## Defining computer security
 
@@ -123,7 +131,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="org7f55d71"></a>
+<a id="org863f78c"></a>
 
 ## Types of malicious software 1
 
@@ -132,7 +140,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="orgd752c52"></a>
+<a id="org35c1e07"></a>
 
 ### Viruses
 
@@ -154,7 +162,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="org14706f3"></a>
+<a id="org94072e6"></a>
 
 ### Worms
 
@@ -172,7 +180,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org89634f5"></a>
+<a id="orgc1fe87a"></a>
 
 ### Adware
 
@@ -181,7 +189,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="org58be097"></a>
+<a id="orgb9fd801"></a>
 
 ### Trojans
 
@@ -200,7 +208,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="org0c92269"></a>
+<a id="orgfb2de66"></a>
 
 ### Spyware
 
@@ -213,7 +221,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="orgeabe3d8"></a>
+<a id="org2098ea2"></a>
 
 ## Types of malicious software 2
 
@@ -256,7 +264,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="org38c8d4d"></a>
+<a id="orgdfef318"></a>
 
 # Week 2
 
@@ -267,7 +275,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="orgc8ded02"></a>
+<a id="orge8fab6e"></a>
 
 ## Malware analysis and techniques
 
@@ -309,7 +317,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="org653e268"></a>
+<a id="org55349a1"></a>
 
 ## Malware analysis 2
 
@@ -347,7 +355,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="orgdbd2f41"></a>
+<a id="org0e03d77"></a>
 
 ## Ethics
 
@@ -391,7 +399,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org3f328e3"></a>
+<a id="org3d51bb5"></a>
 
 ## Passwords
 
@@ -426,7 +434,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org832b93d"></a>
+<a id="org6b7dbc3"></a>
 
 ## Social Engineering
 
@@ -450,7 +458,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org137584f"></a>
+<a id="org68019b2"></a>
 
 # Week 3
 
@@ -463,7 +471,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="orgab9a491"></a>
+<a id="org6ae723e"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -487,7 +495,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="org3304206"></a>
+<a id="orgd5534a1"></a>
 
 ## Paper about CIA
 
@@ -499,7 +507,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="orgf9309ac"></a>
+<a id="orgb493875"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -565,7 +573,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="org7eafe20"></a>
+<a id="orgb4af147"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -590,7 +598,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="org0e39a80"></a>
+<a id="orgdb7d367"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -615,7 +623,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org051c5cb"></a>
+<a id="org619189f"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -660,7 +668,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="orgc7bab7f"></a>
+<a id="orgf8aa1e3"></a>
 
 ## Wireless Networking Security
 
@@ -687,7 +695,7 @@ networks. Some examples:
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
 
-<a id="orgb5c4f7e"></a>
+<a id="org1b727de"></a>
 
 # Week 4
 
@@ -699,7 +707,7 @@ Key Concepts
     historical and contemporary systems.
 
 
-<a id="orge6f6318"></a>
+<a id="org67d1057"></a>
 
 ## Firewalls – our first line of defence
 
@@ -711,7 +719,7 @@ Key Concepts
 -   **Proxy Firewall:** Carries out external network access.
 
 
-<a id="org27475cb"></a>
+<a id="org3cf4239"></a>
 
 ## Intrusion detection systems (IDS)
 
@@ -757,7 +765,7 @@ of the system. A common dataset to use for this case is the [KDD99
 Dataset](https://www.unb.ca/cic/datasets/nsl.html).
 
 
-<a id="org26c56f9"></a>
+<a id="org41f9998"></a>
 
 ## Intrusion Detection Systems
 
@@ -778,7 +786,7 @@ Dataset](https://www.unb.ca/cic/datasets/nsl.html).
     10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
 
 
-<a id="orgfeb9372"></a>
+<a id="org6e961eb"></a>
 
 # Week 5
 
@@ -792,7 +800,7 @@ Key Concepts
     historical versions of Windows operating systems.
 
 
-<a id="org05ed6fa"></a>
+<a id="org250b00f"></a>
 
 ## Operating systems: windows and OS hardening
 
@@ -846,7 +854,7 @@ on, ensuring wireless connection is disabled if not needed, and so
 on.
 
 
-<a id="org7295c25"></a>
+<a id="orgc7d4268"></a>
 
 ## File system and directory structure
 
@@ -893,7 +901,7 @@ Important attributes are:
 A file system also has a directory structure.
 
 
-<a id="orgbd186d3"></a>
+<a id="org9654ee2"></a>
 
 ## Windows Security
 
@@ -904,7 +912,7 @@ A file system also has a directory structure.
 -   [Windows Enterprise Security circa Oct 2020](https://web.archive.org/web/20200611221008/https://docs.microsoft.com/en-us/windows/security)
 
 
-<a id="orga68f755"></a>
+<a id="orgc2dc105"></a>
 
 # Week 6
 
@@ -917,7 +925,7 @@ Key Concepts
     is relevant in contemporary internet architectures.
 
 
-<a id="org8c9ab9d"></a>
+<a id="org63fdd43"></a>
 
 ## Why is Linux important for security & hardening Linux with Harbian
 
@@ -931,14 +939,14 @@ focused at security &#x2013; and how it can help us hardening a Linux
 system.
 
 
-<a id="org9175b05"></a>
+<a id="org5bd180a"></a>
 
 ## Harbian on Github
 
 -   <https://github.com/hardenedlinux/harbian-audit>
 
 
-<a id="org9070b2b"></a>
+<a id="org0576e4f"></a>
 
 ## The Android attack surface
 
@@ -964,7 +972,7 @@ An average android smartphone has a very large attack surface.
     contain security flaws
 
 
-<a id="org90cc931"></a>
+<a id="orgb888383"></a>
 
 ## Smartphone security: an overview of emerging threats.
 
@@ -977,7 +985,7 @@ An average android smartphone has a very large attack surface.
     IEEE Transactions on Mobile Computing 19(11) 2020, pp.2714–2730.
 
 
-<a id="org9455c71"></a>
+<a id="org0b6c28d"></a>
 
 ## Virtualised and containerised operating systems
 
@@ -1002,7 +1010,7 @@ There are four common attack routes to containers:
     container attacks it
 
 
-<a id="org9bfc8b0"></a>
+<a id="org064e7e1"></a>
 
 ## Container Security
 
@@ -1011,7 +1019,7 @@ There are four common attack routes to containers:
     pp. 52976-52996, 2019, doi: 10.1109/ACCESS.2019.2911732
 
 
-<a id="org846385c"></a>
+<a id="org89cd08d"></a>
 
 # Week 7
 
@@ -1025,7 +1033,7 @@ Key Concepts
     their associated security implications.
 
 
-<a id="org35275e0"></a>
+<a id="org5fbbd0b"></a>
 
 ## What is Cryptography?
 
@@ -1035,10 +1043,10 @@ discussion, let&rsquo;s introduce a scenario:
 
 *Alice* wants to send messages to *Bob* in a secure manner. While
 this is happening, *Eve* wants to eavesdrop the communication,
-something like shown in figure [1](#orge5f296a) below.
+something like shown in figure [1](#orgb9b8afe) below.
 
 \begin{figure}[h]
-\label{orge5f296a}
+\label{orgb9b8afe}
   \centering
   \begin{tikzpicture}
     \node[alice]                             (alice) {Alice};
@@ -1075,7 +1083,7 @@ back into *plaintext*, otherwise the message can&rsquo;t be read. We need
 to come up with ways to agree on this method without telling *Eve*.
 
 
-<a id="orgbe93de1"></a>
+<a id="org63cc69a"></a>
 
 ## History of Cryptography
 
@@ -1115,15 +1123,15 @@ The goal of cryptography are:
 -   **Non-repudiation:** sender cannot deny a comment or action
 
 
-<a id="orgf316750"></a>
+<a id="org718a122"></a>
 
 ## Symmetric cryptography
 
 Using our Alice and Bob scenario again, reproduced in figure
-[2](#org8565140) below:
+[2](#orged6db26) below:
 
 \begin{figure}[h]
-\label{org8565140}
+\label{orged6db26}
   \centering
   \begin{tikzpicture}
     \node[alice]                            (alice) {Alice};
@@ -1236,7 +1244,7 @@ or **e**, calculate the offset from **a**, or **s**, or **e** to that
 letter in the ciphertext and try that as a key.
 
 
-<a id="org402f3d1"></a>
+<a id="org9060af3"></a>
 
 ## Asymmetric cryptography
 
@@ -1268,10 +1276,810 @@ When Alice wants to **sign** a message, she uses her private key
 since she&rsquo;s the only one with access to that key.
 
 
-<a id="org137c5df"></a>
+<a id="org28007b1"></a>
 
 ## Some basic cyptographic techniques
 
 -   Buchanan, W.J. [Cryptography](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193). (Denmark: River Publishers, 2017)
     pp.1–11.
+
+
+<a id="org75acf65"></a>
+
+# Week 8
+
+Key Concepts
+
+-   Explore practical concerns around cryptographic techniques and
+    their associated security implications.
+-   Consider the application of cryptographic techniques in different
+    settings.
+-   Familiarise yourself with the basic components that underpin
+    cryptography.
+
+
+<a id="org54fdffa"></a>
+
+## Cryptography techniques transposition methods
+
+Substitution ciphers, will substitute a symbol for another symbol,
+while Transposition ciphers will permute the symbols.
+
+For example, the following is an example of a Transposition cipher:
+
+    Plaintext:	meetmeatthecorner
+    Ciphertext:	renrocehttaemteem
+
+Writing letters in reverse order is far too simple. A slightly
+better approach is to use a *Transposition Grid*. When employing a
+Transposition Grid, our message comes acompanied by a number which
+denotes the number of columns in the grid.
+
+Assuming we&rsquo;re sending the message **THEEAGLELANDSTONIGHT** and the
+number 4, we will get the following grid:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">T</th>
+<th scope="col" class="org-left">H</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">E</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">G</td>
+<td class="org-left">L</td>
+<td class="org-left">E</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">A</td>
+<td class="org-left">N</td>
+<td class="org-left">D</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">T</td>
+<td class="org-left">O</td>
+<td class="org-left">N</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">G</td>
+<td class="org-left">H</td>
+<td class="org-left">T</td>
+</tr>
+</tbody>
+</table>
+
+The ciphertext is a read of the columns, therefore, the ciphertext
+is **TALSIHGATGELNOHEEDNT**. If we wanted to send the same message,
+but the number of columns was 3, instead of 4, we would get the
+following grid:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">T</th>
+<th scope="col" class="org-left">H</th>
+<th scope="col" class="org-left">E</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">A</td>
+<td class="org-left">G</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">E</td>
+<td class="org-left">L</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">N</td>
+<td class="org-left">D</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">T</td>
+<td class="org-left">O</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">N</td>
+<td class="org-left">I</td>
+<td class="org-left">G</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">T</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+</table>
+
+Which results in the ciphertext **TELASNHHAENTITEGLDOGX**. Another
+variation of the same technique is that instead of transmitting the
+number of columns, we use a keyword. Let&rsquo;s say the keword is
+**BASE**. The length of the keywords tells us the number of columns
+in the grid, so we get the same grid as before:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">**B**</th>
+<th scope="col" class="org-left">**A**</th>
+<th scope="col" class="org-left">**S**</th>
+<th scope="col" class="org-left">**E**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">H</td>
+<td class="org-left">E</td>
+<td class="org-left">E</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">G</td>
+<td class="org-left">L</td>
+<td class="org-left">E</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">A</td>
+<td class="org-left">N</td>
+<td class="org-left">D</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">T</td>
+<td class="org-left">O</td>
+<td class="org-left">N</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">G</td>
+<td class="org-left">H</td>
+<td class="org-left">T</td>
+</tr>
+</tbody>
+</table>
+
+After doing that, we sort the columns by alphabetising the keyword,
+which gives us the following grid:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">**A**</th>
+<th scope="col" class="org-left">**B**</th>
+<th scope="col" class="org-left">**E**</th>
+<th scope="col" class="org-left">**S**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">T</td>
+<td class="org-left">E</td>
+<td class="org-left">E</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">A</td>
+<td class="org-left">E</td>
+<td class="org-left">L</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">L</td>
+<td class="org-left">D</td>
+<td class="org-left">N</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">S</td>
+<td class="org-left">N</td>
+<td class="org-left">O</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">I</td>
+<td class="org-left">T</td>
+<td class="org-left">H</td>
+</tr>
+</tbody>
+</table>
+
+The ciphertext is, again, the read of the columns which results in
+**HGATGTALSIEEDNTELNOH**. One advantage of this method over the
+previous is that we also move the location of the first and last
+characters.
+
+
+<a id="org20493a5"></a>
+
+## The basics of transposition cipher
+
+-   <https://en.wikipedia.org/wiki/Transposition_cipher>
+
+
+<a id="org654c3dd"></a>
+
+## Cryptographic techniques substitution 1: Playfair
+
+The [Playfair Cipher](https://en.wikipedia.org/wiki/Playfair_cipher) is named after Lord Playfair for promoting its
+use. The cipher itself is grid-based and has four simple rules to
+be memorized. Because there are 26 letters in the alphabet, making
+a grid would be awkward as the only possibility would be \(13 \times
+   2\) grid (no, we&rsquo;re not considering \(26 \times 1\)). To circumvent
+this, we treat I and J as the same letter which gives us a \(5
+   \times 5\) grid. Now we fill a grid with a keyword.
+
+To give an example of how this works, let&rsquo;s assume our message is
+**THISISMYMESSAGE** and the keyword is **MONARCHY**. To make the grid
+we will:
+
+1.  Put in the keyword in the grid, one letter at a time
+2.  Put the rest of the alphabet in alphabetic order
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">**M**</th>
+<th scope="col" class="org-left">**O**</th>
+<th scope="col" class="org-left">**N**</th>
+<th scope="col" class="org-left">**A**</th>
+<th scope="col" class="org-left">**R**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">**C**</td>
+<td class="org-left">**H**</td>
+<td class="org-left">**Y**</td>
+<td class="org-left">B</td>
+<td class="org-left">D</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">F</td>
+<td class="org-left">G</td>
+<td class="org-left">I</td>
+<td class="org-left">K</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">P</td>
+<td class="org-left">Q</td>
+<td class="org-left">S</td>
+<td class="org-left">T</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">U</td>
+<td class="org-left">V</td>
+<td class="org-left">W</td>
+<td class="org-left">X</td>
+<td class="org-left">Z</td>
+</tr>
+</tbody>
+</table>
+
+Given this grid, the rules for encryption are:
+
+1.  Break up the plaintext into pairs
+    
+    **TH** **IS** **IS** **MY** **ME** **SS** **AG** **E**
+
+2.  If the letters in a pair is the same, put an **X** between them:
+    
+    **TH** **IS** **IS** **MY** **ME** **SX** **SA** **GE**
+
+3.  If you end up with and odd number of letters, put an **X** in the
+    end.
+    
+    **TH** **IS** **IS** **MY** **ME** **SX** **SA** **GE**
+
+4.  For each pair, look at where the letters in the pair are
+    1.  If they are in the different rows and columns, look at the
+        rectangle formed by the letters, replace with the letters in
+        the other corner (e.g. TH -> PD)
+        
+        <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+        
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        <thead>
+        <tr>
+        <th scope="col" class="org-left">M</th>
+        <th scope="col" class="org-left">O</th>
+        <th scope="col" class="org-left">N</th>
+        <th scope="col" class="org-left">A</th>
+        <th scope="col" class="org-left">R</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">C</td>
+        <td class="org-left">**H**</td>
+        <td class="org-left">**Y**</td>
+        <td class="org-left">**B**</td>
+        <td class="org-left">**D**</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">E</td>
+        <td class="org-left">**F**</td>
+        <td class="org-left">**G**</td>
+        <td class="org-left">**I**</td>
+        <td class="org-left">**K**</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">L</td>
+        <td class="org-left">**P**</td>
+        <td class="org-left">**Q**</td>
+        <td class="org-left">**S**</td>
+        <td class="org-left">**T**</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">U</td>
+        <td class="org-left">V</td>
+        <td class="org-left">W</td>
+        <td class="org-left">X</td>
+        <td class="org-left">Z</td>
+        </tr>
+        </tbody>
+        </table>
+    
+    2.  If the letters are in the same column, replace each with the
+        letter below it (e.g. IS -> SX)
+        
+        <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+        
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        <thead>
+        <tr>
+        <th scope="col" class="org-left">M</th>
+        <th scope="col" class="org-left">O</th>
+        <th scope="col" class="org-left">N</th>
+        <th scope="col" class="org-left">A</th>
+        <th scope="col" class="org-left">R</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">C</td>
+        <td class="org-left">H</td>
+        <td class="org-left">Y</td>
+        <td class="org-left">B</td>
+        <td class="org-left">D</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">E</td>
+        <td class="org-left">F</td>
+        <td class="org-left">G</td>
+        <td class="org-left">**I**</td>
+        <td class="org-left">K</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">L</td>
+        <td class="org-left">P</td>
+        <td class="org-left">Q</td>
+        <td class="org-left">**S**</td>
+        <td class="org-left">T</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">U</td>
+        <td class="org-left">V</td>
+        <td class="org-left">W</td>
+        <td class="org-left">X</td>
+        <td class="org-left">Z</td>
+        </tr>
+        </tbody>
+        </table>
+    
+    3.  If the letters are in the same row, please each letter with
+        the letter to its right (e.g. GE -> IF)
+        
+        <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+        
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        
+        <colgroup>
+        <col  class="org-left" />
+        </colgroup>
+        <thead>
+        <tr>
+        <th scope="col" class="org-left">M</th>
+        <th scope="col" class="org-left">O</th>
+        <th scope="col" class="org-left">N</th>
+        <th scope="col" class="org-left">A</th>
+        <th scope="col" class="org-left">R</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">C</td>
+        <td class="org-left">H</td>
+        <td class="org-left">Y</td>
+        <td class="org-left">B</td>
+        <td class="org-left">D</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">**E**</td>
+        <td class="org-left">**F**</td>
+        <td class="org-left">**G**</td>
+        <td class="org-left">I</td>
+        <td class="org-left">K</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">L</td>
+        <td class="org-left">P</td>
+        <td class="org-left">Q</td>
+        <td class="org-left">S</td>
+        <td class="org-left">T</td>
+        </tr>
+        </tbody>
+        
+        <tbody>
+        <tr>
+        <td class="org-left">U</td>
+        <td class="org-left">V</td>
+        <td class="org-left">W</td>
+        <td class="org-left">X</td>
+        <td class="org-left">Z</td>
+        </tr>
+        </tbody>
+        </table>
+
+After all these conversions, our result is the ciphertext
+**PDSXSXNCCLXAXBJF**.
+
+
+<a id="org29ed6a8"></a>
+
+## Playfair
+
+-   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.11–16
+
+
+<a id="orgb701c12"></a>
+
+## Cryptographic techniques substitution 2: Vigenere
+
+The [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) is a form os polyalphabetic substitution. It&rsquo;s
+essentially a generalization of the Caeser Cipher which makes it
+more difficult to break. The amount of shifting a letters gets, is
+determined by a keyword.
+
+For example, let&rsquo;s say we&rsquo;re using the keyword **EASY** and our
+plaintext is **MEETMEATNINE**. Each letter of the alphabet gets
+mapped to a number that dictates how far to move a character in the
+plaintext. Basically, A maps to 0, B maps to 1, C to 2, and so on.
+
+For our keyword **EASY** we have E=4, A=0, S=18, Y=24.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">M</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">T</th>
+<th scope="col" class="org-left">M</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">A</th>
+<th scope="col" class="org-left">T</th>
+<th scope="col" class="org-left">N</th>
+<th scope="col" class="org-left">I</th>
+<th scope="col" class="org-left">N</th>
+<th scope="col" class="org-left">E</th>
+</tr>
+
+
+<tr>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">A</th>
+<th scope="col" class="org-left">S</th>
+<th scope="col" class="org-left">Y</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">A</th>
+<th scope="col" class="org-left">S</th>
+<th scope="col" class="org-left">Y</th>
+<th scope="col" class="org-left">E</th>
+<th scope="col" class="org-left">A</th>
+<th scope="col" class="org-left">S</th>
+<th scope="col" class="org-left">Y</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Q</td>
+<td class="org-left">E</td>
+<td class="org-left">W</td>
+<td class="org-left">R</td>
+<td class="org-left">Q</td>
+<td class="org-left">E</td>
+<td class="org-left">S</td>
+<td class="org-left">R</td>
+<td class="org-left">R</td>
+<td class="org-left">I</td>
+<td class="org-left">F</td>
+<td class="org-left">C</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="org7ecdd54"></a>
+
+## Vigenère
+
+-   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.17-19
+
+
+<a id="orgca2f230"></a>
+
+## Frequency analysis
+
+-   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.44-48
 
