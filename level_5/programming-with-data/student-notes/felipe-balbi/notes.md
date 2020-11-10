@@ -1,49 +1,54 @@
 
 # Table of Contents
 
-1.  [Week 1](#org7c02aa0)
-    1.  [1.01 Welcome to the course](#org0dfa02e)
-    2.  [1.06 Introduction to development environments and Python](#org71c056b)
-    3.  [1.07 Getting to grips with Python](#orgbee17f5)
-    4.  [1.103 Jupyter code cells](#orgd02c464)
-    5.  [1.105 Jupyter Notebook basics](#org53bf745)
-    6.  [1.106 Using Python as a Calculator](#orgc7d3a2d)
-2.  [Week 3](#orgb729325)
-    1.  [2.01 Becoming familiar with Python](#orgedfbdf2)
-    2.  [2.03 Built-in types in Python](#orgfcabc32)
-    3.  [2.05 Mapping operators to functions](#org8a238f3)
-    4.  [2.104 Introduction to conditional logic](#orgd791d79)
-    5.  [2.105 Functions and reuse](#orga4bd06c)
-    6.  [2.201 Conditions and logic](#org3ef4f55)
-    7.  [2.202 More conditions](#org7cd0ded)
-3.  [Week 4](#org0d7823b)
-    1.  [2.301 Introduction to lists](#org0c14960)
-    2.  [2.302 Lists](#org95e83a1)
-    3.  [2.305 Loops and iteration](#org5a0fba1)
-    4.  [2.401 Libraries and dependencies](#org0e2346d)
-4.  [Week 5](#orgc9e4fff)
-    1.  [3.01 Introduction to data](#org84d559e)
-    2.  [3.02 Data structures and data types](#org63d2b3c)
-    3.  [3.04 Data handling](#org0c6dbc2)
-    4.  [3.05 Working with text-based data](#orgb7b7469)
-    5.  [3.06 counting words the verbose way](#org21aed90)
-    6.  [3.07 Programming activity: reading files](#org1e72994)
-5.  [Week 6](#org56e643a)
-    1.  [3.201 The dictionary data type](#orgdda9c65)
-6.  [Week 7](#orgf9dc532)
-    1.  [4.01 Introduction](#orga1c6e5f)
-    2.  [4.03 Exploring the CSV data format](#org16c558b)
-    3.  [4.04 Online documentation](#orgd54e61f)
-    4.  [4.05 Getting started with Pandas and handling Data](#org9b22dc9)
-7.  [Week 8](#orgc2fd813)
-    1.  [4.101 Working with CSV in Python](#orgc97d5f3)
-    2.  [4.104 Data processing libraries used to improve efficiency](#org64039cc)
-    3.  [4.105 Introduction to the JSON format](#orgf5379f1)
-    4.  [4.106 Handling JSON files in Python](#orgfcd032f)
+1.  [Week 1](#org759754a)
+    1.  [1.01 Welcome to the course](#org7db1dcd)
+    2.  [1.06 Introduction to development environments and Python](#org9edabba)
+    3.  [1.07 Getting to grips with Python](#org2db7f5d)
+    4.  [1.103 Jupyter code cells](#org0e0394c)
+    5.  [1.105 Jupyter Notebook basics](#orgde94c0e)
+    6.  [1.106 Using Python as a Calculator](#org8833933)
+2.  [Week 3](#orgefe71e4)
+    1.  [2.01 Becoming familiar with Python](#orge5f4a36)
+    2.  [2.03 Built-in types in Python](#org992be59)
+    3.  [2.05 Mapping operators to functions](#org15c00c2)
+    4.  [2.104 Introduction to conditional logic](#org90320d4)
+    5.  [2.105 Functions and reuse](#org872332a)
+    6.  [2.201 Conditions and logic](#org07370dc)
+    7.  [2.202 More conditions](#org2950e37)
+3.  [Week 4](#org769a45e)
+    1.  [2.301 Introduction to lists](#org99d88b8)
+    2.  [2.302 Lists](#org75cc1ff)
+    3.  [2.305 Loops and iteration](#org7658fd8)
+    4.  [2.401 Libraries and dependencies](#org9caae13)
+4.  [Week 5](#orgf267679)
+    1.  [3.01 Introduction to data](#orgb9638ca)
+    2.  [3.02 Data structures and data types](#org7a541c7)
+    3.  [3.04 Data handling](#orgc40da5c)
+    4.  [3.05 Working with text-based data](#orgbc444e6)
+    5.  [3.06 counting words the verbose way](#org2f6d51b)
+    6.  [3.07 Programming activity: reading files](#org2c6d0de)
+5.  [Week 6](#org297682e)
+    1.  [3.201 The dictionary data type](#org3e991e4)
+6.  [Week 7](#orgf77c945)
+    1.  [4.01 Introduction](#orgf662032)
+    2.  [4.03 Exploring the CSV data format](#org214d2c6)
+    3.  [4.04 Online documentation](#org725fe2b)
+    4.  [4.05 Getting started with Pandas and handling Data](#orgd8c48ff)
+7.  [Week 8](#orgdca0592)
+    1.  [4.101 Working with CSV in Python](#org10e50e1)
+    2.  [4.104 Data processing libraries used to improve efficiency](#orga4a5827)
+    3.  [4.105 Introduction to the JSON format](#org986ff61)
+    4.  [4.106 Handling JSON files in Python](#org57b57d7)
+8.  [Week 9](#org5538220)
+    1.  [5.01 Introduction to retrieving data from the web](#org8bdf5e6)
+    2.  [5.02 Handling data on the web](#org3afdecb)
+    3.  [5.04 HTTP and transferring data via the web](#org06e4dd6)
+    4.  [5.05 Introduction to web scraping](#org6481910)
 
 
 
-<a id="org7c02aa0"></a>
+<a id="org759754a"></a>
 
 # Week 1
 
@@ -55,7 +60,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="org0dfa02e"></a>
+<a id="org7db1dcd"></a>
 
 ## 1.01 Welcome to the course
 
@@ -75,7 +80,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="org71c056b"></a>
+<a id="org9edabba"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -88,7 +93,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="orgbee17f5"></a>
+<a id="org2db7f5d"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -103,7 +108,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="orgd02c464"></a>
+<a id="org0e0394c"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -119,7 +124,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="org53bf745"></a>
+<a id="orgde94c0e"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -130,7 +135,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="orgc7d3a2d"></a>
+<a id="org8833933"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -139,7 +144,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="orgb729325"></a>
+<a id="orgefe71e4"></a>
 
 # Week 3
 
@@ -153,7 +158,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgedfbdf2"></a>
+<a id="orge5f4a36"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -289,7 +294,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="orgfcabc32"></a>
+<a id="org992be59"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -298,7 +303,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org8a238f3"></a>
+<a id="org15c00c2"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -308,7 +313,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="orgd791d79"></a>
+<a id="org90320d4"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -317,7 +322,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="orga4bd06c"></a>
+<a id="org872332a"></a>
 
 ## 2.105 Functions and reuse
 
@@ -341,7 +346,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org3ef4f55"></a>
+<a id="org07370dc"></a>
 
 ## 2.201 Conditions and logic
 
@@ -357,7 +362,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="org7cd0ded"></a>
+<a id="org2950e37"></a>
 
 ## 2.202 More conditions
 
@@ -381,7 +386,7 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 4. Built-in types.
 
 
-<a id="org0d7823b"></a>
+<a id="org769a45e"></a>
 
 # Week 4
 
@@ -395,7 +400,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="org0c14960"></a>
+<a id="org99d88b8"></a>
 
 ## 2.301 Introduction to lists
 
@@ -441,7 +446,7 @@ final value. This means that the range `0:1` will only print the
 0<sup>th</sup> element.
 
 
-<a id="org95e83a1"></a>
+<a id="org75cc1ff"></a>
 
 ## 2.302 Lists
 
@@ -451,7 +456,7 @@ Click on the link below to read through the documentation on lists:
     types.
 
 
-<a id="org5a0fba1"></a>
+<a id="org7658fd8"></a>
 
 ## 2.305 Loops and iteration
 
@@ -480,7 +485,7 @@ example:
         print(x)
 
 
-<a id="org0e2346d"></a>
+<a id="org9caae13"></a>
 
 ## 2.401 Libraries and dependencies
 
@@ -501,7 +506,7 @@ library, as shown below:
     stats.describe(x)
 
 
-<a id="orgc9e4fff"></a>
+<a id="orgf267679"></a>
 
 # Week 5
 
@@ -517,7 +522,7 @@ Key Concepts
     matrix.
 
 
-<a id="org84d559e"></a>
+<a id="orgb9638ca"></a>
 
 ## 3.01 Introduction to data
 
@@ -557,7 +562,7 @@ formats are:
     -   **Data Exchange Formats:** JSON
 
 
-<a id="org63d2b3c"></a>
+<a id="org7a541c7"></a>
 
 ## 3.02 Data structures and data types
 
@@ -569,7 +574,7 @@ formats are:
 -   [Natural Language Toolkit](https://www.nltk.org/)
 
 
-<a id="org0c6dbc2"></a>
+<a id="orgc40da5c"></a>
 
 ## 3.04 Data handling
 
@@ -590,7 +595,7 @@ here&rsquo;s a summary:
 -   **`b`:** Tells `open()` we&rsquo;re dealing with binary file
 
 
-<a id="orgb7b7469"></a>
+<a id="orgbc444e6"></a>
 
 ## 3.05 Working with text-based data
 
@@ -618,7 +623,7 @@ length of the returned list:
     print(len(words))
 
 
-<a id="org21aed90"></a>
+<a id="org2f6d51b"></a>
 
 ## 3.06 counting words the verbose way
 
@@ -636,7 +641,7 @@ a given input:
     print(counter)
 
 
-<a id="org1e72994"></a>
+<a id="org2c6d0de"></a>
 
 ## 3.07 Programming activity: reading files
 
@@ -650,7 +655,7 @@ The following NLTK documentation might be helpful here:
 -   [nltk.tokenize package](http://www.nltk.org/api/nltk.tokenize.html?highlight=tokenize%20package#module-nltk.tokenize)
 
 
-<a id="org56e643a"></a>
+<a id="org297682e"></a>
 
 # Week 6
 
@@ -666,7 +671,7 @@ Key Concepts
     matrix.
 
 
-<a id="orgdda9c65"></a>
+<a id="org3e991e4"></a>
 
 ## 3.201 The dictionary data type
 
@@ -681,7 +686,7 @@ A dictionary is a kind of hash table, or associative array.
     x = mydict.get("goals")
 
 
-<a id="orgf9dc532"></a>
+<a id="orgf77c945"></a>
 
 # Week 7
 
@@ -694,7 +699,7 @@ Key Concepts
 -   Process data for purpose.
 
 
-<a id="orga1c6e5f"></a>
+<a id="orgf662032"></a>
 
 ## 4.01 Introduction
 
@@ -718,7 +723,7 @@ the data, i.e. remove superfluous, irrelevant, or incorrect
 data.
 
 
-<a id="org16c558b"></a>
+<a id="org214d2c6"></a>
 
 ## 4.03 Exploring the CSV data format
 
@@ -738,7 +743,7 @@ to understand conventions about the data format and how it&rsquo;s
 usually laid out.
 
 
-<a id="orgd54e61f"></a>
+<a id="org725fe2b"></a>
 
 ## 4.04 Online documentation
 
@@ -754,7 +759,7 @@ usually laid out.
     reference
 
 
-<a id="org9b22dc9"></a>
+<a id="orgd8c48ff"></a>
 
 ## 4.05 Getting started with Pandas and handling Data
 
@@ -764,7 +769,7 @@ usually laid out.
     **Chapter 6 Data Loading, Storage, and File Formats, pp.169–181**.
 
 
-<a id="orgc2fd813"></a>
+<a id="orgdca0592"></a>
 
 # Week 8
 
@@ -777,7 +782,7 @@ Key Concepts
 -   Process data for purpose.
 
 
-<a id="orgc97d5f3"></a>
+<a id="org10e50e1"></a>
 
 ## 4.101 Working with CSV in Python
 
@@ -798,7 +803,7 @@ something we can work with.
     print(sum(list) / len(list))
 
 
-<a id="org64039cc"></a>
+<a id="orga4a5827"></a>
 
 ## 4.104 Data processing libraries used to improve efficiency
 
@@ -821,7 +826,7 @@ libraries, we get:
     print(df.filter(like='50', axis=0))
 
 
-<a id="orgf5379f1"></a>
+<a id="org986ff61"></a>
 
 ## 4.105 Introduction to the JSON format
 
@@ -843,7 +848,7 @@ follows:
     } 
 
 
-<a id="orgfcd032f"></a>
+<a id="org57b57d7"></a>
 
 ## 4.106 Handling JSON files in Python
 
@@ -877,4 +882,137 @@ We can also use `pandas`:
         medict = json.load(handle)
     
         df = pd.DataFrame.from_dict(medict, columns=['name', 'surname'])
+
+
+<a id="org5538220"></a>
+
+# Week 9
+
+Key Concepts
+
+-   Explain what HTTP is and how the client–server model makes it
+    possible to access data on the internet.
+-   Implement an HTTP client in Python and use it to retrieve data
+    from an HTTP server in HTML and JSON format.
+-   Read data from RESTFul web APIs.
+
+
+<a id="org8bdf5e6"></a>
+
+## 5.01 Introduction to retrieving data from the web
+
+HTTP is the protocol used for serving web applications. It&rsquo;s based
+on a Request-Response architecture in that the client sends a
+request and the server (maybe) offers a response.
+
+The *lifetime* of a request can be simplified as below:
+
+1.  User types URL in browser
+2.  Check cache (Y/N)
+3.  DNS lookup of IP address
+4.  Browser initiates TCP connection
+5.  Browser sends HTTP request
+6.  Server handles the request
+7.  Browser receives HTTP response
+8.  Browser renders content
+
+The protocol dictates this sort of handshake or conversation
+between the involved parties. This incurs extra overhead. In order
+to produce HTTP requests and parse HTTP responses we need to know
+how they are created. We need to know:
+
+1.  HTTP Method
+2.  Path
+3.  HTTP Version
+4.  Request Headers
+5.  Request Body
+
+If we&rsquo;re making requests for web pages, those are written in HTML
+(HyperText Markup Language). It&rsquo;s a tag-based format that defines
+the layout of a webpage.
+
+A browser will build a structure referred to as the DOM (Document
+Object Model). This is essentially a tree representation of the web
+page. Most elements in elements are composed of opening and closing
+tags such as `<body>` and `</body>`, but some are self-closing
+tags, such as `<br/>`.
+
+Tags can also have attributes, which are name-value pair added
+within the tag.
+
+
+<a id="org3afdecb"></a>
+
+## 5.02 Handling data on the web
+
+-   Python &rsquo;[HTTP protocol client](https://docs.python.org/3/library/http.client.html)&rsquo;, Internet protocols and support
+-   Python &rsquo;[Simple HTML and XHTML parser](https://docs.python.org/3.5/library/html.parser.html)&rsquo;
+-   Pyquery &rsquo;[A jquery-like library for Python](https://pythonhosted.org/pyquery/)&rsquo;
+-   [Requests: HTTP for Humans](https://requests.readthedocs.io/en/master/)
+
+
+<a id="org06e4dd6"></a>
+
+## 5.04 HTTP and transferring data via the web
+
+A request will start with an HTTP verb. Usually a *POST* or a
+*GET*. That will follow with a URL. The server will send back a
+response containing a status code.
+
+Something like so:
+
+    GET /~smcgr004/test.html HTTP/1.1
+    User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+    Host: doc.gold.ac.uk
+    Accept-Language: en-us
+    Accept-Encoding: gzip, deflate
+    Connection: Keep-Alive
+
+A response may look like this:
+
+    HTTP/1.1 200 OK
+    Date: Mon, 10 Nov 2020 12:00:00 GMT
+    Server: Apache/2.2.15 (CentOS)
+    Last-Modified: Wed, 10 Nov 2020 11:00:00 GMT
+    Content-Length: 88
+    Content-Type: text/html
+    Connection: Closed
+
+
+<a id="org6481910"></a>
+
+## 5.05 Introduction to web scraping
+
+We can issue HTTP programmatically with Python. Like shown in the
+example below:
+
+    from bs4 import BeatifulSoup
+    import requests
+    import json
+    
+    def get_soup(URL, jar=None):
+        request_headers = {
+    	"update_insecure_request": "1",
+    	"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/2010 0101 Firefox/47.0",
+    	"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0",
+    	"accept-enconding": "gzip, deflate, br",
+    	"accept-language": "en-US,en;q=0.8"
+        }
+    
+        if jar:
+    	r = requests.get(URL, cookies=jar, headers=request_headers)
+        else:
+    	r = requests.get(URL, headers=request_headers)
+    	jar = requests.cookies.RequestsCookiesJar()
+    
+        print(r.url)
+        data = r.text
+        soup = BeatifulSoup(data, "html.parser")
+    
+        return soup, jar
+
+We can use this sample method like shown below:
+
+    soup, jar = get_soup('http://doc.gold.ac.uk/~smcgr004/test.html')
+    print(jar)
 
