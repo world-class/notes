@@ -1,57 +1,60 @@
 
 # Table of Contents
 
-1.  [Week 1](#org1917ec8)
-    1.  [1.01 Welcome to the course](#orgf78287f)
-    2.  [1.06 Introduction to development environments and Python](#org9dcadcf)
-    3.  [1.07 Getting to grips with Python](#org16212ca)
-    4.  [1.103 Jupyter code cells](#org68d7484)
-    5.  [1.105 Jupyter Notebook basics](#org8f79d44)
-    6.  [1.106 Using Python as a Calculator](#orge51d5ba)
-2.  [Week 3](#org9a0788f)
-    1.  [2.01 Becoming familiar with Python](#orgefad524)
-    2.  [2.03 Built-in types in Python](#org670d9d6)
-    3.  [2.05 Mapping operators to functions](#org196d27a)
-    4.  [2.104 Introduction to conditional logic](#orga9758ef)
-    5.  [2.105 Functions and reuse](#org38afbb6)
-    6.  [2.201 Conditions and logic](#org3e760d0)
-    7.  [2.202 More conditions](#org97b5f7d)
-3.  [Week 4](#orgba79711)
-    1.  [2.301 Introduction to lists](#org581d795)
-    2.  [2.302 Lists](#org2dc7819)
-    3.  [2.305 Loops and iteration](#org531babd)
-    4.  [2.401 Libraries and dependencies](#orgaf9780f)
-4.  [Week 5](#org5a59af4)
-    1.  [3.01 Introduction to data](#org4fe9978)
-    2.  [3.02 Data structures and data types](#orgcb6f5e2)
-    3.  [3.04 Data handling](#org495b127)
-    4.  [3.05 Working with text-based data](#orgdc33125)
-    5.  [3.06 counting words the verbose way](#org325ee08)
-    6.  [3.07 Programming activity: reading files](#orgdd6d978)
-5.  [Week 6](#orgb7ffe3f)
-    1.  [3.201 The dictionary data type](#orgaa29f01)
-6.  [Week 7](#orgeaa85b8)
-    1.  [4.01 Introduction](#orge3ad63b)
-    2.  [4.03 Exploring the CSV data format](#orgd00234c)
-    3.  [4.04 Online documentation](#orgf4d2da0)
-    4.  [4.05 Getting started with Pandas and handling Data](#org08181b1)
-7.  [Week 8](#org9ada9de)
-    1.  [4.101 Working with CSV in Python](#org2abc56a)
-    2.  [4.104 Data processing libraries used to improve efficiency](#orgb8494e1)
-    3.  [4.105 Introduction to the JSON format](#org5601e27)
-    4.  [4.106 Handling JSON files in Python](#org89328d4)
-8.  [Week 9](#org67dc431)
-    1.  [5.01 Introduction to retrieving data from the web](#org2fd63ef)
-    2.  [5.02 Handling data on the web](#orge9d3959)
-    3.  [5.04 HTTP and transferring data via the web](#orgc9ae75d)
-    4.  [5.05 Introduction to web scraping](#org9c5653b)
-9.  [Week 10](#org949ed5e)
-    1.  [5.104 Scraping, APIs and libraries](#org8a42622)
-    2.  [5.106 Considering alternative ways to parse text](#org90fdaaa)
+1.  [Week 1](#org7405881)
+    1.  [1.01 Welcome to the course](#org8bb765a)
+    2.  [1.06 Introduction to development environments and Python](#org161c80e)
+    3.  [1.07 Getting to grips with Python](#orgefbdc6a)
+    4.  [1.103 Jupyter code cells](#orgd00e35a)
+    5.  [1.105 Jupyter Notebook basics](#orgfef9773)
+    6.  [1.106 Using Python as a Calculator](#org3345f71)
+2.  [Week 3](#orge7db486)
+    1.  [2.01 Becoming familiar with Python](#orgb591923)
+    2.  [2.03 Built-in types in Python](#orge24c448)
+    3.  [2.05 Mapping operators to functions](#org2977afd)
+    4.  [2.104 Introduction to conditional logic](#org0d16a1f)
+    5.  [2.105 Functions and reuse](#org25328a4)
+    6.  [2.201 Conditions and logic](#org2611f99)
+    7.  [2.202 More conditions](#org3934a8e)
+3.  [Week 4](#org6b6daa1)
+    1.  [2.301 Introduction to lists](#orgd5d2949)
+    2.  [2.302 Lists](#org79b1105)
+    3.  [2.305 Loops and iteration](#org684bbb6)
+    4.  [2.401 Libraries and dependencies](#orgf4cf9ec)
+4.  [Week 5](#orgaaa656e)
+    1.  [3.01 Introduction to data](#org6525800)
+    2.  [3.02 Data structures and data types](#orgedada11)
+    3.  [3.04 Data handling](#org28c4188)
+    4.  [3.05 Working with text-based data](#org57a6c29)
+    5.  [3.06 counting words the verbose way](#org1f561af)
+    6.  [3.07 Programming activity: reading files](#org7317950)
+5.  [Week 6](#orgbaf1222)
+    1.  [3.201 The dictionary data type](#org294dfc2)
+6.  [Week 7](#orgbdad98e)
+    1.  [4.01 Introduction](#orgc0f6f14)
+    2.  [4.03 Exploring the CSV data format](#org32f273a)
+    3.  [4.04 Online documentation](#org9ef2575)
+    4.  [4.05 Getting started with Pandas and handling Data](#org4e91a8c)
+7.  [Week 8](#org6d5617a)
+    1.  [4.101 Working with CSV in Python](#orgb561788)
+    2.  [4.104 Data processing libraries used to improve efficiency](#orgbabacd8)
+    3.  [4.105 Introduction to the JSON format](#orge068950)
+    4.  [4.106 Handling JSON files in Python](#org5ee130a)
+8.  [Week 9](#org057bd45)
+    1.  [5.01 Introduction to retrieving data from the web](#org55743ea)
+    2.  [5.02 Handling data on the web](#org6482739)
+    3.  [5.04 HTTP and transferring data via the web](#org7cf447b)
+    4.  [5.05 Introduction to web scraping](#org361286e)
+9.  [Week 10](#org496c89d)
+    1.  [5.104 Scraping, APIs and libraries](#org1ab826a)
+    2.  [5.106 Considering alternative ways to parse text](#orgba8a12c)
+10. [Week 11](#org964ff2e)
+    1.  [6.01 Introduction to databases](#org6eed69b)
+    2.  [6.05 Some variants of SQL and general guidance for this topic](#org942cca8)
 
 
 
-<a id="org1917ec8"></a>
+<a id="org7405881"></a>
 
 # Week 1
 
@@ -63,7 +66,7 @@ Key Concepts
     mathematical operators.
 
 
-<a id="orgf78287f"></a>
+<a id="org8bb765a"></a>
 
 ## 1.01 Welcome to the course
 
@@ -83,7 +86,7 @@ During the course we will rely heavily on [Jupyter Notebooks](https://jupyter.or
 will give us a nice interface to work with.
 
 
-<a id="org9dcadcf"></a>
+<a id="org161c80e"></a>
 
 ## 1.06 Introduction to development environments and Python
 
@@ -96,7 +99,7 @@ choice. One can visit [World Class Text Editor section](https://world-class.gith
 list of what&rsquo;s available.
 
 
-<a id="org16212ca"></a>
+<a id="orgefbdc6a"></a>
 
 ## 1.07 Getting to grips with Python
 
@@ -111,7 +114,7 @@ IPython, and Jupyter Notebooks, pp.1–46.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5061179).
 
 
-<a id="org68d7484"></a>
+<a id="orgd00e35a"></a>
 
 ## 1.103 Jupyter code cells
 
@@ -127,7 +130,7 @@ documentation of textual input.
 Raw NBConvert probably won&rsquo;t be used and won&rsquo;t be discussed.
 
 
-<a id="org8f79d44"></a>
+<a id="orgfef9773"></a>
 
 ## 1.105 Jupyter Notebook basics
 
@@ -138,7 +141,7 @@ and using markdown cells in Jupyter:
     [Using markdown cells in Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
 
 
-<a id="orge51d5ba"></a>
+<a id="org3345f71"></a>
 
 ## 1.106 Using Python as a Calculator
 
@@ -147,7 +150,7 @@ Click on the link below to read about using Python as a calculator:
 -   [Using Python as a Calculator](https://docs.python.org/3.5/tutorial/introduction.html#using-python-as-a-calculator)
 
 
-<a id="org9a0788f"></a>
+<a id="orge7db486"></a>
 
 # Week 3
 
@@ -161,7 +164,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="orgefad524"></a>
+<a id="orgb591923"></a>
 
 ## 2.01 Becoming familiar with Python
 
@@ -297,7 +300,7 @@ binary format or some form of text. Data representation is
 important.
 
 
-<a id="org670d9d6"></a>
+<a id="orge24c448"></a>
 
 ## 2.03 Built-in types in Python
 
@@ -306,7 +309,7 @@ Read through the following literature on built-in types in Python:
 -   [Built-in types](https://docs.python.org/3.5/library/stdtypes.html?highlight=list#numeric-types-int-float-complex%E2%80%8B)
 
 
-<a id="org196d27a"></a>
+<a id="org2977afd"></a>
 
 ## 2.05 Mapping operators to functions
 
@@ -316,7 +319,7 @@ Read through the following documentation.
     documentation 10.3. operator – Standard operators as functions.
 
 
-<a id="orga9758ef"></a>
+<a id="org0d16a1f"></a>
 
 ## 2.104 Introduction to conditional logic
 
@@ -325,7 +328,7 @@ also has the expected set of comparison operators `>`, `>=`, `<`,
 `<=`, `==`, and so on.
 
 
-<a id="org38afbb6"></a>
+<a id="org25328a4"></a>
 
 ## 2.105 Functions and reuse
 
@@ -349,7 +352,7 @@ followed by parenthesis.
     print(double(4))
 
 
-<a id="org3e760d0"></a>
+<a id="org2611f99"></a>
 
 ## 2.201 Conditions and logic
 
@@ -365,7 +368,7 @@ We combine logical statements with the connectives `or` and `and`.
         print("a is greater than b and c")
 
 
-<a id="org97b5f7d"></a>
+<a id="org3934a8e"></a>
 
 ## 2.202 More conditions
 
@@ -389,7 +392,7 @@ covers these conditional situations: Python 4.1, 4.2, 8.2 – ‘if’
     – 4. Built-in types.
 
 
-<a id="orgba79711"></a>
+<a id="org6b6daa1"></a>
 
 # Week 4
 
@@ -403,7 +406,7 @@ Key Concepts
     built-in variable types int, float and list.
 
 
-<a id="org581d795"></a>
+<a id="orgd5d2949"></a>
 
 ## 2.301 Introduction to lists
 
@@ -449,7 +452,7 @@ final value. This means that the range `0:1` will only print the
 0<sup>th</sup> element.
 
 
-<a id="org2dc7819"></a>
+<a id="org79b1105"></a>
 
 ## 2.302 Lists
 
@@ -459,7 +462,7 @@ Click on the link below to read through the documentation on lists:
     types.
 
 
-<a id="org531babd"></a>
+<a id="org684bbb6"></a>
 
 ## 2.305 Loops and iteration
 
@@ -488,7 +491,7 @@ example:
         print(x)
 
 
-<a id="orgaf9780f"></a>
+<a id="orgf4cf9ec"></a>
 
 ## 2.401 Libraries and dependencies
 
@@ -509,7 +512,7 @@ library, as shown below:
     stats.describe(x)
 
 
-<a id="org5a59af4"></a>
+<a id="orgaaa656e"></a>
 
 # Week 5
 
@@ -525,7 +528,7 @@ Key Concepts
     matrix.
 
 
-<a id="org4fe9978"></a>
+<a id="org6525800"></a>
 
 ## 3.01 Introduction to data
 
@@ -565,7 +568,7 @@ formats are:
     -   **Data Exchange Formats:** JSON
 
 
-<a id="orgcb6f5e2"></a>
+<a id="orgedada11"></a>
 
 ## 3.02 Data structures and data types
 
@@ -577,7 +580,7 @@ formats are:
 -   [Natural Language Toolkit](https://www.nltk.org/)
 
 
-<a id="org495b127"></a>
+<a id="org28c4188"></a>
 
 ## 3.04 Data handling
 
@@ -598,7 +601,7 @@ here&rsquo;s a summary:
 -   **`b`:** Tells `open()` we&rsquo;re dealing with binary file
 
 
-<a id="orgdc33125"></a>
+<a id="org57a6c29"></a>
 
 ## 3.05 Working with text-based data
 
@@ -626,7 +629,7 @@ length of the returned list:
     print(len(words))
 
 
-<a id="org325ee08"></a>
+<a id="org1f561af"></a>
 
 ## 3.06 counting words the verbose way
 
@@ -644,7 +647,7 @@ a given input:
     print(counter)
 
 
-<a id="orgdd6d978"></a>
+<a id="org7317950"></a>
 
 ## 3.07 Programming activity: reading files
 
@@ -658,7 +661,7 @@ The following NLTK documentation might be helpful here:
 -   [nltk.tokenize package](http://www.nltk.org/api/nltk.tokenize.html?highlight=tokenize%20package#module-nltk.tokenize)
 
 
-<a id="orgb7ffe3f"></a>
+<a id="orgbaf1222"></a>
 
 # Week 6
 
@@ -674,7 +677,7 @@ Key Concepts
     matrix.
 
 
-<a id="orgaa29f01"></a>
+<a id="org294dfc2"></a>
 
 ## 3.201 The dictionary data type
 
@@ -689,7 +692,7 @@ A dictionary is a kind of hash table, or associative array.
     x = mydict.get("goals")
 
 
-<a id="orgeaa85b8"></a>
+<a id="orgbdad98e"></a>
 
 # Week 7
 
@@ -702,7 +705,7 @@ Key Concepts
 -   Process data for purpose.
 
 
-<a id="orge3ad63b"></a>
+<a id="orgc0f6f14"></a>
 
 ## 4.01 Introduction
 
@@ -726,7 +729,7 @@ the data, i.e. remove superfluous, irrelevant, or incorrect
 data.
 
 
-<a id="orgd00234c"></a>
+<a id="org32f273a"></a>
 
 ## 4.03 Exploring the CSV data format
 
@@ -746,7 +749,7 @@ to understand conventions about the data format and how it&rsquo;s
 usually laid out.
 
 
-<a id="orgf4d2da0"></a>
+<a id="org9ef2575"></a>
 
 ## 4.04 Online documentation
 
@@ -762,7 +765,7 @@ usually laid out.
     reference
 
 
-<a id="org08181b1"></a>
+<a id="org4e91a8c"></a>
 
 ## 4.05 Getting started with Pandas and handling Data
 
@@ -772,7 +775,7 @@ usually laid out.
     **Chapter 6 Data Loading, Storage, and File Formats, pp.169–181**.
 
 
-<a id="org9ada9de"></a>
+<a id="org6d5617a"></a>
 
 # Week 8
 
@@ -785,7 +788,7 @@ Key Concepts
 -   Process data for purpose.
 
 
-<a id="org2abc56a"></a>
+<a id="orgb561788"></a>
 
 ## 4.101 Working with CSV in Python
 
@@ -806,7 +809,7 @@ something we can work with.
     print(sum(list) / len(list))
 
 
-<a id="orgb8494e1"></a>
+<a id="orgbabacd8"></a>
 
 ## 4.104 Data processing libraries used to improve efficiency
 
@@ -829,7 +832,7 @@ libraries, we get:
     print(df.filter(like='50', axis=0))
 
 
-<a id="org5601e27"></a>
+<a id="orge068950"></a>
 
 ## 4.105 Introduction to the JSON format
 
@@ -851,7 +854,7 @@ follows:
     } 
 
 
-<a id="org89328d4"></a>
+<a id="org5ee130a"></a>
 
 ## 4.106 Handling JSON files in Python
 
@@ -887,7 +890,7 @@ We can also use `pandas`:
         df = pd.DataFrame.from_dict(medict, columns=['name', 'surname'])
 
 
-<a id="org67dc431"></a>
+<a id="org057bd45"></a>
 
 # Week 9
 
@@ -900,7 +903,7 @@ Key Concepts
 -   Read data from RESTFul web APIs.
 
 
-<a id="org2fd63ef"></a>
+<a id="org55743ea"></a>
 
 ## 5.01 Introduction to retrieving data from the web
 
@@ -944,7 +947,7 @@ Tags can also have attributes, which are name-value pair added
 within the tag.
 
 
-<a id="orge9d3959"></a>
+<a id="org6482739"></a>
 
 ## 5.02 Handling data on the web
 
@@ -954,7 +957,7 @@ within the tag.
 -   [Requests: HTTP for Humans](https://requests.readthedocs.io/en/master/)
 
 
-<a id="orgc9ae75d"></a>
+<a id="org7cf447b"></a>
 
 ## 5.04 HTTP and transferring data via the web
 
@@ -982,7 +985,7 @@ A response may look like this:
     Connection: Closed
 
 
-<a id="org9c5653b"></a>
+<a id="org361286e"></a>
 
 ## 5.05 Introduction to web scraping
 
@@ -1020,7 +1023,7 @@ We can use this sample method like shown below:
     print(jar)
 
 
-<a id="org949ed5e"></a>
+<a id="org496c89d"></a>
 
 # Week 10
 
@@ -1033,7 +1036,7 @@ Key Concepts
 -   Read data from RESTFul web APIs.
 
 
-<a id="org8a42622"></a>
+<a id="org1ab826a"></a>
 
 ## 5.104 Scraping, APIs and libraries
 
@@ -1047,9 +1050,143 @@ Key Concepts
     pp.181–185.
 
 
-<a id="org90fdaaa"></a>
+<a id="orgba8a12c"></a>
 
 ## 5.106 Considering alternative ways to parse text
 
 -   [Python Regular Expressions](https://docs.python.org/3/library/re.html)
+
+
+<a id="org964ff2e"></a>
+
+# Week 11
+
+Key Concepts
+
+-   Describe the structural elements of a relational database such as
+    tables, columns and relations.
+-   Write simple SQL queries to read and write data from a relational
+    database into Python using an SQL library.
+-   Select and use appropriate data structures to store data obtained
+    from relational databases.
+
+
+<a id="org6eed69b"></a>
+
+## 6.01 Introduction to databases
+
+Relational Databases are based on the Relational Model proposed by
+E. F. Dodd in 1970. We use the Structured Query Language (SQL) to
+communicate with the database.
+
+Relational Model is based on concepts from First-Order Predicate
+Logic and Set Theory.
+
+Statements in First-Order Logic are composed of a Subject followed
+by a predicate. The predicate tells us something about the subject,
+e.g. *Sean is a lecturer*.
+
+Relational Databases embed similar logic when it concerns **objects**
+and **properties**. Any given database can be reduced to a set of
+logical statements about their relationships.
+
+We can think of tables in a database as Sets, therefore each
+**record** (or row) within a table is an **object** (or element) within
+that set.
+
+The Relational Model organizes data into tables of rows and
+columns:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-right">Qty Drinks</th>
+<th scope="col" class="org-right">Qty Food</th>
+<th scope="col" class="org-right">Qty Snack</th>
+<th scope="col" class="org-right">Delivery</th>
+<th scope="col" class="org-right">Cost</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Barry</td>
+<td class="org-right">0</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">7.50</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Ameer</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">8.25</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Lucy</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">2.25</td>
+</tr>
+</tbody>
+</table>
+
+Rows are records and columns are fields.
+
+In general, we rely on the CRUD paradigm when dealing with a
+database.
+
+-   **Create:** Add a new record to a table
+-   **Read:** Read a record or a set of records from a table
+-   **Update:** Modify an existing record within a table
+-   **Delete:** Remove a record from a table
+
+
+<a id="org942cca8"></a>
+
+## 6.05 Some variants of SQL and general guidance for this topic
+
+-   PyGreSQL ‘[connect - open a PostgreSQL connection](https://pygresql.org/contents/pgdb/module.html#connect-open-a-postgresql-connection)&rsquo;, Module
+    functions and constants (2020).
+-   PyGreSQL ‘[execute – execute a database operation](https://pygresql.org/contents/pgdb/cursor.html#execute-execute-a-database-operation)’, Cursor – The
+    cursor object (2020).
+-   PostgreSQL ‘[7.1 Overview](https://www.postgresql.org/docs/10/queries-overview.html)’, Documentation: PostgreSQL 10 – Chapter
+    7 (2020).
+-   PostgreSQL ‘[7.2.2 The WHERE Clause](https://www.postgresql.org/docs/10/queries-table-expressions.html#QUERIES-WHERE)’, Documentation: PostgreSQL 10
+    Chapter 7 (2020).
 
