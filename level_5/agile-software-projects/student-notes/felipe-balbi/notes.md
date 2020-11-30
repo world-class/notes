@@ -1,47 +1,49 @@
 
 # Table of Contents
 
-1.  [Week 1](#org2557d10)
-    1.  [1.01 Module introduction](#orgfb7a7a2)
-    2.  [1.07 The basics of interaction design](#org0ef1773)
-    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#orgee3fc39)
-2.  [Week 2](#orgba51af9)
-    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org1693052)
-    2.  [1.305 Version control systems](#org16839e4)
-    3.  [1.401 The process of interaction design](#orgb6f284f)
-3.  [Week 3](#org1afe389)
-    1.  [2.01 Introduction to requirements and specification](#org0c3533d)
-    2.  [2.101 Purpose of gathering requirements](#org5792bbb)
-    3.  [2.102 Introduction to requirements gathering](#org2146ebb)
-    4.  [2.201 Modelling requirements](#orgc23cc54)
-4.  [Week 4](#org055d4c4)
-    1.  [2.301 User-centred design](#org1082188)
-5.  [Week 5](#orgbacda34)
-    1.  [3.01 What is research?](#org19de666)
-    2.  [3.101 Understanding the differences between quantitative and qualitative research](#org8548555)
-    3.  [3.102 Introduction to research methods](#org7aa1042)
-    4.  [3.201 Identifying useful sources of information](#org93a8fc7)
-    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#orgd24f35d)
-6.  [Week 6](#org44e49de)
-    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org46aee56)
-    2.  [3.302 SWOT analysis](#orga2a6ca4)
-    3.  [Alternative models](#orgd2fb617)
-7.  [Week 7](#org3dea9d5)
-    1.  [4.01 User-centred design in a nutshell](#org65913f5)
-    2.  [4.03 Design and prototyping](#org48952f6)
-    3.  [4.101 Why ‘user-friendliness’ is a false metric](#org8e5ae4b)
-    4.  [4.102 Introduction to user-centred design](#org882a4ad)
-    5.  [4.201 Test early, test often, iterate](#orgd44c828)
-    6.  [4.202 Heuristics for design](#orgc3a0292)
-8.  [Week 8](#org264fb0d)
-    1.  [4.301 Why do we prototype?](#org77b18de)
-9.  [Week 9](#orgd8c3f72)
-    1.  [5.01 Main components of your proposal](#org7b1ac20)
-    2.  [5.101 Assessment strategy, deliverables and expected outcomes](#org8a301ad)
+1.  [Week 1](#org4b9f485)
+    1.  [1.01 Module introduction](#org5ac1ef4)
+    2.  [1.07 The basics of interaction design](#org0f18d2d)
+    3.  [1.101 What is a project? What do we mean by ‘manage&rsquo;?](#org24bce3b)
+2.  [Week 2](#org17e3b7c)
+    1.  [1.301 Tracking progress, Gantt charts, managing resources and time](#org38a99d4)
+    2.  [1.305 Version control systems](#org2940f45)
+    3.  [1.401 The process of interaction design](#org30ffc53)
+3.  [Week 3](#org3b41bfe)
+    1.  [2.01 Introduction to requirements and specification](#org56affea)
+    2.  [2.101 Purpose of gathering requirements](#org44ca579)
+    3.  [2.102 Introduction to requirements gathering](#orgfa3ade2)
+    4.  [2.201 Modelling requirements](#org539c6e8)
+4.  [Week 4](#orgc913f4f)
+    1.  [2.301 User-centred design](#org1165ba6)
+5.  [Week 5](#orgd20ed35)
+    1.  [3.01 What is research?](#org192a91b)
+    2.  [3.101 Understanding the differences between quantitative and qualitative research](#orgb81cb8b)
+    3.  [3.102 Introduction to research methods](#org1d16932)
+    4.  [3.201 Identifying useful sources of information](#org400de9e)
+    5.  [3.202 Team activity and deliverable: doing prerequisite investigation](#org05d8d82)
+6.  [Week 6](#org783fefa)
+    1.  [3.301 How to analyse the competition and place your ‘solution’ in a space](#org09a5c64)
+    2.  [3.302 SWOT analysis](#org68097c0)
+    3.  [Alternative models](#org5e6d1ad)
+7.  [Week 7](#orgc1df3f4)
+    1.  [4.01 User-centred design in a nutshell](#orgfd1d968)
+    2.  [4.03 Design and prototyping](#orgae4ab69)
+    3.  [4.101 Why ‘user-friendliness’ is a false metric](#org7dc4aa4)
+    4.  [4.102 Introduction to user-centred design](#org185e39e)
+    5.  [4.201 Test early, test often, iterate](#org210cc6d)
+    6.  [4.202 Heuristics for design](#orga4feba9)
+8.  [Week 8](#org587bdae)
+    1.  [4.301 Why do we prototype?](#org3c69ef7)
+9.  [Week 9](#org7a8aaac)
+    1.  [5.01 Main components of your proposal](#orge7d1fff)
+    2.  [5.101 Assessment strategy, deliverables and expected outcomes](#org7ddbb5d)
+10. [Week 11](#org7e538e8)
+    1.  [6.01 What is and what is NOT agile?](#org68af6e2)
 
 
 
-<a id="org2557d10"></a>
+<a id="org4b9f485"></a>
 
 # Week 1
 
@@ -52,7 +54,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="orgfb7a7a2"></a>
+<a id="org5ac1ef4"></a>
 
 ## 1.01 Module introduction
 
@@ -60,7 +62,7 @@ During this course we will study processes involved in Engineering
 Software.
 
 
-<a id="org0ef1773"></a>
+<a id="org0f18d2d"></a>
 
 ## 1.07 The basics of interaction design
 
@@ -74,7 +76,7 @@ Inc, 2019) Chapter 1 What is Interaction Design, pp.1–34.
 Available [here](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5746446).
 
 
-<a id="orgee3fc39"></a>
+<a id="org24bce3b"></a>
 
 ## 1.101 What is a project? What do we mean by ‘manage&rsquo;?
 
@@ -120,7 +122,7 @@ off between three different agendas:
     correct date.
 
 
-<a id="orgba51af9"></a>
+<a id="org17e3b7c"></a>
 
 # Week 2
 
@@ -131,7 +133,7 @@ Key Concepts
 -   Manage assets and resources.
 
 
-<a id="org1693052"></a>
+<a id="org38a99d4"></a>
 
 ## 1.301 Tracking progress, Gantt charts, managing resources and time
 
@@ -389,7 +391,7 @@ We might want to allocate an individual to track the process to
 ensure accountability.
 
 
-<a id="org16839e4"></a>
+<a id="org2940f45"></a>
 
 ## 1.305 Version control systems
 
@@ -400,7 +402,7 @@ at the following location:
 <https://git-scm.com/docs>
 
 
-<a id="orgb6f284f"></a>
+<a id="org30ffc53"></a>
 
 ## 1.401 The process of interaction design
 
@@ -409,7 +411,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) pp.37–55.
 
 
-<a id="org1afe389"></a>
+<a id="org3b41bfe"></a>
 
 # Week 3
 
@@ -421,7 +423,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org0c3533d"></a>
+<a id="org56affea"></a>
 
 ## 2.01 Introduction to requirements and specification
 
@@ -461,7 +463,7 @@ UML has several types of diagrams, for example Use Case Diagrams
 and Class Diagrams, which are the most commonly used.
 
 
-<a id="org5792bbb"></a>
+<a id="org44ca579"></a>
 
 ## 2.101 Purpose of gathering requirements
 
@@ -484,7 +486,7 @@ Both types of specifications describe a set of actions, intentions,
 systems and outcomes.
 
 
-<a id="org2146ebb"></a>
+<a id="orgfa3ade2"></a>
 
 ## 2.102 Introduction to requirements gathering
 
@@ -493,7 +495,7 @@ human-computer interaction](https://ebookcentral.proquest.com/lib/londonww/detai
 Inc, 2019) chapter 11 pp.385–418.
 
 
-<a id="orgc23cc54"></a>
+<a id="org539c6e8"></a>
 
 ## 2.201 Modelling requirements
 
@@ -513,7 +515,7 @@ system and some explicit structure. They can also describe
 depedencies and abstraction.
 
 
-<a id="org055d4c4"></a>
+<a id="orgc913f4f"></a>
 
 # Week 4
 
@@ -525,7 +527,7 @@ Key Concepts
 -   Identify key stakeholders, challenges, risks and innovations.
 
 
-<a id="org1082188"></a>
+<a id="org1165ba6"></a>
 
 ## 2.301 User-centred design
 
@@ -603,7 +605,7 @@ pitfalls:
 -   Documentation and training
 
 
-<a id="orgbacda34"></a>
+<a id="orgd20ed35"></a>
 
 # Week 5
 
@@ -614,7 +616,7 @@ Key Concepts
 -   Consider the wider implications of building a system for purpose.
 
 
-<a id="org19de666"></a>
+<a id="org192a91b"></a>
 
 ## 3.01 What is research?
 
@@ -648,7 +650,7 @@ Another important topic is that of **reliability**. We want to ensure
 our results have meaning from the context of experimentation.
 
 
-<a id="org8548555"></a>
+<a id="orgb81cb8b"></a>
 
 ## 3.101 Understanding the differences between quantitative and qualitative research
 
@@ -664,7 +666,7 @@ There are two main types of research:
     happening
 
 
-<a id="org7aa1042"></a>
+<a id="org1d16932"></a>
 
 ## 3.102 Introduction to research methods
 
@@ -673,7 +675,7 @@ There are two main types of research:
     and Sons Inc, 2019) chapters 8 and 9 pp.259–34.2
 
 
-<a id="org93a8fc7"></a>
+<a id="org400de9e"></a>
 
 ## 3.201 Identifying useful sources of information
 
@@ -688,7 +690,7 @@ There are two main types of research:
     impose biases
 
 
-<a id="orgd24f35d"></a>
+<a id="org05d8d82"></a>
 
 ## 3.202 Team activity and deliverable: doing prerequisite investigation
 
@@ -697,7 +699,7 @@ There are two main types of research:
     industry](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/791931/DfE-Education_Technology_Strategy.pdf). (2019).
 
 
-<a id="org44e49de"></a>
+<a id="org783fefa"></a>
 
 # Week 6
 
@@ -708,7 +710,7 @@ Key Concepts
 -   Make decisions based around research findings
 
 
-<a id="org46aee56"></a>
+<a id="org09a5c64"></a>
 
 ## 3.301 How to analyse the competition and place your ‘solution’ in a space
 
@@ -735,7 +737,7 @@ STEEPLE is concerned with the following aspects:
     approach is ethical
 
 
-<a id="orga2a6ca4"></a>
+<a id="org68097c0"></a>
 
 ## 3.302 SWOT analysis
 
@@ -751,14 +753,14 @@ project planning.
 -   **Threats:** What can cause trouble to the project?
 
 
-<a id="orgd2fb617"></a>
+<a id="org5e6d1ad"></a>
 
 ## Alternative models
 
 -   [UNICEF SWOT and STEEPLE](https://www.unicef.org/knowledge-exchange/files/SWOT_and_PESTEL_production.pdf)
 
 
-<a id="org3dea9d5"></a>
+<a id="orgc1df3f4"></a>
 
 # Week 7
 
@@ -772,7 +774,7 @@ Key Concepts
     prototypes.
 
 
-<a id="org65913f5"></a>
+<a id="orgfd1d968"></a>
 
 ## 4.01 User-centred design in a nutshell
 
@@ -812,7 +814,7 @@ benefits. Through an iterative design process we get:
     for the system
 
 
-<a id="org48952f6"></a>
+<a id="orgae4ab69"></a>
 
 ## 4.03 Design and prototyping
 
@@ -821,7 +823,7 @@ benefits. Through an iterative design process we get:
     Sons Inc, 2019) chapter 12 pp.421–466.
 
 
-<a id="org8e5ae4b"></a>
+<a id="org7dc4aa4"></a>
 
 ## 4.101 Why ‘user-friendliness’ is a false metric
 
@@ -860,7 +862,7 @@ iPhone revolutionized the mobile phone market and MOOCs have
 changed the way education is delivered.
 
 
-<a id="org882a4ad"></a>
+<a id="org185e39e"></a>
 
 ## 4.102 Introduction to user-centred design
 
@@ -869,7 +871,7 @@ changed the way education is delivered.
     Sons Inc, 2019) chapter 12 pp.471-491.
 
 
-<a id="orgd44c828"></a>
+<a id="org210cc6d"></a>
 
 ## 4.201 Test early, test often, iterate
 
@@ -938,7 +940,7 @@ about what a typical user might look like. It should help us
 targeting users from a particular demographic.
 
 
-<a id="orgc3a0292"></a>
+<a id="orga4feba9"></a>
 
 ## 4.202 Heuristics for design
 
@@ -947,7 +949,7 @@ targeting users from a particular demographic.
     Sons Inc, 2019) chapter 12 pp.549-576.
 
 
-<a id="org264fb0d"></a>
+<a id="org587bdae"></a>
 
 # Week 8
 
@@ -961,7 +963,7 @@ Key Concepts
     prototypes.
 
 
-<a id="org77b18de"></a>
+<a id="org3c69ef7"></a>
 
 ## 4.301 Why do we prototype?
 
@@ -1013,7 +1015,7 @@ confusion to some users who may expect a fully functional system,
 and they can consume valuable resources (time and monetary).
 
 
-<a id="orgd8c3f72"></a>
+<a id="org7a8aaac"></a>
 
 # Week 9
 
@@ -1025,7 +1027,7 @@ Key Concepts
 -   Present your prototype to be assessed.
 
 
-<a id="org7b1ac20"></a>
+<a id="orge7d1fff"></a>
 
 ## 5.01 Main components of your proposal
 
@@ -1048,7 +1050,7 @@ narrative. This helps maintain focus to key problem space,
 deliverables and challenges that are likely to emerge.
 
 
-<a id="org8a301ad"></a>
+<a id="org7ddbb5d"></a>
 
 ## 5.101 Assessment strategy, deliverables and expected outcomes
 
@@ -1080,4 +1082,47 @@ From the proposal, it should be clear:
 -   Evidence of prototyping and iteration
 -   Some simple tests/evaluation steps
 -   A strong rhetoric that informs and describes
+
+
+<a id="org7e538e8"></a>
+
+# Week 11
+
+Key Concepts
+
+-   Project management.
+-   Group work.
+-   Iterative Development.
+
+
+<a id="org68af6e2"></a>
+
+## 6.01 What is and what is NOT agile?
+
+The Agile Manifesto is a set of *standards* for setting up projects
+with minimal bureaucracy.
+
+The guidelines are:
+
+-   Individuals and interactions over processes and tools
+
+-   Working software over comprehensive documentation
+
+-   Customer collaboration over contract negotiation
+
+-   Responding to change over following a plan
+
+It&rsquo;s similar to user-centred design practices. Agile and UCD can
+work well together.
+
+Customer satisfaction is achieved by following a process of
+continuous improvement. Therefore, we build products by iterating
+and improving on our MVP. This has the added benefit of reducing
+friction with customers, who get a working version of our software
+after each iteration.
+
+The conclusion is that collaboration benefits everyone. Customers
+get a working software in increments, which reduces need for
+training and disruptions, developers get to focus on small features
+at a time.
 
