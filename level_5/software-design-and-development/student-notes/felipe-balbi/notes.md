@@ -1,84 +1,87 @@
 
 # Table of Contents
 
-1.  [Week 1](#org0541625)
-    1.  [Module Introduction](#orgb26a35d)
-    2.  [1.0202 Reference points](#org0627464)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgb67ae7d)
-    4.  [1.0204 What is a module?](#org3abfcd6)
-    5.  [1.0206 What is module complexity?](#orgb949aca)
-    6.  [1.0208 Complexity references](#orgcb7b19d)
-2.  [Week 2](#org952b138)
-    1.  [2.0102 Week 2 reading](#orgc2762fa)
-    2.  [2.0201 What is module cohesion?](#org635d534)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#orgb85166f)
-3.  [Week 3](#orgcfde781)
-    1.  [3.0102 Week 3 reading](#orgc25c01e)
-    2.  [3.0201 What is module coupling?](#orgea8ef80)
-    3.  [3.0203 Different types of coupling: good or bad?](#org57ab715)
-    4.  [3.0205 Common environment coupling: good or bad?](#org9212e14)
-    5.  [3.0207 Content coupling: good or bad?](#org1fda24c)
-    6.  [3.0209 Control coupling: good or bad?](#orgea3ceee)
-    7.  [3.0211 Data coupling: good or bad?](#org4dd3191)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org5448b01)
-    9.  [3.0215 Pathological coupling: good or bad?](#orgc4550f8)
-4.  [Week 4](#org4119d1f)
-    1.  [4.012 Week 4 reading](#org7277289)
-    2.  [4.0201 Reasoning about scope](#org9ea9949)
-    3.  [4.0203 Reasoning about function parameters](#org2f679ec)
-    4.  [4.0205 Replacing functions dynamically and const](#org66456fe)
-5.  [Week 5](#org3e7c711)
-    1.  [5.0002 Topic reading](#orgb0dfc1a)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#org2afb859)
-    3.  [5.0113 What to test? An overview](#orgf5593ba)
-6.  [Week 6](#org38bb561)
-    1.  [6.0102 Week 6 reading](#orge975d61)
-    2.  [6.013 Super quick Python tutorial](#orgad47866)
-        1.  [Variables](#orge91d88a)
-        2.  [Lists](#org07eec7b)
-        3.  [Functions](#org4e84cf3)
-    3.  [6.0201 Introduction to unittest in Python](#orgc188884)
-    4.  [6.0203 Assertion function in unittest](#org0408cc6)
-    5.  [6.0205 Assert functions in unittest](#org7189d4d)
-    6.  [6.0301 Introduction to statistics libraries](#orge595e48)
-7.  [Week 7](#org4a151f1)
-    1.  [7.0102 Week 7 reading](#org30f7ac4)
-    2.  [7.0201 C++ primer](#orge545a5e)
-        1.  [Variables](#org1c09c67)
-        2.  [Arrays](#orga80ef43)
-        3.  [Loops](#org5bd12b1)
-        4.  [Functions](#org05a2326)
-        5.  [Classes](#org81ee622)
-    3.  [7.0206 Introduction to cppunit](#org17f8f06)
-    4.  [7.0208 Adding better output and multiple tests](#orge5798de)
-    5.  [7.021 Assert functions in cppunit](#orgff4fef3)
-8.  [Week 8](#orgccdda4c)
-    1.  [8.0102 Week 8 reading](#org0fee935)
-    2.  [8.0204 Introduction to Mocha](#orgc8509e2)
-    3.  [8.0206 Mocha with es6 syntax](#org458e13e)
-    4.  [8.0303 Considerations when testing a web API](#org1b0d67f)
-9.  [Week 9](#org07b7dc1)
-    1.  [9.0202 Week 9 reading](#org5b1d3e1)
-    2.  [9.0301 Introduction to assertions](#org7a94d6f)
-        1.  [Terminating The Program](#orgc881230)
-        2.  [Printing An Error](#org4a0565d)
-        3.  [Throwing An Exception](#org88594c9)
-        4.  [Carrying On Regardless](#org554bc81)
-    3.  [9.0303 Assertions and the software development lifecycle](#org62e0996)
-10. [Week 10](#orge6e01ba)
-    1.  [10.0102 Week 10 reading](#orge681f7d)
-    2.  [10.0201 Secure programming overview](#orgb0953b9)
-    3.  [10.0203 Secure programming and the software development lifecycle](#orga6a08a4)
-11. [Week 11](#org2b6aecd)
-    1.  [11.0201 Different types of errors](#org88408a8)
-    2.  [11.0203 Introduction to exceptions](#org6e8c319)
-    3.  [11.0205 The try and catch pattern](#org37d37d2)
-    4.  [11.0207 Try and catch in javascript](#org5a62a71)
-    5.  [11.0209 Throw in javascript](#org4b3eb4e)
+1.  [Week 1](#org88e3d7f)
+    1.  [Module Introduction](#org4bf7534)
+    2.  [1.0202 Reference points](#org1fd5ad0)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgf8a4bc5)
+    4.  [1.0204 What is a module?](#orgc8e3f4d)
+    5.  [1.0206 What is module complexity?](#org4655e99)
+    6.  [1.0208 Complexity references](#orge159fb0)
+2.  [Week 2](#org817adaa)
+    1.  [2.0102 Week 2 reading](#org8b8d16b)
+    2.  [2.0201 What is module cohesion?](#orgc14d8c5)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org74efae0)
+3.  [Week 3](#orgf3a4334)
+    1.  [3.0102 Week 3 reading](#orgcd36046)
+    2.  [3.0201 What is module coupling?](#orgf81cb72)
+    3.  [3.0203 Different types of coupling: good or bad?](#orgcdb7edd)
+    4.  [3.0205 Common environment coupling: good or bad?](#org6ad06c7)
+    5.  [3.0207 Content coupling: good or bad?](#org5ca1a2c)
+    6.  [3.0209 Control coupling: good or bad?](#org303d596)
+    7.  [3.0211 Data coupling: good or bad?](#orged2f054)
+    8.  [3.0213 Hybrid coupling: good or bad?](#orgdbb6b88)
+    9.  [3.0215 Pathological coupling: good or bad?](#org34afef3)
+4.  [Week 4](#orgaf6638c)
+    1.  [4.012 Week 4 reading](#orgc97a40a)
+    2.  [4.0201 Reasoning about scope](#org383d8e9)
+    3.  [4.0203 Reasoning about function parameters](#org7a4d592)
+    4.  [4.0205 Replacing functions dynamically and const](#org3632946)
+5.  [Week 5](#org1adf45c)
+    1.  [5.0002 Topic reading](#org67665d0)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#org341a28c)
+    3.  [5.0113 What to test? An overview](#org677dd13)
+6.  [Week 6](#org91dab1e)
+    1.  [6.0102 Week 6 reading](#org01c5759)
+    2.  [6.013 Super quick Python tutorial](#org167d08c)
+        1.  [Variables](#orgecd4343)
+        2.  [Lists](#org73473e7)
+        3.  [Functions](#orgd85b86b)
+    3.  [6.0201 Introduction to unittest in Python](#orgea7e46c)
+    4.  [6.0203 Assertion function in unittest](#org60c5598)
+    5.  [6.0205 Assert functions in unittest](#orgc6d6ea6)
+    6.  [6.0301 Introduction to statistics libraries](#orga3f771f)
+7.  [Week 7](#orgb643c35)
+    1.  [7.0102 Week 7 reading](#orga688962)
+    2.  [7.0201 C++ primer](#orgb224b02)
+        1.  [Variables](#orgfd98366)
+        2.  [Arrays](#org820debb)
+        3.  [Loops](#org53388b6)
+        4.  [Functions](#orgc220f22)
+        5.  [Classes](#orgbf6734a)
+    3.  [7.0206 Introduction to cppunit](#org51ab3db)
+    4.  [7.0208 Adding better output and multiple tests](#orga2f081c)
+    5.  [7.021 Assert functions in cppunit](#orge813fcf)
+8.  [Week 8](#org333a752)
+    1.  [8.0102 Week 8 reading](#orgd5aea31)
+    2.  [8.0204 Introduction to Mocha](#orge55901b)
+    3.  [8.0206 Mocha with es6 syntax](#org792f9ed)
+    4.  [8.0303 Considerations when testing a web API](#org3f0d9f8)
+9.  [Week 9](#org925902b)
+    1.  [9.0202 Week 9 reading](#org05e2d3e)
+    2.  [9.0301 Introduction to assertions](#org3987e85)
+        1.  [Terminating The Program](#org54caebe)
+        2.  [Printing An Error](#orgec043af)
+        3.  [Throwing An Exception](#org6690dd1)
+        4.  [Carrying On Regardless](#org5c4d34f)
+    3.  [9.0303 Assertions and the software development lifecycle](#orgda83f64)
+10. [Week 10](#orgf14e13f)
+    1.  [10.0102 Week 10 reading](#orgfe84f52)
+    2.  [10.0201 Secure programming overview](#org07c7eb8)
+    3.  [10.0203 Secure programming and the software development lifecycle](#org44c1328)
+11. [Week 11](#org8f1870d)
+    1.  [11.0201 Different types of errors](#orgbbfe1cb)
+    2.  [11.0203 Introduction to exceptions](#org2f0e8cf)
+    3.  [11.0205 The try and catch pattern](#org17e2df9)
+    4.  [11.0207 Try and catch in javascript](#org75e2b5c)
+    5.  [11.0209 Throw in javascript](#org56b2f09)
+12. [Week 12](#orgdf3efe0)
+    1.  [12.0201 Introduction to debuggers](#org48d8d95)
+    2.  [12.0208 Advanced reading about debugging](#orgc09b51f)
 
 
 
-<a id="org0541625"></a>
+<a id="org88e3d7f"></a>
 
 # Week 1
 
@@ -90,7 +93,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="orgb26a35d"></a>
+<a id="org4bf7534"></a>
 
 ## Module Introduction
 
@@ -116,7 +119,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org0627464"></a>
+<a id="org1fd5ad0"></a>
 
 ## 1.0202 Reference points
 
@@ -137,7 +140,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="orgb67ae7d"></a>
+<a id="orgf8a4bc5"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -150,7 +153,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org3abfcd6"></a>
+<a id="orgc8e3f4d"></a>
 
 ## 1.0204 What is a module?
 
@@ -173,7 +176,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="orgb949aca"></a>
+<a id="org4655e99"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -199,7 +202,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="orgcb7b19d"></a>
+<a id="orge159fb0"></a>
 
 ## 1.0208 Complexity references
 
@@ -214,7 +217,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="org952b138"></a>
+<a id="org817adaa"></a>
 
 # Week 2
 
@@ -226,7 +229,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="orgc2762fa"></a>
+<a id="org8b8d16b"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -239,7 +242,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org635d534"></a>
+<a id="orgc14d8c5"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -290,7 +293,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="orgb85166f"></a>
+<a id="org74efae0"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -319,7 +322,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="orgcfde781"></a>
+<a id="orgf3a4334"></a>
 
 # Week 3
 
@@ -333,7 +336,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="orgc25c01e"></a>
+<a id="orgcd36046"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -342,7 +345,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="orgea8ef80"></a>
+<a id="orgf81cb72"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -355,7 +358,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="org57ab715"></a>
+<a id="orgcdb7edd"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -378,7 +381,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org9212e14"></a>
+<a id="org6ad06c7"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -399,7 +402,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="org1fda24c"></a>
+<a id="org5ca1a2c"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -411,7 +414,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orgea3ceee"></a>
+<a id="org303d596"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -436,7 +439,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="org4dd3191"></a>
+<a id="orged2f054"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -446,7 +449,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org5448b01"></a>
+<a id="orgdbb6b88"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -465,7 +468,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="orgc4550f8"></a>
+<a id="org34afef3"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -475,7 +478,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org4119d1f"></a>
+<a id="orgaf6638c"></a>
 
 # Week 4
 
@@ -488,7 +491,7 @@ Key Concepts
     cohesion.
 
 
-<a id="org7277289"></a>
+<a id="orgc97a40a"></a>
 
 ## 4.012 Week 4 reading
 
@@ -499,7 +502,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="org9ea9949"></a>
+<a id="org383d8e9"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -561,7 +564,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="org2f679ec"></a>
+<a id="org7a4d592"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -629,7 +632,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="org66456fe"></a>
+<a id="org3632946"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -685,7 +688,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="org3e7c711"></a>
+<a id="org1adf45c"></a>
 
 # Week 5
 
@@ -697,7 +700,7 @@ Key Concepts
     code repositories
 
 
-<a id="orgb0dfc1a"></a>
+<a id="org67665d0"></a>
 
 ## 5.0002 Topic reading
 
@@ -717,7 +720,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="org2afb859"></a>
+<a id="org341a28c"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -737,7 +740,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="orgf5593ba"></a>
+<a id="org677dd13"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -759,7 +762,7 @@ process in short iterative bursts.
     and handled to avoid crashes
 
 
-<a id="org38bb561"></a>
+<a id="org91dab1e"></a>
 
 # Week 6
 
@@ -770,19 +773,19 @@ Key Concepts
 -   Carry out the test-driven development workflow in Python
 
 
-<a id="orge975d61"></a>
+<a id="org01c5759"></a>
 
 ## 6.0102 Week 6 reading
 
 -   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
 
 
-<a id="orgad47866"></a>
+<a id="org167d08c"></a>
 
 ## 6.013 Super quick Python tutorial
 
 
-<a id="orge91d88a"></a>
+<a id="orgecd4343"></a>
 
 ### Variables
 
@@ -794,7 +797,7 @@ and give it a value:
     myString = "Hello"
 
 
-<a id="org07eec7b"></a>
+<a id="org73473e7"></a>
 
 ### Lists
 
@@ -839,7 +842,7 @@ To extend a list with the items from another list, we can use
     myList.extend(anotherList)
 
 
-<a id="org4e84cf3"></a>
+<a id="orgd85b86b"></a>
 
 ### Functions
 
@@ -859,7 +862,7 @@ Keep in mind that Python uses *pass-by-value*, not
 *pass-by-reference*.
 
 
-<a id="orgc188884"></a>
+<a id="orgea7e46c"></a>
 
 ## 6.0201 Introduction to unittest in Python
 
@@ -878,7 +881,7 @@ example of how to use it:
     unittest.main(argv = ['ignored', 'v'], exit = False)
 
 
-<a id="org0408cc6"></a>
+<a id="org60c5598"></a>
 
 ## 6.0203 Assertion function in unittest
 
@@ -887,14 +890,14 @@ built-in. Instead of repeating them here, it&rsquo;s to access its
 [documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
 
 
-<a id="org7189d4d"></a>
+<a id="orgc6d6ea6"></a>
 
 ## 6.0205 Assert functions in unittest
 
 -   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
 
 
-<a id="orge595e48"></a>
+<a id="orga3f771f"></a>
 
 ## 6.0301 Introduction to statistics libraries
 
@@ -906,7 +909,7 @@ advanced, methods would be calculating correlation coefficients,
 [ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
 
 
-<a id="org4a151f1"></a>
+<a id="orgb643c35"></a>
 
 # Week 7
 
@@ -917,14 +920,14 @@ Key Concepts
 -   Carry out the test-driven development workflow in C++
 
 
-<a id="org30f7ac4"></a>
+<a id="orga688962"></a>
 
 ## 7.0102 Week 7 reading
 
 -   cplusplus.com [Structure of a program](http://cplusplus.com/doc/tutorial/program_structure/) (2020).
 
 
-<a id="orge545a5e"></a>
+<a id="orgb224b02"></a>
 
 ## 7.0201 C++ primer
 
@@ -939,7 +942,7 @@ Usually, a C++ program starts with including some libraries and a
     }
 
 
-<a id="org1c09c67"></a>
+<a id="orgfd98366"></a>
 
 ### Variables
 
@@ -985,7 +988,7 @@ And [here](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) we can f
 data types in C++.
 
 
-<a id="orga80ef43"></a>
+<a id="org820debb"></a>
 
 ### Arrays
 
@@ -1012,7 +1015,7 @@ i.e. the first element of the array is 0.
     }
 
 
-<a id="org5bd12b1"></a>
+<a id="org53388b6"></a>
 
 ### Loops
 
@@ -1034,7 +1037,7 @@ one:
     }
 
 
-<a id="org05a2326"></a>
+<a id="orgc220f22"></a>
 
 ### Functions
 
@@ -1068,7 +1071,7 @@ That `static` keywords tells the compiler that `succ()` is only
 supposed to be accessible from the current source file.
 
 
-<a id="org81ee622"></a>
+<a id="orgbf6734a"></a>
 
 ### Classes
 
@@ -1125,7 +1128,7 @@ For example:
     }
 
 
-<a id="org17f8f06"></a>
+<a id="org51ab3db"></a>
 
 ## 7.0206 Introduction to cppunit
 
@@ -1169,7 +1172,7 @@ library. Like so:
     Aborted
 
 
-<a id="orge5798de"></a>
+<a id="orga2f081c"></a>
 
 ## 7.0208 Adding better output and multiple tests
 
@@ -1297,14 +1300,14 @@ after each test. Like so:
     }
 
 
-<a id="orgff4fef3"></a>
+<a id="orge813fcf"></a>
 
 ## 7.021 Assert functions in cppunit
 
 -   [cppunit: Making assertions](https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html)
 
 
-<a id="orgccdda4c"></a>
+<a id="org333a752"></a>
 
 # Week 8
 
@@ -1315,7 +1318,7 @@ Key Concepts
 -   Describe the elements of a unit testing framework.
 
 
-<a id="org0fee935"></a>
+<a id="orgd5aea31"></a>
 
 ## 8.0102 Week 8 reading
 
@@ -1324,7 +1327,7 @@ Key Concepts
 -   [Chai](https://www.chaijs.com/)
 
 
-<a id="orgc8509e2"></a>
+<a id="orge55901b"></a>
 
 ## 8.0204 Introduction to Mocha
 
@@ -1393,7 +1396,7 @@ test in the file `test.js`.
     })
 
 
-<a id="org458e13e"></a>
+<a id="org792f9ed"></a>
 
 ## 8.0206 Mocha with es6 syntax
 
@@ -1422,7 +1425,7 @@ Here&rsquo;s the previous code in ES6 syntax:
     })
 
 
-<a id="org1b0d67f"></a>
+<a id="org3f0d9f8"></a>
 
 ## 8.0303 Considerations when testing a web API
 
@@ -1451,7 +1454,7 @@ we can fill it up with tests:
     })
 
 
-<a id="org07b7dc1"></a>
+<a id="org925902b"></a>
 
 # Week 9
 
@@ -1464,7 +1467,7 @@ Key Concepts
     disable it.
 
 
-<a id="org5b1d3e1"></a>
+<a id="org05e2d3e"></a>
 
 ## 9.0202 Week 9 reading
 
@@ -1490,7 +1493,7 @@ Other interesting sources:
     contract: the lessons of Ariane](https://ieeexplore.ieee.org/document/562936)&rsquo;, Computer 30(1) 1997, pp.129–30.
 
 
-<a id="org7a94d6f"></a>
+<a id="org3987e85"></a>
 
 ## 9.0301 Introduction to assertions
 
@@ -1523,7 +1526,7 @@ When an assertion fails, there are a few options. For each of them
 we look at their Pros and Cons in the following subsections
 
 
-<a id="orgc881230"></a>
+<a id="org54caebe"></a>
 
 ### Terminating The Program
 
@@ -1536,7 +1539,7 @@ we look at their Pros and Cons in the following subsections
     Prevents legitimate users from using the program
 
 
-<a id="org4a0565d"></a>
+<a id="orgec043af"></a>
 
 ### Printing An Error
 
@@ -1549,7 +1552,7 @@ we look at their Pros and Cons in the following subsections
     Program doesn&rsquo;t know the context of the situation
 
 
-<a id="org88594c9"></a>
+<a id="org6690dd1"></a>
 
 ### Throwing An Exception
 
@@ -1563,7 +1566,7 @@ we look at their Pros and Cons in the following subsections
     particular exception
 
 
-<a id="org554bc81"></a>
+<a id="org5c4d34f"></a>
 
 ### Carrying On Regardless
 
@@ -1576,7 +1579,7 @@ we look at their Pros and Cons in the following subsections
     Program is very likely to produce bogus outputs
 
 
-<a id="org62e0996"></a>
+<a id="orgda83f64"></a>
 
 ## 9.0303 Assertions and the software development lifecycle
 
@@ -1595,7 +1598,7 @@ customer&rdquo;/. He supports his claim with examples from Microsoft and
 the JPL where neither disable assertions on production builds.
 
 
-<a id="orge6e01ba"></a>
+<a id="orgf14e13f"></a>
 
 # Week 10
 
@@ -1614,7 +1617,7 @@ Key Concepts
     cohesion to a given program
 
 
-<a id="orge681f7d"></a>
+<a id="orgfe84f52"></a>
 
 ## 10.0102 Week 10 reading
 
@@ -1637,7 +1640,7 @@ Key Concepts
 -   OWASP: [Top 10 issues for web application security](https://github.com/OWASP/www-project-top-ten/blob/master/index.md)
 
 
-<a id="orgb0953b9"></a>
+<a id="org07c7eb8"></a>
 
 ## 10.0201 Secure programming overview
 
@@ -1665,7 +1668,7 @@ Secure programming hit list:
     sent back to the user
 
 
-<a id="orga6a08a4"></a>
+<a id="org44c1328"></a>
 
 ## 10.0203 Secure programming and the software development lifecycle
 
@@ -1698,7 +1701,7 @@ The list of practices from Microsoft SDL is:
 12. Establish a Standard Incident Response Process
 
 
-<a id="org2b6aecd"></a>
+<a id="org8f1870d"></a>
 
 # Week 11
 
@@ -1709,7 +1712,7 @@ Key Concepts
 -   Write exception handling code that can throw and catch exceptions.
 
 
-<a id="org88408a8"></a>
+<a id="orgbbfe1cb"></a>
 
 ## 11.0201 Different types of errors
 
@@ -1723,7 +1726,7 @@ Key Concepts
 -   **Runtime error:** errors that only happen during program execution
 
 
-<a id="org6e8c319"></a>
+<a id="org2f0e8cf"></a>
 
 ## 11.0203 Introduction to exceptions
 
@@ -1744,7 +1747,7 @@ who called it and for what purpose, therefore it can&rsquo;t possibly
 know what the correct resolution for the error may be.
 
 
-<a id="org37d37d2"></a>
+<a id="org17e2df9"></a>
 
 ## 11.0205 The try and catch pattern
 
@@ -1767,7 +1770,7 @@ will *try* to call the function, assuming it will work and if any
 exception happens, we will *catch* it for proper handling.
 
 
-<a id="org5a62a71"></a>
+<a id="org75e2b5c"></a>
 
 ## 11.0207 Try and catch in javascript
 
@@ -1778,7 +1781,7 @@ exception happens, we will *catch* it for proper handling.
     }
 
 
-<a id="org4b3eb4e"></a>
+<a id="org56b2f09"></a>
 
 ## 11.0209 Throw in javascript
 
@@ -1795,6 +1798,46 @@ exception happens, we will *catch* it for proper handling.
     } catch (ex) {
       console.log(ex.name, ex.message);
     }
+
+
+<a id="orgdf3efe0"></a>
+
+# Week 12
+
+Key Concepts
+
+-   Use conditional breakpoints and watchpoints to automatically
+    trigger debugger breaks.
+-   Explain the key operations that can be carried out with a
+    debugger.
+-   Use debug operations such as stepping and stack tracing to explore
+    a running program.
+
+
+<a id="org48d8d95"></a>
+
+## 12.0201 Introduction to debuggers
+
+*Debugging* is the process of finding and correcting errors in a
+program. A *Debugger* is a tool to inspect a running program
+without modifications to the source code, thereby limiting impact
+of observing the program behavior.
+
+When we rely on `printf()` or `console.log()` or similar console
+printing routines, we are producing a crude debugger that has a
+high impact to the execution pattern of the program.
+
+Debuggers help with dynamic analysis, while compilers and linters
+help with static analysis.
+
+
+<a id="orgc09b51f"></a>
+
+## 12.0208 Advanced reading about debugging
+
+-   Wong, W.E., R. Gao, Y. Li, R. Abreu and F. Wotawa &rsquo;[A survey on
+    software fault localization](https://ieeexplore.ieee.org/document/7390282)&rsquo;, IEEE Transactions on Software
+    Engineering 42(8) 2016, pp. 707-740.
 
 
 # Footnotes
