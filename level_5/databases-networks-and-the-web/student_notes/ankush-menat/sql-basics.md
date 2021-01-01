@@ -10,6 +10,8 @@
     - has many many implementations from small SQlite to massive distributed databases.
     - is constrained. Not supposed to be Turing-complete.  It's a DSL.
 - Database: "set of named relations"
+    - Schema is fixed.
+    - Data is atomic
     - relation (table):
         - Schema: description or metadata (think table headers)
         - Instance: set of data satisfying the schema. (think table data)
@@ -21,8 +23,7 @@
 |     |       |                       |                      |
 |     |       | ^ an attribute/column |                      |
 
-    - Schema is fixed.
-    - Data is atomic
+
 - SQL is actually not a single language but collection of 2 sub-languages. It's often confusing because both share very similar syntax.
     - DDL - Data definition language
     - DML - Data manipulation language
