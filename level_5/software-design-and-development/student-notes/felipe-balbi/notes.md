@@ -1,103 +1,113 @@
 
 # Table of Contents
 
-1.  [Week 1](#org7a992f3)
-    1.  [Module Introduction](#org06f172c)
-    2.  [1.0202 Reference points](#org33ef1a2)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org24cfe56)
-    4.  [1.0204 What is a module?](#org0e100bf)
-    5.  [1.0206 What is module complexity?](#orgbb27ff5)
-    6.  [1.0208 Complexity references](#org5ae5628)
-2.  [Week 2](#orgac7d07e)
-    1.  [2.0102 Week 2 reading](#org3774935)
-    2.  [2.0201 What is module cohesion?](#org2df0806)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org4a9880e)
-3.  [Week 3](#orgd386c90)
-    1.  [3.0102 Week 3 reading](#orgab2f2f8)
-    2.  [3.0201 What is module coupling?](#org8935a4a)
-    3.  [3.0203 Different types of coupling: good or bad?](#org496d620)
-    4.  [3.0205 Common environment coupling: good or bad?](#org311a28f)
-    5.  [3.0207 Content coupling: good or bad?](#orgafc5ec3)
-    6.  [3.0209 Control coupling: good or bad?](#orgea5392b)
-    7.  [3.0211 Data coupling: good or bad?](#orgfff3309)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org1fb16e1)
-    9.  [3.0215 Pathological coupling: good or bad?](#org382c15d)
-4.  [Week 4](#org00ac395)
-    1.  [4.012 Week 4 reading](#org2a15747)
-    2.  [4.0201 Reasoning about scope](#org090191f)
-    3.  [4.0203 Reasoning about function parameters](#orgba39b17)
-    4.  [4.0205 Replacing functions dynamically and const](#org04e5721)
-5.  [Week 5](#org05fdc29)
-    1.  [5.0002 Topic reading](#org59a6c7c)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#orgcbbb8d7)
-    3.  [5.0113 What to test? An overview](#org5b08f83)
-6.  [Week 6](#org2139e19)
-    1.  [6.0102 Week 6 reading](#org0d441bb)
-    2.  [6.013 Super quick Python tutorial](#orga85e93b)
-        1.  [Variables](#org17b5cf0)
-        2.  [Lists](#org5876a5b)
-        3.  [Functions](#org66e143c)
-    3.  [6.0201 Introduction to unittest in Python](#orga5de48f)
-    4.  [6.0203 Assertion function in unittest](#org1c5d859)
-    5.  [6.0205 Assert functions in unittest](#org7aca07c)
-    6.  [6.0301 Introduction to statistics libraries](#org0d3c00a)
-7.  [Week 7](#org6cb5ef6)
-    1.  [7.0102 Week 7 reading](#org7090205)
-    2.  [7.0201 C++ primer](#org78aa6ae)
-        1.  [Variables](#orge2f3e3b)
-        2.  [Arrays](#org48e8198)
-        3.  [Loops](#orgcae859e)
-        4.  [Functions](#org9bc7358)
-        5.  [Classes](#org03d2b2f)
-    3.  [7.0206 Introduction to cppunit](#orga889fcc)
-    4.  [7.0208 Adding better output and multiple tests](#orgc88b505)
-    5.  [7.021 Assert functions in cppunit](#orgeb43d48)
-8.  [Week 8](#org2e053ae)
-    1.  [8.0102 Week 8 reading](#org4f90483)
-    2.  [8.0204 Introduction to Mocha](#org18e8bbf)
-    3.  [8.0206 Mocha with es6 syntax](#org6e58c8d)
-    4.  [8.0303 Considerations when testing a web API](#org400bf6c)
-9.  [Week 9](#org80449ea)
-    1.  [9.0202 Week 9 reading](#orge1b984b)
-    2.  [9.0301 Introduction to assertions](#orgfe14323)
-        1.  [Terminating The Program](#orgd8c4b42)
-        2.  [Printing An Error](#orga04eb59)
-        3.  [Throwing An Exception](#org0552898)
-        4.  [Carrying On Regardless](#org78e9c56)
-    3.  [9.0303 Assertions and the software development lifecycle](#org0586e06)
-10. [Week 10](#org92c1a04)
-    1.  [10.0102 Week 10 reading](#orgd7e3fb3)
-    2.  [10.0201 Secure programming overview](#org066db0d)
-    3.  [10.0203 Secure programming and the software development lifecycle](#orga910c34)
-11. [Week 11](#org9da236e)
-    1.  [11.0201 Different types of errors](#orgc47745c)
-    2.  [11.0203 Introduction to exceptions](#orgd22c329)
-    3.  [11.0205 The try and catch pattern](#org17e9150)
-    4.  [11.0207 Try and catch in javascript](#org34ff882)
-    5.  [11.0209 Throw in javascript](#org8d90a49)
-12. [Week 12](#orga37f9ca)
-    1.  [12.0201 Introduction to debuggers](#orgbbdc780)
-    2.  [12.0208 Advanced reading about debugging](#org5544270)
-13. [Week 13](#orgb1895a9)
-    1.  [13.0102 From the topic to the week](#org355d48a)
-    2.  [13.0202 Introduction to requirements](#org51b73a9)
-    3.  [13.0204 Whirlwind tour of requirements techniques](#org7342852)
-    4.  [13.0206 Back to basics: EARS](#orgf685615)
-    5.  [13.0208 EARS reference](#org89a44ba)
-14. [Week 14](#orgb2b94fc)
-    1.  [14.0201 Black box and white box testing](#orga894859)
-    2.  [14.0203 Testing and the body of knowledge](#orgc8db41b)
-    3.  [14.0205 Two short articles about testing taxonomies](#org79f15f4)
-    4.  [14.0206Test procedure specification: step by step and matrix](#org2f0c257)
-        1.  [Step-by-step Test Procedure](#org3e489a6)
-        2.  [Matrix Test Procedure](#org3d35376)
-    5.  [14.0210 Factors affecting test effectiveness](#org91259f8)
-    6.  [14.0301 Automated black box testing](#orge1ce5b9)
-    7.  [14.0303 Automated testing in video games](#orgbdc5101)
+1.  [Week 1](#org455a48a)
+    1.  [Module Introduction](#org74d891a)
+    2.  [1.0202 Reference points](#org623727f)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#orgae4b95a)
+    4.  [1.0204 What is a module?](#org9295b4e)
+    5.  [1.0206 What is module complexity?](#org05789ee)
+    6.  [1.0208 Complexity references](#org3000609)
+2.  [Week 2](#org41c0cb2)
+    1.  [2.0102 Week 2 reading](#orgc3f787b)
+    2.  [2.0201 What is module cohesion?](#orgc90d070)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#org35a2f02)
+3.  [Week 3](#org8e589f3)
+    1.  [3.0102 Week 3 reading](#org06e183a)
+    2.  [3.0201 What is module coupling?](#org3218e71)
+    3.  [3.0203 Different types of coupling: good or bad?](#org677ce4d)
+    4.  [3.0205 Common environment coupling: good or bad?](#org9e4eb90)
+    5.  [3.0207 Content coupling: good or bad?](#org829e379)
+    6.  [3.0209 Control coupling: good or bad?](#orgf1894ce)
+    7.  [3.0211 Data coupling: good or bad?](#org3f40e34)
+    8.  [3.0213 Hybrid coupling: good or bad?](#org20f8105)
+    9.  [3.0215 Pathological coupling: good or bad?](#orgad481c9)
+4.  [Week 4](#orge46c3c5)
+    1.  [4.012 Week 4 reading](#org846c8da)
+    2.  [4.0201 Reasoning about scope](#org12009dc)
+    3.  [4.0203 Reasoning about function parameters](#org27fc66f)
+    4.  [4.0205 Replacing functions dynamically and const](#orgeb90665)
+5.  [Week 5](#orgeb4678e)
+    1.  [5.0002 Topic reading](#org1a75a77)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#orgd4fe24a)
+    3.  [5.0113 What to test? An overview](#org62bb3b0)
+6.  [Week 6](#org4972ef3)
+    1.  [6.0102 Week 6 reading](#org6cfc481)
+    2.  [6.013 Super quick Python tutorial](#org3fa96ce)
+        1.  [Variables](#orgd0a5be9)
+        2.  [Lists](#org06548dc)
+        3.  [Functions](#org3e45ff5)
+    3.  [6.0201 Introduction to unittest in Python](#orgc7143a4)
+    4.  [6.0203 Assertion function in unittest](#orgdddf4a9)
+    5.  [6.0205 Assert functions in unittest](#orgf86cc6b)
+    6.  [6.0301 Introduction to statistics libraries](#org97f3905)
+7.  [Week 7](#orgaf65821)
+    1.  [7.0102 Week 7 reading](#org67369ae)
+    2.  [7.0201 C++ primer](#orgb575dc1)
+        1.  [Variables](#org7a11269)
+        2.  [Arrays](#org0148e83)
+        3.  [Loops](#org996a996)
+        4.  [Functions](#org6c61c57)
+        5.  [Classes](#org72a733e)
+    3.  [7.0206 Introduction to cppunit](#org7fd01b2)
+    4.  [7.0208 Adding better output and multiple tests](#orge09b25c)
+    5.  [7.021 Assert functions in cppunit](#org492465f)
+8.  [Week 8](#org97422d9)
+    1.  [8.0102 Week 8 reading](#orgb0537f9)
+    2.  [8.0204 Introduction to Mocha](#orgf3536b5)
+    3.  [8.0206 Mocha with es6 syntax](#orgdccf8f3)
+    4.  [8.0303 Considerations when testing a web API](#orge4b6809)
+9.  [Week 9](#orgaa069cc)
+    1.  [9.0202 Week 9 reading](#org3e15abc)
+    2.  [9.0301 Introduction to assertions](#orgb8ac3fd)
+        1.  [Terminating The Program](#org9835389)
+        2.  [Printing An Error](#org0f867b0)
+        3.  [Throwing An Exception](#orgcf39203)
+        4.  [Carrying On Regardless](#org4ebde0e)
+    3.  [9.0303 Assertions and the software development lifecycle](#org04c6f97)
+10. [Week 10](#org376cb2c)
+    1.  [10.0102 Week 10 reading](#org835f774)
+    2.  [10.0201 Secure programming overview](#orgadd39aa)
+    3.  [10.0203 Secure programming and the software development lifecycle](#org9fc8d74)
+11. [Week 11](#org430d14d)
+    1.  [11.0201 Different types of errors](#orgd6f32c5)
+    2.  [11.0203 Introduction to exceptions](#orgaeaa591)
+    3.  [11.0205 The try and catch pattern](#org30ee0e1)
+    4.  [11.0207 Try and catch in javascript](#org7fd7a55)
+    5.  [11.0209 Throw in javascript](#org4733218)
+12. [Week 12](#org810c674)
+    1.  [12.0201 Introduction to debuggers](#org86f204a)
+    2.  [12.0208 Advanced reading about debugging](#org6481956)
+13. [Week 13](#orgf7f8d8d)
+    1.  [13.0102 From the topic to the week](#org7cc800e)
+    2.  [13.0202 Introduction to requirements](#org7d98f6a)
+    3.  [13.0204 Whirlwind tour of requirements techniques](#orgea01b13)
+    4.  [13.0206 Back to basics: EARS](#orgd16f54f)
+    5.  [13.0208 EARS reference](#orgc34e4a7)
+14. [Week 14](#org6bb3d3b)
+    1.  [14.0201 Black box and white box testing](#orge9391b5)
+    2.  [14.0203 Testing and the body of knowledge](#org5477a0e)
+    3.  [14.0205 Two short articles about testing taxonomies](#org3c37717)
+    4.  [14.0206Test procedure specification: step by step and matrix](#orga14282c)
+        1.  [Step-by-step Test Procedure](#org1103ffd)
+        2.  [Matrix Test Procedure](#org5e33ccd)
+    5.  [14.0210 Factors affecting test effectiveness](#orgad5cc15)
+    6.  [14.0301 Automated black box testing](#org05d595d)
+    7.  [14.0303 Automated testing in video games](#org7e7b5b7)
+15. [Week 15](#orgc73cd37)
+    1.  [15.0201 Introduction to usability – what does it mean?](#org0430420)
+    2.  [15.0203 Basic guide to usability for engineers](#org28bac05)
+    3.  [15.0204 Usability metrics](#org2262564)
+        1.  [System Usability Scale (SUS)](#orgf38d313)
+        2.  [Usability Metric For User Sperience (UMUX)](#org4b5dbab)
+        3.  [Creativity Support Index](#orgd64538c)
+    4.  [15.0206 System usability surveys](#orgc5a7332)
+    5.  [15.0301 Usability principles](#org03b116e)
+    6.  [15.0303 Usablity principles paper](#orgba7d333)
 
 
 
-<a id="org7a992f3"></a>
+<a id="org455a48a"></a>
 
 # Week 1
 
@@ -109,7 +119,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="org06f172c"></a>
+<a id="org74d891a"></a>
 
 ## Module Introduction
 
@@ -135,7 +145,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org33ef1a2"></a>
+<a id="org623727f"></a>
 
 ## 1.0202 Reference points
 
@@ -156,7 +166,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org24cfe56"></a>
+<a id="orgae4b95a"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -169,7 +179,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org0e100bf"></a>
+<a id="org9295b4e"></a>
 
 ## 1.0204 What is a module?
 
@@ -192,7 +202,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="orgbb27ff5"></a>
+<a id="org05789ee"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -218,7 +228,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="org5ae5628"></a>
+<a id="org3000609"></a>
 
 ## 1.0208 Complexity references
 
@@ -233,7 +243,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="orgac7d07e"></a>
+<a id="org41c0cb2"></a>
 
 # Week 2
 
@@ -245,7 +255,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="org3774935"></a>
+<a id="orgc3f787b"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -258,7 +268,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org2df0806"></a>
+<a id="orgc90d070"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -309,7 +319,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org4a9880e"></a>
+<a id="org35a2f02"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -338,7 +348,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="orgd386c90"></a>
+<a id="org8e589f3"></a>
 
 # Week 3
 
@@ -352,7 +362,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="orgab2f2f8"></a>
+<a id="org06e183a"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -361,7 +371,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org8935a4a"></a>
+<a id="org3218e71"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -374,7 +384,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="org496d620"></a>
+<a id="org677ce4d"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -397,7 +407,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org311a28f"></a>
+<a id="org9e4eb90"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -418,7 +428,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="orgafc5ec3"></a>
+<a id="org829e379"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -430,7 +440,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orgea5392b"></a>
+<a id="orgf1894ce"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -455,7 +465,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="orgfff3309"></a>
+<a id="org3f40e34"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -465,7 +475,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org1fb16e1"></a>
+<a id="org20f8105"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -484,7 +494,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org382c15d"></a>
+<a id="orgad481c9"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -494,7 +504,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org00ac395"></a>
+<a id="orge46c3c5"></a>
 
 # Week 4
 
@@ -507,7 +517,7 @@ Key Concepts
     cohesion.
 
 
-<a id="org2a15747"></a>
+<a id="org846c8da"></a>
 
 ## 4.012 Week 4 reading
 
@@ -518,7 +528,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="org090191f"></a>
+<a id="org12009dc"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -580,7 +590,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="orgba39b17"></a>
+<a id="org27fc66f"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -648,7 +658,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="org04e5721"></a>
+<a id="orgeb90665"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -704,7 +714,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="org05fdc29"></a>
+<a id="orgeb4678e"></a>
 
 # Week 5
 
@@ -716,7 +726,7 @@ Key Concepts
     code repositories
 
 
-<a id="org59a6c7c"></a>
+<a id="org1a75a77"></a>
 
 ## 5.0002 Topic reading
 
@@ -736,7 +746,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="orgcbbb8d7"></a>
+<a id="orgd4fe24a"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -756,7 +766,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="org5b08f83"></a>
+<a id="org62bb3b0"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -778,7 +788,7 @@ process in short iterative bursts.
     and handled to avoid crashes
 
 
-<a id="org2139e19"></a>
+<a id="org4972ef3"></a>
 
 # Week 6
 
@@ -789,19 +799,19 @@ Key Concepts
 -   Carry out the test-driven development workflow in Python
 
 
-<a id="org0d441bb"></a>
+<a id="org6cfc481"></a>
 
 ## 6.0102 Week 6 reading
 
 -   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
 
 
-<a id="orga85e93b"></a>
+<a id="org3fa96ce"></a>
 
 ## 6.013 Super quick Python tutorial
 
 
-<a id="org17b5cf0"></a>
+<a id="orgd0a5be9"></a>
 
 ### Variables
 
@@ -813,7 +823,7 @@ and give it a value:
     myString = "Hello"
 
 
-<a id="org5876a5b"></a>
+<a id="org06548dc"></a>
 
 ### Lists
 
@@ -858,7 +868,7 @@ To extend a list with the items from another list, we can use
     myList.extend(anotherList)
 
 
-<a id="org66e143c"></a>
+<a id="org3e45ff5"></a>
 
 ### Functions
 
@@ -878,7 +888,7 @@ Keep in mind that Python uses *pass-by-value*, not
 *pass-by-reference*.
 
 
-<a id="orga5de48f"></a>
+<a id="orgc7143a4"></a>
 
 ## 6.0201 Introduction to unittest in Python
 
@@ -897,7 +907,7 @@ example of how to use it:
     unittest.main(argv = ['ignored', 'v'], exit = False)
 
 
-<a id="org1c5d859"></a>
+<a id="orgdddf4a9"></a>
 
 ## 6.0203 Assertion function in unittest
 
@@ -906,14 +916,14 @@ built-in. Instead of repeating them here, it&rsquo;s to access its
 [documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
 
 
-<a id="org7aca07c"></a>
+<a id="orgf86cc6b"></a>
 
 ## 6.0205 Assert functions in unittest
 
 -   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
 
 
-<a id="org0d3c00a"></a>
+<a id="org97f3905"></a>
 
 ## 6.0301 Introduction to statistics libraries
 
@@ -925,7 +935,7 @@ advanced, methods would be calculating correlation coefficients,
 [ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
 
 
-<a id="org6cb5ef6"></a>
+<a id="orgaf65821"></a>
 
 # Week 7
 
@@ -936,14 +946,14 @@ Key Concepts
 -   Carry out the test-driven development workflow in C++
 
 
-<a id="org7090205"></a>
+<a id="org67369ae"></a>
 
 ## 7.0102 Week 7 reading
 
 -   cplusplus.com [Structure of a program](http://cplusplus.com/doc/tutorial/program_structure/) (2020).
 
 
-<a id="org78aa6ae"></a>
+<a id="orgb575dc1"></a>
 
 ## 7.0201 C++ primer
 
@@ -958,7 +968,7 @@ Usually, a C++ program starts with including some libraries and a
     }
 
 
-<a id="orge2f3e3b"></a>
+<a id="org7a11269"></a>
 
 ### Variables
 
@@ -1004,7 +1014,7 @@ And [here](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) we can f
 data types in C++.
 
 
-<a id="org48e8198"></a>
+<a id="org0148e83"></a>
 
 ### Arrays
 
@@ -1031,7 +1041,7 @@ i.e. the first element of the array is 0.
     }
 
 
-<a id="orgcae859e"></a>
+<a id="org996a996"></a>
 
 ### Loops
 
@@ -1053,7 +1063,7 @@ one:
     }
 
 
-<a id="org9bc7358"></a>
+<a id="org6c61c57"></a>
 
 ### Functions
 
@@ -1087,7 +1097,7 @@ That `static` keywords tells the compiler that `succ()` is only
 supposed to be accessible from the current source file.
 
 
-<a id="org03d2b2f"></a>
+<a id="org72a733e"></a>
 
 ### Classes
 
@@ -1144,7 +1154,7 @@ For example:
     }
 
 
-<a id="orga889fcc"></a>
+<a id="org7fd01b2"></a>
 
 ## 7.0206 Introduction to cppunit
 
@@ -1188,7 +1198,7 @@ library. Like so:
     Aborted
 
 
-<a id="orgc88b505"></a>
+<a id="orge09b25c"></a>
 
 ## 7.0208 Adding better output and multiple tests
 
@@ -1316,14 +1326,14 @@ after each test. Like so:
     }
 
 
-<a id="orgeb43d48"></a>
+<a id="org492465f"></a>
 
 ## 7.021 Assert functions in cppunit
 
 -   [cppunit: Making assertions](https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html)
 
 
-<a id="org2e053ae"></a>
+<a id="org97422d9"></a>
 
 # Week 8
 
@@ -1334,7 +1344,7 @@ Key Concepts
 -   Describe the elements of a unit testing framework.
 
 
-<a id="org4f90483"></a>
+<a id="orgb0537f9"></a>
 
 ## 8.0102 Week 8 reading
 
@@ -1343,7 +1353,7 @@ Key Concepts
 -   [Chai](https://www.chaijs.com/)
 
 
-<a id="org18e8bbf"></a>
+<a id="orgf3536b5"></a>
 
 ## 8.0204 Introduction to Mocha
 
@@ -1412,7 +1422,7 @@ test in the file `test.js`.
     })
 
 
-<a id="org6e58c8d"></a>
+<a id="orgdccf8f3"></a>
 
 ## 8.0206 Mocha with es6 syntax
 
@@ -1441,7 +1451,7 @@ Here&rsquo;s the previous code in ES6 syntax:
     })
 
 
-<a id="org400bf6c"></a>
+<a id="orge4b6809"></a>
 
 ## 8.0303 Considerations when testing a web API
 
@@ -1470,7 +1480,7 @@ we can fill it up with tests:
     })
 
 
-<a id="org80449ea"></a>
+<a id="orgaa069cc"></a>
 
 # Week 9
 
@@ -1483,7 +1493,7 @@ Key Concepts
     disable it.
 
 
-<a id="orge1b984b"></a>
+<a id="org3e15abc"></a>
 
 ## 9.0202 Week 9 reading
 
@@ -1509,7 +1519,7 @@ Other interesting sources:
     contract: the lessons of Ariane](https://ieeexplore.ieee.org/document/562936)&rsquo;, Computer 30(1) 1997, pp.129–30.
 
 
-<a id="orgfe14323"></a>
+<a id="orgb8ac3fd"></a>
 
 ## 9.0301 Introduction to assertions
 
@@ -1542,7 +1552,7 @@ When an assertion fails, there are a few options. For each of them
 we look at their Pros and Cons in the following subsections
 
 
-<a id="orgd8c4b42"></a>
+<a id="org9835389"></a>
 
 ### Terminating The Program
 
@@ -1555,7 +1565,7 @@ we look at their Pros and Cons in the following subsections
     Prevents legitimate users from using the program
 
 
-<a id="orga04eb59"></a>
+<a id="org0f867b0"></a>
 
 ### Printing An Error
 
@@ -1568,7 +1578,7 @@ we look at their Pros and Cons in the following subsections
     Program doesn&rsquo;t know the context of the situation
 
 
-<a id="org0552898"></a>
+<a id="orgcf39203"></a>
 
 ### Throwing An Exception
 
@@ -1582,7 +1592,7 @@ we look at their Pros and Cons in the following subsections
     particular exception
 
 
-<a id="org78e9c56"></a>
+<a id="org4ebde0e"></a>
 
 ### Carrying On Regardless
 
@@ -1595,7 +1605,7 @@ we look at their Pros and Cons in the following subsections
     Program is very likely to produce bogus outputs
 
 
-<a id="org0586e06"></a>
+<a id="org04c6f97"></a>
 
 ## 9.0303 Assertions and the software development lifecycle
 
@@ -1614,7 +1624,7 @@ customer&rdquo;/. He supports his claim with examples from Microsoft and
 the JPL where neither disable assertions on production builds.
 
 
-<a id="org92c1a04"></a>
+<a id="org376cb2c"></a>
 
 # Week 10
 
@@ -1633,7 +1643,7 @@ Key Concepts
     cohesion to a given program
 
 
-<a id="orgd7e3fb3"></a>
+<a id="org835f774"></a>
 
 ## 10.0102 Week 10 reading
 
@@ -1656,7 +1666,7 @@ Key Concepts
 -   OWASP: [Top 10 issues for web application security](https://github.com/OWASP/www-project-top-ten/blob/master/index.md)
 
 
-<a id="org066db0d"></a>
+<a id="orgadd39aa"></a>
 
 ## 10.0201 Secure programming overview
 
@@ -1684,7 +1694,7 @@ Secure programming hit list:
     sent back to the user
 
 
-<a id="orga910c34"></a>
+<a id="org9fc8d74"></a>
 
 ## 10.0203 Secure programming and the software development lifecycle
 
@@ -1717,7 +1727,7 @@ The list of practices from Microsoft SDL is:
 12. Establish a Standard Incident Response Process
 
 
-<a id="org9da236e"></a>
+<a id="org430d14d"></a>
 
 # Week 11
 
@@ -1728,7 +1738,7 @@ Key Concepts
 -   Write exception handling code that can throw and catch exceptions.
 
 
-<a id="orgc47745c"></a>
+<a id="orgd6f32c5"></a>
 
 ## 11.0201 Different types of errors
 
@@ -1742,7 +1752,7 @@ Key Concepts
 -   **Runtime error:** errors that only happen during program execution
 
 
-<a id="orgd22c329"></a>
+<a id="orgaeaa591"></a>
 
 ## 11.0203 Introduction to exceptions
 
@@ -1763,7 +1773,7 @@ who called it and for what purpose, therefore it can&rsquo;t possibly
 know what the correct resolution for the error may be.
 
 
-<a id="org17e9150"></a>
+<a id="org30ee0e1"></a>
 
 ## 11.0205 The try and catch pattern
 
@@ -1786,7 +1796,7 @@ will *try* to call the function, assuming it will work and if any
 exception happens, we will *catch* it for proper handling.
 
 
-<a id="org34ff882"></a>
+<a id="org7fd7a55"></a>
 
 ## 11.0207 Try and catch in javascript
 
@@ -1797,7 +1807,7 @@ exception happens, we will *catch* it for proper handling.
     }
 
 
-<a id="org8d90a49"></a>
+<a id="org4733218"></a>
 
 ## 11.0209 Throw in javascript
 
@@ -1816,7 +1826,7 @@ exception happens, we will *catch* it for proper handling.
     }
 
 
-<a id="orga37f9ca"></a>
+<a id="org810c674"></a>
 
 # Week 12
 
@@ -1830,7 +1840,7 @@ Key Concepts
     a running program.
 
 
-<a id="orgbbdc780"></a>
+<a id="org86f204a"></a>
 
 ## 12.0201 Introduction to debuggers
 
@@ -1847,7 +1857,7 @@ Debuggers help with dynamic analysis, while compilers and linters
 help with static analysis.
 
 
-<a id="org5544270"></a>
+<a id="org6481956"></a>
 
 ## 12.0208 Advanced reading about debugging
 
@@ -1856,7 +1866,7 @@ help with static analysis.
     Engineering 42(8) 2016, pp. 707-740.
 
 
-<a id="orgb1895a9"></a>
+<a id="orgf7f8d8d"></a>
 
 # Week 13
 
@@ -1869,7 +1879,7 @@ Key Concepts
     are.
 
 
-<a id="org355d48a"></a>
+<a id="org7cc800e"></a>
 
 ## 13.0102 From the topic to the week
 
@@ -1877,7 +1887,7 @@ Key Concepts
     industry: an introduction](https://ieeexplore.ieee.org/document/8048630)&rsquo;, IEEE Software 34(5) 2017, pp.16-19.
 
 
-<a id="org51b73a9"></a>
+<a id="org7d98f6a"></a>
 
 ## 13.0202 Introduction to requirements
 
@@ -1895,7 +1905,7 @@ analysis, requirements specification, requirements validation,
 practical considerations, and software requirements tools.
 
 
-<a id="org7342852"></a>
+<a id="orgea01b13"></a>
 
 ## 13.0204 Whirlwind tour of requirements techniques
 
@@ -1955,7 +1965,7 @@ techniques:
 </table>
 
 
-<a id="orgf685615"></a>
+<a id="orgd16f54f"></a>
 
 ## 13.0206 Back to basics: EARS
 
@@ -1987,7 +1997,7 @@ State-drive requirements look like so: *&ldquo;WHILE **<in state>** the
 **<system name>** shall **<system response>**&rdquo;*
 
 
-<a id="org89a44ba"></a>
+<a id="orgc34e4a7"></a>
 
 ## 13.0208 EARS reference
 
@@ -1997,7 +2007,7 @@ State-drive requirements look like so: *&ldquo;WHILE **<in state>** the
     pp.317-322.
 
 
-<a id="orgb2b94fc"></a>
+<a id="org6bb3d3b"></a>
 
 # Week 14
 
@@ -2010,7 +2020,7 @@ Key Concepts
 -   Write out step-by-step and matrix style test procedures.
 
 
-<a id="orga894859"></a>
+<a id="orge9391b5"></a>
 
 ## 14.0201 Black box and white box testing
 
@@ -2037,7 +2047,7 @@ testing exercises each method in isolation. Requirements can be
 specified for both black box and white box testing.
 
 
-<a id="orgc8db41b"></a>
+<a id="org5477a0e"></a>
 
 ## 14.0203 Testing and the body of knowledge
 
@@ -2059,7 +2069,7 @@ Engineering, Software Testing, Part 3: Test Documentation. In
 ISO/IEC/IEEE 29119-3:2013(E), doi: 10.1109/IEEESTD.2013.6588540.
 
 
-<a id="org79f15f4"></a>
+<a id="org3c37717"></a>
 
 ## 14.0205 Two short articles about testing taxonomies
 
@@ -2071,12 +2081,12 @@ ISO/IEC/IEEE 29119-3:2013(E), doi: 10.1109/IEEESTD.2013.6588540.
     Software 26(1) Jan-Feb 2009, pp.104-104.
 
 
-<a id="org2f0c257"></a>
+<a id="orga14282c"></a>
 
 ## 14.0206Test procedure specification: step by step and matrix
 
 
-<a id="org3e489a6"></a>
+<a id="org1103ffd"></a>
 
 ### Step-by-step Test Procedure
 
@@ -2088,7 +2098,7 @@ Any pre-conditions must be defined. This follows with a test log
 and the list of steps proper.
 
 
-<a id="org3d35376"></a>
+<a id="org5e33ccd"></a>
 
 ### Matrix Test Procedure
 
@@ -2096,7 +2106,7 @@ It&rsquo;s similar to step-by-step and contains the same
 information. The difference lies in how the data is laid out.
 
 
-<a id="org91259f8"></a>
+<a id="orgad5cc15"></a>
 
 ## 14.0210 Factors affecting test effectiveness
 
@@ -2104,7 +2114,7 @@ information. The difference lies in how the data is laid out.
     IEEE Software 18(1) Jan-Feb 2001, pp.81-86.
 
 
-<a id="orge1ce5b9"></a>
+<a id="org05d595d"></a>
 
 ## 14.0301 Automated black box testing
 
@@ -2139,7 +2149,7 @@ the Barista career path could be exploited and completed in a lower
 number of actions than the others.
 
 
-<a id="orgbdc5101"></a>
+<a id="org7e7b5b7"></a>
 
 ## 14.0303 Automated testing in video games
 
@@ -2150,6 +2160,442 @@ number of actions than the others.
 
 -   Albaghajati, A.M. and M.A.K. Ahmed &rsquo;[Video game automated testing
     approaches: an assessment framework](https://ieeexplore.ieee.org/abstract/document/9234724)&rsquo;, IEEE Transactions on Games.
+
+
+<a id="orgc73cd37"></a>
+
+# Week 15
+
+Key Concepts
+
+-   Evaluate the usability of a piece of software against Nielsen&rsquo;s usability principles.
+-   Give an example of a standard usability survey and use it to evaluate usability.
+-   Explain how the terms efficient, effective and satisfying relate to usability.
+
+
+<a id="org0430420"></a>
+
+## 15.0201 Introduction to usability – what does it mean?
+
+ISO 9241-11 defines usability as:
+
+-   **Usability:** The extent to which a system, product or service can
+    used by specified users to achieve specified goals with
+    **effectiveness**, **efficiency** and **satisfaction** in a specified
+    context of use.
+
+In the work [Usability basics for software developers](https://ieeexplore.ieee.org/document/903160), Ferre et al
+state that one &ldquo;can&rsquo;t predict a software system&rsquo;s usability without
+testing it with real users&rdquo;. In practice, this means that we should
+get real users to use the system in a real scenario and interview
+them later to guage their reponses.
+
+Defining the three keywords from ISO 9241-11:
+
+-   **Effectiveness:** Are the users able to complete a given task?
+-   **Efficiency:** How quickly can a user learn how to use the software?
+-   **Satisfaction:** Were the users happy using the system?
+
+
+<a id="org28bac05"></a>
+
+## 15.0203 Basic guide to usability for engineers
+
+-   Ferre, X., N. Juristo, H. Windl and L. Constantine &rsquo;[Usability
+    basics for software developers](https://ieeexplore.ieee.org/document/903160)&rsquo;, IEEE Software 18(1) 2001,
+    pp.22-29.
+
+
+<a id="org2262564"></a>
+
+## 15.0204 Usability metrics
+
+
+<a id="orgf38d313"></a>
+
+### System Usability Scale (SUS)
+
+The [System Usability Scale (SUS)](https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html) was created by John Brook
+in 1996. It defines 10 questions we should ask a user after they&rsquo;ve
+tried to use our system. The questions are shown in the table below.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">**#**</th>
+<th scope="col" class="org-left">**Question**</th>
+<th scope="col" class="org-left">**1**</th>
+<th scope="col" class="org-left">**2**</th>
+<th scope="col" class="org-left">**3**</th>
+<th scope="col" class="org-left">**4**</th>
+<th scope="col" class="org-left">**5**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">I think that I would like to use the system frequently</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">I found the system unnecessarily complex</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">I thought the system was easy to use</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">I think that I would need the support of a technical person to</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">use this system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">I found the various functions of this system were well</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">integrated</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">I thought there was too much inconsistency in this system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">I would imagine that most people would learn to use this system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">very quickly</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">I found the system very cumbesome to use</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">I felt very confident using the system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">I needed to learn a lot of things before I could get going with</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">this system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="org4b5dbab"></a>
+
+### Usability Metric For User Sperience (UMUX)
+
+The Usability Metric For User Experience (UMUX) was created with a
+goal of having a shorter list of questions to ask a user. The
+questions here are:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">**#**</th>
+<th scope="col" class="org-left">**Question**</th>
+<th scope="col" class="org-left">**1**</th>
+<th scope="col" class="org-left">**2**</th>
+<th scope="col" class="org-left">**3**</th>
+<th scope="col" class="org-left">**4**</th>
+<th scope="col" class="org-left">**5**</th>
+<th scope="col" class="org-left">**6**</th>
+<th scope="col" class="org-left">**7**</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">This system&rsquo;s capabilities meet my requirements</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Use this system is a frustrating experience</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">This system is easy to use</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">I have to spend too much time correcting things</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">with this system</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgd64538c"></a>
+
+### Creativity Support Index
+
+Created and proposed by Erin Cherry and Celine Latulipe in a 2014
+paper. This index in focused on gauging collaboration, enjoyment,
+exploration, expressiveness, immersion, and gained results worth
+the effort.
+
+
+<a id="orgc5a7332"></a>
+
+## 15.0206 System usability surveys
+
+-   Brooke, J. &rsquo;SUS: a retrospective&rsquo;, Journal of Usability Studies,
+    8(2) 2013.
+
+-   Lewis, J.R., B.S. Utesh, D.E. Maher &rsquo;UMUX-LITE: when there&rsquo;s no
+    time for the SUS&rsquo;, Proceedings of the SIGCHI Conference on Human
+    Factors in Computing Systems 2013, pp.2099-2102.
+
+-   Cherry, E. and C. Latulipe &rsquo;Quantifying the creativity support of
+    digital tools through the creativity support index&rsquo;, ACM
+    Transactions on Computer-Human Interaction 21 2014.
+
+
+<a id="org03b116e"></a>
+
+## 15.0301 Usability principles
+
+Nielsen&rsquo;s usability principles:
+
+1.  Visibility of system status
+2.  Match between system and the real world
+3.  User control and freedom
+4.  Consistency and standards
+5.  Error prevention
+6.  Recognition rather than recall
+7.  Flexibility and efficiency of use
+8.  Aesthetic and minimalist design
+9.  Help users recognize, diagnose, and recover from errors
+10. Help and documentation
+
+
+<a id="orgba7d333"></a>
+
+## 15.0303 Usablity principles paper
+
+-   Molich, R. and J. Nielsen &rsquo;Improving a human-computer dialogue&rsquo;,
+    Communications of the ACM 33(3) March 1990, pp.338–348.
 
 
 # Footnotes
