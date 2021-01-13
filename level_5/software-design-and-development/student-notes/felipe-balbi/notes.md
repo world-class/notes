@@ -1,127 +1,132 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgd467a88)
-    1.  [Module Introduction](#org1836c98)
-    2.  [1.0202 Reference points](#org67aab72)
-    3.  [1.0203 SWEBOK guide and IEEE vocab](#org9a7fd3e)
-    4.  [1.0204 What is a module?](#org9f9d95b)
-    5.  [1.0206 What is module complexity?](#org7032307)
-    6.  [1.0208 Complexity references](#orgf164b59)
-2.  [Week 2](#orgb486c5e)
-    1.  [2.0102 Week 2 reading](#orgd72f7c2)
-    2.  [2.0201 What is module cohesion?](#orgbccb10a)
-    3.  [2.0204 Why are different types of module cohesion good or bad?](#org5f098e5)
-3.  [Week 3](#org6a47dd5)
-    1.  [3.0102 Week 3 reading](#org3467032)
-    2.  [3.0201 What is module coupling?](#org0b7d4db)
-    3.  [3.0203 Different types of coupling: good or bad?](#org950b749)
-    4.  [3.0205 Common environment coupling: good or bad?](#org73a19a3)
-    5.  [3.0207 Content coupling: good or bad?](#org5a4d081)
-    6.  [3.0209 Control coupling: good or bad?](#orgb90b416)
-    7.  [3.0211 Data coupling: good or bad?](#org82f955c)
-    8.  [3.0213 Hybrid coupling: good or bad?](#org3a2487c)
-    9.  [3.0215 Pathological coupling: good or bad?](#org67a1815)
-4.  [Week 4](#org8400eaf)
-    1.  [4.012 Week 4 reading](#org2411ebb)
-    2.  [4.0201 Reasoning about scope](#orgc4619e7)
-    3.  [4.0203 Reasoning about function parameters](#org7678a74)
-    4.  [4.0205 Replacing functions dynamically and const](#org55968b4)
-5.  [Week 5](#orgff01e4f)
-    1.  [5.0002 Topic reading](#org1abf142)
-    2.  [5.0104 The Three Laws according to Uncle Bob](#org2d6cfec)
-    3.  [5.0113 What to test? An overview](#org84b1266)
-6.  [Week 6](#org8c8abbe)
-    1.  [6.0102 Week 6 reading](#org78e6622)
-    2.  [6.013 Super quick Python tutorial](#org14a312b)
-        1.  [Variables](#org9a3b0b9)
-        2.  [Lists](#org83301ce)
-        3.  [Functions](#org40fd33e)
-    3.  [6.0201 Introduction to unittest in Python](#org3cfdf33)
-    4.  [6.0203 Assertion function in unittest](#orgaa10c7a)
-    5.  [6.0205 Assert functions in unittest](#org9482318)
-    6.  [6.0301 Introduction to statistics libraries](#org92594ec)
-7.  [Week 7](#orgd281490)
-    1.  [7.0102 Week 7 reading](#org214ad4d)
-    2.  [7.0201 C++ primer](#orga53de0a)
-        1.  [Variables](#orgadc2ad0)
-        2.  [Arrays](#orge134c22)
-        3.  [Loops](#org4b6113b)
-        4.  [Functions](#org52b0250)
-        5.  [Classes](#orgb6d8fc4)
-    3.  [7.0206 Introduction to cppunit](#org8eda27b)
-    4.  [7.0208 Adding better output and multiple tests](#org4570952)
-    5.  [7.021 Assert functions in cppunit](#orgb367f95)
-8.  [Week 8](#orgaec8c30)
-    1.  [8.0102 Week 8 reading](#orgce72b19)
-    2.  [8.0204 Introduction to Mocha](#org7c69e5c)
-    3.  [8.0206 Mocha with es6 syntax](#orgea02a42)
-    4.  [8.0303 Considerations when testing a web API](#org110e527)
-9.  [Week 9](#orgde17b36)
-    1.  [9.0202 Week 9 reading](#orgfd3db60)
-    2.  [9.0301 Introduction to assertions](#orga8f6213)
-        1.  [Terminating The Program](#orgea164af)
-        2.  [Printing An Error](#orgdc900fd)
-        3.  [Throwing An Exception](#org20f6347)
-        4.  [Carrying On Regardless](#orgaac9570)
-    3.  [9.0303 Assertions and the software development lifecycle](#org0706714)
-10. [Week 10](#org55decce)
-    1.  [10.0102 Week 10 reading](#orgcc4f0cb)
-    2.  [10.0201 Secure programming overview](#org9c8fc9b)
-    3.  [10.0203 Secure programming and the software development lifecycle](#org11d1b24)
-11. [Week 11](#orgb61491e)
-    1.  [11.0201 Different types of errors](#org94ed6b2)
-    2.  [11.0203 Introduction to exceptions](#org2a8ca01)
-    3.  [11.0205 The try and catch pattern](#org0d5b324)
-    4.  [11.0207 Try and catch in javascript](#org4da6fef)
-    5.  [11.0209 Throw in javascript](#org7ac6d30)
-12. [Week 12](#orge868b35)
-    1.  [12.0201 Introduction to debuggers](#orgd8eef0b)
-    2.  [12.0208 Advanced reading about debugging](#org20d6efb)
-13. [Week 13](#orgce7bda0)
-    1.  [13.0102 From the topic to the week](#org994e4b4)
-    2.  [13.0202 Introduction to requirements](#org5e50da6)
-    3.  [13.0204 Whirlwind tour of requirements techniques](#org9fcca89)
-    4.  [13.0206 Back to basics: EARS](#orga586fa4)
-    5.  [13.0208 EARS reference](#org602f2a4)
-14. [Week 14](#orgec44812)
-    1.  [14.0201 Black box and white box testing](#org08d816b)
-    2.  [14.0203 Testing and the body of knowledge](#org1d6b4e2)
-    3.  [14.0205 Two short articles about testing taxonomies](#orge557528)
-    4.  [14.0206Test procedure specification: step by step and matrix](#org547f8fe)
-        1.  [Step-by-step Test Procedure](#orgae88b9a)
-        2.  [Matrix Test Procedure](#org854c7ca)
-    5.  [14.0210 Factors affecting test effectiveness](#org879f13a)
-    6.  [14.0301 Automated black box testing](#org813372e)
-    7.  [14.0303 Automated testing in video games](#org3712795)
-15. [Week 15](#orgc203610)
-    1.  [15.0201 Introduction to usability – what does it mean?](#org53684b0)
-    2.  [15.0203 Basic guide to usability for engineers](#org566103a)
-    3.  [15.0204 Usability metrics](#orgca3e919)
-        1.  [System Usability Scale (SUS)](#orgdcbd202)
-        2.  [Usability Metric For User Sperience (UMUX)](#org42c8ec8)
-        3.  [Creativity Support Index](#org87d5e56)
-    4.  [15.0206 System usability surveys](#org4afb57a)
-    5.  [15.0301 Usability principles](#org6bdbe8c)
-    6.  [15.0303 Usablity principles paper](#org28333a9)
-16. [Week 16](#orgd549def)
-    1.  [16.021 What is accessibility?](#org3476a21)
-    2.  [16.025 Considering the range of access requirements](#orgef87c5b)
-    3.  [16.031 Assessing accessibility](#orgb20cf6a)
-    4.  [16.0210 Legal aspects of accessibility](#orgb78f6a5)
-17. [Week 17](#org9ddf0fc)
-    1.  [17.0102 Why do we need version control?](#org4399822)
-    2.  [17.0104 Design goals of git](#orgbfaff82)
-        1.  [Git Objects](#org33c2120)
-        2.  [Filesystem vs Git Objects](#org593acfe)
-        3.  [What about commits?](#org26fb623)
-        4.  [What about branches?](#orgdf91e09)
-        5.  [What about tags?](#org78ad5d6)
-    3.  [17.0107 Classic version control paper and Torvalds on git](#orgbada5b6)
+1.  [Week 1](#orgd24a4cf)
+    1.  [Module Introduction](#org2a5528e)
+    2.  [1.0202 Reference points](#org3575091)
+    3.  [1.0203 SWEBOK guide and IEEE vocab](#orga323429)
+    4.  [1.0204 What is a module?](#orgeef0649)
+    5.  [1.0206 What is module complexity?](#org18d8f44)
+    6.  [1.0208 Complexity references](#org0436eee)
+2.  [Week 2](#orgee54dd3)
+    1.  [2.0102 Week 2 reading](#orga3715d6)
+    2.  [2.0201 What is module cohesion?](#org1d35144)
+    3.  [2.0204 Why are different types of module cohesion good or bad?](#orgee34b7b)
+3.  [Week 3](#org3db9258)
+    1.  [3.0102 Week 3 reading](#orgd98bffc)
+    2.  [3.0201 What is module coupling?](#orgcc3c64e)
+    3.  [3.0203 Different types of coupling: good or bad?](#org7eb83d1)
+    4.  [3.0205 Common environment coupling: good or bad?](#org9fd0a65)
+    5.  [3.0207 Content coupling: good or bad?](#orgd8a8760)
+    6.  [3.0209 Control coupling: good or bad?](#org977a065)
+    7.  [3.0211 Data coupling: good or bad?](#orgba5dafc)
+    8.  [3.0213 Hybrid coupling: good or bad?](#orgd223c93)
+    9.  [3.0215 Pathological coupling: good or bad?](#org96d3520)
+4.  [Week 4](#org30b3b7e)
+    1.  [4.012 Week 4 reading](#org96cb6b0)
+    2.  [4.0201 Reasoning about scope](#orgcb46d89)
+    3.  [4.0203 Reasoning about function parameters](#org8b13516)
+    4.  [4.0205 Replacing functions dynamically and const](#org771ef3e)
+5.  [Week 5](#orgefd19b9)
+    1.  [5.0002 Topic reading](#org2b2d4fb)
+    2.  [5.0104 The Three Laws according to Uncle Bob](#org55d282d)
+    3.  [5.0113 What to test? An overview](#org994d6bb)
+6.  [Week 6](#org7f024df)
+    1.  [6.0102 Week 6 reading](#org18c9a0b)
+    2.  [6.013 Super quick Python tutorial](#org7acfe83)
+        1.  [Variables](#orgc873cf2)
+        2.  [Lists](#org74554de)
+        3.  [Functions](#org654e22a)
+    3.  [6.0201 Introduction to unittest in Python](#org79c003c)
+    4.  [6.0203 Assertion function in unittest](#orgf2de585)
+    5.  [6.0205 Assert functions in unittest](#org9cf6a32)
+    6.  [6.0301 Introduction to statistics libraries](#orgffa7b8a)
+7.  [Week 7](#org84e946b)
+    1.  [7.0102 Week 7 reading](#orgad649f3)
+    2.  [7.0201 C++ primer](#orgd5af362)
+        1.  [Variables](#org98d83e5)
+        2.  [Arrays](#org22eee1c)
+        3.  [Loops](#org62ae031)
+        4.  [Functions](#orga06f744)
+        5.  [Classes](#org40050ee)
+    3.  [7.0206 Introduction to cppunit](#org40065f5)
+    4.  [7.0208 Adding better output and multiple tests](#org66a15f7)
+    5.  [7.021 Assert functions in cppunit](#orgd9e06b9)
+8.  [Week 8](#orgbedb5e7)
+    1.  [8.0102 Week 8 reading](#orge183412)
+    2.  [8.0204 Introduction to Mocha](#org362bf11)
+    3.  [8.0206 Mocha with es6 syntax](#org6b86aee)
+    4.  [8.0303 Considerations when testing a web API](#orgb04aba0)
+9.  [Week 9](#org22aae10)
+    1.  [9.0202 Week 9 reading](#orga65b92e)
+    2.  [9.0301 Introduction to assertions](#org3b29c53)
+        1.  [Terminating The Program](#org9c2bc1a)
+        2.  [Printing An Error](#orgaebb571)
+        3.  [Throwing An Exception](#org3ae78d5)
+        4.  [Carrying On Regardless](#orgeb1df32)
+    3.  [9.0303 Assertions and the software development lifecycle](#orgb379de9)
+10. [Week 10](#orgc9f7ec4)
+    1.  [10.0102 Week 10 reading](#org32f4872)
+    2.  [10.0201 Secure programming overview](#orgf513072)
+    3.  [10.0203 Secure programming and the software development lifecycle](#org24abbe1)
+11. [Week 11](#org9829335)
+    1.  [11.0201 Different types of errors](#org17851a8)
+    2.  [11.0203 Introduction to exceptions](#org374b8c9)
+    3.  [11.0205 The try and catch pattern](#org87ee575)
+    4.  [11.0207 Try and catch in javascript](#org48fde9b)
+    5.  [11.0209 Throw in javascript](#org1e1f17a)
+12. [Week 12](#org9de110d)
+    1.  [12.0201 Introduction to debuggers](#org4757bca)
+    2.  [12.0208 Advanced reading about debugging](#org35d78f7)
+13. [Week 13](#org88cc742)
+    1.  [13.0102 From the topic to the week](#orgc05a6c3)
+    2.  [13.0202 Introduction to requirements](#org18843a4)
+    3.  [13.0204 Whirlwind tour of requirements techniques](#org0377229)
+    4.  [13.0206 Back to basics: EARS](#org74825d9)
+    5.  [13.0208 EARS reference](#orgc3d42e5)
+14. [Week 14](#orgcd83a49)
+    1.  [14.0201 Black box and white box testing](#org52a69e9)
+    2.  [14.0203 Testing and the body of knowledge](#org98afb7a)
+    3.  [14.0205 Two short articles about testing taxonomies](#org37bc5b3)
+    4.  [14.0206Test procedure specification: step by step and matrix](#org7af1266)
+        1.  [Step-by-step Test Procedure](#org5520c10)
+        2.  [Matrix Test Procedure](#orge62133f)
+    5.  [14.0210 Factors affecting test effectiveness](#org3d30bfe)
+    6.  [14.0301 Automated black box testing](#orgf47df7f)
+    7.  [14.0303 Automated testing in video games](#orgc7e360e)
+15. [Week 15](#orgd289d96)
+    1.  [15.0201 Introduction to usability – what does it mean?](#orgcbbb247)
+    2.  [15.0203 Basic guide to usability for engineers](#org6531599)
+    3.  [15.0204 Usability metrics](#org95d1bb2)
+        1.  [System Usability Scale (SUS)](#orgcb7c8ef)
+        2.  [Usability Metric For User Sperience (UMUX)](#org1f16642)
+        3.  [Creativity Support Index](#orgb7e856e)
+    4.  [15.0206 System usability surveys](#orgf53a263)
+    5.  [15.0301 Usability principles](#orga1edceb)
+    6.  [15.0303 Usablity principles paper](#org0a2afac)
+16. [Week 16](#orgc89b503)
+    1.  [16.021 What is accessibility?](#org7976584)
+    2.  [16.025 Considering the range of access requirements](#org2fc1d67)
+    3.  [16.031 Assessing accessibility](#org7ea9e9e)
+    4.  [16.0210 Legal aspects of accessibility](#org31fd875)
+17. [Week 17](#org73ecfca)
+    1.  [17.0102 Why do we need version control?](#orgf13a457)
+    2.  [17.0104 Design goals of git](#orgd86aa3b)
+        1.  [Git Objects](#orgb0783a6)
+        2.  [Filesystem vs Git Objects](#org789a0af)
+        3.  [What about commits?](#org639cc2d)
+        4.  [What about branches?](#org2ec8a16)
+        5.  [What about tags?](#org4b89095)
+    3.  [17.0107 Classic version control paper and Torvalds on git](#orgfee3da0)
+18. [Week 18](#org8c3fe7b)
+    1.  [18.0102 Basic git operations in a local repository](#org4863a0a)
+    2.  [18.0104 Branching and merging](#orgc370aa3)
+    3.  [18.018 Adding code to a remote repository](#orgf1bf8a4)
+    4.  [18.0110 Installing git and the git book](#orga41daf9)
 
 
 
-<a id="orgd467a88"></a>
+<a id="orgd24a4cf"></a>
 
 # Week 1
 
@@ -133,7 +138,7 @@ Key Concepts
 -   Analyse program code in terms of its complexity.
 
 
-<a id="org1836c98"></a>
+<a id="org2a5528e"></a>
 
 ## Module Introduction
 
@@ -159,7 +164,7 @@ We will use three different languages throughout the course. They
 are: C++, Python, and JavaScript.
 
 
-<a id="org67aab72"></a>
+<a id="org3575091"></a>
 
 ## 1.0202 Reference points
 
@@ -180,7 +185,7 @@ ISO/IEC/IEEE 24765:2010 is a sort of *dictionary* defining common
 terms.
 
 
-<a id="org9a7fd3e"></a>
+<a id="orga323429"></a>
 
 ## 1.0203 SWEBOK guide and IEEE vocab
 
@@ -193,7 +198,7 @@ terms.
     Training (CSEE&T). (Klagenfurt, Austria: IEEE, 2014).
 
 
-<a id="org9f9d95b"></a>
+<a id="orgeef0649"></a>
 
 ## 1.0204 What is a module?
 
@@ -216,7 +221,7 @@ During this course, we define a module as:
 -   collection of both data and the routines that act on it.
 
 
-<a id="org7032307"></a>
+<a id="org18d8f44"></a>
 
 ## 1.0206 What is module complexity?
 
@@ -242,7 +247,7 @@ Simplicity is defined as:
     the most understandable manner.
 
 
-<a id="orgf164b59"></a>
+<a id="org0436eee"></a>
 
 ## 1.0208 Complexity references
 
@@ -257,7 +262,7 @@ the classic McCabe paper on module complexity.
     Engineering SE-2(4) Dec 1976, pp.308–320.
 
 
-<a id="orgb486c5e"></a>
+<a id="orgee54dd3"></a>
 
 # Week 2
 
@@ -269,7 +274,7 @@ Key Concepts
 -   Use programming techniques to improve module cohesion.
 
 
-<a id="orgd72f7c2"></a>
+<a id="orga3715d6"></a>
 
 ## 2.0102 Week 2 reading
 
@@ -282,7 +287,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="orgbccb10a"></a>
+<a id="org1d35144"></a>
 
 ## 2.0201 What is module cohesion?
 
@@ -333,7 +338,7 @@ There are several types of module cohesion, they are:
     a software module have no functional relationship to one another
 
 
-<a id="org5f098e5"></a>
+<a id="orgee34b7b"></a>
 
 ## 2.0204 Why are different types of module cohesion good or bad?
 
@@ -362,7 +367,7 @@ are put together due to mere coincidence. They just happen to be
 placed together.
 
 
-<a id="org6a47dd5"></a>
+<a id="org3db9258"></a>
 
 # Week 3
 
@@ -376,7 +381,7 @@ Key Concepts
     desirable and which are not.
 
 
-<a id="org3467032"></a>
+<a id="orgd98bffc"></a>
 
 ## 3.0102 Week 3 reading
 
@@ -385,7 +390,7 @@ engineering – Vocabulary](https://ieeexplore.ieee.org/document/5733835), ISO/I
 pp.1–418.
 
 
-<a id="org0b7d4db"></a>
+<a id="orgcc3c64e"></a>
 
 ## 3.0201 What is module coupling?
 
@@ -398,7 +403,7 @@ Module Coupling is defined as:
     modules in a computer program
 
 
-<a id="org950b749"></a>
+<a id="org7eb83d1"></a>
 
 ## 3.0203 Different types of coupling: good or bad?
 
@@ -421,7 +426,7 @@ There are different types of module coupling:
     affects or depends upon the internal implementation of another
 
 
-<a id="org73a19a3"></a>
+<a id="org9fd0a65"></a>
 
 ## 3.0205 Common environment coupling: good or bad?
 
@@ -442,7 +447,7 @@ necessarily bad, but one must be careful when implementing it in
 order to limit its scope.
 
 
-<a id="org5a4d081"></a>
+<a id="orgd8a8760"></a>
 
 ## 3.0207 Content coupling: good or bad?
 
@@ -454,7 +459,7 @@ It is a regular type of module coupling which is used, for example,
 is event listeners in JavaScript.
 
 
-<a id="orgb90b416"></a>
+<a id="org977a065"></a>
 
 ## 3.0209 Control coupling: good or bad?
 
@@ -479,7 +484,7 @@ cumbersome this is. It would have been better to split compute into
 `add`, `mul`, `div`, and `sub` primitives.
 
 
-<a id="org82f955c"></a>
+<a id="orgba5dafc"></a>
 
 ## 3.0211 Data coupling: good or bad?
 
@@ -489,7 +494,7 @@ can look at it as a function call. Module 1 calls module 2 to run
 some computation. Data coupling is good.
 
 
-<a id="org3a2487c"></a>
+<a id="orgd223c93"></a>
 
 ## 3.0213 Hybrid coupling: good or bad?
 
@@ -508,7 +513,7 @@ There are cases where this sort of memory usage is the only
 option, but in general Hybrid Coupling is bad.
 
 
-<a id="org67a1815"></a>
+<a id="org96d3520"></a>
 
 ## 3.0215 Pathological coupling: good or bad?
 
@@ -518,7 +523,7 @@ dependency in its implementation. This means that module 2 can&rsquo;t be
 easily replaced, refactored, modified. It&rsquo;s bad.
 
 
-<a id="org8400eaf"></a>
+<a id="org30b3b7e"></a>
 
 # Week 4
 
@@ -531,7 +536,7 @@ Key Concepts
     cohesion.
 
 
-<a id="org2411ebb"></a>
+<a id="org96cb6b0"></a>
 
 ## 4.012 Week 4 reading
 
@@ -542,7 +547,7 @@ week. Here are some relevant links:
 -   w3schools [JavaScript const](https://www.w3schools.com/JS/js_const.asp) (2020).
 
 
-<a id="orgc4619e7"></a>
+<a id="orgcb46d89"></a>
 
 ## 4.0201 Reasoning about scope
 
@@ -604,7 +609,7 @@ arguments, it contains everything it needs to produce a result
 that&rsquo;s independent of what&rsquo;s happening on the rest of the program.
 
 
-<a id="org7678a74"></a>
+<a id="org8b13516"></a>
 
 ## 4.0203 Reasoning about function parameters
 
@@ -672,7 +677,7 @@ only needs to know how to pass the number of lives and current
 level, regardless of where that data is held.
 
 
-<a id="org55968b4"></a>
+<a id="org771ef3e"></a>
 
 ## 4.0205 Replacing functions dynamically and const
 
@@ -728,7 +733,7 @@ will prevent `pathos()` from modifying `addition` and crash early
 on. This would force us to remove the pathological coupling.
 
 
-<a id="orgff01e4f"></a>
+<a id="orgefd19b9"></a>
 
 # Week 5
 
@@ -740,7 +745,7 @@ Key Concepts
     code repositories
 
 
-<a id="org1abf142"></a>
+<a id="org2b2d4fb"></a>
 
 ## 5.0002 Topic reading
 
@@ -760,7 +765,7 @@ Key Concepts
     Software Engineering (ICSE) 2018, pp.1062–1062.
 
 
-<a id="org2d6cfec"></a>
+<a id="org55d282d"></a>
 
 ## 5.0104 The Three Laws according to Uncle Bob
 
@@ -780,7 +785,7 @@ minutes. The idea is to have the tests guide the development
 process in short iterative bursts.
 
 
-<a id="org84b1266"></a>
+<a id="org994d6bb"></a>
 
 ## 5.0113 What to test? An overview
 
@@ -802,7 +807,7 @@ process in short iterative bursts.
     and handled to avoid crashes
 
 
-<a id="org8c8abbe"></a>
+<a id="org7f024df"></a>
 
 # Week 6
 
@@ -813,19 +818,19 @@ Key Concepts
 -   Carry out the test-driven development workflow in Python
 
 
-<a id="org78e6622"></a>
+<a id="org18c9a0b"></a>
 
 ## 6.0102 Week 6 reading
 
 -   [Python `unittest` Documentation](https://docs.python.org/3/library/unittest.html)
 
 
-<a id="org14a312b"></a>
+<a id="org7acfe83"></a>
 
 ## 6.013 Super quick Python tutorial
 
 
-<a id="org9a3b0b9"></a>
+<a id="orgc873cf2"></a>
 
 ### Variables
 
@@ -837,7 +842,7 @@ and give it a value:
     myString = "Hello"
 
 
-<a id="org83301ce"></a>
+<a id="org74554de"></a>
 
 ### Lists
 
@@ -882,7 +887,7 @@ To extend a list with the items from another list, we can use
     myList.extend(anotherList)
 
 
-<a id="org40fd33e"></a>
+<a id="org654e22a"></a>
 
 ### Functions
 
@@ -902,7 +907,7 @@ Keep in mind that Python uses *pass-by-value*, not
 *pass-by-reference*.
 
 
-<a id="org3cfdf33"></a>
+<a id="org79c003c"></a>
 
 ## 6.0201 Introduction to unittest in Python
 
@@ -921,7 +926,7 @@ example of how to use it:
     unittest.main(argv = ['ignored', 'v'], exit = False)
 
 
-<a id="orgaa10c7a"></a>
+<a id="orgf2de585"></a>
 
 ## 6.0203 Assertion function in unittest
 
@@ -930,14 +935,14 @@ built-in. Instead of repeating them here, it&rsquo;s to access its
 [documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase) for reference to all functions.
 
 
-<a id="org9482318"></a>
+<a id="org9cf6a32"></a>
 
 ## 6.0205 Assert functions in unittest
 
 -   [`unittest` classes and functions](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
 
 
-<a id="org92594ec"></a>
+<a id="orgffa7b8a"></a>
 
 ## 6.0301 Introduction to statistics libraries
 
@@ -949,7 +954,7 @@ advanced, methods would be calculating correlation coefficients,
 [ANOVAS](https://en.wikipedia.org/wiki/Analysis_of_variance), or histograms.
 
 
-<a id="orgd281490"></a>
+<a id="org84e946b"></a>
 
 # Week 7
 
@@ -960,14 +965,14 @@ Key Concepts
 -   Carry out the test-driven development workflow in C++
 
 
-<a id="org214ad4d"></a>
+<a id="orgad649f3"></a>
 
 ## 7.0102 Week 7 reading
 
 -   cplusplus.com [Structure of a program](http://cplusplus.com/doc/tutorial/program_structure/) (2020).
 
 
-<a id="orga53de0a"></a>
+<a id="orgd5af362"></a>
 
 ## 7.0201 C++ primer
 
@@ -982,7 +987,7 @@ Usually, a C++ program starts with including some libraries and a
     }
 
 
-<a id="orgadc2ad0"></a>
+<a id="org98d83e5"></a>
 
 ### Variables
 
@@ -1028,7 +1033,7 @@ And [here](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) we can f
 data types in C++.
 
 
-<a id="orge134c22"></a>
+<a id="org22eee1c"></a>
 
 ### Arrays
 
@@ -1055,7 +1060,7 @@ i.e. the first element of the array is 0.
     }
 
 
-<a id="org4b6113b"></a>
+<a id="org62ae031"></a>
 
 ### Loops
 
@@ -1077,7 +1082,7 @@ one:
     }
 
 
-<a id="org52b0250"></a>
+<a id="orga06f744"></a>
 
 ### Functions
 
@@ -1111,7 +1116,7 @@ That `static` keywords tells the compiler that `succ()` is only
 supposed to be accessible from the current source file.
 
 
-<a id="orgb6d8fc4"></a>
+<a id="org40050ee"></a>
 
 ### Classes
 
@@ -1168,7 +1173,7 @@ For example:
     }
 
 
-<a id="org8eda27b"></a>
+<a id="org40065f5"></a>
 
 ## 7.0206 Introduction to cppunit
 
@@ -1212,7 +1217,7 @@ library. Like so:
     Aborted
 
 
-<a id="org4570952"></a>
+<a id="org66a15f7"></a>
 
 ## 7.0208 Adding better output and multiple tests
 
@@ -1340,14 +1345,14 @@ after each test. Like so:
     }
 
 
-<a id="orgb367f95"></a>
+<a id="orgd9e06b9"></a>
 
 ## 7.021 Assert functions in cppunit
 
 -   [cppunit: Making assertions](https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html)
 
 
-<a id="orgaec8c30"></a>
+<a id="orgbedb5e7"></a>
 
 # Week 8
 
@@ -1358,7 +1363,7 @@ Key Concepts
 -   Describe the elements of a unit testing framework.
 
 
-<a id="orgce72b19"></a>
+<a id="orge183412"></a>
 
 ## 8.0102 Week 8 reading
 
@@ -1367,7 +1372,7 @@ Key Concepts
 -   [Chai](https://www.chaijs.com/)
 
 
-<a id="org7c69e5c"></a>
+<a id="org362bf11"></a>
 
 ## 8.0204 Introduction to Mocha
 
@@ -1436,7 +1441,7 @@ test in the file `test.js`.
     })
 
 
-<a id="orgea02a42"></a>
+<a id="org6b86aee"></a>
 
 ## 8.0206 Mocha with es6 syntax
 
@@ -1465,7 +1470,7 @@ Here&rsquo;s the previous code in ES6 syntax:
     })
 
 
-<a id="org110e527"></a>
+<a id="orgb04aba0"></a>
 
 ## 8.0303 Considerations when testing a web API
 
@@ -1494,7 +1499,7 @@ we can fill it up with tests:
     })
 
 
-<a id="orgde17b36"></a>
+<a id="org22aae10"></a>
 
 # Week 9
 
@@ -1507,7 +1512,7 @@ Key Concepts
     disable it.
 
 
-<a id="orgfd3db60"></a>
+<a id="orga65b92e"></a>
 
 ## 9.0202 Week 9 reading
 
@@ -1533,7 +1538,7 @@ Other interesting sources:
     contract: the lessons of Ariane](https://ieeexplore.ieee.org/document/562936)&rsquo;, Computer 30(1) 1997, pp.129–30.
 
 
-<a id="orga8f6213"></a>
+<a id="org3b29c53"></a>
 
 ## 9.0301 Introduction to assertions
 
@@ -1566,7 +1571,7 @@ When an assertion fails, there are a few options. For each of them
 we look at their Pros and Cons in the following subsections
 
 
-<a id="orgea164af"></a>
+<a id="org9c2bc1a"></a>
 
 ### Terminating The Program
 
@@ -1579,7 +1584,7 @@ we look at their Pros and Cons in the following subsections
     Prevents legitimate users from using the program
 
 
-<a id="orgdc900fd"></a>
+<a id="orgaebb571"></a>
 
 ### Printing An Error
 
@@ -1592,7 +1597,7 @@ we look at their Pros and Cons in the following subsections
     Program doesn&rsquo;t know the context of the situation
 
 
-<a id="org20f6347"></a>
+<a id="org3ae78d5"></a>
 
 ### Throwing An Exception
 
@@ -1606,7 +1611,7 @@ we look at their Pros and Cons in the following subsections
     particular exception
 
 
-<a id="orgaac9570"></a>
+<a id="orgeb1df32"></a>
 
 ### Carrying On Regardless
 
@@ -1619,7 +1624,7 @@ we look at their Pros and Cons in the following subsections
     Program is very likely to produce bogus outputs
 
 
-<a id="org0706714"></a>
+<a id="orgb379de9"></a>
 
 ## 9.0303 Assertions and the software development lifecycle
 
@@ -1638,7 +1643,7 @@ customer&rdquo;/. He supports his claim with examples from Microsoft and
 the JPL where neither disable assertions on production builds.
 
 
-<a id="org55decce"></a>
+<a id="orgc9f7ec4"></a>
 
 # Week 10
 
@@ -1657,7 +1662,7 @@ Key Concepts
     cohesion to a given program
 
 
-<a id="orgcc4f0cb"></a>
+<a id="org32f4872"></a>
 
 ## 10.0102 Week 10 reading
 
@@ -1680,7 +1685,7 @@ Key Concepts
 -   OWASP: [Top 10 issues for web application security](https://github.com/OWASP/www-project-top-ten/blob/master/index.md)
 
 
-<a id="org9c8fc9b"></a>
+<a id="orgf513072"></a>
 
 ## 10.0201 Secure programming overview
 
@@ -1708,7 +1713,7 @@ Secure programming hit list:
     sent back to the user
 
 
-<a id="org11d1b24"></a>
+<a id="org24abbe1"></a>
 
 ## 10.0203 Secure programming and the software development lifecycle
 
@@ -1741,7 +1746,7 @@ The list of practices from Microsoft SDL is:
 12. Establish a Standard Incident Response Process
 
 
-<a id="orgb61491e"></a>
+<a id="org9829335"></a>
 
 # Week 11
 
@@ -1752,7 +1757,7 @@ Key Concepts
 -   Write exception handling code that can throw and catch exceptions.
 
 
-<a id="org94ed6b2"></a>
+<a id="org17851a8"></a>
 
 ## 11.0201 Different types of errors
 
@@ -1766,7 +1771,7 @@ Key Concepts
 -   **Runtime error:** errors that only happen during program execution
 
 
-<a id="org2a8ca01"></a>
+<a id="org374b8c9"></a>
 
 ## 11.0203 Introduction to exceptions
 
@@ -1787,7 +1792,7 @@ who called it and for what purpose, therefore it can&rsquo;t possibly
 know what the correct resolution for the error may be.
 
 
-<a id="org0d5b324"></a>
+<a id="org87ee575"></a>
 
 ## 11.0205 The try and catch pattern
 
@@ -1810,7 +1815,7 @@ will *try* to call the function, assuming it will work and if any
 exception happens, we will *catch* it for proper handling.
 
 
-<a id="org4da6fef"></a>
+<a id="org48fde9b"></a>
 
 ## 11.0207 Try and catch in javascript
 
@@ -1821,7 +1826,7 @@ exception happens, we will *catch* it for proper handling.
     }
 
 
-<a id="org7ac6d30"></a>
+<a id="org1e1f17a"></a>
 
 ## 11.0209 Throw in javascript
 
@@ -1840,7 +1845,7 @@ exception happens, we will *catch* it for proper handling.
     }
 
 
-<a id="orge868b35"></a>
+<a id="org9de110d"></a>
 
 # Week 12
 
@@ -1854,7 +1859,7 @@ Key Concepts
     a running program.
 
 
-<a id="orgd8eef0b"></a>
+<a id="org4757bca"></a>
 
 ## 12.0201 Introduction to debuggers
 
@@ -1871,7 +1876,7 @@ Debuggers help with dynamic analysis, while compilers and linters
 help with static analysis.
 
 
-<a id="org20d6efb"></a>
+<a id="org35d78f7"></a>
 
 ## 12.0208 Advanced reading about debugging
 
@@ -1880,7 +1885,7 @@ help with static analysis.
     Engineering 42(8) 2016, pp. 707-740.
 
 
-<a id="orgce7bda0"></a>
+<a id="org88cc742"></a>
 
 # Week 13
 
@@ -1893,7 +1898,7 @@ Key Concepts
     are.
 
 
-<a id="org994e4b4"></a>
+<a id="orgc05a6c3"></a>
 
 ## 13.0102 From the topic to the week
 
@@ -1901,7 +1906,7 @@ Key Concepts
     industry: an introduction](https://ieeexplore.ieee.org/document/8048630)&rsquo;, IEEE Software 34(5) 2017, pp.16-19.
 
 
-<a id="org5e50da6"></a>
+<a id="org18843a4"></a>
 
 ## 13.0202 Introduction to requirements
 
@@ -1919,7 +1924,7 @@ analysis, requirements specification, requirements validation,
 practical considerations, and software requirements tools.
 
 
-<a id="org9fcca89"></a>
+<a id="org0377229"></a>
 
 ## 13.0204 Whirlwind tour of requirements techniques
 
@@ -1979,7 +1984,7 @@ techniques:
 </table>
 
 
-<a id="orga586fa4"></a>
+<a id="org74825d9"></a>
 
 ## 13.0206 Back to basics: EARS
 
@@ -2011,7 +2016,7 @@ State-drive requirements look like so: *&ldquo;WHILE **<in state>** the
 **<system name>** shall **<system response>**&rdquo;*
 
 
-<a id="org602f2a4"></a>
+<a id="orgc3d42e5"></a>
 
 ## 13.0208 EARS reference
 
@@ -2021,7 +2026,7 @@ State-drive requirements look like so: *&ldquo;WHILE **<in state>** the
     pp.317-322.
 
 
-<a id="orgec44812"></a>
+<a id="orgcd83a49"></a>
 
 # Week 14
 
@@ -2034,7 +2039,7 @@ Key Concepts
 -   Write out step-by-step and matrix style test procedures.
 
 
-<a id="org08d816b"></a>
+<a id="org52a69e9"></a>
 
 ## 14.0201 Black box and white box testing
 
@@ -2061,7 +2066,7 @@ testing exercises each method in isolation. Requirements can be
 specified for both black box and white box testing.
 
 
-<a id="org1d6b4e2"></a>
+<a id="org98afb7a"></a>
 
 ## 14.0203 Testing and the body of knowledge
 
@@ -2083,7 +2088,7 @@ Engineering, Software Testing, Part 3: Test Documentation. In
 ISO/IEC/IEEE 29119-3:2013(E), doi: 10.1109/IEEESTD.2013.6588540.
 
 
-<a id="orge557528"></a>
+<a id="org37bc5b3"></a>
 
 ## 14.0205 Two short articles about testing taxonomies
 
@@ -2095,12 +2100,12 @@ ISO/IEC/IEEE 29119-3:2013(E), doi: 10.1109/IEEESTD.2013.6588540.
     Software 26(1) Jan-Feb 2009, pp.104-104.
 
 
-<a id="org547f8fe"></a>
+<a id="org7af1266"></a>
 
 ## 14.0206Test procedure specification: step by step and matrix
 
 
-<a id="orgae88b9a"></a>
+<a id="org5520c10"></a>
 
 ### Step-by-step Test Procedure
 
@@ -2112,7 +2117,7 @@ Any pre-conditions must be defined. This follows with a test log
 and the list of steps proper.
 
 
-<a id="org854c7ca"></a>
+<a id="orge62133f"></a>
 
 ### Matrix Test Procedure
 
@@ -2120,7 +2125,7 @@ It&rsquo;s similar to step-by-step and contains the same
 information. The difference lies in how the data is laid out.
 
 
-<a id="org879f13a"></a>
+<a id="org3d30bfe"></a>
 
 ## 14.0210 Factors affecting test effectiveness
 
@@ -2128,7 +2133,7 @@ information. The difference lies in how the data is laid out.
     IEEE Software 18(1) Jan-Feb 2001, pp.81-86.
 
 
-<a id="org813372e"></a>
+<a id="orgf47df7f"></a>
 
 ## 14.0301 Automated black box testing
 
@@ -2163,7 +2168,7 @@ the Barista career path could be exploited and completed in a lower
 number of actions than the others.
 
 
-<a id="org3712795"></a>
+<a id="orgc7e360e"></a>
 
 ## 14.0303 Automated testing in video games
 
@@ -2176,7 +2181,7 @@ number of actions than the others.
     approaches: an assessment framework](https://ieeexplore.ieee.org/abstract/document/9234724)&rsquo;, IEEE Transactions on Games.
 
 
-<a id="orgc203610"></a>
+<a id="orgd289d96"></a>
 
 # Week 15
 
@@ -2187,7 +2192,7 @@ Key Concepts
 -   Explain how the terms efficient, effective and satisfying relate to usability.
 
 
-<a id="org53684b0"></a>
+<a id="orgcbbb247"></a>
 
 ## 15.0201 Introduction to usability – what does it mean?
 
@@ -2211,7 +2216,7 @@ Defining the three keywords from ISO 9241-11:
 -   **Satisfaction:** Were the users happy using the system?
 
 
-<a id="org566103a"></a>
+<a id="org6531599"></a>
 
 ## 15.0203 Basic guide to usability for engineers
 
@@ -2220,12 +2225,12 @@ Defining the three keywords from ISO 9241-11:
     pp.22-29.
 
 
-<a id="orgca3e919"></a>
+<a id="org95d1bb2"></a>
 
 ## 15.0204 Usability metrics
 
 
-<a id="orgdcbd202"></a>
+<a id="orgcb7c8ef"></a>
 
 ### System Usability Scale (SUS)
 
@@ -2432,7 +2437,7 @@ tried to use our system. The questions are shown in the table below.
 </table>
 
 
-<a id="org42c8ec8"></a>
+<a id="org1f16642"></a>
 
 ### Usability Metric For User Sperience (UMUX)
 
@@ -2560,7 +2565,7 @@ questions here are:
 </table>
 
 
-<a id="org87d5e56"></a>
+<a id="orgb7e856e"></a>
 
 ### Creativity Support Index
 
@@ -2570,7 +2575,7 @@ exploration, expressiveness, immersion, and gained results worth
 the effort.
 
 
-<a id="org4afb57a"></a>
+<a id="orgf53a263"></a>
 
 ## 15.0206 System usability surveys
 
@@ -2586,7 +2591,7 @@ the effort.
     Transactions on Computer-Human Interaction 21 2014.
 
 
-<a id="org6bdbe8c"></a>
+<a id="orga1edceb"></a>
 
 ## 15.0301 Usability principles
 
@@ -2604,7 +2609,7 @@ Nielsen&rsquo;s usability principles:
 10. Help and documentation
 
 
-<a id="org28333a9"></a>
+<a id="org0a2afac"></a>
 
 ## 15.0303 Usablity principles paper
 
@@ -2612,7 +2617,7 @@ Nielsen&rsquo;s usability principles:
     Communications of the ACM 33(3) March 1990, pp.338–348.
 
 
-<a id="orgd549def"></a>
+<a id="orgc89b503"></a>
 
 # Week 16
 
@@ -2627,7 +2632,7 @@ Key Concepts
     target users.
 
 
-<a id="org3476a21"></a>
+<a id="org7976584"></a>
 
 ## 16.021 What is accessibility?
 
@@ -2653,7 +2658,7 @@ website or mobile application accessible by making it perceivable,
 operable, understandable and robust;&rdquo;
 
 
-<a id="orgef87c5b"></a>
+<a id="org2fc1d67"></a>
 
 ## 16.025 Considering the range of access requirements
 
@@ -2666,14 +2671,14 @@ This  data gives us insight into how to produce software that can
 be used by the largest amount of the population.
 
 
-<a id="orgb20cf6a"></a>
+<a id="org7ea9e9e"></a>
 
 ## 16.031 Assessing accessibility
 
 -   AChecker &rsquo;[Web accessibility checker](https://achecker.ca/checker/index.php)&rsquo; (2011).
 
 
-<a id="orgb78f6a5"></a>
+<a id="org31fd875"></a>
 
 ## 16.0210 Legal aspects of accessibility
 
@@ -2681,7 +2686,7 @@ be used by the largest amount of the population.
     (No. 2) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents/made)
 
 
-<a id="org9ddf0fc"></a>
+<a id="org73ecfca"></a>
 
 # Week 17
 
@@ -2692,7 +2697,7 @@ Key Concepts
 -   Name several version control systems.
 
 
-<a id="org4399822"></a>
+<a id="orgf13a457"></a>
 
 ## 17.0102 Why do we need version control?
 
@@ -2705,7 +2710,7 @@ from different contributors, find specific commits which introduced
 a bug (`git bisect`), and much more.
 
 
-<a id="orgbfaff82"></a>
+<a id="orgd86aa3b"></a>
 
 ## 17.0104 Design goals of git
 
@@ -2732,7 +2737,7 @@ To better understand `git`, let&rsquo;s look at the main objects and how
 they are linked to one another.
 
 
-<a id="org33c2120"></a>
+<a id="orgb0783a6"></a>
 
 ### Git Objects
 
@@ -2749,15 +2754,15 @@ they are linked to one another.
     heads
 
 
-<a id="org593acfe"></a>
+<a id="org789a0af"></a>
 
 ### Filesystem vs Git Objects
 
-See figure [1](#orgec6da13) for a graphical
+See figure [1](#orgd1d6fa0) for a graphical
 representation of `git` internals vs filesystem organization.
 
 \begin{figure}[h]
-\label{orgec6da13}
+\label{orgd1d6fa0}
   \centering
   \begin{subfigure}[b]{0.60 \linewidth}
     \begin{tikzpicture}
@@ -2803,14 +2808,14 @@ representation of `git` internals vs filesystem organization.
 \end{figure}
 
 
-<a id="org26fb623"></a>
+<a id="org639cc2d"></a>
 
 ### What about commits?
 
-In figure [2](#org4d77d48) we show how commits come into play.
+In figure [2](#orgbe054cc) we show how commits come into play.
 
 \begin{figure}[h]
-\label{org4d77d48}
+\label{orgbe054cc}
   \centering
   \begin{tikzpicture}
     \tiny
@@ -2856,15 +2861,15 @@ In figure [2](#org4d77d48) we show how commits come into play.
 \end{figure}
 
 
-<a id="orgdf91e09"></a>
+<a id="org2ec8a16"></a>
 
 ### What about branches?
 
-In figure [3](#orgfd8dfdf) we show how heads (or branches) are
+In figure [3](#org74a0278) we show how heads (or branches) are
 linked into the repository.
 
 \begin{figure}[h]
-\label{orgfd8dfdf}
+\label{org74a0278}
   \centering
   \begin{tikzpicture}
     \tiny
@@ -2918,14 +2923,14 @@ linked into the repository.
 \end{figure}
 
 
-<a id="org78ad5d6"></a>
+<a id="org4b89095"></a>
 
 ### What about tags?
 
-In figure [4](#orgf65d0ec), we show a depicition of tags.
+In figure [4](#orgbe6de33), we show a depicition of tags.
 
 \begin{figure}[h]
-\label{orgf65d0ec}
+\label{orgbe6de33}
   \centering
   \begin{tikzpicture}
     \tiny
@@ -2987,7 +2992,7 @@ In figure [4](#orgf65d0ec), we show a depicition of tags.
 \end{figure}
 
 
-<a id="orgbada5b6"></a>
+<a id="orgfee3da0"></a>
 
 ## 17.0107 Classic version control paper and Torvalds on git
 
@@ -2996,6 +3001,86 @@ In figure [4](#orgf65d0ec), we show a depicition of tags.
     pp.364-370.
 
 -   [Linus Torvalds&rsquo; lecture on git](https://archive.org/details/LinusTorvaldsOnGittechTalk)
+
+
+<a id="org8c3fe7b"></a>
+
+# Week 18
+
+Key Concepts
+
+-   Work with a remote git repository, creating and merging branches
+    and managing conflicts.
+-   Create, switch between and merge branches in a git repository.
+-   Create and manage the files in a local git repository.
+
+
+<a id="org4863a0a"></a>
+
+## 18.0102 Basic git operations in a local repository
+
+1.  Create a repository
+    
+    `git init`
+
+2.  Check repository status
+    
+    `git status`
+
+3.  Staging a file
+    
+    `git add <filename>`
+
+4.  Committing staged files
+    
+    `git commit -a -m "Commit message"`
+
+5.  Modifying a commit
+    
+    `git commit --amend`
+
+
+<a id="orgc370aa3"></a>
+
+## 18.0104 Branching and merging
+
+1.  List branches
+    
+    `git branch -l`
+
+2.  Switching to another branch
+    
+    `git checkout <otherBranch>`
+
+3.  Create and switch to a new branch
+    
+    `git checkout -b <newBranch>`
+
+4.  Merging branches
+    
+    `git merge <otherBranch>`
+
+
+<a id="orgf1bf8a4"></a>
+
+## 18.018 Adding code to a remote repository
+
+1.  Cloning a repository
+    
+    `git clone <URL>`
+
+2.  Pushing code to remote repository
+    
+    `git push`
+
+
+<a id="orga41daf9"></a>
+
+## 18.0110 Installing git and the git book
+
+-   [git &rsquo;Book&rsquo; (2014)](https://git-scm.com/book/en/v2)
+
+-   [cheat.sh/git](https://cheat.sh/git)
 
 
 # Footnotes
