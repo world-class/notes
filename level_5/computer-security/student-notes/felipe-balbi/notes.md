@@ -1,109 +1,115 @@
 
 # Table of Contents
 
-1.  [Week 1](#org425be54)
-    1.  [Reading: Ethics in information security](#org5437d2f)
-    2.  [Defining computer security](#orgd3af58b)
-    3.  [Types of malicious software 1](#org24e4f2d)
-        1.  [Viruses](#org8bd0149)
-        2.  [Worms](#org34d7fe1)
-        3.  [Adware](#org77c7217)
-        4.  [Trojans](#orgc8ff2b3)
-        5.  [Spyware](#org151678b)
-    4.  [Types of malicious software 2](#orgd8939a2)
-2.  [Week 2](#org1b463f5)
-    1.  [Malware analysis and techniques](#org878f1a4)
-    2.  [Malware analysis 2](#orgb81addf)
-    3.  [Ethics](#org5e07890)
-    4.  [Passwords](#org99b50f4)
-    5.  [Social Engineering](#org39ce5e5)
-3.  [Week 3](#org38770c8)
-    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org85a5843)
-    2.  [Paper about CIA](#orgdd5c921)
-    3.  [The attack surface and the denial of service attack](#org2aa2b32)
-    4.  [The anatomy of a DDOS, botnets and Mirai](#org1aaa199)
-    5.  [Mirai GitHub and Research Paper](#org560bbc1)
-    6.  [Wireless attacks: WiFi attack vectors](#org289864e)
-    7.  [Wireless Networking Security](#orgf532957)
-4.  [Week 4](#orgfbc8f24)
-    1.  [Firewalls – our first line of defence](#org513a66f)
-    2.  [Intrusion detection systems (IDS)](#org64c2b88)
-    3.  [Intrusion Detection Systems](#orgeb44b6d)
-5.  [Week 5](#org8faeda2)
-    1.  [Operating systems: windows and OS hardening](#orgb745b1a)
-    2.  [File system and directory structure](#org33e86f8)
-    3.  [Windows Security](#org86a087a)
-6.  [Week 6](#orgb5cd002)
-    1.  [Why is Linux important for security & hardening Linux with Harbian](#org9c1176d)
-    2.  [Harbian on Github](#org170d890)
-    3.  [The Android attack surface](#org7c5ca00)
-    4.  [Smartphone security: an overview of emerging threats.](#org2b1f3ee)
-    5.  [Virtualised and containerised operating systems](#org1a90f12)
-    6.  [Container Security](#orgc55c40a)
-7.  [Week 7](#org3aa964e)
-    1.  [What is Cryptography?](#org53e9a4e)
-    2.  [History of Cryptography](#org7e32561)
-    3.  [Symmetric cryptography](#org1edd5b9)
-    4.  [Asymmetric cryptography](#org17efdca)
-    5.  [Some basic cyptographic techniques](#org3f741ec)
-8.  [Week 8](#org8c1e457)
-    1.  [Cryptography techniques transposition methods](#orgf3bf68c)
-    2.  [The basics of transposition cipher](#orgfbac3f2)
-    3.  [Cryptographic techniques substitution 1: Playfair](#org586caa7)
-    4.  [Playfair](#org4a72035)
-    5.  [Cryptographic techniques substitution 2: Vigenere](#org56dbc33)
-    6.  [Vigenère](#org85aab65)
-    7.  [Frequency analysis](#orga0e4509)
-9.  [Week 9](#org33f404a)
-    1.  [Intro to RSA: Public key cryptography](#org52f530e)
-    2.  [Primes and Euler&rsquo;s Phi Function](#org452709b)
-    3.  [Further reading](#org410f427)
-    4.  [Modular arithmetic](#org5797538)
-    5.  [RSA example in practice](#orgdfdade2)
-    6.  [Security of RSA](#orge9c31a7)
-    7.  [Further RSA revision and practice](#org1699742)
-10. [Week 10](#org547639b)
-    1.  [5.6 Beginning the proof, first steps and an introduction to Fermat](#org0c553cb)
-    2.  [5.7 Fermat&rsquo;s little theorem, playing with proofs example](#org1e9ca61)
-    3.  [5.8 Finalising our proof](#orgdb663b7)
-    4.  [Guidelines on cryptography](#orgfa8318a)
-11. [Week 11](#orgf56e62b)
-    1.  [Parity checking](#org3ad0a15)
-    2.  [Hash functions](#org9155db2)
-    3.  [Hashing](#org9d23cfd)
-12. [Week 12](#org3a7e12c)
-    1.  [Cryptographic hash functions](#orga92f761)
-    2.  [Introduction to Bitcoin](#org0800879)
-13. [Week 13](#org56dbb46)
-    1.  [The origins of Bitcoin](#org25e8a22)
-    2.  [Network and transactions](#orgb8f40f5)
-    3.  [The identity problem](#org5835a2e)
-    4.  [The solvency problem](#org2d619a6)
-    5.  [Reading Activity](#org0fff18d)
-14. [Week 14](#orgcab6608)
-    1.  [Double spending](#org3c85db4)
-    2.  [Immutability of the blockchain](#org44c1088)
-15. [Week 15](#org646b31d)
-    1.  [Data on the blockchain](#orgc458f0e)
-    2.  [Programs on the blockchain](#org705cbfa)
-    3.  [Introduction to ethereum](#org5577a1e)
-16. [Week 16](#org304ed7e)
-    1.  [Data on the blockchain case study](#org7484e03)
-17. [Week 17](#orgbeebb51)
-    1.  [Trusted system and trusted system elements](#org20b2a36)
-    2.  [Security policies & Military security policy](#org976a101)
-    3.  [Clark-Wilson security policy](#orgff1e4d2)
-    4.  [Chinese Wall security policy](#orgfcda01a)
-    5.  [Essential Reading](#org963a0c0)
-18. [Week 18](#org5cb6570)
-    1.  [Security models & BellLa Padula model](#org280f5ab)
-    2.  [Biba model](#org63735fc)
-    3.  [Graham-Denning model](#orgcb93c7d)
-    4.  [Essential Reading](#org06b58f9)
+1.  [Week 1](#org48d9874)
+    1.  [Reading: Ethics in information security](#org22b7db9)
+    2.  [Defining computer security](#orgbad2143)
+    3.  [Types of malicious software 1](#org3a36b3b)
+        1.  [Viruses](#org2ae3518)
+        2.  [Worms](#orgd3d7ec8)
+        3.  [Adware](#orgcb153f9)
+        4.  [Trojans](#org1f97340)
+        5.  [Spyware](#org2a77a29)
+    4.  [Types of malicious software 2](#org8d5e78d)
+2.  [Week 2](#org413c8f6)
+    1.  [Malware analysis and techniques](#orge1926f4)
+    2.  [Malware analysis 2](#org312c909)
+    3.  [Ethics](#orgb8dd7e2)
+    4.  [Passwords](#orga72687c)
+    5.  [Social Engineering](#orgb9edde8)
+3.  [Week 3](#org501c71c)
+    1.  [The objectives of network security: confidentiality, integrity and accessibility](#org79904bf)
+    2.  [Paper about CIA](#org2b9a224)
+    3.  [The attack surface and the denial of service attack](#org7df5135)
+    4.  [The anatomy of a DDOS, botnets and Mirai](#org766199e)
+    5.  [Mirai GitHub and Research Paper](#orge71dcda)
+    6.  [Wireless attacks: WiFi attack vectors](#orgfffa315)
+    7.  [Wireless Networking Security](#org49af452)
+4.  [Week 4](#orgd2e547a)
+    1.  [Firewalls – our first line of defence](#orgf5423a4)
+    2.  [Intrusion detection systems (IDS)](#org2378a42)
+    3.  [Intrusion Detection Systems](#orgae9354c)
+5.  [Week 5](#org8453abc)
+    1.  [Operating systems: windows and OS hardening](#orgdb3c9e9)
+    2.  [File system and directory structure](#orgba86adf)
+    3.  [Windows Security](#orgdb407fb)
+6.  [Week 6](#orgafd037c)
+    1.  [Why is Linux important for security & hardening Linux with Harbian](#org72893ce)
+    2.  [Harbian on Github](#org66de4f0)
+    3.  [The Android attack surface](#orga0f0766)
+    4.  [Smartphone security: an overview of emerging threats.](#orgf44e448)
+    5.  [Virtualised and containerised operating systems](#org2b5f466)
+    6.  [Container Security](#orgde7f62c)
+7.  [Week 7](#org917f964)
+    1.  [What is Cryptography?](#org5868ee2)
+    2.  [History of Cryptography](#org65aff71)
+    3.  [Symmetric cryptography](#org7161d15)
+    4.  [Asymmetric cryptography](#org382c1fb)
+    5.  [Some basic cyptographic techniques](#org8be87e7)
+8.  [Week 8](#org505d898)
+    1.  [Cryptography techniques transposition methods](#orge79c575)
+    2.  [The basics of transposition cipher](#orgb279867)
+    3.  [Cryptographic techniques substitution 1: Playfair](#orgbd47be7)
+    4.  [Playfair](#orge1434fb)
+    5.  [Cryptographic techniques substitution 2: Vigenere](#org5cb4f74)
+    6.  [Vigenère](#orgf3bedb5)
+    7.  [Frequency analysis](#org199ef5b)
+9.  [Week 9](#orgf8d2667)
+    1.  [Intro to RSA: Public key cryptography](#orgd0466ce)
+    2.  [Primes and Euler&rsquo;s Phi Function](#org45e0798)
+    3.  [Further reading](#orge28d672)
+    4.  [Modular arithmetic](#orgaccf5cc)
+    5.  [RSA example in practice](#orgc45eac0)
+    6.  [Security of RSA](#org497ad6b)
+    7.  [Further RSA revision and practice](#org42875f3)
+10. [Week 10](#org07fa1ca)
+    1.  [5.6 Beginning the proof, first steps and an introduction to Fermat](#org1a4d4e3)
+    2.  [5.7 Fermat&rsquo;s little theorem, playing with proofs example](#orge3849c6)
+    3.  [5.8 Finalising our proof](#orgefaf385)
+    4.  [Guidelines on cryptography](#orgfcf61bc)
+11. [Week 11](#orge640fad)
+    1.  [Parity checking](#orgee7b5ad)
+    2.  [Hash functions](#org6e59a9e)
+    3.  [Hashing](#org4f9f735)
+12. [Week 12](#org6ea2e86)
+    1.  [Cryptographic hash functions](#org4d8bc2d)
+    2.  [Introduction to Bitcoin](#org0dd30b3)
+13. [Week 13](#orgb7952e4)
+    1.  [The origins of Bitcoin](#org204fc94)
+    2.  [Network and transactions](#orgc47df0d)
+    3.  [The identity problem](#org493b9be)
+    4.  [The solvency problem](#org43b17fc)
+    5.  [Reading Activity](#org24f274f)
+14. [Week 14](#org29add93)
+    1.  [Double spending](#org3674c05)
+    2.  [Immutability of the blockchain](#orge713912)
+15. [Week 15](#orga0f4c59)
+    1.  [Data on the blockchain](#orgfa84f70)
+    2.  [Programs on the blockchain](#orgc698842)
+    3.  [Introduction to ethereum](#org4760556)
+16. [Week 16](#orgdaebe53)
+    1.  [Data on the blockchain case study](#org0fb422d)
+17. [Week 17](#org8127f21)
+    1.  [Trusted system and trusted system elements](#org6578fbb)
+    2.  [Security policies & Military security policy](#org791764d)
+    3.  [Clark-Wilson security policy](#org579e4d8)
+    4.  [Chinese Wall security policy](#orgb431498)
+    5.  [Essential Reading](#org95b5fed)
+18. [Week 18](#orgf71e72e)
+    1.  [Security models & BellLa Padula model](#org31402ad)
+    2.  [Biba model](#orgdca6cc1)
+    3.  [Graham-Denning model](#org51a2ada)
+    4.  [Essential Reading](#orgd06475e)
+19. [Week 19](#orgfd046ff)
+    1.  [The cryptography dilemma](#org8005565)
+    2.  [Leaked data](#org76ca38f)
+    3.  [Compliance and non compliance](#org71282b0)
+    4.  [Software backdoors](#org75d257d)
+    5.  [Sabotage](#org42a13c7)
 
 
 
-<a id="org425be54"></a>
+<a id="org48d9874"></a>
 
 # Week 1
 
@@ -116,7 +122,7 @@ Key Concepts
     significance.
 
 
-<a id="org5437d2f"></a>
+<a id="org22b7db9"></a>
 
 ## Reading: Ethics in information security
 
@@ -129,7 +135,7 @@ You should also familiarise yourselves with the [ACM ethics
 guidelines](https://ethics.acm.org/).
 
 
-<a id="orgd3af58b"></a>
+<a id="orgbad2143"></a>
 
 ## Defining computer security
 
@@ -177,7 +183,7 @@ There are five important terms that need to be defined:
         intentions.
 
 
-<a id="org24e4f2d"></a>
+<a id="org3a36b3b"></a>
 
 ## Types of malicious software 1
 
@@ -186,7 +192,7 @@ destroy an information system. There are many types of malwares,
 some of which are discussed in the following subsections
 
 
-<a id="org8bd0149"></a>
+<a id="org2ae3518"></a>
 
 ### Viruses
 
@@ -208,7 +214,7 @@ around $10 billion worth of damages by affecting nearly 10% of all
 computers around the globe.
 
 
-<a id="org34d7fe1"></a>
+<a id="orgd3d7ec8"></a>
 
 ### Worms
 
@@ -226,7 +232,7 @@ It&rsquo;s estimated that *Stuxnet* destroyed 20% of Iranian&rsquo;s nuclear
 power plant centrifuges.
 
 
-<a id="org77c7217"></a>
+<a id="orgcb153f9"></a>
 
 ### Adware
 
@@ -235,7 +241,7 @@ online shopping. Possibly the most visible form of malware one can
 encounter. Its main purpose is to collect user data.
 
 
-<a id="orgc8ff2b3"></a>
+<a id="org1f97340"></a>
 
 ### Trojans
 
@@ -254,7 +260,7 @@ an application or program data and spread based on specific user
 action.
 
 
-<a id="org151678b"></a>
+<a id="org2a77a29"></a>
 
 ### Spyware
 
@@ -267,7 +273,7 @@ to target the personal systems of government officials, business
 tycoons and political leaders to extract sensitive information.
 
 
-<a id="orgd8939a2"></a>
+<a id="org8d5e78d"></a>
 
 ## Types of malicious software 2
 
@@ -310,7 +316,7 @@ credit card details. They can also use a compromised computer to
 launch any of the other attacks described before.
 
 
-<a id="org1b463f5"></a>
+<a id="org413c8f6"></a>
 
 # Week 2
 
@@ -321,7 +327,7 @@ Key Concepts
 -   Understand the need for a variety of methods of malware analysis.
 
 
-<a id="org878f1a4"></a>
+<a id="orge1926f4"></a>
 
 ## Malware analysis and techniques
 
@@ -363,7 +369,7 @@ circumvent the detection methods used during static analysis.
 The solution to this is Dynamic Malware Analysis.
 
 
-<a id="orgb81addf"></a>
+<a id="org312c909"></a>
 
 ## Malware analysis 2
 
@@ -401,7 +407,7 @@ process monitor (Procmon). It&rsquo;s used to monitor the registry, file
 system, network, running processes, etc.
 
 
-<a id="org5e07890"></a>
+<a id="orgb8dd7e2"></a>
 
 ## Ethics
 
@@ -445,7 +451,7 @@ consequences. People&rsquo;s lives can be destroyed if we do something
 that can cause harm.
 
 
-<a id="org99b50f4"></a>
+<a id="orga72687c"></a>
 
 ## Passwords
 
@@ -480,7 +486,7 @@ A good system design balances accessibility with security and
 usability.
 
 
-<a id="org39ce5e5"></a>
+<a id="orgb9edde8"></a>
 
 ## Social Engineering
 
@@ -504,7 +510,7 @@ they&rsquo;re after. Some of these emails may look fairly authentic and
 we may have to look deeper to determine their authenticity.
 
 
-<a id="org38770c8"></a>
+<a id="org501c71c"></a>
 
 # Week 3
 
@@ -517,7 +523,7 @@ Key Concepts
     attack vectors.
 
 
-<a id="org85a5843"></a>
+<a id="org79904bf"></a>
 
 ## The objectives of network security: confidentiality, integrity and accessibility
 
@@ -541,7 +547,7 @@ be given a username and password and an authentication server needs
 to be maintained.
 
 
-<a id="orgdd5c921"></a>
+<a id="org2b9a224"></a>
 
 ## Paper about CIA
 
@@ -553,7 +559,7 @@ in IT Professional, vol. 15, no. 4, pp. 44-49, July-Aug. 2013, doi:
 10.1109/MITP.2012.24.
 
 
-<a id="org2aa2b32"></a>
+<a id="org7df5135"></a>
 
 ## The attack surface and the denial of service attack
 
@@ -619,7 +625,7 @@ TCP-SYN Flood Attack is a layer 4 attack which tries to open
 several TCP connections by sending a flood of TPC-SYN packets.
 
 
-<a id="org1aaa199"></a>
+<a id="org766199e"></a>
 
 ## The anatomy of a DDOS, botnets and Mirai
 
@@ -644,7 +650,7 @@ Dyn claimed that there were up to 100,000 malicious endpoints
 involved in the attack.
 
 
-<a id="org560bbc1"></a>
+<a id="orge71dcda"></a>
 
 ## Mirai GitHub and Research Paper
 
@@ -669,7 +675,7 @@ involved in the attack.
     10.1109/ETSecIoT50046.2020.00008.
 
 
-<a id="org289864e"></a>
+<a id="orgfffa315"></a>
 
 ## Wireless attacks: WiFi attack vectors
 
@@ -714,7 +720,7 @@ networks. Some examples:
     masquerade as another device
 
 
-<a id="orgf532957"></a>
+<a id="org49af452"></a>
 
 ## Wireless Networking Security
 
@@ -741,7 +747,7 @@ networks. Some examples:
     pp. 88892-88932, 2020, DOI: 10.1109/ACCESS.2020.2993553.
 
 
-<a id="orgfbc8f24"></a>
+<a id="orgd2e547a"></a>
 
 # Week 4
 
@@ -753,7 +759,7 @@ Key Concepts
     historical and contemporary systems.
 
 
-<a id="org513a66f"></a>
+<a id="orgf5423a4"></a>
 
 ## Firewalls – our first line of defence
 
@@ -765,7 +771,7 @@ Key Concepts
 -   **Proxy Firewall:** Carries out external network access.
 
 
-<a id="org64c2b88"></a>
+<a id="org2378a42"></a>
 
 ## Intrusion detection systems (IDS)
 
@@ -811,7 +817,7 @@ of the system. A common dataset to use for this case is the [KDD99
 Dataset](https://www.unb.ca/cic/datasets/nsl.html).
 
 
-<a id="orgeb44b6d"></a>
+<a id="orgae9354c"></a>
 
 ## Intrusion Detection Systems
 
@@ -832,7 +838,7 @@ Dataset](https://www.unb.ca/cic/datasets/nsl.html).
     10.1109/BigDataSecurity-HPSC-IDS.2019.00062.
 
 
-<a id="org8faeda2"></a>
+<a id="org8453abc"></a>
 
 # Week 5
 
@@ -846,7 +852,7 @@ Key Concepts
     historical versions of Windows operating systems.
 
 
-<a id="orgb745b1a"></a>
+<a id="orgdb3c9e9"></a>
 
 ## Operating systems: windows and OS hardening
 
@@ -900,7 +906,7 @@ on, ensuring wireless connection is disabled if not needed, and so
 on.
 
 
-<a id="org33e86f8"></a>
+<a id="orgba86adf"></a>
 
 ## File system and directory structure
 
@@ -947,7 +953,7 @@ Important attributes are:
 A file system also has a directory structure.
 
 
-<a id="org86a087a"></a>
+<a id="orgdb407fb"></a>
 
 ## Windows Security
 
@@ -958,7 +964,7 @@ A file system also has a directory structure.
 -   [Windows Enterprise Security circa Oct 2020](https://web.archive.org/web/20200611221008/https://docs.microsoft.com/en-us/windows/security)
 
 
-<a id="orgb5cd002"></a>
+<a id="orgafd037c"></a>
 
 # Week 6
 
@@ -971,7 +977,7 @@ Key Concepts
     is relevant in contemporary internet architectures.
 
 
-<a id="org9c1176d"></a>
+<a id="org72893ce"></a>
 
 ## Why is Linux important for security & hardening Linux with Harbian
 
@@ -985,14 +991,14 @@ focused at security &#x2013; and how it can help us hardening a Linux
 system.
 
 
-<a id="org170d890"></a>
+<a id="org66de4f0"></a>
 
 ## Harbian on Github
 
 -   <https://github.com/hardenedlinux/harbian-audit>
 
 
-<a id="org7c5ca00"></a>
+<a id="orga0f0766"></a>
 
 ## The Android attack surface
 
@@ -1018,7 +1024,7 @@ An average android smartphone has a very large attack surface.
     contain security flaws
 
 
-<a id="org2b1f3ee"></a>
+<a id="orgf44e448"></a>
 
 ## Smartphone security: an overview of emerging threats.
 
@@ -1031,7 +1037,7 @@ An average android smartphone has a very large attack surface.
     IEEE Transactions on Mobile Computing 19(11) 2020, pp.2714–2730.
 
 
-<a id="org1a90f12"></a>
+<a id="org2b5f466"></a>
 
 ## Virtualised and containerised operating systems
 
@@ -1056,7 +1062,7 @@ There are four common attack routes to containers:
     container attacks it
 
 
-<a id="orgc55c40a"></a>
+<a id="orgde7f62c"></a>
 
 ## Container Security
 
@@ -1065,7 +1071,7 @@ There are four common attack routes to containers:
     pp. 52976-52996, 2019, doi: 10.1109/ACCESS.2019.2911732
 
 
-<a id="org3aa964e"></a>
+<a id="org917f964"></a>
 
 # Week 7
 
@@ -1079,7 +1085,7 @@ Key Concepts
     their associated security implications.
 
 
-<a id="org53e9a4e"></a>
+<a id="org5868ee2"></a>
 
 ## What is Cryptography?
 
@@ -1089,10 +1095,10 @@ discussion, let&rsquo;s introduce a scenario:
 
 *Alice* wants to send messages to *Bob* in a secure manner. While
 this is happening, *Eve* wants to eavesdrop the communication,
-something like shown in figure [1](#orgcb0cb4e) below.
+something like shown in figure [1](#org69fb0f0) below.
 
 \begin{figure}[h]
-\label{orgcb0cb4e}
+\label{org69fb0f0}
   \centering
   \begin{tikzpicture}
     \node[alice]                             (alice) {Alice};
@@ -1129,7 +1135,7 @@ back into *plaintext*, otherwise the message can&rsquo;t be read. We need
 to come up with ways to agree on this method without telling *Eve*.
 
 
-<a id="org7e32561"></a>
+<a id="org65aff71"></a>
 
 ## History of Cryptography
 
@@ -1169,15 +1175,15 @@ The goal of cryptography are:
 -   **Non-repudiation:** sender cannot deny a comment or action
 
 
-<a id="org1edd5b9"></a>
+<a id="org7161d15"></a>
 
 ## Symmetric cryptography
 
 Using our Alice and Bob scenario again, reproduced in figure
-[2](#org8690c9e) below:
+[2](#orgc0d8ce2) below:
 
 \begin{figure}[h]
-\label{org8690c9e}
+\label{orgc0d8ce2}
   \centering
   \begin{tikzpicture}
     \node[alice]                            (alice) {Alice};
@@ -1290,7 +1296,7 @@ or **e**, calculate the offset from **a**, or **s**, or **e** to that
 letter in the ciphertext and try that as a key.
 
 
-<a id="org17efdca"></a>
+<a id="org382c1fb"></a>
 
 ## Asymmetric cryptography
 
@@ -1322,7 +1328,7 @@ When Alice wants to **sign** a message, she uses her private key
 since she&rsquo;s the only one with access to that key.
 
 
-<a id="org3f741ec"></a>
+<a id="org8be87e7"></a>
 
 ## Some basic cyptographic techniques
 
@@ -1330,7 +1336,7 @@ since she&rsquo;s the only one with access to that key.
     pp.1–11.
 
 
-<a id="org8c1e457"></a>
+<a id="org505d898"></a>
 
 # Week 8
 
@@ -1344,7 +1350,7 @@ Key Concepts
     cryptography.
 
 
-<a id="orgf3bf68c"></a>
+<a id="orge79c575"></a>
 
 ## Cryptography techniques transposition methods
 
@@ -1665,14 +1671,14 @@ previous is that we also move the location of the first and last
 characters.
 
 
-<a id="orgfbac3f2"></a>
+<a id="orgb279867"></a>
 
 ## The basics of transposition cipher
 
 -   <https://en.wikipedia.org/wiki/Transposition_cipher>
 
 
-<a id="org586caa7"></a>
+<a id="orgbd47be7"></a>
 
 ## Cryptographic techniques substitution 1: Playfair
 
@@ -2013,14 +2019,14 @@ After all these conversions, our result is the ciphertext
 **PDSXSXNCCLXAXBJF**.
 
 
-<a id="org4a72035"></a>
+<a id="orge1434fb"></a>
 
 ## Playfair
 
 -   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.11–16
 
 
-<a id="org56dbc33"></a>
+<a id="org5cb4f74"></a>
 
 ## Cryptographic techniques substitution 2: Vigenere
 
@@ -2116,21 +2122,21 @@ For our keyword **EASY** we have E=4, A=0, S=18, Y=24.
 </table>
 
 
-<a id="org85aab65"></a>
+<a id="orgf3bedb5"></a>
 
 ## Vigenère
 
 -   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.17-19
 
 
-<a id="orga0e4509"></a>
+<a id="org199ef5b"></a>
 
 ## Frequency analysis
 
 -   [Buchanan](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), pp.44-48
 
 
-<a id="org33f404a"></a>
+<a id="orgf8d2667"></a>
 
 # Week 9
 
@@ -2143,7 +2149,7 @@ Key Concepts
     decrypt messages.
 
 
-<a id="org52f530e"></a>
+<a id="orgd0466ce"></a>
 
 ## Intro to RSA: Public key cryptography
 
@@ -2157,10 +2163,10 @@ versa*.
 
 To send a message, Alice encrypts it with Bob&rsquo;s public key. In
 this scenario, only Bob can decrypt it with his private key. The
-process is shown in figure [3](#org967e484) below.
+process is shown in figure [3](#org56dd8df) below.
 
 \begin{figure}[h]
-\label{org967e484}
+\label{org56dd8df}
   \centering
   \begin{tikzpicture}
     \tikzset{node distance=2cm}
@@ -2186,7 +2192,7 @@ two primes is hard. More specifically, RSA works with two **large**
 primes.
 
 
-<a id="org452709b"></a>
+<a id="org45e0798"></a>
 
 ## Primes and Euler&rsquo;s Phi Function
 
@@ -2218,14 +2224,14 @@ and \(q\) are both prime numbers, then \(\Phi(p \cdot q) = (p - 1)
    \cdot (q - 1)\).
 
 
-<a id="org410f427"></a>
+<a id="orge28d672"></a>
 
 ## Further reading
 
 -   Buchanan, W. J. [Cryptography](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5050193), River Publishers, 2017, pp.143-152.
 
 
-<a id="org5797538"></a>
+<a id="orgaccf5cc"></a>
 
 ## Modular arithmetic
 
@@ -2233,7 +2239,7 @@ and \(q\) are both prime numbers, then \(\Phi(p \cdot q) = (p - 1)
 \(\frac{13}{6}\) is 1. Also \((ab) \mod{c} = a\mod{c} \cdot b\mod{c}\)
 
 
-<a id="orgdfdade2"></a>
+<a id="orgc45eac0"></a>
 
 ## RSA example in practice
 
@@ -2245,7 +2251,7 @@ Bob, consequently, decrypts the ciphertext using the process \(D =
    E^d \mod{N} = (M^{e})^{d} \mod{N} = M^{de} \mod{N}\). 
 
 
-<a id="orge9c31a7"></a>
+<a id="org497ad6b"></a>
 
 ## Security of RSA
 
@@ -2266,7 +2272,7 @@ and that gives back \(M\).
 The reason this is safe, is that \(\Phi(N)\) is very hard to compute.
 
 
-<a id="org1699742"></a>
+<a id="org42875f3"></a>
 
 ## Further RSA revision and practice
 
@@ -2274,7 +2280,7 @@ The reason this is safe, is that \(\Phi(N)\) is very hard to compute.
 -   <https://www.geometer.org/mathcircles/RSA.pdf>
 
 
-<a id="org547639b"></a>
+<a id="org07fa1ca"></a>
 
 # Week 10
 
@@ -2287,7 +2293,7 @@ Key Concepts
     decrypt messages.
 
 
-<a id="org0c553cb"></a>
+<a id="org1a4d4e3"></a>
 
 ## 5.6 Beginning the proof, first steps and an introduction to Fermat
 
@@ -2303,7 +2309,7 @@ We know that \(e\) is co-prime with \(\Phi(N)\) and \(de \equiv 1
    \mod{\Phi(N)}\).
 
 
-<a id="org1e9ca61"></a>
+<a id="orge3849c6"></a>
 
 ## 5.7 Fermat&rsquo;s little theorem, playing with proofs example
 
@@ -2334,7 +2340,7 @@ Considering the numbers \(1 \cdot 2 \cdot \ldots \cdot (p - 1) =
 \end{align*}
 
 
-<a id="orgdb663b7"></a>
+<a id="orgefaf385"></a>
 
 ## 5.8 Finalising our proof
 
@@ -2406,7 +2412,7 @@ The same process is applied for \((q - 1)\).
 </div>
 
 
-<a id="orgfa8318a"></a>
+<a id="orgfcf61bc"></a>
 
 ## Guidelines on cryptography
 
@@ -2414,7 +2420,7 @@ The same process is applied for \((q - 1)\).
     (SS-007)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/882760/dwp-ss007-security-standard-use-of-cryptography-v1.1.pdf)&rsquo;, Department for Work & Pensions (March 2020).
 
 
-<a id="orgf56e62b"></a>
+<a id="orge640fad"></a>
 
 # Week 11
 
@@ -2427,7 +2433,7 @@ Key Concepts
     functions and parity checking relating to data security.
 
 
-<a id="org3ad0a15"></a>
+<a id="orgee7b5ad"></a>
 
 ## Parity checking
 
@@ -2455,7 +2461,7 @@ function, i.e. \(1 \oplus 1 \oplus 0 \oplus 1 \oplus 0 \oplus 0
    \oplus 1 \oplus 1 = 1\).
 
 
-<a id="org9155db2"></a>
+<a id="org6e59a9e"></a>
 
 ## Hash functions
 
@@ -2481,7 +2487,7 @@ content can regenerate the hash value and compare with the
 canonical value we published<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>.
 
 
-<a id="org9d23cfd"></a>
+<a id="org4f9f735"></a>
 
 ## Hashing
 
@@ -2489,7 +2495,7 @@ canonical value we published<sup><a id="fnr.2" class="footref" href="#fn.2">2</a
     pp.87-112.
 
 
-<a id="org3a7e12c"></a>
+<a id="org6ea2e86"></a>
 
 # Week 12
 
@@ -2502,7 +2508,7 @@ Key Concepts
     goals are so important.
 
 
-<a id="orga92f761"></a>
+<a id="org4d8bc2d"></a>
 
 ## Cryptographic hash functions
 
@@ -2534,7 +2540,7 @@ A small perturbation to input, should match a largely different
 output.
 
 
-<a id="org0800879"></a>
+<a id="org0dd30b3"></a>
 
 ## Introduction to Bitcoin
 
@@ -2542,7 +2548,7 @@ output.
     pp.303-311.
 
 
-<a id="org56dbb46"></a>
+<a id="orgb7952e4"></a>
 
 # Week 13
 
@@ -2557,7 +2563,7 @@ Key Concepts
     solves this problem.
 
 
-<a id="org25e8a22"></a>
+<a id="org204fc94"></a>
 
 ## The origins of Bitcoin
 
@@ -2567,7 +2573,7 @@ protocol for decentralized currency transactions which solves the
 double-spending problem<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup> using a peer-to-peer network. 
 
 
-<a id="orgb8f40f5"></a>
+<a id="orgc47df0d"></a>
 
 ## Network and transactions
 
@@ -2583,7 +2589,7 @@ Bitcoins&rdquo;*, concerns are raised:
     spent the money?
 
 
-<a id="org5835a2e"></a>
+<a id="org493b9be"></a>
 
 ## The identity problem
 
@@ -2633,7 +2639,7 @@ RSA, however, these are not based on modular arithmetic of large
 primes but on Elliptic Curves<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>.
 
 
-<a id="org2d619a6"></a>
+<a id="org43b17fc"></a>
 
 ## The solvency problem
 
@@ -2641,10 +2647,10 @@ The question of whether Eve has the money to fullfill the
 transaction can be answered by making sure that every transaction
 has a reference to where the money came from for that transaction.
 
-Figure [8](#org8ffec91) below shows a depiction of this:
+Figure [8](#org55a54dc) below shows a depiction of this:
 
 \begin{figure}[h]
-\label{org8ffec91}
+\label{org55a54dc}
   \centering
   \begin{tikzpicture}[->]
     \tikzstyle{box} = [draw, rectangle,fill=blue!20, rounded corners,
@@ -2679,7 +2685,7 @@ The inputs to a transaction are:
 3.  Transaction ID: the hash of the transaction
 
 
-<a id="org0fff18d"></a>
+<a id="org24f274f"></a>
 
 ## Reading Activity
 
@@ -2687,7 +2693,7 @@ The inputs to a transaction are:
     issues and challenges](https://ieeexplore.ieee.org/document/8543246)
 
 
-<a id="orgcab6608"></a>
+<a id="org29add93"></a>
 
 # Week 14
 
@@ -2702,7 +2708,7 @@ Key Concepts
     financial transactions.
 
 
-<a id="org3c85db4"></a>
+<a id="org3674c05"></a>
 
 ## Double spending
 
@@ -2744,7 +2750,7 @@ will have to wait until another block is created on top of one of
 them. Any following block will always choose the longest chain.
 
 
-<a id="org44c1088"></a>
+<a id="orge713912"></a>
 
 ## Immutability of the blockchain
 
@@ -2774,7 +2780,7 @@ the problem has exponentially more difficult. If \(T=1\), then
 \(\frac{1}{2^{n+1}}\) hashes will solve the problem.
 
 
-<a id="org646b31d"></a>
+<a id="orga0f4c59"></a>
 
 # Week 15
 
@@ -2787,7 +2793,7 @@ Key Concepts
 -   Identify differences between the bitcoin and ethereum systems.
 
 
-<a id="orgc458f0e"></a>
+<a id="orgfa84f70"></a>
 
 ## Data on the blockchain
 
@@ -2795,7 +2801,7 @@ Data can be stored in the blockchain, usually using the COINBASE
 field.
 
 
-<a id="org705cbfa"></a>
+<a id="orgc698842"></a>
 
 ## Programs on the blockchain
 
@@ -2805,7 +2811,7 @@ how the transaction can be verified. These programs are called
 commonly used program for this purpose.
 
 
-<a id="org5577a1e"></a>
+<a id="org4760556"></a>
 
 ## Introduction to ethereum
 
@@ -2827,7 +2833,7 @@ Ethereum consists of the following major concepts:
 -   **Smart Contracts:** Execute tasks on the EVM
 
 
-<a id="org304ed7e"></a>
+<a id="orgdaebe53"></a>
 
 # Week 16
 
@@ -2842,7 +2848,7 @@ Key Concepts
     different types of activity.
 
 
-<a id="org7484e03"></a>
+<a id="org0fb422d"></a>
 
 ## Data on the blockchain case study
 
@@ -2862,7 +2868,7 @@ modified somehow, the hash won&rsquo;t match anymore and we know it has
 been tampered with.
 
 
-<a id="orgbeebb51"></a>
+<a id="org8127f21"></a>
 
 # Week 17
 
@@ -2876,7 +2882,7 @@ Key Concepts
     policies.
 
 
-<a id="org20b2a36"></a>
+<a id="org6578fbb"></a>
 
 ## Trusted system and trusted system elements
 
@@ -2898,7 +2904,7 @@ A trusted OS contains the following four basic elements:
     applied
 
 
-<a id="org976a101"></a>
+<a id="org791764d"></a>
 
 ## Security policies & Military security policy
 
@@ -2918,7 +2924,7 @@ Top Secret is the most sensitive information and unclassified is
 the least sensitive.
 
 
-<a id="orgff1e4d2"></a>
+<a id="org579e4d8"></a>
 
 ## Clark-Wilson security policy
 
@@ -2932,7 +2938,7 @@ internal data and external expectations. The order in which
 activities are carried out is important.
 
 
-<a id="orgfcda01a"></a>
+<a id="orgb431498"></a>
 
 ## Chinese Wall security policy
 
@@ -2950,7 +2956,7 @@ There are three levels of abstraction in this policy:
     objects for competing companies
 
 
-<a id="org963a0c0"></a>
+<a id="org95b5fed"></a>
 
 ## Essential Reading
 
@@ -2962,7 +2968,7 @@ There are three levels of abstraction in this policy:
     Proceedings 1989 IEEE Symposium on Security and Privacy.
 
 
-<a id="org5cb6570"></a>
+<a id="orgf71e72e"></a>
 
 # Week 18
 
@@ -2976,7 +2982,7 @@ Key Concepts
     others.
 
 
-<a id="org280f5ab"></a>
+<a id="org31402ad"></a>
 
 ## Security models & BellLa Padula model
 
@@ -3014,7 +3020,7 @@ This model has three security properties:
     specify the discretionary access control.
 
 
-<a id="org63735fc"></a>
+<a id="orgdca6cc1"></a>
 
 ## Biba model
 
@@ -3038,7 +3044,7 @@ This model also has three security properties:
     level.
 
 
-<a id="orgcb93c7d"></a>
+<a id="org51a2ada"></a>
 
 ## Graham-Denning model
 
@@ -3062,7 +3068,7 @@ This model has eight primitive rules that outline:
 -   How to securely provide the transfer access right
 
 
-<a id="org06b58f9"></a>
+<a id="orgd06475e"></a>
 
 ## Essential Reading
 
@@ -3079,6 +3085,92 @@ This model has eight primitive rules that outline:
 -   Scott Graham, G. and P.J. Denning &rsquo;[Protection: principles and
     practice](https://dl.acm.org/doi/abs/10.1145/1478873.1478928)&rsquo;, AFIPS &rsquo;72 (Spring): Proceedings of the May 16-18 1972,
     Spring Joint Computer Conference 1971, pp.417-29.
+
+
+<a id="orgfd046ff"></a>
+
+# Week 19
+
+Key Concepts
+
+-   Identify some of the key challenges for designing secure systems
+    for human beings.
+-   Consider some of the risks to secure systems and how to mitigate
+    said risks.
+-   To identify challenges to computer security around human behaviour
+    and society.
+
+
+<a id="org8005565"></a>
+
+## The cryptography dilemma
+
+Cryptography allows us to hide sensitive information from prying
+eyes. There may be situations when access to someone&rsquo;s data may be
+necessary. The goal is to secure data and provide access in limited
+scenarios. Privacy is important for everyone.
+
+
+<a id="org76ca38f"></a>
+
+## Leaked data
+
+SQL Injection is one method for attacking database server. The
+attack consists of exploiting flaws in SQL query builders from
+websites. If the input data isn&rsquo;t properly validated or sanitized,
+an attacker may *inject* extra SQL statements which may allow the
+attacker to cause the database to leak the complete database.
+
+Social Engineering is another method employed to access someone
+else&rsquo;s data. It consists of convincing a support personal that you
+are the owner of the account and make them give you access to your
+account.
+
+Two-factor authentication is a method for mitigating access to
+electronic accounts. In summary, there are three types of
+authentication:
+
+-   **Something you know:** your regular password; you and only you
+    should know it
+-   **Something you have:** a generator of One-time-passwords. This is
+    where 2FA works. You have an app (such as FreeOTP) to generate
+    passwords
+-   **Something you are:** Biometric authentication. Fingerprints, eye
+    scanning, etc.
+
+
+<a id="org71282b0"></a>
+
+## Compliance and non compliance
+
+-   Bulgurcu, B., H. Cavusoglu and I.  Benbasat &rsquo;[Information security
+    policy compliance: an empirical study of rationality-based
+    beliefs and information security awareness](https://www.jstor.org/stable/25750690?pq-origsite=summon&seq=1#metadata_info_tab_contents)&rsquo;, MIS Quarterly 34(3)
+    2010, pp.523-48.
+
+
+<a id="org75d257d"></a>
+
+## Software backdoors
+
+Backdoors are a method for providing an extra means of access to a
+system. It&rsquo;s a possible vector of attack for both legitimate and
+non-legitimate parties.
+
+An early example was the Back Orifice RAT (Remote Access Trojan)
+from 1998. There are many modern examples, particularly in Content
+Management Systems and Virtual Learning Environments.
+
+Another type of backdoor is the *Rootkit*. These are very clever
+and hard to detect. They utilise techniques such as *hooking* and
+hijacking communications at a low level.
+
+
+<a id="org42a13c7"></a>
+
+## Sabotage
+
+Sabotage is bad, mmm&rsquo;kay. Don&rsquo;t sabotage.
 
 
 # Footnotes
