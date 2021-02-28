@@ -428,7 +428,7 @@ The benefits of functional cohesion are:
 
 This is achieved when facilities for providing a set of related *services* to the user or to higher-level layers are kept together and everything else is kept out. The layers must form a hierarchy. Higher layers may access lower layers, but lower layers cannot access higher layers. For example:
 
-![Layer Cohesion](/images/layer_cohesion.png)
+![Layer Cohesion](images/layer_cohesion.png)
 
 An individual service in a layer may have functional cohesion but it is not necessary, side effects are often essential.
 
@@ -462,7 +462,7 @@ A communicationally cohesive module can be embedded in a layer. Part of a layer'
 
 The main advantage to communicational cohesion is that if you want to make a change to the data you will find one place to do it. But you shouldn't sacrifice layer cohesion for the sake of communicational cohesion. Eg the following image shows communicationally cohesive modules (marked 'C') within layers (marked 'L'):
 
-![Communicational Cohesion](/images/communcational_cohesion.png)
+![Communicational Cohesion](images/communcational_cohesion.png)
 
 #### Sequential Cohesion
 
