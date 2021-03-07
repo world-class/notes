@@ -11,10 +11,10 @@
 
 | Type of cohesion | Description of module tasks                                                 | Good or bad?                           |
 | :--------------: | :-------------------------------------------------------------------------- | :------------------------------------: |
-| communicational  | tasks use the same input data and contribute to producing the same output   | OK. This is practically OOP.           |
-| functional       | tasks contributes to the performance of a single function                   | OK for well defined and limited goals. |
-| logical          | tasks perform logically similar functions                                   | Generally bad.                         |
+| communicational  | tasks use the same input data and contribute to producing the same output   | Good. This is practically OOP.         |
+| functional       | tasks contributes to the performance of a single function                   | Good                                   |
+| logical          | tasks perform logically similar functions                                   | Bad                                    |
 | procedural       | tasks contribute to given program procedure, such as iteration or decision  | Generally bad.                         |
-| sequential       | output of one task serves as input for another task                         | Generally bad.                         |
+| sequential       | output of one task serves as input for another task                         | Good                                   |
 | temporal         | tasks are required by a phase of program execution, not necessarily related | Bad.                                   |
 | coincidental     | have no relationship to one another                                         | Duh                                    |
