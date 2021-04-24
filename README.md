@@ -1,5 +1,9 @@
 # World Class Course Notes
 
+[:heart: REPL](http://world-class.github.io/)
+
+## Introduction
+
 This repository contains course notes for the different modules part
 of the BSc. CS degree from Univerity of London.
 
@@ -11,7 +15,7 @@ You're free to use these notes for your own studies but no guarantees
 are given, not even the guarantee that the content is correct and
 matches the course.
 
-# Contributing
+## Contributing
 
 When contributing your own course notes, make sure they're not too
 large as that makes it difficult for students who want to start
