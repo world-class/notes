@@ -1,35 +1,56 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgf084678)
-    1.  [1.005 Reading list](#orgd443732)
-    2.  [1.101 Where does data come from?](#org4bcf1fd)
-    3.  [1.103 Ordering some data: What&rsquo;s on the menu?](#org8c7ab9a)
-    4.  [1.105 What does your data look like?](#orgb368f8d)
-    5.  [1.201 Bringing data sources together](#orgfe3380b)
-    6.  [1.203 Licenses, sharing and ethics](#org3f2d451)
-    7.  [1.204 Licensing](#org2ddb784)
-2.  [Week 2](#org5f344e0)
-    1.  [1.301 What shape is your data? Introduction](#orgdcd5345)
-    2.  [1.302 What shape is your data? Tables](#org62e40a2)
-    3.  [1.304 What shape is your data? Trees](#orgdb41ee0)
-    4.  [1.306 What shape is your data? Other](#orga3d9d0c)
-    5.  [1.402 Further reading](#org6f79232)
-3.  [Week 3](#org184b8a4)
-    1.  [2.001 Welcome to Relational Databases](#orgfb50737)
-    2.  [2.101 Drawing a database I: Basic Entity-Relationship diagrams](#org948ed7e)
-    3.  [2.104 Speaking to databases I: Basic SQL](#org2408c90)
-4.  [Week 4](#org4765a18)
-    1.  [2.201 Introducing Joins](#org1e0290c)
-    2.  [2.203 Drawing a database II: More about joins](#org5f453aa)
-    3.  [2.204 E/R diagrams summary](#orge01963c)
-    4.  [2.301 Database integrity and the role of keys](#orgf4c8098)
-    5.  [2.303 Speaking to Databases II: SQL for joins and keys](#orga4d3ae9)
-    6.  [2.402 Further reading](#orgc81e4a2)
+1.  [Week 1](#org879fe08)
+    1.  [1.005 Reading list](#org1944cc2)
+    2.  [1.101 Where does data come from?](#org1f3dae0)
+    3.  [1.103 Ordering some data: What&rsquo;s on the menu?](#org1b8a7da)
+    4.  [1.105 What does your data look like?](#org34711e6)
+    5.  [1.201 Bringing data sources together](#org562c0e7)
+    6.  [1.203 Licenses, sharing and ethics](#org1d9c857)
+    7.  [1.204 Licensing](#orgab05e68)
+2.  [Week 2](#org2ea9665)
+    1.  [1.301 What shape is your data? Introduction](#orgf434eaf)
+    2.  [1.302 What shape is your data? Tables](#org773e98a)
+    3.  [1.304 What shape is your data? Trees](#orga3bfd14)
+    4.  [1.306 What shape is your data? Other](#org9bed225)
+    5.  [1.402 Further reading](#orgb3c7993)
+3.  [Week 3](#org6736efa)
+    1.  [2.001 Welcome to Relational Databases](#org7fb9ce5)
+    2.  [2.101 Drawing a database I: Basic Entity-Relationship diagrams](#orgaaa9fab)
+    3.  [2.104 Speaking to databases I: Basic SQL](#org4e86c89)
+4.  [Week 4](#orgc1bf2e4)
+    1.  [2.201 Introducing Joins](#org9054a15)
+    2.  [2.203 Drawing a database II: More about joins](#org896ad0d)
+    3.  [2.204 E/R diagrams summary](#org544b574)
+    4.  [2.301 Database integrity and the role of keys](#orgaeaf671)
+    5.  [2.303 Speaking to Databases II: SQL for joins and keys](#orgd46a190)
+    6.  [2.402 Further reading](#org0c6299a)
+5.  [Week 5](#orgb535e67)
+    1.  [3.001 Introduction to data Integrity and security](#org5abde50)
+    2.  [3.103 Normalisation and the normal forms I](#org841bc43)
+    3.  [3.104 Normalisation and the normal forms II](#orgc7a51c8)
+    4.  [3.105 On the normal forms](#org2b80d91)
+6.  [Week 6](#org11b60f3)
+    1.  [3.201 On ACID: Guaranteeing a DBMS against errors](#org4fe5a65)
+    2.  [3.203 Transactions and serialisation](#org881f96d)
+    3.  [3.204 More depth on ACID and integrity risks](#org8cdc958)
+    4.  [3.301 Malice and accidental damage](#orgee62f8b)
+    5.  [3.303 Security and user policies with SQL](#orga0d7900)
+    6.  [3.402 Further reading](#orgb1eee82)
+7.  [Week 7](#orgb0fb43a)
+    1.  [4.004 Getting practice with MySQL (Lab introduction)](#org65546e9)
+    2.  [4.007 Connecting to an SQL RDBMS](#orgaffb8a1)
+8.  [Week 8](#org3c1aa95)
+    1.  [4.201 Using libraries to update data in a database](#orgba6295e)
+    2.  [4.402 Further reading](#org4de621f)
+9.  [Week 9](#org2435dd5)
+    1.  [5.101 Query efficiency](#org63a5d14)
+    2.  [5.103 Removing the safety net: denormalisation](#org0847026)
 
 
 
-<a id="orgf084678"></a>
+<a id="org879fe08"></a>
 
 # Week 1
 
@@ -42,7 +63,7 @@ Key Concepts
 -   Evaluate data-related access and reuse rights
 
 
-<a id="orgd443732"></a>
+<a id="org1944cc2"></a>
 
 ## 1.005 Reading list
 
@@ -71,7 +92,7 @@ Key Concepts
 -   Lewis, D. CO2209 Database systems
 
 
-<a id="org4bcf1fd"></a>
+<a id="org1f3dae0"></a>
 
 ## 1.101 Where does data come from?
 
@@ -124,7 +145,7 @@ need. As a final concern, there may be concerns of trustworthiness
 with regards to the data.
 
 
-<a id="org8c7ab9a"></a>
+<a id="org1b8a7da"></a>
 
 ## 1.103 Ordering some data: What&rsquo;s on the menu?
 
@@ -133,7 +154,7 @@ with regards to the data.
 -   Post 2: Trevor Munoz, &rsquo;[Refining the problem](http://trevormunoz.com/notebook/2013/08/19/refining-the-problem-more-work-with-nypl-open-data-part-two.html)&rsquo;
 
 
-<a id="orgb368f8d"></a>
+<a id="org34711e6"></a>
 
 ## 1.105 What does your data look like?
 
@@ -208,7 +229,7 @@ comparison against other similar titles, a long form may be
 required.
 
 
-<a id="orgfe3380b"></a>
+<a id="org562c0e7"></a>
 
 ## 1.201 Bringing data sources together
 
@@ -218,7 +239,7 @@ required.
     Elevates Unsung Histories](https://www.pratt.edu/news/view/how-mapping-relationships-between-jazz-musicians-elevates-unsung-histories)
 
 
-<a id="org3f2d451"></a>
+<a id="org1d9c857"></a>
 
 ## 1.203 Licenses, sharing and ethics
 
@@ -261,14 +282,14 @@ Conversely, here are some reasons **not** to share open data:
 -   Value of the data
 
 
-<a id="org2ddb784"></a>
+<a id="orgab05e68"></a>
 
 ## 1.204 Licensing
 
 -   Alex Ball, [How to License research data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data)
 
 
-<a id="org5f344e0"></a>
+<a id="org2ea9665"></a>
 
 # Week 2
 
@@ -279,7 +300,7 @@ Key Concepts
 -   Evaluate data-related access and reuse rights
 
 
-<a id="orgdcd5345"></a>
+<a id="orgf434eaf"></a>
 
 ## 1.301 What shape is your data? Introduction
 
@@ -315,16 +336,16 @@ Some of the *shapes* of data we will deal with are:
 -   Documents & objects
 
 
-<a id="org62e40a2"></a>
+<a id="org773e98a"></a>
 
 ## 1.302 What shape is your data? Tables
 
 A table has cells with a number of rows and columns. In our case,
 every row represents a *thing*. Each column represents a type of
-information about that *thing*. Table [2](#org13e6852) shows an
+information about that *thing*. Table [2](#org0c9a6b7) shows an
 example of such a table:
 
-<table id="org13e6852" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org0c9a6b7" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Sample Table</caption>
 
 <colgroup>
@@ -366,17 +387,17 @@ hierarchy. A better suited representation for such data would be
 Trees.
 
 
-<a id="orgdb41ee0"></a>
+<a id="orga3bfd14"></a>
 
 ## 1.304 What shape is your data? Trees
 
 A tree is Computer Science is based on the metaphor of a real
-tree. Figure [1](#orgd6c986e) below shows an example of a simple tree
+tree. Figure [1](#org3967594) below shows an example of a simple tree
 structure. Every tree has a root node, every branch in the tree has
 a path to the root.
 
 Some vocabulary is necessary, the following refers to the tree
-from figure [1](#orgd6c986e).
+from figure [1](#org3967594).
 
 -   The *root* of the tree is node *a*
 -   Nodes *e*, *g*, *i*, *k* *l*, *m*, *n*, *o*, *p*, *r*, *s*, and
@@ -388,7 +409,7 @@ from figure [1](#orgd6c986e).
 -   Nodes *b*, *c*, *d*, *h*, and others are internal nodes
 
 \begin{figure}[h]
-\label{orgd6c986e}
+\label{org3967594}
   \centering
   \begin{tikzpicture}[
        level 1/.style={level distance=2cm,sibling distance=5cm},
@@ -427,7 +448,7 @@ from figure [1](#orgd6c986e).
 \end{figure}
 
 
-<a id="orga3d9d0c"></a>
+<a id="org9bed225"></a>
 
 ## 1.306 What shape is your data? Other
 
@@ -440,14 +461,14 @@ representation of the filesystem as a tree. It&rsquo;s clear we need
 another structure to represent these sorts of structures. That
 structure is a graph.
 
-Figure [2](#org5ef192f) shows a \(K_8\) complete graph. A complete
+Figure [2](#org8cd7eff) shows a \(K_8\) complete graph. A complete
 graph is that where each vertex is connected to every other
 vertex. The vertices in a graph could be web pages and the edges
 could be links between them, or perhaps each node is a file with
 the edges being a filesystem path.
 
 \begin{figure}[h]
-\label{org5ef192f}
+\label{org8cd7eff}
 \centering
 \begin{tikzpicture}
   \graph[nodes=state, radius=4cm] { subgraph K_n [n=8, clockwise] };
@@ -459,10 +480,10 @@ structure. Raw sound samples fall into this category. Features are
 pieces of information derived from blobs, for example the sample
 rate from a raw audio file.
 
-Table [3](#org49b4115) shows a summary of the structures discussed so
+Table [3](#org47e06e2) shows a summary of the structures discussed so
 far:
 
-<table id="org49b4115" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org47e06e2" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Summary of structures</caption>
 
 <colgroup>
@@ -516,7 +537,7 @@ far:
 </table>
 
 
-<a id="org6f79232"></a>
+<a id="orgb3c7993"></a>
 
 ## 1.402 Further reading
 
@@ -525,7 +546,7 @@ far:
     (University of Minnesota Press, 2019).
 
 
-<a id="org184b8a4"></a>
+<a id="org6736efa"></a>
 
 # Week 3
 
@@ -536,7 +557,7 @@ Key Concepts
 -   Explain core concepts of relations and relational theory
 
 
-<a id="orgfb50737"></a>
+<a id="org7fb9ce5"></a>
 
 ## 2.001 Welcome to Relational Databases
 
@@ -577,7 +598,7 @@ the design of a Relational Database.
 SQL is a *partial* of the relational model.
 
 
-<a id="org948ed7e"></a>
+<a id="orgaaa9fab"></a>
 
 ## 2.101 Drawing a database I: Basic Entity-Relationship diagrams
 
@@ -588,13 +609,13 @@ subtypes:
 -   **Weak Entity:** its existence depends on the continued existence
     of other entities. For example, a customer&rsquo;s bank account depends
     on the existence of the account holder. This entity type is
-    depicted in figure [3](#orgb1861df).
+    depicted in figure [3](#org68f3ec8).
 
 -   **Strong Entity:** the one which is **not** weak. This entity type is
-    depicted in figure [4](#org1af6e67).
+    depicted in figure [4](#orgdf92a0c).
     
     \begin{figure}[h]
-    \label{orgb1861df}
+    \label{org68f3ec8}
       \centering
       \begin{tikzpicture}[
        every attribute/.style={fill=green!20, thick},
@@ -607,7 +628,7 @@ subtypes:
     \end{figure}
     
     \begin{figure}[h]
-    \label{org1af6e67}
+    \label{orgdf92a0c}
       \centering
       \begin{tikzpicture}[
        every attribute/.style={fill=green!20, thick},
@@ -621,7 +642,7 @@ subtypes:
 
 An *Attribute* is an information that describes one aspect of an
 entity. Attributes can be characterised in various ways (described
-below and depicted in figure [5](#orgebd031a)):
+below and depicted in figure [5](#orgc6757eb)):
 
 -   **Simple vs composite:** A **simple attribute** is atomic or scalar
     (a simple integer or string). A **composite attribute** has
@@ -646,7 +667,7 @@ below and depicted in figure [5](#orgebd031a)):
     of the entity type. In a diagram, it&rsquo;s shown underlined.
 
 \begin{figure}[h]
-\label{orgebd031a}
+\label{orgc6757eb}
   \centering
     \begin{tikzpicture}[
      every attribute/.style={fill=green!20, thick},
@@ -695,11 +716,11 @@ entities. Entities involved in a relationship are referred to as
 *participants*. A relationship is depicted as a diamond labelled
 with the name of the relationship. If one entity in the
 relationship is strong and the other weak, we draw the diamond with
-double line. Figure [6](#org2d67af8) shows the relationship types
+double line. Figure [6](#orga9ce387) shows the relationship types
 in a simple ER Diagram.
 
 \begin{figure}[h]
-\label{org2d67af8}
+\label{orga9ce387}
   \centering
   \begin{tikzpicture}[
      every attribute/.style={fill=green!20, thick},
@@ -720,7 +741,7 @@ in a simple ER Diagram.
 \end{figure}
 
 
-<a id="org2408c90"></a>
+<a id="org4e86c89"></a>
 
 ## 2.104 Speaking to databases I: Basic SQL
 
@@ -748,7 +769,7 @@ query:
     );
 
 
-<a id="org4765a18"></a>
+<a id="orgc1bf2e4"></a>
 
 # Week 4
 
@@ -759,16 +780,16 @@ Key Concepts
 -   Explain core concepts of relations and relational theory
 
 
-<a id="org1e0290c"></a>
+<a id="org9054a15"></a>
 
 ## 2.201 Introducing Joins
 
 Joins are used to make queries that collect data from two
-tables. Figure [7](#orgb3d92e5) shows a diagram for the
+tables. Figure [7](#org8db379a) shows a diagram for the
 tables we will use to illustrate how to use Joins.
 
 \begin{figure}[h]
-\label{orgb3d92e5}
+\label{org8db379a}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -826,11 +847,11 @@ below.
     FROM   Planet LEFT JOIN Moon
     ON     Planet.Name=Moon.HasPlanet;
 
-Figures [8](#orgcd27dba), [9](#org23f118e), and [10](#org21c323f), give a visual
+Figures [8](#orgccace13), [9](#org3e6ea80), and [10](#org6bebc41), give a visual
 representation of some what results will be returned for the joins.
 
 \begin{figure}[h]
-\label{orgcd27dba}
+\label{orgccace13}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -843,7 +864,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 \begin{figure}[h]
-\label{org23f118e}
+\label{org3e6ea80}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -861,7 +882,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 \begin{figure}[h]
-\label{org21c323f}
+\label{org6bebc41}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -879,7 +900,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 
-<a id="org5f453aa"></a>
+<a id="org896ad0d"></a>
 
 ## 2.203 Drawing a database II: More about joins
 
@@ -892,11 +913,11 @@ shown below:
     in table \(y\).
     
     In this case we want to use a Foreign Key by placing the primary
-    key of the table \(x\) into the table \(y\). Figure [11](#org6bc9c96)
+    key of the table \(x\) into the table \(y\). Figure [11](#orga8ea19d)
     shows a depiction of this case in an ER Diagram. If we want to
     show that at least one moon will be available, we use a double
     edge to connect the entity to the relation, as shown in figure
-    [12](#orge04e9e6).
+    [12](#orgea4a1bf).
     
     In this situation, the Moon table would be declared like so:
     
@@ -914,7 +935,7 @@ shown below:
     
     This can be implemented as the case above, but we should consider
     implementing it as a single entity with attributes. Figure
-    [13](#org553e910) shows an ER Diagram for this case.
+    [13](#org444f9a4) shows an ER Diagram for this case.
     
     The Project table would be declared like so:
     
@@ -930,8 +951,8 @@ shown below:
     
     This is impossible to implement with the Relational Model. We
     must add a new entity/relation. A depiction of the ER diagram is
-    shown in figure [14](#org17fbf57). The fix for this case is shown in
-    figure [15](#org902d94e), it consists of adding a *Link Table*
+    shown in figure [14](#org403eabd). The fix for this case is shown in
+    figure [15](#orgb35a8c3), it consists of adding a *Link Table*
     to the model.
     
     The link table is created as shown below:
@@ -944,7 +965,7 @@ shown below:
         );
 
 \begin{figure}[h]
-\label{org6bc9c96}
+\label{orga8ea19d}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -961,7 +982,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{orge04e9e6}
+\label{orgea4a1bf}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -979,7 +1000,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org553e910}
+\label{org444f9a4}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -996,7 +1017,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org17fbf57}
+\label{org403eabd}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1013,7 +1034,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org902d94e}
+\label{orgb35a8c3}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1035,7 +1056,7 @@ shown below:
 \end{figure}
 
 
-<a id="orge01963c"></a>
+<a id="org544b574"></a>
 
 ## 2.204 E/R diagrams summary
 
@@ -1043,7 +1064,7 @@ shown below:
     2016).
 
 
-<a id="orgf4c8098"></a>
+<a id="orgaeaf671"></a>
 
 ## 2.301 Database integrity and the role of keys
 
@@ -1063,7 +1084,7 @@ negative values. Some of these problems that can arise are
 detectable and preventable if we design the database for that.
 
 
-<a id="orga4d3ae9"></a>
+<a id="orgd46a190"></a>
 
 ## 2.303 Speaking to Databases II: SQL for joins and keys
 
@@ -1088,7 +1109,7 @@ their solution with integrity constraints.
     dependencies**.
 
 
-<a id="orgc81e4a2"></a>
+<a id="org0c6299a"></a>
 
 ## 2.402 Further reading
 
@@ -1096,3 +1117,742 @@ their solution with integrity constraints.
     of Data’, ACM Transactions on Database Systems 1(1) 1976,
     pp.9–36.
 
+
+<a id="orgb535e67"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Control database access with appropriate security policies
+-   Explain other risks for data reliability and their management
+-   Describe the risks of repeated data in databases and design using
+    normalisation as a tool to reduce those risks
+
+
+<a id="org5abde50"></a>
+
+## 3.001 Introduction to data Integrity and security
+
+Sources of Error:
+
+-   **Bad input data:** Automated integrity checks greatly improve the
+    situation
+
+-   **Poor application logic:** Can be mitigated with normalization
+
+-   **Failed database operations:** Usually cause the biggest
+    problems. Easy to handle for atomic operations; very hard
+    otherwise. Database snapshots and transactional database helps
+
+-   **(Malicious) User activity:** Control of user privileges help
+
+
+<a id="org841bc43"></a>
+
+## 3.103 Normalisation and the normal forms I
+
+&ldquo;*Non-loss decomposition* is the decomposition of a single relation
+into two or more relations such that a join on the separate
+relations reconstructs the original.&rdquo;
+
+&ldquo;*Functional dependency* states that an attribute \(Y\) is
+functionally dependent on attribute \(X\) if for any legal value of
+\(X\) there is exactly one associated value of \(Y\)&rdquo;.
+
+
+<a id="orgc7a51c8"></a>
+
+## 3.104 Normalisation and the normal forms II
+
+Given a dataset, we can follow a progressively tighter list of
+constraints to ensure the data is sound while importing. That list
+of constraints, or requirements, is referred to as Normal Forms.
+
+Before looking into the Normal Forms proper, we need a few extra
+concepts:
+
+-   **Heath&rsquo;s Theorem:** states that a relation with attributes \(A\),
+    \(B\), and \(C\) with a functional dependency \(A \to B\) is equal to
+    the join of \(\{ A, B \}\) and \(\{ A, C \}\). In other words if \(A
+         \to B\), then \(B\) can be moved to a separate look-up table.
+
+-   **Transitive Dependency:** if \(A \to B\), and \(B \to C\), then \(A \to
+         C\).
+
+-   **Multi-value dependency:** \(A\) and \(B\) are two disjoint sets of
+    attributes in a relation. There is a multi-value dependency if
+    the set of values for \(B\) depend only on the values of \(A\).
+
+The Normal Forms are:
+
+-   **First Normal Form (1NF):** The table is a relation. All of its
+    attributes are scalar values.
+
+-   **Second Normal Form (2NF):** The table is in 1NF. Every non-key
+    attribute is **irreducibly** dependent on the primary key.
+
+-   **Third Normal Form (3NF):** The table is in 2NF. Every non-key
+    attribute is non-transitively dependent on the primary key.
+
+-   **Boyce-Codd Normal Form (BCNF):** Table is in 3NF. All non-trivial
+    functional dependencies depend on a super key.
+
+-   **Fourth Normal Form (4NF):** Table is in 3NF. For every muti-value
+    dependency \(A \twoheadrightarrow B\), \(A\) is a candidate key.
+
+
+<a id="org2b80d91"></a>
+
+## 3.105 On the normal forms
+
+-   Lewis, D. CO2209 Database systems. (London: University of London,
+    2016).
+
+-   Codd, E. &rsquo;A relational model of data for large shared data
+    banks&rsquo;, Comms of the ACM 13/6 1970, pp.377–87.
+
+
+<a id="org11b60f3"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Control database access with appropriate security policies
+-   Explain other risks for data reliability and their management
+-   Describe the risks of repeated data in databases and design using
+    normalisation as a tool to reduce those risks
+
+
+<a id="org4fe5a65"></a>
+
+## 3.201 On ACID: Guaranteeing a DBMS against errors
+
+To motivate the discussion, we create a scenario of a banking
+application handling money transfers. The stages for a transfer of
+£100 from A to B might be similar to the one illustrated in figure
+[16](#org3f837ed) below.
+
+\begin{figure}[h]
+\label{org3f837ed}
+  \centering
+  \begin{tikzpicture}[node distance=4cm]
+    % nodes
+    \node[state] (checkA) {$A$};
+    \node[state, accepting, below of=checkA] (done) {Done};
+
+    \node[state, right of=checkA] (checkB) {$B$};
+    \node[state, right of=checkB] (checkAmtA) {$A \geq £100$};
+    \node[state, right of=done] (creditB) {$B + £100$};
+    \node[state, right of=creditB] (debitA) {$A - £100$};
+
+    % edges
+    \draw[->] (checkA)    edge[bend left]
+                   node[pos=0.5, sloped, above]
+                     {A exists}            (checkB)
+              (checkB)    edge[bend left]
+                   node[pos=0.5, above, sloped]
+                     {B exists}            (checkAmtA)
+              (checkAmtA) edge[bend left]
+                   node[pos=0.5, below, sloped]
+                     {A has at least £100} (debitA)
+              (debitA)    edge[bend left]
+                   node[pos=0.5, below, sloped]
+                     {Debit £100 from A}   (creditB)
+              (creditB)    edge[bend left]
+                   node[pos=0.5, below, sloped]
+                     {Credit £100 to B }   (done);
+  \end{tikzpicture}
+\end{figure}
+
+It should be clear that any one of these states can fail, at a
+minimum we can lose power mid-transfer. The issue here is the
+entire set of state transition only makes sense as a full block. If
+anything fails, we need to roll everything back, somehow.
+
+Another bigger problem would be if A has two outstanding
+transactions happening at the same time. What happens if, e.g., A
+has exactly £900 in the account and schedules two simultaneous
+transactions, one for B of £100 and another for C of £900?
+
+The formalization for the resolution of this class of problems is
+given by the *[ACID properties](https://en.wikipedia.org/wiki/ACID)*.
+
+*ACID* is an acronym for Atomicity, Consistency, Isolation,
+Durability, which is a set of properties of database transactions
+intended to guarantee validity of data despite any possible errors
+that may arise, including power outages.
+
+A group of databases operations that, together, satisfy the ACID
+properties is referred to as a *transaction*.
+
+Further describing the purpose of each of the 4 tenets of ACID we
+have:
+
+-   **Atomicity:** guarantees a group of operations is treated as a
+    single unit. This means that if any operation in the transaction
+    fails, the entire transaction is considered to fail and the
+    database is left unchanged.
+
+-   **Consistency:** guarantees that a transaction can only migrate a
+    database from one **valid** state to another **valid** state,
+    maintaining any invariants.
+
+-   **Isolation:** guarantees that concurrent transactions leave the
+    database in the same state as if they were executed sequentially.
+
+-   **Durability:** guarantees that once a transaction is committed it
+    will remain committed even in the evren of system failure
+    (i.e. transactions are recorded in non-volatile memory).
+
+
+<a id="org881f96d"></a>
+
+## 3.203 Transactions and serialisation
+
+In figure [17](#org1da04fc) we should a 3-stage transaction.
+
+\begin{figure}[h]
+\label{org1da04fc}
+  \centering
+  \begin{tikzpicture}
+    \tikzset{db/.style={draw, shape border rotate=90,
+                                cylinder, ultra thick,
+                                minimum height=1.5cm,
+                                minimum width=1.25cm}}
+    \node[db, fill=green!30]                 (a) {};
+    \node[db, fill=red!30, below right of=a] (b) {};
+    \node[db, fill=red!30, below right of=b] (c) {};
+    \node[db, fill=green!30, below right of=c] (d) {};
+
+    \draw[->] (a.east) edge[bend left]
+                       node[pos=.5, right] {Operation 1} (b.north)
+              (b.east) edge[bend left]
+                       node[pos=.5, right] {Operation 2} (c.north)
+              (c.east) edge[bend left]
+                       node[pos=.5, right] {Operation 3} (d.north);
+  \end{tikzpicture}
+\end{figure}
+
+The database is only valid on *green* states, that is, either
+before starting operation 1 of after completing operation 3. The
+other two intermediary states must be considered invalid states and
+the database system should protect against those in the event of
+system failure.
+
+Starting with *Isolation*, we can restrict access to data that
+might be affected by any operation in the block. In practice, the
+database system implements a lock that must be held in order to
+modify that particular set of data. This lock guarantees that no
+concurrent access to the data happens, thus forcing serialization.
+
+*Atomicity* requires the implementation of rollback, as shown in
+figure [18](#org5fc756e). This ensures that in case an operation in a
+block fails, we must be able to rollback to the state immediately
+before the block was started. In other words, we guarantee that the
+database returns to a *green* state in the event of a failed
+operation.
+
+\begin{figure}[h]
+\label{org5fc756e}
+  \centering
+  \begin{tikzpicture}
+    \tikzset{db/.style={draw, shape border rotate=90,
+                                cylinder, ultra thick,
+                                minimum height=1.5cm,
+                                minimum width=1.25cm}}
+    \node[db, fill=green!30]                 (a) {};
+    \node[db, fill=red!30, below right of=a] (b) {};
+    \node[db, fill=red!30, below right of=b] (c) {};
+    \node[db, fill=green!30, below right of=c] (d) {};
+
+    \draw[->] (a.east) edge[bend left]
+                       node[pos=.5, right] {Operation 1} (b.north)
+              (b.east) edge[bend left]
+                       node[pos=.5, right] {Operation 2} (c.north)
+              (c.east) edge[bend left]
+                       node[pos=.5, right] {Operation 3} (d.north)
+              (b.west) edge[bend left, ultra thick, dashed, red]
+                       node[pos=.5, left] {} (a.south)
+              (c.west) edge[bend left, ultra thick, dashed, red]
+                       node[pos=.5, left] {Rollback} (a.south);
+  \end{tikzpicture}
+\end{figure}
+
+Durability means that valid states are reliably recorded. The
+obvious way of achieving that is to write both states to persistent
+(i.e. non-volatile) storage as shown in figure
+[19](#org90445ae) below.
+
+\begin{figure}[h]
+\label{org90445ae}
+  \centering
+  \begin{tikzpicture}
+    \tikzset{db/.style={draw, shape border rotate=90,
+                                cylinder, ultra thick,
+                                minimum height=1.5cm,
+                                minimum width=1.25cm}}
+    \tikzset{storage/.style={draw, rounded corners,
+                                rectangle, ultra thick,
+                                minimum height=0.75cm,
+                                minimum width=2cm}}
+
+    \node[db, fill=green!30]                 (a) {};
+    \node[db, fill=red!30, below right of=a] (b) {};
+    \node[db, fill=red!30, below right of=b] (c) {};
+    \node[db, fill=green!30, below right of=c] (d) {};
+
+    \node[storage, fill=gray!30, right=8cm of a] (storage) {\textit{disk}};
+
+    \draw[->] (a.east) edge[bend left]
+                       node[pos=.5, right] {Operation 1} (b.north)
+              (b.east) edge[bend left]
+                       node[pos=.5, right] {Operation 2} (c.north)
+              (c.east) edge[bend left]
+                       node[pos=.5, right] {Operation 3} (d.north)
+              (b.west) edge[bend left, ultra thick, dashed, red]
+                       node[pos=.5, left] {} (a.south)
+              (c.west) edge[bend left, ultra thick, dashed, red]
+                       node[pos=.5, left] {Rollback} (a.south)
+              (a.north) edge[bend left, ultra thick, dotted, blue]
+                       node[pos=.5, above] {Store} (storage.north)
+              (d.east) edge[bend right, ultra thick, dotted, blue]
+                       node[pos=.5, right] {Store} (storage.south);
+  \end{tikzpicture}
+\end{figure}
+
+Consistency comes as a result of restricting access to intermediate
+states of the database. Only store initial and final states. In
+practice, we only give operations access to the database if we know
+they won&rsquo;t suffer side effects from this known inconsistent
+(intermediary) state of the database. The mechanism to do that is
+called a *Transaction*. Once we decide that group of operations
+must be atomic, or carried out as a block, we declare them as a
+transaction by using `START TRANSACTION;` command. With that, any
+operations placed next until a call to `COMMIT;` will be treated as
+intermediate states of the database. In case of any errors, we can
+use the `ROLLBACK;` command to undo the inconsistent states.
+
+Some details to keep in mind:
+
+-   Data Definition Language can cause problems
+
+-   Checkpoints may not be as frequent as transactions
+
+-   Table locking is not absolute
+
+*Inconsistent Analysis* is when two transactions access the same
+data. One has multiple queries which give inconsistent information.
+
+
+<a id="org8cdc958"></a>
+
+## 3.204 More depth on ACID and integrity risks
+
+-   Lewis, D. CO2209 Database systems. (London: University of London,
+    2016).
+
+
+<a id="orgee62f8b"></a>
+
+## 3.301 Malice and accidental damage
+
+If we make our structures and logic explicit, it&rsquo;s far easier for
+human or system errors to be handled appropriately or avoided. Some
+actions can still cause trouble to the system, examples of which
+are discussed below:
+
+-   **SQL Injection:** adding malicious code into normal operations
+
+-   **Privilege Escalation:** malicious agent gaining direct access to
+    the database
+
+-   **User Error:** use intends to do one thing but does something
+    entirely different
+
+-   **Non-confidential data sharing:** confidential data being shared
+    inappropriately
+
+
+<a id="orga0d7900"></a>
+
+## 3.303 Security and user policies with SQL
+
+Users in SQL have fine grained control of privileges:
+
+-   Create, edit users
+
+-   Create, edit, use databases
+
+-   Create, edit, use tables
+
+-   Create, edit, use data
+
+A user policy <span class="underline">must</span> be defined in advance if we want to avoid
+common pitfalls with regards to access control. A consideration
+should be given to whether a particular user needs separate
+*roles*.
+
+The format for controlling access permissions is very simple:
+
+    GRANT privilege
+    ON    resource
+    TO    username;
+
+For example, if we want user `JonDoe` to be able to `SELECT` data
+from tables `Planets` and `Moons`, we would write:
+
+    GRANT SELECT
+    ON    Planets, Moons
+    TO    JonDoe;
+
+If `JonDoe` also requires permissions to `INSERT` data into these
+tables, the previous can be amended to:
+
+    GRANT SELECT, INSERT
+    ON    Planets, Moons
+    TO    JonDoe;
+
+A `DROP`<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> permission would allow `JonDoe` to delete those
+tables:
+
+    GRANT SELECT, INSERT, DROP
+    ON    Planets, Moons
+    TO    JonDoe;
+
+With the addition of `WITH GRANT OPTION`, we let `JonDoe` grant the
+same privileges to other users:
+
+    GRANT SELECT
+    ON    Planets, Moons
+    TO    JonDoe
+    WITH GRANT OPTION;
+
+Privileges can be revoked with the `REVOKE` command:
+
+    REVOKE ALL
+    ON    Planets, Moons
+    FROM  JonDoe;
+
+Roles can be created to streamline user access control. Instead of
+granting each permission to every relevant table, we can create a
+role and just assign users to that role. This means that any user
+assigned to that role will have the exact same set of permissions.
+
+For example, if we&rsquo;re building a system for Astronomers, we may
+create a role `Astronomer`:
+
+    CREATE ROLE Astronomer;
+
+And assign permissions to that role:
+
+    GRANT INSERT, SELECT
+    ON    Planets, Moons
+    TO    Astronomer;
+
+Whenever a new Astronomer joins the team, we assign the username
+the `Astronomer` role:
+
+    GRANT Astronomer
+    TO    JonDoe;
+
+As a final thought, the goal of all this is grant users the
+**minimum** set of privileges required to carry out the intended use
+of the system, thus reducing impact of error or malice.
+
+
+<a id="orgb1eee82"></a>
+
+## 3.402 Further reading
+
+-   Date, C.J. [Database Design and Relational Theory](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=5997273). (Healdsburg,
+    CA: Apress, 2019) Chapter 4. FDs and BCNF (informal)
+
+
+<a id="orgb0fb43a"></a>
+
+# Week 7
+
+Key Concepts
+
+-   Use database interactions in a data analysis context
+-   Use database queries in node and PHP web applications
+-   Connect to an SQL-based database from a range of clients
+
+
+<a id="org65546e9"></a>
+
+## 4.004 Getting practice with MySQL (Lab introduction)
+
+SQL has a few Aggregate Functions which are very useful for
+generating summary of data. The general structure is:
+
+    SELECT   BoughtFor,
+    	 SUM(Price)
+    FROM     Shopping
+    GROUP BY BoughtFor;
+
+Some of the available functions are:
+
+-   **SUM:** Computes a regular sum of the group
+
+-   **AVG:** Computes the average of the group
+
+-   **STD:** Computes the standard deviation of the group
+
+-   **VARIANCE:** Computes the variance of the group
+
+-   **MAX:** Produces the maximum values of the group
+
+-   **MIN:** Produces the minimum value of the group
+
+-   **COUNT:** Produces a count of the number of things we have
+    aggregated in our group
+
+-   **COUNT(DISTINCT):** Produces a count of the distinct items in the
+    group
+
+-   **GROUP\_CONCAT:** Valid for string data, concatenates the entire
+    group into a single string
+
+
+<a id="orgaffb8a1"></a>
+
+## 4.007 Connecting to an SQL RDBMS
+
+Database libraries help us create a persistent connection to the
+database and exchange queries and results.
+
+In most cases, to connect to database we will follow one of the two
+paradigms shown below:
+
+    conn = newConnection(host, username, password, database);
+    conn.connect();
+
+or
+
+    conn = connect(host, username, password, database);
+
+To send queries, the common paradigms are as follows:
+
+    resource = conn.execute(query);
+    resource.fetchData();
+
+or
+
+    result = conn.query(query);
+
+In general, a response is an iterable container.
+
+
+<a id="org3c1aa95"></a>
+
+# Week 8
+
+Key Concepts
+
+-   Use database interactions in a data analysis context
+-   Use database queries in node and PHP web applications
+-   Connect to an SQL-based database from a range of clients
+
+
+<a id="orgba6295e"></a>
+
+## 4.201 Using libraries to update data in a database
+
+Any query to the database works the same as any other. For example,
+an `INSERT` can be carried out as shown below.
+
+    const addActor = `INSERT INTO Actors
+    Values ("${actor.name}, ${actor.gender},
+    	 ${actor.birthdate}");`;
+    
+    connect.query(addActor);
+
+Any input must be sanitized to avoid SQL Injection attacks.
+
+
+<a id="org4de621f"></a>
+
+## 4.402 Further reading
+
+-   [nodejs](https://github.com/mysqljs/mysql#readme)
+
+-   [PHP](http://www.php.net/mysqli)
+
+-   [Python](https://dev.mysql.com/doc/connector-python/en/connector-python-introduction.html)
+
+
+<a id="org2435dd5"></a>
+
+# Week 9
+
+Key Concepts
+
+-   Evaluate and explain the strengths and limitations of
+    Normalisation
+-   Analyse a database and assess strategies for optimisation for
+    speed or reliability
+
+
+<a id="org63a5d14"></a>
+
+## 5.101 Query efficiency
+
+The most expensive operations in a database are:
+
+-   **Searching:** often involve checking values on every entry in a
+    table
+
+-   **Sorting:** ordering data by a given column, ascending or
+    descending
+
+-   **Copying:** reading and writing a subset of the data points
+
+When our queries start to get slow, these are the things to look
+out for; i.e. these are the places where we&rsquo;re likely to find
+optimization opportunities.
+
+For example, when searching, if we know our data is already sorted,
+we can use Binary Search for finding what the row we&rsquo;re looking
+for.
+
+Using sorted tables like mentioned above has the benefits of being
+as fast as tree indexes and requiring no extra space, however we
+can only choose one column to be the primary key.
+
+Another option is use indexes, which usually is implemented as a
+[B-tree](https://en.wikipedia.org/wiki/B-tree) or as a [Hash table](https://en.wikipedia.org/wiki/Hash_table). The index can also be much smaller than
+the table itself, which may let us keep it in memory, rather than
+in disk.
+
+B-trees generalize the concept of Binary Search Trees to nodes with
+more than two children, as such, it maintains all BST properties of
+space and time complexity. These properties are summarized below:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Complexity</b></th>
+<th scope="col" class="org-left"><b>Average</b></th>
+<th scope="col" class="org-left"><b>Worst</b></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left"><i>Space</i></td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Search</i></td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Insert</i></td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Delete</i></td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+<td class="org-left">\(\mathcal{O}(\log n)\)</td>
+</tr>
+</tbody>
+</table>
+
+B-trees also support range searching and approximate searching. In
+comparison, Hash tables are very fast, as summarized below.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Complexity</b></th>
+<th scope="col" class="org-left"><b>Average</b></th>
+<th scope="col" class="org-left"><b>Worst</b></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left"><i>Space</i></td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Search</i></td>
+<td class="org-left">\(\mathcal{O}(1)\)</td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Insert</i></td>
+<td class="org-left">\(\mathcal{O}(1)\)</td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+</tr>
+
+
+<tr>
+<td class="org-left"><i>Delete</i></td>
+<td class="org-left">\(\mathcal{O}(1)\)</td>
+<td class="org-left">\(\mathcal{O}(n)\)</td>
+</tr>
+</tbody>
+</table>
+
+Hashing algorithms can be algorithms and hash tables can&rsquo;t support
+range searching or approximate searching.
+
+
+<a id="org0847026"></a>
+
+## 5.103 Removing the safety net: denormalisation
+
+Normalisation can reduce disk reads by only reading the portion of
+data that is necessary for our application. It can also reduce
+integrity checks and reduces storage requirements. However, it
+increases the use of joins which can be expensive.
+
+One approach to mitigate the problem of joins is to cache some
+joined selects in memory. That way, future joined selects can be
+immediately returned from the cache, rather than hitting the
+backing store again. While this can give us some performance
+benefits, it&rsquo;s risky for highly dynamic data.
+
+An alternative approach is to employ *Views*. A View will act as a
+virtual table from which we can request data using regular queries.
+
+
+# Footnotes
+
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> `DROP` permission should be granted with care
