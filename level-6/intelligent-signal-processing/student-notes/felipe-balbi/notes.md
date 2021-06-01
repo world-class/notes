@@ -1,44 +1,46 @@
 
 # Table of Contents
 
-1.  [Week 1](#org7b71687)
-    1.  [1.004 Technical information and tools used in this module](#orgd0cdaa1)
-    2.  [1.101 What is sound?](#org51f9d5e)
-    3.  [1.102 Characteristics of sound waves](#orgc378e5f)
-    4.  [1.104 Human sound perception](#org01a65d9)
-    5.  [1.106 Audio fundamentals](#org5b81ed7)
-    6.  [1.201 The digital world: sample rate and bit depth](#org892b68b)
-    7.  [1.203 Digital audio representation: the time domain](#org39ac4fc)
-    8.  [1.205 Digital audio](#org1086cfd)
-2.  [Week 2](#org59fe8ff)
-    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#org9a2ed90)
-    2.  [1.403 Audio programming with p5: playback controls](#org9d0dc0a)
-    3.  [1.404 Audio programming with p5: capture and record audio](#org795a2cc)
-    4.  [1.501 Audio programming with Python](#org7da7668)
-    5.  [1.503 Audio in Python](#org52d73f3)
-3.  [Week 3](#org8a25f2a)
-    1.  [2.104 Digital audio effects](#org9def9cf)
-    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#org1b01b41)
-4.  [Week 4](#orge756290)
-    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#orgfc9fa99)
-    2.  [2.203 FIR (Finite Impulse Response) filters](#org52961ea)
-    3.  [2.205 LTI systems](#org717166f)
-5.  [Week 5](#org7f23a9f)
-    1.  [3.001 Review of spectral analysis](#orge5709bc)
-    2.  [3.003 Spectral analysis of periodic signals](#org277b348)
-6.  [Week 6](#org5f3a1dc)
-    1.  [3.101 Complex synthesis](#orgda59763)
-7.  [Week 7](#org162eaf9)
-    1.  [4.001 Introduction to audio feature extraction](#org29447b7)
-    2.  [4.003 Audio feature extraction](#org0500428)
-    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#org7993287)
-    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#orga70e2ba)
-    5.  [4.105 Real-time audio visualisations with Meyda](#org9b1e0e9)
-    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#org0bf1f9e)
+1.  [Week 1](#orgc2de59c)
+    1.  [1.004 Technical information and tools used in this module](#orgd635217)
+    2.  [1.101 What is sound?](#org71336ca)
+    3.  [1.102 Characteristics of sound waves](#org922f9c0)
+    4.  [1.104 Human sound perception](#orgeb73cf6)
+    5.  [1.106 Audio fundamentals](#org27b370e)
+    6.  [1.201 The digital world: sample rate and bit depth](#org00622b4)
+    7.  [1.203 Digital audio representation: the time domain](#org67e8c1a)
+    8.  [1.205 Digital audio](#org5e8ce56)
+2.  [Week 2](#org309a47d)
+    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#org625e9f6)
+    2.  [1.403 Audio programming with p5: playback controls](#orga3d99eb)
+    3.  [1.404 Audio programming with p5: capture and record audio](#org2c73f61)
+    4.  [1.501 Audio programming with Python](#orgb528486)
+    5.  [1.503 Audio in Python](#org54af859)
+3.  [Week 3](#org78f82ec)
+    1.  [2.104 Digital audio effects](#org9521e26)
+    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#org24081f2)
+4.  [Week 4](#org0bc4557)
+    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#orgdd08d96)
+    2.  [2.203 FIR (Finite Impulse Response) filters](#orgdb1154b)
+    3.  [2.205 LTI systems](#orgdb762d9)
+5.  [Week 5](#orgbb9355e)
+    1.  [3.001 Review of spectral analysis](#org5ee911c)
+    2.  [3.003 Spectral analysis of periodic signals](#orgbb03ab9)
+6.  [Week 6](#org3970a5c)
+    1.  [3.101 Complex synthesis](#org0ce0d11)
+7.  [Week 7](#org9feabfa)
+    1.  [4.001 Introduction to audio feature extraction](#orgcbac166)
+    2.  [4.003 Audio feature extraction](#org821f23e)
+    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#orgd55790f)
+    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#orgcf68f54)
+    5.  [4.105 Real-time audio visualisations with Meyda](#org54a1b81)
+    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#orge632156)
+8.  [Week 9](#org92bbe11)
+    1.  [5.004 Hidden Markov models](#org88440c7)
 
 
 
-<a id="org7b71687"></a>
+<a id="orgc2de59c"></a>
 
 # Week 1
 
@@ -53,7 +55,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="orgd0cdaa1"></a>
+<a id="orgd635217"></a>
 
 ## 1.004 Technical information and tools used in this module
 
@@ -66,7 +68,7 @@ Key Concepts
 -   [ffmpeg](https://www.ffmpeg.org/)
 
 
-<a id="org51f9d5e"></a>
+<a id="org71336ca"></a>
 
 ## 1.101 What is sound?
 
@@ -81,17 +83,17 @@ capture sound waves with our inner ear and the brain converts it
 into what we call sound.
 
 
-<a id="orgc378e5f"></a>
+<a id="org922f9c0"></a>
 
 ## 1.102 Characteristics of sound waves
 
-In figure [1](#org1aa7043) below, we see several sine waves. Remember
+In figure [1](#orge544bb3) below, we see several sine waves. Remember
 that the sine wave equation is given by \(f(x) = A\sin(2 \pi ft +
    \phi)\) where \(A\) is the amplitude, \(f\) is the frequency, \(t\) is the
 time, and \(\phi\) is the phase.
 
 \begin{figure}[h]
-\label{org1aa7043}
+\label{orge544bb3}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -151,12 +153,12 @@ we can characterize the wave by its wavelength and amplitude. The
 wavelength (&lambda;) is given by the distance between two
 subsequent crests or troughs on the wave. The amplitude is given by
 the distance from the x axis to a peak or trough of the wave. All
-of these can be seen in figure [2](#org8c5e00e) below. The
+of these can be seen in figure [2](#orgcfa5c2e) below. The
 pressure is measured in pascals (\SI{}{\pascal}) although we use
 \SI{}{\decibel} for measuring sound amplitude.
 
 \begin{figure}[h]
-\label{org8c5e00e}
+\label{orgcfa5c2e}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -200,13 +202,13 @@ pressure is measured in pascals (\SI{}{\pascal}) although we use
 
 Waves can also be represented in the domain of time. In this
 scenario we can characterize the wave by its amplitude, frequency,
-and period as shown in figure [3](#org99e53ed) below. Note that
+and period as shown in figure [3](#org0aef74a) below. Note that
 frequency, measured in hertz (\SI{}{\hertz}), is given by the
 inverse of the period, i.e. \(f = \frac{1}{T}\) where \(T\) is the
 period in seconds.
 
 \begin{figure}[h]
-\label{org99e53ed}
+\label{org0aef74a}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -260,15 +262,15 @@ For example, if the wavelength is \(\lambda = \SI{2}{\meter}\), \(v =
 \end{align*}
 
 
-<a id="org01a65d9"></a>
+<a id="orgeb73cf6"></a>
 
 ## 1.104 Human sound perception
 
 Humans perceive sound through *pitch*, *loudness*, and *timbre*. In
-table [1](#org684c03e) we summarize some of the
+table [1](#org6440226) we summarize some of the
 properties of sound, both physical and psychological.
 
-<table id="org684c03e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org6440226" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Physical vs Psychological Properties of Sound</caption>
 
 <colgroup>
@@ -322,7 +324,7 @@ properties of sound, both physical and psychological.
 </table>
 
 We can say that there is a relation between the matching pairs in
-table [1](#org684c03e). That is, *Frequency* is
+table [1](#org6440226). That is, *Frequency* is
 related to *Pitch*, *Amplitude* is related to *Loudness*, and
 *Waveform* is related to *Timbre*. The relation, however, is not
 linear. That is, a certain change in frequency does not correspond
@@ -332,12 +334,12 @@ What is said above is a simplification of reality. A change in
 frequency also has an impact in loudness and timbre.
 
 *Pure Tone* is a sound wave composed of a single sine wave. In
-figure [6](#org6c0481f) we have a representation of a pure tone while
-in figure [7](#org9eb6070) we have a representation of a
+figure [6](#orga9a1687) we have a representation of a pure tone while
+in figure [7](#org9383706) we have a representation of a
 composition of several sine waves.
 
 \begin{figure}[h]
-\label{org6c0481f}
+\label{orga9a1687}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -365,7 +367,7 @@ composition of several sine waves.
 \end{figure}
 
 \begin{figure}[h]
-\label{org9eb6070}
+\label{org9383706}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -423,7 +425,7 @@ different component sound waves of a sound and interpret it as
 timbre.
 
 
-<a id="org5b81ed7"></a>
+<a id="org27b370e"></a>
 
 ## 1.106 Audio fundamentals
 
@@ -432,7 +434,7 @@ timbre.
     – Chapter 2: Sound properties and the waveform view (pp.17–26)
 
 
-<a id="org892b68b"></a>
+<a id="org00622b4"></a>
 
 ## 1.201 The digital world: sample rate and bit depth
 
@@ -451,10 +453,10 @@ input voltage. The sampling rate is given in Hertz
 (\SI{}{\hertz}). Each measurement of the input signal&rsquo;s amplitude
 is called a *sample*, the faster we sample, the better the quality,
 but the resulting amount of data per second will be larger. Table
-[2](#org3be0683) below gives a set of common sampling rates and
+[2](#org7f5565c) below gives a set of common sampling rates and
 where they&rsquo;re used.
 
-<table id="org3be0683" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org7f5565c" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Common Sampling Rates</caption>
 
 <colgroup>
@@ -520,7 +522,7 @@ maximum allowed value. Clipping generates perceivable distortions
 in the audio and should be avoided.
 
 
-<a id="org39ac4fc"></a>
+<a id="org67e8c1a"></a>
 
 ## 1.203 Digital audio representation: the time domain
 
@@ -538,7 +540,7 @@ relation is given by:
 \end{align*}
 
 
-<a id="org1086cfd"></a>
+<a id="org5e8ce56"></a>
 
 ## 1.205 Digital audio
 
@@ -552,7 +554,7 @@ relation is given by:
     engineers and scientists. (Burlington, MA: Elsevier, 2013).
 
 
-<a id="org59fe8ff"></a>
+<a id="org309a47d"></a>
 
 # Week 2
 
@@ -567,7 +569,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="org9a2ed90"></a>
+<a id="org625e9f6"></a>
 
 ## 1.401 Audio programming with p5.js: loading and playing back audio files
 
@@ -605,7 +607,7 @@ A simple example to load an audio file into `p5.js` is shown below:
     }
 
 
-<a id="org9d0dc0a"></a>
+<a id="orga3d99eb"></a>
 
 ## 1.403 Audio programming with p5: playback controls
 
@@ -671,7 +673,7 @@ Augmenting the previous application with some controls, we get:
     }
 
 
-<a id="org795a2cc"></a>
+<a id="org2c73f61"></a>
 
 ## 1.404 Audio programming with p5: capture and record audio
 
@@ -735,7 +737,7 @@ We can also use `p5.js` to capture audio, an example is shown below.
     }
 
 
-<a id="org7da7668"></a>
+<a id="orgb528486"></a>
 
 ## 1.501 Audio programming with Python
 
@@ -752,7 +754,7 @@ The libraries we will use are:
 -   [ThinkDSP](https://allendowney.github.io/ThinkDSP/)
 
 
-<a id="org52d73f3"></a>
+<a id="org54af859"></a>
 
 ## 1.503 Audio in Python
 
@@ -760,7 +762,7 @@ The libraries we will use are:
     Python](https://greenteapress.com/thinkdsp/thinkdsp.pdf). (Needham: Green Tea Press, 2014).
 
 
-<a id="org8a25f2a"></a>
+<a id="org78f82ec"></a>
 
 # Week 3
 
@@ -775,7 +777,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="org9def9cf"></a>
+<a id="org9521e26"></a>
 
 ## 2.104 Digital audio effects
 
@@ -788,7 +790,7 @@ Key Concepts
         (pp.143–155)
 
 
-<a id="org1b01b41"></a>
+<a id="org24081f2"></a>
 
 ## 2.107 Processing digital audio in p5.js. The p5.Effect class
 
@@ -811,10 +813,10 @@ The simplest `p5js` to play audio is shown below.
     }
 
 It builds the simple audio pipeline depicted in figure
-[10](#orge4ee74b).
+[10](#org7b4e673).
 
 \begin{figure}[h]
-\label{orge4ee74b}
+\label{org7b4e673}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -827,10 +829,10 @@ It builds the simple audio pipeline depicted in figure
 When we want to add effects to the audio, we simply insert boxes
 between *Player* and *Output*. For example, for a reverb effect,
 our modified pipeline would look like the one shown in figure
-[11](#org62dbdb5).
+[11](#orgd490137).
 
 \begin{figure}[h]
-\label{org62dbdb5}
+\label{orgd490137}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -866,7 +868,7 @@ shown below.
     }
 
 
-<a id="orge756290"></a>
+<a id="org0bc4557"></a>
 
 # Week 4
 
@@ -881,7 +883,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="orgfc9fa99"></a>
+<a id="orgdd08d96"></a>
 
 ## 2.201 Filtering. Implementation of an averaging low-pass filter
 
@@ -970,7 +972,7 @@ it removes high frequency components from the original signal.
     plt.legend(loc="upper left")
 
 
-<a id="org52961ea"></a>
+<a id="orgdb1154b"></a>
 
 ## 2.203 FIR (Finite Impulse Response) filters
 
@@ -1000,7 +1002,7 @@ the `window` coefficients from the previous code.
     filtered_violin.make_audio()
 
 
-<a id="org717166f"></a>
+<a id="orgdb762d9"></a>
 
 ## 2.205 LTI systems
 
@@ -1018,12 +1020,12 @@ filters for example. If the system happens to be **linear**,
 list of numbers known as **Impulse Response**. An Impulse Response is
 the response produced by an LTI system to the impulse signal.
 
-Considering figure [14](#orgac87e6c), what an LTI system would do
+Considering figure [14](#orgaa6664b), what an LTI system would do
 is move the circles up and down depending on the system&rsquo;s
 parameters.
 
 \begin{figure}[h]
-\label{orgac87e6c}
+\label{orgaa6664b}
   \centering
   \begin{tikzpicture}
     \pgfplotsset{
@@ -1065,7 +1067,7 @@ LTI Systems have three properties:
     the same as applying the filter then shifting the output.
 
 
-<a id="org7f23a9f"></a>
+<a id="orgbb9355e"></a>
 
 # Week 5
 
@@ -1078,7 +1080,7 @@ Key Concepts
     fast convolution
 
 
-<a id="orge5709bc"></a>
+<a id="org5ee911c"></a>
 
 ## 3.001 Review of spectral analysis
 
@@ -1091,7 +1093,7 @@ domain and let us *see* all the component frequencies in the audio
 sample.
 
 
-<a id="org277b348"></a>
+<a id="orgbb03ab9"></a>
 
 ## 3.003 Spectral analysis of periodic signals
 
@@ -1112,7 +1114,7 @@ The Discrete Cosine Transform is given by
 where \(k=0,1,\ldots,N-1\).
 
 
-<a id="org5f3a1dc"></a>
+<a id="org3970a5c"></a>
 
 # Week 6
 
@@ -1125,7 +1127,7 @@ Key Concepts
     fast convolution
 
 
-<a id="orgda59763"></a>
+<a id="org0ce0d11"></a>
 
 ## 3.101 Complex synthesis
 
@@ -1143,7 +1145,7 @@ To compute the waveforms from complex numbers we rely in the
 exponential function \(e^x\) (`np.exp(x)` in Python). 
 
 
-<a id="org162eaf9"></a>
+<a id="org9feabfa"></a>
 
 # Week 7
 
@@ -1157,7 +1159,7 @@ Key Concepts
     audio signal features
 
 
-<a id="org29447b7"></a>
+<a id="orgcbac166"></a>
 
 ## 4.001 Introduction to audio feature extraction
 
@@ -1221,7 +1223,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
    \sqrt{\!\frac{1}{N}\!\sum_n{\bigl|x(n)\bigr|}^2}\]
 
 
-<a id="org0500428"></a>
+<a id="org821f23e"></a>
 
 ## 4.003 Audio feature extraction
 
@@ -1229,7 +1231,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
     Wiley & Sons, 2010). Chapter 3: Feature extraction (pp.99–111)
 
 
-<a id="org7993287"></a>
+<a id="orgd55790f"></a>
 
 ## 4.101 Real-time audio visualisations with p5.js. – time domain features
 
@@ -1237,7 +1239,7 @@ To extract the amplitude from audio file using p5.js, we can use
 the [Amplitude](https://p5js.org/reference/#/p5.Amplitude) object.
 
 
-<a id="orga70e2ba"></a>
+<a id="orgcf68f54"></a>
 
 ## 4.102 Real-time audio visualisations with p5.js – frequency domain features (1)
 
@@ -1245,7 +1247,7 @@ To extract features from the frequency domain, we need an [FFT](https://p5js.org
 object.
 
 
-<a id="org9b1e0e9"></a>
+<a id="org54a1b81"></a>
 
 ## 4.105 Real-time audio visualisations with Meyda
 
@@ -1254,13 +1256,95 @@ written to use the Web Audio API. It supports both real-time and
 offline feature extraction.
 
 
-<a id="org0bf1f9e"></a>
+<a id="orge632156"></a>
 
 ## 4.107 Meyda: an audio feature extraction library for the Web Audio API
 
 -   Fiala, J., N. Segal and H.A. Rawlinson &rsquo;[Meyda: an audio feature
     extraction library for the Web Audio API](http://doc.gold.ac.uk/~mu202hr/publications/RawlinsonSegalFiala_WAC2015.pdf)&rsquo; in Web Audio Conference
     (WAC 2015), 2015, pp.1-6.
+
+
+<a id="org92bbe11"></a>
+
+# Week 9
+
+Key Concepts
+
+-   Describe Automatic Speech Recognition (ASR) and Hidden Markov
+    Models (HMM)
+-   Use the p5.js library p5.Speech to write speech recognition
+    software
+-   Use the Python libraries pocketsphinx, vosk and Mozilla DeepSpeech
+    to write Offline ASR software
+
+
+<a id="org88440c7"></a>
+
+## 5.004 Hidden Markov models
+
+Given a set of observations `a a b a c c b b`, to convert it into a
+Hidden Markov Model the first step is create a state transition
+diagram from our observations, as shown in figure [17](#org0b889b0) below.
+
+\begin{figure}[H]
+\label{org0b889b0}
+\centering
+  \begin{tikzpicture}[->]
+
+    % nodes
+    \node[state] (a) {$a$};
+    \node[state, below right of=a] (b) {$b$};
+    \node[state, above right of=a] (c) {$c$};
+
+    % edges
+    \draw (a) edge[loop left] (a)
+          (a) edge[bend right] (b)
+          (a) edge[bend left]  (c)
+          (b) edge[bend right] (a)
+          (b) edge[loop below] (b)
+          (c) edge[bend left]  (b)
+          (c) edge[loop above] (c);
+
+  \end{tikzpicture}
+\end{figure}
+
+Afterwards, we annotate the edges with their weights. For example,
+each of the transitions from \(a\) appears \(\dfrac{1}{3}\) of the
+time. The resulting state transition diagram with weights is shown
+in figure [18](#org5fd1de3) below.
+
+\begin{figure}[H]
+\label{org5fd1de3}
+\centering
+  \begin{tikzpicture}[->]
+
+    % nodes
+    \node[state] (a) {$a$};
+    \node[state, below right of=a] (b) {$b$};
+    \node[state, above right of=a] (c) {$c$};
+
+    % edges
+    \draw (a) edge[loop left]  node[left]          {$\frac{1}{3}$} (a)
+          (a) edge[bend right] node[below, sloped] {$\frac{1}{3}$} (b)
+          (a) edge[bend left]  node[above, sloped] {$\frac{1}{3}$} (c)
+          (b) edge[bend right] node[above, sloped] {$\frac{1}{2}$} (a)
+          (b) edge[loop below] node[below]         {$\frac{1}{2}$} (b)
+          (c) edge[bend left]  node[right]         {$\frac{1}{2}$} (b)
+          (c) edge[loop above] node[above]         {$\frac{1}{2}$} (c);
+
+  \end{tikzpicture}
+\end{figure}
+
+Given a Markov Model like this, we can randomize its execution. We
+choose an initial state and roll a die to choose the next state. In
+the model above, every transition from any state has the same
+probability, but that need not be the case.
+
+Note that *States* are not the same *Observations*. *States* encode
+the probability distribution of *Observations*. The goal is to
+figure out the most likely sequence of states given the
+observations.
 
 
 # Footnotes
