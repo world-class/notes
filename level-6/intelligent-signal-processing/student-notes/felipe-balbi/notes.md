@@ -1,46 +1,50 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc2de59c)
-    1.  [1.004 Technical information and tools used in this module](#orgd635217)
-    2.  [1.101 What is sound?](#org71336ca)
-    3.  [1.102 Characteristics of sound waves](#org922f9c0)
-    4.  [1.104 Human sound perception](#orgeb73cf6)
-    5.  [1.106 Audio fundamentals](#org27b370e)
-    6.  [1.201 The digital world: sample rate and bit depth](#org00622b4)
-    7.  [1.203 Digital audio representation: the time domain](#org67e8c1a)
-    8.  [1.205 Digital audio](#org5e8ce56)
-2.  [Week 2](#org309a47d)
-    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#org625e9f6)
-    2.  [1.403 Audio programming with p5: playback controls](#orga3d99eb)
-    3.  [1.404 Audio programming with p5: capture and record audio](#org2c73f61)
-    4.  [1.501 Audio programming with Python](#orgb528486)
-    5.  [1.503 Audio in Python](#org54af859)
-3.  [Week 3](#org78f82ec)
-    1.  [2.104 Digital audio effects](#org9521e26)
-    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#org24081f2)
-4.  [Week 4](#org0bc4557)
-    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#orgdd08d96)
-    2.  [2.203 FIR (Finite Impulse Response) filters](#orgdb1154b)
-    3.  [2.205 LTI systems](#orgdb762d9)
-5.  [Week 5](#orgbb9355e)
-    1.  [3.001 Review of spectral analysis](#org5ee911c)
-    2.  [3.003 Spectral analysis of periodic signals](#orgbb03ab9)
-6.  [Week 6](#org3970a5c)
-    1.  [3.101 Complex synthesis](#org0ce0d11)
-7.  [Week 7](#org9feabfa)
-    1.  [4.001 Introduction to audio feature extraction](#orgcbac166)
-    2.  [4.003 Audio feature extraction](#org821f23e)
-    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#orgd55790f)
-    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#orgcf68f54)
-    5.  [4.105 Real-time audio visualisations with Meyda](#org54a1b81)
-    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#orge632156)
-8.  [Week 9](#org92bbe11)
-    1.  [5.004 Hidden Markov models](#org88440c7)
+1.  [Week 1](#org8aae81d)
+    1.  [1.004 Technical information and tools used in this module](#org38f7ee4)
+    2.  [1.101 What is sound?](#org97abc71)
+    3.  [1.102 Characteristics of sound waves](#org10c39de)
+    4.  [1.104 Human sound perception](#org3260b0d)
+    5.  [1.106 Audio fundamentals](#orgdd51515)
+    6.  [1.201 The digital world: sample rate and bit depth](#org10e9999)
+    7.  [1.203 Digital audio representation: the time domain](#orgccf0270)
+    8.  [1.205 Digital audio](#org8cf945d)
+2.  [Week 2](#orgb80fac4)
+    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#org315d0ce)
+    2.  [1.403 Audio programming with p5: playback controls](#org2e31f8f)
+    3.  [1.404 Audio programming with p5: capture and record audio](#org88c25a9)
+    4.  [1.501 Audio programming with Python](#orged96621)
+    5.  [1.503 Audio in Python](#org8331a7d)
+3.  [Week 3](#orgf72aa21)
+    1.  [2.104 Digital audio effects](#org75283af)
+    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#org6d7ac9f)
+4.  [Week 4](#org052f5d9)
+    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#org8826af9)
+    2.  [2.203 FIR (Finite Impulse Response) filters](#org66d5fc3)
+    3.  [2.205 LTI systems](#org69e9078)
+5.  [Week 5](#org54e4237)
+    1.  [3.001 Review of spectral analysis](#org07e4c3a)
+    2.  [3.003 Spectral analysis of periodic signals](#org2d3a555)
+6.  [Week 6](#org80b8949)
+    1.  [3.101 Complex synthesis](#org22786d2)
+7.  [Week 7](#orgc34626a)
+    1.  [4.001 Introduction to audio feature extraction](#org7d48de2)
+    2.  [4.003 Audio feature extraction](#org7927090)
+    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#org2865ca7)
+    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#orgef2e51e)
+    5.  [4.105 Real-time audio visualisations with Meyda](#org3b499a7)
+    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#org83eb2b0)
+8.  [Week 9](#org709ccd5)
+    1.  [5.004 Hidden Markov models](#orgb329ebf)
+9.  [Week 11](#orgff3acb3)
+    1.  [6.001 2D image representation: recap](#org1ce401e)
+    2.  [6.003 Realtime pixel pushing in the browser](#orgd0a509c)
+    3.  [6.006 Processing webcam data](#org088751a)
 
 
 
-<a id="orgc2de59c"></a>
+<a id="org8aae81d"></a>
 
 # Week 1
 
@@ -55,7 +59,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="orgd635217"></a>
+<a id="org38f7ee4"></a>
 
 ## 1.004 Technical information and tools used in this module
 
@@ -68,7 +72,7 @@ Key Concepts
 -   [ffmpeg](https://www.ffmpeg.org/)
 
 
-<a id="org71336ca"></a>
+<a id="org97abc71"></a>
 
 ## 1.101 What is sound?
 
@@ -83,17 +87,17 @@ capture sound waves with our inner ear and the brain converts it
 into what we call sound.
 
 
-<a id="org922f9c0"></a>
+<a id="org10c39de"></a>
 
 ## 1.102 Characteristics of sound waves
 
-In figure [1](#orge544bb3) below, we see several sine waves. Remember
+In figure [1](#orgac675a0) below, we see several sine waves. Remember
 that the sine wave equation is given by \(f(x) = A\sin(2 \pi ft +
    \phi)\) where \(A\) is the amplitude, \(f\) is the frequency, \(t\) is the
 time, and \(\phi\) is the phase.
 
 \begin{figure}[h]
-\label{orge544bb3}
+\label{orgac675a0}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -153,12 +157,12 @@ we can characterize the wave by its wavelength and amplitude. The
 wavelength (&lambda;) is given by the distance between two
 subsequent crests or troughs on the wave. The amplitude is given by
 the distance from the x axis to a peak or trough of the wave. All
-of these can be seen in figure [2](#orgcfa5c2e) below. The
+of these can be seen in figure [2](#org93704ac) below. The
 pressure is measured in pascals (\SI{}{\pascal}) although we use
 \SI{}{\decibel} for measuring sound amplitude.
 
 \begin{figure}[h]
-\label{orgcfa5c2e}
+\label{org93704ac}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -202,13 +206,13 @@ pressure is measured in pascals (\SI{}{\pascal}) although we use
 
 Waves can also be represented in the domain of time. In this
 scenario we can characterize the wave by its amplitude, frequency,
-and period as shown in figure [3](#org0aef74a) below. Note that
+and period as shown in figure [3](#orgf7fafeb) below. Note that
 frequency, measured in hertz (\SI{}{\hertz}), is given by the
 inverse of the period, i.e. \(f = \frac{1}{T}\) where \(T\) is the
 period in seconds.
 
 \begin{figure}[h]
-\label{org0aef74a}
+\label{orgf7fafeb}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -262,15 +266,15 @@ For example, if the wavelength is \(\lambda = \SI{2}{\meter}\), \(v =
 \end{align*}
 
 
-<a id="orgeb73cf6"></a>
+<a id="org3260b0d"></a>
 
 ## 1.104 Human sound perception
 
 Humans perceive sound through *pitch*, *loudness*, and *timbre*. In
-table [1](#org6440226) we summarize some of the
+table [1](#org2197ac0) we summarize some of the
 properties of sound, both physical and psychological.
 
-<table id="org6440226" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org2197ac0" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Physical vs Psychological Properties of Sound</caption>
 
 <colgroup>
@@ -324,7 +328,7 @@ properties of sound, both physical and psychological.
 </table>
 
 We can say that there is a relation between the matching pairs in
-table [1](#org6440226). That is, *Frequency* is
+table [1](#org2197ac0). That is, *Frequency* is
 related to *Pitch*, *Amplitude* is related to *Loudness*, and
 *Waveform* is related to *Timbre*. The relation, however, is not
 linear. That is, a certain change in frequency does not correspond
@@ -334,12 +338,12 @@ What is said above is a simplification of reality. A change in
 frequency also has an impact in loudness and timbre.
 
 *Pure Tone* is a sound wave composed of a single sine wave. In
-figure [6](#orga9a1687) we have a representation of a pure tone while
-in figure [7](#org9383706) we have a representation of a
+figure [6](#org18ef9c9) we have a representation of a pure tone while
+in figure [7](#orgc3fc64a) we have a representation of a
 composition of several sine waves.
 
 \begin{figure}[h]
-\label{orga9a1687}
+\label{org18ef9c9}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -367,7 +371,7 @@ composition of several sine waves.
 \end{figure}
 
 \begin{figure}[h]
-\label{org9383706}
+\label{orgc3fc64a}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -425,7 +429,7 @@ different component sound waves of a sound and interpret it as
 timbre.
 
 
-<a id="org27b370e"></a>
+<a id="orgdd51515"></a>
 
 ## 1.106 Audio fundamentals
 
@@ -434,7 +438,7 @@ timbre.
     – Chapter 2: Sound properties and the waveform view (pp.17–26)
 
 
-<a id="org00622b4"></a>
+<a id="org10e9999"></a>
 
 ## 1.201 The digital world: sample rate and bit depth
 
@@ -453,10 +457,10 @@ input voltage. The sampling rate is given in Hertz
 (\SI{}{\hertz}). Each measurement of the input signal&rsquo;s amplitude
 is called a *sample*, the faster we sample, the better the quality,
 but the resulting amount of data per second will be larger. Table
-[2](#org7f5565c) below gives a set of common sampling rates and
+[2](#org735bd23) below gives a set of common sampling rates and
 where they&rsquo;re used.
 
-<table id="org7f5565c" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org735bd23" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Common Sampling Rates</caption>
 
 <colgroup>
@@ -522,7 +526,7 @@ maximum allowed value. Clipping generates perceivable distortions
 in the audio and should be avoided.
 
 
-<a id="org67e8c1a"></a>
+<a id="orgccf0270"></a>
 
 ## 1.203 Digital audio representation: the time domain
 
@@ -540,7 +544,7 @@ relation is given by:
 \end{align*}
 
 
-<a id="org5e8ce56"></a>
+<a id="org8cf945d"></a>
 
 ## 1.205 Digital audio
 
@@ -554,7 +558,7 @@ relation is given by:
     engineers and scientists. (Burlington, MA: Elsevier, 2013).
 
 
-<a id="org309a47d"></a>
+<a id="orgb80fac4"></a>
 
 # Week 2
 
@@ -569,7 +573,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="org625e9f6"></a>
+<a id="org315d0ce"></a>
 
 ## 1.401 Audio programming with p5.js: loading and playing back audio files
 
@@ -607,7 +611,7 @@ A simple example to load an audio file into `p5.js` is shown below:
     }
 
 
-<a id="orga3d99eb"></a>
+<a id="org2e31f8f"></a>
 
 ## 1.403 Audio programming with p5: playback controls
 
@@ -673,7 +677,7 @@ Augmenting the previous application with some controls, we get:
     }
 
 
-<a id="org2c73f61"></a>
+<a id="org88c25a9"></a>
 
 ## 1.404 Audio programming with p5: capture and record audio
 
@@ -737,7 +741,7 @@ We can also use `p5.js` to capture audio, an example is shown below.
     }
 
 
-<a id="orgb528486"></a>
+<a id="orged96621"></a>
 
 ## 1.501 Audio programming with Python
 
@@ -754,7 +758,7 @@ The libraries we will use are:
 -   [ThinkDSP](https://allendowney.github.io/ThinkDSP/)
 
 
-<a id="org54af859"></a>
+<a id="org8331a7d"></a>
 
 ## 1.503 Audio in Python
 
@@ -762,7 +766,7 @@ The libraries we will use are:
     Python](https://greenteapress.com/thinkdsp/thinkdsp.pdf). (Needham: Green Tea Press, 2014).
 
 
-<a id="org78f82ec"></a>
+<a id="orgf72aa21"></a>
 
 # Week 3
 
@@ -777,7 +781,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="org9521e26"></a>
+<a id="org75283af"></a>
 
 ## 2.104 Digital audio effects
 
@@ -790,7 +794,7 @@ Key Concepts
         (pp.143–155)
 
 
-<a id="org24081f2"></a>
+<a id="org6d7ac9f"></a>
 
 ## 2.107 Processing digital audio in p5.js. The p5.Effect class
 
@@ -813,10 +817,10 @@ The simplest `p5js` to play audio is shown below.
     }
 
 It builds the simple audio pipeline depicted in figure
-[10](#org7b4e673).
+[10](#org10031fe).
 
 \begin{figure}[h]
-\label{org7b4e673}
+\label{org10031fe}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -829,10 +833,10 @@ It builds the simple audio pipeline depicted in figure
 When we want to add effects to the audio, we simply insert boxes
 between *Player* and *Output*. For example, for a reverb effect,
 our modified pipeline would look like the one shown in figure
-[11](#orgd490137).
+[11](#org0d4f5a1).
 
 \begin{figure}[h]
-\label{orgd490137}
+\label{org0d4f5a1}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -868,7 +872,7 @@ shown below.
     }
 
 
-<a id="org0bc4557"></a>
+<a id="org052f5d9"></a>
 
 # Week 4
 
@@ -883,7 +887,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="orgdd08d96"></a>
+<a id="org8826af9"></a>
 
 ## 2.201 Filtering. Implementation of an averaging low-pass filter
 
@@ -972,7 +976,7 @@ it removes high frequency components from the original signal.
     plt.legend(loc="upper left")
 
 
-<a id="orgdb1154b"></a>
+<a id="org66d5fc3"></a>
 
 ## 2.203 FIR (Finite Impulse Response) filters
 
@@ -1002,7 +1006,7 @@ the `window` coefficients from the previous code.
     filtered_violin.make_audio()
 
 
-<a id="orgdb762d9"></a>
+<a id="org69e9078"></a>
 
 ## 2.205 LTI systems
 
@@ -1020,12 +1024,12 @@ filters for example. If the system happens to be **linear**,
 list of numbers known as **Impulse Response**. An Impulse Response is
 the response produced by an LTI system to the impulse signal.
 
-Considering figure [14](#orgaa6664b), what an LTI system would do
+Considering figure [14](#orge53b9e4), what an LTI system would do
 is move the circles up and down depending on the system&rsquo;s
 parameters.
 
 \begin{figure}[h]
-\label{orgaa6664b}
+\label{orge53b9e4}
   \centering
   \begin{tikzpicture}
     \pgfplotsset{
@@ -1067,7 +1071,7 @@ LTI Systems have three properties:
     the same as applying the filter then shifting the output.
 
 
-<a id="orgbb9355e"></a>
+<a id="org54e4237"></a>
 
 # Week 5
 
@@ -1080,7 +1084,7 @@ Key Concepts
     fast convolution
 
 
-<a id="org5ee911c"></a>
+<a id="org07e4c3a"></a>
 
 ## 3.001 Review of spectral analysis
 
@@ -1093,7 +1097,7 @@ domain and let us *see* all the component frequencies in the audio
 sample.
 
 
-<a id="orgbb03ab9"></a>
+<a id="org2d3a555"></a>
 
 ## 3.003 Spectral analysis of periodic signals
 
@@ -1114,7 +1118,7 @@ The Discrete Cosine Transform is given by
 where \(k=0,1,\ldots,N-1\).
 
 
-<a id="org3970a5c"></a>
+<a id="org80b8949"></a>
 
 # Week 6
 
@@ -1127,7 +1131,7 @@ Key Concepts
     fast convolution
 
 
-<a id="org0ce0d11"></a>
+<a id="org22786d2"></a>
 
 ## 3.101 Complex synthesis
 
@@ -1145,7 +1149,7 @@ To compute the waveforms from complex numbers we rely in the
 exponential function \(e^x\) (`np.exp(x)` in Python). 
 
 
-<a id="org9feabfa"></a>
+<a id="orgc34626a"></a>
 
 # Week 7
 
@@ -1159,7 +1163,7 @@ Key Concepts
     audio signal features
 
 
-<a id="orgcbac166"></a>
+<a id="org7d48de2"></a>
 
 ## 4.001 Introduction to audio feature extraction
 
@@ -1223,7 +1227,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
    \sqrt{\!\frac{1}{N}\!\sum_n{\bigl|x(n)\bigr|}^2}\]
 
 
-<a id="org821f23e"></a>
+<a id="org7927090"></a>
 
 ## 4.003 Audio feature extraction
 
@@ -1231,7 +1235,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
     Wiley & Sons, 2010). Chapter 3: Feature extraction (pp.99–111)
 
 
-<a id="orgd55790f"></a>
+<a id="org2865ca7"></a>
 
 ## 4.101 Real-time audio visualisations with p5.js. – time domain features
 
@@ -1239,7 +1243,7 @@ To extract the amplitude from audio file using p5.js, we can use
 the [Amplitude](https://p5js.org/reference/#/p5.Amplitude) object.
 
 
-<a id="orgcf68f54"></a>
+<a id="orgef2e51e"></a>
 
 ## 4.102 Real-time audio visualisations with p5.js – frequency domain features (1)
 
@@ -1247,7 +1251,7 @@ To extract features from the frequency domain, we need an [FFT](https://p5js.org
 object.
 
 
-<a id="org54a1b81"></a>
+<a id="org3b499a7"></a>
 
 ## 4.105 Real-time audio visualisations with Meyda
 
@@ -1256,7 +1260,7 @@ written to use the Web Audio API. It supports both real-time and
 offline feature extraction.
 
 
-<a id="orge632156"></a>
+<a id="org83eb2b0"></a>
 
 ## 4.107 Meyda: an audio feature extraction library for the Web Audio API
 
@@ -1265,7 +1269,7 @@ offline feature extraction.
     (WAC 2015), 2015, pp.1-6.
 
 
-<a id="org92bbe11"></a>
+<a id="org709ccd5"></a>
 
 # Week 9
 
@@ -1279,16 +1283,16 @@ Key Concepts
     to write Offline ASR software
 
 
-<a id="org88440c7"></a>
+<a id="orgb329ebf"></a>
 
 ## 5.004 Hidden Markov models
 
 Given a set of observations `a a b a c c b b`, to convert it into a
 Hidden Markov Model the first step is create a state transition
-diagram from our observations, as shown in figure [17](#org0b889b0) below.
+diagram from our observations, as shown in figure [17](#org7192b21) below.
 
 \begin{figure}[H]
-\label{org0b889b0}
+\label{org7192b21}
 \centering
   \begin{tikzpicture}[->]
 
@@ -1312,10 +1316,10 @@ diagram from our observations, as shown in figure [17](#org0b889b0) below.
 Afterwards, we annotate the edges with their weights. For example,
 each of the transitions from \(a\) appears \(\dfrac{1}{3}\) of the
 time. The resulting state transition diagram with weights is shown
-in figure [18](#org5fd1de3) below.
+in figure [18](#org403966d) below.
 
 \begin{figure}[H]
-\label{org5fd1de3}
+\label{org403966d}
 \centering
   \begin{tikzpicture}[->]
 
@@ -1345,6 +1349,222 @@ Note that *States* are not the same *Observations*. *States* encode
 the probability distribution of *Observations*. The goal is to
 figure out the most likely sequence of states given the
 observations.
+
+
+<a id="orgff3acb3"></a>
+
+# Week 11
+
+Key Concepts
+
+-   Capturing, representing and processing camera input, part 1
+
+
+<a id="org1ce401e"></a>
+
+## 6.001 2D image representation: recap
+
+2D images are arrays of pixels with a width and a height. They can
+be black and white or in color.
+
+Images also have a resolution, i.e. the number of pixels in the
+image. It&rsquo;s not always desirable to have the highest amount of
+pixels possible, sometimes less pixels can be advantageous.
+
+We tend of think of them as being represented in a cartesian
+coordinate system but, in reality, they are just a list. Figure
+[19](#org64a74ed) below shows an example of a cartesian coordinate
+system.
+
+\begin{figure}[h]
+\label{org64a74ed}
+  \centering
+  \begin{tikzpicture}
+    \draw[step=1cm, very thin, gray!30] (-3.9,-3.9) grid (3.9,3.9);
+
+    \draw[->] (-4, 0) -- (4, 0);
+    \draw[->] (0, -4) -- (0, 4);
+
+    \foreach \x in {-4,-3,-2,-1,1,2,3}
+      \draw (\x cm,5pt) -- (\x cm,-5pt) node[anchor=north] {$\x$};
+
+    \foreach \y in {-4,-3,-2,-1,1,2,3}
+      \draw (5pt,\y cm) -- (-5pt,\y cm) node[anchor=east] {$\y$};
+
+    \draw[circle,fill=purple!30] (0,0) circle [radius=2pt];
+
+    \draw[circle,fill=red!30] (-3,1) circle [radius=2pt];
+    \draw[dashed, thick, red!30] (-3,0) -- (-3,1);
+    \draw[dashed, thick, red!30] (0,1) -- (-3,1);
+
+    \draw[circle,fill=olive!30] (2,3) circle [radius=2pt];
+    \draw[dashed, thick, olive!30] (2,0) -- (2,3);
+    \draw[dashed, thick, olive!30] (0,3) -- (2,3);
+
+    \draw[circle,fill=blue!30] (-1.5,-2.5) circle [radius=2pt];
+    \draw[dashed, thick, blue!30] (-1.5,0) -- (-1.5,-2.5);
+    \draw[dashed, thick, blue!30] (0,-2.5) -- (-1.5,-2.5);
+  \end{tikzpicture}
+\end{figure}
+
+The origin is at \((0,0)\), usually depicted right in the middle, but
+it need not be. Because we&rsquo;re so used with the cartesian system, we
+may expect computer images to be represented the same way, however
+that&rsquo;s not the case.
+
+The origin on computer image files, is usually at the top left
+corner. Moreover, the data is usually represented as a single
+vector as we can easily transform a 1D coordinate to 2D coordinate
+given height and width.
+
+When it comes to JavaScript, if we want to do any sort of image
+manipulation, there are three steps to follow:
+
+1.  Create a pixel array (or grab it from the canvas)
+2.  Iterate through the pixel array to apply our manipulations
+3.  Write resulting pixels back to the canvas
+
+One caveat is that JavaScript is always expecting pixels in RGBA
+format even when they&rsquo;re grayscale. The canvas in JavaScript can be
+treated as an RGBA pixel array where every 4 values represent each
+of our four channels. The resolution of each channel is 8 bits.
+
+Usually we process raw, uncompressed pixel data. The image data is
+the same resolution as that of the canvas. This means that if we&rsquo;re
+processing a 1080p video at 25 frames per second, we&rsquo;re dealing
+with \[1920 \cdot 1080 \cdot 25 \cdot 32 \approx 198 \mathit{MB}/s\]
+of information.
+
+
+<a id="orgd0a509c"></a>
+
+## 6.003 Realtime pixel pushing in the browser
+
+A simple example:
+
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <canvas></canvas>
+        <script>
+         let canvas = document.querySelector("canvas");
+         let context = canvas.getContext("2d");
+    
+         canvas.width = 640;
+         canvas.height = 480;
+    
+         let imageData = context.createImageData(canvas.width, canvas.height);
+    
+         function draw() {
+    	 for (var y = 0; y < imageData.height; y++) {
+    	     for (var x = 0; x < imageData.width; x++) {
+    		 let pos = (x + y * imageData.width) * 4;
+    
+    		 imageData.data[pos] = Math.random()*255;
+    		 imageData.data[pos+1] = Math.random()*255;
+    		 imageData.data[pos+2] = Math.random()*255;
+    		 imageData.data[pos+3] = 255;
+    	     }
+    	 }
+    
+    	 context.putImageData(imageData, 0, 0);
+    	 requestAnimationFrame(draw);
+         }
+    
+         requestAnimationFrame(draw);
+        </script>
+      </body>
+    </html>
+
+
+<a id="org088751a"></a>
+
+## 6.006 Processing webcam data
+
+To process incoming video from a webcam, the process is a little
+more involved, here are the necessary steps:
+
+1.  Open the webcam
+2.  Copy a frame image into the canvas
+3.  Grab the canvas pixels
+4.  Process those pixels
+5.  Write pixels back to the canvas
+
+Sample code follows
+
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <video id="video" width="0" height="0"></video>
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+        <script language="javascript" type="text/javascript">
+         let width = 400;
+         let height = 300;
+    
+         let canvas = document.getElementById("canvas1");
+         let context = canvas.getContext("2d");
+    
+         let canvas2 = document.getElementById("canvas12");
+         let context2 = canvas2.getContext("2d");
+    
+         canvas.addEventListener("mousemove", getMouse, false);
+    
+         canvas.width = width;
+         canvas.height = height;
+         canvas2.width = width;
+         canvas2.height = height;
+    
+         let video = document.getElementById("video");
+    
+         navigator.mediaDevices.getUserMedia({video: true}).then((stream) => {
+    	 video.srcObject = stream;
+    	 video.play();
+         });
+    
+         let imageData = 0;
+         let resultData = 0;
+    
+         function draw() {
+    	 context2.drawImage(video, 0, 0, width, height);
+    
+    	 imageData = context2.getImageData(0, 0, width, height);
+    	 resultData = context.getImageData(0, 0, width, height);
+    
+    	 for (var i = 0; i < height; i++) {
+    	     for (var j = 0; j < width; j++) {
+    		 let pos = (j + width * i) * 4;
+    
+    		 let r = imageData.data[pos];
+    		 let g = imageData.data[pos+1];
+    		 let b = imageData.data[pos+2];
+    
+    		 /*
+    		  * RGB to Luma:
+    		  * https://en.wikipedia.org/wiki/Luma_(video)
+    		  */
+    		 let grayscale = 0.2126*r + 0.7152*g + 0.0722*b;
+    
+    		 resultData.data[pos] = grayscale;
+    		 resultData.data[pos+1] = grayscale;
+    		 resultData.data[pos+2] = grayscale;
+    		 resultData.data[pos+3] = 255;
+    	     }
+    	 }
+    
+    	 context.putImageData(resultData, 0, 0);
+    	 requestAnimationFrame(draw)
+         }
+    
+         requestAnimationFrame(draw);
+    
+         function getMouse(pos) {
+    	 mouseX = pos.layerX;
+    	 mouseY = pos.layerY;
+         }
+        </script>
+      </body>
+    </html>
 
 
 # Footnotes
