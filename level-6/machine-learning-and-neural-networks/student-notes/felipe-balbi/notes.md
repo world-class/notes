@@ -1,53 +1,60 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc7405e7)
-    1.  [1.101 Applications of Machine Learning](#org9d830eb)
-    2.  [1.102 Types of ML](#orga5c5189)
-2.  [Week 2](#org6dd663f)
-    1.  [1.202 Further reading](#orgcf6920c)
-3.  [Week 3](#orgf27d982)
-    1.  [2.101 Introduction to supervised Learning](#orgc6d54db)
-    2.  [2.201 K-Nearest Neighbours Classification](#org262e5cf)
-    3.  [2.301 Decision tree](#org9bc7903)
-4.  [Week 4](#orgce7c137)
-    1.  [2.501 Classifier evaluation](#orgd9d6b45)
-    2.  [2.602 Further reading](#org2795dad)
-5.  [Week 5](#orge7d0f9a)
-    1.  [3.102 Linear regression](#orgd894d72)
-    2.  [3.202 Further reading](#org1cb84ca)
-6.  [Week 6](#org231931e)
-    1.  [3.301 Gradient descent in 1D](#org90bc764)
-    2.  [3.303 Gradient descent in 2D](#org924bda7)
-    3.  [3.305 Data scaling](#org3cb5768)
-    4.  [3.306 Polynomial regression](#org8a89618)
-    5.  [3.402 Further reading](#orgc561748)
-7.  [Week 7](#org947d498)
-    1.  [4.101 Overfitting and underfitting](#org74fb0ad)
-    2.  [4.201 Regularisation](#orgbe9da9b)
-    3.  [4.301 Cross-validation](#orgb4d7c9a)
-8.  [Week 8](#org9aec085)
-    1.  [5.101 Bayesian classification](#org9dc5ee7)
-    2.  [5.103 The Naive Bayes Classifier](#org9ad6fe6)
-    3.  [5.202 Further reading](#org44190a4)
-9.  [Week 9](#orgc74eb6f)
-    1.  [6.102 Clustering](#org0a4928f)
-    2.  [6.103 K-Mean](#orgb59a39b)
-10. [Week 10](#orgb96ee90)
-    1.  [6.301 Dimensionality reduction](#orga886925)
-    2.  [6.302 PCA](#orgfb64f12)
-    3.  [6.402 Further reading](#orga9a8f57)
-11. [Week 11](#orgb214114)
-    1.  [7.001 This weeks reading: Chollet, Chapter 1 - What is deep learning?](#orgb40a9e9)
-    2.  [7.101 Artificial Intelligence, Machine Learning and Deep Learning](#org4d064be)
-    3.  [7.103 Learning representations](#org0b9df62)
-    4.  [7.105 The deep in deep learning](#org03cc606)
-    5.  [7.107 Understanding how DL works in three figures](#orge1d0044)
-    6.  [7.109 Achievements. Short-term hype. The promise of AI.](#org582be24)
+1.  [Week 1](#org25037ac)
+    1.  [1.101 Applications of Machine Learning](#org185a504)
+    2.  [1.102 Types of ML](#orgbd5da14)
+2.  [Week 2](#org1738457)
+    1.  [1.202 Further reading](#orgec5ec8c)
+3.  [Week 3](#org32b6e84)
+    1.  [2.101 Introduction to supervised Learning](#org4332920)
+    2.  [2.201 K-Nearest Neighbours Classification](#org6e103c0)
+    3.  [2.301 Decision tree](#org6c82f91)
+4.  [Week 4](#org6b7c98d)
+    1.  [2.501 Classifier evaluation](#orge4a34ab)
+    2.  [2.602 Further reading](#orgf75266d)
+5.  [Week 5](#org07a4e8b)
+    1.  [3.102 Linear regression](#org33919ea)
+    2.  [3.202 Further reading](#orge31896f)
+6.  [Week 6](#orgfe404a3)
+    1.  [3.301 Gradient descent in 1D](#org47e9171)
+    2.  [3.303 Gradient descent in 2D](#org2b9bab8)
+    3.  [3.305 Data scaling](#org31ed738)
+    4.  [3.306 Polynomial regression](#orgca4bb8b)
+    5.  [3.402 Further reading](#orga37318d)
+7.  [Week 7](#org289353e)
+    1.  [4.101 Overfitting and underfitting](#org9ac2385)
+    2.  [4.201 Regularisation](#orge9e7dad)
+    3.  [4.301 Cross-validation](#org33b6b64)
+8.  [Week 8](#orgbff77d5)
+    1.  [5.101 Bayesian classification](#orgdf92548)
+    2.  [5.103 The Naive Bayes Classifier](#orgeed8166)
+    3.  [5.202 Further reading](#org0a68fa9)
+9.  [Week 9](#org7c41fc8)
+    1.  [6.102 Clustering](#orgf76d41c)
+    2.  [6.103 K-Mean](#org0c74dca)
+10. [Week 10](#org46c9c85)
+    1.  [6.301 Dimensionality reduction](#org7c9864c)
+    2.  [6.302 PCA](#org76d6d8e)
+    3.  [6.402 Further reading](#org2371e87)
+11. [Week 11](#org0c69f19)
+    1.  [7.001 This weeks reading: Chollet, Chapter 1 - What is deep learning?](#org39d475a)
+    2.  [7.101 Artificial Intelligence, Machine Learning and Deep Learning](#orgfca092f)
+    3.  [7.103 Learning representations](#org7fc4827)
+    4.  [7.105 The deep in deep learning](#orgeb7f601)
+    5.  [7.107 Understanding how DL works in three figures](#orgaf2ec6f)
+    6.  [7.109 Achievements. Short-term hype. The promise of AI.](#org2e9ce62)
+12. [Week 12](#org205d2d2)
+    1.  [8.100 This weeks reading - Chollet, Chapter 2.1 and 2.2](#org2ea1c1c)
+    2.  [8.101 MNIST. Loading MNIST in Keras. Network architecture.](#org3fe6a15)
+    3.  [8.103 Compilation (pre-process)](#org55a9329)
+    4.  [8.105 Building the network](#orgae60783)
+    5.  [8.107 Train network](#org1bb580e)
+    6.  [8.109 Test network](#org4d5f5db)
 
 
 
-<a id="orgc7405e7"></a>
+<a id="org25037ac"></a>
 
 # Week 1
 
@@ -58,7 +65,7 @@ Key Concepts
 -   Describe various applications of machine learning
 
 
-<a id="org9d830eb"></a>
+<a id="org185a504"></a>
 
 ## 1.101 Applications of Machine Learning
 
@@ -106,7 +113,7 @@ executing (sitting, walking, running, playing footbal) based on the
 data from sensors the user&rsquo;s wearing.
 
 
-<a id="orga5c5189"></a>
+<a id="orgbd5da14"></a>
 
 ## 1.102 Types of ML
 
@@ -121,11 +128,11 @@ than hardcode a solution. There are two types of machine learning
     clustering data in subgroups. For example, given a dataset
     containing pictures of animals, separate the images by animal.
 
-We can use the decision tree depicted in figure [1](#org833b5d7)
+We can use the decision tree depicted in figure [1](#org12d0197)
 to decide which type of Machine Learning application to apply:
 
 \begin{figure}[h]
-\label{org833b5d7}
+\label{org12d0197}
   \centering
   \begin{tikzpicture}
 
@@ -155,7 +162,7 @@ a sequence of actions that entail some reward. This can be used to
 teach a machine how to play a specific video game.
 
 
-<a id="org6dd663f"></a>
+<a id="org1738457"></a>
 
 # Week 2
 
@@ -166,7 +173,7 @@ Key Concepts
 -   Describe various applications of machine learning
 
 
-<a id="orgcf6920c"></a>
+<a id="orgec5ec8c"></a>
 
 ## 1.202 Further reading
 
@@ -183,7 +190,7 @@ Key Concepts
     9780262018029]
 
 
-<a id="orgf27d982"></a>
+<a id="org32b6e84"></a>
 
 # Week 3
 
@@ -194,7 +201,7 @@ Key Concepts
 -   Evaluate a supervised classification algorithm on a dataset
 
 
-<a id="orgc6d54db"></a>
+<a id="org4332920"></a>
 
 ## 2.101 Introduction to supervised Learning
 
@@ -202,7 +209,7 @@ Classification is a type of supervised learning where the labels on
 a data are discrete and categorical.
 
 
-<a id="org262e5cf"></a>
+<a id="org6e103c0"></a>
 
 ## 2.201 K-Nearest Neighbours Classification
 
@@ -223,7 +230,7 @@ means that we don&rsquo;t generalize on the training dataset until we
 want to make a query.
 
 
-<a id="org9bc7903"></a>
+<a id="org6c82f91"></a>
 
 ## 2.301 Decision tree
 
@@ -236,13 +243,13 @@ Forests, which is among the most powerufl class of machine learning
 algorithm.
 
 To illustrate how Decision Tree algorithm, we will look at how we
-can classify Hares vs Rabbits. Figure [1](#org833b5d7) shows and
+can classify Hares vs Rabbits. Figure [1](#org12d0197) shows and
 example of how the decision tree could look like. When applying the
 algorithm to a new data to be classified, we descend through the
 tree until we get to a leaf node.
 
 \begin{figure}[h]
-\label{org95ceb30}
+\label{org207051f}
   \centering
   \begin{tikzpicture}
     \node[fill=blue!20] (root) {Burrows?};
@@ -275,7 +282,7 @@ generalize the trained model to other sets of data. Finding the
 optimal split and feature combination is an NP-complete problem.
 
 
-<a id="orgce7c137"></a>
+<a id="org6b7c98d"></a>
 
 # Week 4
 
@@ -286,7 +293,7 @@ Key Concepts
 -   Evaluate a supervised classification algorithm on a dataset
 
 
-<a id="orgd9d6b45"></a>
+<a id="orge4a34ab"></a>
 
 ## 2.501 Classifier evaluation
 
@@ -297,9 +304,9 @@ quality of a classifier.
 Another approach to measuring quality of the classifier is to
 employ a [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix). This matrix lets us compare a true
 condition vs a predicted condition, Like shown in table
-[1](#orgc4fe2e7).
+[1](#org8cb2483).
 
-<table id="orgc4fe2e7" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org8cb2483" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Confusion Matrix</caption>
 
 <colgroup>
@@ -372,7 +379,7 @@ The *False Positive Rate*, also known as Fall-out is computed as:
 \end{align*}
 
 
-<a id="org2795dad"></a>
+<a id="orgf75266d"></a>
 
 ## 2.602 Further reading
 
@@ -392,7 +399,7 @@ The *False Positive Rate*, also known as Fall-out is computed as:
     9, sections 9.1 to 9.3.
 
 
-<a id="orge7d0f9a"></a>
+<a id="org07a4e8b"></a>
 
 # Week 5
 
@@ -403,16 +410,16 @@ Key Concepts
 -   Explain the concept of linear regression and interpret results.
 
 
-<a id="orgd894d72"></a>
+<a id="org33919ea"></a>
 
 ## 3.102 Linear regression
 
 Linear Regression is a method for predicting output based on a
-linear combination of the input. Figure [8](#orgfdad8de) shows
+linear combination of the input. Figure [8](#orga1ff496) shows
 an example of this.
 
 \begin{figure}[h]
-\label{orgfdad8de}
+\label{orga1ff496}
   \centering
   \begin{tikzpicture}
     \begin{axis}[
@@ -512,7 +519,7 @@ The goal is to minimize the function \(J(\theta)\), thus minimizing
 the error of the regression line.
 
 
-<a id="org1cb84ca"></a>
+<a id="orge31896f"></a>
 
 ## 3.202 Further reading
 
@@ -523,7 +530,7 @@ the error of the regression line.
     Chapter 2 Linear Algebra
 
 
-<a id="org231931e"></a>
+<a id="orgfe404a3"></a>
 
 # Week 6
 
@@ -534,7 +541,7 @@ Key Concepts
 -   Explain the concept of linear regression and interpret results.
 
 
-<a id="org90bc764"></a>
+<a id="org47e9171"></a>
 
 ## 3.301 Gradient descent in 1D
 
@@ -548,10 +555,10 @@ by:
 \end{align*}
 
 As an example, we can use a simple 3-point data as shown in figure
-[13](#orgddc2047). Initial \(\theta\) is \(0.25\).
+[13](#org8445117). Initial \(\theta\) is \(0.25\).
 
 \begin{figure}[h]
-\label{orgddc2047}
+\label{org8445117}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -571,10 +578,10 @@ As an example, we can use a simple 3-point data as shown in figure
 \end{figure}
 
 We measure the distance from each point to the random regression
-line as shown in figure [14](#org48e0f02).
+line as shown in figure [14](#orgd43b590).
 
 \begin{figure}[h]
-\label{org48e0f02}
+\label{orgd43b590}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -599,10 +606,10 @@ line as shown in figure [14](#org48e0f02).
 
 From this, we can compute \(J(\theta_{1}) = 7.4\). As we compute the
 losses, we can plot the result in another graph, shown in figure
-[15](#org3826e46).
+[15](#org5c8c6d3).
 
 \begin{figure}[h]
-\label{org3826e46}
+\label{org5c8c6d3}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -618,11 +625,11 @@ losses, we can plot the result in another graph, shown in figure
 \end{figure}
 
 Increasing our \(\theta\) to 0.5, we get a new error, shown in figure
-[16](#org191e3fb). And that results in a new error \(J(\theta_2) = 3.3\),
-which we update in our plot as shown in figure [17](#org42c9308).
+[16](#org7cacafc). And that results in a new error \(J(\theta_2) = 3.3\),
+which we update in our plot as shown in figure [17](#org56ef982).
 
 \begin{figure}[h]
-\label{org191e3fb}
+\label{org7cacafc}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -646,7 +653,7 @@ which we update in our plot as shown in figure [17](#org42c9308).
 \end{figure}
 
 \begin{figure}[h]
-\label{org42c9308}
+\label{org56ef982}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -664,10 +671,10 @@ which we update in our plot as shown in figure [17](#org42c9308).
 
 We repeat the process again with \(\theta = 0.75\), which gives an
 error of \(\theta_3 = 0.82\). The results are shown in figures
-[18](#orga38cf60) and [19](#orgdb7e801).
+[18](#org8a8b0cb) and [19](#org50d02e2).
 
 \begin{figure}[h]
-\label{orga38cf60}
+\label{org8a8b0cb}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -691,7 +698,7 @@ error of \(\theta_3 = 0.82\). The results are shown in figures
 \end{figure}
 
 \begin{figure}[h]
-\label{orgdb7e801}
+\label{org50d02e2}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -730,7 +737,7 @@ compute the new value for \(\theta_1\), i.e. \(\theta_1^{(2)} =
    \theta_1^{(1)} - \alpha J_1'(\theta_1^{(1)})\)
 
 
-<a id="org924bda7"></a>
+<a id="org2b9bab8"></a>
 
 ## 3.303 Gradient descent in 2D
 
@@ -757,15 +764,15 @@ To summarise, the multivariate linear model is given by:
 \end{align*}
 
 
-<a id="org3cb5768"></a>
+<a id="org31ed738"></a>
 
 ## 3.305 Data scaling
 
 When using multivariate data we can run into situations where the
 scale for each of the features in the data can be vastly different,
-as shown in table [2](#orga0c4973) below.
+as shown in table [2](#org8f0dda0) below.
 
-<table id="orga0c4973" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org8f0dda0" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Data Scale Can be Different</caption>
 
 <colgroup>
@@ -853,10 +860,10 @@ achieved with the equation below:
   x_j^s = \frac{x_j - min(x_j)}{max(x_j) - min(x_j)}
 \end{align*}
 
-Applying this to the previous table [2](#orga0c4973) results in the scaled
-table [3](#org0db5619) shown below.
+Applying this to the previous table [2](#org8f0dda0) results in the scaled
+table [3](#orgf20d92e) shown below.
 
-<table id="org0db5619" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orgf20d92e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 3:</span> Data Scale Corrected With Min-Max Normalisation</caption>
 
 <colgroup>
@@ -954,7 +961,7 @@ A third approach is called Standardization, or z-score.
 \end{align*}
 
 
-<a id="org8a89618"></a>
+<a id="orgca4bb8b"></a>
 
 ## 3.306 Polynomial regression
 
@@ -963,14 +970,14 @@ increasing the number of \(\theta\) terms to try to better fit the
 data.
 
 
-<a id="orgc561748"></a>
+<a id="orga37318d"></a>
 
 ## 3.402 Further reading
 
 -   Chapter 2, section 2.4 of the course textbook (Chollet)
 
 
-<a id="org947d498"></a>
+<a id="org289353e"></a>
 
 # Week 7
 
@@ -981,16 +988,16 @@ Key Concepts
 -   Explain the effect of overfitting.
 
 
-<a id="org74fb0ad"></a>
+<a id="org9ac2385"></a>
 
 ## 4.101 Overfitting and underfitting
 
 A regression that&rsquo;s too simple to fit the data is said to
 *underfit* the data, or has a High Bias. An example of which is
-shown in figure [26](#org3f09dc5).
+shown in figure [26](#orgf7a96e5).
 
 \begin{figure}[h]
-\label{org3f09dc5}
+\label{orgf7a96e5}
   \centering
   \begin{tikzpicture}
     \draw[->] (-0.2, 0) -- (5, 0);
@@ -1014,13 +1021,13 @@ A regression with a high degree that fits the data too perfectly is
 said to overfit the data<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>, or has a high variance.
 
 We can evaluate a model with the Bias-variance curve, as shown in
-figure [27](#orgc5eaa3f). At the left side of the graph, we have
+figure [27](#org7b45309). At the left side of the graph, we have
 underfitting (high bias), at the right side we have overfitting
 (high variance). We want to find a model that sits in the middle of
 the Bias-variance curve.
 
 \begin{figure}[h]
-\label{orgc5eaa3f}
+\label{org7b45309}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:7,
@@ -1057,7 +1064,7 @@ techniques:
     -   Works well when we have a lot of features
 
 
-<a id="orgbe9da9b"></a>
+<a id="orge9e7dad"></a>
 
 ## 4.201 Regularisation
 
@@ -1085,7 +1092,7 @@ Note that the regularisation hyperparamter \(\lambda\) must be tuned:
 -   **\(\lambda\) too small:** results in **overfitting**
 
 
-<a id="orgb4d7c9a"></a>
+<a id="org33b6b64"></a>
 
 ## 4.301 Cross-validation
 
@@ -1101,10 +1108,10 @@ approach that maximizes the use of our daata is called *N-fold
 Cross-Validation*. In summary, we will run the process of splitting
 the data into test and training sets, train and evaluate the model
 multiple times, an example of this is depicted in figure
-[28](#org891137d).
+[28](#orgc82ee3d).
 
 \begin{figure}[h]
-\label{org891137d}
+\label{orgc82ee3d}
   \centering
   \begin{tikzpicture}
     \draw[draw=none, fill=orange!20] (0,0) rectangle node[pos=.5]{Test} (2, 1);
@@ -1135,7 +1142,7 @@ each of the *N* splits. In other words \[e_{total} = \frac{1}{n}
    \sum_{i=1}^{n} e_i\] is the total error.
 
 
-<a id="org9aec085"></a>
+<a id="orgbff77d5"></a>
 
 # Week 8
 
@@ -1147,7 +1154,7 @@ Key Concepts
 -   Explain Bayes’ rule
 
 
-<a id="org9dc5ee7"></a>
+<a id="orgdf92548"></a>
 
 ## 5.101 Bayesian classification
 
@@ -1183,7 +1190,7 @@ Some probability rules:
 -   **Bayes Theorem:** \(P(B \mid A) = \dfrac{P(A \mid B)P(B)}{P(A)}\)
 
 
-<a id="org9ad6fe6"></a>
+<a id="orgeed8166"></a>
 
 ## 5.103 The Naive Bayes Classifier
 
@@ -1207,7 +1214,7 @@ The final formulation for the Naive Bayes Classifier is:
 \end{align*}
 
 
-<a id="org44190a4"></a>
+<a id="org0a68fa9"></a>
 
 ## 5.202 Further reading
 
@@ -1217,7 +1224,7 @@ The final formulation for the Naive Bayes Classifier is:
     9780262028189].
 
 
-<a id="orgc74eb6f"></a>
+<a id="org7c41fc8"></a>
 
 # Week 9
 
@@ -1228,7 +1235,7 @@ Key Concepts
 -   explain principal component analysis (PCA) and its properties.
 
 
-<a id="org0a4928f"></a>
+<a id="orgf76d41c"></a>
 
 ## 6.102 Clustering
 
@@ -1238,12 +1245,12 @@ clustering, the goal is to separate our data points into groups
 based on some sort of similarit index. The K-Means algorithm is one
 implementation of this basic concept.
 
-Given figure [33](#orgbc60a35) below, we want separate the points into
-disjoint sets similarly to he one shown in [34](#org2068cd1)
+Given figure [33](#orgdbe53bf) below, we want separate the points into
+disjoint sets similarly to he one shown in [34](#orgbd039cf)
 that follows.
 
 \begin{figure}[h]
-\label{orgbc60a35}
+\label{orgdbe53bf}
   \centering
   \begin{tikzpicture}[only marks]
     \begin{axis}
@@ -1259,7 +1266,7 @@ that follows.
 \end{figure}
 
 \begin{figure}[h]
-\label{org2068cd1}
+\label{orgbd039cf}
   \centering
   \begin{tikzpicture}[only marks]
     \begin{axis}
@@ -1287,7 +1294,7 @@ that follows.
 \end{figure}
 
 
-<a id="orgb59a39b"></a>
+<a id="org0c74dca"></a>
 
 ## 6.103 K-Mean
 
@@ -1308,7 +1315,7 @@ which will make sure that every axis falls within the interval
 \([0,1]\).
 
 
-<a id="orgb96ee90"></a>
+<a id="org46c9c85"></a>
 
 # Week 10
 
@@ -1319,7 +1326,7 @@ Key Concepts
 -   explain principal component analysis (PCA) and its properties.
 
 
-<a id="orga886925"></a>
+<a id="org7c9864c"></a>
 
 ## 6.301 Dimensionality reduction
 
@@ -1331,7 +1338,7 @@ input data and working with the first few of them, rather than the
 full data input.
 
 
-<a id="orgfb64f12"></a>
+<a id="org76d6d8e"></a>
 
 ## 6.302 PCA
 
@@ -1378,7 +1385,7 @@ values for \(\mathbf{W}\).
 \[[\mathbf{W},\mathbf{\Lambda}]=\eig{S},\] where \(\mathbf{S}=\cov{X}\).
 
 
-<a id="orga9a8f57"></a>
+<a id="org2371e87"></a>
 
 ## 6.402 Further reading
 
@@ -1389,7 +1396,7 @@ values for \(\mathbf{W}\).
     Press, 2014) 3rd edition [ISBN 9780262028189].
 
 
-<a id="orgb214114"></a>
+<a id="org0c69f19"></a>
 
 # Week 11
 
@@ -1403,7 +1410,7 @@ Key Concepts
 -   Explain machine learning workflow
 
 
-<a id="orgb40a9e9"></a>
+<a id="org39d475a"></a>
 
 ## 7.001 This weeks reading: Chollet, Chapter 1 - What is deep learning?
 
@@ -1411,7 +1418,7 @@ Key Concepts
     Publications, 2017). Chapter 1.1 What is deep learning?
 
 
-<a id="org4d064be"></a>
+<a id="orgfca092f"></a>
 
 ## 7.101 Artificial Intelligence, Machine Learning and Deep Learning
 
@@ -1438,7 +1445,7 @@ fruition employing Neural Networks as a form of learning. We call
 this *Deep Learning*.
 
 
-<a id="org0b9df62"></a>
+<a id="org7fc4827"></a>
 
 ## 7.103 Learning representations
 
@@ -1538,7 +1545,7 @@ representations. Possible transformations include translations,
 rotations, linear projections, and non-linear operations.
 
 
-<a id="org03cc606"></a>
+<a id="orgeb7f601"></a>
 
 ## 7.105 The deep in deep learning
 
@@ -1561,11 +1568,11 @@ first layer of the network which transforms the data into a \(512\)
 element vector which is subsequently fed into the second
 layer. The output from the second layer is \(10\) element vector
 containing floating point values that encode the probability that
-the digit is one of 0&#x2013;9, see figure [38](#org6f7131c) for a simple
+the digit is one of 0&#x2013;9, see figure [38](#org03ce891) for a simple
 representation of the network.
 
 \begin{figure}[h]
-\label{org6f7131c}
+\label{org03ce891}
   \centering
   \begin{tikzpicture}
     \tikzstyle{layer}=[rectangle, draw, minimum width=0.5cm]
@@ -1589,7 +1596,7 @@ representation of the network.
 \end{figure}
 
 
-<a id="orge1d0044"></a>
+<a id="orgaf2ec6f"></a>
 
 ## 7.107 Understanding how DL works in three figures
 
@@ -1612,11 +1619,11 @@ As we iterate over the training data, the loss slowly drops and the
 network becomes a better predictor. The optimizer implements an
 algorithm known as *Back propagation*. After training the network
 with this process, we test the performance of the model using
-unseen data. See figure [39](#orgf44edda) for a depiction of this
+unseen data. See figure [39](#org8de8450) for a depiction of this
 fact.
 
 \begin{figure}[h]
-\label{orgf44edda}
+\label{org8de8450}
   \centering
   \begin{tikzpicture}[node distance=2.5cm]
     \tikzstyle{layer}=[rectangle, draw, minimum width=0.5cm, minimum height=4cm]
@@ -1644,7 +1651,7 @@ fact.
 \end{figure}
 
 
-<a id="org582be24"></a>
+<a id="org2e9ce62"></a>
 
 ## 7.109 Achievements. Short-term hype. The promise of AI.
 
@@ -1690,6 +1697,176 @@ There are reasons to doubt a third winter:
 -   Continued diffusion into everyday life even if research stalls
 -   Many new applications: Assisting human scientists, climatology,
     drug discovery, and many more.
+
+
+<a id="org205d2d2"></a>
+
+# Week 12
+
+Key Concepts
+
+-   Understand the MNIST dataset
+-   Understand how a simple neural network is built and trained with
+    Tensorflow
+-   Understand neural network data representations
+
+
+<a id="org2ea1c1c"></a>
+
+## 8.100 This weeks reading - Chollet, Chapter 2.1 and 2.2
+
+-   Read Chollet (2017), Chapters 2.1 and 2.2.
+
+
+<a id="org3fe6a15"></a>
+
+## 8.101 MNIST. Loading MNIST in Keras. Network architecture.
+
+The MINIST dataset consists of 70,000 small grayscale images of
+handwritten digits. There are 60,000 **training** samples and 10,000
+**test** samples.
+
+Our workflow consists of a few steps:
+
+1.  Load data
+2.  Preprocess data
+3.  Build network
+4.  Train
+5.  Test
+
+To load MNIST in Keras, we can run the following python code:
+
+    from tensorflow.keras.datasets import mnist
+    (train_images, train_labels),(test_images, test_labels) = mnist.load_data()
+
+The data is stored in special multidimensional arrays called
+*Tensors*. 
+
+
+<a id="org55a9329"></a>
+
+## 8.103 Compilation (pre-process)
+
+The input data has to be *reshaped* to a format that&rsquo;s accepted by
+the neural network. Networks (usually) accept vectors &#x2014; i.e. 1D
+arrays &#x2014; of floating point values, therefore we have to convert
+the image representation into a long \(784\times1\) array.
+
+In the example that follows, we can see how to inspect the first
+element from the MNIST dataset.
+
+    import matplotlib.pyplot as plt
+    
+    image = test_images[0]
+    label = test_labels[0]
+    
+    print("sample:")
+    
+    plt.imshow(image, cmap=plt.cm.binary)
+    plt.show()
+    
+    print("label:", label)
+
+Preprocessing the data has three steps:
+
+1.  Flatten 2D pixel maps `reshape()`
+2.  Convert to floating points
+3.  Rescale to \([0, 1]\)
+
+All three steps are shown below with relevant comments:
+
+    # Flatten 2D pixel maps
+    train_images = train_images.reshape((60000, 28 * 28))
+    test_images = test_images.reshape((10000, 28 * 28))
+    
+    # Cast to floating points
+    train_images = train_images.astype('float32')
+    test_images = test_images.astype('float32')
+    
+    # Rescale to [0, 1]
+    train_images = train_images / 255
+    test_images = test_images / 255
+
+The network also expects categorically encoded labels, that is a
+vector where a single element is non-zero (sometimes referred to as
+*one-hot encoding*). This can be achieved with the code below.
+
+    from tensorflow.keras.utils import to_categorical
+    
+    train_labels = to_categorical(train_labels)
+    test_labels = to_categorical(test_labels)
+
+
+<a id="orgae60783"></a>
+
+## 8.105 Building the network
+
+When it comes to building our network, we start by importing
+`models` and `layers` from `keras`.
+
+    from tensorflow.keras import models, layers
+
+Then, we create an empty network.
+
+    network = models.Sequential()
+
+Next, we add two layers to the network.
+
+    # Hidden layer
+    network.add(layers.Dense(512, activation='relu', input_shape=(28 * 28,)))
+    
+    # Output layer
+    network.add(layers.Dense(10, activation='softmax'))
+
+With the `softmax` activation on the output layer, we get a vector
+of non-negative floats within the interval \([0,1]\) which encode the
+probability that the sample is each of the 10 digits.
+
+The network architecture is complete. In order to move on to
+training, we must define a Loss Function, an optimizer, and more
+training metrics.
+
+The Loss Functions quantifies the error of the prediction, the
+optimizer adjusts parameters during the training loop, and metrics
+report on progress.
+
+    network.compile(optimizer='rmsprop',
+    		loss='categorical_crossentropy',
+    		metrics=['accuracy'])
+
+
+<a id="org1bb580e"></a>
+
+## 8.107 Train network
+
+Looking back at figure [39](#org8de8450), we can match our chosen
+*pieces* to the diagram. Now we must decide on the <span class="underline">mini-batch
+size</span> &#x2014; number of samples processed in a single pass of the
+algorithm &#x2014;, and the <span class="underline">number of epochs</span> &#x2014; the number of
+complete passes through the entire training set.
+
+    network.train(train_images, train_labels, epochs=5, batch_size=128)
+
+After training, the network has to be tested.
+
+
+<a id="org4d5f5db"></a>
+
+## 8.109 Test network
+
+To evaluate our trained network, we must provide some unseen data
+and compute the resulting accuracy.
+
+    test_loss, test_acc = network.evaluate(test_images, test_labels)
+
+We can also request for the prediction of a single sample.
+
+    network.predict(test_images[:1])
+
+The network prediction is the maximum of this prediction vector.
+
+    import numpy as np
+    np.argmax(network.predict(test_images[:1]))
 
 
 # Footnotes
