@@ -1,71 +1,78 @@
 
 # Table of Contents
 
-1.  [Week 1](#org0807946)
-    1.  [1.005 Reading list](#org6e2dfb7)
-    2.  [1.101 Where does data come from?](#org514e705)
-    3.  [1.103 Ordering some data: What&rsquo;s on the menu?](#orgfe4c1e4)
-    4.  [1.105 What does your data look like?](#org84dd590)
-    5.  [1.201 Bringing data sources together](#org8b99b00)
-    6.  [1.203 Licenses, sharing and ethics](#org7e64285)
-    7.  [1.204 Licensing](#org2b20a71)
-2.  [Week 2](#org0f4ef23)
-    1.  [1.301 What shape is your data? Introduction](#org232afcf)
-    2.  [1.302 What shape is your data? Tables](#orgfe81519)
-    3.  [1.304 What shape is your data? Trees](#orgd0917d4)
-    4.  [1.306 What shape is your data? Other](#org65eb777)
-    5.  [1.402 Further reading](#orgadbb8ce)
-3.  [Week 3](#org7f85076)
-    1.  [2.001 Welcome to Relational Databases](#orgcabcabf)
-    2.  [2.101 Drawing a database I: Basic Entity-Relationship diagrams](#org1c785eb)
-    3.  [2.104 Speaking to databases I: Basic SQL](#orgf9932ac)
-4.  [Week 4](#orgdf4f566)
-    1.  [2.201 Introducing Joins](#org330efa5)
-    2.  [2.203 Drawing a database II: More about joins](#org5d01795)
-    3.  [2.204 E/R diagrams summary](#org167f082)
-    4.  [2.301 Database integrity and the role of keys](#orgd2a650c)
-    5.  [2.303 Speaking to Databases II: SQL for joins and keys](#orgfe854ae)
-    6.  [2.402 Further reading](#org22e44db)
-5.  [Week 5](#org66883ea)
-    1.  [3.001 Introduction to data Integrity and security](#orgd6fe820)
-    2.  [3.103 Normalisation and the normal forms I](#org27b2cea)
-    3.  [3.104 Normalisation and the normal forms II](#orge8afaa5)
-    4.  [3.105 On the normal forms](#org492843b)
-6.  [Week 6](#org97f64f5)
-    1.  [3.201 On ACID: Guaranteeing a DBMS against errors](#orgfb6d2b2)
-    2.  [3.203 Transactions and serialisation](#org8a8c7e6)
-    3.  [3.204 More depth on ACID and integrity risks](#orgb8b9b41)
-    4.  [3.301 Malice and accidental damage](#orga7a42ab)
-    5.  [3.303 Security and user policies with SQL](#org1fb9613)
-    6.  [3.402 Further reading](#orgc02e3d9)
-7.  [Week 7](#org9d34518)
-    1.  [4.004 Getting practice with MySQL (Lab introduction)](#org1056e76)
-    2.  [4.007 Connecting to an SQL RDBMS](#org4945aca)
-8.  [Week 8](#orgbff8a26)
-    1.  [4.201 Using libraries to update data in a database](#orgf20a99f)
-    2.  [4.402 Further reading](#org6a119a0)
-9.  [Week 9](#org12e8c3f)
-    1.  [5.101 Query efficiency](#org9012a6d)
-    2.  [5.103 Removing the safety net: denormalisation](#orgb0f09c7)
-10. [Week 11](#orgb5ca5d2)
-    1.  [6.001 Introduction to distributed databases and alternative database models](#org2a3c79a)
-    2.  [6.101 Approaches to distributing RDBMS](#orge6b01c0)
-    3.  [6.103 Distributed database tradeoffs: gains and losses](#orgd5f647d)
-    4.  [6.201 Key/Value databases and MapReduce](#orgacb9789)
-    5.  [6.202 Jeffrey Dean and Sanjay Ghemawat introducing MapReduce](#org011dfc8)
-11. [Week 12](#org3c0088d)
-    1.  [6.301 Document databases and MongoDB](#orga9d880a)
-12. [Week 13](#orgf106de7)
-    1.  [7.101 Semantic databases: What does a table actually tell us?](#orgea09dcb)
-    2.  [7.103 Shared meaning in the real world](#org41e48b8)
-    3.  [7.105 XML: Documents with semantics](#org98617cb)
-13. [Week 14](#org6bb468b)
-    1.  [7.204 Transforming XML: XML Pipelines](#orgdc5b35c)
-    2.  [7.301 XML Schemata: Syntax and semantics for XML](#org8cd2614)
+1.  [Week 1](#org818c168)
+    1.  [1.005 Reading list](#orge71206d)
+    2.  [1.101 Where does data come from?](#org4c011b5)
+    3.  [1.103 Ordering some data: What&rsquo;s on the menu?](#orgf434022)
+    4.  [1.105 What does your data look like?](#org1da4099)
+    5.  [1.201 Bringing data sources together](#orgfc6e475)
+    6.  [1.203 Licenses, sharing and ethics](#org9237857)
+    7.  [1.204 Licensing](#orgdcfc051)
+2.  [Week 2](#org6ec34bc)
+    1.  [1.301 What shape is your data? Introduction](#orgc97d7b3)
+    2.  [1.302 What shape is your data? Tables](#org8a5d9ea)
+    3.  [1.304 What shape is your data? Trees](#orge3313d6)
+    4.  [1.306 What shape is your data? Other](#org6667bcf)
+    5.  [1.402 Further reading](#org686c2e2)
+3.  [Week 3](#org51789a1)
+    1.  [2.001 Welcome to Relational Databases](#orgd583cd2)
+    2.  [2.101 Drawing a database I: Basic Entity-Relationship diagrams](#org21ef7f0)
+    3.  [2.104 Speaking to databases I: Basic SQL](#orgcb9e7e9)
+4.  [Week 4](#org01e56a8)
+    1.  [2.201 Introducing Joins](#org5b2c1d7)
+    2.  [2.203 Drawing a database II: More about joins](#orge03b694)
+    3.  [2.204 E/R diagrams summary](#org7167c84)
+    4.  [2.301 Database integrity and the role of keys](#org16364c4)
+    5.  [2.303 Speaking to Databases II: SQL for joins and keys](#org7db2e1c)
+    6.  [2.402 Further reading](#orgd4bf2ea)
+5.  [Week 5](#orgea3bf96)
+    1.  [3.001 Introduction to data Integrity and security](#org48cda64)
+    2.  [3.103 Normalisation and the normal forms I](#org0a4f47d)
+    3.  [3.104 Normalisation and the normal forms II](#org677e267)
+    4.  [3.105 On the normal forms](#orgf2bc1e6)
+6.  [Week 6](#orga211121)
+    1.  [3.201 On ACID: Guaranteeing a DBMS against errors](#org7c5edfd)
+    2.  [3.203 Transactions and serialisation](#org15a5712)
+    3.  [3.204 More depth on ACID and integrity risks](#orgc2a11e9)
+    4.  [3.301 Malice and accidental damage](#orge3646d6)
+    5.  [3.303 Security and user policies with SQL](#orgc19a290)
+    6.  [3.402 Further reading](#org384ed00)
+7.  [Week 7](#orgee8769b)
+    1.  [4.004 Getting practice with MySQL (Lab introduction)](#orgcb2a4fa)
+    2.  [4.007 Connecting to an SQL RDBMS](#org5d15fd3)
+8.  [Week 8](#org3dc8aea)
+    1.  [4.201 Using libraries to update data in a database](#orgc4561a2)
+    2.  [4.402 Further reading](#org993d327)
+9.  [Week 9](#org397dd96)
+    1.  [5.101 Query efficiency](#orgb619c55)
+    2.  [5.103 Removing the safety net: denormalisation](#org21f77c8)
+10. [Week 11](#org889536e)
+    1.  [6.001 Introduction to distributed databases and alternative database models](#org1f1f6bb)
+    2.  [6.101 Approaches to distributing RDBMS](#org93eab40)
+    3.  [6.103 Distributed database tradeoffs: gains and losses](#org08b676f)
+    4.  [6.201 Key/Value databases and MapReduce](#org36a5b15)
+    5.  [6.202 Jeffrey Dean and Sanjay Ghemawat introducing MapReduce](#orgabc8ffa)
+11. [Week 12](#org30a0be6)
+    1.  [6.301 Document databases and MongoDB](#orgeef5aff)
+12. [Week 13](#org3897994)
+    1.  [7.101 Semantic databases: What does a table actually tell us?](#orgb4e6a92)
+    2.  [7.103 Shared meaning in the real world](#org365e55f)
+    3.  [7.105 XML: Documents with semantics](#orga7f59b8)
+13. [Week 14](#org21f3efe)
+    1.  [7.204 Transforming XML: XML Pipelines](#orga5b73c3)
+    2.  [7.301 XML Schemata: Syntax and semantics for XML](#org2f3d946)
+14. [Week 15](#org8212e2a)
+    1.  [8.002 Open, Linked and Data](#orga2cef44)
+    2.  [8.004 Tim Berners-Lee&rsquo;s Proposal – inventing the web](#org1c9e5c4)
+    3.  [8.101 RDF: the model and its serialisations](#orgceed424)
+    4.  [8.103 Thinking in graphs](#orgd145f6d)
+    5.  [8.201 Introduction to web ontologies](#org285f9fc)
+    6.  [8.205 Designing an ontology](#org62360bc)
 
 
 
-<a id="org0807946"></a>
+<a id="org818c168"></a>
 
 # Week 1
 
@@ -78,7 +85,7 @@ Key Concepts
 -   Evaluate data-related access and reuse rights
 
 
-<a id="org6e2dfb7"></a>
+<a id="orge71206d"></a>
 
 ## 1.005 Reading list
 
@@ -107,7 +114,7 @@ Key Concepts
 -   Lewis, D. CO2209 Database systems
 
 
-<a id="org514e705"></a>
+<a id="org4c011b5"></a>
 
 ## 1.101 Where does data come from?
 
@@ -160,7 +167,7 @@ need. As a final concern, there may be concerns of trustworthiness
 with regards to the data.
 
 
-<a id="orgfe4c1e4"></a>
+<a id="orgf434022"></a>
 
 ## 1.103 Ordering some data: What&rsquo;s on the menu?
 
@@ -169,7 +176,7 @@ with regards to the data.
 -   Post 2: Trevor Munoz, &rsquo;[Refining the problem](http://trevormunoz.com/notebook/2013/08/19/refining-the-problem-more-work-with-nypl-open-data-part-two.html)&rsquo;
 
 
-<a id="org84dd590"></a>
+<a id="org1da4099"></a>
 
 ## 1.105 What does your data look like?
 
@@ -244,7 +251,7 @@ comparison against other similar titles, a long form may be
 required.
 
 
-<a id="org8b99b00"></a>
+<a id="orgfc6e475"></a>
 
 ## 1.201 Bringing data sources together
 
@@ -254,7 +261,7 @@ required.
     Elevates Unsung Histories](https://www.pratt.edu/news/view/how-mapping-relationships-between-jazz-musicians-elevates-unsung-histories)
 
 
-<a id="org7e64285"></a>
+<a id="org9237857"></a>
 
 ## 1.203 Licenses, sharing and ethics
 
@@ -297,14 +304,14 @@ Conversely, here are some reasons **not** to share open data:
 -   Value of the data
 
 
-<a id="org2b20a71"></a>
+<a id="orgdcfc051"></a>
 
 ## 1.204 Licensing
 
 -   Alex Ball, [How to License research data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data)
 
 
-<a id="org0f4ef23"></a>
+<a id="org6ec34bc"></a>
 
 # Week 2
 
@@ -315,7 +322,7 @@ Key Concepts
 -   Evaluate data-related access and reuse rights
 
 
-<a id="org232afcf"></a>
+<a id="orgc97d7b3"></a>
 
 ## 1.301 What shape is your data? Introduction
 
@@ -351,16 +358,16 @@ Some of the *shapes* of data we will deal with are:
 -   Documents & objects
 
 
-<a id="orgfe81519"></a>
+<a id="org8a5d9ea"></a>
 
 ## 1.302 What shape is your data? Tables
 
 A table has cells with a number of rows and columns. In our case,
 every row represents a *thing*. Each column represents a type of
-information about that *thing*. Table [2](#org3d4aa63) shows an
+information about that *thing*. Table [2](#orge2e7c4e) shows an
 example of such a table:
 
-<table id="org3d4aa63" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orge2e7c4e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Sample Table</caption>
 
 <colgroup>
@@ -402,17 +409,17 @@ hierarchy. A better suited representation for such data would be
 Trees.
 
 
-<a id="orgd0917d4"></a>
+<a id="orge3313d6"></a>
 
 ## 1.304 What shape is your data? Trees
 
 A tree is Computer Science is based on the metaphor of a real
-tree. Figure [1](#orgd471f68) below shows an example of a simple tree
+tree. Figure [1](#org725917d) below shows an example of a simple tree
 structure. Every tree has a root node, every branch in the tree has
 a path to the root.
 
 Some vocabulary is necessary, the following refers to the tree
-from figure [1](#orgd471f68).
+from figure [1](#org725917d).
 
 -   The *root* of the tree is node *a*
 -   Nodes *e*, *g*, *i*, *k* *l*, *m*, *n*, *o*, *p*, *r*, *s*, and
@@ -424,7 +431,7 @@ from figure [1](#orgd471f68).
 -   Nodes *b*, *c*, *d*, *h*, and others are internal nodes
 
 \begin{figure}[h]
-\label{orgd471f68}
+\label{org725917d}
   \centering
   \begin{tikzpicture}[
        level 1/.style={level distance=2cm,sibling distance=5cm},
@@ -463,7 +470,7 @@ from figure [1](#orgd471f68).
 \end{figure}
 
 
-<a id="org65eb777"></a>
+<a id="org6667bcf"></a>
 
 ## 1.306 What shape is your data? Other
 
@@ -476,14 +483,14 @@ representation of the filesystem as a tree. It&rsquo;s clear we need
 another structure to represent these sorts of structures. That
 structure is a graph.
 
-Figure [2](#orgeb831ac) shows a \(K_8\) complete graph. A complete
+Figure [2](#orga9ad9c7) shows a \(K_8\) complete graph. A complete
 graph is that where each vertex is connected to every other
 vertex. The vertices in a graph could be web pages and the edges
 could be links between them, or perhaps each node is a file with
 the edges being a filesystem path.
 
 \begin{figure}[h]
-\label{orgeb831ac}
+\label{orga9ad9c7}
 \centering
 \begin{tikzpicture}
   \graph[nodes=state, radius=4cm] { subgraph K_n [n=8, clockwise] };
@@ -495,10 +502,10 @@ structure. Raw sound samples fall into this category. Features are
 pieces of information derived from blobs, for example the sample
 rate from a raw audio file.
 
-Table [3](#org993ad79) shows a summary of the structures discussed so
+Table [3](#org2536c11) shows a summary of the structures discussed so
 far:
 
-<table id="org993ad79" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org2536c11" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Summary of structures</caption>
 
 <colgroup>
@@ -552,7 +559,7 @@ far:
 </table>
 
 
-<a id="orgadbb8ce"></a>
+<a id="org686c2e2"></a>
 
 ## 1.402 Further reading
 
@@ -561,7 +568,7 @@ far:
     (University of Minnesota Press, 2019).
 
 
-<a id="org7f85076"></a>
+<a id="org51789a1"></a>
 
 # Week 3
 
@@ -572,7 +579,7 @@ Key Concepts
 -   Explain core concepts of relations and relational theory
 
 
-<a id="orgcabcabf"></a>
+<a id="orgd583cd2"></a>
 
 ## 2.001 Welcome to Relational Databases
 
@@ -613,7 +620,7 @@ the design of a Relational Database.
 SQL is a *partial* of the relational model.
 
 
-<a id="org1c785eb"></a>
+<a id="org21ef7f0"></a>
 
 ## 2.101 Drawing a database I: Basic Entity-Relationship diagrams
 
@@ -624,13 +631,13 @@ subtypes:
 -   **Weak Entity:** its existence depends on the continued existence
     of other entities. For example, a customer&rsquo;s bank account depends
     on the existence of the account holder. This entity type is
-    depicted in figure [3](#org39f3366).
+    depicted in figure [3](#orgfb4ed41).
 
 -   **Strong Entity:** the one which is **not** weak. This entity type is
-    depicted in figure [4](#org3604d69).
+    depicted in figure [4](#org0b73c84).
     
     \begin{figure}[h]
-    \label{org39f3366}
+    \label{orgfb4ed41}
       \centering
       \begin{tikzpicture}[
        every attribute/.style={fill=green!20, thick},
@@ -643,7 +650,7 @@ subtypes:
     \end{figure}
     
     \begin{figure}[h]
-    \label{org3604d69}
+    \label{org0b73c84}
       \centering
       \begin{tikzpicture}[
        every attribute/.style={fill=green!20, thick},
@@ -657,7 +664,7 @@ subtypes:
 
 An *Attribute* is an information that describes one aspect of an
 entity. Attributes can be characterised in various ways (described
-below and depicted in figure [5](#org174c872)):
+below and depicted in figure [5](#org77709e0)):
 
 -   **Simple vs composite:** A **simple attribute** is atomic or scalar
     (a simple integer or string). A **composite attribute** has
@@ -682,7 +689,7 @@ below and depicted in figure [5](#org174c872)):
     of the entity type. In a diagram, it&rsquo;s shown underlined.
 
 \begin{figure}[h]
-\label{org174c872}
+\label{org77709e0}
   \centering
     \begin{tikzpicture}[
      every attribute/.style={fill=green!20, thick},
@@ -731,11 +738,11 @@ entities. Entities involved in a relationship are referred to as
 *participants*. A relationship is depicted as a diamond labelled
 with the name of the relationship. If one entity in the
 relationship is strong and the other weak, we draw the diamond with
-double line. Figure [6](#org355267c) shows the relationship types
+double line. Figure [6](#orga9bdf3d) shows the relationship types
 in a simple ER Diagram.
 
 \begin{figure}[h]
-\label{org355267c}
+\label{orga9bdf3d}
   \centering
   \begin{tikzpicture}[
      every attribute/.style={fill=green!20, thick},
@@ -756,7 +763,7 @@ in a simple ER Diagram.
 \end{figure}
 
 
-<a id="orgf9932ac"></a>
+<a id="orgcb9e7e9"></a>
 
 ## 2.104 Speaking to databases I: Basic SQL
 
@@ -784,7 +791,7 @@ query:
     );
 
 
-<a id="orgdf4f566"></a>
+<a id="org01e56a8"></a>
 
 # Week 4
 
@@ -795,16 +802,16 @@ Key Concepts
 -   Explain core concepts of relations and relational theory
 
 
-<a id="org330efa5"></a>
+<a id="org5b2c1d7"></a>
 
 ## 2.201 Introducing Joins
 
 Joins are used to make queries that collect data from two
-tables. Figure [7](#orgea127e9) shows a diagram for the
+tables. Figure [7](#orge840827) shows a diagram for the
 tables we will use to illustrate how to use Joins.
 
 \begin{figure}[h]
-\label{orgea127e9}
+\label{orge840827}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -862,11 +869,11 @@ below.
     FROM   Planet LEFT JOIN Moon
     ON     Planet.Name=Moon.HasPlanet;
 
-Figures [8](#org8e75e7a), [9](#orgbcb7877), and [10](#orgd5b833b), give a visual
+Figures [8](#org9ddb6e9), [9](#org457271c), and [10](#orgc569d1d), give a visual
 representation of some what results will be returned for the joins.
 
 \begin{figure}[h]
-\label{org8e75e7a}
+\label{org9ddb6e9}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -879,7 +886,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 \begin{figure}[h]
-\label{orgbcb7877}
+\label{org457271c}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -897,7 +904,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 \begin{figure}[h]
-\label{orgd5b833b}
+\label{orgc569d1d}
   \centering
   \begin{tikzpicture}
    \begin{scope}
@@ -915,7 +922,7 @@ representation of some what results will be returned for the joins.
 \end{figure}
 
 
-<a id="org5d01795"></a>
+<a id="orge03b694"></a>
 
 ## 2.203 Drawing a database II: More about joins
 
@@ -928,11 +935,11 @@ shown below:
     in table \(y\).
     
     In this case we want to use a Foreign Key by placing the primary
-    key of the table \(x\) into the table \(y\). Figure [11](#org80848b1)
+    key of the table \(x\) into the table \(y\). Figure [11](#org76cef93)
     shows a depiction of this case in an ER Diagram. If we want to
     show that at least one moon will be available, we use a double
     edge to connect the entity to the relation, as shown in figure
-    [12](#org4f0dcba).
+    [12](#org5eb3274).
     
     In this situation, the Moon table would be declared like so:
     
@@ -950,7 +957,7 @@ shown below:
     
     This can be implemented as the case above, but we should consider
     implementing it as a single entity with attributes. Figure
-    [13](#org9c168bc) shows an ER Diagram for this case.
+    [13](#org4899c3a) shows an ER Diagram for this case.
     
     The Project table would be declared like so:
     
@@ -966,8 +973,8 @@ shown below:
     
     This is impossible to implement with the Relational Model. We
     must add a new entity/relation. A depiction of the ER diagram is
-    shown in figure [14](#org015419d). The fix for this case is shown in
-    figure [15](#org5146665), it consists of adding a *Link Table*
+    shown in figure [14](#orge063fb3). The fix for this case is shown in
+    figure [15](#orgf643bbc), it consists of adding a *Link Table*
     to the model.
     
     The link table is created as shown below:
@@ -980,7 +987,7 @@ shown below:
         );
 
 \begin{figure}[h]
-\label{org80848b1}
+\label{org76cef93}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -997,7 +1004,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org4f0dcba}
+\label{org5eb3274}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1015,7 +1022,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org9c168bc}
+\label{org4899c3a}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1032,7 +1039,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org015419d}
+\label{orge063fb3}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1049,7 +1056,7 @@ shown below:
 \end{figure}
 
 \begin{figure}[h]
-\label{org5146665}
+\label{orgf643bbc}
   \centering
   \begin{tikzpicture}[auto,
      every attribute/.style={fill=green!20, thick},
@@ -1071,7 +1078,7 @@ shown below:
 \end{figure}
 
 
-<a id="org167f082"></a>
+<a id="org7167c84"></a>
 
 ## 2.204 E/R diagrams summary
 
@@ -1079,7 +1086,7 @@ shown below:
     2016).
 
 
-<a id="orgd2a650c"></a>
+<a id="org16364c4"></a>
 
 ## 2.301 Database integrity and the role of keys
 
@@ -1099,7 +1106,7 @@ negative values. Some of these problems that can arise are
 detectable and preventable if we design the database for that.
 
 
-<a id="orgfe854ae"></a>
+<a id="org7db2e1c"></a>
 
 ## 2.303 Speaking to Databases II: SQL for joins and keys
 
@@ -1124,7 +1131,7 @@ their solution with integrity constraints.
     dependencies**.
 
 
-<a id="org22e44db"></a>
+<a id="orgd4bf2ea"></a>
 
 ## 2.402 Further reading
 
@@ -1133,7 +1140,7 @@ their solution with integrity constraints.
     pp.9–36.
 
 
-<a id="org66883ea"></a>
+<a id="orgea3bf96"></a>
 
 # Week 5
 
@@ -1145,7 +1152,7 @@ Key Concepts
     normalisation as a tool to reduce those risks
 
 
-<a id="orgd6fe820"></a>
+<a id="org48cda64"></a>
 
 ## 3.001 Introduction to data Integrity and security
 
@@ -1163,7 +1170,7 @@ Sources of Error:
 -   **(Malicious) User activity:** Control of user privileges help
 
 
-<a id="org27b2cea"></a>
+<a id="org0a4f47d"></a>
 
 ## 3.103 Normalisation and the normal forms I
 
@@ -1176,7 +1183,7 @@ functionally dependent on attribute \(X\) if for any legal value of
 \(X\) there is exactly one associated value of \(Y\)&rdquo;.
 
 
-<a id="orge8afaa5"></a>
+<a id="org677e267"></a>
 
 ## 3.104 Normalisation and the normal forms II
 
@@ -1217,7 +1224,7 @@ The Normal Forms are:
     dependency \(A \twoheadrightarrow B\), \(A\) is a candidate key.
 
 
-<a id="org492843b"></a>
+<a id="orgf2bc1e6"></a>
 
 ## 3.105 On the normal forms
 
@@ -1228,7 +1235,7 @@ The Normal Forms are:
     banks&rsquo;, Comms of the ACM 13/6 1970, pp.377–87.
 
 
-<a id="org97f64f5"></a>
+<a id="orga211121"></a>
 
 # Week 6
 
@@ -1240,17 +1247,17 @@ Key Concepts
     normalisation as a tool to reduce those risks
 
 
-<a id="orgfb6d2b2"></a>
+<a id="org7c5edfd"></a>
 
 ## 3.201 On ACID: Guaranteeing a DBMS against errors
 
 To motivate the discussion, we create a scenario of a banking
 application handling money transfers. The stages for a transfer of
 £100 from A to B might be similar to the one illustrated in figure
-[16](#org3d09cd5) below.
+[16](#orgf54fc21) below.
 
 \begin{figure}[h]
-\label{org3d09cd5}
+\label{orgf54fc21}
   \centering
   \begin{tikzpicture}[node distance=4cm]
     % nodes
@@ -1322,14 +1329,14 @@ have:
     (i.e. transactions are recorded in non-volatile memory).
 
 
-<a id="org8a8c7e6"></a>
+<a id="org15a5712"></a>
 
 ## 3.203 Transactions and serialisation
 
-In figure [17](#org7ee77ca) we should a 3-stage transaction.
+In figure [17](#org79b878a) we should a 3-stage transaction.
 
 \begin{figure}[h]
-\label{org7ee77ca}
+\label{org79b878a}
   \centering
   \begin{tikzpicture}
     \tikzset{db/.style={draw, shape border rotate=90,
@@ -1363,14 +1370,14 @@ modify that particular set of data. This lock guarantees that no
 concurrent access to the data happens, thus forcing serialization.
 
 *Atomicity* requires the implementation of rollback, as shown in
-figure [18](#org3e892cd). This ensures that in case an operation in a
+figure [18](#orgfb9987c). This ensures that in case an operation in a
 block fails, we must be able to rollback to the state immediately
 before the block was started. In other words, we guarantee that the
 database returns to a *green* state in the event of a failed
 operation.
 
 \begin{figure}[h]
-\label{org3e892cd}
+\label{orgfb9987c}
   \centering
   \begin{tikzpicture}
     \tikzset{db/.style={draw, shape border rotate=90,
@@ -1398,10 +1405,10 @@ operation.
 Durability means that valid states are reliably recorded. The
 obvious way of achieving that is to write both states to persistent
 (i.e. non-volatile) storage as shown in figure
-[19](#orgdedfc43) below.
+[19](#org21ba99e) below.
 
 \begin{figure}[h]
-\label{orgdedfc43}
+\label{org21ba99e}
   \centering
   \begin{tikzpicture}
     \tikzset{db/.style={draw, shape border rotate=90,
@@ -1461,7 +1468,7 @@ Some details to keep in mind:
 data. One has multiple queries which give inconsistent information.
 
 
-<a id="orgb8b9b41"></a>
+<a id="orgc2a11e9"></a>
 
 ## 3.204 More depth on ACID and integrity risks
 
@@ -1469,7 +1476,7 @@ data. One has multiple queries which give inconsistent information.
     2016).
 
 
-<a id="orga7a42ab"></a>
+<a id="orge3646d6"></a>
 
 ## 3.301 Malice and accidental damage
 
@@ -1490,7 +1497,7 @@ are discussed below:
     inappropriately
 
 
-<a id="org1fb9613"></a>
+<a id="orgc19a290"></a>
 
 ## 3.303 Security and user policies with SQL
 
@@ -1577,7 +1584,7 @@ As a final thought, the goal of all this is grant users the
 of the system, thus reducing impact of error or malice.
 
 
-<a id="orgc02e3d9"></a>
+<a id="org384ed00"></a>
 
 ## 3.402 Further reading
 
@@ -1585,7 +1592,7 @@ of the system, thus reducing impact of error or malice.
     CA: Apress, 2019) Chapter 4. FDs and BCNF (informal)
 
 
-<a id="org9d34518"></a>
+<a id="orgee8769b"></a>
 
 # Week 7
 
@@ -1596,7 +1603,7 @@ Key Concepts
 -   Connect to an SQL-based database from a range of clients
 
 
-<a id="org1056e76"></a>
+<a id="orgcb2a4fa"></a>
 
 ## 4.004 Getting practice with MySQL (Lab introduction)
 
@@ -1632,7 +1639,7 @@ Some of the available functions are:
     group into a single string
 
 
-<a id="org4945aca"></a>
+<a id="org5d15fd3"></a>
 
 ## 4.007 Connecting to an SQL RDBMS
 
@@ -1661,7 +1668,7 @@ or
 In general, a response is an iterable container.
 
 
-<a id="orgbff8a26"></a>
+<a id="org3dc8aea"></a>
 
 # Week 8
 
@@ -1672,7 +1679,7 @@ Key Concepts
 -   Connect to an SQL-based database from a range of clients
 
 
-<a id="orgf20a99f"></a>
+<a id="orgc4561a2"></a>
 
 ## 4.201 Using libraries to update data in a database
 
@@ -1688,7 +1695,7 @@ an `INSERT` can be carried out as shown below.
 Any input must be sanitized to avoid SQL Injection attacks.
 
 
-<a id="org6a119a0"></a>
+<a id="org993d327"></a>
 
 ## 4.402 Further reading
 
@@ -1699,7 +1706,7 @@ Any input must be sanitized to avoid SQL Injection attacks.
 -   [Python](https://dev.mysql.com/doc/connector-python/en/connector-python-introduction.html)
 
 
-<a id="org12e8c3f"></a>
+<a id="org397dd96"></a>
 
 # Week 9
 
@@ -1711,7 +1718,7 @@ Key Concepts
     speed or reliability
 
 
-<a id="org9012a6d"></a>
+<a id="orgb619c55"></a>
 
 ## 5.101 Query efficiency
 
@@ -1849,7 +1856,7 @@ Hashing algorithms can be algorithms and hash tables can&rsquo;t support
 range searching or approximate searching.
 
 
-<a id="orgb0f09c7"></a>
+<a id="org21f77c8"></a>
 
 ## 5.103 Removing the safety net: denormalisation
 
@@ -1868,7 +1875,7 @@ An alternative approach is to employ *Views*. A View will act as a
 virtual table from which we can request data using regular queries.
 
 
-<a id="orgb5ca5d2"></a>
+<a id="org889536e"></a>
 
 # Week 11
 
@@ -1880,7 +1887,7 @@ Key Concepts
     distributed databases
 
 
-<a id="org2a3c79a"></a>
+<a id="org1f1f6bb"></a>
 
 ## 6.001 Introduction to distributed databases and alternative database models
 
@@ -1904,7 +1911,7 @@ interesting proposition. Some of which are shown below.
     want to process it all in one place.
 
 
-<a id="orge6b01c0"></a>
+<a id="org93eab40"></a>
 
 ## 6.101 Approaches to distributing RDBMS
 
@@ -1964,7 +1971,7 @@ A few important concepts are summarized below:
         into separate subnets, the database should run and recover
 
 
-<a id="orgd5f647d"></a>
+<a id="org08b676f"></a>
 
 ## 6.103 Distributed database tradeoffs: gains and losses
 
@@ -1972,7 +1979,7 @@ A few important concepts are summarized below:
     Changed](https://ieeexplore.ieee.org/document/6133253)&rsquo;, Computer 45(2) 2012, pp.23-29.
 
 
-<a id="orgacb9789"></a>
+<a id="org36a5b15"></a>
 
 ## 6.201 Key/Value databases and MapReduce
 
@@ -2010,7 +2017,7 @@ distribution and parallel processing. It can also recover from
 failure of all bu the coordinating node easily.
 
 
-<a id="org011dfc8"></a>
+<a id="orgabc8ffa"></a>
 
 ## 6.202 Jeffrey Dean and Sanjay Ghemawat introducing MapReduce
 
@@ -2018,7 +2025,7 @@ failure of all bu the coordinating node easily.
     tool&rsquo;, Communications of the ACM 53 (1) 2010.
 
 
-<a id="org3c0088d"></a>
+<a id="org30a0be6"></a>
 
 # Week 12
 
@@ -2029,7 +2036,7 @@ Key Concepts
 -   Explain the principles of distributed databases
 
 
-<a id="orga9d880a"></a>
+<a id="orgeef5aff"></a>
 
 ## 6.301 Document databases and MongoDB
 
@@ -2068,7 +2075,7 @@ capable of distributing the by means of *sharding* &#x2013; i.e. taking
 horizontal partitions of the data &#x2013;, and it&rsquo;s open source(*-ish*).
 
 
-<a id="orgf106de7"></a>
+<a id="org3897994"></a>
 
 # Week 13
 
@@ -2079,7 +2086,7 @@ Key Concepts
 -   Explain what is distinctive about a semantic database
 
 
-<a id="orgea09dcb"></a>
+<a id="orgb4e6a92"></a>
 
 ## 7.101 Semantic databases: What does a table actually tell us?
 
@@ -2125,7 +2132,7 @@ for the system itself to make use of logic and implement automated
 reasoning<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> for data retrieval.
 
 
-<a id="org41e48b8"></a>
+<a id="org365e55f"></a>
 
 ## 7.103 Shared meaning in the real world
 
@@ -2144,7 +2151,7 @@ Common Semantics
     semantics for humans
 
 
-<a id="org98617cb"></a>
+<a id="orga7f59b8"></a>
 
 ## 7.105 XML: Documents with semantics
 
@@ -2153,7 +2160,7 @@ defines rules to encode documents that are both human-readable and
 machine-readable.
 
 
-<a id="org6bb468b"></a>
+<a id="org21f3efe"></a>
 
 # Week 14
 
@@ -2164,7 +2171,7 @@ Key Concepts
 -   Explain what is distinctive about a semantic database
 
 
-<a id="orgdc5b35c"></a>
+<a id="orga5b73c3"></a>
 
 ## 7.204 Transforming XML: XML Pipelines
 
@@ -2179,10 +2186,10 @@ The eXtensible Stylesheet Language Transformations, XSLT, encodes
 how we want to transform the XML source. In order to use it, we
 need the input XML, the XSLT transformations, and a XSLT
 Processor, the output of which is the new transformed
-text. Something similar to figure [20](#orgc03494d) below.
+text. Something similar to figure [20](#org003a0f1) below.
 
 \begin{figure}[h]
-\label{orgc03494d}
+\label{org003a0f1}
   \centering
   \begin{tikzpicture}
     \node[box, minimum width=4cm] (proc) {XSLT Processor};
@@ -2207,7 +2214,7 @@ about FLWOR (pronounced as *flower*) where:
 -   **R:** `return` clause
 
 
-<a id="org8cd2614"></a>
+<a id="org2f3d946"></a>
 
 ## 7.301 XML Schemata: Syntax and semantics for XML
 
@@ -2240,6 +2247,206 @@ formally specify the structure of an XML document.
 
 This can used to validate an XML document, enforce integrity, and
 support debugging.
+
+
+<a id="org8212e2a"></a>
+
+# Week 15
+
+Key Concepts
+
+-   Design simple web ontologies
+-   Query semantic databases with SPARQL
+-   Design simple linked data systems
+
+
+<a id="orga2cef44"></a>
+
+## 8.002 Open, Linked and Data
+
+Openness
+
+-   Cost-free access
+-   Barrier-free access
+-   Restriction-free use
+
+*FAIR* data
+
+-   Findable
+-   Accessible
+-   Interoperable
+-   Reusable
+
+Web links
+
+-   Links are one-way
+    -   No permission needed
+    -   No central registry of links
+-   URL
+    -   Garanteed unique
+    -   Reponsibility of maintenance
+    -   Unlimited number of URLs
+    -   Unique ID independent of server
+
+
+<a id="org1c9e5c4"></a>
+
+## 8.004 Tim Berners-Lee&rsquo;s Proposal – inventing the web
+
+-   <https://www.w3.org/History/1989/proposal.html>
+
+
+<a id="orgceed424"></a>
+
+## 8.101 RDF: the model and its serialisations
+
+Web technologies are built around the Document Object Model
+(DOM). Linked data also has a model, called Remote Description
+Framework (RDF). Figure [21](#orge1a6056) shows a depiction of the RDF.
+
+\begin{figure}[h]
+\label{orge1a6056}
+  \centering
+  \begin{tikzpicture}
+    \node[rdfnode] (subject) {Subject};
+    \node[rdfnode, right=of subject] (object)  {Object};
+
+    \draw[->, thick] (subject) edge node [above] {Predicate} (object);
+  \end{tikzpicture}
+\end{figure}
+
+For example, we can state that *Deimos orbits Mars* with the
+diagram shown in figure [22](#org72383aa).
+
+\begin{figure}[h]
+\label{org72383aa}
+  \centering
+  \begin{tikzpicture}
+    \node[rdfnode] (subject) {Deimos};
+    \node[rdfnode, right=of subject] (object)  {Mars};
+
+    \draw[->, thick] (subject) edge node [above] {orbits} (object);
+  \end{tikzpicture}
+\end{figure}
+
+More relationships can be added, for example *Mars orbits The Sun*,
+*Mars is of type Planet*, *Deimos is of type Moon*, and so on. By
+combining these together, we can produce a much larger graph, as
+shown in figure [23](#org4397564).
+
+\begin{figure}[h]
+\label{org4397564}
+  \centering
+  \begin{tikzpicture}
+    \node[rdfnode] (mars) {Mars};
+    \node[rdfnode, above=of mars] (sun)  {The Sun};
+    \node[rdfnode, left=of mars] (deimos)  {Deimos};
+    \node[rdfnode, below=of mars] (planet)  {Planet};
+    \node[rdfnode, below=of deimos] (moon)  {Moon};
+
+    \draw[->, thick] (mars) edge node [right] {orbits} (sun)
+                     (mars) edge node [right] {type} (planet)
+                     (deimos) edge node [above] {orbits} (mars)
+                     (deimos) edge node [left] {type} (moon);
+
+  \end{tikzpicture}
+\end{figure}
+
+The *type* is so common, that usually it&rsquo;s wrapped up in the
+diagram, as shown in figure [24](#orgb229882).
+
+\begin{figure}[h]
+\label{orgb229882}
+  \centering
+  \begin{tikzpicture}
+    \node[rdfnode] (mars) {Mars\\a planet};
+    \node[rdfnode, above=of mars] (sun)  {The Sun};
+    \node[rdfnode, left=of mars] (deimos)  {Deimos\\a moon};
+
+    \draw[->, thick] (mars) edge node [right] {orbits} (sun)
+                     (deimos) edge node [above] {orbits} (mars);
+
+  \end{tikzpicture}
+\end{figure}
+
+There are challenges:
+
+-   Maintaining keys on the web
+-   Finding data on the web
+-   Sharing meaning
+-   Sharing entities
+
+URLs are the key to solving these issues. Each node in our RDF
+graph represents a URL. The edges in the graph can be replaced with
+the matching Wikidata link. Similarly, each entity in the graph has
+an entry in Wikidata which means they can also be replaced with the
+matching wikidata link.
+
+In summary, linking data requires that
+
+-   Subject and Predicate must be URIs
+-   Object can be URI
+    -   Or string, number, date, etc
+-   sameAs predicates can connect URIs that represent the same thing
+
+
+<a id="orgd145f6d"></a>
+
+## 8.103 Thinking in graphs
+
+-   No hierarchy
+-   No Order
+-   Every circle-arrow-circle is a triple
+
+
+<a id="org285f9fc"></a>
+
+## 8.201 Introduction to web ontologies
+
+The way that semantics is shared in the web is through Web
+Ontologies. The simplest way to describe the syntax and semantics
+of our ontology is through RDF Schema.
+
+-   Simple structures
+    -   Syntax
+    -   Inheritance
+    -   Documentation
+
+OWL &#x2013; Web Ontology Language &#x2013; allows us to encode the logic of
+the system.
+
+-   **owl:ObjectProperty:** Predicate connecting entities
+-   **owl::DataProperty:** Predicate connects entity to data
+-   **owl::inverseOf:** make entity be the inverse of another
+-   **owl::sameAs:** Connects data sources
+
+
+<a id="org62360bc"></a>
+
+## 8.205 Designing an ontology
+
+Designing an ontology isn&rsquo;t much different from designing a SQL
+database. There is a need for extra care needed when working with
+Web Ontologies. If our ontology is good, other people may start
+using it and we can accidentally or deliberately create a
+standard. When using other people&rsquo;s ontologies, it&rsquo;s important to
+use it the way it was intended.
+
+Whenever we&rsquo;re tasked with designing an Ontology, there are a few
+principles we should follow:
+
+-   Use existing ontologies where possible
+-   Combine effort with others
+-   Test with real data
+-   Don&rsquo;t get lost in rabbit holes, i.e. avoid adding unnecessary
+    details
+-   Don&rsquo;t be wrong
+-   Designing good ontologies take time
+-   Multiple viewpoints are vital
+-   Drawing helps a lot
+-   Be as explicit as possible to draw out problems
+-   Try out protege for ontology specification
+    -   [Webprotoge](https://webprotege.stanford.edu/) is a simpler version
 
 
 # Footnotes
