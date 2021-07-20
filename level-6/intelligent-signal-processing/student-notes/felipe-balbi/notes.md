@@ -1,68 +1,70 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgaef6081)
-    1.  [1.004 Technical information and tools used in this module](#org62f1e7d)
-    2.  [1.101 What is sound?](#org576fddf)
-    3.  [1.102 Characteristics of sound waves](#orgdbf87ae)
-    4.  [1.104 Human sound perception](#orge85c2d6)
-    5.  [1.106 Audio fundamentals](#org1d2b578)
-    6.  [1.201 The digital world: sample rate and bit depth](#org0613fbd)
-    7.  [1.203 Digital audio representation: the time domain](#org199ff1b)
-    8.  [1.205 Digital audio](#orge7d5877)
-2.  [Week 2](#orgd1548dd)
-    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#org1085005)
-    2.  [1.403 Audio programming with p5: playback controls](#orgb070443)
-    3.  [1.404 Audio programming with p5: capture and record audio](#org19709b2)
-    4.  [1.501 Audio programming with Python](#orgef3bd4c)
-    5.  [1.503 Audio in Python](#org890704e)
-3.  [Week 3](#orgb3fae30)
-    1.  [2.104 Digital audio effects](#orgdfa1efa)
-    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#orge5f1fa3)
-4.  [Week 4](#orgd35a083)
-    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#org2faa2c3)
-    2.  [2.203 FIR (Finite Impulse Response) filters](#org9f2620b)
-    3.  [2.205 LTI systems](#org062004f)
-5.  [Week 5](#orgd6ba414)
-    1.  [3.001 Review of spectral analysis](#org48757e1)
-    2.  [3.003 Spectral analysis of periodic signals](#orgf48aa54)
-6.  [Week 6](#org45e57c2)
-    1.  [3.101 Complex synthesis](#org42e261f)
-7.  [Week 7](#org36a5f09)
-    1.  [4.001 Introduction to audio feature extraction](#orgd347511)
-    2.  [4.003 Audio feature extraction](#org686ed07)
-    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#org4b10a3e)
-    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#org367f80c)
-    5.  [4.105 Real-time audio visualisations with Meyda](#orgd8affaf)
-    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#org346fcb1)
-8.  [Week 9](#org6896a90)
-    1.  [5.004 Hidden Markov models](#org7fcb578)
-9.  [Week 11](#orgce07412)
-    1.  [6.001 2D image representation: recap](#orgbe863fb)
-    2.  [6.003 Realtime pixel pushing in the browser](#org0aba89f)
-    3.  [6.006 Processing webcam data](#org4381567)
-10. [Week 13](#org54438ba)
-    1.  [7.001 Introduction to Webcam Processing](#orgdf17adf)
-    2.  [7.004 - Get the brightest pixel](#org4d9eff4)
-11. [Week 14](#org929b33d)
-    1.  [7.101 Reference materials](#org20a71f1)
-12. [Week 15](#org1ca0c8d)
-    1.  [8.002 - Face Detection Basics](#org0ab9ccf)
-    2.  [8.004 - Creating an image gradient feature](#orgc08fc4e)
-    3.  [8.006 Image gradients: read and run the code!](#org3436ccc)
-    4.  [8.007 - Histogram of Oriented Gradients](#org283b992)
-    5.  [8.009 Histogram of oriented gradients: read and run the code!](#org3782dea)
-    6.  [8.010 Reading materials for classic face detection techniques](#org814ca07)
-13. [Week 16](#orgecdbb35)
-    1.  [8.101 Face detection with machine learning: face API](#orgf79ce81)
-    2.  [8.103 Face-api: read and run the code!](#orga6bda9f)
-14. [Week 17](#org9646905)
-    1.  [9.001 Quick review: Sample Rate, Bit Depth and Bit Rate](#org01d78d2)
-    2.  [9.003 Lossless Compression with FLAC](#org238f04b)
+1.  [Week 1](#org5652b8a)
+    1.  [1.004 Technical information and tools used in this module](#orgc60ee43)
+    2.  [1.101 What is sound?](#org644b1e9)
+    3.  [1.102 Characteristics of sound waves](#org098b086)
+    4.  [1.104 Human sound perception](#org60c9137)
+    5.  [1.106 Audio fundamentals](#org5d29d05)
+    6.  [1.201 The digital world: sample rate and bit depth](#org399bebc)
+    7.  [1.203 Digital audio representation: the time domain](#org0b36ca1)
+    8.  [1.205 Digital audio](#org8db5c07)
+2.  [Week 2](#orga7be6ba)
+    1.  [1.401 Audio programming with p5.js: loading and playing back audio files](#orga5a299b)
+    2.  [1.403 Audio programming with p5: playback controls](#org7b96a08)
+    3.  [1.404 Audio programming with p5: capture and record audio](#org53414f3)
+    4.  [1.501 Audio programming with Python](#org6da0992)
+    5.  [1.503 Audio in Python](#orgd9fb7bf)
+3.  [Week 3](#org6790d04)
+    1.  [2.104 Digital audio effects](#org850a106)
+    2.  [2.107 Processing digital audio in p5.js. The p5.Effect class](#org94267a5)
+4.  [Week 4](#orgb27da9c)
+    1.  [2.201 Filtering. Implementation of an averaging low-pass filter](#org4f0ddcf)
+    2.  [2.203 FIR (Finite Impulse Response) filters](#org9718d6b)
+    3.  [2.205 LTI systems](#org5b62f30)
+5.  [Week 5](#org54d47ea)
+    1.  [3.001 Review of spectral analysis](#org1231ff6)
+    2.  [3.003 Spectral analysis of periodic signals](#orgebb7cd8)
+6.  [Week 6](#org7ab82d0)
+    1.  [3.101 Complex synthesis](#org9cd905b)
+7.  [Week 7](#orgb50b95c)
+    1.  [4.001 Introduction to audio feature extraction](#org01f6bbd)
+    2.  [4.003 Audio feature extraction](#orgfd5228d)
+    3.  [4.101 Real-time audio visualisations with p5.js. – time domain features](#orgb517c85)
+    4.  [4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](#org20b1f5a)
+    5.  [4.105 Real-time audio visualisations with Meyda](#org67c2408)
+    6.  [4.107 Meyda: an audio feature extraction library for the Web Audio API](#org797184d)
+8.  [Week 9](#org5c414ff)
+    1.  [5.004 Hidden Markov models](#org71a11c6)
+9.  [Week 11](#orgfac5ea2)
+    1.  [6.001 2D image representation: recap](#org4283b35)
+    2.  [6.003 Realtime pixel pushing in the browser](#orgad8442d)
+    3.  [6.006 Processing webcam data](#orgc321e31)
+10. [Week 13](#org5923498)
+    1.  [7.001 Introduction to Webcam Processing](#org9dca871)
+    2.  [7.004 - Get the brightest pixel](#orga78060c)
+11. [Week 14](#org1f135a5)
+    1.  [7.101 Reference materials](#orga3fc5de)
+12. [Week 15](#org4b22ca6)
+    1.  [8.002 - Face Detection Basics](#orgd8ed8f1)
+    2.  [8.004 - Creating an image gradient feature](#org648d282)
+    3.  [8.006 Image gradients: read and run the code!](#org593504b)
+    4.  [8.007 - Histogram of Oriented Gradients](#orgff5199f)
+    5.  [8.009 Histogram of oriented gradients: read and run the code!](#org2c09260)
+    6.  [8.010 Reading materials for classic face detection techniques](#org7422400)
+13. [Week 16](#org6ac732c)
+    1.  [8.101 Face detection with machine learning: face API](#orge6f89d5)
+    2.  [8.103 Face-api: read and run the code!](#org765daf1)
+14. [Week 17](#orgf23ec29)
+    1.  [9.001 Quick review: Sample Rate, Bit Depth and Bit Rate](#org6d7bb19)
+    2.  [9.003 Lossless Compression with FLAC](#org8443838)
+15. [Week 18](#org89040bd)
+    1.  [9.104 Lossy Compression](#org6b3ebd5)
 
 
 
-<a id="orgaef6081"></a>
+<a id="org5652b8a"></a>
 
 # Week 1
 
@@ -77,7 +79,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="org62f1e7d"></a>
+<a id="orgc60ee43"></a>
 
 ## 1.004 Technical information and tools used in this module
 
@@ -90,7 +92,7 @@ Key Concepts
 -   [ffmpeg](https://www.ffmpeg.org/)
 
 
-<a id="org576fddf"></a>
+<a id="org644b1e9"></a>
 
 ## 1.101 What is sound?
 
@@ -105,17 +107,17 @@ capture sound waves with our inner ear and the brain converts it
 into what we call sound.
 
 
-<a id="orgdbf87ae"></a>
+<a id="org098b086"></a>
 
 ## 1.102 Characteristics of sound waves
 
-In figure [1](#orgf0a0609) below, we see several sine waves. Remember
+In figure [1](#orgcc0f724) below, we see several sine waves. Remember
 that the sine wave equation is given by \(f(x) = A\sin(2 \pi ft +
    \phi)\) where \(A\) is the amplitude, \(f\) is the frequency, \(t\) is the
 time, and \(\phi\) is the phase.
 
 \begin{figure}[h]
-\label{orgf0a0609}
+\label{orgcc0f724}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -175,12 +177,12 @@ we can characterize the wave by its wavelength and amplitude. The
 wavelength (&lambda;) is given by the distance between two
 subsequent crests or troughs on the wave. The amplitude is given by
 the distance from the x axis to a peak or trough of the wave. All
-of these can be seen in figure [2](#orgc13c573) below. The
+of these can be seen in figure [2](#org9b25407) below. The
 pressure is measured in pascals (\SI{}{\pascal}) although we use
 \SI{}{\decibel} for measuring sound amplitude.
 
 \begin{figure}[h]
-\label{orgc13c573}
+\label{org9b25407}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -224,13 +226,13 @@ pressure is measured in pascals (\SI{}{\pascal}) although we use
 
 Waves can also be represented in the domain of time. In this
 scenario we can characterize the wave by its amplitude, frequency,
-and period as shown in figure [3](#org54ba83a) below. Note that
+and period as shown in figure [3](#org51197ab) below. Note that
 frequency, measured in hertz (\SI{}{\hertz}), is given by the
 inverse of the period, i.e. \(f = \frac{1}{T}\) where \(T\) is the
 period in seconds.
 
 \begin{figure}[h]
-\label{org54ba83a}
+\label{org51197ab}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -284,15 +286,15 @@ For example, if the wavelength is \(\lambda = \SI{2}{\meter}\), \(v =
 \end{align*}
 
 
-<a id="orge85c2d6"></a>
+<a id="org60c9137"></a>
 
 ## 1.104 Human sound perception
 
 Humans perceive sound through *pitch*, *loudness*, and *timbre*. In
-table [1](#orgb12e998) we summarize some of the
+table [1](#org5ce8acc) we summarize some of the
 properties of sound, both physical and psychological.
 
-<table id="orgb12e998" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org5ce8acc" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Physical vs Psychological Properties of Sound</caption>
 
 <colgroup>
@@ -346,7 +348,7 @@ properties of sound, both physical and psychological.
 </table>
 
 We can say that there is a relation between the matching pairs in
-table [1](#orgb12e998). That is, *Frequency* is
+table [1](#org5ce8acc). That is, *Frequency* is
 related to *Pitch*, *Amplitude* is related to *Loudness*, and
 *Waveform* is related to *Timbre*. The relation, however, is not
 linear. That is, a certain change in frequency does not correspond
@@ -356,12 +358,12 @@ What is said above is a simplification of reality. A change in
 frequency also has an impact in loudness and timbre.
 
 *Pure Tone* is a sound wave composed of a single sine wave. In
-figure [6](#org04fb6a3) we have a representation of a pure tone while
-in figure [7](#org8790987) we have a representation of a
+figure [6](#org0cbc5f2) we have a representation of a pure tone while
+in figure [7](#org636e859) we have a representation of a
 composition of several sine waves.
 
 \begin{figure}[h]
-\label{org04fb6a3}
+\label{org0cbc5f2}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -389,7 +391,7 @@ composition of several sine waves.
 \end{figure}
 
 \begin{figure}[h]
-\label{org8790987}
+\label{org636e859}
   \centering
   \begin{tikzpicture}
     \begin{axis}[domain=0:4*pi,
@@ -447,7 +449,7 @@ different component sound waves of a sound and interpret it as
 timbre.
 
 
-<a id="org1d2b578"></a>
+<a id="org5d29d05"></a>
 
 ## 1.106 Audio fundamentals
 
@@ -456,7 +458,7 @@ timbre.
     – Chapter 2: Sound properties and the waveform view (pp.17–26)
 
 
-<a id="org0613fbd"></a>
+<a id="org399bebc"></a>
 
 ## 1.201 The digital world: sample rate and bit depth
 
@@ -475,10 +477,10 @@ input voltage. The sampling rate is given in Hertz
 (\SI{}{\hertz}). Each measurement of the input signal&rsquo;s amplitude
 is called a *sample*, the faster we sample, the better the quality,
 but the resulting amount of data per second will be larger. Table
-[2](#orgb57cb3c) below gives a set of common sampling rates and
+[2](#org6e2b177) below gives a set of common sampling rates and
 where they&rsquo;re used.
 
-<table id="orgb57cb3c" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org6e2b177" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Common Sampling Rates</caption>
 
 <colgroup>
@@ -544,7 +546,7 @@ maximum allowed value. Clipping generates perceivable distortions
 in the audio and should be avoided.
 
 
-<a id="org199ff1b"></a>
+<a id="org0b36ca1"></a>
 
 ## 1.203 Digital audio representation: the time domain
 
@@ -562,7 +564,7 @@ relation is given by:
 \end{align*}
 
 
-<a id="orge7d5877"></a>
+<a id="org8db5c07"></a>
 
 ## 1.205 Digital audio
 
@@ -576,7 +578,7 @@ relation is given by:
     engineers and scientists. (Burlington, MA: Elsevier, 2013).
 
 
-<a id="orgd1548dd"></a>
+<a id="orga7be6ba"></a>
 
 # Week 2
 
@@ -591,7 +593,7 @@ Key Concepts
     perceived by humans
 
 
-<a id="org1085005"></a>
+<a id="orga5a299b"></a>
 
 ## 1.401 Audio programming with p5.js: loading and playing back audio files
 
@@ -629,7 +631,7 @@ A simple example to load an audio file into `p5.js` is shown below:
     }
 
 
-<a id="orgb070443"></a>
+<a id="org7b96a08"></a>
 
 ## 1.403 Audio programming with p5: playback controls
 
@@ -695,7 +697,7 @@ Augmenting the previous application with some controls, we get:
     }
 
 
-<a id="org19709b2"></a>
+<a id="org53414f3"></a>
 
 ## 1.404 Audio programming with p5: capture and record audio
 
@@ -759,7 +761,7 @@ We can also use `p5.js` to capture audio, an example is shown below.
     }
 
 
-<a id="orgef3bd4c"></a>
+<a id="org6da0992"></a>
 
 ## 1.501 Audio programming with Python
 
@@ -776,7 +778,7 @@ The libraries we will use are:
 -   [ThinkDSP](https://allendowney.github.io/ThinkDSP/)
 
 
-<a id="org890704e"></a>
+<a id="orgd9fb7bf"></a>
 
 ## 1.503 Audio in Python
 
@@ -784,7 +786,7 @@ The libraries we will use are:
     Python](https://greenteapress.com/thinkdsp/thinkdsp.pdf). (Needham: Green Tea Press, 2014).
 
 
-<a id="orgb3fae30"></a>
+<a id="org6790d04"></a>
 
 # Week 3
 
@@ -799,7 +801,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="orgdfa1efa"></a>
+<a id="org850a106"></a>
 
 ## 2.104 Digital audio effects
 
@@ -812,7 +814,7 @@ Key Concepts
         (pp.143–155)
 
 
-<a id="orge5f1fa3"></a>
+<a id="org94267a5"></a>
 
 ## 2.107 Processing digital audio in p5.js. The p5.Effect class
 
@@ -835,10 +837,10 @@ The simplest `p5js` to play audio is shown below.
     }
 
 It builds the simple audio pipeline depicted in figure
-[10](#org238ba35).
+[10](#org20c6f53).
 
 \begin{figure}[h]
-\label{org238ba35}
+\label{org20c6f53}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -851,10 +853,10 @@ It builds the simple audio pipeline depicted in figure
 When we want to add effects to the audio, we simply insert boxes
 between *Player* and *Output*. For example, for a reverb effect,
 our modified pipeline would look like the one shown in figure
-[11](#org2698e97).
+[11](#org5947dc0).
 
 \begin{figure}[h]
-\label{org2698e97}
+\label{org5947dc0}
   \centering
   \begin{tikzpicture}
     \node[box] (player) { Player };
@@ -890,7 +892,7 @@ shown below.
     }
 
 
-<a id="orgd35a083"></a>
+<a id="orgb27da9c"></a>
 
 # Week 4
 
@@ -905,7 +907,7 @@ Key Concepts
     processors to digital audio signals
 
 
-<a id="org2faa2c3"></a>
+<a id="org4f0ddcf"></a>
 
 ## 2.201 Filtering. Implementation of an averaging low-pass filter
 
@@ -994,7 +996,7 @@ it removes high frequency components from the original signal.
     plt.legend(loc="upper left")
 
 
-<a id="org9f2620b"></a>
+<a id="org9718d6b"></a>
 
 ## 2.203 FIR (Finite Impulse Response) filters
 
@@ -1024,7 +1026,7 @@ the `window` coefficients from the previous code.
     filtered_violin.make_audio()
 
 
-<a id="org062004f"></a>
+<a id="org5b62f30"></a>
 
 ## 2.205 LTI systems
 
@@ -1042,12 +1044,12 @@ filters for example. If the system happens to be **linear**,
 list of numbers known as **Impulse Response**. An Impulse Response is
 the response produced by an LTI system to the impulse signal.
 
-Considering figure [14](#org3be6ef7), what an LTI system would do
+Considering figure [14](#orgaa7f179), what an LTI system would do
 is move the circles up and down depending on the system&rsquo;s
 parameters.
 
 \begin{figure}[h]
-\label{org3be6ef7}
+\label{orgaa7f179}
   \centering
   \begin{tikzpicture}
     \pgfplotsset{
@@ -1089,7 +1091,7 @@ LTI Systems have three properties:
     the same as applying the filter then shifting the output.
 
 
-<a id="orgd6ba414"></a>
+<a id="org54d47ea"></a>
 
 # Week 5
 
@@ -1102,7 +1104,7 @@ Key Concepts
     fast convolution
 
 
-<a id="org48757e1"></a>
+<a id="org1231ff6"></a>
 
 ## 3.001 Review of spectral analysis
 
@@ -1115,7 +1117,7 @@ domain and let us *see* all the component frequencies in the audio
 sample.
 
 
-<a id="orgf48aa54"></a>
+<a id="orgebb7cd8"></a>
 
 ## 3.003 Spectral analysis of periodic signals
 
@@ -1136,7 +1138,7 @@ The Discrete Cosine Transform is given by
 where \(k=0,1,\ldots,N-1\).
 
 
-<a id="org45e57c2"></a>
+<a id="org7ab82d0"></a>
 
 # Week 6
 
@@ -1149,7 +1151,7 @@ Key Concepts
     fast convolution
 
 
-<a id="org42e261f"></a>
+<a id="org9cd905b"></a>
 
 ## 3.101 Complex synthesis
 
@@ -1167,7 +1169,7 @@ To compute the waveforms from complex numbers we rely in the
 exponential function \(e^x\) (`np.exp(x)` in Python). 
 
 
-<a id="org36a5f09"></a>
+<a id="orgb50b95c"></a>
 
 # Week 7
 
@@ -1181,7 +1183,7 @@ Key Concepts
     audio signal features
 
 
-<a id="orgd347511"></a>
+<a id="org01f6bbd"></a>
 
 ## 4.001 Introduction to audio feature extraction
 
@@ -1245,7 +1247,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
    \sqrt{\!\frac{1}{N}\!\sum_n{\bigl|x(n)\bigr|}^2}\]
 
 
-<a id="org686ed07"></a>
+<a id="orgfd5228d"></a>
 
 ## 4.003 Audio feature extraction
 
@@ -1253,7 +1255,7 @@ The Root-mean-square energy (RMSE) is formalised as shown below
     Wiley & Sons, 2010). Chapter 3: Feature extraction (pp.99–111)
 
 
-<a id="org4b10a3e"></a>
+<a id="orgb517c85"></a>
 
 ## 4.101 Real-time audio visualisations with p5.js. – time domain features
 
@@ -1261,7 +1263,7 @@ To extract the amplitude from audio file using p5.js, we can use
 the [Amplitude](https://p5js.org/reference/#/p5.Amplitude) object.
 
 
-<a id="org367f80c"></a>
+<a id="org20b1f5a"></a>
 
 ## 4.102 Real-time audio visualisations with p5.js – frequency domain features (1)
 
@@ -1269,7 +1271,7 @@ To extract features from the frequency domain, we need an [FFT](https://p5js.org
 object.
 
 
-<a id="orgd8affaf"></a>
+<a id="org67c2408"></a>
 
 ## 4.105 Real-time audio visualisations with Meyda
 
@@ -1278,7 +1280,7 @@ written to use the Web Audio API. It supports both real-time and
 offline feature extraction.
 
 
-<a id="org346fcb1"></a>
+<a id="org797184d"></a>
 
 ## 4.107 Meyda: an audio feature extraction library for the Web Audio API
 
@@ -1287,7 +1289,7 @@ offline feature extraction.
     (WAC 2015), 2015, pp.1-6.
 
 
-<a id="org6896a90"></a>
+<a id="org5c414ff"></a>
 
 # Week 9
 
@@ -1301,16 +1303,16 @@ Key Concepts
     to write Offline ASR software
 
 
-<a id="org7fcb578"></a>
+<a id="org71a11c6"></a>
 
 ## 5.004 Hidden Markov models
 
 Given a set of observations `a a b a c c b b`, to convert it into a
 Hidden Markov Model the first step is create a state transition
-diagram from our observations, as shown in figure [17](#org95d3a01) below.
+diagram from our observations, as shown in figure [17](#org3dfe32f) below.
 
 \begin{figure}[H]
-\label{org95d3a01}
+\label{org3dfe32f}
 \centering
   \begin{tikzpicture}[->]
 
@@ -1334,10 +1336,10 @@ diagram from our observations, as shown in figure [17](#org95d3a01) below.
 Afterwards, we annotate the edges with their weights. For example,
 each of the transitions from \(a\) appears \(\dfrac{1}{3}\) of the
 time. The resulting state transition diagram with weights is shown
-in figure [18](#orge2f385f) below.
+in figure [18](#org7ff277f) below.
 
 \begin{figure}[H]
-\label{orge2f385f}
+\label{org7ff277f}
 \centering
   \begin{tikzpicture}[->]
 
@@ -1369,7 +1371,7 @@ figure out the most likely sequence of states given the
 observations.
 
 
-<a id="orgce07412"></a>
+<a id="orgfac5ea2"></a>
 
 # Week 11
 
@@ -1378,7 +1380,7 @@ Key Concepts
 -   Capturing, representing and processing camera input, part 1
 
 
-<a id="orgbe863fb"></a>
+<a id="org4283b35"></a>
 
 ## 6.001 2D image representation: recap
 
@@ -1391,11 +1393,11 @@ pixels possible, sometimes less pixels can be advantageous.
 
 We tend of think of them as being represented in a cartesian
 coordinate system but, in reality, they are just a list. Figure
-[19](#orgf432b14) below shows an example of a cartesian coordinate
+[19](#org151742f) below shows an example of a cartesian coordinate
 system.
 
 \begin{figure}[h]
-\label{orgf432b14}
+\label{org151742f}
   \centering
   \begin{tikzpicture}
     \draw[step=1cm, very thin, gray!30] (-3.9,-3.9) grid (3.9,3.9);
@@ -1454,7 +1456,7 @@ with \[1920 \cdot 1080 \cdot 25 \cdot 32 \approx 198 \mathit{MB}/s\]
 of information.
 
 
-<a id="org0aba89f"></a>
+<a id="orgad8442d"></a>
 
 ## 6.003 Realtime pixel pushing in the browser
 
@@ -1495,7 +1497,7 @@ A simple example:
     </html>
 
 
-<a id="org4381567"></a>
+<a id="orgc321e31"></a>
 
 ## 6.006 Processing webcam data
 
@@ -1585,12 +1587,12 @@ Sample code follows
     </html>
 
 
-<a id="org54438ba"></a>
+<a id="org5923498"></a>
 
 # Week 13
 
 
-<a id="orgdf17adf"></a>
+<a id="org9dca871"></a>
 
 ## 7.001 Introduction to Webcam Processing
 
@@ -1699,7 +1701,7 @@ Implementing rotation:
     </html>
 
 
-<a id="org4d9eff4"></a>
+<a id="orga78060c"></a>
 
 ## 7.004 - Get the brightest pixel
 
@@ -1738,12 +1740,12 @@ below.
     }
 
 
-<a id="org929b33d"></a>
+<a id="org1f135a5"></a>
 
 # Week 14
 
 
-<a id="org20a71f1"></a>
+<a id="orga3fc5de"></a>
 
 ## 7.101 Reference materials
 
@@ -1758,12 +1760,12 @@ below.
     835–855. <https://www3.nd.edu/~jbrockm1/matsukuraEtAl_VC2009.pdf>
 
 
-<a id="org1ca0c8d"></a>
+<a id="org4b22ca6"></a>
 
 # Week 15
 
 
-<a id="org0ab9ccf"></a>
+<a id="orgd8ed8f1"></a>
 
 ## 8.002 - Face Detection Basics
 
@@ -1796,7 +1798,7 @@ The Lucas-Kanade method is often used to track the movement of
 points. 
 
 
-<a id="orgc08fc4e"></a>
+<a id="org648d282"></a>
 
 ## 8.004 - Creating an image gradient feature
 
@@ -1862,7 +1864,7 @@ implemention is shown below
     //context.putImageData(imageData3,0,0);
 
 
-<a id="org3436ccc"></a>
+<a id="org593504b"></a>
 
 ## 8.006 Image gradients: read and run the code!
 
@@ -1870,7 +1872,7 @@ implemention is shown below
 -   <https://mimicproject.com/code/6180b873-3167-8d8f-8ba5-a251605f6423>
 
 
-<a id="org283b992"></a>
+<a id="orgff5199f"></a>
 
 ## 8.007 - Histogram of Oriented Gradients
 
@@ -1878,14 +1880,14 @@ Similar types of images might have similar kinds of
 histograms. It&rsquo;s a simple way of detecting people without ML.
 
 
-<a id="org3782dea"></a>
+<a id="org2c09260"></a>
 
 ## 8.009 Histogram of oriented gradients: read and run the code!
 
 -   <https://mimicproject.com/code/6180b873-3167-8d8f-8ba5-a251605f6423>
 
 
-<a id="org814ca07"></a>
+<a id="org7422400"></a>
 
 ## 8.010 Reading materials for classic face detection techniques
 
@@ -1904,12 +1906,12 @@ histograms. It&rsquo;s a simple way of detecting people without ML.
     10.1109/PuneCon46936.2019.9105893
 
 
-<a id="orgecdbb35"></a>
+<a id="org6ac732c"></a>
 
 # Week 16
 
 
-<a id="orgf79ce81"></a>
+<a id="orge6f89d5"></a>
 
 ## 8.101 Face detection with machine learning: face API
 
@@ -1918,19 +1920,19 @@ can also detect some simple emotions. It&rsquo;s essentially pre-trained
 face detection model which we can use from the browser.
 
 
-<a id="orga6bda9f"></a>
+<a id="org765daf1"></a>
 
 ## 8.103 Face-api: read and run the code!
 
 -   <https://mimicproject.com/code/d87b4f42-c131-ca7a-127f-c6df8f475329>
 
 
-<a id="org9646905"></a>
+<a id="orgf23ec29"></a>
 
 # Week 17
 
 
-<a id="org01d78d2"></a>
+<a id="org6d7bb19"></a>
 
 ## 9.001 Quick review: Sample Rate, Bit Depth and Bit Rate
 
@@ -1947,7 +1949,7 @@ face detection model which we can use from the browser.
     way. \(\SI{}{\kilo\bit\per\sec}\) is a common unit.
 
 
-<a id="org238f04b"></a>
+<a id="org8443838"></a>
 
 ## 9.003 Lossless Compression with FLAC
 
@@ -1965,11 +1967,11 @@ reasonably well for most applications. Conversely, *FLAC* has been
 design specifically for the lossless compression of audio
 data.
 
-Figure [20](#org39befde) depicts how the FLAC codec processes
+Figure [20](#org7f8199f) depicts how the FLAC codec processes
 audio. 
 
 \begin{figure}[h]
-\label{org39befde}
+\label{org7f8199f}
   \centering
   \begin{tikzpicture}
     \node[box, thick] (blocking) {Blocking};
@@ -2012,6 +2014,74 @@ Rice decoding works like this<sup><a id="fnr.2.100" class="footref" href="#fn.2"
     binary
 5.  Let \(R\) be the next \(K\) bits of \(S\)
 6.  Return \(Q \times M + R\)
+
+
+<a id="org89040bd"></a>
+
+# Week 18
+
+
+<a id="org6b3ebd5"></a>
+
+## 9.104 Lossy Compression
+
+Lossless compression algorithms, generally, don&rsquo;t reduce the file
+size considerably. A lossy compression scheme can reduce the
+storage requirements considerably, but it will compromise audio
+fidelity.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Container</b></th>
+<th scope="col" class="org-left"><b>Codec</b></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Ogg</td>
+<td class="org-left">Vorbis</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Opus</td>
+<td class="org-left">AAC</td>
+</tr>
+</tbody>
+</table>
+
+Lossy compression works as shown in figure [21](#org0a0a4f4) below.
+
+\begin{figure}[h]
+\label{org0a0a4f4}
+  \centering
+  \begin{tikzpicture}
+    \node[box, thick] (split) {Split into frames};
+    \node[box, thick, right=of split] (fft) {Convert to frequency domain};
+    \node[box, thick, right=of fft] (li) {Detect least important information};
+    \node[box, thick, right=of li] (model) {Model remaining information};
+
+    \draw[->] (split) edge (fft)
+              (fft) edge (li)
+              (li) edge (model);
+  \end{tikzpicture}
+\end{figure}
+
+Psychoacoustic model: identifying information that may not be
+perceived. E.g. if there is a loud sound, subsequent quiet sounds
+may not be perceived, then we can use less data to encode the quiet
+sounds.
 
 
 # Footnotes
