@@ -1,18 +1,21 @@
 
 # Table of Contents
 
-1.  [Week 1](#org6badde6)
-    1.  [1.001 Introduction to the course](#org02baff1)
-    2.  [1.101 Introduction to physical computing and IoT](#org9c99f67)
-    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#org4ee08fc)
-    4.  [1.105 IoT stack and IoT architecture](#orgeb60bcd)
-2.  [Week 2](#orgea6fbc0)
-    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#org7019fac)
-    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#orgbde501e)
+1.  [Week 1](#orga5dc9e3)
+    1.  [1.001 Introduction to the course](#org02423cb)
+    2.  [1.101 Introduction to physical computing and IoT](#org1f67531)
+    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#orgef05ff7)
+    4.  [1.105 IoT stack and IoT architecture](#org3054e5a)
+2.  [Week 2](#org3357721)
+    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#orgae5bc57)
+    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#org605e0a0)
+3.  [Week 3](#org1df351e)
+    1.  [2.001 - Introduction to electricity flows in sensors and transducers](#orga11b723)
+    2.  [2.003 - Understanding Digital & Analog input&output signals](#org912aa74)
 
 
 
-<a id="org6badde6"></a>
+<a id="orga5dc9e3"></a>
 
 # Week 1
 
@@ -26,7 +29,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="org02baff1"></a>
+<a id="org02423cb"></a>
 
 ## 1.001 Introduction to the course
 
@@ -60,7 +63,7 @@ Course Topics:
 10. Robots
 
 
-<a id="org9c99f67"></a>
+<a id="org1f67531"></a>
 
 ## 1.101 Introduction to physical computing and IoT
 
@@ -70,16 +73,16 @@ them. Internet-of-Things (IoT) describes the network of physical
 objects.
 
 
-<a id="org4ee08fc"></a>
+<a id="orgef05ff7"></a>
 
 ## 1.103 Background to IoT, IoT stack and IoT architecture
 
-As shown in Iot Building Block figure [1](#orgf25b8f6) below,
+As shown in Iot Building Block figure [1](#org74dbb67) below,
 the communication networks play a central role allowing all other
 nodes to communicate with each other.
 
 \begin{figure}[h]
-\label{orgf25b8f6}
+\label{org74dbb67}
   \centering
   \begin{tikzpicture}
     \node[box, fill=orange!20] (cm) {Communication Networks};
@@ -94,10 +97,10 @@ nodes to communicate with each other.
 \end{figure}
 
 A Typical IoT node is composed with several modules which are shown
-in figure [2](#org328435a) below.
+in figure [2](#org2711d60) below.
 
 \begin{figure}[h]
-\label{org328435a}
+\label{org2711d60}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (wim) {Wireless Interface Module};
@@ -116,11 +119,11 @@ in figure [2](#org328435a) below.
   \end{tikzpicture}
 \end{figure}
 
-Figure [3](#orgaa6ba90) describes how a set of IoT nodes form an
+Figure [3](#org7b2547e) describes how a set of IoT nodes form an
 ecosystem:
 
 \begin{figure}[h]
-\label{orgaa6ba90}
+\label{org7b2547e}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (pl) {Perception Layer};
@@ -147,7 +150,7 @@ ecosystem:
 \end{figure}
 
 
-<a id="orgeb60bcd"></a>
+<a id="org3054e5a"></a>
 
 ## 1.105 IoT stack and IoT architecture
 
@@ -164,7 +167,7 @@ ecosystem:
     4.0, web 5.0 and beyond&rsquo;](http://ahmadfaizar.blogspot.com/2018/08/evolution-of-web-web-10-web-20-web-30.html) ahmadfaiza.blog.
 
 
-<a id="orgea6fbc0"></a>
+<a id="org3357721"></a>
 
 # Week 2
 
@@ -178,7 +181,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="org7019fac"></a>
+<a id="orgae5bc57"></a>
 
 ## 1.301 Introduction to microcontrollers, their types and capabilities
 
@@ -197,7 +200,7 @@ Some popular microcontroller platforms are:
 7.  Pocketbeagle
 
 
-<a id="orgbde501e"></a>
+<a id="org605e0a0"></a>
 
 ## 1.501 Basics on breadboards, extension shields, wiring/pins and transistors
 
@@ -211,3 +214,142 @@ Some popular microcontroller platforms are:
     breadboard
 -   **Transistors:** essentially, a voltage-controlled switch
 
+
+<a id="org1df351e"></a>
+
+# Week 3
+
+Key Concepts
+
+-   Understand the role of electricity, electronics and Transducers.
+-   Understand how electricity flow in the microcontroller circuit &
+    breadboard
+-   Explain the difference between Arduino and PLC and how to read
+    schema drawings
+
+
+<a id="orga11b723"></a>
+
+## 2.001 - Introduction to electricity flows in sensors and transducers
+
+-   **Current:** flow of electrons moving through a circuit. Measured
+    in Amperes or Amps (\si{\ampere}).
+-   **Resistance:** measure of a material&rsquo;s ability to oppose
+    electrical flow. Measure in Ohms (\si{\ohm}).
+-   **Voltage:** difference in charge between two different
+    points. Measured in Volts (\si{\volt}).
+-   **Capacitor:** stores a certain amount of electricity as potential
+    energy. Capacitance is measured in Farads (\si{\farad}).
+-   **Inductor:** stores a certain amount of electricity as a magnetic
+    field. Inductance is measured in Henries (\si{\henry}).
+-   **Transistors:** a voltage-controlled switch. Can work as an
+    amplifier.
+
+Ohm&rsquo;s Law gives a relationship between voltage, resistance, and
+current:
+
+\begin{align*}
+  V = I\times R
+\end{align*}
+
+Resistors come in 4, 5, or 6 color bands, we start reading from the
+side with higher concentration of color bands<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.
+
+
+<a id="org912aa74"></a>
+
+## 2.003 - Understanding Digital & Analog input&output signals
+
+-   **Analog:** continuous value between \(0\) and e.g. \(3.3\si{\volt}\).
+-   **Digital:** discrete value. Either \(0\) or \(1\).
+
+Voltage divider is a simple technique to reduce the voltage with a
+linear transformation. Figure [5](#org0907e3e) shows a depiction of how
+it&rsquo;s implemented.
+
+\begin{figure}[h]
+\label{org0907e3e}
+  \centering
+  \begin{tikzpicture}
+    [node distance=1.5cm,
+     circuit ee IEC, x=3cm, y=2cm, thick,
+     every info/.style={font=\footnotesize},
+     small circuit symbols,
+     set resistor graphic=var resistor IEC graphic,
+     set make contact graphic= var make contact IEC graphic]
+
+    \node[voltage source={direction info,info'=$V_{in}$}] (v1) {};
+    \node[contact,right=of v1] (c1) {};
+    \node[resistor={info=$R_1$}, right=of c1] (r1) {};
+    \node[contact, right=of r1] (c2) {};
+    \node[resistor={info=$R_2$}, right=of c2] (r2) {};
+    \node[contact, right=of r2] (c3) {};
+    \node[ground, right=of c3] (gnd) {};
+
+    \node[contact, label={[label distance=0.25cm]0:$V_{out}$}, below=of c2] (c4) {};
+
+    \draw (v1.west) -- (c1);
+    \draw (c1) -- (r1.west);
+    \draw (r1.east) -- (c2);
+    \draw (c2) -- (r2.west);
+    \draw (r2.east) -- (c3);
+    \draw (c3) -- (gnd.west);
+
+    \draw (c2) -- (c4);
+
+  \end{tikzpicture}
+\end{figure}
+
+We can derive the voltage divider equation rather easily. Let&rsquo;s
+first redraw this circuit to make it easier to asee what&rsquo;s
+happening:
+
+\begin{figure}[h]
+\label{orgf92abc5}
+  \centering
+  \begin{tikzpicture}
+    [node distance=1.5cm,
+     circuit ee IEC, x=3cm, y=2cm, thick,
+     every info/.style={font=\footnotesize},
+     small circuit symbols,
+     set resistor graphic=var resistor IEC graphic,
+     set make contact graphic= var make contact IEC graphic]
+
+     \foreach \contact/\x in {1/1, 2/2, 3/2.5}
+     {
+       \node [contact] (bc \contact) at (\x,0) {};
+       \node [contact] (tc \contact) at (\x,1) {};
+     }
+
+     \draw (bc 1) -- (bc 2) -- (bc 3);
+     \draw (tc 2) -- (tc 3);
+
+     \draw (bc 1) to [voltage source={direction info,info'=$V_{in}$}] ++(up:1) to (tc 1);
+     \draw (tc 1) to [resistor={info=$R_1$}] ++(right:1) to (tc 2);
+     \draw (tc 2) to [resistor={info=$R_2$}] ++(down:1) to (bc 2);
+
+     \draw[bend left, dashed, red, <->] (tc 3) to node [auto] {$V_{out}$} (bc 3);
+
+  \end{tikzpicture}
+\end{figure}
+
+The derivation is as follows:
+
+\begin{align*}
+  V_{in} &= (R_1+R_2)\times I\\
+  I &= \frac{V_{in}}{R_1+R_2}\\
+  V_{R_1} &= V_{in} - V_{out} = I \times R_1\\
+  V_{R_2} &= V_{out} - 0 = I \times R_2\\
+  V_{out} &= V_{R_2}\\
+  V_{out} &= I \times R_2\\
+  V_{out} &= \frac{V_{in}}{R_1+R_2} \times R_2\\
+  V_{out} &= \frac{R_2}{R_1+R_2} \times V_in\\
+\end{align*}
+
+Pulse Width Modulation is used for controlling voltage at each duty
+cycle.
+
+
+# Footnotes
+
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> Y&rsquo;all can Google for a color band table :-p
