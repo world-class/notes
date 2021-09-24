@@ -1,19 +1,31 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgf68b35a)
-    1.  [1.006 Getting started on this module](#org0c29ac3)
-    2.  [1.103 The pathway from developer to consumer](#org7df9d8e)
-    3.  [1.201 Multiple codebases](#org12c75b7)
-    4.  [1.203 Native apps vs hybrid apps](#org62523bc)
-    5.  [1.301 What is React Native?](#org01f132b)
-    6.  [1.302 What is Expo?](#org9f43dc3)
-    7.  [1.305 Javascript arrow notation](#org70ea5f5)
-    8.  [1.306 Creating a new React Native project and overview of the file structure](#org7601f28)
+1.  [Week 1](#orgc7e3b16)
+    1.  [1.006 Getting started on this module](#org37ef03e)
+    2.  [1.103 The pathway from developer to consumer](#org41ba22d)
+    3.  [1.201 Multiple codebases](#org61a40b4)
+    4.  [1.203 Native apps vs hybrid apps](#org5cf8a9c)
+    5.  [1.301 What is React Native?](#org90891ff)
+    6.  [1.302 What is Expo?](#orga068fca)
+    7.  [1.305 Javascript arrow notation](#orgbb6d9c9)
+    8.  [1.306 Creating a new React Native project and overview of the file structure](#orgf83e157)
+2.  [Week 2](#org08514eb)
+    1.  [1.401 JSX and props](#org163c0a9)
+    2.  [1.501 Testing on simulators and devices](#org9bb3c31)
+    3.  [1.601 Marketplaces and conforming to the rules](#orga658011)
+3.  [Week 3](#orgfed680a)
+    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org210e59c)
+    2.  [2.003 Colour palettes and mood psychology](#orgae44e93)
+    3.  [2.006 Design ideology](#org92d679c)
+    4.  [2.101 What are dark patterns?](#org69df03e)
+    5.  [2.103 Dark patterns](#orgfb10880)
+    6.  [2.201 Introduction to wireframing](#orgd57a01d)
+    7.  [2.203 Creating a wireframe for a shopping app](#org9d6d78b)
 
 
 
-<a id="orgf68b35a"></a>
+<a id="orgc7e3b16"></a>
 
 # Week 1
 
@@ -24,7 +36,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org0c29ac3"></a>
+<a id="org37ef03e"></a>
 
 ## 1.006 Getting started on this module
 
@@ -38,7 +50,7 @@ systems. Some of the benefits are:
 4.  Heavily used in industry
 
 
-<a id="org7df9d8e"></a>
+<a id="org41ba22d"></a>
 
 ## 1.103 The pathway from developer to consumer
 
@@ -80,7 +92,7 @@ laid out below.
     by anyone
 
 
-<a id="org12c75b7"></a>
+<a id="org61a40b4"></a>
 
 ## 1.201 Multiple codebases
 
@@ -102,7 +114,7 @@ common language that can be compiled for both platforms.
 -   **Hybriid Apps:** Written in a common language
 
 
-<a id="org62523bc"></a>
+<a id="org5cf8a9c"></a>
 
 ## 1.203 Native apps vs hybrid apps
 
@@ -111,11 +123,11 @@ much closer to a native application. During compilation of the
 project, React Native renderas our views with native code on the
 target platform thus giving us the best of both worlds.
 
-In table [1](#org846c752) we list pros and cons of Native
-Apps. Similarly, table [2](#orga96c1b8) shows the same comparison
+In table [1](#org3851814) we list pros and cons of Native
+Apps. Similarly, table [2](#org648cd73) shows the same comparison
 for Hybrid Apps.
 
-<table id="org846c752" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org3851814" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Native Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -152,7 +164,7 @@ for Hybrid Apps.
 </tbody>
 </table>
 
-<table id="orga96c1b8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org648cd73" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Hybrid Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -190,7 +202,7 @@ for Hybrid Apps.
 </table>
 
 
-<a id="org01f132b"></a>
+<a id="org90891ff"></a>
 
 ## 1.301 What is React Native?
 
@@ -198,14 +210,14 @@ for Hybrid Apps.
 build code for multiple platforms.
 
 
-<a id="org9f43dc3"></a>
+<a id="orga068fca"></a>
 
 ## 1.302 What is Expo?
 
 [Expo](https://expo.dev) helps manage a React Native project.
 
 
-<a id="org70ea5f5"></a>
+<a id="orgbb6d9c9"></a>
 
 ## 1.305 Javascript arrow notation
 
@@ -237,7 +249,7 @@ keep parenthesis around arguments:
     (a, b) => a**2 + 2*a*b + b**2;
 
 
-<a id="org7601f28"></a>
+<a id="orgf83e157"></a>
 
 ## 1.306 Creating a new React Native project and overview of the file structure
 
@@ -252,4 +264,120 @@ completes, we can change into the new application&rsquo;s directory and
 run:
 
     $ expo start
+
+
+<a id="org08514eb"></a>
+
+# Week 2
+
+Key Concepts
+
+-   Understand the limitations and advantages of different platforms
+-   Discuss the elements of apps you enjoy
+-   Understand the course structure
+
+
+<a id="org163c0a9"></a>
+
+## 1.401 JSX and props
+
+JSX is a key part of React Native. It allows us to create
+components and use them as if they were regular HTML
+tags. Component names must start with a capital letter.
+
+Props can be passed in an HTML `attribute=value` format.
+
+
+<a id="org9bb3c31"></a>
+
+## 1.501 Testing on simulators and devices
+
+Testing the application on a device while under development can
+help us uncover issues early. The simulator is another option which
+works well.
+
+
+<a id="orga658011"></a>
+
+## 1.601 Marketplaces and conforming to the rules
+
+Reasons for rejection
+
+1.  App doesn&rsquo;t work
+2.  Use of copyrighted material
+3.  Breach of safety guidelines
+4.  Safeguarding issues
+5.  Circumventing the app stores
+6.  Low-quality design
+
+
+<a id="orgfed680a"></a>
+
+# Week 3
+
+Key Concepts
+
+-   Understand the need for wireframing
+-   Discuss the link between psychology and design decisions
+-   Understand and identify different design styles and replicate them
+    using code
+
+
+<a id="org210e59c"></a>
+
+## 2.001 Skeuomorphism, minimalism and neumorphism
+
+-   **Skeuomorphism:** emulating the look of physical objects in your
+    application
+-   **Minimalism:** prioritization of essential elements
+-   **Neumorphism:** the middle-ground between skeuomorphism and
+    minimalism
+
+
+<a id="orgae44e93"></a>
+
+## 2.003 Colour palettes and mood psychology
+
+-   **Blue:** calmness, serenity, stability, reliability
+-   **Red & Yellow:** speed, immediacy, increase appetite
+-   **White:** simplicity, calmness, professionalism
+
+
+<a id="org92d679c"></a>
+
+## 2.006 Design ideology
+
+-   [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
+-   [Google Material Design Guidelines](https://material.io/design/guidelines-overview)
+
+
+<a id="org69df03e"></a>
+
+## 2.101 What are dark patterns?
+
+Dark Patterns is the term given to design choices that are crafted
+to make you do things you don&rsquo;t want to do. 
+
+
+<a id="orgfb10880"></a>
+
+## 2.103 Dark patterns
+
+-   [Dark Patterns website](https://www.darkpatterns.org/)
+
+
+<a id="orgd57a01d"></a>
+
+## 2.201 Introduction to wireframing
+
+Wireframes allow us to design layouts in order to demonstrate an
+idea and check if it&rsquo;s likely to be practical.
+
+
+<a id="org9d6d78b"></a>
+
+## 2.203 Creating a wireframe for a shopping app
+
+Before wireframing, it&rsquo;s a good to create a [User Flow
+Diagram](https://diagrams.net). After we can start working on our [wireframe](https://www.framer.com/).
 
