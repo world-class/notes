@@ -1,21 +1,24 @@
 
 # Table of Contents
 
-1.  [Week 1](#orga5dc9e3)
-    1.  [1.001 Introduction to the course](#org02423cb)
-    2.  [1.101 Introduction to physical computing and IoT](#org1f67531)
-    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#orgef05ff7)
-    4.  [1.105 IoT stack and IoT architecture](#org3054e5a)
-2.  [Week 2](#org3357721)
-    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#orgae5bc57)
-    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#org605e0a0)
-3.  [Week 3](#org1df351e)
-    1.  [2.001 - Introduction to electricity flows in sensors and transducers](#orga11b723)
-    2.  [2.003 - Understanding Digital & Analog input&output signals](#org912aa74)
+1.  [Week 1](#orgc97ad4e)
+    1.  [1.001 Introduction to the course](#orgc18fd5c)
+    2.  [1.101 Introduction to physical computing and IoT](#org5020229)
+    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#orgdff1e2b)
+    4.  [1.105 IoT stack and IoT architecture](#orgf64efc0)
+2.  [Week 2](#org2d3936c)
+    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#orge0244cc)
+    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#orgdaa2680)
+3.  [Week 3](#org76eb71c)
+    1.  [2.001 - Introduction to electricity flows in sensors and transducers](#orgac017e4)
+    2.  [2.003 - Understanding Digital & Analog input&output signals](#org04ef322)
+4.  [Week 4](#org0106d5d)
+    1.  [2.301 - Introduction to creating and reading own circuits diagrams](#org5efeb3e)
+    2.  [2.303 - Understanding the types of nodes (Gateway, Router, Hub, Actuators)](#org47a2b3f)
 
 
 
-<a id="orga5dc9e3"></a>
+<a id="orgc97ad4e"></a>
 
 # Week 1
 
@@ -29,7 +32,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="org02423cb"></a>
+<a id="orgc18fd5c"></a>
 
 ## 1.001 Introduction to the course
 
@@ -63,7 +66,7 @@ Course Topics:
 10. Robots
 
 
-<a id="org1f67531"></a>
+<a id="org5020229"></a>
 
 ## 1.101 Introduction to physical computing and IoT
 
@@ -73,16 +76,16 @@ them. Internet-of-Things (IoT) describes the network of physical
 objects.
 
 
-<a id="orgef05ff7"></a>
+<a id="orgdff1e2b"></a>
 
 ## 1.103 Background to IoT, IoT stack and IoT architecture
 
-As shown in Iot Building Block figure [1](#org74dbb67) below,
+As shown in Iot Building Block figure [1](#org3d5fcfd) below,
 the communication networks play a central role allowing all other
 nodes to communicate with each other.
 
 \begin{figure}[h]
-\label{org74dbb67}
+\label{org3d5fcfd}
   \centering
   \begin{tikzpicture}
     \node[box, fill=orange!20] (cm) {Communication Networks};
@@ -97,10 +100,10 @@ nodes to communicate with each other.
 \end{figure}
 
 A Typical IoT node is composed with several modules which are shown
-in figure [2](#org2711d60) below.
+in figure [2](#orge6140db) below.
 
 \begin{figure}[h]
-\label{org2711d60}
+\label{orge6140db}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (wim) {Wireless Interface Module};
@@ -119,11 +122,11 @@ in figure [2](#org2711d60) below.
   \end{tikzpicture}
 \end{figure}
 
-Figure [3](#org7b2547e) describes how a set of IoT nodes form an
+Figure [3](#org4c004c0) describes how a set of IoT nodes form an
 ecosystem:
 
 \begin{figure}[h]
-\label{org7b2547e}
+\label{org4c004c0}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (pl) {Perception Layer};
@@ -150,7 +153,7 @@ ecosystem:
 \end{figure}
 
 
-<a id="org3054e5a"></a>
+<a id="orgf64efc0"></a>
 
 ## 1.105 IoT stack and IoT architecture
 
@@ -167,7 +170,7 @@ ecosystem:
     4.0, web 5.0 and beyond&rsquo;](http://ahmadfaizar.blogspot.com/2018/08/evolution-of-web-web-10-web-20-web-30.html) ahmadfaiza.blog.
 
 
-<a id="org3357721"></a>
+<a id="org2d3936c"></a>
 
 # Week 2
 
@@ -181,7 +184,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="orgae5bc57"></a>
+<a id="orge0244cc"></a>
 
 ## 1.301 Introduction to microcontrollers, their types and capabilities
 
@@ -200,7 +203,7 @@ Some popular microcontroller platforms are:
 7.  Pocketbeagle
 
 
-<a id="org605e0a0"></a>
+<a id="orgdaa2680"></a>
 
 ## 1.501 Basics on breadboards, extension shields, wiring/pins and transistors
 
@@ -215,7 +218,7 @@ Some popular microcontroller platforms are:
 -   **Transistors:** essentially, a voltage-controlled switch
 
 
-<a id="org1df351e"></a>
+<a id="org76eb71c"></a>
 
 # Week 3
 
@@ -228,7 +231,7 @@ Key Concepts
     schema drawings
 
 
-<a id="orga11b723"></a>
+<a id="orgac017e4"></a>
 
 ## 2.001 - Introduction to electricity flows in sensors and transducers
 
@@ -253,22 +256,22 @@ current:
 \end{align*}
 
 Resistors come in 4, 5, or 6 color bands, we start reading from the
-side with higher concentration of color bands<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.
+side with higher concentration of color bands<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>.
 
 
-<a id="org912aa74"></a>
+<a id="org04ef322"></a>
 
 ## 2.003 - Understanding Digital & Analog input&output signals
 
--   **Analog:** continuous value between \(0\) and e.g. \(3.3\si{\volt}\).
--   **Digital:** discrete value. Either \(0\) or \(1\).
+-   **Analog:** continuous value between $0$ and e.g. $3.3\si{\volt}$.
+-   **Digital:** discrete value. Either $0$ or $1$.
 
 Voltage divider is a simple technique to reduce the voltage with a
-linear transformation. Figure [5](#org0907e3e) shows a depiction of how
+linear transformation. Figure [5](#org496b465) shows a depiction of how
 it&rsquo;s implemented.
 
 \begin{figure}[h]
-\label{org0907e3e}
+\label{org496b465}
   \centering
   \begin{tikzpicture}
     [node distance=1.5cm,
@@ -305,7 +308,7 @@ first redraw this circuit to make it easier to asee what&rsquo;s
 happening:
 
 \begin{figure}[h]
-\label{orgf92abc5}
+\label{orgeb8458d}
   \centering
   \begin{tikzpicture}
     [node distance=1.5cm,
@@ -348,6 +351,83 @@ The derivation is as follows:
 
 Pulse Width Modulation is used for controlling voltage at each duty
 cycle.
+
+
+<a id="org0106d5d"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Understand the role of electricity, electronics and Transducers.
+-   Understand how electricity flow in the microcontroller circuit &
+    breadboard
+-   Explain the difference between Arduino and PLC and how to read
+    schema drawings
+
+
+<a id="org5efeb3e"></a>
+
+## 2.301 - Introduction to creating and reading own circuits diagrams
+
+Figure [8](#orgcc4e64f) shows and example schematic diagram of a very
+simple circuit.
+
+\begin{figure}[h]
+\label{orgcc4e64f}
+  \centering
+  \begin{tikzpicture}
+       [node distance=1.5cm,
+        circuit ee IEC, x=3cm, y=2cm, thick,
+        every info/.style={font=\footnotesize},
+        small circuit symbols,
+        set resistor graphic=var resistor IEC graphic,
+        set make contact graphic= var make contact IEC graphic]
+
+        \foreach \contact/\x in {1/1, 2/2, 3/3, 4/4}
+        {
+          \node [contact] (bc \contact) at (\x,0) {};
+          \node [contact] (tc \contact) at (\x,1) {};
+        }
+
+        \draw (bc 1) -- (bc 2) -- (bc 3) -- (bc 4);
+        \draw (tc 4) -- (bc 4);
+
+        \draw (tc 1) to [battery={volt'=5,info=Battery}] ++(down:1) to (bc 1);
+        \draw (tc 1) to [resistor={ohm'=330,info=Resistor}] ++(right:1) to (tc 2);
+        \draw (tc 2) to [make contact={info=Switch}] ++(right:1) to (tc 3);
+        \draw (tc 3) to [diode={light emitting', info=Diode}] ++(right:1) to (tc 4);
+
+  \end{tikzpicture}
+\end{figure}
+
+[KiCAD EDA](https://www.kicad.org/) is a good quality Schematic Capture and PCB Layout
+toolchain.
+
+
+<a id="org47a2b3f"></a>
+
+## 2.303 - Understanding the types of nodes (Gateway, Router, Hub, Actuators)
+
+*Nodes* are any devices capable of sensing, reacting, or
+communicating. Within *IoT*, these devices have some sort of
+connectivity (WiFi, Ethernet, LoRaWAN, etc).
+
+-   **Hub:** Broadcasts messages to all other nodes connected to
+    it. Messages which are not addressed, are silently ignored. Limited
+    to half-duplex operation.
+-   **Bridge:** Resolve addressing problems. Reviews and record MAC
+    addresses. Fewer ports. Considered to be deprecated
+-   **Switches:** Maintain MAC and port address tables. Support
+    full-duplex operation. Increase network security.
+-   **Gateway:** Edge node. Less traffic control. Support different
+    protocols (ZigBee, Zwave, GSM, &hellip;). Generally also support
+    onboard programming and I/O.
+-   **Router:** Connects to internet via an ISP. Uses (and usually
+    assigns) IP addresses. Configurable with increased security
+    features.
+-   **Actuators:** Reacts to the environment and perform actions (opening
+    doors, starting sprinklers, opening/closing binds, &hellip;).
 
 
 # Footnotes
