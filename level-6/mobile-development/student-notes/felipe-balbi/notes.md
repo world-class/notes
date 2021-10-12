@@ -1,31 +1,38 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc7e3b16)
-    1.  [1.006 Getting started on this module](#org37ef03e)
-    2.  [1.103 The pathway from developer to consumer](#org41ba22d)
-    3.  [1.201 Multiple codebases](#org61a40b4)
-    4.  [1.203 Native apps vs hybrid apps](#org5cf8a9c)
-    5.  [1.301 What is React Native?](#org90891ff)
-    6.  [1.302 What is Expo?](#orga068fca)
-    7.  [1.305 Javascript arrow notation](#orgbb6d9c9)
-    8.  [1.306 Creating a new React Native project and overview of the file structure](#orgf83e157)
-2.  [Week 2](#org08514eb)
-    1.  [1.401 JSX and props](#org163c0a9)
-    2.  [1.501 Testing on simulators and devices](#org9bb3c31)
-    3.  [1.601 Marketplaces and conforming to the rules](#orga658011)
-3.  [Week 3](#orgfed680a)
-    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org210e59c)
-    2.  [2.003 Colour palettes and mood psychology](#orgae44e93)
-    3.  [2.006 Design ideology](#org92d679c)
-    4.  [2.101 What are dark patterns?](#org69df03e)
-    5.  [2.103 Dark patterns](#orgfb10880)
-    6.  [2.201 Introduction to wireframing](#orgd57a01d)
-    7.  [2.203 Creating a wireframe for a shopping app](#org9d6d78b)
+1.  [Week 1](#orgf7a5317)
+    1.  [1.006 Getting started on this module](#org6449bf6)
+    2.  [1.103 The pathway from developer to consumer](#orge79ec47)
+    3.  [1.201 Multiple codebases](#org33473cc)
+    4.  [1.203 Native apps vs hybrid apps](#org5654624)
+    5.  [1.301 What is React Native?](#org2f86cd3)
+    6.  [1.302 What is Expo?](#org7e4e9d4)
+    7.  [1.305 Javascript arrow notation](#org0b07439)
+    8.  [1.306 Creating a new React Native project and overview of the file structure](#orgfbb0846)
+2.  [Week 2](#orge2d8dd9)
+    1.  [1.401 JSX and props](#org4ec6e36)
+    2.  [1.501 Testing on simulators and devices](#org6bc133b)
+    3.  [1.601 Marketplaces and conforming to the rules](#orgbd48c8b)
+3.  [Week 3](#org48a8bf9)
+    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org59cb54d)
+    2.  [2.003 Colour palettes and mood psychology](#orgf519884)
+    3.  [2.006 Design ideology](#org2ba85c3)
+    4.  [2.101 What are dark patterns?](#orgc0b2bfb)
+    5.  [2.103 Dark patterns](#org47ab037)
+    6.  [2.201 Introduction to wireframing](#org398d888)
+    7.  [2.203 Creating a wireframe for a shopping app](#org33a43ad)
+4.  [Week 4](#orgdbc02a9)
+    1.  [2.401 How to style elements in React Native](#orgff05725)
+    2.  [2.501 What is responsive design?](#orgc204ae0)
+    3.  [2.504 React Native flex](#orgb3b3b08)
+    4.  [2.505 Apple developer guidelines](#orga1fef13)
+    5.  [2.601 Design with accessibility in mind](#orgfae9eef)
+    6.  [2.603 Accessibility in computational technology](#org5d1c872)
 
 
 
-<a id="orgc7e3b16"></a>
+<a id="orgf7a5317"></a>
 
 # Week 1
 
@@ -36,7 +43,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org37ef03e"></a>
+<a id="org6449bf6"></a>
 
 ## 1.006 Getting started on this module
 
@@ -50,7 +57,7 @@ systems. Some of the benefits are:
 4.  Heavily used in industry
 
 
-<a id="org41ba22d"></a>
+<a id="orge79ec47"></a>
 
 ## 1.103 The pathway from developer to consumer
 
@@ -92,14 +99,14 @@ laid out below.
     by anyone
 
 
-<a id="org61a40b4"></a>
+<a id="org33473cc"></a>
 
 ## 1.201 Multiple codebases
 
 There are two major mobile OSes:
 
--   iOS (\(\approx 26.5\%\) market share)
--   Android (\(\approx 72.9\%\) market share)
+-   iOS ($\approx 26.5\%$ market share)
+-   Android ($\approx 72.9\%$ market share)
 
 This means that developers usually have to write the same app
 twice &#x2014; once for iOS with Switch of Objective-C, and once for
@@ -114,7 +121,7 @@ common language that can be compiled for both platforms.
 -   **Hybriid Apps:** Written in a common language
 
 
-<a id="org5cf8a9c"></a>
+<a id="org5654624"></a>
 
 ## 1.203 Native apps vs hybrid apps
 
@@ -123,11 +130,11 @@ much closer to a native application. During compilation of the
 project, React Native renderas our views with native code on the
 target platform thus giving us the best of both worlds.
 
-In table [1](#org3851814) we list pros and cons of Native
-Apps. Similarly, table [2](#org648cd73) shows the same comparison
+In table [1](#org9aaa809) we list pros and cons of Native
+Apps. Similarly, table [2](#org1d1f8f3) shows the same comparison
 for Hybrid Apps.
 
-<table id="org3851814" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org9aaa809" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Native Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -164,7 +171,7 @@ for Hybrid Apps.
 </tbody>
 </table>
 
-<table id="org648cd73" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org1d1f8f3" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Hybrid Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -202,7 +209,7 @@ for Hybrid Apps.
 </table>
 
 
-<a id="org90891ff"></a>
+<a id="org2f86cd3"></a>
 
 ## 1.301 What is React Native?
 
@@ -210,14 +217,14 @@ for Hybrid Apps.
 build code for multiple platforms.
 
 
-<a id="orga068fca"></a>
+<a id="org7e4e9d4"></a>
 
 ## 1.302 What is Expo?
 
 [Expo](https://expo.dev) helps manage a React Native project.
 
 
-<a id="orgbb6d9c9"></a>
+<a id="org0b07439"></a>
 
 ## 1.305 Javascript arrow notation
 
@@ -249,7 +256,7 @@ keep parenthesis around arguments:
     (a, b) => a**2 + 2*a*b + b**2;
 
 
-<a id="orgf83e157"></a>
+<a id="orgfbb0846"></a>
 
 ## 1.306 Creating a new React Native project and overview of the file structure
 
@@ -266,7 +273,7 @@ run:
     $ expo start
 
 
-<a id="org08514eb"></a>
+<a id="orge2d8dd9"></a>
 
 # Week 2
 
@@ -277,7 +284,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org163c0a9"></a>
+<a id="org4ec6e36"></a>
 
 ## 1.401 JSX and props
 
@@ -288,7 +295,7 @@ tags. Component names must start with a capital letter.
 Props can be passed in an HTML `attribute=value` format.
 
 
-<a id="org9bb3c31"></a>
+<a id="org6bc133b"></a>
 
 ## 1.501 Testing on simulators and devices
 
@@ -297,7 +304,7 @@ help us uncover issues early. The simulator is another option which
 works well.
 
 
-<a id="orga658011"></a>
+<a id="orgbd48c8b"></a>
 
 ## 1.601 Marketplaces and conforming to the rules
 
@@ -311,7 +318,7 @@ Reasons for rejection
 6.  Low-quality design
 
 
-<a id="orgfed680a"></a>
+<a id="org48a8bf9"></a>
 
 # Week 3
 
@@ -323,7 +330,7 @@ Key Concepts
     using code
 
 
-<a id="org210e59c"></a>
+<a id="org59cb54d"></a>
 
 ## 2.001 Skeuomorphism, minimalism and neumorphism
 
@@ -334,7 +341,7 @@ Key Concepts
     minimalism
 
 
-<a id="orgae44e93"></a>
+<a id="orgf519884"></a>
 
 ## 2.003 Colour palettes and mood psychology
 
@@ -343,7 +350,7 @@ Key Concepts
 -   **White:** simplicity, calmness, professionalism
 
 
-<a id="org92d679c"></a>
+<a id="org2ba85c3"></a>
 
 ## 2.006 Design ideology
 
@@ -351,7 +358,7 @@ Key Concepts
 -   [Google Material Design Guidelines](https://material.io/design/guidelines-overview)
 
 
-<a id="org69df03e"></a>
+<a id="orgc0b2bfb"></a>
 
 ## 2.101 What are dark patterns?
 
@@ -359,14 +366,14 @@ Dark Patterns is the term given to design choices that are crafted
 to make you do things you don&rsquo;t want to do. 
 
 
-<a id="orgfb10880"></a>
+<a id="org47ab037"></a>
 
 ## 2.103 Dark patterns
 
 -   [Dark Patterns website](https://www.darkpatterns.org/)
 
 
-<a id="orgd57a01d"></a>
+<a id="org398d888"></a>
 
 ## 2.201 Introduction to wireframing
 
@@ -374,10 +381,134 @@ Wireframes allow us to design layouts in order to demonstrate an
 idea and check if it&rsquo;s likely to be practical.
 
 
-<a id="org9d6d78b"></a>
+<a id="org33a43ad"></a>
 
 ## 2.203 Creating a wireframe for a shopping app
 
 Before wireframing, it&rsquo;s a good to create a [User Flow
 Diagram](https://diagrams.net). After we can start working on our [wireframe](https://www.framer.com/).
+
+
+<a id="orgdbc02a9"></a>
+
+# Week 4
+
+Key Concepts
+
+-   Understand the need for wireframing
+-   Discuss the link between psychology and design decisions
+-   Understand and identify different design styles and replicate them
+    using code
+
+
+<a id="orgff05725"></a>
+
+## 2.401 How to style elements in React Native
+
+Styles, in `React`, are created with `StyleSheet.create()` method. We
+can use them by setting the `style` property of the element to the
+relevant object. Like so:
+
+    import { StatusBar } from 'expo-status-bar';
+    import React from 'react';
+    import { StyleSheet, Text, View } from 'react-native';
+    
+    export default function App() {
+      return (
+          <View style={styles.container}>
+    	<Text>Open up App.js to start working on your app!</Text>
+    	<StatusBar style="auto" />
+          </View>
+      );
+    }
+    
+    const styles = StyleSheet.create({
+      container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }
+    });
+
+In this case, the `<Text>` and `<StatusBar>` elements are children of
+the `<View>` element and will, therefore, *inherit* its styling. 
+
+
+<a id="orgc204ae0"></a>
+
+## 2.501 What is responsive design?
+
+With so many different models of devices in the market, each with a
+different pixel density, screen sizes, and resolution, designing a
+single app that works on all form factors is a rather large
+task.
+
+Responsive design is a technique where the application&rsquo;s UI adapts to
+the screen dimensions. We do this by building apps designed for
+proportions, rather than specific sizes.
+
+In ReactNative, Flexbox is used to provide a consistent layout on
+different screens.
+
+
+<a id="orgb3b3b08"></a>
+
+## 2.504 React Native flex
+
+-   [React Documentation: Flexbox](https://reactnative.dev/docs/flexbox)
+
+
+<a id="orga1fef13"></a>
+
+## 2.505 Apple developer guidelines
+
+-   [Apple Developer Guidelines: Adaptivity And Layout](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
+
+
+<a id="orgfae9eef"></a>
+
+## 2.601 Design with accessibility in mind
+
+When building an application, four categories should be kept in mind:
+
+1.  Vision
+    
+    Blindness, color blindness and all forms of vision impairment
+
+2.  Hearing
+    
+    Hearing loss and other hearing disabilities
+
+3.  Physical and motor
+    
+    People with physical and motors impairment, may experience
+    difficulties holding or manipulating their devices
+
+4.  Literacy and learning
+    
+    These include difficulty speaking, reading, managing complexity and
+    maintaining attention or focus.
+
+ReactNative wraps Android and iOS specific accessibility features.
+
+-   **`accessible` Prop:** When true, indicates the view is an
+    accessibility element.
+-   **`accessibilityLabel` Prop:** Allows us to assign descriptive label
+    to an element.
+-   **`accessibilityHint` Prop:** Describes what will happen when the user
+    performs the action on the element.
+-   **Accessibility Actions:** Allow assistive technologies to
+    programmatically perform actions.
+
+
+<a id="org5d1c872"></a>
+
+## 2.603 Accessibility in computational technology
+
+-   Antona, M. and C. Stephanidis (eds) Universal Access in
+    Human-Computer Interaction. Design Approaches and Supporting
+    Technologies. 14th International Conference, UAHCI 2020, Held as
+    Part of the 22nd HCI International Conference, HCII 2020. (Springer
+    International Publishing, 2020).
 
