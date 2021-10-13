@@ -1,38 +1,41 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgf7a5317)
-    1.  [1.006 Getting started on this module](#org6449bf6)
-    2.  [1.103 The pathway from developer to consumer](#orge79ec47)
-    3.  [1.201 Multiple codebases](#org33473cc)
-    4.  [1.203 Native apps vs hybrid apps](#org5654624)
-    5.  [1.301 What is React Native?](#org2f86cd3)
-    6.  [1.302 What is Expo?](#org7e4e9d4)
-    7.  [1.305 Javascript arrow notation](#org0b07439)
-    8.  [1.306 Creating a new React Native project and overview of the file structure](#orgfbb0846)
-2.  [Week 2](#orge2d8dd9)
-    1.  [1.401 JSX and props](#org4ec6e36)
-    2.  [1.501 Testing on simulators and devices](#org6bc133b)
-    3.  [1.601 Marketplaces and conforming to the rules](#orgbd48c8b)
-3.  [Week 3](#org48a8bf9)
-    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org59cb54d)
-    2.  [2.003 Colour palettes and mood psychology](#orgf519884)
-    3.  [2.006 Design ideology](#org2ba85c3)
-    4.  [2.101 What are dark patterns?](#orgc0b2bfb)
-    5.  [2.103 Dark patterns](#org47ab037)
-    6.  [2.201 Introduction to wireframing](#org398d888)
-    7.  [2.203 Creating a wireframe for a shopping app](#org33a43ad)
-4.  [Week 4](#orgdbc02a9)
-    1.  [2.401 How to style elements in React Native](#orgff05725)
-    2.  [2.501 What is responsive design?](#orgc204ae0)
-    3.  [2.504 React Native flex](#orgb3b3b08)
-    4.  [2.505 Apple developer guidelines](#orga1fef13)
-    5.  [2.601 Design with accessibility in mind](#orgfae9eef)
-    6.  [2.603 Accessibility in computational technology](#org5d1c872)
+1.  [Week 1](#orga4ea6cf)
+    1.  [1.006 Getting started on this module](#org09c3087)
+    2.  [1.103 The pathway from developer to consumer](#org41049a3)
+    3.  [1.201 Multiple codebases](#org172db3b)
+    4.  [1.203 Native apps vs hybrid apps](#orgd5aa94d)
+    5.  [1.301 What is React Native?](#org8fc07da)
+    6.  [1.302 What is Expo?](#org93e5360)
+    7.  [1.305 Javascript arrow notation](#org99fb73f)
+    8.  [1.306 Creating a new React Native project and overview of the file structure](#org74c1701)
+2.  [Week 2](#org3892528)
+    1.  [1.401 JSX and props](#org6bcfa67)
+    2.  [1.501 Testing on simulators and devices](#org46c3529)
+    3.  [1.601 Marketplaces and conforming to the rules](#org94927a4)
+3.  [Week 3](#org8e24c8f)
+    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org4384efd)
+    2.  [2.003 Colour palettes and mood psychology](#orgfdb5d56)
+    3.  [2.006 Design ideology](#org45103e5)
+    4.  [2.101 What are dark patterns?](#orgb09d475)
+    5.  [2.103 Dark patterns](#org8343b28)
+    6.  [2.201 Introduction to wireframing](#org54bbf79)
+    7.  [2.203 Creating a wireframe for a shopping app](#orgd482eca)
+4.  [Week 4](#orgf15aa74)
+    1.  [2.401 How to style elements in React Native](#org2511fe8)
+    2.  [2.501 What is responsive design?](#org73017aa)
+    3.  [2.504 React Native flex](#org4f1283f)
+    4.  [2.505 Apple developer guidelines](#orga8e8564)
+    5.  [2.601 Design with accessibility in mind](#org25e1b20)
+    6.  [2.603 Accessibility in computational technology](#org81a3cda)
+5.  [Week 5](#org975ed1a)
+    1.  [3.001 UI elements and the OS](#org57f971e)
+    2.  [3.004 React Native component documentation](#orge8cd13f)
 
 
 
-<a id="orgf7a5317"></a>
+<a id="orga4ea6cf"></a>
 
 # Week 1
 
@@ -43,7 +46,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org6449bf6"></a>
+<a id="org09c3087"></a>
 
 ## 1.006 Getting started on this module
 
@@ -57,7 +60,7 @@ systems. Some of the benefits are:
 4.  Heavily used in industry
 
 
-<a id="orge79ec47"></a>
+<a id="org41049a3"></a>
 
 ## 1.103 The pathway from developer to consumer
 
@@ -99,7 +102,7 @@ laid out below.
     by anyone
 
 
-<a id="org33473cc"></a>
+<a id="org172db3b"></a>
 
 ## 1.201 Multiple codebases
 
@@ -121,7 +124,7 @@ common language that can be compiled for both platforms.
 -   **Hybriid Apps:** Written in a common language
 
 
-<a id="org5654624"></a>
+<a id="orgd5aa94d"></a>
 
 ## 1.203 Native apps vs hybrid apps
 
@@ -130,11 +133,11 @@ much closer to a native application. During compilation of the
 project, React Native renderas our views with native code on the
 target platform thus giving us the best of both worlds.
 
-In table [1](#org9aaa809) we list pros and cons of Native
-Apps. Similarly, table [2](#org1d1f8f3) shows the same comparison
+In table [1](#org8329001) we list pros and cons of Native
+Apps. Similarly, table [2](#org67bcc9f) shows the same comparison
 for Hybrid Apps.
 
-<table id="org9aaa809" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org8329001" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Native Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -171,7 +174,7 @@ for Hybrid Apps.
 </tbody>
 </table>
 
-<table id="org1d1f8f3" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org67bcc9f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Hybrid Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -209,7 +212,7 @@ for Hybrid Apps.
 </table>
 
 
-<a id="org2f86cd3"></a>
+<a id="org8fc07da"></a>
 
 ## 1.301 What is React Native?
 
@@ -217,14 +220,14 @@ for Hybrid Apps.
 build code for multiple platforms.
 
 
-<a id="org7e4e9d4"></a>
+<a id="org93e5360"></a>
 
 ## 1.302 What is Expo?
 
 [Expo](https://expo.dev) helps manage a React Native project.
 
 
-<a id="org0b07439"></a>
+<a id="org99fb73f"></a>
 
 ## 1.305 Javascript arrow notation
 
@@ -256,7 +259,7 @@ keep parenthesis around arguments:
     (a, b) => a**2 + 2*a*b + b**2;
 
 
-<a id="orgfbb0846"></a>
+<a id="org74c1701"></a>
 
 ## 1.306 Creating a new React Native project and overview of the file structure
 
@@ -273,7 +276,7 @@ run:
     $ expo start
 
 
-<a id="orge2d8dd9"></a>
+<a id="org3892528"></a>
 
 # Week 2
 
@@ -284,7 +287,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org4ec6e36"></a>
+<a id="org6bcfa67"></a>
 
 ## 1.401 JSX and props
 
@@ -295,7 +298,7 @@ tags. Component names must start with a capital letter.
 Props can be passed in an HTML `attribute=value` format.
 
 
-<a id="org6bc133b"></a>
+<a id="org46c3529"></a>
 
 ## 1.501 Testing on simulators and devices
 
@@ -304,7 +307,7 @@ help us uncover issues early. The simulator is another option which
 works well.
 
 
-<a id="orgbd48c8b"></a>
+<a id="org94927a4"></a>
 
 ## 1.601 Marketplaces and conforming to the rules
 
@@ -318,7 +321,7 @@ Reasons for rejection
 6.  Low-quality design
 
 
-<a id="org48a8bf9"></a>
+<a id="org8e24c8f"></a>
 
 # Week 3
 
@@ -330,7 +333,7 @@ Key Concepts
     using code
 
 
-<a id="org59cb54d"></a>
+<a id="org4384efd"></a>
 
 ## 2.001 Skeuomorphism, minimalism and neumorphism
 
@@ -341,7 +344,7 @@ Key Concepts
     minimalism
 
 
-<a id="orgf519884"></a>
+<a id="orgfdb5d56"></a>
 
 ## 2.003 Colour palettes and mood psychology
 
@@ -350,7 +353,7 @@ Key Concepts
 -   **White:** simplicity, calmness, professionalism
 
 
-<a id="org2ba85c3"></a>
+<a id="org45103e5"></a>
 
 ## 2.006 Design ideology
 
@@ -358,7 +361,7 @@ Key Concepts
 -   [Google Material Design Guidelines](https://material.io/design/guidelines-overview)
 
 
-<a id="orgc0b2bfb"></a>
+<a id="orgb09d475"></a>
 
 ## 2.101 What are dark patterns?
 
@@ -366,14 +369,14 @@ Dark Patterns is the term given to design choices that are crafted
 to make you do things you don&rsquo;t want to do. 
 
 
-<a id="org47ab037"></a>
+<a id="org8343b28"></a>
 
 ## 2.103 Dark patterns
 
 -   [Dark Patterns website](https://www.darkpatterns.org/)
 
 
-<a id="org398d888"></a>
+<a id="org54bbf79"></a>
 
 ## 2.201 Introduction to wireframing
 
@@ -381,7 +384,7 @@ Wireframes allow us to design layouts in order to demonstrate an
 idea and check if it&rsquo;s likely to be practical.
 
 
-<a id="org33a43ad"></a>
+<a id="orgd482eca"></a>
 
 ## 2.203 Creating a wireframe for a shopping app
 
@@ -389,7 +392,7 @@ Before wireframing, it&rsquo;s a good to create a [User Flow
 Diagram](https://diagrams.net). After we can start working on our [wireframe](https://www.framer.com/).
 
 
-<a id="orgdbc02a9"></a>
+<a id="orgf15aa74"></a>
 
 # Week 4
 
@@ -401,7 +404,7 @@ Key Concepts
     using code
 
 
-<a id="orgff05725"></a>
+<a id="org2511fe8"></a>
 
 ## 2.401 How to style elements in React Native
 
@@ -435,7 +438,7 @@ In this case, the `<Text>` and `<StatusBar>` elements are children of
 the `<View>` element and will, therefore, *inherit* its styling. 
 
 
-<a id="orgc204ae0"></a>
+<a id="org73017aa"></a>
 
 ## 2.501 What is responsive design?
 
@@ -452,21 +455,21 @@ In ReactNative, Flexbox is used to provide a consistent layout on
 different screens.
 
 
-<a id="orgb3b3b08"></a>
+<a id="org4f1283f"></a>
 
 ## 2.504 React Native flex
 
 -   [React Documentation: Flexbox](https://reactnative.dev/docs/flexbox)
 
 
-<a id="orga1fef13"></a>
+<a id="orga8e8564"></a>
 
 ## 2.505 Apple developer guidelines
 
 -   [Apple Developer Guidelines: Adaptivity And Layout](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
 
 
-<a id="orgfae9eef"></a>
+<a id="org25e1b20"></a>
 
 ## 2.601 Design with accessibility in mind
 
@@ -502,7 +505,7 @@ ReactNative wraps Android and iOS specific accessibility features.
     programmatically perform actions.
 
 
-<a id="org5d1c872"></a>
+<a id="org81a3cda"></a>
 
 ## 2.603 Accessibility in computational technology
 
@@ -511,4 +514,39 @@ ReactNative wraps Android and iOS specific accessibility features.
     Technologies. 14th International Conference, UAHCI 2020, Held as
     Part of the 22nd HCI International Conference, HCII 2020. (Springer
     International Publishing, 2020).
+
+
+<a id="org975ed1a"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Use JSX to create basic elements on the screen
+-   Understand the need for pagination
+-   Understand and be able to use UI elements in React Native
+
+
+<a id="org57f971e"></a>
+
+## 3.001 UI elements and the OS
+
+-   **`ActivityIndicator`:** Shows background activity
+-   **`Button`:** Default UI Button element
+-   **`Image`:** An element that renders an image
+-   **`ImageBackground`:** Fills a space with an image, resizing it where
+    applicable
+-   **`Switch`:** Regular toggle switch element
+-   **`Text`:** Renders text in the screen
+-   **`TextInput`:** Lets user input text into a field
+-   **`TouchableOpacity`:** Area capable of receiving touch events
+-   **`View`:** A basic *container* element. Can be thought of as sheets
+    of paper
+
+
+<a id="orge8cd13f"></a>
+
+## 3.004 React Native component documentation
+
+-   [React: Core Components And APIs](https://reactnative.dev/docs/components-and-apis)
 
