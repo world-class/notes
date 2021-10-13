@@ -1,24 +1,27 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc97ad4e)
-    1.  [1.001 Introduction to the course](#orgc18fd5c)
-    2.  [1.101 Introduction to physical computing and IoT](#org5020229)
-    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#orgdff1e2b)
-    4.  [1.105 IoT stack and IoT architecture](#orgf64efc0)
-2.  [Week 2](#org2d3936c)
-    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#orge0244cc)
-    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#orgdaa2680)
-3.  [Week 3](#org76eb71c)
-    1.  [2.001 - Introduction to electricity flows in sensors and transducers](#orgac017e4)
-    2.  [2.003 - Understanding Digital & Analog input&output signals](#org04ef322)
-4.  [Week 4](#org0106d5d)
-    1.  [2.301 - Introduction to creating and reading own circuits diagrams](#org5efeb3e)
-    2.  [2.303 - Understanding the types of nodes (Gateway, Router, Hub, Actuators)](#org47a2b3f)
+1.  [Week 1](#org44adda6)
+    1.  [1.001 Introduction to the course](#org844100e)
+    2.  [1.101 Introduction to physical computing and IoT](#org6757a87)
+    3.  [1.103 Background to IoT, IoT stack and IoT architecture](#orge166a0c)
+    4.  [1.105 IoT stack and IoT architecture](#orgcdb1b76)
+2.  [Week 2](#org9de5060)
+    1.  [1.301 Introduction to microcontrollers, their types and capabilities](#org20e1ff4)
+    2.  [1.501 Basics on breadboards, extension shields, wiring/pins and transistors](#orgb500973)
+3.  [Week 3](#orga5b8c2d)
+    1.  [2.001 - Introduction to electricity flows in sensors and transducers](#orge2147ce)
+    2.  [2.003 - Understanding Digital & Analog input&output signals](#org09d80db)
+4.  [Week 4](#org8e76e14)
+    1.  [2.301 - Introduction to creating and reading own circuits diagrams](#orga7a805d)
+    2.  [2.303 - Understanding the types of nodes (Gateway, Router, Hub, Actuators)](#org54e49be)
+5.  [Week 5](#org94dcd2a)
+    1.  [3.001 - Introduction to multimodal sensors approaches (Ambient, Dense, Wearables)](#org3caed9b)
+    2.  [3.101 - Common physical sensors - Ambient and Dense](#org243d36c)
 
 
 
-<a id="orgc97ad4e"></a>
+<a id="org44adda6"></a>
 
 # Week 1
 
@@ -32,7 +35,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="orgc18fd5c"></a>
+<a id="org844100e"></a>
 
 ## 1.001 Introduction to the course
 
@@ -66,7 +69,7 @@ Course Topics:
 10. Robots
 
 
-<a id="org5020229"></a>
+<a id="org6757a87"></a>
 
 ## 1.101 Introduction to physical computing and IoT
 
@@ -76,16 +79,16 @@ them. Internet-of-Things (IoT) describes the network of physical
 objects.
 
 
-<a id="orgdff1e2b"></a>
+<a id="orge166a0c"></a>
 
 ## 1.103 Background to IoT, IoT stack and IoT architecture
 
-As shown in Iot Building Block figure [1](#org3d5fcfd) below,
+As shown in Iot Building Block figure [1](#org5eb0323) below,
 the communication networks play a central role allowing all other
 nodes to communicate with each other.
 
 \begin{figure}[h]
-\label{org3d5fcfd}
+\label{org5eb0323}
   \centering
   \begin{tikzpicture}
     \node[box, fill=orange!20] (cm) {Communication Networks};
@@ -100,10 +103,10 @@ nodes to communicate with each other.
 \end{figure}
 
 A Typical IoT node is composed with several modules which are shown
-in figure [2](#orge6140db) below.
+in figure [2](#org889567f) below.
 
 \begin{figure}[h]
-\label{orge6140db}
+\label{org889567f}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (wim) {Wireless Interface Module};
@@ -122,11 +125,11 @@ in figure [2](#orge6140db) below.
   \end{tikzpicture}
 \end{figure}
 
-Figure [3](#org4c004c0) describes how a set of IoT nodes form an
+Figure [3](#orgc799669) describes how a set of IoT nodes form an
 ecosystem:
 
 \begin{figure}[h]
-\label{org4c004c0}
+\label{orgc799669}
   \centering
   \begin{tikzpicture}[node distance=2cm]
     \node[box] (pl) {Perception Layer};
@@ -153,7 +156,7 @@ ecosystem:
 \end{figure}
 
 
-<a id="orgf64efc0"></a>
+<a id="orgcdb1b76"></a>
 
 ## 1.105 IoT stack and IoT architecture
 
@@ -170,7 +173,7 @@ ecosystem:
     4.0, web 5.0 and beyond&rsquo;](http://ahmadfaizar.blogspot.com/2018/08/evolution-of-web-web-10-web-20-web-30.html) ahmadfaiza.blog.
 
 
-<a id="org2d3936c"></a>
+<a id="org9de5060"></a>
 
 # Week 2
 
@@ -184,7 +187,7 @@ Key Concepts
     relevant libraries
 
 
-<a id="orge0244cc"></a>
+<a id="org20e1ff4"></a>
 
 ## 1.301 Introduction to microcontrollers, their types and capabilities
 
@@ -203,7 +206,7 @@ Some popular microcontroller platforms are:
 7.  Pocketbeagle
 
 
-<a id="orgdaa2680"></a>
+<a id="orgb500973"></a>
 
 ## 1.501 Basics on breadboards, extension shields, wiring/pins and transistors
 
@@ -218,7 +221,7 @@ Some popular microcontroller platforms are:
 -   **Transistors:** essentially, a voltage-controlled switch
 
 
-<a id="org76eb71c"></a>
+<a id="orga5b8c2d"></a>
 
 # Week 3
 
@@ -231,7 +234,7 @@ Key Concepts
     schema drawings
 
 
-<a id="orgac017e4"></a>
+<a id="orge2147ce"></a>
 
 ## 2.001 - Introduction to electricity flows in sensors and transducers
 
@@ -259,7 +262,7 @@ Resistors come in 4, 5, or 6 color bands, we start reading from the
 side with higher concentration of color bands<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>.
 
 
-<a id="org04ef322"></a>
+<a id="org09d80db"></a>
 
 ## 2.003 - Understanding Digital & Analog input&output signals
 
@@ -267,11 +270,11 @@ side with higher concentration of color bands<sup><a id="fnr.1" class="footref" 
 -   **Digital:** discrete value. Either $0$ or $1$.
 
 Voltage divider is a simple technique to reduce the voltage with a
-linear transformation. Figure [5](#org496b465) shows a depiction of how
+linear transformation. Figure [5](#orgb54f4a1) shows a depiction of how
 it&rsquo;s implemented.
 
 \begin{figure}[h]
-\label{org496b465}
+\label{orgb54f4a1}
   \centering
   \begin{tikzpicture}
     [node distance=1.5cm,
@@ -308,7 +311,7 @@ first redraw this circuit to make it easier to asee what&rsquo;s
 happening:
 
 \begin{figure}[h]
-\label{orgeb8458d}
+\label{orgda5390e}
   \centering
   \begin{tikzpicture}
     [node distance=1.5cm,
@@ -353,7 +356,7 @@ Pulse Width Modulation is used for controlling voltage at each duty
 cycle.
 
 
-<a id="org0106d5d"></a>
+<a id="org8e76e14"></a>
 
 # Week 4
 
@@ -366,15 +369,15 @@ Key Concepts
     schema drawings
 
 
-<a id="org5efeb3e"></a>
+<a id="orga7a805d"></a>
 
 ## 2.301 - Introduction to creating and reading own circuits diagrams
 
-Figure [8](#orgcc4e64f) shows and example schematic diagram of a very
+Figure [8](#org01c0f29) shows and example schematic diagram of a very
 simple circuit.
 
 \begin{figure}[h]
-\label{orgcc4e64f}
+\label{org01c0f29}
   \centering
   \begin{tikzpicture}
        [node distance=1.5cm,
@@ -405,7 +408,7 @@ simple circuit.
 toolchain.
 
 
-<a id="org47a2b3f"></a>
+<a id="org54e49be"></a>
 
 ## 2.303 - Understanding the types of nodes (Gateway, Router, Hub, Actuators)
 
@@ -428,6 +431,131 @@ connectivity (WiFi, Ethernet, LoRaWAN, etc).
     features.
 -   **Actuators:** Reacts to the environment and perform actions (opening
     doors, starting sprinklers, opening/closing binds, &hellip;).
+
+
+<a id="org94dcd2a"></a>
+
+# Week 5
+
+Key Concepts
+
+-   Explain and critically evaluate types of sensors available, their
+    capabilities and potential applications
+-   Able to control and monitor sensor states from HTML page using HTTP
+    protocol
+-   Understand power sources requirements of different by sensors and
+    actuators
+
+
+<a id="org3caed9b"></a>
+
+## 3.001 - Introduction to multimodal sensors approaches (Ambient, Dense, Wearables)
+
+A Smart Environment is created using various sensing devices. These
+devices can, in general, be separated in two main categories:
+
+-   **Vision:** involve some method of image processing to detect and
+    track objects of interest. Common process for vision-based sensing
+    is as follows:
+    
+    1.  Sequential image processing
+    
+    2.  Pre-processing
+    
+    3.  Fragmenting images
+    
+    4.  Feature extraction
+    
+    5.  Movement tracking
+    
+    Popular algorithms for image processing are:
+    
+    1.  Scale Invariant Feature Transformation *SIFT*
+    
+    2.  Speed-Up Robust Features *SURF*
+    
+    3.  Features from Accelerated Segment Test *FAST*
+    
+    4.  Histogram of Oriented Gradients *HOG*
+    
+    5.  Histogram of optical Flow
+    
+    6.  Gaussian filter
+    
+    7.  Motion boundaries
+
+-   **Sensor:** involve sensing physical characteristics of the
+    environment such as walls, windows, and large funitures. In general,
+    data from such sensors are used for Time-series Analysis. Some of
+    these sensors can be worn or even implanted in our body. This
+    category can be further broken down into three main subcategories.
+    -   **Ambient:** Distributed around the environment
+    
+    -   **Dense:** Embedded within objects. Common sensors are:
+        1.  Capacitive touch
+        
+        2.  Tilt sensor
+        
+        3.  Accelerometer
+        
+        4.  Gyroscope
+        
+        5.  Force
+        
+        6.  Pressure
+        
+        7.  Liquid level (FDC1004)
+        
+        8.  Weight scale (Load cell)
+        
+        9.  Temperature / Humidity (DHT11/DHT22)
+        
+        10. RFID tags
+    
+    -   **Wearable:** Worn sensors, such as:
+        
+        1.  Smart Watches
+        
+        2.  Smart Glasses
+        
+        3.  Smart Garments
+        
+        4.  Chest and angle belts
+        
+        Or implants, such as:
+        
+        1.  RFID chips
+        
+        2.  Lens
+        
+        3.  Diabetes pumps
+        
+        4.  Pacemakers
+
+
+<a id="org243d36c"></a>
+
+## 3.101 - Common physical sensors - Ambient and Dense
+
+Temperature Sensors:
+
+1.  Thermocouple
+2.  Thermistor
+3.  Resistor Temperature Detector
+4.  Semiconductor Sensor
+5.  Infrared Temperature Sensor
+6.  Thermometer
+
+Distance Sensors
+
+1.  Infrared Distance Sensor
+2.  Ultrasonic Distance Sensor
+3.  LiDAR
+
+Inertial Measurement Units
+
+1.  6 Degrees of Freedom (6DoF)
+2.  9 Degrees of freedom (9DoF)
 
 
 # Footnotes
