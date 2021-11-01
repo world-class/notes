@@ -1,41 +1,46 @@
 
 # Table of Contents
 
-1.  [Week 1](#orga4ea6cf)
-    1.  [1.006 Getting started on this module](#org09c3087)
-    2.  [1.103 The pathway from developer to consumer](#org41049a3)
-    3.  [1.201 Multiple codebases](#org172db3b)
-    4.  [1.203 Native apps vs hybrid apps](#orgd5aa94d)
-    5.  [1.301 What is React Native?](#org8fc07da)
-    6.  [1.302 What is Expo?](#org93e5360)
-    7.  [1.305 Javascript arrow notation](#org99fb73f)
-    8.  [1.306 Creating a new React Native project and overview of the file structure](#org74c1701)
-2.  [Week 2](#org3892528)
-    1.  [1.401 JSX and props](#org6bcfa67)
-    2.  [1.501 Testing on simulators and devices](#org46c3529)
-    3.  [1.601 Marketplaces and conforming to the rules](#org94927a4)
-3.  [Week 3](#org8e24c8f)
-    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#org4384efd)
-    2.  [2.003 Colour palettes and mood psychology](#orgfdb5d56)
-    3.  [2.006 Design ideology](#org45103e5)
-    4.  [2.101 What are dark patterns?](#orgb09d475)
-    5.  [2.103 Dark patterns](#org8343b28)
-    6.  [2.201 Introduction to wireframing](#org54bbf79)
-    7.  [2.203 Creating a wireframe for a shopping app](#orgd482eca)
-4.  [Week 4](#orgf15aa74)
-    1.  [2.401 How to style elements in React Native](#org2511fe8)
-    2.  [2.501 What is responsive design?](#org73017aa)
-    3.  [2.504 React Native flex](#org4f1283f)
-    4.  [2.505 Apple developer guidelines](#orga8e8564)
-    5.  [2.601 Design with accessibility in mind](#org25e1b20)
-    6.  [2.603 Accessibility in computational technology](#org81a3cda)
-5.  [Week 5](#org975ed1a)
-    1.  [3.001 UI elements and the OS](#org57f971e)
-    2.  [3.004 React Native component documentation](#orge8cd13f)
+1.  [Week 1](#org9e2b25c)
+    1.  [1.006 Getting started on this module](#org4046ce4)
+    2.  [1.103 The pathway from developer to consumer](#orgd1d9071)
+    3.  [1.201 Multiple codebases](#org4180991)
+    4.  [1.203 Native apps vs hybrid apps](#orgc07268a)
+    5.  [1.301 What is React Native?](#org9e14c86)
+    6.  [1.302 What is Expo?](#orgf02bcda)
+    7.  [1.305 Javascript arrow notation](#orga40f600)
+    8.  [1.306 Creating a new React Native project and overview of the file structure](#org45a21db)
+2.  [Week 2](#org42aaa11)
+    1.  [1.401 JSX and props](#orge4a9b6b)
+    2.  [1.501 Testing on simulators and devices](#orgf74684d)
+    3.  [1.601 Marketplaces and conforming to the rules](#orge1a1978)
+3.  [Week 3](#org602b587)
+    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#orgeaf998d)
+    2.  [2.003 Colour palettes and mood psychology](#orgd9aa450)
+    3.  [2.006 Design ideology](#org1362397)
+    4.  [2.101 What are dark patterns?](#org7944d3c)
+    5.  [2.103 Dark patterns](#org257400f)
+    6.  [2.201 Introduction to wireframing](#orgd190105)
+    7.  [2.203 Creating a wireframe for a shopping app](#orgfa28f76)
+4.  [Week 4](#org93eec7b)
+    1.  [2.401 How to style elements in React Native](#org46a3767)
+    2.  [2.501 What is responsive design?](#org85ecf55)
+    3.  [2.504 React Native flex](#orgb5861cf)
+    4.  [2.505 Apple developer guidelines](#org5bf8e42)
+    5.  [2.601 Design with accessibility in mind](#org44a3803)
+    6.  [2.603 Accessibility in computational technology](#orgd20349c)
+5.  [Week 5](#org901299e)
+    1.  [3.001 UI elements and the OS](#orgfac9908)
+    2.  [3.004 React Native component documentation](#org3bb4c58)
+6.  [Week 6](#org35c26d7)
+    1.  [3.301 Why pages are important](#org9e8a769)
+    2.  [3.303 Navigation in React Native](#org0bd285b)
+    3.  [3.305 How to programatically navigate](#orgc5ef5e0)
+    4.  [3.307 Navigation in React Native guide](#orgbcc1995)
 
 
 
-<a id="orga4ea6cf"></a>
+<a id="org9e2b25c"></a>
 
 # Week 1
 
@@ -46,7 +51,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org09c3087"></a>
+<a id="org4046ce4"></a>
 
 ## 1.006 Getting started on this module
 
@@ -60,7 +65,7 @@ systems. Some of the benefits are:
 4.  Heavily used in industry
 
 
-<a id="org41049a3"></a>
+<a id="orgd1d9071"></a>
 
 ## 1.103 The pathway from developer to consumer
 
@@ -102,14 +107,14 @@ laid out below.
     by anyone
 
 
-<a id="org172db3b"></a>
+<a id="org4180991"></a>
 
 ## 1.201 Multiple codebases
 
 There are two major mobile OSes:
 
--   iOS ($\approx 26.5\%$ market share)
--   Android ($\approx 72.9\%$ market share)
+-   iOS (\(\approx 26.5\%\) market share)
+-   Android (\(\approx 72.9\%\) market share)
 
 This means that developers usually have to write the same app
 twice &#x2014; once for iOS with Switch of Objective-C, and once for
@@ -124,7 +129,7 @@ common language that can be compiled for both platforms.
 -   **Hybriid Apps:** Written in a common language
 
 
-<a id="orgd5aa94d"></a>
+<a id="orgc07268a"></a>
 
 ## 1.203 Native apps vs hybrid apps
 
@@ -133,11 +138,11 @@ much closer to a native application. During compilation of the
 project, React Native renderas our views with native code on the
 target platform thus giving us the best of both worlds.
 
-In table [1](#org8329001) we list pros and cons of Native
-Apps. Similarly, table [2](#org67bcc9f) shows the same comparison
+In table [1](#org36021d3) we list pros and cons of Native
+Apps. Similarly, table [2](#orgfc7e193) shows the same comparison
 for Hybrid Apps.
 
-<table id="org8329001" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org36021d3" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Native Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -174,7 +179,7 @@ for Hybrid Apps.
 </tbody>
 </table>
 
-<table id="org67bcc9f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orgfc7e193" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Hybrid Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -212,7 +217,7 @@ for Hybrid Apps.
 </table>
 
 
-<a id="org8fc07da"></a>
+<a id="org9e14c86"></a>
 
 ## 1.301 What is React Native?
 
@@ -220,14 +225,14 @@ for Hybrid Apps.
 build code for multiple platforms.
 
 
-<a id="org93e5360"></a>
+<a id="orgf02bcda"></a>
 
 ## 1.302 What is Expo?
 
 [Expo](https://expo.dev) helps manage a React Native project.
 
 
-<a id="org99fb73f"></a>
+<a id="orga40f600"></a>
 
 ## 1.305 Javascript arrow notation
 
@@ -259,7 +264,7 @@ keep parenthesis around arguments:
     (a, b) => a**2 + 2*a*b + b**2;
 
 
-<a id="org74c1701"></a>
+<a id="org45a21db"></a>
 
 ## 1.306 Creating a new React Native project and overview of the file structure
 
@@ -276,7 +281,7 @@ run:
     $ expo start
 
 
-<a id="org3892528"></a>
+<a id="org42aaa11"></a>
 
 # Week 2
 
@@ -287,7 +292,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org6bcfa67"></a>
+<a id="orge4a9b6b"></a>
 
 ## 1.401 JSX and props
 
@@ -298,7 +303,7 @@ tags. Component names must start with a capital letter.
 Props can be passed in an HTML `attribute=value` format.
 
 
-<a id="org46c3529"></a>
+<a id="orgf74684d"></a>
 
 ## 1.501 Testing on simulators and devices
 
@@ -307,7 +312,7 @@ help us uncover issues early. The simulator is another option which
 works well.
 
 
-<a id="org94927a4"></a>
+<a id="orge1a1978"></a>
 
 ## 1.601 Marketplaces and conforming to the rules
 
@@ -321,7 +326,7 @@ Reasons for rejection
 6.  Low-quality design
 
 
-<a id="org8e24c8f"></a>
+<a id="org602b587"></a>
 
 # Week 3
 
@@ -333,7 +338,7 @@ Key Concepts
     using code
 
 
-<a id="org4384efd"></a>
+<a id="orgeaf998d"></a>
 
 ## 2.001 Skeuomorphism, minimalism and neumorphism
 
@@ -344,7 +349,7 @@ Key Concepts
     minimalism
 
 
-<a id="orgfdb5d56"></a>
+<a id="orgd9aa450"></a>
 
 ## 2.003 Colour palettes and mood psychology
 
@@ -353,7 +358,7 @@ Key Concepts
 -   **White:** simplicity, calmness, professionalism
 
 
-<a id="org45103e5"></a>
+<a id="org1362397"></a>
 
 ## 2.006 Design ideology
 
@@ -361,7 +366,7 @@ Key Concepts
 -   [Google Material Design Guidelines](https://material.io/design/guidelines-overview)
 
 
-<a id="orgb09d475"></a>
+<a id="org7944d3c"></a>
 
 ## 2.101 What are dark patterns?
 
@@ -369,14 +374,14 @@ Dark Patterns is the term given to design choices that are crafted
 to make you do things you don&rsquo;t want to do. 
 
 
-<a id="org8343b28"></a>
+<a id="org257400f"></a>
 
 ## 2.103 Dark patterns
 
 -   [Dark Patterns website](https://www.darkpatterns.org/)
 
 
-<a id="org54bbf79"></a>
+<a id="orgd190105"></a>
 
 ## 2.201 Introduction to wireframing
 
@@ -384,7 +389,7 @@ Wireframes allow us to design layouts in order to demonstrate an
 idea and check if it&rsquo;s likely to be practical.
 
 
-<a id="orgd482eca"></a>
+<a id="orgfa28f76"></a>
 
 ## 2.203 Creating a wireframe for a shopping app
 
@@ -392,7 +397,7 @@ Before wireframing, it&rsquo;s a good to create a [User Flow
 Diagram](https://diagrams.net). After we can start working on our [wireframe](https://www.framer.com/).
 
 
-<a id="orgf15aa74"></a>
+<a id="org93eec7b"></a>
 
 # Week 4
 
@@ -404,7 +409,7 @@ Key Concepts
     using code
 
 
-<a id="org2511fe8"></a>
+<a id="org46a3767"></a>
 
 ## 2.401 How to style elements in React Native
 
@@ -438,7 +443,7 @@ In this case, the `<Text>` and `<StatusBar>` elements are children of
 the `<View>` element and will, therefore, *inherit* its styling. 
 
 
-<a id="org73017aa"></a>
+<a id="org85ecf55"></a>
 
 ## 2.501 What is responsive design?
 
@@ -455,21 +460,21 @@ In ReactNative, Flexbox is used to provide a consistent layout on
 different screens.
 
 
-<a id="org4f1283f"></a>
+<a id="orgb5861cf"></a>
 
 ## 2.504 React Native flex
 
 -   [React Documentation: Flexbox](https://reactnative.dev/docs/flexbox)
 
 
-<a id="orga8e8564"></a>
+<a id="org5bf8e42"></a>
 
 ## 2.505 Apple developer guidelines
 
 -   [Apple Developer Guidelines: Adaptivity And Layout](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
 
 
-<a id="org25e1b20"></a>
+<a id="org44a3803"></a>
 
 ## 2.601 Design with accessibility in mind
 
@@ -505,7 +510,7 @@ ReactNative wraps Android and iOS specific accessibility features.
     programmatically perform actions.
 
 
-<a id="org81a3cda"></a>
+<a id="orgd20349c"></a>
 
 ## 2.603 Accessibility in computational technology
 
@@ -516,7 +521,7 @@ ReactNative wraps Android and iOS specific accessibility features.
     International Publishing, 2020).
 
 
-<a id="org975ed1a"></a>
+<a id="org901299e"></a>
 
 # Week 5
 
@@ -527,7 +532,7 @@ Key Concepts
 -   Understand and be able to use UI elements in React Native
 
 
-<a id="org57f971e"></a>
+<a id="orgfac9908"></a>
 
 ## 3.001 UI elements and the OS
 
@@ -544,9 +549,128 @@ Key Concepts
     of paper
 
 
-<a id="orge8cd13f"></a>
+<a id="org3bb4c58"></a>
 
 ## 3.004 React Native component documentation
 
 -   [React: Core Components And APIs](https://reactnative.dev/docs/components-and-apis)
+
+
+<a id="org35c26d7"></a>
+
+# Week 6
+
+Key Concepts
+
+-   Use JSX to create basic elements on the screen
+-   Understand the need for pagination
+-   Understand and be able to use UI elements in React Native
+
+
+<a id="org9e8a769"></a>
+
+## 3.301 Why pages are important
+
+Navigation and Pages create a clear separation of our content. It
+turns our content into easily understandable chunks of
+information.
+
+
+<a id="org0bd285b"></a>
+
+## 3.303 Navigation in React Native
+
+In order to use navigation within a React Native app, we must first
+install and import the [React Navigation library](https://reactnavigation.org/).
+
+    $ npm install @react-navigation/native
+    $ expo install react-native-screens react-native-safe-area-context
+    $ npm install @react-navigation/native-stack
+
+After installing dependencies we can import with:
+
+    import { NavigationContainer } from '@react-navigation/native';
+    import { createStackNavigator } from '@react-navigation/stack';
+
+We can use the `NavigationContainer` as the root element of our
+app with a `Stack.Navigator` inside. Each *view* in the stack can
+be modeled as a function that returns the required *view*. The full
+setup will look like so:
+
+    import { StatusBar } from 'expo-status-bar';
+    import React from 'react';
+    import { StyleSheet, Text, View } from 'react-native';
+    import { NavigationContainer } from '@react-navigation/native';
+    import { createStackNavigator } from '@react-navigation/stack';
+    
+    function HomeScreen() {
+      return (
+        <View>
+          <Text>Home Screen</Text>
+        </View>
+      );
+    }
+    
+    const Stack = createStackNavigator();
+    
+    export default function App() {
+      return (
+        <NavigationContainer>
+          <Stack.Navigator>
+    	<Stack.Screen name="Home" component={HomeScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
+      );
+    }
+
+
+<a id="orgc5ef5e0"></a>
+
+## 3.305 How to programatically navigate
+
+    import { StatusBar } from 'expo-status-bar';
+    import React from 'react';
+    import { StyleSheet, Text, View, Button } from 'react-native';
+    import { NavigationContainer } from '@react-navigation/native';
+    import { createStackNavigator } from '@react-navigation/stack';
+    
+    function HomeScreen({navigation}) {
+      return (
+        <View>
+          <Text>Home Screen</Text>
+          <Button title="To details"
+    	      onPress={() => navigation.navigate("Details")}/>
+        </View>
+      );
+    }
+    
+    function DetailsScreen() {
+      return (
+        <View>
+          <Text>Details Screen</Text>
+          <Button title="Back Home"
+    	      onPress={() => navigation.navigate("Home")}/>
+        </View>
+      );
+    }
+    
+    const Stack = createStackNavigator();
+    
+    export default function App() {
+      return (
+        <NavigationContainer>
+          <Stack.Navigator>
+    	<Stack.Screen name="Home" component={HomeScreen} />
+    	<Stack.Screen name="Details" component={DetailsScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
+      );
+    }
+
+
+<a id="orgbcc1995"></a>
+
+## 3.307 Navigation in React Native guide
+
+-   [React Navigation](https://reactnavigation.org/)
 
