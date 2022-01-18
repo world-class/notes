@@ -1,62 +1,85 @@
 
 # Table of Contents
 
-1.  [Week 1](#orgc2980a1)
-    1.  [1.006 Getting started on this module](#org484e54b)
-    2.  [1.103 The pathway from developer to consumer](#org041763f)
-    3.  [1.201 Multiple codebases](#orgd31e5e2)
-    4.  [1.203 Native apps vs hybrid apps](#org48d8e1a)
-    5.  [1.301 What is React Native?](#org8746c21)
-    6.  [1.302 What is Expo?](#orgfe79cdb)
-    7.  [1.305 Javascript arrow notation](#orgb8ce97a)
-    8.  [1.306 Creating a new React Native project and overview of the file structure](#org0fa2a63)
-2.  [Week 2](#org466de0b)
-    1.  [1.401 JSX and props](#orgc3d2f16)
-    2.  [1.501 Testing on simulators and devices](#org639a000)
-    3.  [1.601 Marketplaces and conforming to the rules](#orga144eb2)
-3.  [Week 3](#orgf836d5f)
-    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#orgc8b70ee)
-    2.  [2.003 Colour palettes and mood psychology](#org977bfcf)
-    3.  [2.006 Design ideology](#orgd8c2dad)
-    4.  [2.101 What are dark patterns?](#orge58f2d6)
-    5.  [2.103 Dark patterns](#org672cb05)
-    6.  [2.201 Introduction to wireframing](#org01ee406)
-    7.  [2.203 Creating a wireframe for a shopping app](#orga503b0f)
-4.  [Week 4](#orgf47df4a)
-    1.  [2.401 How to style elements in React Native](#org3f42ab0)
-    2.  [2.501 What is responsive design?](#orgc92cc31)
-    3.  [2.504 React Native flex](#org0b0edf5)
-    4.  [2.505 Apple developer guidelines](#org2ca3324)
-    5.  [2.601 Design with accessibility in mind](#org853a72d)
-    6.  [2.603 Accessibility in computational technology](#orgab0fb3b)
-5.  [Week 5](#org2172607)
-    1.  [3.001 UI elements and the OS](#org98a62ff)
-    2.  [3.004 React Native component documentation](#orgb6162a1)
-6.  [Week 6](#orgcf5fb72)
-    1.  [3.301 Why pages are important](#orgf3ce6f9)
-    2.  [3.303 Navigation in React Native](#org4d55d12)
-    3.  [3.305 How to programatically navigate](#org4bfcbd7)
-    4.  [3.307 Navigation in React Native guide](#orgbf32e9b)
-7.  [Week 7](#org876be2a)
-    1.  [4.101 What are table views?](#orgf22ae6b)
-    2.  [4.201 What are scroll views and flat lists?](#org42ca2aa)
-    3.  [4.202 Performance monitoring in React Native](#orgbedda76)
-8.  [Week 8](#org7c7a1b6)
-    1.  [4.401 What are animations?](#orgb7e5655)
-    2.  [4.403 Composing more complex animations](#org2adc82d)
-    3.  [4.405 React native animation docs](#org3445e33)
-    4.  [4.501 What are gestures?](#org38d37cd)
-    5.  [4.601 What are alerts?](#org309854b)
-    6.  [4.701 What are timers?](#orgaed31ec)
-9.  [Week 9](#org1f8e75a)
-    1.  [5.001 Efficient programming](#orgb1103b5)
-    2.  [5.101 What is automated testing?](#orgffb968e)
-    3.  [5.201 Functional components vs Class components](#org0c36c55)
-    4.  [5.203 React Native documentation: Class components](#org3aaf3df)
+1.  [Week 1](#orgb976a1b)
+    1.  [1.006 Getting started on this module](#org643b9c7)
+    2.  [1.103 The pathway from developer to consumer](#org4cdfcd3)
+    3.  [1.201 Multiple codebases](#orge9ad2ce)
+    4.  [1.203 Native apps vs hybrid apps](#org7539a0b)
+    5.  [1.301 What is React Native?](#orgae47c76)
+    6.  [1.302 What is Expo?](#orge66aaab)
+    7.  [1.305 Javascript arrow notation](#org2a3c87b)
+    8.  [1.306 Creating a new React Native project and overview of the file structure](#orgbe55f24)
+2.  [Week 2](#org48cbf28)
+    1.  [1.401 JSX and props](#org1fde14b)
+    2.  [1.501 Testing on simulators and devices](#org0e38baf)
+    3.  [1.601 Marketplaces and conforming to the rules](#org09fbc04)
+3.  [Week 3](#org78d6e8e)
+    1.  [2.001 Skeuomorphism, minimalism and neumorphism](#orgde3f672)
+    2.  [2.003 Colour palettes and mood psychology](#orgea59d30)
+    3.  [2.006 Design ideology](#orgb262a97)
+    4.  [2.101 What are dark patterns?](#org30b5617)
+    5.  [2.103 Dark patterns](#org4a4ca1f)
+    6.  [2.201 Introduction to wireframing](#orge208536)
+    7.  [2.203 Creating a wireframe for a shopping app](#org7c5e428)
+4.  [Week 4](#org35701da)
+    1.  [2.401 How to style elements in React Native](#org44791d3)
+    2.  [2.501 What is responsive design?](#org3b9dd20)
+    3.  [2.504 React Native flex](#org357068d)
+    4.  [2.505 Apple developer guidelines](#org1bfbbde)
+    5.  [2.601 Design with accessibility in mind](#orgca4c899)
+    6.  [2.603 Accessibility in computational technology](#orgd9ae174)
+5.  [Week 5](#org0bda1b4)
+    1.  [3.001 UI elements and the OS](#org1e5d506)
+    2.  [3.004 React Native component documentation](#org2d537ab)
+6.  [Week 6](#orge8661b9)
+    1.  [3.301 Why pages are important](#org66d0650)
+    2.  [3.303 Navigation in React Native](#org8670e23)
+    3.  [3.305 How to programatically navigate](#org9b39535)
+    4.  [3.307 Navigation in React Native guide](#orgfa20462)
+7.  [Week 7](#orgb2d1b35)
+    1.  [4.101 What are table views?](#org1093785)
+    2.  [4.201 What are scroll views and flat lists?](#org2198fb3)
+    3.  [4.202 Performance monitoring in React Native](#orgdf8edf5)
+8.  [Week 8](#org8ca955f)
+    1.  [4.401 What are animations?](#org16e7b42)
+    2.  [4.403 Composing more complex animations](#org55cb417)
+    3.  [4.405 React native animation docs](#org5a82206)
+    4.  [4.501 What are gestures?](#org8941bdf)
+    5.  [4.601 What are alerts?](#org10a0107)
+    6.  [4.701 What are timers?](#org7bbb3b3)
+9.  [Week 9](#orga8a71c4)
+    1.  [5.001 Efficient programming](#org9294a9a)
+    2.  [5.101 What is automated testing?](#orge7d4783)
+    3.  [5.201 Functional components vs Class components](#org87c0df4)
+    4.  [5.203 React Native documentation: Class components](#org6d26cd1)
+10. [Week 10](#orgaaaa142)
+    1.  [5.301 Syntax transformers](#orgc0ad05c)
+        1.  [Block Scoping](#orgdaa9f72)
+        2.  [Destructuring](#org814b528)
+        3.  [`for of`](#org74e4231)
+    2.  [5.303 React Native documentation: Syntax transformers](#org6d348db)
+    3.  [5.304 Performance enhancement](#org6d7aa92)
+11. [Week 11](#org6b6ca93)
+    1.  [6.001 Data sources](#org5560bcf)
+    2.  [6.003 Ethics](#org339a680)
+    3.  [Red Hat API Security](#orgad3a9be)
+    4.  [6.101 What is JSON and XML?](#org601e3db)
+    5.  [6.103 Loading JSON from a file](#org56b1420)
+    6.  [6.201 Saving data](#org6211f4e)
+    7.  [6.203 AsyncStorage and SecureStore documentation](#org0770c42)
+    8.  [6.204 Saving data in React Native](#orgc3c704b)
+12. [Week 13](#org31e692b)
+    1.  [7.001 What are cloud services?](#org1d977f8)
+    2.  [7.002 Popular cloud services](#orgc14633b)
+    3.  [7.004 Cloudflare&rsquo;s guide to the cloud](#orga9bf90f)
+    4.  [7.101 Detecting active connections](#org213e22f)
+    5.  [7.104 Expo network documentation](#org2d7e16c)
+    6.  [7.201 Retrieving data from the internet](#orgeb06fdb)
 
 
 
-<a id="orgc2980a1"></a>
+<a id="orgb976a1b"></a>
 
 # Week 1
 
@@ -67,7 +90,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="org484e54b"></a>
+<a id="org643b9c7"></a>
 
 ## 1.006 Getting started on this module
 
@@ -81,7 +104,7 @@ systems. Some of the benefits are:
 4.  Heavily used in industry
 
 
-<a id="org041763f"></a>
+<a id="org4cdfcd3"></a>
 
 ## 1.103 The pathway from developer to consumer
 
@@ -123,7 +146,7 @@ laid out below.
     by anyone
 
 
-<a id="orgd31e5e2"></a>
+<a id="orge9ad2ce"></a>
 
 ## 1.201 Multiple codebases
 
@@ -145,7 +168,7 @@ common language that can be compiled for both platforms.
 -   **Hybriid Apps:** Written in a common language
 
 
-<a id="org48d8e1a"></a>
+<a id="org7539a0b"></a>
 
 ## 1.203 Native apps vs hybrid apps
 
@@ -154,11 +177,11 @@ much closer to a native application. During compilation of the
 project, React Native renderas our views with native code on the
 target platform thus giving us the best of both worlds.
 
-In table [1](#orgb1bdefc) we list pros and cons of Native
-Apps. Similarly, table [2](#orga0a78c8) shows the same comparison
+In table [1](#org5be72b6) we list pros and cons of Native
+Apps. Similarly, table [2](#orgf0c83ac) shows the same comparison
 for Hybrid Apps.
 
-<table id="orgb1bdefc" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org5be72b6" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 1:</span> Native Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -195,7 +218,7 @@ for Hybrid Apps.
 </tbody>
 </table>
 
-<table id="orga0a78c8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="orgf0c83ac" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 2:</span> Hybrid Apps Pros &amp; Cons</caption>
 
 <colgroup>
@@ -233,7 +256,7 @@ for Hybrid Apps.
 </table>
 
 
-<a id="org8746c21"></a>
+<a id="orgae47c76"></a>
 
 ## 1.301 What is React Native?
 
@@ -241,14 +264,14 @@ for Hybrid Apps.
 build code for multiple platforms.
 
 
-<a id="orgfe79cdb"></a>
+<a id="orge66aaab"></a>
 
 ## 1.302 What is Expo?
 
 [Expo](https://expo.dev) helps manage a React Native project.
 
 
-<a id="orgb8ce97a"></a>
+<a id="org2a3c87b"></a>
 
 ## 1.305 Javascript arrow notation
 
@@ -280,7 +303,7 @@ keep parenthesis around arguments:
     (a, b) => a**2 + 2*a*b + b**2;
 
 
-<a id="org0fa2a63"></a>
+<a id="orgbe55f24"></a>
 
 ## 1.306 Creating a new React Native project and overview of the file structure
 
@@ -297,7 +320,7 @@ run:
     $ expo start
 
 
-<a id="org466de0b"></a>
+<a id="org48cbf28"></a>
 
 # Week 2
 
@@ -308,7 +331,7 @@ Key Concepts
 -   Understand the course structure
 
 
-<a id="orgc3d2f16"></a>
+<a id="org1fde14b"></a>
 
 ## 1.401 JSX and props
 
@@ -319,7 +342,7 @@ tags. Component names must start with a capital letter.
 Props can be passed in an HTML `attribute=value` format.
 
 
-<a id="org639a000"></a>
+<a id="org0e38baf"></a>
 
 ## 1.501 Testing on simulators and devices
 
@@ -328,7 +351,7 @@ help us uncover issues early. The simulator is another option which
 works well.
 
 
-<a id="orga144eb2"></a>
+<a id="org09fbc04"></a>
 
 ## 1.601 Marketplaces and conforming to the rules
 
@@ -342,7 +365,7 @@ Reasons for rejection
 6.  Low-quality design
 
 
-<a id="orgf836d5f"></a>
+<a id="org78d6e8e"></a>
 
 # Week 3
 
@@ -354,7 +377,7 @@ Key Concepts
     using code
 
 
-<a id="orgc8b70ee"></a>
+<a id="orgde3f672"></a>
 
 ## 2.001 Skeuomorphism, minimalism and neumorphism
 
@@ -365,7 +388,7 @@ Key Concepts
     minimalism
 
 
-<a id="org977bfcf"></a>
+<a id="orgea59d30"></a>
 
 ## 2.003 Colour palettes and mood psychology
 
@@ -374,7 +397,7 @@ Key Concepts
 -   **White:** simplicity, calmness, professionalism
 
 
-<a id="orgd8c2dad"></a>
+<a id="orgb262a97"></a>
 
 ## 2.006 Design ideology
 
@@ -382,7 +405,7 @@ Key Concepts
 -   [Google Material Design Guidelines](https://material.io/design/guidelines-overview)
 
 
-<a id="orge58f2d6"></a>
+<a id="org30b5617"></a>
 
 ## 2.101 What are dark patterns?
 
@@ -390,14 +413,14 @@ Dark Patterns is the term given to design choices that are crafted
 to make you do things you don&rsquo;t want to do. 
 
 
-<a id="org672cb05"></a>
+<a id="org4a4ca1f"></a>
 
 ## 2.103 Dark patterns
 
 -   [Dark Patterns website](https://www.darkpatterns.org/)
 
 
-<a id="org01ee406"></a>
+<a id="orge208536"></a>
 
 ## 2.201 Introduction to wireframing
 
@@ -405,7 +428,7 @@ Wireframes allow us to design layouts in order to demonstrate an
 idea and check if it&rsquo;s likely to be practical.
 
 
-<a id="orga503b0f"></a>
+<a id="org7c5e428"></a>
 
 ## 2.203 Creating a wireframe for a shopping app
 
@@ -413,7 +436,7 @@ Before wireframing, it&rsquo;s a good to create a [User Flow
 Diagram](https://diagrams.net). After we can start working on our [wireframe](https://www.framer.com/).
 
 
-<a id="orgf47df4a"></a>
+<a id="org35701da"></a>
 
 # Week 4
 
@@ -425,7 +448,7 @@ Key Concepts
     using code
 
 
-<a id="org3f42ab0"></a>
+<a id="org44791d3"></a>
 
 ## 2.401 How to style elements in React Native
 
@@ -459,7 +482,7 @@ In this case, the `<Text>` and `<StatusBar>` elements are children of
 the `<View>` element and will, therefore, *inherit* its styling. 
 
 
-<a id="orgc92cc31"></a>
+<a id="org3b9dd20"></a>
 
 ## 2.501 What is responsive design?
 
@@ -476,21 +499,21 @@ In ReactNative, Flexbox is used to provide a consistent layout on
 different screens.
 
 
-<a id="org0b0edf5"></a>
+<a id="org357068d"></a>
 
 ## 2.504 React Native flex
 
 -   [React Documentation: Flexbox](https://reactnative.dev/docs/flexbox)
 
 
-<a id="org2ca3324"></a>
+<a id="org1bfbbde"></a>
 
 ## 2.505 Apple developer guidelines
 
 -   [Apple Developer Guidelines: Adaptivity And Layout](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
 
 
-<a id="org853a72d"></a>
+<a id="orgca4c899"></a>
 
 ## 2.601 Design with accessibility in mind
 
@@ -526,7 +549,7 @@ ReactNative wraps Android and iOS specific accessibility features.
     programmatically perform actions.
 
 
-<a id="orgab0fb3b"></a>
+<a id="orgd9ae174"></a>
 
 ## 2.603 Accessibility in computational technology
 
@@ -537,7 +560,7 @@ ReactNative wraps Android and iOS specific accessibility features.
     International Publishing, 2020).
 
 
-<a id="org2172607"></a>
+<a id="org0bda1b4"></a>
 
 # Week 5
 
@@ -548,7 +571,7 @@ Key Concepts
 -   Understand and be able to use UI elements in React Native
 
 
-<a id="org98a62ff"></a>
+<a id="org1e5d506"></a>
 
 ## 3.001 UI elements and the OS
 
@@ -565,14 +588,14 @@ Key Concepts
     of paper
 
 
-<a id="orgb6162a1"></a>
+<a id="org2d537ab"></a>
 
 ## 3.004 React Native component documentation
 
 -   [React: Core Components And APIs](https://reactnative.dev/docs/components-and-apis)
 
 
-<a id="orgcf5fb72"></a>
+<a id="orge8661b9"></a>
 
 # Week 6
 
@@ -583,7 +606,7 @@ Key Concepts
 -   Understand and be able to use UI elements in React Native
 
 
-<a id="orgf3ce6f9"></a>
+<a id="org66d0650"></a>
 
 ## 3.301 Why pages are important
 
@@ -592,7 +615,7 @@ turns our content into easily understandable chunks of
 information.
 
 
-<a id="org4d55d12"></a>
+<a id="org8670e23"></a>
 
 ## 3.303 Navigation in React Native
 
@@ -640,7 +663,7 @@ setup will look like so:
     }
 
 
-<a id="org4bfcbd7"></a>
+<a id="org9b39535"></a>
 
 ## 3.305 How to programatically navigate
 
@@ -684,14 +707,14 @@ setup will look like so:
     }
 
 
-<a id="orgbf32e9b"></a>
+<a id="orgfa20462"></a>
 
 ## 3.307 Navigation in React Native guide
 
 -   [React Navigation](https://reactnavigation.org/)
 
 
-<a id="org876be2a"></a>
+<a id="orgb2d1b35"></a>
 
 # Week 7
 
@@ -702,7 +725,7 @@ Key Concepts
 -   Understand and program animations
 
 
-<a id="orgf22ae6b"></a>
+<a id="org1093785"></a>
 
 ## 4.101 What are table views?
 
@@ -783,7 +806,7 @@ referenced later:
     return (<CellVariant/>)
 
 
-<a id="org42ca2aa"></a>
+<a id="org2198fb3"></a>
 
 ## 4.201 What are scroll views and flat lists?
 
@@ -795,7 +818,7 @@ A `FlatList` is the perfect alternative to `ScrollView` because it
 will lazily load items.
 
 
-<a id="orgbedda76"></a>
+<a id="orgdf8edf5"></a>
 
 ## 4.202 Performance monitoring in React Native
 
@@ -804,7 +827,7 @@ in order to display a react native debug menu, which includes
 performance monitoring.
 
 
-<a id="org7c7a1b6"></a>
+<a id="org8ca955f"></a>
 
 # Week 8
 
@@ -815,7 +838,7 @@ Key Concepts
 -   Understand and program animations
 
 
-<a id="orgb7e5655"></a>
+<a id="org16e7b42"></a>
 
 ## 4.401 What are animations?
 
@@ -861,7 +884,7 @@ so with `Animated.createAnimatedComponent()`.
     }, [textOpacity])
 
 
-<a id="org2adc82d"></a>
+<a id="org55cb417"></a>
 
 ## 4.403 Composing more complex animations
 
@@ -902,14 +925,14 @@ so with `Animated.createAnimatedComponent()`.
     }
 
 
-<a id="org3445e33"></a>
+<a id="org5a82206"></a>
 
 ## 4.405 React native animation docs
 
 -   [React Native Animated Documentation](https://reactnative.dev/docs/animated)
 
 
-<a id="org38d37cd"></a>
+<a id="org8941bdf"></a>
 
 ## 4.501 What are gestures?
 
@@ -926,10 +949,10 @@ our app. React Native provides the `TouchableOpacity` element for our
 touch processing. Another useful element is the `PanResponder`, which
 provides a wrapper for the responder handlers.
 
-Table [3](#org9a0d2d0) below summarizes the `gestureState` object&rsquo;s
+Table [3](#org4a72fd4) below summarizes the `gestureState` object&rsquo;s
 properties:
 
-<table id="org9a0d2d0" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="org4a72fd4" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Table 3:</span> <code>gestureState</code> Object Properties</caption>
 
 <colgroup>
@@ -983,7 +1006,7 @@ properties:
 </table>
 
 
-<a id="org309854b"></a>
+<a id="org10a0107"></a>
 
 ## 4.601 What are alerts?
 
@@ -1029,14 +1052,14 @@ On iOS we can define as many buttons as we&rsquo;d like, but on Android
 there is a hard-limit of three buttons.
 
 
-<a id="orgaed31ec"></a>
+<a id="org7bbb3b3"></a>
 
 ## 4.701 What are timers?
 
 Timers allow us to execute code after a set delay.
 
 
-<a id="org1f8e75a"></a>
+<a id="orga8a71c4"></a>
 
 # Week 9
 
@@ -1047,7 +1070,7 @@ Key Concepts
 -   To discuss what makes efficient programming
 
 
-<a id="orgb1103b5"></a>
+<a id="org9294a9a"></a>
 
 ## 5.001 Efficient programming
 
@@ -1066,7 +1089,7 @@ of clean code are:
     readability
 
 
-<a id="orgffb968e"></a>
+<a id="orge7d4783"></a>
 
 ## 5.101 What is automated testing?
 
@@ -1099,7 +1122,7 @@ Component testing verifies that a components behaves correctly when
 interacted with and that it renders as expected.
 
 
-<a id="org0c36c55"></a>
+<a id="org87c0df4"></a>
 
 ## 5.201 Functional components vs Class components
 
@@ -1131,9 +1154,444 @@ Functional components usually require less code to achieve the same
 functionality.
 
 
-<a id="org3aaf3df"></a>
+<a id="org6d26cd1"></a>
 
 ## 5.203 React Native documentation: Class components
 
 -   [React Native Class Components Documentation](https://reactnative.dev/docs/intro-react)
+
+
+<a id="orgaaaa142"></a>
+
+# Week 10
+
+Key Concepts
+
+-   Learn advanced Javascript techniques
+-   Understand and implement testing
+-   To discuss what makes efficient programming
+
+
+<a id="orgc0ad05c"></a>
+
+## 5.301 Syntax transformers
+
+
+<a id="orgdaa9f72"></a>
+
+### Block Scoping
+
+`var` creates variables with function scope while `let` obeys block
+scoping.
+
+    function whoAmI() {
+      if (true) {
+        var name = "foo"
+        let location = "home";
+      }
+    
+      console.log(name); /* foo */
+      console.log(location); /* undefined */
+    }
+    
+    whoAmI();
+
+
+<a id="org814b528"></a>
+
+### Destructuring
+
+Destructuring lets us *unpack* the values inside an object or array
+into distinct variables.
+
+    let person = {
+      name: "Foo",
+      location: "Home",
+      device: "Phone"
+    }
+    let {name, device} = person;
+    
+    let bar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let [first, second, ...rest] = bar;
+    
+    console.log(name); /* Foo */
+    console.log(device); /* Phone */
+    console.log(first); /* 1 */
+    console.log(second); /* 2 */
+    console.log(rest); /* [3, 4, 5, 6, 7, 8, 9, 10] */
+
+
+<a id="org74e4231"></a>
+
+### `for of`
+
+    let nums = [1, 2, 3, 4];
+    
+    for (let num of nums) {
+      console.log(num);
+    }
+    
+    /* 1
+     * 2
+     * 3
+     * 4
+     */
+
+
+<a id="org6d348db"></a>
+
+## 5.303 React Native documentation: Syntax transformers
+
+-   [JavaScript Environment](https://reactnative.dev/docs/javascript-environment)
+
+
+<a id="org6d7aa92"></a>
+
+## 5.304 Performance enhancement
+
+The `InteractionManager` allows us to schedule tasks to run at a later
+time when there are no interactions:
+
+    InteractionManager.runAfterInteractions(() => {
+      /* Expensive computation here */
+    });  
+
+
+<a id="org6b6ca93"></a>
+
+# Week 11
+
+Key Concepts
+
+-   To handle and manipulate data
+-   To understand the importance of data ethics
+-   To understand what data sources includes
+
+
+<a id="org5560bcf"></a>
+
+## 6.001 Data sources
+
+Apps usually communicate with different data sources (web servers, API
+endpoints, local storage, &hellip;) in order to gather data to display to
+the users.
+
+
+<a id="org339a680"></a>
+
+## 6.003 Ethics
+
+In summary, don&rsquo;t collect user data unless it&rsquo;s essential for the
+functionality of the app. If we <span class="underline">do</span> collect user data, we must
+protect it.
+
+
+<a id="orgad3a9be"></a>
+
+## Red Hat API Security
+
+-   [API Security Blog post](https://www.redhat.com/en/topics/security/api-security)
+
+
+<a id="org601e3db"></a>
+
+## 6.101 What is JSON and XML?
+
+JSON and XML are very common data exchange formats.
+
+
+<a id="org56b1420"></a>
+
+## 6.103 Loading JSON from a file
+
+    import { StatusBar } from 'expo-status-bar';
+    import React from 'react';
+    import { StyleSheet, Text, View } from 'react-native';
+    import JSONdata from './test.json'; /* parses the string automatically */
+    
+    export default function App() {
+      return (
+        <View style={styles.container}>
+          <Text>Hello {JSONdata.name}</Text>
+          <StatusBar style="auto" />
+        </View>
+      );
+    }
+    
+    const styles = Stylesheet.create({
+      container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+    });
+
+
+<a id="org6211f4e"></a>
+
+## 6.201 Saving data
+
+`AsyncStorage` is a recommended library to handle saving data
+**unencrypted** data to phone storage. It can be installed with the
+command below:
+
+    expo install @react-native-async-storage/async-storage
+
+Here&rsquo;s a primer on how to use it:
+
+    import AsyncStorage from '@react-native-async-storage/async-storage';
+    
+    /* Saving */
+    AsyncStorage.setItem('@testKey', "test").then(() => {
+      console.log("Saved");
+    }).catch((err) => {
+      console.log(`ERROR: ${err}`);
+    });
+    
+    /* Retrieving */
+    AsyncStorage.getItem('@testKey').then((value) => {
+      console.log(value);
+    }).catch((err) => {
+      console.log(`ERROR: ${err}`);
+    });
+
+For encrypted data, we can `SecureStore`. There is a limit of 2048
+bytes for encrypted data. Install it with:
+
+    expo install expo-secure-store
+
+Here&rsquo;s a primer on how to use it:
+
+    import * as SecureStore from 'expo-secure-store';
+    
+    /* Saving */
+    SecureStore.setItemAsync("testKey", "test").then(() => {
+      console.log("Saved");
+    }).catch((err) => {
+      console.log(`ERROR: ${err}`);
+    });
+    
+    /* Retrieving */
+    SecureStore.getItemAsync("testKey").then((value) => {
+      console.log(value);
+    }).catch((err) => {
+      console.log(`ERROR: ${err}`);
+    });
+
+
+<a id="org0770c42"></a>
+
+## 6.203 AsyncStorage and SecureStore documentation
+
+-   [AsyncStorage Documentation](https://react-native-async-storage.github.io/async-storage/docs/usage/)
+-   [SecureStore Documentation](https://docs.expo.dev/versions/latest/sdk/securestore/)
+
+
+<a id="orgc3c704b"></a>
+
+## 6.204 Saving data in React Native
+
+    import { StatusBar } from 'expo-status-bar';
+    import React from 'react';
+    import { StyleSheet, Text, View, TextInput } from 'react-native';
+    import AsyncStorage from '@react-native-async-storage/async-storage';
+    
+    export default function App() {
+      const [text, onChangeText] = useState("");
+    
+      if (text == "") {
+        AsyncStorage.getItem('@textInput').then((value) => {
+          onChangeText(text);
+        }).catch((err) => {
+          console.log(`ERROR: ${err}`);
+        });
+      }
+    
+      return (
+        <View style={styles.container}>
+          <TextInput
+    	style={styles.input}
+    	onChangeText={async (text) => {
+    	  await AsyncStorage.setItem('@textInput', text);
+    	  onChangeText(text);
+    	}}
+    	value={text}
+    	placeHolder={"Value"}
+          />
+          <StatusBar style="auto" />
+        </View>
+      );
+    }
+    
+    const styles = Stylesheet.create({
+      container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+    });
+
+
+<a id="org31e692b"></a>
+
+# Week 13
+
+Key Concepts
+
+-   To download information from the cloud
+-   To detect and deal with unstable internet connections
+-   To understand what constitutes cloud computing
+
+
+<a id="org1d977f8"></a>
+
+## 7.001 What are cloud services?
+
+Cloud services removes the need to personally host infrastructure. It
+also gives us the ability to scale our infrastructure as the demand
+grows, thus reducing initial costs.
+
+
+<a id="orgc14633b"></a>
+
+## 7.002 Popular cloud services
+
+-   **SaaS:** Software as a Service, e.g. Dropbox, Slack, Apple Music, or
+    Microsoft Office 365.
+-   **Iaas:** Infrastructure as a Service, e.g. Amazon AWS or Microsoft
+    Azure Platform.
+-   **Paas:** Platform as a Service, e.g. Amazon AWS, Microsoft Azure
+    Platform, IBM.
+
+
+<a id="orga9bf90f"></a>
+
+## 7.004 Cloudflare&rsquo;s guide to the cloud
+
+-   [Cloudflare&rsquo;s Guide To The Cloud](https://www.cloudflare.com/en-gb/learning/cloud/what-is-the-cloud/)
+
+
+<a id="org213e22f"></a>
+
+## 7.101 Detecting active connections
+
+With the expo network library, we can access important network
+information. Install it with:
+
+    expo install expo-network
+
+Use it like shown below:
+
+    import React, { useState, useEffect } from 'react';
+    import * as Network from 'expo-network';
+    
+    /* ... */
+    
+    function isConnected() {
+      return new Promise(async(resolve, reject) => {
+        try {
+          let networkStatus = await Network.getNetworkStateAsync();
+          if (networkStatus.isInternetReachable) {
+    	resolve(true);
+          } else {
+    	resolve(false);
+          }
+        } catch(err) {
+          reject(err);
+        }
+      });
+    }
+    
+    export default function App() {
+      const [internetConnected, setInternetConnected] = useState(true);
+    
+      useEffect(() => {
+        isConnected(). then((isIt) => {
+          console.log(`Connected status = ${isIt}`);
+          if (isIt != internetConnected) {
+    	setInternetConnected(isIt);
+          }
+        }).catch((err) => {
+          console.log(`An error occurred -> ${err}`);
+        });
+      });
+    
+      if (internetConnected) {
+        return (
+          /* ... */
+        );
+      } else {
+        return (
+          /* ... */
+        );
+      }    
+    }
+
+We should get a response like so:
+
+    {
+      type: NetworkStateType.CELULAR,
+      isConnected: true,
+      isInternetReachable: true,
+    }
+
+The `NetInfo` library implements an event listener which is a nicer
+way of achieving the same functionality. Let&rsquo;s install it:
+
+    expo install @react-native-community/netinfo
+
+And use it:
+
+    import React, { useState } from 'react';
+    import NetInfo from '@react-native-community/netinfo';
+    
+    /* ... */
+    
+    export default function App() {
+      const [internetConnected, setInternetConnected] = useState(true);
+    
+      const unsubscribe = NetInfo.addEventListener(state => {
+        console.log('Connection type', state,type);
+        console.log('Is connected?', state.isConnected);
+        console.log('Is internet reachable?', state.isInternetReachable);
+    
+        if (internetConnected != state.isConnected) {
+          setInternetConnected(state.isConnected);
+        }
+      });
+    
+      if (internetConnected) {
+        return (
+          /* ... */
+        );
+      } else {
+        return (
+          /* ... */
+        );
+      }
+    }
+
+
+<a id="org2d7e16c"></a>
+
+## 7.104 Expo network documentation
+
+-   [Expo Network Docs](https://docs.expo.dev/versions/latest/sdk/network/)
+-   [Expo NetInfo Docs](https://docs.expo.dev/versions/latest/sdk/netinfo/)
+
+
+<a id="orgeb06fdb"></a>
+
+## 7.201 Retrieving data from the internet
+
+    fetch("https://archive.org/metadata/principleofrelat00eins")
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json);
+      })
+      .catch((err) => {
+        console.log("An error:", err);
+      });
 
