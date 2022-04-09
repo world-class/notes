@@ -1,0 +1,1 @@
+Notes are available here: https://arundel-notes.netlify.app/posts/20210925105400-cm3020_ai/

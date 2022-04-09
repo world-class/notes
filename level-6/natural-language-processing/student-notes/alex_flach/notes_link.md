@@ -1,0 +1,1 @@
+Notes are available here: https://arundel-notes.netlify.app/posts/20210925110859-cm3060_nlp/
