@@ -120,3 +120,33 @@ Example: stem:[1101.101_2].
 = 8 + 4 + 1 + 0.5 + 0.125\
 = 13.625
 ++++
+
+== Operations in Binary
+
+=== Addition
+
+Example: stem:[101_2 + 111_2 = ?]
+
+Similar to decimal sum in column divide by two carry over quotient and take the remainder.
+
+image::assets/binary_addition.png[]
+
+More complicated examples:
+
+image::assets/binary_more_addition.png[]
+
+=== Subtraction
+
+Example: stem:[110_2 - 101_2 = ?]
+
+Similar to decimal sum in column divide by two carry over quotient and take the remainder.
+
+image::assets/binary_subtraction.png[]
+
+=== Mulitplication
+
+TODO
+
+=== Division
+
+TODO
