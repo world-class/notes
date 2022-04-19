@@ -1,0 +1,24 @@
+= Introduction to Programming I
+Fabio Lama <fabio.lama@pm.me>
+:description: Notes on UoL's Introduction to Programming 1, started 04. April 2022
+:doctype: book
+:toc:
+:sectnums: 4
+:toclevels: 4
+
+== 2D coordinate system
+
+=== Create canvas
+
+[source,javascript]
+----
+    // createCanvas(x, y);
+    createCanvas(500,500);
+----
+
+[source,javascript]
+----
+    // rect(x, y, width, height);
+    rect(100, 100, 500, 500);
+----
+
