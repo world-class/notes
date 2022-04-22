@@ -20,7 +20,7 @@ Number in base 2.
 
 [stem]
 ++++
-1001_2 = 1 xx 2^3 + 0 xx 2^2 + 0 xx 2^1 + 1 xx 2^0 = 9_10
+1001_2 = 1 xx 2^3 + 0 xx 2^2 + 0 xx 2^1 + 1 xx 2^0 = 1000_2 + 1_2 = 9_10
 ++++
 
 == The Decimal System
@@ -62,7 +62,7 @@ The binary system is the base 2 system, which only has the numbers stem:[(0, 1)]
 
 Hence stem:[58_10 = 111010_2] (read remainder from bottom up).
 
-> General example: convert stem:[558_10] in bae 5.
+> General example: convert stem:[558_10] in base 5.
 
 [stem]
 ++++
@@ -150,3 +150,8 @@ TODO
 === Division
 
 TODO
+
+== Sequences
+
+Formal definition: given a set stem:[X] a sequence is a function stem:[a: N -> X].
+
