@@ -143,7 +143,7 @@ Similar to decimal sum in column divide by two carry over quotient and take the 
 
 image::assets/binary_subtraction.png[]
 
-=== Mulitplication
+=== Multiplication
 
 TODO
 
@@ -155,3 +155,27 @@ TODO
 
 Formal definition: given a set stem:[X] a sequence is a function stem:[a: N -> X].
 
+"Series": A sequence derived from another sequence.
+
+[stem]
+++++
+{a_n} " with " n = {0, 1, 2, ...}\
+= {a_0, a_0+a_1,a_0+a_1+a_2,a_0+a_1+a_2+a_3, ...}
+++++
+
+* stem:[{s_n}] is called a series, it is a type of sequence that is obtained as
+sum of the elements of another sequence.
+
+* A series is also indicated with stem:[sum -> s_n = sum_(i=0)^n a_i]
+
+*(intermezzo) Mathematical induction principle*: if a property is valid for
+stem:[n=0], and if, _assuming it is valid for stem:[n], it remains valid also
+for stem:[n+1]_, then the property is valid for any stem:[n].
+
+[stem]
+++++
+s_n = sum_(k=0)^n (a_0+k xx q) = (n+1)(2 a_0 + n xx q) div 2 (x)
+++++
+
+prove stem:[x] is true for stem:[n=0], then prove that stem:[s_(n+1) =
+s_n+a_(n+1) = (x) + a_0 xx q^(n+1)]
