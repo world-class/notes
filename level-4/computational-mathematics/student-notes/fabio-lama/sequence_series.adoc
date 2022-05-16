@@ -162,18 +162,28 @@ S_3 = 3/2 xx 4/1\
 S_3 = 12/2 = 6/1 = 6
 ++++
 
-**Series**: A sequence derived from another sequence.
+== Geometric Series
+
+If the terms of a geometric sequence are added, the result is known as a
+geometric series. The sum of the first stem:[n] terms of a geometric series with
+first term stem:[a] and common ratio stem:[r] is denoted by stem:[S_n] and given
+by:
 
 [stem]
 ++++
-{a_n} " with " n = {0, 1, 2, ...}\
-= {a_0, a_0+a_1,a_0+a_1+a_2,a_0+a_1+a_2+a_3, ...}
+S_n = (a(1-r^n))/(1-r) " provided " r " is not equal to " 1
 ++++
 
-* stem:[{s_n}] is called a series, it is a type of sequence that is obtained as
-sum of the elements of another sequence.
+For example, the sum of the stem:[3] first terms of stem:[(2, 10, 50, 250, ..)] is:
 
-* A series is also indicated with stem:[sum -> s_n = sum_(i=0)^n a_i]
+[stem]
+++++
+S_3 = (2(1-5^3))/(1-5)\
+S_3 = (2 xx -124)/(-4)\
+S_3 = (-128)/-4 = 62
+++++
+
+TODO
 
 *(intermezzo) Mathematical induction principle*: if a property is valid for
 stem:[n=0], and if, _assuming it is valid for stem:[n], it remains valid also
