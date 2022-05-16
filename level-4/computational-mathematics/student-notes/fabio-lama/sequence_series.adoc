@@ -23,7 +23,7 @@ A sequence can be _finite_ or _infinite_:
 S = (0, 1, 2, 3, ...)
 ++++
 
-=== Notations
+== Notations
 
 Given stem:[S = (0, 1, 2, 3)], then stem:[S_2 in S] equals to stem:[1] and
 stem:[S_3 in S] equals to stem:[2] (sometimes the index starts at _0_, common in Computer Science).
@@ -37,7 +37,7 @@ x_k = 2k + 3
 
 then stem:[x_3 = 2 xx 3 + 3 = 9] and stem:[x_4 = 11].
 
-=== Arithmetic Progression
+== Arithmetic Progression
 
 A arithmetic progression (or sequence) _adds_ a fixed amount to the previous
 term.
@@ -72,7 +72,7 @@ S_3 = 1 + 2 xx 6\
 S_3 = 13
 ++++
 
-=== Geometric Progression
+== Geometric Progression
 
 A geometric progression (or sequence) _multiplies_ the previous terms by a fixed
 amount.
@@ -106,7 +106,7 @@ S_3 = 2 xx 5^2\
 S_3 = 50
 ++++
 
-=== Infinite Sequences
+== Infinite Sequences
 
 An infinite sequences continues indefinitely. As the sequences progresses, it
 gets closer and closer to a fixed value. For example, the following sequences
@@ -127,6 +127,40 @@ lim_(k -> oo) 1/k = 0
 When a sequence possesses a limit it is said to **converge**. A sequence such as
 stem:[x_k = 3k - 2] which is stem:[(1, 4, 7, 10, ...)] does have a limit, which
 is said to **diverge**.
+
+== Series & Sigma Notation
+
+If the terms of a sequence are added, the result is known as a _series_.
+
+[stem]
+++++
+sum_(k=1)^(k=5) k = 1 + 2 + 3 + 4 + 5 = 15
+++++
+
+Note that notations can be abbreviated:
+
+[stem]
+++++
+sum_(k=1)^(k=5) k = sum_(k = 1)^5 k = sum_1^5 k
+++++
+
+== Arithmetic Series
+
+If the terms of an arithmetic sequence are added, the result is known as an arithmetic series. The sum of the first stem:[n] terms of an arithmetic series with first term stem:[a] and common difference stem:[d] is denoted by stem:[S_n] and given by:
+
+[stem]
+++++
+S_n = n/2 (2a + (n-1)d)
+++++
+
+For example, the sum of the first stem:[3] terms of stem:[sum_(k=1)^(k=5) k] is:
+
+[stem]
+++++
+S_3 = 3/2 (2 xx 1 + (3 -1)1)\
+S_3 = 3/2 xx 4/1\
+S_3 = 12/2 = 6/1 = 6
+++++
 
 **Series**: A sequence derived from another sequence.
 
