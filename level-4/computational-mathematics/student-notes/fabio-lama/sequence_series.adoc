@@ -9,9 +9,112 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Intro
 
-Formal definition: given a set stem:[X] a sequence is a function stem:[a: N -> X].
+**Sequence**: A set of (arbitrary) numbers ("terms") written down in a specific order.
 
-"Series": A sequence derived from another sequence.
+[stem]
+++++
+S = (1, 3, 5, 7, 9)
+++++
+
+A sequence can be _finite_ or _infinite_:
+
+[stem]
+++++
+S = (0, 1, 2, 3, ...)
+++++
+
+=== Notations
+
+Given stem:[S = (0, 1, 2, 3)], then stem:[S_2 in S] equals to stem:[1] and
+stem:[S_3 in S] equals to stem:[2] (sometimes the index starts at _0_, common in Computer Science).
+
+Terms of a sequence can often be found by using a formula. For example, given:
+
+[stem]
+++++
+x_k = 2k + 3
+++++
+
+then stem:[x_3 = 2 xx 3 + 3 = 9] and stem:[x_4 = 11].
+
+=== Arithmetic Progression
+
+A arithmetic progression (or sequence) _adds_ a fixed amount to the previous
+term.
+
+[stem]
+++++
+S = (a, a + d, a + 2d, a + 3d, ...)
+++++
+
+where stem:[a] is the _first term_ and stem:[d] is the _commond difference_ of
+the arithmetic progression stem:[S]. For example:
+
+[stem]
+++++
+S = (1, 7, 13, 19, ...)
+++++
+
+where stem:[a in S] is _1_ and stem:[d in S] is _6_. The stem:[n]-th term of an
+arithmetic progression is given by stem:[a + (n-1)d]. For example, the third
+term in stem:[S] is:
+
+[stem]
+++++
+S_3 = 1 + (3 -1)6\
+S_3 = 1 + 2 xx 6\
+S_3 = 13
+++++
+
+=== Geometric Progression
+
+A geometric progression (or sequence) _multiplies_ the previous terms by a fixed
+amount.
+
+[stem]
+++++
+S = (a,ar,ar^2,ar^3,...)
+++++
+
+where stem:[a] is the _first term_ and stem:[r] is the _common ratio_. For exampe:
+
+[stem]
+++++
+S = (2, 10, 50, 250, ...)
+++++
+
+where stem:[a in S] is _2_ and stem:[r in S] is _5_. The stem:[n]-th term of an geometric progression is given by stem:[ar^(n-1)]. For example, the third term in stem:[S] is:
+
+[stem]
+++++
+S_3 = 2 xx 5^(3-1)\
+S_3 = 2 xx 5^2\
+S_3 = 50
+++++
+
+=== Infinite Sequences
+
+An infinite sequences continues indefinitely. As the sequences progresses, it
+gets closer and closer to a fixed value. For example, the following sequences
+and smaller
+
+[stem]
+++++
+S = (s, 1/2, 1/3/, 1/4, 1/5, ...)
+++++
+
+which can be written as stem:[x_k = 1/k] for stem:[k = (1, 2, 3, ...)]. We say that "stem:[1/k] tends to zero as stem:[k] tends to infinity" or "as stem:[k] tends to infinity, the _limit_ of the sequence is zero":
+
+[stem]
+++++
+lim_(k -> oo) 1/k = 0
+++++
+
+When a sequence possesses a limit it is said to **converge**. A sequence such as
+stem:[x_k = 3k - 2] which is stem:[(1, 4, 7, 10, ...)] does have a limit, which
+is said to **diverge**.
+
+**Series**: A sequence derived from another sequence.
 
 [stem]
 ++++
