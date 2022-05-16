@@ -56,8 +56,14 @@ S = (1, 7, 13, 19, ...)
 ++++
 
 where stem:[a in S] is _1_ and stem:[d in S] is _6_. The stem:[n]-th term of an
-arithmetic progression is given by stem:[a + (n-1)d]. For example, the third
-term in stem:[S] is:
+arithmetic progression is given by:
+
+[stem]
+++++
+a + (n-1)d
+++++
+
+For example, the third term in stem:[S] is:
 
 [stem]
 ++++
@@ -83,7 +89,15 @@ where stem:[a] is the _first term_ and stem:[r] is the _common ratio_. For examp
 S = (2, 10, 50, 250, ...)
 ++++
 
-where stem:[a in S] is _2_ and stem:[r in S] is _5_. The stem:[n]-th term of an geometric progression is given by stem:[ar^(n-1)]. For example, the third term in stem:[S] is:
+where stem:[a in S] is _2_ and stem:[r in S] is _5_. The stem:[n]-th term of an
+geometric progression is given by:
+
+[stem]
+++++
+ar^(n-1)
+++++
+
+For example, the third term in stem:[S] is:
 
 [stem]
 ++++
