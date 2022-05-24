@@ -179,20 +179,24 @@ For example, the sum of the stem:[3] first terms of stem:[(2, 10, 50, 250, ..)] 
 [stem]
 ++++
 S_3 = (2(1-5^3))/(1-5)\
-S_3 = (2 xx -124)/(-4)\
-S_3 = (-128)/-4 = 62
+S_3 = (2xx1-2xx5^3)/(-4)\
+S_3 = (-248)/-4 = 62
 ++++
 
-TODO
+== Infinite Geometric Series
 
-*(intermezzo) Mathematical induction principle*: if a property is valid for
-stem:[n=0], and if, _assuming it is valid for stem:[n], it remains valid also
-for stem:[n+1]_, then the property is valid for any stem:[n].
+If the terms of an infite sequence are added, the result is known as an infinite
+series. The sum of an infite number of terms of a geometric series with first term
+stem:[a] and common ratio stem:[r] is denoted by stem:[S_(oo)] and given by:
 
 [stem]
 ++++
-s_n = sum_(k=0)^n (a_0+k xx q) = (n+1)(2 a_0 + n xx q) div 2 (x)
+S_(oo) = a/(1-r) " provided " -1 < r < 1
 ++++
 
-prove stem:[x] is true for stem:[n=0], then prove that stem:[s_(n+1) =
-s_n+a_(n+1) = (x) + a_0 xx q^(n+1)]
+For example, a first term of stem:[2] and a common ration of stem:[1/3] is:
+
+[stem]
+++++
+S_(oo) = 2/(1-(1/3)) = 2/(2/3) = 3
+++++
