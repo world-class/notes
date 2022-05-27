@@ -1,8 +1,8 @@
 = Sequences and Series
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1015 Computational Mathematics, started 04. April 2022
-:doctype: book
 :toc:
+:doctype: book
 :sectnums: 4
 :toclevels: 4
 :stem:
@@ -55,7 +55,7 @@ the arithmetic progression stem:[S]. For example:
 S = (1, 7, 13, 19, ...)
 ++++
 
-where stem:[a in S] is _1_ and stem:[d in S] is _6_. The stem:[n]-th term of an
+where stem:[a] is _1_ and stem:[d] is _6_. The stem:[n]-th term of an
 arithmetic progression is given by:
 
 [stem]
@@ -114,7 +114,7 @@ and smaller
 
 [stem]
 ++++
-S = (s, 1/2, 1/3/, 1/4, 1/5, ...)
+S = (s, 1/2, 1/3, 1/4, 1/5, ...)
 ++++
 
 which can be written as stem:[x_k = 1/k] for stem:[k = (1, 2, 3, ...)]. We say that "stem:[1/k] tends to zero as stem:[k] tends to infinity" or "as stem:[k] tends to infinity, the _limit_ of the sequence is zero":
@@ -146,20 +146,39 @@ sum_(k=1)^(k=5) k = sum_(k = 1)^5 k = sum_1^5 k
 
 == Arithmetic Series
 
-If the terms of an arithmetic sequence are added, the result is known as an arithmetic series. The sum of the first stem:[n] terms of an arithmetic series with first term stem:[a] and common difference stem:[d] is denoted by stem:[S_n] and given by:
+If the terms of an arithmetic sequence are added, the result is known as an
+arithmetic series. The sum of the first stem:[n] terms of an arithmetic series
+with first term stem:[a] and common difference stem:[d] is denoted by
+stem:[S_n] and given by:
 
 [stem]
 ++++
-S_n = n/2 (2a + (n-1)d)
+S_n = n/2 (a + nd)
 ++++
 
-For example, the sum of the first stem:[3] terms of stem:[sum_(k=1)^(k=5) k] is:
+Alternatively, this can be written as: the sum of the first stem:[n] terms of an
+arithmetic series with first term stem:[a_1] and last term stem:[a_2] is denoted
+by stem:[S_n] and given by:
 
 [stem]
 ++++
-S_3 = 3/2 (2 xx 1 + (3 -1)1)\
-S_3 = 3/2 xx 4/1\
-S_3 = 12/2 = 6/1 = 6
+S_n = n/2 (a_1 + a_2)
+++++
+
+For example, the sum of of the first stem:[3] items in stem:[sum_(k=1)^(k=50) k] is:
+
+[stem]
+++++
+S_3 = (3 (1 + 3))/2\
+S_3 = (3 xx 4)/2 = 12/2 = 6
+++++
+
+Additional, the sum of stem:[sum_(k=1)^(k=50) (2k + 1)] is:
+
+[stem]
+++++
+S_50 = 50/2 xx ((2xx1 + 1) + (2xx50 +1))\
+S_50 = 50/2 xx (3+101)= 5200/2 = 2600
 ++++
 
 == Geometric Series
