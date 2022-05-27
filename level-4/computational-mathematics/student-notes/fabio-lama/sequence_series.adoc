@@ -89,8 +89,8 @@ where stem:[a] is the _first term_ and stem:[r] is the _common ratio_. For examp
 S = (2, 10, 50, 250, ...)
 ++++
 
-where stem:[a in S] is _2_ and stem:[r in S] is _5_. The stem:[n]-th term of an
-geometric progression is given by:
+where stem:[a] is _2_ and stem:[r] is _5_. The stem:[n]-th term of an geometric
+progression is given by:
 
 [stem]
 ++++
