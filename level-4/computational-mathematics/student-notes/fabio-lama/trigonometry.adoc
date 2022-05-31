@@ -11,21 +11,24 @@ Fabio Lama <fabio.lama@pm.me>
 
 If stem:[B = 90], then stem:["AC"] is called the *hypothenuse*, the side
 *opposite* of stem:[theta] is stem:[BC] and the remainding side, stem:["AB"], is
-*adjacent* to stem:[theta].
+*adjacent* to stem:[theta]. Angle stem:[A] is written as stem:[/_"BAC"],
+stem:[/_A] or just stem:[A].
 
-Angle stem:[A] is written as stem:[/_"BAC"], stem:[/_A] or just stem:[A]. The
-total degree of all angles is always stem:[180°]
-
-[stem]
-++++
-A + B + C = 180°
-++++
+Each side of a triangle is named based on the lowercase letter of the angle
+opposite of the side.
 
 [stem]
 ++++
 a = "BC"\
 b = "AC"\
 c = "AB"
+++++
+
+The total degree of all angles is always stem:[180°]
+
+[stem]
+++++
+A + B + C = 180°
 ++++
 
 == Convert Degree to Radiant
