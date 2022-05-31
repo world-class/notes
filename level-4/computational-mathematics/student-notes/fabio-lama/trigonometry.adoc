@@ -46,12 +46,14 @@ For example, stem:[255°]:
 
 [stem]
 ++++
-225 * pi/180 ~~ 3.93
+225 * pi/180 ~~ 3.93 " rads"
 ++++
 
 == Trigonometrical Ratios
 
-The _ratio_ of angles is independent from the length of each side.
+_Sinus_, _cosinus_ and _tangens_ are trigonometric functions that can be applied
+to *right-angled triangles* to determine the degree of an angle. The degree of
+an angle is independent from the length of each side.
 
 [stem]
 ++++
@@ -60,11 +62,15 @@ cos theta = ("side adjacent to " theta)/"hypothenuse" = "AB"/"AC"\
 tan theta = ("side opposite to " theta)/("side adjacent to " theta) = "BC"/"AB"
 ++++
 
+_Sinus_ and _cosinus_ are always less than one.
+
 [stem]
 ++++
 sin x <= 1\
 cos x <= 1
 ++++
+
+The ratio of an angle can be reversed.
 
 [stem]
 ++++
@@ -72,17 +78,17 @@ sin 45° = 0.70710678\
 sin^(-1) 0.70710678 = 45°
 ++++
 
-[stem]
-++++
-A = sin("BC"/"AC")
-++++
-
 == Sinus and Cosinus Rule
+
+In case of non right-angled triangles, where _sinus_, _cosinus_ and _tangens_
+cannot be applied, the sinus and cosinus rules can be used instead:
 
 [stem]
 ++++
 a/(sin A) = b/(sin B) = c/(sin C)
 ++++
+
+and:
 
 [stem]
 ++++
