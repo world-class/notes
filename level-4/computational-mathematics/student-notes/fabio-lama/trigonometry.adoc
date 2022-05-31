@@ -1,0 +1,92 @@
+= Trigonometry
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: book
+:toc:
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+If stem:[B = 90], then stem:["AC"] is called the *hypothenuse*, the side
+*opposite* of stem:[theta] is stem:[BC] and the remainding side, stem:["AB"], is
+*adjacent* to stem:[theta].
+
+Angle stem:[A] is written as stem:[/_"BAC"], stem:[/_A] or just stem:[A]. The
+total degree of all angles is always stem:[180°]
+
+[stem]
+++++
+A + B + C = 180°
+++++
+
+[stem]
+++++
+a = "BC"\
+b = "AC"\
+c = "AB"
+++++
+
+== Convert Degree to Radiant
+
+[stem]
+++++
+360° = 2 pi " rads"
+++++
+
+To convert stem:[x] degrees to radians stem:[y]:
+
+[stem]
+++++
+x * pi/180 = y
+++++
+
+For example, stem:[255°]:
+
+[stem]
+++++
+225 * pi/180 ~~ 3.93
+++++
+
+== Trigonometrical Ratios
+
+The _ratio_ of angles is independent from the length of each side.
+
+[stem]
+++++
+sin theta = ("side opposite to " theta)/"hypothenuse" = "BC"/"AC"\
+cos theta = ("side adjacent to " theta)/"hypothenuse" = "AB"/"AC"\
+tan theta = ("side opposite to " theta)/("side adjacent to " theta) = "BC"/"AB"
+++++
+
+[stem]
+++++
+sin x <= 1\
+cos x <= 1
+++++
+
+[stem]
+++++
+sin 45° = 0.70710678\
+sin^(-1) 0.70710678 = 45°
+++++
+
+[stem]
+++++
+A = sin("BC"/"AC")
+++++
+
+== Sinus and Cosinus Rule
+
+[stem]
+++++
+a/(sin A) = b/(sin B) = c/(sin C)
+++++
+
+[stem]
+++++
+a^2 = b^2 + c^2 - 2bc cos A\
+b^2 = a^2 + c^2 - 2ac cos B\
+c^2 = a^2 + b^2 - 2ab cos C
+++++
