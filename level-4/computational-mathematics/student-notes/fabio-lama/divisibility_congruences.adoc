@@ -1,0 +1,55 @@
+= Theory on Divisibility and Congruences
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: book
+:toc:
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+== Congruence
+
+We say that "stem:[a] is _congruent_ to stem:[b] modulo stem:[n]", denoted by:
+
+[stem]
+++++
+a -= b (mod n)
+++++
+
+if stem:[n] is a divisor of stem:[a - b], or equivalently, if stem:[n|(a-b)].
+Similarly, we write:
+
+[latexmath]
+++++
+a \not\equiv b (\bmod n)
+++++
+
+if stem:[a] is not congruent (or incongruent) to stem:[b] modulo stem:[n], or
+equivalently, if latexmath:[n \nmid (a-b)].
+
+== Modular Arithmetic
+
+=== Multiplicative Inverse
+
+The modular multiplicative inverse of an integer stem:[a] modulo stem:[m] is an
+integer stem:[b] such that:
+
+[stem]
+++++
+ab -= 1 (mod m)
+++++
+
+=== "Small digit to be added"
+
+Find the smallest digit to be added to make the number stem:[143] divisible by
+stem:[3]:
+
+[stem]
+++++
+1 + 4 + 3 = 8
+++++
+
+So the smallest digit we can add to stem:[8] to get a number divisible by
+stem:[3] is stem:[1].
