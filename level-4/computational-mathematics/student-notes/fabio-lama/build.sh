@@ -28,7 +28,10 @@ case $1 in
 
 			# Convert HTML to PNG.
 			IMG_OUT="cheatsheet_${OUT}.png"
-			wkhtmltoimage --enable-local-file-access $HTML_OUT $IMG_OUT
+			wkhtmltoimage \
+				--enable-local-file-access \
+				--javascript-delay 2000\
+				$HTML_OUT $IMG_OUT
 
 			# Cleanup temporarily generated HTML files.
 			rm *.html > /dev/null 2>&1
