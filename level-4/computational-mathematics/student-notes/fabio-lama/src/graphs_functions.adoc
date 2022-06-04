@@ -1,0 +1,92 @@
+= Graphs and Functions
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: book
+:toc:
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+We introduce horizontal and vertical axes. These axes intersect at a point
+stem:[O] called the origin. The horizontal axis is used to represent the
+*independent* variable, commonly stem:[x], and the vertical axis is used to
+represent the *dependent* variable, commonly stem:[y]. The region shown is then
+referred to as the stem:[x – y] plane.
+
+image::./assets/graphs_functions/graph_axis.png[]
+
+== Inequalities
+
+Adding and subtracting the same quantity from both sides of an inequality leaves
+the inequality unchanged. Hence, for any quantity stem:[k] if:
+
+[stem]
+++++
+x > y
+++++
+
+then:
+
+[stem]
+++++
+x + k > y + k " and " x -k > y -k
+++++
+
+Multiplying and dividing *positive* quantity then the inequality remains
+*unchanged*. If stem:[x > y] and stem:[k] is positive, then:
+
+[stem]
+++++
+kx > ky " and " x/k > y/k
+++++
+
+Multiplying and dividing *negative* quantity then the inequality is *reversed*. 
+If stem:[x > y] and stem:[k] is negative, then:
+
+[stem]
+++++
+kx < ky " and " x/k < y/k
+++++
+
+== Intervals
+
+We only need part of the stem:[x]/stem:[y] axis when plottin graphs. Each
+coordinate on the axis is called an *interval*. There are three types of
+intervals:
+
+* _Closed interval_: includes its end-points, e.g. stem:[{x:x in bbb R, 1 <= x <= 3}], denoted as stem:[[1,3]] (square brackets).
+* _Open interval_: does not include its end-points, e.g. stem:[{x:x in bbb R, 1 < x < 3}], denoted as stem:[(1,3)] (round brackets).
+* _Semi-open and semi-closed interval_: may be open at one end and closed at the other, e.g. stem:[{x:x in bbb R, 1 < x <= 3}], denoted as stem:[(1,3\]] (round and square bracket).
+
+Closed intervals use the filled marking, stem:[[-3,4]]:
+
+image::./assets/graphs_functions/closed_interval.png[]
+
+Open intervals used the hollow marking, stem:[(1,4)]:
+
+image::./assets/graphs_functions/open_interval.png[]
+
+== Plotting Graphs of a Function
+
+Plotting a graph of stem:[y = 2x - 1] for stem:[-3 <= x <= 3]:
+
+|===
+|stem:[x]|stem:[-3]|stem:[-2]|stem:[-1]|stem:[0]|stem:[1]|stem:[2]|stem:[3]
+|stem:[y]|stem:[-7]|stem:[-5]|stem:[-3]|stem:[-1]|stem:[1]|stem:[3]|stem:[5]
+|===
+
+image::./assets/graphs_functions/plotting_graph.png[]
+
+== Domain and Range of Function
+
+The set of values that we allow the independent variable to take is called the
+*domain* of the function. If the domain is not specified, we take the largest
+set possible. The set of values taken by the output is called the *range* of
+function. The domain and range can extend indefinitely (infinite) in one or both
+directions.
+
+For example, the function stem:[f] is given by stem:[y = f(x) = 2x], for stem:[1 <= x <= 3].
+
+image::./assets/graphs_functions/domain_range_function.png[]
