@@ -26,7 +26,7 @@ To build the documents (PNG version):
 
 ```console
 $ chmod +x build.sh
-$ ./build.sh pdf
+$ ./build.sh png
 ```
 
 Optionally (HTML version):
