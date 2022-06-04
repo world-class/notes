@@ -2,30 +2,41 @@
 
 # Because `make` sucks.
 
+gen_html() {
+	# Remove suffix and prefix
+	FILE=$1
+	OUT=${FILE%.adoc}
+	OUT=${OUT#src/}
+	HTML_OUT="cheatsheet_${OUT}.html"
+
+	asciidoctor $FILE -o $HTML_OUT
+}
+
 case $1 in
 	html)
-		for file in src/*.adoc
+		for FILE in src/*.adoc
 		do
-			# Remove suffix and prefix
-			OUT=${file%.adoc}
-			OUT=${file#src/}
-
-			asciidoctor $file -o "cheatsheet_${OUT}.html"
+			# Generate HTML file.
+			gen_html ${FILE}
 		done
 		;;
-	pdf)
-		for file in src/*.adoc
+	png | img)
+		for FILE in src/*.adoc
 		do
-			# Remove suffix and prefix
-			OUT=${file%.adoc}
-			OUT=${file#src/}
+			# Generate HTML file.
+			gen_html ${FILE}
 
-			asciidoctor-pdf -r asciidoctor-mathematical $file -o "cheatsheet_${OUT}.pdf"
+			# Convert HTML to PNG.
+			IMG_OUT="cheatsheet_${OUT}.png"
+			wkhtmltoimage $HTML_OUT $IMG_OUT
+
+			# Cleanup temporarily generated HTML files.
+			rm *.html > /dev/null 2>&1
 		done
 		;;
 	clean)
 		rm *.html > /dev/null 2>&1
-		rm *.pdf > /dev/null 2>&1
+		rm *.png > /dev/null 2>&1
 		;;
 	*)
 		echo "Unrecognized command"

@@ -8,15 +8,9 @@ in the `src/` directory.
 The following dependencies must be installed (Ubuntu):
 
 ```console
-$ apt install -y \
-	ruby-dev bison flex libffi-dev libxml2-dev libgdk-pixbuf2.0-dev \
-	libcairo2-dev libpango1.0-dev fonts-lyx
-$ gem install asciidoctor asciidoctor-pdf asciidoctor-mathematical
+$ apt install -y ruby-dev wkhtmltoimage
+$ gem install asciidoctor
 ```
-
-_Note_: All dependencies except for `ruby-dev` can be ignored if you skip
-`asciidoctor-mathematical`, which is required for PDFs. HTML version do not need
-that.
 
 To build the documents:
 
