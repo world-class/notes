@@ -1,9 +1,19 @@
 # About
 
+A collection of cheatsheets by topic.
+
+* [Number bases](./cheatsheet_number_bases.png)
+* [Sequences and Series](./cheatsheet_sequence_series.png)
+* [Modular Arithmetic](./cheatsheet_modular_arithmetic.png)
+* [Trigonometry](./cheatsheet_trigonometry.png)
+* [Graphs and Functions](./cheatsheet_graphs_functions.png)
+
 # Building
 
-The documents are written in [AsciiDoc](https://asciidoc.org/) and can be found
-in the `src/` directory.
+_NOTE_: This step is only necessary if you chose to modify the base docments.
+
+The base documents are written in [AsciiDoc](https://asciidoc.org/) and can be
+found in the `src/` directory.
 
 The following dependencies must be installed (Ubuntu):
 
@@ -12,30 +22,28 @@ $ apt install -y ruby-dev wkhtmltoimage
 $ gem install asciidoctor
 ```
 
-To build the documents:
+To build the documents (PNG version):
 
 ```console
 $ chmod +x build.sh
 $ ./build.sh pdf
 ```
 
-Optionally:
+Optionally (HTML version):
 
 ```console
 $ ./build.sh html
-# To clean:
-$ ./build.sh clean
 ```
 
-## 
+The generated output can be deleted with `./build.sh clean`.
 
 # Disclaimer
 
 The Presented Documents ("cheatsheets") by the Author ("Fabio Lama") are
-summaries of specific topics. The term "cheatsheet" (or "cheat sheet") implies
-that the Presented Documents can be used as learning aids or serve as references
-for practicing and does not imply that the Presented Documents should be used
-for inappropriate practices during exams such as cheating or other offences.
+summaries of specific topics. The term "cheatsheet" implies that the Presented
+Documents are intended to be used as learning aids or as references for
+practicing and does not imply that the Presented Documents should be used for
+inappropriate practices during exams such as cheating or other offences.
 
 The Presented Documents are heavily based on the learning material provided by
 the University of London, respectively the VLeBooks Collection database in the
