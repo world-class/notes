@@ -81,10 +81,18 @@ sin 45° = 0.70710678\
 sin^(-1) 0.70710678 = 45°
 ++++
 
-== Sinus and Cosinus Rule
+== Pythagoras, Sinus and Cosinus Rule
 
-In case of non right-angled triangles, where _sinus_, _cosinus_ and _tangens_
-cannot be applied, the sinus and cosinus rules can be used instead:
+For any *righ-angled* triangle, the following theorem applies:
+
+[stem]
+++++
+a^2 + b^2 = c^2\
+sqrt (a^2 + b^2) = c
+++++
+
+where stem:[c] is the hypothenuse. For any right-angled, acute and obtuse (non
+right-angled) triangles, the sinus and cosinus rules apply:
 
 [stem]
 ++++
