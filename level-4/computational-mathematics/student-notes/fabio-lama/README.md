@@ -7,27 +7,30 @@ in the `src/` directory.
 
 The following dependencies must be installed (Ubuntu):
 
-```
+```console
 $ apt install -y \
 	ruby-dev bison flex libffi-dev libxml2-dev libgdk-pixbuf2.0-dev \
-	libcairo2-dev libpango1.0-dev fonts-lyx make
+	libcairo2-dev libpango1.0-dev fonts-lyx
 $ gem install asciidoctor asciidoctor-pdf asciidoctor-mathematical
 ```
 
-_Note_: All dependencies except for `ruby-dev` and `cmake` can be ignored if you
-skip `asciidoctor-mathematical`, which is required for PDFs. HTML version do not
-need that.
+_Note_: All dependencies except for `ruby-dev` can be ignored if you skip
+`asciidoctor-mathematical`, which is required for PDFs. HTML version do not need
+that.
 
-Then to build the documents:
+To build the documents:
 
+```console
+$ chmod +x build.sh
+$ ./build.sh pdf
 ```
-$ make pdf
-```
 
-Or, if desired:
+Optionally:
 
-```
-$ make html
+```console
+$ ./build.sh html
+# To clean:
+$ ./build.sh clean
 ```
 
 ## 
