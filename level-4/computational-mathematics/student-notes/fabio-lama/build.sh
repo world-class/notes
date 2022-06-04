@@ -5,11 +5,11 @@
 gen_html() {
 	# Remove suffix and prefix
 	FILE=$1
-	OUT=${FILE%.adoc}
-	OUT=${OUT#src/}
+	OUT=${FILE#src/}
+	OUT=${OUT%.adoc}
 	HTML_OUT="cheatsheet_${OUT}.html"
 
-	asciidoctor $FILE -o $HTML_OUT
+	asciidoctor $FILE -o ${HTML_OUT}
 }
 
 case $1 in
@@ -28,7 +28,7 @@ case $1 in
 
 			# Convert HTML to PNG.
 			IMG_OUT="cheatsheet_${OUT}.png"
-			wkhtmltoimage $HTML_OUT $IMG_OUT
+			wkhtmltoimage --enable-local-file-access $HTML_OUT $IMG_OUT
 
 			# Cleanup temporarily generated HTML files.
 			rm *.html > /dev/null 2>&1
