@@ -47,28 +47,28 @@ The binary system is the base 2 system, which only has the numbers stem:[(0, 1)]
 
 == Conversion from Decimal
 
-> General example: convert stem:[58_10] in base 2.
+Example: convert stem:[58_10] in base 2.
 
 [stem]
 ++++
-58-:2 = 29 (mod 0)\
-29-:2 = 14 (mod 1)\
-14-:2 = 7 (mod 0)\
-7-:2 = 3 (mod 1)\
-3-:2 = 1 (mod 1)\
-1-:2 = 0 (mod 1)
+58-:2 = 29 ", remainder " 0\
+29-:2 = 14 ", remainder " 1\
+14-:2 = 7 ", remainder " 0\
+7-:2 = 3 ", remainder " 1\
+3-:2 = 1 ", remainder " 1\
+1-:2 = 0 ", remainder " 1
 ++++
 
 Hence stem:[58_10 = 111010_2] (read remainder from bottom up).
 
-> General example: convert stem:[558_10] in base 5.
+Example: convert stem:[558_10] in base 5.
 
 [stem]
 ++++
-558-:5 = 111 (mod 3)\
-111-:5 = 22 (mod 1)\
-22-:5 = 4 (mod 2)\
-4-:5 = 0 (mod 4)
+558-:5 = 111 ", remainder " 3\
+111-:5 = 22 ", remainder " 1\
+22-:5 = 4 ", remainder " 2\
+4-:5 = 0 ", remainder " 4
 ++++
 
 Hence stem:[558_10 = 4213_5].
