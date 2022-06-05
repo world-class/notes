@@ -12,14 +12,14 @@ Number in base 10.
 
 [stem]
 ++++
-127_10 = 1 xx 10^2 + 2 xx 10^1 + 7 xx 10^0 = 100 + 20 + 7
+127_10 = 1 (10^2) + 2(10^1) + 7(10^0) = 100 + 20 + 7
 ++++
 
 Number in base 2.
 
 [stem]
 ++++
-1001_2 = 1 xx 2^3 + 0 xx 2^2 + 0 xx 2^1 + 1 xx 2^0 = 1000_2 + 1_2 = 9_10
+1001_2 = 1(2^3) + 0(2^2) + 0(2^1) + 1(2^0) = 1000_2 + 1_2 = 9_10
 ++++
 
 == The Decimal System
@@ -39,15 +39,15 @@ The binary system is the base 2 system, which only has the numbers stem:[(0, 1)]
 
 [stem]
 ++++
-1001 = 1(2^4) + 0(2^3) + 0(2^1) + 1(2^0\
+1001 = 1(2^4) + 0(2^3) + 0(2^1) + 1(2^0)\
 = 1(16) + 0(8) + 0(2) + 1(1)\
 = 16 + 1\
 = 17_10
 ++++
 
-== Conversion from Decimal
+== Conversion To Base
 
-Example: convert stem:[58_10] in base 2.
+Example: convert stem:[58_10] to base 2.
 
 [stem]
 ++++
@@ -61,7 +61,7 @@ Example: convert stem:[58_10] in base 2.
 
 Hence stem:[58_10 = 111010_2] (read remainder from bottom up).
 
-Example: convert stem:[558_10] in base 5.
+Example: convert stem:[558_10] to base 5.
 
 [stem]
 ++++
