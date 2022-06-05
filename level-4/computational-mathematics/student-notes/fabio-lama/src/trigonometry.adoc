@@ -51,6 +51,13 @@ For example, stem:[255°]:
 225 * pi/180 ~~ 3.93 " rads"
 ++++
 
+And in reverse:
+
+[stem]
+++++
+3.93 * 180/pi ~~ 225°
+++++
+
 == Trigonometrical Ratios
 
 _Sinus_, _cosinus_ and _tangens_ are trigonometric functions that can be applied
