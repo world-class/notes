@@ -55,11 +55,11 @@ We only need part of the stem:[x]/stem:[y] axis when plottin graphs. Each
 coordinate on the axis is called an *interval*. There are three types of
 intervals:
 
-* _Closed interval_: includes its end-points, e.g. stem:[{x:x in bbb R, 1 <= x <= 3}], denoted as stem:[[1,3]] (square brackets).
+* _Closed interval_: includes its end-points, e.g. stem:[{x:x in bbb R, 1 <= x <= 3}], denoted as stem:[[1,3\]] (square brackets).
 * _Open interval_: does not include its end-points, e.g. stem:[{x:x in bbb R, 1 < x < 3}], denoted as stem:[(1,3)] (round brackets).
 * _Semi-open and semi-closed interval_: may be open at one end and closed at the other, e.g. stem:[{x:x in bbb R, 1 < x <= 3}], denoted as stem:[(1,3\]] (round and square bracket).
 
-Closed intervals use the filled marking, stem:[[-3,4]]:
+Closed intervals use the filled marking, stem:[[-3,4\]]:
 
 image::src/assets/graphs_functions/closed_interval.png[]
 
