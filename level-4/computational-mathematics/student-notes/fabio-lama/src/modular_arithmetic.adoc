@@ -37,7 +37,9 @@ a \not\equiv b \bmod n
 ++++
 
 if stem:[a] is not congruent (or incongruent) to stem:[b] modulo stem:[n], or
-equivalently, if latexmath:[n \nmid (a-b)]. For example:
+equivalently, if latexmath:[n \nmid (a-b)].
+
+For example:
 
 [stem]
 ++++
