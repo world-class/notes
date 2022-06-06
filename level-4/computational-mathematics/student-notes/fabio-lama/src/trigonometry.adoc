@@ -1,4 +1,4 @@
-= Trigonometry
+= Cheatsheet - Trigonometry
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1015 Computational Mathematics, started 04. April 2022
 :doctype: book
