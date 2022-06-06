@@ -86,6 +86,54 @@ set possible. The set of values taken by the output is called the *range* of
 function. The domain and range can extend indefinitely (infinite) in one or both
 directions.
 
-For example, the function stem:[f] is given by stem:[y = f(x) = 2x], for stem:[1 <= x <= 3].
+For example, the function stem:[f] is given by stem:[y = f(x) = 2x], for
+stem:[1 <= x <= 3].
 
 image::src/assets/graphs_functions/domain_range_function.png[]
+
+== Kinematics
+
+Describes the motion of objects without reference to forces, hence
+**acceleration will always be constant**.
+
+Basic definitions:
+
+[stem]
+++++
+d = "displacement"\
+v = "velocity"\
+a = "acceleration"\
+t = "time"
+++++
+
+**Velocity** and **displacement** can have subscripts that indicate initial
+conditions:
+
+[stem]
+++++
+v_o = v_i = "initial velocity"\
+v_t = v_f = "final velocity"
+++++
+
+Fundamental equations:
+
+* stem:[v_t = v_i + at]
+** The velocity of any object at time stem:[t] is equal to
+the _initial_ velocity plus the acceleration times stem:[t]
+* stem:[x_t = x_o + v_i t + 1/2 at^2]
+** The  position of the object at time stem:[t] is qual to the _initial_
+position stem:[x_o] plus its _initial_ velocity stem:[v_i] multiplied by time
+stem:[t] plus stem:[1/2 at^2].
+* stem:[v_f^2 = v_i^2 + 2ad]
+** Velocity squared at time stem:[t] is equal to the _initial_ velocity squared
+plus stem:[2ad].
+
+...
+
+[stem]
+++++
+d = v_i t + 1/2 at^2\
+v_f^2 = v_i^2 + 2ad\
+v_f = v_i + at\
+d = ((v_i+v_f)/2)t
+++++
