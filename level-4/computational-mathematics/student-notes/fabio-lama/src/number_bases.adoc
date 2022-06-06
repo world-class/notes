@@ -8,20 +8,6 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Decomposing Number Bases
 
-Number in base 10.
-
-[stem]
-++++
-127_10 = 1 (10^2) + 2(10^1) + 7(10^0) = 100 + 20 + 7
-++++
-
-Number in base 2.
-
-[stem]
-++++
-1001_2 = 1(2^3) + 0(2^2) + 0(2^1) + 1(2^0) = 1000_2 + 1_2 = 9_10
-++++
-
 === The Decimal System
 
 The decimal system is the "base 10" system, which only has the numbers stem:[(0, 1, ..., 9)].
