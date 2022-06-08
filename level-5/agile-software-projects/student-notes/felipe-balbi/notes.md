@@ -91,7 +91,7 @@ Considering the origins of what we consider the modern internet
 were built and implement in the 1960s, how is the same technology
 still working today?
 
-We can think of the core standards taht enable internet
+We can think of the core standards that enable internet
 connectivity as being successful in delivering what is referred to
 as a *Minimum Viable Product*, MVP for short.
 
