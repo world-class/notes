@@ -1,0 +1,77 @@
+= Cheatsheet - Trigonometrical Functions & Identities
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: book
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Quadrants
+
+The _x_ and _y_ axes divide the plane into four quadrants. The angle
+stem:[theta] is of the following degree based where the arm is located:
+
+* First quadrant, then stem:[0° <= theta <= 90°]
+* Second quadrant, then stem:[90° <= theta <= 180°]
+* Third quadrant, then stem:[180° <= theta <= 270°]
+* Fourth quadrant, then stem:[270° <= theta <= 360°]
+
+image::assets/trigonometrical_functions_identities/four_quadrants.png[]
+
+== Projections
+
+Consider the projection of the arm to be _OC_ and label the _x_ projection _OB_
+and the _y_ projection _OA_.
+
+image::assets/trigonometrical_functions_identities/projections.png[]
+
+The trigonometrical ratios are defined as:
+
+[stem]
+++++
+sin theta = "OA"/"OC"\
+cos theta = "OB"/"OC"\
+tan theta = "OA"/"OB"
+++++
+
+_(Note that in the image above, stem:["OA" = "BC"] and stem:["OB" = "AC"]. The
+rules for those trignometrical functions are not any different than what's
+already covered in 'Cheatsheet - Trigonometry')_
+
+Given that _x_ and _y_ can be negative, this also means that stem:[sin theta],
+stem:[cos theta] and/or stem:[tan theta] can either be positive or negative,
+depending on in which quadrant the arm is located and which projection is used
+for the calculation.
+
+For example, in this graph:
+
+image::assets/trigonometrical_functions_identities/third_quadrant.png[]
+
+stem:[sin theta] and stem:[cos theta] are negative and stem:[tan theta] is
+positive, because _x_ (_OB_) and _y_ (OA) are negative, but _OC_ is positive.
+
+== Adding/Subtracting 360°
+
+Adding or subtracting 360° to/from the arm does not alter the ratios, since it's
+a full rotation. Hence:
+
+[stem]
+++++
+sin theta = sin(theta + 360°) = sin(theta - 360°)\
+cos theta = cos(theta + 360°) = cos(theta - 360°)\
+tan theta = tan(theta + 360°) = tan(theta - 360°)
+++++
+
+== The Sine, Cosine and Tans Functions
+
+The sine function is stem:[y = sin theta], which repeats every 360°:
+
+image::assets/trigonometrical_functions_identities/sin_function.png[]
+
+This cosine function is stem:[y = cos theta], which repeats every 360°:
+
+image::assets/trigonometrical_functions_identities/cos_function.png[]
+
+The tangent function is stem:[y = tan theta], which repeats every 180°:
+
+image::assets/trigonometrical_functions_identities/tan_function.png[]
