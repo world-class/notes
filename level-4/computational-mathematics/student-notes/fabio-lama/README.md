@@ -18,7 +18,7 @@ found in the `src/` directory.
 The following dependencies must be installed (Ubuntu):
 
 ```console
-$ apt install -y ruby-dev wkhtmltoimage
+$ apt install -y ruby-dev wkhtmltopdf
 $ gem install asciidoctor
 ```
 

@@ -128,7 +128,7 @@ stem:[t] plus stem:[1/2 at^2].
 ** Velocity squared at time stem:[t] is equal to the _initial_ velocity squared
 plus stem:[2ad].
 
-...
+Additionally:
 
 [stem]
 ++++
