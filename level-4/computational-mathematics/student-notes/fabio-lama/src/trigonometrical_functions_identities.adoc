@@ -6,7 +6,7 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
-== Quadrants
+== Quadrants & Projections
 
 The _x_ and _y_ axes divide the plane into four quadrants. The angle
 stem:[theta] is of the following degree based where the arm is located:
@@ -18,14 +18,8 @@ stem:[theta] is of the following degree based where the arm is located:
 
 image::assets/trigonometrical_functions_identities/four_quadrants.png[]
 
-== Projections
-
 Consider the projection of the arm to be _OC_ and label the _x_ projection _OB_
-and the _y_ projection _OA_.
-
-image::assets/trigonometrical_functions_identities/projections.png[]
-
-The trigonometrical ratios are defined as:
+and the _y_ projection _OA_. The trigonometrical ratios are defined as:
 
 [stem]
 ++++
@@ -75,3 +69,4 @@ image::assets/trigonometrical_functions_identities/cos_function.png[]
 The tangent function is stem:[y = tan theta], which repeats every 180°:
 
 image::assets/trigonometrical_functions_identities/tan_function.png[]
+
