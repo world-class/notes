@@ -46,6 +46,8 @@ case $1 in
         rm *.html > /dev/null 2>&1
         ;;
     clean)
+        rm *.html > /dev/null 2>&1
+        rm *.png > /dev/null 2>&1
         rm ../*.html > /dev/null 2>&1
         rm ../*.png > /dev/null 2>&1
         ;;
