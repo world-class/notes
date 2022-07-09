@@ -84,7 +84,8 @@ and:
 
 [stem]
 ++++
-sin^2 A + cos^2 A = 1
+(sin A)^2 + (cos A)^2 \
+= sin^2 A + cos^2 A = 1
 ++++
 
 Additionally:
@@ -104,4 +105,4 @@ tan theta = tan(theta - 180°)\
 tan theta = -tan(360° - theta)
 ++++
 
-
+This means that trigonometric functions can have more than one solutions.
