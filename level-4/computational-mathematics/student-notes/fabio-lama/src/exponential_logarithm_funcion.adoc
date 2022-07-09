@@ -1,7 +1,0 @@
-= Cheatsheet - Exponential & Logarithm Function
-Fabio Lama <fabio.lama@pm.me>
-:description: Module: CM1015 Computational Mathematics, started 04. April 2022
-:doctype: book
-:sectnums: 4
-:toclevels: 4
-:stem:
