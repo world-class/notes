@@ -1,0 +1,79 @@
+= Cheatsheet - Gradients of Curves & Differentiation
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: book
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Gradient Function
+
+The **gradient** (or "slope") of a graph tells us something about the rate of
+change and "steepness" of a function. Given a function stem:[y = f(x)] we denote
+its gradient function by stem:[(dy)/(dx)] or simply by stem:[y'].
+
+TODO: What is _d_?
+
+image::assets/gradients_curves_differentation/gradient_function.png[]
+
+The gradient function is also called **(first) derivative**. The process of
+obtaining this is also known as **differentiation**. Saying to differentiate
+stem:[y = x^5] means to find its gradient function stem:[y]. _Differential
+calculus_ studies this more in depth.
+
+=== Gradient function of stem:[y = x^n]
+
+For any function of the form stem:[y = x^n] the gradient function is found from
+the following formula:
+
+[stem]
+++++
+y = x^n " then " y' = nx^(n-1)
+++++
+
+When we substitute _x_ and the result is negative, the curve is falling. If the
+result is positive, the curve is rising. We write stem:[y'(x = 2)] or simply
+stem:[y'(2)] to denote the value of the gradient function when stem:[x = 2].
+
+TODO: Add some examples.
+
+== Rules for Finding Gradient Functions
+
+**Rule 1**: To find the gradient function of a sum of two functions we can simply find the two gradient functions separately and those together.
+
+[stem]
+++++
+y = f(x) + g(x) " then " y' = f'(x) + g'(x)
+++++
+
+**Rule 2**: Extension of the first rule.
+
+[stem]
+++++
+y = f(x) - g(x) " then " y' = f'(x) - g'(x)
+++++
+
+**Rule 3**: 
+
+[stem]
+++++
+y = kf(x) " then " y' = kf'(x)
+++++
+
+where _k_ is a number.
+
+== Higher Derivatives
+
+To find the derivative of the derivative itself, known as the **second
+deriviative** and denoted as stem:[y''], we define:
+
+[stem]
+++++
+y'' = (d^2y)/(dx^2)
+++++
+
+stem:[y''] is found by differentiating stem:[y'].
+
+TODO: Add example.
+
+TODO...
