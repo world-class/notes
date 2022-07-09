@@ -32,19 +32,19 @@ TODO...
 
 == Logarithms
 
-The logarithm is the inverse function to the exponentiation.
+The logarithm is the inverse function to the exponentiation. The following two
+equations are equivalent.
 
 [stem]
 ++++
-y = a^x " is equivalant to " log_a y = x
+y = a^x hArr log_a y = x
 ++++
 
 For example:
 
 [stem]
 ++++
-5^3 = 125\
-log_5 125 = 3
+5^3 = 125 hArr log_5 125 = 3
 ++++
 
 Also, conventially we define **natural logarithms** as:
