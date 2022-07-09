@@ -32,3 +32,73 @@ TODO...
 
 == Logarithms
 
+The logarithm is the inverse function to the exponentiation.
+
+[stem]
+++++
+y = a^x " is equivalant to " log_a y = x
+++++
+
+For example:
+
+[stem]
+++++
+5^3 = 125\
+log_5 125 = 3
+++++
+
+Also, conventially we define **natural logarithms** as:
+
+[stem]
+++++
+log = log_10\
+ln = log_e
+++++
+
+=== Some Properties
+
+[stem]
+++++
+log_a X = (log_10 X)/(log_10 a)\
+log_a X = (ln X)/(ln_a)
+++++
+
+and:
+
+[stem]
+++++
+log_a a = 1
+++++
+
+and:
+
+[stem]
+++++
+log 1 = 0
+++++
+
+=== Laws
+
+**First Law**:
+
+[stem]
+++++
+log A + log B = log AB
+++++
+
+**Second Law**:
+
+[stem]
+++++
+log A - log B = log (A/B)
+++++
+
+**Third Law**
+
+[stem]
+++++
+n log A = log A^n
+++++
+
+such as stem:[3 log 2 = log 2^3 = log 8]. This applies for all stem:[n in RR].
+
