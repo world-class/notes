@@ -60,7 +60,7 @@ ln = log_e
 [stem]
 ++++
 log_a X = (log_10 X)/(log_10 a)\
-log_a X = (ln X)/(ln_a)
+log_a X = (ln X)/(ln a)
 ++++
 
 and:

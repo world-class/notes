@@ -105,4 +105,4 @@ tan theta = tan(theta - 180°)\
 tan theta = -tan(360° - theta)
 ++++
 
-This means that trigonometric functions can have more than one solutions.
+This means that trigonometric functions can have more than one solution.
