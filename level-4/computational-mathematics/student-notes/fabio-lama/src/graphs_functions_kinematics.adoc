@@ -14,7 +14,7 @@ stem:[O] called the origin. The horizontal axis is used to represent the
 represent the *dependent* variable, commonly stem:[y]. The region shown is then
 referred to as the stem:[x – y] plane.
 
-image::src/assets/graphs_functions/graph_axis.png[]
+image::assets/graphs_functions/graph_axis.png[]
 
 == Inequalities
 
@@ -61,11 +61,11 @@ intervals:
 
 Closed intervals use the filled marking, stem:[[-3,4\]]:
 
-image::src/assets/graphs_functions/closed_interval.png[]
+image::assets/graphs_functions/closed_interval.png[]
 
 Open intervals used the hollow marking, stem:[(1,4)]:
 
-image::src/assets/graphs_functions/open_interval.png[]
+image::assets/graphs_functions/open_interval.png[]
 
 == Plotting Graphs of a Function
 
@@ -76,7 +76,7 @@ Plotting a graph of stem:[y = 2x - 1] for stem:[-3 <= x <= 3]:
 |stem:[y]|stem:[-7]|stem:[-5]|stem:[-3]|stem:[-1]|stem:[1]|stem:[3]|stem:[5]
 |===
 
-image::src/assets/graphs_functions/plotting_graph.png[]
+image::assets/graphs_functions/plotting_graph.png[]
 
 == Domain and Range of Function
 
@@ -89,7 +89,7 @@ directions.
 For example, the function stem:[f] is given by stem:[y = f(x) = 2x], for
 stem:[1 <= x <= 3].
 
-image::src/assets/graphs_functions/domain_range_function.png[]
+image::assets/graphs_functions/domain_range_function.png[]
 
 == Kinematics
 
