@@ -23,9 +23,9 @@ and the _y_ projection _OA_. The trigonometrical ratios are defined as:
 
 [stem]
 ++++
-sin theta = "OA"/"OC"\
-cos theta = "OB"/"OC"\
-tan theta = "OA"/"OB"
+sin theta = "OA"/"OC" = "BC"/"OC"\
+cos theta = "OB"/"OC" = "AC"/"OC"\
+tan theta = "OA"/"OB" = "BC"/"AC"
 ++++
 
 _(Note that in the image above, stem:["OA" = "BC"] and stem:["OB" = "AC"]. The
@@ -69,4 +69,39 @@ image::assets/trigonometrical_functions_identities/cos_function.png[]
 The tangent function is stem:[y = tan theta], which repeats every 180°:
 
 image::assets/trigonometrical_functions_identities/tan_function.png[]
+
+== Identities
+
+Identities imply equations that are true for every value of the involved
+variables. Important ones are:
+
+[stem]
+++++
+(sin theta)/(cos theta) = tan theta
+++++
+
+and:
+
+[stem]
+++++
+sin^2 A + cos^2 A = 1
+++++
+
+Additionally:
+
+[stem]
+++++
+sin theta = -sin(theta - 180°)\
+sin theta = sin(180° - theta)\
+sin theta = -sin(360° - theta)\
+\
+cos theta = -cos(theta - 180°)\
+cos theta = -cos(180° - theta)\
+cos theta = cos(360° - theta)\
+\
+tan theta = -tan(180° - theta)\
+tan theta = tan(theta - 180°)\
+tan theta = -tan(360° - theta)
+++++
+
 
