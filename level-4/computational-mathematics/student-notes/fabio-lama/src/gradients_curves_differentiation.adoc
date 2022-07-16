@@ -144,7 +144,9 @@ derivative** and denoted as stem:[y"''"], we define:
 y"''"" = (d^2y)/(dx^2)
 ++++
 
-stem:[y"''"] is found by differentiating stem:[y']. For example:
+stem:[y"''"] is found by differentiating stem:[y'].
+
+For example:
 
 [stem]
 ++++
