@@ -28,15 +28,22 @@ case $1 in
     pdf)
         for FILE in *.adoc
         do
-            # Generate PDF file.
-            asciidoctor-pdf -r asciidoctor-mathematical ${FILE}
+            # Generate HTML file.
+            gen_html ${FILE}
+
+            # Convert HTML to PNG.
+            PDF_OUT="cheatsheet_${OUT}.pdf"
+            wkhtmltopdf \
+                --enable-local-file-access \
+                --javascript-delay 2000\
+                $HTML_OUT $PDF_OUT
         done
 
         # Move up from src/
         mv *.pdf ../
 
-        # Cleanup generate PNGs of math formulas (created by `asciidoctor-pdf`).
-        rm *.png > /dev/null 2>&1
+        # Cleanup temporarily generated HTML files.
+        rm *.html > /dev/null 2>&1
         ;;
     png | img)
         for FILE in *.adoc
@@ -46,7 +53,7 @@ case $1 in
 
             # Convert HTML to PNG.
             IMG_OUT="cheatsheet_${OUT}.png"
-            wkhtmltoimage \
+            wkhtmltopdf \
                 --enable-local-file-access \
                 --javascript-delay 2000\
                 $HTML_OUT $IMG_OUT
