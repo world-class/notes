@@ -20,19 +20,25 @@ The following dependencies must be installed (Ubuntu):
 ```console
 $ apt install -y ruby-dev wkhtmltopdf
 $ gem install asciidoctor
+$ chmod +x build.sh
 ```
 
-To build the documents (PNG version):
+To build the documents (PDF version):
 
 ```console
-$ chmod +x build.sh
-$ ./build.sh png
+$ ./build.sh pdf
 ```
 
-Optionally (HTML version):
+Optionally, for the HTML version:
 
 ```console
 $ ./build.sh html
+```
+
+and for the PNG version:
+
+```console
+$ ./build.sh png
 ```
 
 The generated output can be deleted with `./build.sh clean`.

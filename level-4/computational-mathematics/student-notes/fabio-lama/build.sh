@@ -74,5 +74,4 @@ case $1 in
     *)
         echo "Unrecognized command"
         ;;
-
 esac
