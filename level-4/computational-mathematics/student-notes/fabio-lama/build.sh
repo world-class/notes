@@ -25,6 +25,19 @@ case $1 in
         # Move up from src/
         mv *.html ../
         ;;
+    pdf)
+        for FILE in *.adoc
+        do
+            # Generate PDF file.
+            asciidoctor-pdf -r asciidoctor-mathematical ${FILE}
+        done
+
+        # Move up from src/
+        mv *.pdf ../
+
+        # Cleanup generate PNGs of math formulas (created by `asciidoctor-pdf`).
+        rm *.png > /dev/null 2>&1
+        ;;
     png | img)
         for FILE in *.adoc
         do
