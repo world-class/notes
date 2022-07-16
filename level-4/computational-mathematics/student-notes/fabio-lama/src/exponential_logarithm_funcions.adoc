@@ -25,11 +25,6 @@ An exponential function has the form of stem:[y = e^x]. This function has import
 
 image::assets/exponential_logarithm_functions/exponential_function.png[]
 
-== Solving Equations with Exponential Terms
-
-TODO...
-
-
 == Logarithms
 
 The logarithm is the inverse function to the exponentiation. The following two
@@ -55,7 +50,7 @@ log = log_10\
 ln = log_e
 ++++
 
-=== Some Properties
+=== Calculating Logarithms to any Base
 
 [stem]
 ++++
@@ -68,13 +63,6 @@ and:
 [stem]
 ++++
 log_a a = 1
-++++
-
-and:
-
-[stem]
-++++
-log 1 = 0
 ++++
 
 === Laws
@@ -91,6 +79,13 @@ log A + log B = log AB
 [stem]
 ++++
 log A - log B = log (A/B)
+++++
+
+Also note that:
+
+[stem]
+++++
+log 1 = 0
 ++++
 
 **Third Law**
