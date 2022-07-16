@@ -17,7 +17,9 @@ denote its gradient function by "dee _y_ by dee _x_" or simply by "_y_ dash".
 (dy)/(dx) = y'
 ++++
 
-NOTE: This is not defined as "_dy_ divided by _dx_", respectively _dy_ and _dx_ don't have any meaning here. Rather, we take stem:[(dy)/(dx)] as a symbol of its own, such as stem:[y'].
+IMPORTANT: This is **not** defined as "_dy_ divided by _dx_", respectively _dy_
+and _dx_ don't have any meaning here. Rather, we take stem:[(dy)/(dx)] as a
+symbol of its own, such as stem:[y'].
 
 image::assets/gradients_curves_differentiation/gradient_function.png[]
 
@@ -26,7 +28,7 @@ obtaining this is also known as **differentiation**. Saying to differentiate
 stem:[y = x^5] means to find its gradient function stem:[y]. _Differential
 calculus_ studies this more in depth.
 
-=== Gradient function of stem:[y = x^n]
+== Gradient function of stem:[y = x^n]
 
 For any function of the form stem:[y = x^n] the gradient function is found from
 the following formula:
@@ -43,7 +45,7 @@ For example:
 "if " y = x^3 " then " y' = 3x^(3-1) = 3x^2
 ++++
 
-Respectivelly:
+Respectively:
 
 [stem]
 ++++
@@ -73,6 +75,8 @@ The gradient function of some common functions:
 |===
 
 == Rules for Finding Gradient Functions
+
+Rules for finding gradients of non-single terms.
 
 === Rule 1
 
