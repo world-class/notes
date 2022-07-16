@@ -2,11 +2,14 @@
 
 A collection of cheatsheets by topic.
 
-* [Number bases](./cheatsheet_number_bases.png)
-* [Sequences and Series](./cheatsheet_sequence_series.png)
-* [Modular Arithmetic](./cheatsheet_modular_arithmetic.png)
-* [Trigonometry](./cheatsheet_trigonometry.png)
-* [Graphs and Functions](./cheatsheet_graphs_functions.png)
+* [Number bases](./cheatsheet_number_bases.pdf)
+* [Sequences and Series](./cheatsheet_sequence_series.pdf)
+* [Modular Arithmetic](./cheatsheet_modular_arithmetic.pdf)
+* [Trigonometry](./cheatsheet_trigonometry.pdf)
+* [Graphs of Functions & Kinematics](./cheatsheet_graphs_functions_kinematics.pdf)
+* [Trigonometrical Functions & Identities](./cheatsheet_trigonometrical_functions_identities.pdf)
+* [Exponential & Logarithm Functions](./cheatsheet_exponential_logarithm_funcions.pdf)
+* [Gradients of Curves & Differentiation](./cheatsheet_gradients_curves_differentiation.pdf)
 
 # Building
 
