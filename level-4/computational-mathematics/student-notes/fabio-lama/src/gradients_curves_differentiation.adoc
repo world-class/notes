@@ -14,7 +14,7 @@ its gradient function by stem:[(dy)/(dx)] or simply by stem:[y'].
 
 TODO: What is _d_?
 
-image::assets/gradients_curves_differentation/gradient_function.png[]
+image::assets/gradients_curves_differentiation/gradient_function.png[]
 
 The gradient function is also called **(first) derivative**. The process of
 obtaining this is also known as **differentiation**. Saying to differentiate
@@ -65,7 +65,7 @@ where _k_ is a number.
 == Higher Derivatives
 
 To find the derivative of the derivative itself, known as the **second
-deriviative** and denoted as stem:[y''], we define:
+derivative** and denoted as stem:[y''], we define:
 
 [stem]
 ++++

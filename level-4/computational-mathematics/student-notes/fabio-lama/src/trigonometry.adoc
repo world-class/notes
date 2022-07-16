@@ -8,8 +8,8 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Intro
 
-If stem:[B = 90], then stem:["AC"] is called the *hypothenuse*, the side
-*opposite* of stem:[theta] is stem:[BC] and the remainding side, stem:["AB"], is
+If stem:[B = 90], then stem:["AC"] is called the *hypotenuse*, the side
+*opposite* of stem:[theta] is stem:[BC] and the remaining side, stem:["AB"], is
 *adjacent* to stem:[theta]. Angle stem:[A] is written as stem:[/_"BAC"],
 stem:[/_A] or just stem:[A].
 
@@ -60,18 +60,18 @@ And in reverse:
 
 == Trigonometrical Ratios
 
-_Sinus_, _cosinus_ and _tangens_ are trigonometric functions that can be applied
+_Sinus_, _cosine_ and _tangent_ are trigonometric functions that can be applied
 to *right-angled triangles* to determine the degree of an angle. The degree of
 an angle is independent from the length of each side.
 
 [stem]
 ++++
-sin theta = ("side opposite to " theta)/"hypothenuse" = "BC"/"AC"\
-cos theta = ("side adjacent to " theta)/"hypothenuse" = "AB"/"AC"\
+sin theta = ("side opposite to " theta)/"hypotenuse" = "BC"/"AC"\
+cos theta = ("side adjacent to " theta)/"hypotenuse" = "AB"/"AC"\
 tan theta = ("side opposite to " theta)/("side adjacent to " theta) = "BC"/"AB"
 ++++
 
-_Sinus_ and _cosinus_ are always less than one.
+_Sinus_ and _cosine_ are always less than one.
 
 [stem]
 ++++
@@ -87,9 +87,9 @@ sin 45° = 0.70710678\
 sin^(-1) 0.70710678 = 45°
 ++++
 
-== Pythagoras, Sinus and Cosinus Rule
+== Pythagoras, Sinus and Cosine Rule
 
-For any *righ-angled* triangle, the following theorem applies:
+For any *right-angled* triangle, the following theorem applies:
 
 [stem]
 ++++
@@ -97,8 +97,8 @@ a^2 + b^2 = c^2\
 sqrt (a^2 + b^2) = c
 ++++
 
-where stem:[c] is the hypothenuse. For any right-angled, acute and obtuse (non
-right-angled) triangles, the sinus and cosinus rules apply:
+where stem:[c] is the hypotenuse. For any right-angled, acute and obtuse (non
+right-angled) triangles, the sinus and cosine rules apply:
 
 [stem]
 ++++

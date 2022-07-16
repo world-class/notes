@@ -29,7 +29,7 @@ tan theta = "OA"/"OB" = "BC"/"AC"
 ++++
 
 _(Note that in the image above, stem:["OA" = "BC"] and stem:["OB" = "AC"]. The
-rules for those trignometrical functions are not any different than what's
+rules for those trigonometrical functions are not any different than what's
 already covered in 'Cheatsheet - Trigonometry')_
 
 Given that _x_ and _y_ can be negative, this also means that stem:[sin theta],

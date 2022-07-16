@@ -46,7 +46,7 @@ term.
 S = (a, a + d, a + 2d, a + 3d, ...)
 ++++
 
-where stem:[a] is the _first term_ and stem:[d] is the _commond difference_ of
+where stem:[a] is the _first term_ and stem:[d] is the _common difference_ of
 the arithmetic progression stem:[S]. For example:
 
 [stem]
@@ -81,7 +81,7 @@ amount.
 S = (a,ar,ar^2,ar^3,...)
 ++++
 
-where stem:[a] is the _first term_ and stem:[r] is the _common ratio_. For exampe:
+where stem:[a] is the _first term_ and stem:[r] is the _common ratio_. For example:
 
 [stem]
 ++++
@@ -203,8 +203,8 @@ S_3 = (-248)/-4 = 62
 
 == Infinite Geometric Series
 
-If the terms of an infite sequence are added, the result is known as an infinite
-series. The sum of an infite number of terms of a geometric series with first term
+If the terms of an infinite sequence are added, the result is known as an infinite
+series. The sum of an infinite number of terms of a geometric series with first term
 stem:[a] and common ratio stem:[r] is denoted by stem:[S_(oo)] and given by:
 
 [stem]

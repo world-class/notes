@@ -18,7 +18,7 @@ image::assets/graphs_functions/graph_axis.png[]
 
 == Intervals
 
-We only need part of the stem:[x]/stem:[y] axis when plottin graphs. Each
+We only need part of the stem:[x]/stem:[y] axis when plotting graphs. Each
 coordinate on the axis is called an *interval*. There are three types of
 intervals:
 

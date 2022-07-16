@@ -42,7 +42,7 @@ For example:
 5^3 = 125 hArr log_5 125 = 3
 ++++
 
-Also, conventially we define **natural logarithms** as:
+Also, conventionally we define **natural logarithms** as:
 
 [stem]
 ++++
