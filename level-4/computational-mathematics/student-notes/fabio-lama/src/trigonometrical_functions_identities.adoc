@@ -116,3 +116,25 @@ tan theta = -tan(360° - theta)
 ++++
 
 This means that trigonometric functions can have more than one solution.
+
+=== Common Identities
+
+[stem]
+++++
+(sin A)/(cos A) = tan A\
+sin(A + B) = sin A cos B + sin B cos A\
+sin(A - B) = sin A cos B - sin B cos A\
+sin 2A = 2 sin A cos A\
+cos(A + B) = cos A cos B - sin A sin B\
+cos(A - B) = cos A cos B + sin A sin B\
+cos 2A = (cos A)^2 - (sin A)^2 = cos^2 A - sin^2 A\
+tan(A + B) = (tan A + tan B)/(1 - tan A tan B)\
+tan(A - B) = (tan A - tan B)/(1 + tan A tan B)\
+sin A + sin B = 2 sin ((A + B)/2) cos ((A-B)/2)\
+sin A - sin B = 2 sin ((A - B)/2) cos ((A + B)/2)\
+cos A + cos B = 2 cos ((A + B)/2) cos ((A - B)/2)\
+cos A - cos B = -2 sin ((A - B)/2) sin ((A + B)/2)\
+sin A = -sin(-A)\
+cos A = cos(-A)\
+tan A = -tan(-A)
+++++
