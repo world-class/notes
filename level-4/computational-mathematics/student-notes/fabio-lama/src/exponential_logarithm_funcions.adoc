@@ -32,14 +32,14 @@ equations are equivalent.
 
 [stem]
 ++++
-y = a^x hArr log_a y = x
+y = a^x hArr log_a (y) = x
 ++++
 
 For example:
 
 [stem]
 ++++
-5^3 = 125 hArr log_5 125 = 3
+5^3 = 125 hArr log_5 (125) = 3
 ++++
 
 Also, conventionally we define **natural logarithms** as:
@@ -58,7 +58,14 @@ log_a X = (log_10 X)/(log_10 a)\
 log_a X = (ln X)/(ln a)
 ++++
 
-and:
+This also means that - for example:
+
+[stem]
+++++
+log_5 (125) = (log (125))/(log (5))
+++++
+
+Additionally:
 
 [stem]
 ++++
