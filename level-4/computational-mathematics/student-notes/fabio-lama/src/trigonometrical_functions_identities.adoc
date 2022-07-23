@@ -43,6 +43,16 @@ image::assets/trigonometrical_functions_identities/third_quadrant.png[]
 
 stem:[sin theta] and stem:[cos theta] are negative and stem:[tan theta] is
 positive, because _x_ (_OB_) and _y_ (OA) are negative, but _OC_ is positive.
+Respectively:
+
+[stem]
+++++
+sin theta = "AC"/"OC" = "OB"/"OC"\
+cos theta = "OA"/"OC" = "BC"/"OC"\
+tan theta = "AC"/"OA" = "AC"/"BC" = "OB"/"OA" = "OB"/"BC"
+++++
+
+Given that stem:["OB" = "AC"] and stem:["BC" = "OA"].
 
 == Adding/Subtracting 360°
 
