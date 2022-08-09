@@ -1,0 +1,65 @@
+= Cheatsheet - Vectors & Matrices
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+Quantities that can be described as single numbers (**magnitudes**) are known as
+**scalars**. Vectors are quantities that have a magnitude but also a
+**direction** and are represented as arrows, where the length represents the
+magnitude and the direction is given as points on a Euclidean plane:
+
+image::assets/vectors_matrices/simple_vector.png[]
+
+Here, the vector _A_ to _B_ is written as stem:[vec "AB"] (sometimes stem:[ul a]
+or stem:[bb a]), where _A_ is the _tail_ and _B_ is the _head_. The
+**magnitude** of stem:[vec "AB"] is written as stem:[vec abs(AB)] or stem:[bb
+ul a].
+
+Two vectors are **equal** if they have the same magnitude **and** the same
+direction.
+
+A **unit vector** has magnitude of 1, written as stem:[bb hat a]
+
+== Multiplying Vector by Scalar
+
+[stem]
+++++
+bb a = 4\
+3 bb a = 12\
+1/2 bb a = 2
+++++
+
+image::assets/vectors_matrices/multiply_vectors.png[]
+
+Multiplying by a negative number **reverses** the direction, but the magnitude
+stays **positive**. 
+
+[stem]
+++++
+bb a = 4\
+-3 bb a = 12
+++++
+
+The unit vector of stem:[bb a] is given by:
+
+[stem]
+++++
+bb hat a = (1)/(bb abs(a)) bba
+++++
+
+For example:
+
+[stem]
+++++
+bb a = 4\
+bb hat a = 1/4 bb a\
+bb b = 1/2\
+bb hat b = 1/(1/2) bb b = 2 bb b
+++++
+
+== Adding and Subtracting Vectors
