@@ -16,7 +16,7 @@ stem:[theta] is of the following degree based where the arm is located:
 * Third quadrant, then stem:[180° <= theta <= 270°]
 * Fourth quadrant, then stem:[270° <= theta <= 360°]
 
-image::assets/trigonometrical_functions_identities/four_quadrants.png[]
+image::assets/trigonometrical_functions_identities/four_quadrants.png[align="center"]
 
 Consider the projection of the arm to be _OC_ and label the _x_ projection _OB_
 and the _y_ projection _OA_. The trigonometrical ratios are defined as:
@@ -39,7 +39,7 @@ for the calculation.
 
 For example, in this graph:
 
-image::assets/trigonometrical_functions_identities/third_quadrant.png[]
+image::assets/trigonometrical_functions_identities/third_quadrant.png[align="center"]
 
 stem:[sin theta] and stem:[cos theta] are negative and stem:[tan theta] is
 positive, because _x_ (_OB_) and _y_ (OA) are negative, but _OC_ is positive.
@@ -70,15 +70,15 @@ tan theta = tan(theta + 360°) = tan(theta - 360°)
 
 The sine function is stem:[y = sin theta], which repeats every 360°:
 
-image::assets/trigonometrical_functions_identities/sin_function.png[]
+image::assets/trigonometrical_functions_identities/sin_function.png[align="center"]
 
 This cosine function is stem:[y = cos theta], which repeats every 360°:
 
-image::assets/trigonometrical_functions_identities/cos_function.png[]
+image::assets/trigonometrical_functions_identities/cos_function.png[align="center"]
 
 The tangent function is stem:[y = tan theta], which repeats every 180°:
 
-image::assets/trigonometrical_functions_identities/tan_function.png[]
+image::assets/trigonometrical_functions_identities/tan_function.png[align="center"]
 
 == Identities
 

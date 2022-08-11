@@ -21,7 +21,7 @@ IMPORTANT: This is **not** defined as "_dy_ divided by _dx_", respectively _dy_
 and _dx_ don't have any meaning here. Rather, we take stem:[(dy)/(dx)] as a
 symbol of its own, such as stem:[y'].
 
-image::assets/gradients_curves_differentiation/gradient_function.png[]
+image::assets/gradients_curves_differentiation/gradient_function.png[align="center"]
 
 The gradient function is also called **first derivative**. The process of
 obtaining this is also known as **differentiation**. Saying to differentiate
@@ -155,7 +155,7 @@ For example:
 
 == Maximum and Minimum Points
 
-image::assets/gradients_curves_differentiation/maximum_minimum_points.png[]
+image::assets/gradients_curves_differentiation/maximum_minimum_points.png[align="center"]
 
 Points where the gradient is zero are known as **stationary points**, such as
 points _A_, _B_, _C_ and _D_ (seen in the graph above). A point like _A_ is the

@@ -23,7 +23,7 @@ An exponential function has the form of stem:[y = e^x]. This function has import
 * When stem:[x=0], then stem:[y = 1]
 * As _x_ increases, then _y_ increases (**exponential growth**).
 
-image::assets/exponential_logarithm_functions/exponential_function.png[]
+image::assets/exponential_logarithm_functions/exponential_function.png[align="center"]
 
 == Logarithms
 

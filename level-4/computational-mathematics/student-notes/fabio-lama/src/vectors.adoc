@@ -13,7 +13,7 @@ Quantities that can be described as single numbers (**magnitudes**) are known as
 **direction** and are represented as arrows, where the length represents the
 magnitude and the direction is given as points on a stem:[x-y] plane:
 
-image::assets/vectors/simple_vector.png[]
+image::assets/vectors/simple_vector.png[align="center"]
 
 Here, the vector _A_ to _B_ is written as stem:[vec "AB"] (sometimes stem:[ul a]
 or stem:[bb a]), where _A_ is the _tail_ and _B_ is the _head_. The
@@ -27,6 +27,8 @@ A **unit vector** has magnitude of 1, written as stem:[bb hat a]
 
 == Multiplying Vector by Scalar
 
+image::assets/vectors/multiply_vectors.png[align="center"]
+
 [stem]
 ++++
 bb a = 4\
@@ -34,18 +36,16 @@ bb a = 4\
 1/2 bb a = 2
 ++++
 
-image::assets/vectors/multiply_vectors.png[]
-
 Multiplying by a negative number **reverses** the direction, but the magnitude
 stays **positive**. 
+
+image::assets/vectors/multiply_negative_vectors.png[align="center"]
 
 [stem]
 ++++
 bb a = 4\
 -3 bb a = 12
 ++++
-
-image::assets/vectors/multiply_negative_vectors.png[]
 
 The unit vector of stem:[bb a] is given by:
 
@@ -70,11 +70,11 @@ If stem:[bb a] and stem:[bb b] are two vectors then we can form the vector
 stem:[bb a + bb b]. We take stem:[bb b] by its tail and move it to the head of
 stem:[bb a] while still maintaining magnitude and direction.
 
-image::assets/vectors/adding_vectors.png[]
+image::assets/vectors/adding_vectors.png[align="center"]
 
 Or with more vectors:
 
-image::assets/vectors/adding_three_vectors.png[]
+image::assets/vectors/adding_three_vectors.png[align="center"]
 
 When subtracting vectors, we consider that:
 
@@ -88,7 +88,7 @@ stem:[- bb b] to the head of stem:[bb a].
 
 Additionally:
 
-image::assets/vectors/subtract_negative_vector.png[]
+image::assets/vectors/subtract_negative_vector.png[align="center"]
 
 TODO: Add clear rules for head/tail usage.
 
@@ -97,7 +97,7 @@ TODO: Add clear rules for head/tail usage.
 We have a stem:[x-y] plane, where unit vector of the _x_ axis is stem:[bb i] and
 the unit vector of the _y_ axis is stem:[bb j].
 
-image::assets/vectors/cartesian_components.png[]
+image::assets/vectors/cartesian_components.png[align="center"]
 
 We can see that:
 
