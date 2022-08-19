@@ -87,7 +87,7 @@ Fundamental equations:
 * stem:[v_t = v_i + at]
 ** The velocity of any object at time stem:[t] is equal to
 the _initial_ velocity plus the acceleration times stem:[t]
-* stem:[x_t = x_o + v_i t + 1/2 at^2]
+* stem:[x_t = x_o xx v_i t + 1/2 at^2]
 ** The  position of the object at time stem:[t] is qual to the _initial_
 position stem:[x_o] plus its _initial_ velocity stem:[v_i] multiplied by time
 stem:[t] plus stem:[1/2 at^2].
