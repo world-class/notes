@@ -1,0 +1,25 @@
+= Cheatsheet - Probability
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+Some events are impossible, while others are quite certain to happen. When
+something is impossible, we say that the probability is **0**. If something is
+very likely going to happen, we say the probability is **1**. We use the letter
+**P** to indicate a probability of something occuring.
+
+[stem]
+++++
+P("a human will live for 1'000 years") = 0
+P("all of us will die someday") = 1
+++++
+
+No probabilities are outside the range of 0 to 1.
+
+== Complementary Events
+
