@@ -21,5 +21,36 @@ P("all of us will die someday") = 1
 
 No probabilities are outside the range of 0 to 1.
 
-== Complementary Events
+We say that two events are **complementary** if they exclude each other, for
+example something can either exist or not exist, but not exist and not exist at
+the same time. The sum of the probabilities of the two complementary events must
+always equal 1, also known as the **total probability**.
 
+== Calculating Theoretical Probabilities
+
+If the odds of some event occuring is the same for all possible events (e.g.
+when rolling a dice), the probability is **unbiased**. This **theoretical
+probability** is calculated the following way:
+
+[stem]
+++++
+P("obtaining our chosen event") = ("number of ways the chosen event can occur"/"total number of possibilities")
+++++
+
+For example, the probability of rolling _4_ on a dice is:
+
+[stem]
+++++
+P("rolling 4") = 1/6 = 0.1666...
+++++
+
+Or, the probability of rolling above _4_ (by rolling _5_ or _6_):
+
+[stem]
+++++
+P("rolling above 4") = 2/6 = 1/3 = 0.333...
+++++
+
+== Calculating Experimental Probabilities
+
+If we don't have the necessary information to calculate a theoretical probability, ... TODO
