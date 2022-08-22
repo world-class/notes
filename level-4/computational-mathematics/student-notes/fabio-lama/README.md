@@ -10,6 +10,9 @@ A collection of cheatsheets by topic.
 * [Trigonometrical Functions & Identities](./cheatsheet_trigonometrical_functions_identities.pdf)
 * [Exponential & Logarithm Functions](./cheatsheet_exponential_logarithm_funcions.pdf)
 * [Gradients of Curves & Differentiation](./cheatsheet_gradients_curves_differentiation.pdf)
+* [Vectors](./cheatsheet_vectors.pdf)
+* [Matrices](./cheatsheet_matrices.pdf)
+* [Statistics](./cheatsheet_statistics.pdf)
 
 # Building
 
