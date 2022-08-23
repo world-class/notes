@@ -54,3 +54,64 @@ P("rolling above 4") = 2/6 = 1/3 = 0.333...
 == Calculating Experimental Probabilities
 
 If we don't have the necessary information to calculate a theoretical probability, ... TODO
+
+TODO: Combinatorics
+
+== Combinatorics
+
+=== Permutations
+
+A **permutations** of _n_ different elements is an ordering of the elements such
+that one element is first, one is second, one is third, and so on. In order to
+calculate the number of different permutations of _n_ elements we use the
+**factorial** of _n_, respectively stem:[n!]:
+
+[stem]
+++++
+n! = n xx (n-1) xx ... 2 xx 1
+++++
+
+For example:
+
+[stem]
+++++
+6! = 1 xx 2 xx 3 xx 4 xx 5 xx 6 = 720
+++++
+
+Additionally, there are stem:[3! = 6] permutations of the letters stem:[X, Y]
+and stem:[Z]:
+
+[stem]
+++++
+X Y Z\
+Y X Z\
+X Z Y\
+Z Y X\
+Z X Y\
+Y Z X
+++++
+
+=== Permutations of stem:[n] Elements Taken stem:[r] at the Time
+
+The number of permutations of _n_ elements taken _r_ at a time:
+
+[stem]
+++++
+P_r^n = (n!)/(n-r)! = n(n -1)(n-2)...(n-r+1)
+++++
+
+For example, consider the question:
+
+> There are 8 horses running in a race. In how many different ways can these
+horses come in first, second and thrid (ties excluded)?
+
+We can calculate:
+
+[stem]
+++++
+P_3^8 = (8!)/((8-3)!) = (8!)/(5!) = 336
+++++
+
+=== Distinguishable Permutations
+
+TODO
