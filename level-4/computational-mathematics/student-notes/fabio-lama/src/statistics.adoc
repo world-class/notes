@@ -8,8 +8,9 @@ Fabio Lama <fabio.lama@pm.me>
 
 == The Arithmetic Mean
 
-The **arithmetic mean**, or **mean**, is the set of values found by adding up
-all the values and dividing the result by the total number of values in the set.
+The **arithmetic mean**, or **mean**, is the first average and is found in a set
+of values by adding up all the values and dividing the result by the total
+number of values in the set.
 
 [stem]
 ++++
@@ -21,7 +22,7 @@ of marks is stem:[4], hence:
 
 [stem]
 ++++
-6.75 = 27/4
+27/4 = 6.75
 ++++
 
 In more advanced math, we say we have stem:[n] values and call those stem:[x_1,
@@ -69,9 +70,26 @@ And is calculated as:
 bar x = (sum_(i=1)^n f_i xx x_i)/(sum_(i=1)^n f_i)
 ++++
 
+== The Median
+
+The **median** is the second average and is found in a set a set of values by
+listing the numbers in ascending order and the selecting the value that lies
+halfway along the list. If there are two numbers halfway, implying the size of
+the set is even, then the two numbers are averages (i.e. the mean).
+
+For example, in the set stem:[{1,4,5,7,9}] the value haflway is stem:[5], making
+that value the **median** of the set. Additionally, in the set
+stem:[{3,4,5,6,7,7}] there are two values halfway, stem:[5] and stem:[6], and we
+can calculate the mean in order to receive the median:
+
+[stem]
+++++
+(5+6)/2 = 11/2 = 5.5
+++++
+
 == The mode
 
-A third average is the **mode**, which indicates in a set of values what value
+The **mode** is the third average and indicates in a set of values what value
 occurs the most often. For example, in the set of values stem:[{1, 2, 3, 4, 4,
 4, 5, 5}] the value stem:[4] appears the most, making it the mode. Sets that
 have two modes are called **bimodal**.

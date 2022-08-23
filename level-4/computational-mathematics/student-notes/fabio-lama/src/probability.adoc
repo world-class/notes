@@ -15,7 +15,7 @@ very likely going to happen, we say the probability is **1**. We use the letter
 
 [stem]
 ++++
-P("a human will live for 1'000 years") = 0
+P("a human will live for 1'000 years") = 0\
 P("all of us will die someday") = 1
 ++++
 
