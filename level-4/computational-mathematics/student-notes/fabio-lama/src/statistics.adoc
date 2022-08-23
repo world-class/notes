@@ -108,10 +108,29 @@ example:
 If this spread/information should be considered, then the **variance** and
 **standard deviation** is used.
 
+=== Variance
+
 [stem]
 ++++
 "variance" = (sum_(i=1)^n (x_i - bar x)^2)/n
 ++++
+
+Respectively:
+
+[stem]
+++++
+"variance" = ((4 - 7)^2 + (7 - 7)^2 + (10 - 7)^2)/3 = 18/3 = 6
+++++
+
+and
+
+[stem]
+++++
+"variance" = ((7 - 7)^2 + (7 - 7)^2 + (7 - 7)^2)/3 = 0
+++++
+
+Even though the mean between the two sets are the same, the variance shows us
+that the spread differs between both sets.
 
 In case of frequency distribution:
 
@@ -120,9 +139,24 @@ In case of frequency distribution:
 "variance" = (sum_(i=1)^n f_i (x_i - bar x)^2)/(sum_(i=1)^n f_i)
 ++++
 
+=== Standard Deviation
+
 [stem]
 ++++
 "standard deviation" = sqrt ((sum_(i=1)^n (x_i - bar x)^2)/n)
 ++++
 
-TODO...
+The standard deviation is just the square root of the variance. From the
+examples in the variance section, we can conclude:
+
+[stem]
+++++
+"standard deviation" = sqrt (6) = 2.449
+++++
+
+and
+
+[stem]
+++++
+"standard deviation" = sqrt (0)\ = 0
+++++
