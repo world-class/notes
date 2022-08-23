@@ -156,7 +156,7 @@ respectively (note that stem:[0! = 1]):
 
 [stem]
 ++++
-C_3^3 = 3!/(3-3)!3! = 6/6 = 1
+C_3^3 = (3!)/((3-3)!3!) = 6/6 = 1
 ++++
 
 Unlike permutations, combinations always require an stem:[r] (i.e. combinations
