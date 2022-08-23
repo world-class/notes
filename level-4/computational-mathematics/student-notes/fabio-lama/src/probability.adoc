@@ -51,13 +51,29 @@ Or, the probability of rolling above _4_ (by rolling _5_ or _6_):
 P("rolling above 4") = 2/6 = 1/3 = 0.333...
 ++++
 
-== Calculating Experimental Probabilities
+== Independent Events
 
-If we don't have the necessary information to calculate a theoretical probability, ... TODO
+If two events such as stem:[A] and stem:[B] are **independent** from each other,
+then the probability of obtaining stem:[A] and stem:[B] is given by:
 
-TODO: Combinatorics
+[stem]
+++++
+P(A " and " B) = P(A) xx P(B)
+++++
+
+For example, what is the probability that a coin toss and a dice throw result in
+a _head_ and a _six_? We calculate:
+
+[stem]
+++++
+1/2 xx 1/6 = 1/12
+++++
 
 == Combinatorics
+
+We can calculate the permutations and combinations of elements. Permutations and
+combinations are similar, but differ due to the fact that combinations do not
+care about ordering.
 
 === Permutations
 
@@ -91,7 +107,9 @@ Z X Y\
 Y Z X
 ++++
 
-=== Permutations of stem:[n] Elements Taken stem:[r] at the Time
+NOTE: stem:[0! = 1].
+
+==== Permutations of stem:[n] Elements Taken stem:[r] at the Time
 
 The number of permutations of _n_ elements taken _r_ at a time:
 
@@ -112,6 +130,34 @@ We can calculate:
 P_3^8 = (8!)/((8-3)!) = (8!)/(5!) = 336
 ++++
 
-=== Distinguishable Permutations
+==== Distinguishable Permutations
 
 TODO
+
+=== Combinations
+
+Unlike permutations, combinations do not care about ordering. Respectively:
+
+[stem]
+++++
+{A, B, C} = {C, B, A}
+++++
+
+To calculate the number of possible combinations of stem:[{A, B, C}], we use the
+number of letters as stem:[r] and use the following formula (where stem:[P_r^n]
+is defined in the permutations section):
+
+[stem]
+++++
+C_r^n = (n!)/((n-r)!r!) = (P_r^n)/(r!)
+++++
+
+respectively (note that stem:[0! = 1]):
+
+[stem]
+++++
+C_3^3 = 3!/(3-3)!3! = 6/6 = 1
+++++
+
+Unlike permutations, combinations always require an stem:[r] (i.e. combinations
+of _n_ elements taken at _r_ at a time).
