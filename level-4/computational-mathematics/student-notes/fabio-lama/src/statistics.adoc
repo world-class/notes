@@ -110,6 +110,8 @@ If this spread/information should be considered, then the **variance** and
 
 === Variance
 
+The variance shows the spread between the values.
+
 [stem]
 ++++
 "variance" = (sum_(i=1)^n (x_i - bar x)^2)/n
@@ -130,7 +132,7 @@ and
 ++++
 
 Even though the mean between the two sets are the same, the variance shows us
-that the spread differs between both sets.
+that the spread differs quite a lot between both sets.
 
 In case of frequency distribution:
 
@@ -140,6 +142,10 @@ In case of frequency distribution:
 ++++
 
 === Standard Deviation
+
+The standard deviation shows the deviation from the mean, indicating which
+values are "standard", and which values are "non-standard" respectively vary a
+lot from most values.
 
 [stem]
 ++++
@@ -151,7 +157,7 @@ examples in the variance section, we can conclude:
 
 [stem]
 ++++
-"standard deviation" = sqrt (6) = 2.449
+"standard deviation" = sqrt (6) ~~ 2.449
 ++++
 
 and
@@ -160,3 +166,6 @@ and
 ++++
 "standard deviation" = sqrt (0)\ = 0
 ++++
+
+Any values above (stem:[bar x + "standard deviation"]) and below (stem:[bar x -
+"standard deviation"]) the mean are considered non-standard.
