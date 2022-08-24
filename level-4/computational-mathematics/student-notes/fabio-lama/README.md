@@ -1,6 +1,11 @@
 # About
 
-A collection of cheatsheets by topic.
+Listed here is a collection of cheatsheet by topic. Those cheatsheets do not
+explain the topics in depth, but rather serve as quick lookup documents.
+Therefore, the course material provided by the lecturer should still be studied
+and understood. Not everything that is tested at the mid-terms or final exams is
+covered and the Author does not guarantee that the cheatsheets are free of
+errors.
 
 * [Number bases](./cheatsheet_number_bases.pdf)
 * [Sequences and Series](./cheatsheet_sequence_series.pdf)
@@ -13,6 +18,7 @@ A collection of cheatsheets by topic.
 * [Vectors](./cheatsheet_vectors.pdf)
 * [Matrices](./cheatsheet_matrices.pdf)
 * [Statistics](./cheatsheet_statistics.pdf)
+* [Probability & Combinatorics](./cheatsheet_probability_combinatorics.pdf)
 
 # Building
 
@@ -59,8 +65,12 @@ inappropriate practices during exams such as cheating or other offences.
 
 The Presented Documents are heavily based on the learning material provided by
 the University of London, respectively the VLeBooks Collection database in the
-Online Library, especially on the book _Foundation maths (Harlow: Pearson, 2016)
-6th edition by Croft, A. and R. Davison_, and may incorporate definitions,
+Online Library, especially on the books:
+
+* _Foundation maths (Harlow: Pearson, 2016) 6th edition by Croft, A. and R. Davison_
+* _Precalculus with Limits (January 1, 2017) 4th edition by Ron Larson_
+
+The Presented Documents may incorporate direct or indirect definitions,
 examples, descriptions, graphs, sentences and/or other content used in those
-provided materials. At no point does the Author present the work or ideas
-incorporated in the Presented Documents as their own.
+provided materials. **At no point does the Author present the work or ideas
+incorporated in the Presented Documents as their own.**

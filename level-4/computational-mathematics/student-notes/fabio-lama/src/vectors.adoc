@@ -90,8 +90,6 @@ Additionally:
 
 image::assets/vectors/subtract_negative_vector.png[align="center"]
 
-TODO: Add clear rules for head/tail usage.
-
 == Cartesian Components
 
 We have a stem:[x-y] plane, where unit vector of the _x_ axis is stem:[bb i] and
