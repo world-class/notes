@@ -132,7 +132,25 @@ P_3^8 = (8!)/((8-3)!) = (8!)/(5!) = 336
 
 ==== Distinguishable Permutations
 
-TODO
+When there are non-unique elements in a list, such as stem:[{A, B, B, C, C, C, D}],
+we might want to calculate the number of _distinguishable permutations_, not all
+possible permutation.
+
+We the use formula:
+
+[stem]
+++++
+(n!)/(n_1! xx n_2! xx ... n_k!)
+++++
+
+Where stem:[n_k] is the number of kinds of elements. As an example, for the set
+stem:[{A, B, B, C, C, C, D}], we have one _A_, two _B_'s, three _C_'s and one
+_D_:
+
+[stem]
+++++
+(7!)/(1! xx 2! xx 3! xx 1!) = 5040/12 = 420
+++++
 
 === Combinations
 
