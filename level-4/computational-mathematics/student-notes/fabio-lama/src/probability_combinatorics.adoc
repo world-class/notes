@@ -115,7 +115,7 @@ The number of permutations of _n_ elements taken _r_ at a time:
 
 [stem]
 ++++
-P_r^n = (n!)/(n-r)! = n(n -1)(n-2)...(n-r+1)
+P_r^n = (n!)/((n-r)!) = n(n -1)(n-2)...(n-r+1)
 ++++
 
 For example, consider the question:
