@@ -60,7 +60,7 @@ And in reverse:
 
 == Trigonometrical Ratios
 
-_Sinus_, _cosine_ and _tangent_ are trigonometric functions that can be applied
+_sine_, _cosine_ and _tangent_ are trigonometric functions that can be applied
 to *right-angled triangles* to determine the degree of an angle. The degree of
 an angle is independent from the length of each side.
 
@@ -71,7 +71,7 @@ cos theta = ("side adjacent to " theta)/"hypotenuse" = "AB"/"AC"\
 tan theta = ("side opposite to " theta)/("side adjacent to " theta) = "BC"/"AB"
 ++++
 
-_Sinus_ and _cosine_ are always less than one.
+_sine_ and _cosine_ are always less than one.
 
 [stem]
 ++++
@@ -87,7 +87,7 @@ sin 45° = 0.70710678\
 sin^(-1) 0.70710678 = 45°
 ++++
 
-== Pythagoras, Sinus and Cosine Rule
+== Pythagoras, sine and Cosine Rule
 
 For any *right-angled* triangle, the following theorem applies:
 
@@ -98,7 +98,7 @@ sqrt (a^2 + b^2) = c
 ++++
 
 where stem:[c] is the hypotenuse. For any right-angled, acute and obtuse (non
-right-angled) triangles, the sinus and cosine rules apply:
+right-angled) triangles, the sine and cosine rules apply:
 
 [stem]
 ++++

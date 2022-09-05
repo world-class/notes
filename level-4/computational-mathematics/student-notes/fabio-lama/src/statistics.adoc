@@ -96,7 +96,7 @@ have two modes are called **bimodal**.
 
 == Variance and Standard Deviation
 
-The means of sets be the same even though the values are widely spread, for
+The means of sets can be the same even though the values are widely spread, for
 example:
 
 [stem]
