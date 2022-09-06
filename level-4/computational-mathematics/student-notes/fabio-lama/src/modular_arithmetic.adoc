@@ -1,0 +1,75 @@
+= Cheatsheet - Modular Arithmetic
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+Modulo is a math operation that finds the remainder when one number is divided
+by another. Two numbers are _congruent_ modulo a given number if they give the
+same remainder when divided by that number.
+
+If we divide 5 by 3, the remainder is 2. Hence:
+
+[stem]
+++++
+5 -= 2 mod 3
+++++
+
+== Congruence
+
+We say that "stem:[a] is _congruent_ to stem:[b] modulo stem:[n]", denoted by:
+
+[stem]
+++++
+a -= b mod n
+++++
+
+if stem:[n] is a divisor of stem:[a - b], or equivalently, if stem:[n|(a-b)].
+Similarly, we write:
+
+[latexmath]
+++++
+a \not\equiv b \bmod n
+++++
+
+if stem:[a] is not congruent (or incongruent) to stem:[b] modulo stem:[n], or
+equivalently, if latexmath:[n \nmid (a-b)].
+
+For example:
+
+[stem]
+++++
+5 -= 2 mod 3\
+5 -= 5 mod 3\
+5 -= 8 mod 3
+++++
+
+and negative numbers:
+
+[stem]
+++++
+5 -= 2 mod 3\
+5 -= -1 mod 3\
+5 -= -4 mod 3
+++++
+
+== Multiplicative Inverse
+
+The modular multiplicative inverse of an integer stem:[a] modulo stem:[n] is an
+integer stem:[b] such that:
+
+[stem]
+++++
+ab -= 1 mod n
+++++
+
+and:
+
+[stem]
+++++
+a^(n-2) = a^(-1) mod n
+++++

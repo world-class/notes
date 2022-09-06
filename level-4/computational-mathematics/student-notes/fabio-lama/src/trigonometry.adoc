@@ -1,0 +1,115 @@
+= Cheatsheet - Trigonometry
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+If stem:[B = 90], then stem:["AC"] is called the *hypotenuse*, the side
+*opposite* of stem:[theta] is stem:[BC] and the remaining side, stem:["AB"], is
+*adjacent* to stem:[theta]. Angle stem:[A] is written as stem:[/_"BAC"],
+stem:[/_A] or just stem:[A].
+
+Each side of a triangle is named based on the lowercase letter of the angle
+opposite of the side.
+
+[stem]
+++++
+a = "BC"\
+b = "AC"\
+c = "AB"
+++++
+
+The total degree of all angles is always stem:[180°]
+
+[stem]
+++++
+A + B + C = 180°
+++++
+
+== Convert Degree to Radiant
+
+[stem]
+++++
+360° = 2 pi " rads"
+++++
+
+To convert stem:[x] degrees to radians stem:[y]:
+
+[stem]
+++++
+x * pi/180 = y
+++++
+
+For example, stem:[255°]:
+
+[stem]
+++++
+225 * pi/180 ~~ 3.93 " rads"
+++++
+
+And in reverse:
+
+[stem]
+++++
+3.93 * 180/pi ~~ 225°
+++++
+
+== Trigonometrical Ratios
+
+_sine_, _cosine_ and _tangent_ are trigonometric functions that can be applied
+to *right-angled triangles* to determine the degree of an angle. The degree of
+an angle is independent from the length of each side.
+
+[stem]
+++++
+sin theta = ("side opposite to " theta)/"hypotenuse" = "BC"/"AC"\
+cos theta = ("side adjacent to " theta)/"hypotenuse" = "AB"/"AC"\
+tan theta = ("side opposite to " theta)/("side adjacent to " theta) = "BC"/"AB"
+++++
+
+_sine_ and _cosine_ are always less than one.
+
+[stem]
+++++
+sin x <= 1\
+cos x <= 1
+++++
+
+The ratio of an angle can be reversed.
+
+[stem]
+++++
+sin 45° = 0.70710678\
+sin^(-1) 0.70710678 = 45°
+++++
+
+== Pythagoras, sine and Cosine Rule
+
+For any *right-angled* triangle, the following theorem applies:
+
+[stem]
+++++
+a^2 + b^2 = c^2\
+sqrt (a^2 + b^2) = c
+++++
+
+where stem:[c] is the hypotenuse. For any right-angled, acute and obtuse (non
+right-angled) triangles, the sine and cosine rules apply:
+
+[stem]
+++++
+a/(sin A) = b/(sin B) = c/(sin C)
+++++
+
+and:
+
+[stem]
+++++
+a^2 = b^2 + c^2 - 2bc cos A\
+b^2 = a^2 + c^2 - 2ac cos B\
+c^2 = a^2 + b^2 - 2ab cos C
+++++

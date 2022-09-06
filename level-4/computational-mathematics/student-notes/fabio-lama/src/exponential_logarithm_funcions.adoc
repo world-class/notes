@@ -1,0 +1,106 @@
+= Cheatsheet - Exponential & Logarithm Functions
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Exponential Expressions
+
+An expression of the form stem:[a^x] is called an **exponential expression**,
+where _a_ is the **base** and _x_ is the **exponent**,**power** or **index**.
+
+NOTE: The most common exponential expression is stem:[e^x], where _e_ is the
+constant _2.71828..._. Also known as "Euler's number". This number is found in
+many natural phenomena.
+
+== Exponential Functions
+
+An exponential function has the form of stem:[y = e^x]. This function has important properties:
+
+* _y_ is never negative.
+* When stem:[x=0], then stem:[y = 1]
+* As _x_ increases, then _y_ increases (**exponential growth**).
+
+image::assets/exponential_logarithm_functions/exponential_function.png[align="center"]
+
+== Logarithms
+
+The logarithm is the inverse function to the exponentiation. The following two
+equations are equivalent.
+
+[stem]
+++++
+y = a^x hArr log_a (y) = x
+++++
+
+For example:
+
+[stem]
+++++
+5^3 = 125 hArr log_5 (125) = 3
+++++
+
+Also, conventionally we define **natural logarithms** as:
+
+[stem]
+++++
+log = log_10\
+ln = log_e
+++++
+
+=== Calculating Logarithms to any Base
+
+[stem]
+++++
+log_a X = (log_10 X)/(log_10 a)\
+log_a X = (ln X)/(ln a)
+++++
+
+This also means that - for example:
+
+[stem]
+++++
+log_5 (125) = (log (125))/(log (5))
+++++
+
+Additionally:
+
+[stem]
+++++
+log_a a = 1
+++++
+
+=== Laws
+
+**First Law**:
+
+[stem]
+++++
+log A + log B = log AB
+++++
+
+**Second Law**:
+
+[stem]
+++++
+log A - log B = log (A/B)
+++++
+
+Also note that:
+
+[stem]
+++++
+log 1 = 0
+++++
+
+**Third Law**
+
+[stem]
+++++
+n log A = log A^n
+++++
+
+such as stem:[3 log 2 = log 2^3 = log 8]. This applies for all stem:[n in RR].
+

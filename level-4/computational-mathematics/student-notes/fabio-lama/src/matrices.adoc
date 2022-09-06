@@ -1,0 +1,120 @@
+= Cheatsheet - Matrices
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Intro
+
+A **matrix** is a set of numbers ("elements") arranged in the form of a
+rectangle and enclosed in curved brackets. The matrix _A_ is of size **"two by
+three"**:
+
+[stem]
+++++
+A = ([1,2,3],[3,4,6])
+++++
+
+A **square** matrix has the same number of rows as colummns:
+
+[stem]
+++++
+([2,-7],[-1,6])
+++++
+
+A **diagnoal** matrix is a square matrix where all elements are _0_ except those
+on the diagonal from the top left to the bottom right.
+
+[stem]
+++++
+([7,0],[0,9]) " , " ([9,0],[0,0]) " and " ([-1,0,0],[0,8,0],[0,0,-17])
+++++
+
+An **identity** matrix is a diagonal matrix where all the diagonal elements are equal to _1_.
+
+== Addition and Subtraction
+
+Two matrices that have the same size can be added/subtracted by simply
+adding/subtracting the corresponding elements.
+
+[stem]
+++++
+([1,2],[3,4]) + ([5,2],[1,0]) = ([1+5, 2+2],[3+1,4+0]) = ([6,4],[4,4])
+++++
+
+Respectively:
+
+[stem]
+++++
+([1,2],[3,4]) + ([5,2],[1,0]) = ([1-5, 2-2],[3-1,4-0]) = ([-4,0],[2,4])
+++++
+
+== Multiplication and Division by Number
+
+A matrix is multiplied by a number by multiplying/dividing each element by that
+number.
+
+[stem]
+++++
+4([1,2],[3,-9]) = ([4 xx 1, 4 xx 2],[4 xx 3, 4 xx -9]) = ([4,8],[12,-36])
+++++
+
+Respectively:
+
+[stem]
+++++
+1/4([16],[8]) = ([1/4 xx 16],[1/4 xx 8]) = ([4],[2])
+++++
+
+== Multiplying two Matrices together
+
+Two matrices can only be multiplied together if the number of colums in the
+first matrix is equal to the number of rows in the second matrix. The product of
+two such matrices is a matrix that has the same number of rows as the first
+matrix and the same number of columns as the second. If matrix _A_ has size
+stem:[p xx q] and _B_ has size stem:[q xx s], then _AB_ has size stem:[p xx s].
+
+[stem]
+++++
+([1,4],[6,3]) xx ([2],[5]) = ([1xx2 + 4xx5],[6xx2 + 3xx5]) = ([22],[27])
+++++
+
+And
+
+[stem]
+++++
+([1,4,9],[2,0,1]) xx ([1,9],[8,7],[-7,3]) = ([1xx1+4xx8+9xx-7,1xx9+4xx7+9xx3],[2xx1+0xx8+1xx-7,2xx9+0xx7+1xx3]) = ([-30, 64],[-5, 21])
+++++
+
+== The Inverse of a stem:[2 xx 2] Matrix
+
+The matrix stem:[A^(-1)] is the **inverse** of matrix _A_ (note that the
+stem:[-1] superscript should not be read as a power).
+
+[stem]
+++++
+"If " A = ([a,b],[c,d]) " then " A^(-1) = 1/(ad-bc)([d,-b],[-c,a])
+++++
+
+Note that the elements on the leading diagonal are interchanged.
+
+Additinally:
+
+[stem]
+++++
+A xx A^(-1) = A^(-1) xx A=I
+++++
+
+Where stem:[I] is the identity matrix.
+
+=== Determinant
+
+If quantity stem:[ad - bc] in the formula for the inverse is known as the
+**determinant** of the matrix, indicated by stem:[abs(A)].
+
+[stem]
+++++
+"If " A = ([a,b],[c,d]) " then its determinant is " abs(A) = [[a,b],[c,d]] = ad-bc
+++++
