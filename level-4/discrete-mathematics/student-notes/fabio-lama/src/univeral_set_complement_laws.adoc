@@ -181,3 +181,33 @@ A nn bar A = phi\
 bar phi = U\
 A nn (A uu B) = A
 ++++
+
+== Partition Set
+
+The two sets stem:[A] and stem:[B] are **disjoint** if and only if stem:[A nn B = phi].
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {4, 5, 6}\
+A nn B = phi " (disjoint)"
+++++
+
+A **partition** is a subset of set stem:[A] such that all subsets of stem:[A]
+are disjoint and the union of all subsets is equal to stem:[A].
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3, 4, 5, 6, 7, 8}\
+A_1 = {1, 2, 3}\
+A_2 = {4, 5, 6}\
+A_3 = {7, 8}\
+A_1 nn A_2 nn A_3 = phi\
+A = A_1 uu A_2 uu A_3
+++++
+
+Hence, stem:[A_1, A_2] and stem:[A_3] are **partitions** of set stem:[A].
