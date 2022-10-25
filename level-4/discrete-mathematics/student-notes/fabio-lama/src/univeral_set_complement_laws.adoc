@@ -1,4 +1,4 @@
-= Cheatsheet - Univeral Set, Complement and Laws
+= Cheatsheet - Universal Set, Complement and Laws
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1020- Discrete Mathematics, started 25. October 2022
 :doctype: article
