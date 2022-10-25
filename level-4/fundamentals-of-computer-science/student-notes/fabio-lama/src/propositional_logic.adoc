@@ -1,0 +1,38 @@
+= Cheatsheet - Propositional Logic
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+A proposition is a statement that can be either _true_ or _false_. It must be
+one or the other, and it cannot be both.
+
+== Syntax
+
+Propositions are denoted by capital letters, such as stem:[P, Q, ...]. General
+statements are denoted by lowercase letters, such as stem:[p, q, ...]
+
+=== Connectives
+
+**Logical NOT**: stem:[not p] is true if and only if stem:[p] is false (also
+called _negation_).
+
+**Logical OR**: stem:[p vv q] is true if and only if at least one of stem:[p] or
+stem:[q] is true or if both stem:[p] and stem:[q] are true (also called
+_disjunction_).
+
+**Logical AND**: stem:[p ^^ q] is true if and only if both stem:[p] and stem:[q]
+are true (also called _conjunction_).
+
+**Logical IF...THEN**: stem:[p -> q] is true if and only if either stem:[p] is
+false or stem:[q] is true (also called _conditional_ or _implication_). stem:[p]
+is the premise, stem:[q] is the conclusion.
+
+**Logical IF and only IF**: stem:[p harr q] is true if and only if both stem:[p]
+and stem:[q] are true (also called _bi-conditional_).
+
+**Exclusive OR: XOR**: stem:[p o+ q] is true if stem:[p] or stem:[q] is true but
+not both.
