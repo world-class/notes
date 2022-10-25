@@ -3,7 +3,6 @@ Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1020- Discrete Mathematics, started 25. October 2022
 :doctype: article
 :sectnums: 4
-:toclevels: 4
 :stem:
 
 == Definition
@@ -11,9 +10,7 @@ Fabio Lama <fabio.lama@pm.me>
 A set refers to an **unordered** collection of any kind of (abstract) **unique**
 objects, so called "elements", such as numbers, figures, things, etc.
 
-== Notation
-
-=== Set Builder
+=== Basic Notation
 
 We have the set stem:[E] containing four elements:
 
@@ -43,7 +40,7 @@ but _not in_ stem:[V]
 2 !in V
 ++++
 
-=== Cardinality
+== Cardinality
 
 Given the set stem:[S], the **cardinality** of stem:[S] is the number of
 elements contained in stem:[S]. We write the cardinality of stem:[S] as
@@ -55,42 +52,51 @@ S = {a, b, c}\
 |S| = 3
 ++++
 
-and
+and the following **empty** set:
 
 [stem]
 ++++
-S = {}\
+S = phi = {}\
 |S| = 0
 ++++
 
-=== Subset of a Set
+== Subset and Superset
 
-We have set stem:[E] and stem:[{1, 2}] is a **subset** (stem:[sub]) of stem:[E].
-We can also say that stem:[E] is a **superset** (stem:[sup]) of stem:[{1, 2}].
-The set stem:[{a, b}] is **not** a subset (latexmath:[\not \subset]) of stem:[E],
+We have set stem:[E] and stem:[{1, 2}] is a **subset** (stem:[sube]) of stem:[E].
+We can also say that stem:[E] is a **superset** (stem:[supe]) of stem:[{1, 2}].
+The set stem:[{a, b}] is **not** a subset (latexmath:[\not \subseteq]) of stem:[E],
 however.
 
 [latexmath]
 ++++
 E = \{1, 2, 3, 4\}\\
-\{1, 2\} \subset E\\
-E \supset \{1, 2\}\\
-\{a, b\} \not \subset E\\
-E \not \supset \{a, b\}
+E \subseteq E\\
+E \supseteq E\\
+\{1, 2\} \subseteq E\\
+E \supseteq \{1, 2\}\\
+\{a, b\} \not \subseteq E\\
+E \not \supseteq \{a, b\}\\
+E \not \supseteq \{1, 2, 3, 4, 5\}
 ++++
 
-Additionally, a set can be a **subset/superset or equal**:
+Importantly, we distinguish between a subset (stem:[sube]) and a **proper
+subset** (stem:[sub]):
+
+[latexmath]
+++++
+\{1, 2, 3\} \subset E\\
+\{1, 2, 3, 4\} \not \subset E\\
+\{1, 2, 3, 4\} \subseteq E
+++++
+
+Do note that any set also contains an empty subset:
 
 [stem]
 ++++
-{1, 2} sube E\
-{1, 2, 3, 4} sube E\
-{1, 2, 3, 4} supe E\
-E sube E\
-E supe E
+({} = phi) sube E
 ++++
 
-=== Special Sets
+== Special Sets
 
 Commonly defined and used sets in mathematics:
 
@@ -113,7 +119,7 @@ Additonally:
 NN sub ZZ sub QQ sub RR
 ++++
 
-=== Set Builder
+== Set Builder
 
 We define:
 
@@ -139,4 +145,44 @@ We now define the set stem:[J]:
 ++++
 J = {2n | n in E " and " n < 3}\
 J = {2, 4}
+++++
+
+== Powerset
+
+Given a set stem:[S], the powerset of that set is denoted as stem:[P(S)] and
+contains all subsets of stem:[S]:
+
+[stem]
+++++
+S = {a, b}\
+P(S) = {phi, {a}, {b}, {a, b}}
+++++
+
+since
+
+[stem]
+++++
+phi sube S\
+{a} sube S\
+{b} sube S\
+{a, b} sube S
+++++
+
+=== Cardinality of a powerset
+
+We define:
+
+[stem]
+++++
+|P(S)| = 2^(|S|)
+++++
+
+For example:
+
+[stem]
+++++
+S = {1, 2, 3}\
+|S| = 3\
+P(S) = {phi, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}\
+|P(S)| = 2^3 = 8
 ++++
