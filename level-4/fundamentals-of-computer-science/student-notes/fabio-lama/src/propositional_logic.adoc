@@ -36,3 +36,22 @@ and stem:[q] are true (also called _bi-conditional_).
 
 **Exclusive OR: XOR**: stem:[p o+ q] is true if stem:[p] or stem:[q] is true but
 not both.
+
+==== Translation to Connectives
+
+As an example, lets consider the propositions:
+
+* stem:[P = "I study 20 hours a week"]
+* stem:[R = "I will pass the exam"]
+* stem:[S = "I will be happy"]
+* stem:[Q = "I attend all the lectures"]
+
+And the following connectives:
+
+[stem]
+++++
+(P vv Q) -> (R ^^ S)
+++++
+
+which is a translation of:  "**If** I study 20 hours a week **or** attend all
+the lectures, **then** I will pass the exam **and** I will be happy."
