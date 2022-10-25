@@ -43,7 +43,7 @@ but _not in_ stem:[V]
 2 !in V
 ++++
 
-== Cardinality
+=== Cardinality
 
 Given the set stem:[S], the **cardinality** of stem:[S] is the number of
 elements contained in stem:[S]. We write the cardinality of stem:[S] as
@@ -63,7 +63,7 @@ S = {}\
 |S| = 0
 ++++
 
-== Subset of a Set
+=== Subset of a Set
 
 We have set stem:[E] and stem:[{1, 2}] is a **subset** (stem:[sub]) of stem:[E].
 We can also say that stem:[E] is a **superset** (stem:[sup]) of stem:[{1, 2}].
@@ -83,18 +83,21 @@ Additionally, a set can be a **subset/superset or equal**:
 
 [stem]
 ++++
-E sube E\
+{1, 2} sube E\
 {1, 2, 3, 4} sube E\
-{1, 2, 3, 4} supe E
+{1, 2, 3, 4} supe E\
+E sube E\
+E supe E
 ++++
 
-== Special Sets
+=== Special Sets
 
 Commonly defined and used sets in mathematics:
 
 [stem]
 ++++
 NN = {1, 2, 3, 4, ...} " natural numbers"\
+bbb W = {0, 1, 2, 3, 4, ...} " whole numbers"\
 ZZ = {..., -1, 0, 1, 2, ...} " integers (no fractions)"\
 QQ = {..., -1, -(1/2), 0, 2/3, 1, ...} " rational numbers"\
 RR = " real numbers (non complex-numbers)"
@@ -108,4 +111,32 @@ Additonally:
 [stem]
 ++++
 NN sub ZZ sub QQ sub RR
+++++
+
+=== Set Builder
+
+We define:
+
+[stem]
+++++
+E = {1, 2, 3, 4}
+++++
+
+and use the set builder to create a new set, for example:
+
+[stem]
+++++
+V = {2n | n in E}\
+V = {2, 4, 6, 8}
+++++
+
+Read as "each element set stem:[V] is two times stem:[n] for each stem:[n] in
+set stem:[E]".
+
+We now define the set stem:[J]:
+
+[stem]
+++++
+J = {2n | n in E " and " n < 3}\
+J = {2, 4}
 ++++
