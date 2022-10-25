@@ -15,7 +15,7 @@ one or the other, and it cannot be both.
 Propositions are denoted by capital letters, such as stem:[P, Q, ...]. General
 statements are denoted by lowercase letters, such as stem:[p, q, ...]
 
-=== Connectives
+== Connectives
 
 **Logical NOT**: stem:[not p] is true if and only if stem:[p] is false (also
 called _negation_).
@@ -37,7 +37,7 @@ and stem:[q] are true (also called _bi-conditional_).
 **Exclusive OR: XOR**: stem:[p o+ q] is true if stem:[p] or stem:[q] is true but
 not both.
 
-==== Translation to Connectives
+=== Translation to Connectives
 
 As an example, lets consider the propositions:
 
@@ -55,3 +55,82 @@ And the following connectives:
 
 which is a translation of:  "**If** I study 20 hours a week **or** attend all
 the lectures, **then** I will pass the exam **and** I will be happy."
+
+== Truth Tables
+
+=== Negation: stem:[not]
+
+[stem]
+++++
+true = not false\
+false = not true
+++++
+
+=== Conjunction: stem:[^^]
+
+[stem]
+++++
+true ^^ true = true\
+true ^^ false = false\
+false ^^ true = false\
+false ^^ false = false
+++++
+
+=== Disjunction: stem:[vv]
+
+[stem]
+++++
+true vv true = true\
+true vv false = true\
+false vv true = true\
+false vv false = false
+++++
+
+=== Implication: stem:[->]
+
+[stem]
+++++
+true -> true = true\
+true -> false = false\
+false -> true = true \
+false -> false = true 
+++++
+
+TODO: Clarify this.
+
+=== Bi-conditional: stem:[harr]
+
+[stem]
+++++
+1 harr 1 = 1\
+1 harr 0 = 0\
+0 harr 1 = 0\
+0 harr 0 = 1
+++++
+
+=== Exclusive or: XOR, stem:[o+]
+
+[stem]
+++++
+1 o+ 1 = 0\
+1 o+ 0 = 1\
+0 o+ 1 = 1\
+0 o+ 0 = 0
+++++
+
+== Operator Precedence
+
+Operators are applied in the following order (ascending):
+
+. stem:[not]
+. stem:[^^]
+. stem:[vv]
+. stem:[->]
+. stem:[harr]
+
+For example:
+
+[stem]
+++++
+p -> p ^^ not q vv s -= (p -> ((p ^^ (not q)) vv s))
+++++
