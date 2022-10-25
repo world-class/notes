@@ -1,0 +1,111 @@
+= Cheatsheet - Set Theory
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Definition
+
+A set refers to an **unordered** collection of any kind of (abstract) **unique**
+objects, so called "elements", such as numbers, figures, things, etc.
+
+== Notation
+
+=== Set Builder
+
+We have the set stem:[E] containing four elements:
+
+[stem]
+++++
+E = {1, 2, 3, 4}
+++++
+
+or set stem:[V]:
+
+[stem]
+++++
+V = {a, b, c, d, e, f}
+++++
+
+We can see that the element stem:[2] _is in_ stem:[E], respectively:
+
+[stem]
+++++
+2 in E
+++++
+
+but _not in_ stem:[V]
+
+[stem]
+++++
+2 !in V
+++++
+
+== Cardinality
+
+Given the set stem:[S], the **cardinality** of stem:[S] is the number of
+elements contained in stem:[S]. We write the cardinality of stem:[S] as
+stem:[|S|].
+
+[stem]
+++++
+S = {a, b, c}\
+|S| = 3
+++++
+
+and
+
+[stem]
+++++
+S = {}\
+|S| = 0
+++++
+
+== Subset of a Set
+
+We have set stem:[E] and stem:[{1, 2}] is a **subset** (stem:[sub]) of stem:[E].
+We can also say that stem:[E] is a **superset** (stem:[sup]) of stem:[{1, 2}].
+The set stem:[{a, b}] is **not** a subset (latexmath:[\not \subset]) of stem:[E],
+however.
+
+[latexmath]
+++++
+E = \{1, 2, 3, 4\}\\
+\{1, 2\} \subset E\\
+E \supset \{1, 2\}\\
+\{a, b\} \not \subset E\\
+E \not \supset \{a, b\}
+++++
+
+Additionally, a set can be a **subset/superset or equal**:
+
+[stem]
+++++
+E sube E\
+{1, 2, 3, 4} sube E\
+{1, 2, 3, 4} supe E
+++++
+
+== Special Sets
+
+Commonly defined and used sets in mathematics:
+
+[stem]
+++++
+NN = {1, 2, 3, 4, ...} " natural numbers"\
+ZZ = {..., -1, 0, 1, 2, ...} " integers (no fractions)"\
+QQ = {..., -1, -(1/2), 0, 2/3, 1, ...} " rational numbers"\
+RR = " real numbers (non complex-numbers)"
+++++
+
+Note that infinite numbers are _irational numbers_ and are not part of
+stem:[QQ], such as stem:[pi !in QQ].
+
+Additonally:
+
+[stem]
+++++
+NN sub ZZ sub QQ sub RR
+++++

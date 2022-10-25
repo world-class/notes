@@ -31,7 +31,7 @@ case $1 in
             # Generate HTML file.
             gen_html ${FILE}
 
-            # Convert HTML to PNG.
+            # Convert HTML to PDF.
             PDF_OUT="cheatsheet_${OUT}.pdf"
             wkhtmltopdf \
                 --enable-local-file-access \
