@@ -96,7 +96,19 @@ false -> true = true \
 false -> false = true 
 ++++
 
-TODO: Clarify this.
+====
+NOTE: This can seem weird at first, this answer helps: https://math.stackexchange.com/a/100288
+
+> If you start out with a false premise, then, as far as implication is
+concerned, you are free to conclude anything. (This corresponds to the fact
+that, when stem:[p] is false, the implication stem:[p -> q] is true no matter
+what stem:[q] is.)
+
+> If you start out with a true premise, then the implication should be true only
+when the conclusion is also true. (This corresponds to the fact that, when
+stem:[p] is true, the truth of the implication is the same as the truth of
+stem:[q].)
+====
 
 === Bi-conditional: stem:[harr]
 
