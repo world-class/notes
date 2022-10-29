@@ -7,7 +7,8 @@ and understood. Not everything that is tested at the mid-terms or final exams is
 covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
-* TODO
+* [Set Theory](./cheatsheet_set_theory.pdf)
+* [Universal Set, Complement and Laws](./cheatsheet_universal_set_complement_laws.pdf)
 
 # Building
 
