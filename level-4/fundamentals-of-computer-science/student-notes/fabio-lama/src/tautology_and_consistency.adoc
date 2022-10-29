@@ -1,6 +1,0 @@
-= Cheatsheet - Tautology and Consistency
-Fabio Lama <fabio.lama@pm.me>
-:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
-:doctype: article
-:sectnums: 4
-:stem:

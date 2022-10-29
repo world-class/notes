@@ -146,3 +146,29 @@ For example:
 ++++
 p -> p ^^ not q vv s -= (p -> ((p ^^ (not q)) vv s))
 ++++
+
+== Descriptors
+
+A formula that's always true is called a **tautology**. A formula that is true
+for at least one scenario is **consistent**. A formula that's never true is
+**inconsistent**. A formula can also result in a **contradiction**.
+
+== Equivalances
+
+Formulas are equivalanent if they result in the same logical outcomes.
+
+For example (_De Morgan's Laws_):
+
+[stem]
+++++
+not (p ^^ q) -= not p vv not q\
+not (p vv q) -= not p ^^ not q
+++++
+
+By using the first formula, we can see:
+
+[stem]
+++++
+not (true ^^ true) = not true = false\
+not true vv not true = false vv false = false
+++++
