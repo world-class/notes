@@ -62,3 +62,24 @@ And "No Ps are Qs":
 ++++
 AA x (P(x) -> not Q(x))
 ++++
+
+== Quantifiers to Connectives
+
+stem:[EE x, P(x)] where stem:[x in {x_1, x_2, ..., x_n}] means that there exists
+some stem:[x] for which stem:[P(x)] is true.
+
+Denoted alternatively:
+
+[stem]
+++++
+EE x, P(x) -= P(x_1) vv P(x_2) vv ... vv P(x_3)
+++++
+
+We can also conclude:
+
+[stem]
+++++
+not EE x, P(x) -= not(P(x_1) vv P(x_2) vv ... vv P(x_3))\
+not EE x, P(x) -= not P(x_1) ^^ not P(x_2) ^^ ... ^^ not P(x_3)\
+not EE x, P(x) -= AA x, not P(x)
+++++
