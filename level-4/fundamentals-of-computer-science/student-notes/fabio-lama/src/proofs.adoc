@@ -43,7 +43,7 @@ statement is false. Proof by contradiction means we now have to arrive at a
 statement that contradicts our assumption (implying that the original statement is
 true).
 
-NOTE: The following example is from Quora, https://qr.ae/pvqpcu
+NOTE: The following example is from Quora: https://qr.ae/pvqpcu
 
 For example, consider the statement _"there is no largest number in the world"_.
 We now assume the opposite: _"stem:[N] is the largest number in the world"_.
@@ -80,3 +80,47 @@ by contradiction that:
 ++++
 
 Hence the original statement _"there is not largest number in the world"_ is correct.
+
+== Proof by Contrapositive (Indirect Proof)
+
+Lets say we want to prove the following statement:
+
+[stem]
+++++
+A -> B " is true"
+++++
+
+The **contrapositive** being:
+
+[stem]
+++++
+A -> B -= not B -> not A
+++++
+
+Now prove that stem:[not B -> not A] is true. Sometimes it's easier to prove the
+contrapositive of a statement.
+
+NOTE: The following example is from Stackexchange: https://math.stackexchange.com/q/88565
+
+For example:
+
+[stem]
+++++
+x^2 != x -> x != 1
+++++
+
+is equivalent to:
+
+[stem]
+++++
+x = 1 -> x^2 = x
+++++
+
+Respectively, we can prove:
+
+[stem]
+++++
+1^2 = 1
+++++
+
+Hence, the original statement is true.
