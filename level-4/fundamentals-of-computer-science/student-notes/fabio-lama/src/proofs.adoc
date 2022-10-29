@@ -100,7 +100,7 @@ A -> B -= not B -> not A
 Now prove that stem:[not B -> not A] is true. Sometimes it's easier to prove the
 contrapositive of a statement.
 
-NOTE: The following example is from Stackexchange: https://math.stackexchange.com/q/88565
+NOTE: The following example is from StackExchange: https://math.stackexchange.com/q/88565
 
 For example:
 

@@ -40,7 +40,7 @@ EE x " odd"(x)
 
 This means that there exists some stem:[x] that is odd.
 
-We denote the **univeral quantifier** as stem:[AA].
+We denote the **universal quantifier** as stem:[AA].
 
 [stem]
 ++++
