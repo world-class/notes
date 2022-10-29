@@ -109,10 +109,10 @@ QQ = {..., -1, -(1/2), 0, 2/3, 1, ...} " rational numbers"\
 RR = " real numbers (non complex-numbers)"
 ++++
 
-Note that infinite numbers are _irational numbers_ and are not part of
+Note that infinite numbers are _irrational numbers_ and are not part of
 stem:[QQ], such as stem:[pi !in QQ].
 
-Additonally:
+Additionally:
 
 [stem]
 ++++

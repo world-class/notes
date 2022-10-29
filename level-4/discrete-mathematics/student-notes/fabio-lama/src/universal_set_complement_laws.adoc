@@ -145,7 +145,7 @@ Unions and  intersections are distributive.
 [stem]
 ++++
 A uu (B nn C) = (A uu B) nn (A uu C)\
-A nn (B uu C) = (A nn B) uu (A nn C)\
+A nn (B uu C) = (A nn B) uu (A nn C)
 ++++
 
 == Set Identities
@@ -195,10 +195,8 @@ B = {4, 5, 6}\
 A nn B = phi " (disjoint)"
 ++++
 
-A **partition** is a subset of set stem:[A] such that all subsets of stem:[A]
-are disjoint and the union of all subsets is equal to stem:[A].
-
-For example:
+The set stem:[A] consists of subsets stem:[A_1, A_2] and stem:[A_3] such that those
+subsets are disjoint and the union of all those subsets is equal to stem:[A]:
 
 [stem]
 ++++
