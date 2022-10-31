@@ -1,6 +1,6 @@
 I took screenshots of the course videos from week 3.
 
-You can see these screenshots on: [my note.docx](https://qianbaitw-my.sharepoint.com/:w:/g/personal/bigbigfox_0ffice_tw/EYyC4aIX2hJKvv3PoodPHs4Bp_MThNttg62pmlHwVqBLfA?e=HQFtsL) 
+You can see these screenshots on: [docx](https://github.com/cyberfoxmeow/my-binary-assets-for-UOL-bsccs-online-courses/blob/main/dnw%20video%20screenshots/dnw%20video%20screenshots%20by%20cyberfox_meow.docx) . 
 
-If you have any problems or if the link is broken, please report an issue or contact https://github.com/hitfzyangdianshi 
+The screenshots are stored in a Word file in my own github repositories
 
