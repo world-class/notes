@@ -7,7 +7,11 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Intro
 
-A function maps one element from a set to a different set.
+A function maps one element from a set to another set (can also be the same
+set). Note that a function maps each element to exactly **one** other element.
+
+.Source: https://www.mathsisfun.com/sets/injective-surjective-bijective.html
+image::assets/injective_surjective_bijective.png[]
 
 For example, we have sets:
 
@@ -45,3 +49,6 @@ of all possible values when mapping elements from set stem:[A] to set stem:[B],
 respectively set stem:[R = {2, 4, 6}], is called the **range**. Hence stem:[R
 sube B].
 
+Additionally, we say that stem:[1] is the **pre-image** of stem:[2], which in
+return is the **image** of stem:[1]. The element stem:[2] is the pre-image of
+stem:[4], which in return is the image of stem:[2]. And so on.
