@@ -63,6 +63,54 @@ injective).
 and surjective).
 * **NOT a function**: stem:[A] has many stem:[B].
 
+=== Proofs
+
+We can prove whether a function is injective, surjective or bijective by solving
+an equation. Lets use the following function as an example:
+
+[stem]
+++++
+f(x) = 2x + 3
+++++
+
+Injective Proof::
+
+Let stem:[a, b in R], show that if stem:[a != b] then stem:[f(a) != f(b)]:
+
+[stem]
+++++
+a != b " " xx 2\
+2a != 2b " " + 3\
+2a + 3 != 2b + 3\
+=> f(a) != f(b)
+++++
+
+**Or:** Let stem:[a, b in R], show that if stem:[f(a) = f(b)] then stem:[a = b]:
+
+[stem]
+++++
+f(a) = f(b) =>\
+2a + 3 = 2b + 3 " " -3\
+2a = 2b " " -: 2\
+a = b
+++++
+
+Hence, function stem:[f] is injective.
+
+Surjective Proof::
+
+Let stem:[y in R], show that there exists stem:[x in R] such that stem:[f(x) = y]:
+
+[stem]
+++++
+f(x) = y =>\
+2x + 3 = y " " -3\
+2x = y -3 " " -: 2\
+x = (y -3)/2
+++++
+
+Hence, function stem:[f] is surjective.
+
 == Composition
 
 Function composition means we apply one function to the result of another.
@@ -108,4 +156,11 @@ For example, given stem:[f(x) = 2x], then stem:[f^(-1)(x) = x/2].
 ++++
 f(2) = 4\
 f^(-1)(4) = 2
+++++
+
+Additionally:
+
+[stem]
+++++
+(f @ f^(-1))(x) = (f^(-1) @ f)(x) = x
 ++++
