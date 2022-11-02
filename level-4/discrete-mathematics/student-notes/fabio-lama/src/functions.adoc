@@ -230,7 +230,8 @@ https://en.wikipedia.org/wiki/E_(mathematical_constant)["Euler number"]
 
 == Floor and Ceiling Functions
 
-We define the **floor** of value stem:[x] as (round **down** to the previous integer):
+We define the **floor** of the real number stem:[x] as (round **down** to the
+previous integer **or equal**):
 
 [stem]
 ++++
@@ -238,7 +239,8 @@ x = 3.6\
 |__x__| = 3
 ++++
 
-We define the **ceiling** of value stem:[x] as (round **up** to the next integer):
+We define the **ceiling** of real number stem:[x] as (round **up** to the next
+integer **or equal**):
 
 [stem]
 ++++
@@ -246,7 +248,16 @@ x = 3.6\
 |~x~| = 4
 ++++
 
-Additionally:
+Additionally (equal):
+
+[stem]
+++++
+y = 5\
+|__y__| = 5\
+|~y~| = 5
+++++
+
+and (negative numbers)
 
 [stem]
 ++++
@@ -255,11 +266,5 @@ x = -3.5\
 |~x~| = -3
 ++++
 
-and
-
-[stem]
-++++
-y = 5\
-|__y__| = 5\
-|~y~| = 5
-++++
+Both the floor and the ceiling function convert a real number to an integer,
+respectively stem:[RR -> ZZ].
