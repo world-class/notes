@@ -226,4 +226,40 @@ ln = log_e
 
 Where stem:[e] is the
 https://en.wikipedia.org/wiki/E_(mathematical_constant)["Euler number"]
-(respectively stem:[e = 2.71828]).
+(stem:[e = 2.71828]).
+
+== Floor and Ceiling Functions
+
+We define the **floor** of value stem:[x] as (round **down** to the previous integer):
+
+[stem]
+++++
+x = 3.6\
+|__x__| = 3
+++++
+
+We define the **ceiling** of value stem:[x] as (round **up** to the next integer):
+
+[stem]
+++++
+x = 3.6\
+|~x~| = 4
+++++
+
+Additionally:
+
+[stem]
+++++
+x = -3.5\
+|__x__| = -4\
+|~x~| = -3
+++++
+
+and
+
+[stem]
+++++
+y = 5\
+|__y__| = 5\
+|~y~| = 5
+++++

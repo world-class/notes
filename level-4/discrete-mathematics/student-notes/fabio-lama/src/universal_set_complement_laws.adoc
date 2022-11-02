@@ -158,10 +158,10 @@ A uu B = B uu A\
 (A uu B) uu C = A uu (B uu C)\
 A uu (B nn C) = (A uu B) nn (A uu C)\
 bar (A uu B) = bar A nn bar B\
-A uu phi = A\
+A uu O/ = A\
 A uu U = U\
 A uu bar A = U\
-bar U = phi\
+bar U = O/\
 bar bar A = A\
 A uu (A nn B) = A\
 A - B = A nn bar B
@@ -175,16 +175,16 @@ A nn B = B nn A\
 (A nn B) nn C = A nn (B nn C)\
 A nn (B uu C) = (A nn B) uu (A nn C)\
 bar (A nn B) = bar A uu bar B\
-A nn phi = phi\
+A nn O/ = O/\
 A nn U = A\
-A nn bar A = phi\
-bar phi = U\
+A nn bar A = O/\
+bar O/ = U\
 A nn (A uu B) = A
 ++++
 
 == Partition Set
 
-The two sets stem:[A] and stem:[B] are **disjoint** if and only if stem:[A nn B = phi].
+The two sets stem:[A] and stem:[B] are **disjoint** if and only if stem:[A nn B = O/].
 
 For example:
 
@@ -192,7 +192,7 @@ For example:
 ++++
 A = {1, 2, 3}\
 B = {4, 5, 6}\
-A nn B = phi " (disjoint)"
+A nn B = O/ " (disjoint)"
 ++++
 
 The set stem:[A] consists of subsets stem:[A_1, A_2] and stem:[A_3] such that those
@@ -204,7 +204,7 @@ A = {1, 2, 3, 4, 5, 6, 7, 8}\
 A_1 = {1, 2, 3}\
 A_2 = {4, 5, 6}\
 A_3 = {7, 8}\
-A_1 nn A_2 nn A_3 = phi\
+A_1 nn A_2 nn A_3 = O/\
 A = A_1 uu A_2 uu A_3
 ++++
 
