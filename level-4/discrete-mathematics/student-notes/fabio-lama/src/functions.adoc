@@ -64,3 +64,31 @@ image::assets/injective_surjective_bijective.jpeg[]
 * **Surjective**: _Every_ stem:[B] has one or many stem:[A] (not injective).
 * **Bijective**: _Every_ stem:[B] has exactly one stem:[A] (injective and surjective).
 * **NOT a function**: stem:[A] has many stem:[B].
+
+== Composition
+
+Function composition means we apply one function to the result of another.
+
+For example:
+
+[stem]
+++++
+(f @ g)(x) = f(g(x))
+++++
+
+which means that the result of stem:[g()] is passed on to stem:[f()]. If we
+define stem:[f(x) = 2x] and stem:[g(x) = x^2], then:
+
+[stem]
+++++
+(f @ g)(5) = f(g(x)) = 2xx(5^2) = 50
+++++
+
+Do note that function composition is not commutative, meaning stem:[f @ g != g
+@ f]:
+
+[stem]
+++++
+(f @ g)(5) = f(g(x)) = 2xx(5^2) = 50\
+(g @ f)(5) = g(f(x)) = (5xx2)^2 = 100
+++++
