@@ -165,7 +165,7 @@ Additionally:
 (f @ f^(-1))(x) = (f^(-1) @ f)(x) = x
 ++++
 
-== Expoential Functions
+== Exponential Functions
 
 Properties of exponential the function:
 
