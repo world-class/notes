@@ -50,10 +50,6 @@ Additionally, we say that stem:[1] is the **pre-image** of stem:[2], which in
 return is the **image** of stem:[1]. The element stem:[2] is the pre-image of
 stem:[4], which in return is the image of stem:[2]. And so on.
 
-== Plotting Functions
-
-TODO ...
-
 == Injective, Surjective & Bijective Functions
 
 .Source: https://twitter.com/JDHamkins/status/841318019397779456
@@ -61,8 +57,10 @@ image::assets/injective_surjective_bijective.jpeg[]
 
 * **General function**: stem:[A] has at most one stem:[B] (not injective, not surjective).
 * **Injective**: stem:[A] has exactly one stem:[B] (not surjective).
-* **Surjective**: _Every_ stem:[B] has one or many stem:[A] (not injective).
-* **Bijective**: _Every_ stem:[B] has exactly one stem:[A] (injective and surjective).
+* **Surjective**: _Each and every_ stem:[B] has one or many stem:[A] (not
+injective).
+* **Bijective**: _Each and every_ stem:[B] has exactly one stem:[A] (injective
+and surjective).
 * **NOT a function**: stem:[A] has many stem:[B].
 
 == Composition
@@ -91,4 +89,23 @@ Do note that function composition is not commutative, meaning stem:[f @ g != g
 ++++
 (f @ g)(5) = f(g(x)) = 2xx(5^2) = 50\
 (g @ f)(5) = g(f(x)) = (5xx2)^2 = 100
+++++
+
+== Inverse Function
+
+If function stem:[f] is bijective, then there exists an inverse function
+stem:[f^(-1)].
+
+[stem]
+++++
+f: A -> B\
+f^(-1): B -> A
+++++
+
+For example, given stem:[f(x) = 2x], then stem:[f^(-1)(x) = x/2].
+
+[stem]
+++++
+f(2) = 4\
+f^(-1)(4) = 2
 ++++
