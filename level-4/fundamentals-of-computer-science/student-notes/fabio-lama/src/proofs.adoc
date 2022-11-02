@@ -124,3 +124,10 @@ Respectively, we can prove:
 ++++
 
 Hence, the original statement is true.
+
+== Proof by Induction
+
+If stem:[P(0)], stem:[P(k)] and stem:[P(k+1)] is true, then stem:[P(n)] is
+always true. In other words, if we can prove that the proposition is true for
+the first step, the next step and the one after that, then we can conclude that
+proposition is always true.
