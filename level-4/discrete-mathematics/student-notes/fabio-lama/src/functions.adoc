@@ -109,7 +109,7 @@ f(x) = y =>\
 x = (y -3)/2
 ++++
 
-Hence, function stem:[f] is surjective.
+Hence, function stem:[f] is surjective (TODO: clarify this).
 
 == Composition
 
@@ -164,3 +164,66 @@ Additionally:
 ++++
 (f @ f^(-1))(x) = (f^(-1) @ f)(x) = x
 ++++
+
+== Expoential Functions
+
+Properties of exponential the function:
+
+[stem]
+++++
+y = f(x) = b^x " " (b > 0 " and " b != 1)
+++++
+
+* The domain is stem:[(-oo, oo)]
+* The range is stem:[(0, oo)]
+* It passes through the point stem:[(0, 1)]
+* If stem:[b > 1] then it's increasing on stem:[(-oo, oo)] ("exponential growth")
+* If stem:[b < 1] then it's decreasing on stem:[(-oo, oo)] ("exponential decay")
+
+
+== Logarithmic Functions
+
+The logarithmic function with base stem:[b] where stem:[b > 0] and stem:[b != 1]
+is defined as:
+
+[stem]
+++++
+log_b x = y " if and only if " x = b^y
+++++
+
+Respectively:
+
+[stem]
+++++
+x = b^y hArr log_b(x) = y
+++++
+
+For example:
+
+[stem]
+++++
+81 = 3^4 hArr log_3(81) = 4
+++++
+
+=== Laws
+
+[stem]
+++++
+log_b (m xx n) = log_b m + log_b n\
+log_b (m/n) = log_b m - log_b n\
+log_b (m^n) = n xx log_b (m)\
+log_b (1) = 0\
+log_b (b) = 1
+++++
+
+Conventionally, we also define **natural logarithms** as:
+
+[stem]
+++++
+log = log_(10)\
+ln = log_e
+++++
+
+Where stem:[e] is the
+https://en.wikipedia.org/wiki/E_(mathematical_constant)["Euler number"]
+(respectively stem:[e = 2.71828]).

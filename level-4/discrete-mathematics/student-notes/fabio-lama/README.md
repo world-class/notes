@@ -9,6 +9,7 @@ errors.
 
 * [Set Theory](./cheatsheet_set_theory.pdf)
 * [Universal Set, Complement and Laws](./cheatsheet_universal_set_complement_laws.pdf)
+* [Functions](./cheatsheet_functions.pdf)
 
 # Building
 
