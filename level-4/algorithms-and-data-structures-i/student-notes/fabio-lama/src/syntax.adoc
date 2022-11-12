@@ -1,0 +1,30 @@
+= Cheatsheet - Pseudocode Syntax
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1015 Computational Mathematics, started 04. April 2022
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+## Workflow Chart
+
+image::assets/morning_chart.png[]
+
+## Pseudocode Syntax
+
+. stem:[bb "function " "Morning"(tt "conscious, done, cereal")]
+. stem:["    " bb "if " tt "conscious" = "TRUE" bb " then"]
+. stem:["    " "    " tt "maths" larr 0]
+. stem:["    " "    " bb "for " 1 <= i <= tt "done" bb " do"]
+. stem:["    " "    " "    " tt "maths" larr tt "maths" + 1]
+. stem:["    " "    " bb "end for"]
+. stem:["    " "    " bb "while " tt "cereal" > 0 bb " do"]
+. stem:["    " "    " "    " tt "cereal" larr tt "cereal" - 1]
+. stem:["    " "    " bb "end while"]
+. stem:["    " bb "end if"]
+. stem:["    " bb "return " "ready!"]
+. stem:[bb "end function"]
+
+We can now call the stem:["Morning"] function:
+
+. stem:[tt "status" larr "Morning"("TRUE", 10, 5)]
