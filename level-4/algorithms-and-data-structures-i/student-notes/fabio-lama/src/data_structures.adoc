@@ -55,7 +55,8 @@ NOTE: In programming languages, the index usually starts at stem:[0],
 respectively the first element of the set is indexed at stem:[0], followed by
 stem:[1, 2, ...]. In our case, we start the index at stem:[1].
 
-To construct the new vector stem:[v] of size stem:[n]:
+Generally, we should construct a new vector stem:[v] of size stem:[n] explicitly
+with:
 
 [stem]
 ++++
@@ -105,9 +106,50 @@ q = [Z, A, B, C]\
 "EMPTY"[q] = "false"
 ++++
 
-To construct the new queue stem:[q]:
+Generally, we should construct a new queue stem:[q] explicitly with:
 
 [stem]
 ++++
 "new Queue " q
+++++
+
+== Stack
+
+A stack is like a queue, but elements are processed in the "last in first out"
+(LIFO) order.
+
+=== Operations
+
+* stem:["PUSH"\[o,s\]]: Adds element stem:[o] to the stack.
+* stem:["TOP"\[s\]]: Returns the last inserted element from the stack.
+* stem:["POP"\[s\]]: Returns the last inserted element from the stack and
+removes that element from the stack.
+* stem:["EMPTY"\[s\]]: Returns _true_ if the stack is empty or _false_ if
+otherwise.
+
+For example, given stack:
+
+[stem]
+++++
+s = [A, B, C]
+++++
+
+Then:
+
+[stem]
+++++
+"PUSH"[Z,s]\
+s = [A, B, C, Z]\
+"TOP"[s] = Z\
+s = [A, B, C, Z]\
+"POP"[s] = Z\
+s = [A, B, C]\
+"EMPTY"[s] = "false"
+++++
+
+Generally, we should construct a new stack stem:[s] explicitly with:
+
+[stem]
+++++
+"new Stack " s
 ++++
