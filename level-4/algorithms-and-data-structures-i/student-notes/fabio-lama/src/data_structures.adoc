@@ -6,16 +6,15 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
-
 == Vector
 
 A **vector** is a sequentially orderer collection of elements (like an ordered
-set). For example, the following vector stem:[v] is of size three and
+set). For example, the following vector stem:[v] is of size _three_ and
 contains the elements stem:[A], stem:[B] and stem:[C]:
 
 [stem]
 ++++
-v = [A, B, C]
+"new Vector " v(3) = (A, B, C)
 ++++
 
 The size of the vector is **fixed**, meaning one cannot add or remove items from
@@ -38,7 +37,7 @@ For example, given vector:
 
 [stem]
 ++++
-v = [A, B, C, D]
+"new Vector " v(4) = (A, B, C, D)
 ++++
 
 Then:
@@ -48,20 +47,13 @@ Then:
 "LENGTH"[v] = 4\
 v[2] = B\
 v[2] larr Z\
-v[2] = Z
+v[2] = Z\
+v = (A, Z, C, D)
 ++++
 
 NOTE: In programming languages, the index usually starts at stem:[0],
 respectively the first element of the set is indexed at stem:[0], followed by
 stem:[1, 2, ...]. In our case, we start the index at stem:[1].
-
-Generally, we should construct a new vector stem:[v] of size stem:[n] explicitly
-with:
-
-[stem]
-++++
-"new Vector " v(n)
-++++
 
 == Queue
 
@@ -72,8 +64,7 @@ get added to the "tail" and come out at the "head".
 
 [stem]
 ++++
-q = [A, B, C]\
-"(tail) " D -> [A, B, C] -> "(head)"
+"new Queue " q = (A, B, C)
 ++++
 
 === Operations
@@ -90,7 +81,7 @@ For example, given queue:
 
 [stem]
 ++++
-q = [A, B, C, D]
+"new Queue " q = (A, B, C, D)
 ++++
 
 Then:
@@ -98,19 +89,12 @@ Then:
 [stem]
 ++++
 "HEAD"[q] = D\
-q = [A, B, C, D]\
+q = (A, B, C, D)\
 "DEQUEUE"[q] = D\
-q = [A, B, C]\
+q = (A, B, C)\
 "ENQUEUE"[Z, q]\
-q = [Z, A, B, C]\
+q = (Z, A, B, C)\
 "EMPTY"[q] = "false"
-++++
-
-Generally, we should construct a new queue stem:[q] explicitly with:
-
-[stem]
-++++
-"new Queue " q
 ++++
 
 == Stack
@@ -131,7 +115,7 @@ For example, given stack:
 
 [stem]
 ++++
-s = [A, B, C]
+"new Stack " s = (A, B, C)
 ++++
 
 Then:
@@ -139,17 +123,10 @@ Then:
 [stem]
 ++++
 "PUSH"[Z,s]\
-s = [A, B, C, Z]\
+s = (A, B, C, Z)\
 "TOP"[s] = Z\
-s = [A, B, C, Z]\
+s = (A, B, C, Z)\
 "POP"[s] = Z\
-s = [A, B, C]\
+s = (A, B, C)\
 "EMPTY"[s] = "false"
-++++
-
-Generally, we should construct a new stack stem:[s] explicitly with:
-
-[stem]
-++++
-"new Stack " s
 ++++
