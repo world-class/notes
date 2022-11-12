@@ -6,11 +6,18 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
-## Workflow Chart
+== Intro
 
-image::assets/morning_chart.png[]
+**Pseudocode** describes the logical steps of an algorithm or process is
+(mostly) plain language.
 
-## Pseudocode Syntax
+== General Syntax (Example)
+
+=== Workflow Chart
+
+image::assets/morning_chart.png[width=700]
+
+=== Pseudocode Syntax
 
 . stem:[bb "function " "Morning"(tt "conscious, done, cereal")]
 . stem:["    " bb "if " tt "conscious" = "TRUE" bb " then"]
@@ -28,3 +35,53 @@ image::assets/morning_chart.png[]
 We can now call the stem:["Morning"] function:
 
 . stem:[tt "status" larr "Morning"("TRUE", 10, 5)]
+
+== Data Structures
+
+=== Vectors
+
+A **vector** is a sequentially orderer collection of elements (like an ordered
+set). For example, the following vector stem:[v] is of size three and
+contains the elements stem:[A], stem:[B] and stem:[C]:
+
+[stem]
+++++
+v = [A, B, C]
+++++
+
+The size of the vector is **fixed**, meaning one cannot add or remove items from
+it (only replace individual items).
+
+NOTE: In some programming languages, "vector" refers to a _growable_ collection
+of data, which is very different and not the case here.
+
+==== Operations
+
+We can do operations on vectors:
+
+* stem:["LENGTH"\[v\]]: Returns the size of vector stem:[v].
+* stem:[v\[k\]]: Returns the element of the vector stem:[v] at index
+stem:[k].
+* stem:[v\[k\] larr o]: Stores the element stem:[o] into the vector stem:[v]
+at index stem:[k].
+
+For example, given vector:
+
+[stem]
+++++
+v = [A, B, C, D]
+++++
+
+Then:
+
+[stem]
+++++
+"LENGTH"[v] = 4\
+v[2] = B\
+v[2] larr Z\
+v[2] = Z
+++++
+
+NOTE: In programming languages, the index usually starts at stem:[0],
+respectively the first element of the set is indexed at stem:[0]. In our case,
+we start the index at stem:[1].
