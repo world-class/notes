@@ -13,11 +13,7 @@ Fabio Lama <fabio.lama@pm.me>
 
 == General Syntax (Example)
 
-=== Workflow Chart
-
-image::assets/morning_chart.png[width=700]
-
-=== Pseudocode Syntax
+image::assets/morning_chart.png[width=550, float="right"]
 
 . stem:[bb "function " "Morning"(tt "conscious, done, cereal")]
 . stem:["    " bb "if " tt "conscious" = "TRUE" bb " then"]
@@ -38,7 +34,7 @@ We can now call the stem:["Morning"] function:
 
 == Data Structures
 
-=== Vectors
+=== Vector
 
 A **vector** is a sequentially orderer collection of elements (like an ordered
 set). For example, the following vector stem:[v] is of size three and
@@ -83,5 +79,62 @@ v[2] = Z
 ++++
 
 NOTE: In programming languages, the index usually starts at stem:[0],
-respectively the first element of the set is indexed at stem:[0]. In our case,
-we start the index at stem:[1].
+respectively the first element of the set is indexed at stem:[0], followed by
+stem:[1, 2, ...]. In our case, we start the index at stem:[1].
+
+To construct the new vector stem:[v] of size stem:[n]:
+
+[stem]
+++++
+"new Vector " v(n)
+++++
+
+=== Queue
+
+A **queue** is a data structure where elements need to "wait" before they get
+processed. Elements the get processed in the order the elements were added,
+respectively "first in first out" (FIFO). Queues are not fixed sized. Elements
+get added to the "tail" and come out at the "head".
+
+[stem]
+++++
+q = [A, B, C]\
+"(tail) " D -> [A, B, C] -> "(head)"
+++++
+
+==== Operations
+
+We can do operations on queues:
+
+* stem:["HEAD"\[q\]]: Returns the element at the head of the queue.
+* stem:["DEQUEUE"\[q\]]: Returns the element at the head of the queue and removes
+that element from the queue.
+* stem:["ENQUEUE"\[o, q\]]: Adds the element stem:[o] to the tail of the queue.
+* stem:["EMPTY"\[q\]]: Returns _true_ if the queue is empty or _false_ if otherwise.
+
+For example, given queue:
+
+[stem]
+++++
+q = [A, B, C, D]
+++++
+
+Then:
+
+[stem]
+++++
+"HEAD"[q] = D\
+q = [A, B, C, D]\
+"DEQUEUE"[q] = D\
+q = [A, B, C]\
+"ENQUEUE"[Z, q]\
+q = [Z, A, B, C]\
+"EMPTY"[q] = "false"
+++++
+
+To construct the new queue stem:[q]:
+
+[stem]
+++++
+"new Queue " q
+++++
