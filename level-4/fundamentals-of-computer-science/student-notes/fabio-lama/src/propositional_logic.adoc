@@ -1,4 +1,4 @@
-= Cheatsheet - Propositional Logic
+= Cheatsheet - Propositional & First-order Logic
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
 :doctype: article

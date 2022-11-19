@@ -7,8 +7,8 @@ and understood. Not everything that is tested at the mid-terms or final exams is
 covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
-* [Propositional Logic](./cheatsheet_propositional_logic.pdf)
-* [First-order Logic](./cheatsheet_first-order_logic.pdf)
+* [Propositional & First-order Logic](./cheatsheet_propositional_logic.pdf)
+* [Laws of Propositional Logic](./cheatsheet_laws_of_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
 
 # Building
