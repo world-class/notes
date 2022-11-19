@@ -262,3 +262,27 @@ not EE x, P(x) -= not(P(x_1) vv P(x_2) vv ... vv P(x_3))\
 not EE x, P(x) -= not P(x_1) ^^ not P(x_2) ^^ ... ^^ not P(x_3)\
 not EE x, P(x) -= AA x, not P(x)
 ++++
+
+== Laws of Propositional Logic
+
+== Logic 1
+
+|===
+||**Disjunction**|**Conjunction**
+|idempotent laws|stem:[p vv p -= p]|stem:[p ^^ p -= p]
+|commutative laws|stem:[p vv q -= q vv p]|stem:[p ^^ q -= q ^^ p]
+|associative laws|stem:[(p vv q) vv r -= p vv (q vv r)]|stem:[(p ^^ q) ^^ r -= p ^^ (q ^^ r)]
+|distributive laws|stem:[p vv (q ^^ r) -= (p vv q) ^^ (p vv r)]|stem:[p ^^ (q vv r) -= (p ^^ q) vv (p ^^ r)]
+|identity laws|stem:[p vv F -= p]|stem:[p ^^ T -= p]
+|domination laws|stem:[p vv T -= T]|stem:[p ^^ F -= F]
+|===
+
+== Logic 2
+
+|===
+||**Disjunction**|**Conjunction**
+|De Morgan's laws|stem:[not (p vv q) -= not p ^^ not q]|stem:[not (p ^^ q) -= not p vv not q]
+|absorption laws|stem:[p vv (p ^^ q) -= p]|stem:[p ^^ (p vv q) -= p]
+|negation laws|stem:[p vv not p -= T]|stem:[p ^^ not p -= F]
+|double negation law|stem:[not not p -= p]|
+|===

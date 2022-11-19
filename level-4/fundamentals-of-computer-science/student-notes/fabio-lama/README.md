@@ -8,7 +8,6 @@ covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
 * [Propositional & First-order Logic](./cheatsheet_propositional_logic.pdf)
-* [Laws of Propositional Logic](./cheatsheet_laws_of_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
 
 # Building
