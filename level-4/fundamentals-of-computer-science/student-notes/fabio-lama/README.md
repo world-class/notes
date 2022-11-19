@@ -9,6 +9,7 @@ errors.
 
 * [Propositional & First-order Logic](./cheatsheet_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
+* [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in my _Computational Mathematics_ module notes).
 
 # Building
 
