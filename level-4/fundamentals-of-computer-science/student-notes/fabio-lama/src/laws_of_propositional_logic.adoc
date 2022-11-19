@@ -1,0 +1,16 @@
+= Cheatsheet - Laws of Propositional Logic
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+|===
+||**Disjunction**|**Conjunction**
+|idempotent laws|stem:[p vv p -= p]|stem:[p ^^ p -= p]
+|commutative laws|stem:[p vv q -= q vv p]|stem:[p ^^ q -= q ^^ p]
+|associative laws|stem:[(p vv q) vv r -= p vv (q vv r)]|stem:[(p ^^ q) ^^ r -= p ^^ (q ^^ r)]
+|distributive laws|stem:[p vv (q ^^ r) -= (p vv q) ^^ (p vv r)]|stem:[p ^^ (q vv r) -= (p ^^ q) vv (p ^^ r)]
+|identity laws|stem:[p vv F -= p]|stem:[p ^^ T -= p]
+|domination laws|stem:[p vv T -= T]|stem:[p ^^ F -= F]
+|===
