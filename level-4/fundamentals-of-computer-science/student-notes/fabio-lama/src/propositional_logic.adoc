@@ -110,6 +110,20 @@ stem:[p] is true, the truth of the implication is the same as the truth of
 stem:[q].)
 ====
 
+Additionally, let stem:[p] and stem:[q] be propositions and stem:[A] the conditional statement:
+
+[stem]
+++++
+p -> q
+++++
+
+then:
+
+* stem:[p] is called the **hypothesis** (or antecedent or premise) and stem:[q]
+is called the **conclusion** (or consequence).
+* The proposition stem:[q -> p] is the **converse** of stem:[A].
+* The proposition stem:[not q -> not p] is the **contrapositive** of stem:[A].
+
 === Bi-conditional: stem:[harr]
 
 [stem]
@@ -165,10 +179,10 @@ not (p ^^ q) -= not p vv not q\
 not (p vv q) -= not p ^^ not q
 ++++
 
-By using the first formula, we can see:
+For example:
 
 [stem]
 ++++
-not (true ^^ true) = not true = false\
-not true vv not true = false vv false = false
+not (true ^^ true) -= false vv false -= false\
+not true vv not true -= not (true ^^ true) = not true = false
 ++++
