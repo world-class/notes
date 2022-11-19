@@ -10,7 +10,7 @@ errors.
 * [Set Theory](./cheatsheet_set_theory.pdf)
 * [Universal Set, Complement and Laws](./cheatsheet_universal_set_complement_laws.pdf)
 * [Functions](./cheatsheet_functions.pdf)
-* [Propositional Logic](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_propositional_logic.pdf) (covered in my _Fundamentals of Computer Science_ module notes)
+* [Propositional & First-order Logic](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_propositional_logic.pdf) (covered in my _Fundamentals of Computer Science_ module notes)
 
 # Building
 
