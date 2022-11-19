@@ -7,8 +7,28 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Intro
 
+**Predicates** describe properties of objects.
+
+For example:
+
+[stem]
+++++
+"odd"(3)
+++++
+
+stem:["odd"(3)] means stem:[3] is an odd number. stem:["odd"] is a predicate,
+stem:[3] is an object. Predicates take arguments and become **propositions**.
 A proposition is a statement that can be either _true_ or _false_. It must be
 one or the other, and it cannot be both.
+
+Connectives can be applied:
+
+[stem]
+++++
+"odd"(3) ^^ "prime"(3)
+++++
+
+This means that stem:[3] is odd but also prime.
 
 == Syntax
 
@@ -187,29 +207,6 @@ not (true ^^ true) -= false vv false -= false\
 not true vv not true -= not (true ^^ true) = not true = false
 ++++
 
-== Predicates
-
-**Predicates** describe properties of objects.
-
-For example:
-
-[stem]
-++++
-"odd"(3)
-++++
-
-stem:["odd"(3)] means stem:[3] is an odd number. stem:["odd"] is a predicate,
-stem:[3] is an object. Predicates take arguments and become **propositions**.
-
-Connectives can be applied:
-
-[stem]
-++++
-"odd"(3) ^^ "prime"(3)
-++++
-
-This means that stem:[3] is odd but also prime.
-
 == Quantifiers
 
 We use the symbol stem:[EE] to indicate the existence of something
@@ -245,7 +242,7 @@ And "No Ps are Qs":
 AA x (P(x) -> not Q(x))
 ++++
 
-== Quantifiers to Connectives
+=== Quantifiers to Connectives
 
 stem:[EE x, P(x)] where stem:[x in {x_1, x_2, ..., x_n}] means that there exists
 some stem:[x] for which stem:[P(x)] is true.
