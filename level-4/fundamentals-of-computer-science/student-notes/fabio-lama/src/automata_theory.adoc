@@ -61,7 +61,7 @@ An automaton stem:[M] is a 5-tuple (stem:[Q, Sigma, delta, q_0, F]) where:
 * stem:[F sube Q] is the set of **accepted states**.
 
 .Note: Bottom right is the transition table. D is the only accepted state.
-image::assets/automaton_example.png[]
+image::assets/automaton_example.png[width=550, align="center"]
 
 For example, based on the automaton in the picture above:
 
