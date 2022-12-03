@@ -5,7 +5,7 @@ Fabio Lama <fabio.lama@pm.me>
 :sectnums: 4
 :stem:
 
-== Finite Automata
+== Basics of (finite) Automata
 
 An **alphabet**, stem:[Sigma], is a non-empty set of symbols.
 
@@ -44,3 +44,27 @@ Sigma^2 = {00, 01, 10, 11}
 ++++
 
 Note that the size of stem:[Sigma^k] is denoted as stem:[|Sigma|^k].
+
+== Automaton
+
+A **finite automaton** is a simple mathematical machine; it is a representation
+of how computations are performed with _limited memory_ space. It is a model of
+computation, which consists of a set of states that are connected by
+transitions. It has an input and it has an output.
+
+An automaton stem:[M] is a 5-tuple (stem:[Q, Sigma, delta, q_0, F]) where:
+
+* stem:[Q] is a finite set called the **states**.
+* stem:[Sigma] is a finite set called **the alphabet**.
+* stem:[delta: Q xx E -> Q] is the **transition function**.
+* stem:[q_0 in Q] is the **start state**.
+* stem:[F sube Q] is the set of **accepted states**.
+
+.Note: Bottom right is the transition table. D is the only accepted state.
+image::assets/automaton_example.png[]
+
+For example, based on the automaton in the picture above:
+
+* Input stem:[0010] results in state stem:[D]; the input is **accepted** (stem:[D in F]).
+* Input stem:[0011] results in state stem:[A]; the input is **rejected**
+(stem:[A !in F]).
