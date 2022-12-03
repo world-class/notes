@@ -1,0 +1,46 @@
+= Cheatsheet - Automata Theory
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Finite Automata
+
+An **alphabet**, stem:[Sigma], is a non-empty set of symbols.
+
+[stem]
+++++
+Sigma = {0, 1} " binary alphabet"\
+Sigma = {a, b, ..., z} " collection of lowercase letters"
+++++
+
+A **string** or word is a finite sequence of letters drawn from an alphabet.
+**Empty strings**, stem:[epsilon], are strings with zero occurrences of letters.
+Empty strings can be from any alphabet.
+
+The **length** of a string stem:[x] is denoted as stem:[|x|]:
+
+[stem]
+++++
+x = '"hello"'\
+|x| = 5
+++++
+
+Other string related notations:
+
+* The set of **all strings** composed from the letters in stem:[Sigma] is denoted
+by stem:[Sigma^**].
+* The set of **all non-empty strings** composed from letters
+in stem:[Sigma] is denoted by stem:[Sigma^+]
+* The set of **all strings of length stem:[k]** composed from letters in stem:[Sigma] is denoted by stem:[Sigma^k].
+
+[stem]
+++++
+Sigma = {0, 1}\
+Sigma^** = {epsilon, 0, 1, 00, 01, 10, 11, ...}\
+Sigma^+ = {0, 1, 00, 01, 10, 11, ...}\
+Sigma^2 = {00, 01, 10, 11}
+++++
+
+Note that the size of stem:[Sigma^k] is denoted as stem:[|Sigma|^k].
