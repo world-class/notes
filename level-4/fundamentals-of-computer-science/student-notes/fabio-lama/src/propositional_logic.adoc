@@ -1,4 +1,4 @@
-= Cheatsheet - Propositional & First-order Logic
+= Cheatsheet - Predicate & Propositional Logic (First-order Logic)
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
 :doctype: article
@@ -263,9 +263,17 @@ not EE x, P(x) -= not P(x_1) ^^ not P(x_2) ^^ ... ^^ not P(x_3)\
 not EE x, P(x) -= AA x, not P(x)
 ++++
 
+=== De Morgan's Law for Negation
+
+[stem]
+++++
+not AA x P(x) -= EE x not P(x)\
+not EE P(x) -= AA x not P(x)
+++++
+
 == Laws of Propositional Logic
 
-== Logic 1
+=== Logic 1
 
 |===
 ||**Disjunction**|**Conjunction**
@@ -277,7 +285,7 @@ not EE x, P(x) -= AA x, not P(x)
 |domination laws|stem:[p vv T -= T]|stem:[p ^^ F -= F]
 |===
 
-== Logic 2
+=== Logic 2
 
 |===
 ||**Disjunction**|**Conjunction**
