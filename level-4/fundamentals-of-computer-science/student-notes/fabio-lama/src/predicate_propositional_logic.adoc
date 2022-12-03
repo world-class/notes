@@ -263,7 +263,7 @@ not EE x, P(x) -= not P(x_1) ^^ not P(x_2) ^^ ... ^^ not P(x_3)\
 not EE x, P(x) -= AA x, not P(x)
 ++++
 
-=== De Morgan's Law for Negation
+==== De Morgan's Law for Negation
 
 [stem]
 ++++

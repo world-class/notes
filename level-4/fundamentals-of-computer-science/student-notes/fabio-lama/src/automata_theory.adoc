@@ -68,3 +68,14 @@ For example, based on the automaton in the picture above:
 * Input stem:[0010] results in state stem:[D]; the input is **accepted** (stem:[D in F]).
 * Input stem:[0011] results in state stem:[A]; the input is **rejected**
 (stem:[A !in F]).
+
+=== Language of Automaton
+
+The set of all strings accepted by an automaton is called the **language** of
+that automaton. If stem:[M] is an automaton on alphabet stem:[Sigma], then
+stem:[cc L(M)] is the language of stem:[M]:
+
+[stem]
+++++
+cc L(M) = {x in Sigma^** | M " accepts " x}
+++++
