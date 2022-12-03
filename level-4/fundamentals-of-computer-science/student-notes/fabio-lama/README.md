@@ -10,6 +10,7 @@ errors.
 * [(First-order) Predicate & Propositional Logic](./cheatsheet_predicate_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
 * [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in the Authors _Computational Mathematics_ module notes).
+* [Automata Theory](./cheatsheet_automata_theory.pdf)
 
 # Building
 
