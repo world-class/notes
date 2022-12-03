@@ -7,7 +7,7 @@ and understood. Not everything that is tested at the mid-terms or final exams is
 covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
-* [Propositional & First-order Logic](./cheatsheet_propositional_logic.pdf)
+* [(First-order) Predicate & Propositional Logic](./cheatsheet_predicate_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
 * [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in the Authors _Computational Mathematics_ module notes).
 
