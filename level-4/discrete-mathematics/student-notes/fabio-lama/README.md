@@ -15,6 +15,7 @@ errors.
 	* This might also be useful:
 	[Proofs](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_proofs.pdf)
 	(covered in the Authors _Fundamentals of Computer Science_ module notes)
+* [Logic Gates](./cheatsheet_logic_gates.pdf)
 
 # Building
 
