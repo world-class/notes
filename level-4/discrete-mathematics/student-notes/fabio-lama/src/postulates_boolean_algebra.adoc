@@ -1,0 +1,38 @@
+= Cheatsheet - Postulates of Boolean Algebra
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Boolean algebra describes the field of study where the values of variables are
+_true_ or _false_. The following operators are used:
+
+* **AND**: represented as stem:[x.y, x nn y] or stem:[x ^^ y]
+* **OR**: represented as stem:[x + y, x uu y] or stem:[x vv y]
+* **NOT**: represented as stem:[x', bar x] or stem:[not x]
+
+Order of precedence: stem:["NOT" > "AND" > "OR"]
+
+=== Axioms
+
+The following axioms must be satisfied by any boolean algebra:
+
+* **closure**: any result of logical operations belongs to the set stem:[{0, 1}]
+(_true_ or _false_).
+* **identity**: elements have an identity for the applied operator:
+	* stem:[x + 0 = x]
+	* stem:[x . 1 = x]
+* **commutativity**: the order of the applied operators does not matter.
+	* stem:[x + y = y + x]
+	* stem:[x . y = y . x]
+* **distributivity**:
+	* stem:[x(y + z) = (x . y) + (x . z)]
+	* stem:[x + (y . z) = (x + y) . (x + z)]
+* **complements**: exist for all the elements
+	* stem:[x + x' = 1]
+	* stem:[x. x' = 0]
+* **distinct elements**:
+	* stem:[0 != 1]
