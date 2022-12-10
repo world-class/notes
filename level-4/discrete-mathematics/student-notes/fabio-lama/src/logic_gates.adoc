@@ -50,7 +50,7 @@ For example, an **half adder**:
 "carry" = xy
 ++++
 
-image::assets/half_adder.png[align=center, width=250]
+image::assets/half_adder.png[align=center, width=200]
 
 And a **full adder**:
 
@@ -60,7 +60,7 @@ And a **full adder**:
 "carry out" = xy + "carry in" . (x o+ y)
 ++++
 
-image::assets/full_adder.png[align=center, width=450]
+image::assets/full_adder.png[align=center, width=400]
 
 === Simplification of Circuits (example)
 
