@@ -50,7 +50,6 @@ For example, an **half adder**:
 "carry" = xy
 ++++
 
-.An half adder
 image::assets/half_adder.png[align=center, width=250]
 
 And a **full adder**:
@@ -61,5 +60,43 @@ And a **full adder**:
 "carry out" = xy + "carry in" . (x o+ y)
 ++++
 
-.An half adder
 image::assets/full_adder.png[align=center, width=450]
+
+=== Simplification of Circuits (example)
+
+Let's consider the following boolean expression:
+
+[stem]
+++++
+E = ((xy)'z)'((x' + y)(y' + z'))'
+++++
+
+Using the **De Morgan's laws** and **involution**:
+
+[stem]
+++++
+E = ((xy)'' + z')((x' + z)' + (y' + z')')\
+= (xy + z')((x'' . z') + y'' . z'')\
+= (xy + z')(xz' + yz)
+++++
+
+Using the **distributive laws**:
+
+[stem]
+++++
+E = xyxz' + xyyz + z'xz' + z'yz
+++++
+
+Using **commutative, idempotent** and **complement** laws:
+
+[stem]
+++++
+E = xyz' + xyz + xz' + 0
+++++
+
+Using **absorption** law:
+
+[stem]
+++++
+E = xyz + xz'
+++++
