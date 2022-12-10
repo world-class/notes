@@ -118,3 +118,39 @@ For example:
 (a + 0) + (1 . bar a) = 1
 ++++
 
+== Boolean Functions
+
+=== Standardized Forms of a Functions
+
+The two most common standardized forms are **sum-of-products** and
+**product-of-sums**.
+
+The **sum-of-products form**:
+* stem:[f(x, y, z) = xy + xz + yz]
+
+The **product-of-sums form**:
+* stem:[f(x, y, z) = (x + y)(x + z)(y + z)]
+
+For example:
+
+[stem]
+++++
+f(x, y) = x'y + xy' + xy
+++++
+
+=== Useful Functions
+
+The **exclusive-or** function:
+
+[stem]
+++++
+x o+ y = x'y + xy'
+++++
+
+The **implies** function:
+
+[stem]
+++++
+x -> y = x' + y
+++++
+
