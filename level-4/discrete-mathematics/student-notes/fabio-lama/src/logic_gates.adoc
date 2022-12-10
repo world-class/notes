@@ -68,7 +68,7 @@ Let's consider the following boolean expression:
 
 [stem]
 ++++
-E = ((xy)'z)'((x' + y)(y' + z'))'
+E = ((xy)'z)'((x' + z)(y' + z'))'
 ++++
 
 Using the **De Morgan's laws** and **involution**:
