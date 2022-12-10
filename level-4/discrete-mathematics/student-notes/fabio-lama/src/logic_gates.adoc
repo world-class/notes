@@ -42,9 +42,6 @@ A circuit that's used for the **addition** of inputs is called an **adder**. A
 **half adder** takes two inputs and generates a **carry** and a **sum**. A
 **full adder** takes three inputs and generates a carry and a sum.
 
-.An half adder
-image::assets/half_adder.png[float=right, width=250]
-
 For example, an **half adder**:
 
 [stem]
@@ -54,7 +51,7 @@ For example, an **half adder**:
 ++++
 
 .An half adder
-image::assets/full_adder.png[float=left, width=450]
+image::assets/half_adder.png[align=center, width=250]
 
 And a **full adder**:
 
@@ -63,3 +60,6 @@ And a **full adder**:
 "sum" = x o+ y " carry in"\
 "carry out" = xy + "carry in" . (x o+ y)
 ++++
+
+.An half adder
+image::assets/full_adder.png[align=center, width=450]
