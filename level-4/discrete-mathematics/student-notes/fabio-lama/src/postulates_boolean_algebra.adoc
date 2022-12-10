@@ -45,14 +45,16 @@ Theorem 1: Idempotent Laws
 
 [stem]
 ++++
-x + x = x, x. x = x
+x + x = x\
+x. x = x
 ++++
 
 Theorem 2: Tautology and Contradiction
 
 [stem]
 ++++
-x + 1 = 1, x. 0 = 0
+x + 1 = 1\
+x . 0 = 0
 ++++
 
 Theorem 3: Involution
