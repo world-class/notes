@@ -1,0 +1,48 @@
+= Cheatsheet - Formal Languages
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Regular Operations
+
+Let stem:[L_1] and stem:[L_2] be languages. The following operations are regular operations:
+
+* Union: stem:[L_1 uu L_2 = {x|x in L_1 " or " x in L_2}]
+* Concatenation: stem:[L_1 @ L_2 = {xy|x in L_1 " and " y in L_2}]
+* Star: stem:[L_1^** = {x_1 x_2 ... x_m | m >= 0, "each " x_1 in L_1}]
+
+For example:
+
+[stem]
+++++
+A = {a, b, c}\
+B = {x, y, z}\
+A uu B = {a, b, c, x, y, z}\
+A @ B = {ax, ay, az, bx, by, bz, cx, cy, cz}\
+A^** = {epsilon, a, b, c, aa, ab, ac, ba, b b, bc, ca, ...}
+++++
+
+Where stem:[epsilon] means "none".
+
+=== Properties
+
+Union:
+
+[stem]
+++++
+A uu B = B uu A " (commutative)"\
+(A uu B) uu C = A uu (B uu C) " (associative)"\
+A uu O/ = A\
+A uu A = A " (idempotent)"
+++++
+
+Concatenation:
+
+[stem]
+++++
+(A @ B) @ C = A @ (B @ C) " (associative)"\
+A @ epsilon = epsilon @ A = A\
+A @ O/ = O/
+++++
