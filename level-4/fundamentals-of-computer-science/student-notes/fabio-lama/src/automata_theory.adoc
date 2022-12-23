@@ -80,6 +80,12 @@ stem:[cc L(M)] is the language of stem:[M]:
 cc L(M) = {x in Sigma^** | M " accepts " x}
 ++++
 
-== Deterministic Finite Automata (DFA) & Nondeterministic Finite Automata (NFA)
+== Determinism
 
-Asdf
+The difference between Deterministic Finite Automata (DFA) and Nondeterministic
+Finite Automata (NFA) is that DFA has exactly one transition and there is a
+unique starting state, which is not the case in NFA (hence,
+**nondeterministic**). Generally, in NFA there are many choices at one
+particular point and an input is accepted if at least one sequence of choices
+leads to an accepting state.
+
