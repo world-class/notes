@@ -28,7 +28,7 @@ Where stem:[epsilon] means "none".
 
 === Properties
 
-Union:
+==== Union
 
 [stem]
 ++++
@@ -38,11 +38,32 @@ A uu O/ = A\
 A uu A = A " (idempotent)"
 ++++
 
-Concatenation:
+==== Concatenation
 
 [stem]
 ++++
 (A @ B) @ C = A @ (B @ C) " (associative)"\
 A @ epsilon = epsilon @ A = A\
 A @ O/ = O/
+++++
+
+_Note that concatenation is not commutative_.
+
+==== Concatenation and Union
+
+[stem]
+++++
+(A uu B) @ C = (A @ C) uu (B @ C)\
+A @ (B uu C) = (A @ B) uu (A @ C)
+++++
+
+==== Kleene Star
+
+[stem]
+++++
+O/^** = {epsilon}\
+epsilon^** = epsilon\
+(A^**)^** = A^**\
+A^** @ A^** = A^**\
+(A uu B)^** = (A^** B^**)^**
 ++++
