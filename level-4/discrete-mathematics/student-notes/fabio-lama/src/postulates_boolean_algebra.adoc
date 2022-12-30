@@ -127,11 +127,8 @@ For example:
 The two most common standardized forms are **sum-of-products** and
 **product-of-sums**.
 
-The **sum-of-products form**:
-* stem:[f(x, y, z) = xy + xz + yz]
-
-The **product-of-sums form**:
-* stem:[f(x, y, z) = (x + y)(x + z)(y + z)]
+The **sum-of-products form**: stem:[f(x, y, z) = xy + xz + yz]
+The **product-of-sums form**: stem:[f(x, y, z) = (x + y)(x + z)(y + z)]
 
 For example:
 
