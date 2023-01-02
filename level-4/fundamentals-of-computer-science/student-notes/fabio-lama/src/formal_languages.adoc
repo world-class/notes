@@ -67,3 +67,53 @@ epsilon^** = epsilon\
 A^** @ A^** = A^**\
 (A uu B)^** = (A^** B^**)^**
 ++++
+
+== Regular Expressions
+
+=== Atomic Expressions
+
+The empty language, stem:[O/], is a regular expression, which is the empty
+regular language. Any letter stem:[a in Sigma] is a regular expression and its
+language is stem:[{a}]. Empty string, stem:[epsilon], is a regular expression
+representing the regular language stem:[{epsilon}].
+
+* _Concatenation_: if stem:[R_1] and stem:[R_2] are regular expressions, so is stem:[R_1 @ R_2].
+* _Union_: if stem:[R_1] and stem:[R_2] are regular expressions, so is stem:[R_1 uu R_2].
+* _Kleene star_: if stem:[R] is a regular expression, so is stem:[R^**].
+
+==== Examples
+
+What is the language of stem:[ab^**]?
+
+[stem]
+++++
+{a, ab, a b b, ab b b, ...}
+++++
+
+What is the language of stem:[ab^** uu b^**]?
+
+[stem]
+++++
+{a, ab, a b b, a b b b, ... } uu {epsilon, b, b b, b b b, ... } = {epsilon, a, b, ab, b b, a b b, b b b, ...}
+++++
+
+What is the language of stem:[ab^+ uu b^+b]?
+
+[stem]
+++++
+{ab, a b b, a b b b, ...} uu {b b, b b b, b b b b, ... } = ab^** uu b^** // {a, epsilon, b} " (excluding " a, epsilon, b ")"
+++++
+
+What is the language of stem:[Sigma^** a]?
+
+[stem]
+++++
+{a, aa, ba, aaa, aba, baa, b b a, ...}
+++++
+
+What is the language of stem:[Sigma^** a Sigma^**]?
+
+[stem]
+++++
+{a, aa, ab, ba, aaa, aab, aba, a b b, baa, bab, b b a, ...}
+++++
