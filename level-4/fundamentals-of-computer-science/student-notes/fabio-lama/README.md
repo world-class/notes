@@ -11,6 +11,7 @@ errors.
 * [Proofs](./cheatsheet_proofs.pdf)
 * [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in the Authors _Computational Mathematics_ module notes).
 * [Automata Theory](./cheatsheet_automata_theory.pdf)
+* [Formal Languages & Regular Expressions](./cheatsheet_formal_languages_regular_expressions.pdf)
 
 # Building
 
