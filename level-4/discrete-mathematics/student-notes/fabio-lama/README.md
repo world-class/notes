@@ -12,10 +12,9 @@ errors.
 * [Functions](./cheatsheet_functions.pdf)
 * [Propositional & First-order Logic](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_propositional_logic.pdf) (covered in the Authors _Fundamentals of Computer Science_ module notes)
 * [Postulates of Boolean Algebra](./cheatsheet_postulates_boolean_algebra.pdf)
-	* This might also be useful:
-	[Proofs](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_proofs.pdf)
-	(covered in the Authors _Fundamentals of Computer Science_ module notes)
 * [Logic Gates](./cheatsheet_logic_gates.pdf)
+* [Proofs](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_proofs.pdf)
+  (covered in the Authors _Fundamentals of Computer Science_ module notes)
 
 # Building
 
