@@ -1,0 +1,43 @@
+= Cheatsheet - Graphs
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Graphs are **discrete** structures consisting of **vertices (nodes)** and
+**edges** connecting them. Graph theory is an area of discrete mathematics which
+studies these types of discrete structures.
+
+The **graph** stem:[G] can be represented as an ordered pair stem:[G = (V, E)],
+where stem:[V] is a set of nodes/vertices and stem:[E] is a set of edges, lines
+or connections. A **vertex** (singular of "vertices") is a basic element of a graph,
+usually drawn as a node or a dot. The set of vertices of stem:[G] is usually
+denoted by stem:[V(G)] or stem:[V].
+
+image::./assets/vertex.png[align=center, width=300]
+
+An **edge** is a link between 2 vertices, usually drawn as a line connecting two
+vertices. The set of edges in a graph stem:[G] is usually denoted by stem:[E(G)]
+or stem:[E].
+
+image::./assets/edge.png[align=center, width=600]
+
+Two vertices are said to be **adjacent** if they are endpoints of the same edge.
+Two edges are said to be **adjacent** if they share the same vertex. If a vertex
+stem:[v] is an endpoint of an edge stem:[e], then we say that stem:[e] and
+stem:[v] are **incident**.
+
+A **directed graph**, also called a **digraph**, is a graph in which the edges have a direction. This is usually indicated with an arrow on the edge.
+
+=== Examples
+
+image::./assets/graph_example_1.png[align=center, width=600]
+
+image::./assets/graph_example_2.png[align=center, width=600]
+
+And an example of a directed graph:
+
+image::./assets/graph_example_3.png[align=center, width=600]
