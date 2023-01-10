@@ -30,7 +30,8 @@ Two edges are said to be **adjacent** if they share the same vertex. If a vertex
 stem:[v] is an endpoint of an edge stem:[e], then we say that stem:[e] and
 stem:[v] are **incident**.
 
-A **directed graph**, also called a **digraph**, is a graph in which the edges have a direction. This is usually indicated with an arrow on the edge.
+A **directed graph**, also called a **digraph**, is a graph in which the edges
+have a direction. This is usually indicated with an arrow on the edge.
 
 === Examples
 
@@ -41,3 +42,38 @@ image::./assets/graph_example_2.png[align=center, width=600]
 And an example of a directed graph:
 
 image::./assets/graph_example_3.png[align=center, width=600]
+
+== Walk
+
+A **walk** is a sequence of vertices and edges of a graph were vertices and
+edges can be repeated. A **walk of length k** in a graph is a succession of
+stem:[k] (not necessarily different) edges of the form stem:[uv, vw, wx, ...,
+yz].
+
+image::./assets/graph_walk.png[align=center, width=650]
+
+== Trail
+
+A **trail** is a walk in which no edge is repeated. In a trail, vertices can be
+repeated but no edge is ever repeated. For example, stem:[e1, e2, e3, e5, e6]
+is a trail:
+
+image::./assets/graph_trail.png[align=center, width=400]
+
+== Circuit
+
+A **circuit** is a closed trail. Circuits can have repeated vertices only. For
+example, stem:[e7,e6, e8, e3, e2, e1] is a circuit:
+
+image::./assets/graph_circuit.png[align=center, width=400]
+
+== Path
+
+A **path** is a trail in which neither vertices nor edges are repeated.
+
+== Cycle
+
+A **cycle** is a closed path, consisting of edges and vertices where a vertex is
+reachable from itself.
+
+image::./assets/graph_cycle.png[align=center, width=550]
