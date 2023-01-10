@@ -43,7 +43,9 @@ And an example of a directed graph:
 
 image::./assets/graph_example_3.png[align=center, width=600]
 
-== Walk
+== Concepts
+
+=== Walk
 
 A **walk** is a sequence of vertices and edges of a graph were vertices and
 edges can be repeated. A **walk of length k** in a graph is a succession of
@@ -52,7 +54,7 @@ yz].
 
 image::./assets/graph_walk.png[align=center, width=650]
 
-== Trail
+=== Trail
 
 A **trail** is a walk in which no edge is repeated. In a trail, vertices can be
 repeated but no edge is ever repeated. For example, stem:[e1, e2, e3, e5, e6]
@@ -60,32 +62,32 @@ is a trail:
 
 image::./assets/graph_trail.png[align=center, width=400]
 
-== Circuit
+=== Circuit
 
 A **circuit** is a closed trail. Circuits can have repeated vertices only. For
 example, stem:[e7,e6, e8, e3, e2, e1] is a circuit:
 
 image::./assets/graph_circuit.png[align=center, width=400]
 
-== Path
+=== Path
 
 A **path** is a trail in which neither vertices nor edges are repeated.
 
-== Cycle
+=== Cycle
 
 A **cycle** is a closed path, consisting of edges and vertices where a vertex is
 reachable from itself.
 
 image::./assets/graph_cycle.png[align=center, width=550]
 
-== Eulerian Path
+=== Eulerian Path
 
 A **Eulerian path** in a graph is a path that uses each edge precisely once. If
 such a path exists, the graph is called **traversable**.
 
 image::./assets/graph_euler_path.png[align=center, width=600]
 
-== Hamiltonian Path, Cycle & Graph
+=== Hamiltonian Path, Cycle & Graph
 
 A **Hamiltonian path** (also called a _traceable path_) is a path that visits
 each vertex exactly once. A **Hamiltonian cycle** is a cycle that visits each
@@ -98,7 +100,7 @@ A graph that contains a Hamiltonian cycle is called a **Hamiltonian graph**. Any
 Hamiltonian cycle can be converted to a Hamiltonian path by removing one of its
 edges.
 
-== Connectivity
+=== Connectivity
 
 An **undirected** graph is **connected** if you can get from **any node to any other**
 by following a **sequence of edges**. Or, **any two nodes** are **connected** by a path.
@@ -110,7 +112,7 @@ any node to any other node.
 
 image::./assets/graph_strong_connectivity.png[align=center, width=450]
 
-== Transitive Close
+=== Transitive Close
 
 Given a digraph stem:[G], the transitive closure of stem:[G] is the digraph
 stem:[G^**] such that stem:[G^**] has the same vertices as stem:[G]. If
