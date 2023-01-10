@@ -77,3 +77,44 @@ A **cycle** is a closed path, consisting of edges and vertices where a vertex is
 reachable from itself.
 
 image::./assets/graph_cycle.png[align=center, width=550]
+
+== Eulerian Path
+
+A **Eulerian path** in a graph is a path that uses each edge precisely once. If
+such a path exists, the graph is called **traversable**.
+
+image::./assets/graph_euler_path.png[align=center, width=600]
+
+== Hamiltonian Path, Cycle & Graph
+
+A **Hamiltonian path** (also called a _traceable path_) is a path that visits
+each vertex exactly once. A **Hamiltonian cycle** is a cycle that visits each
+vertex exactly once (except for the starting vertex, which is visited once at
+the start and once again at the end).
+
+image::./assets/graph_hamiltonian_cycle.png[align=center, width=500]
+
+A graph that contains a Hamiltonian cycle is called a **Hamiltonian graph**. Any
+Hamiltonian cycle can be converted to a Hamiltonian path by removing one of its
+edges.
+
+== Connectivity
+
+An **undirected** graph is **connected** if you can get from **any node to any other**
+by following a **sequence of edges**. Or, **any two nodes** are **connected** by a path.
+
+image::./assets/graph_connectivity.png[align=center, width=400]
+
+A directed graph is **strongly connected** if there is a **directed path** from
+any node to any other node.
+
+image::./assets/graph_strong_connectivity.png[align=center, width=450]
+
+== Transitive Close
+
+Given a digraph stem:[G], the transitive closure of stem:[G] is the digraph
+stem:[G^**] such that stem:[G^**] has the same vertices as stem:[G]. If
+stem:[G] has a directed path from stem:[u] to stem:[v] (stem:[u != v]),
+stem:[G^**] has a directed edge from stem:[u] to stem:[v].
+
+image::./assets/graph_transitive_closure.png[align=center, width=700]
