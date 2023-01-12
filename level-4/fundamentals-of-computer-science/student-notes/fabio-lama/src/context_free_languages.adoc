@@ -1,0 +1,96 @@
+= Cheatsheet - Context-Free Languages
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Context-free grammar defines a set of rules for connecting strings together,
+which is another way of representing languages. It works recursively describing
+the structure of the strings.
+
+== Definition
+
+A **context-free grammar** is a 4-tuple stem:[(V, Sigma, R, S)] where:
+
+* **Variables**: a finite set of symbols, denoted stem:[V].
+* **Terminals**: a finite set of letters, denoted by stem:[Sigma], which is
+disjoint from stem:[V].
+* **Rules**: a finite set of mappings, denoted by stem:[R], with each rule being
+a variable and a string of variables and terminals.
+* **Start variable**: a member of stem:[V], denoted by stem:[S]. It is usually
+the variable on the left-hand side of the top rule.
+
+== Generating Strings
+
+. Start from the **starting symbol**, read its rule.
+. Find a **variable** in the rule of the starting symbol and **replace it** with
+**a rule** of that variable.
+. **Repeat step 2** until there are no variables left.
+
+A **derivation** is a sequence of substitutions in generating a string. There
+may be more than one rule for a variable. Then we can use the "stem:[|]" symbol
+to indicate "or".
+
+For example:
+
+[stem]
+++++
+S -> bSa | ba
+++++
+
+Respectively:
+
+[stem]
+++++
+S -> bSa\
+S -> ba\
+S => bSa => b baa\
+S => bSa => b bSaa => b b baaa\
+S => bSa => b bSaa => b b bSaaa => b b b baaaa
+++++
+
+We say stem:[u] **derives** stem:[v], or stem:[u =>^** v] if there is a
+derivation from stem:[u] to stem:[v].
+
+=== Example
+
+[stem]
+++++
+S -> aS|T\
+T -> b|epsilon
+++++
+
+== Language of a Grammar
+
+The language of grammar is all the strings that can be derived from the
+starting symbol using the rules of the grammar.
+
+The formal definition is:
+
+[stem]
+++++
+"If " G = (V, Sigma, R, S) " then " L(G) = {w in Sigma^** | S =>^** w}
+++++
+
+=== Example
+
+We have the grammar stem:[G_2]:
+
+[stem]
+++++
+S -> aS|T\
+T -> b|epsilon
+++++
+
+A few strings in stem:[L(G_2)]: stem:[a, ab, b, epsilon, aa, aab], and **not**
+in stem:[L(G_2)]: stem:[ba, ab b, aab b].
+
+We define it formally:
+
+[stem]
+++++
+L(G_2) = a^** uu a^** b = {a^i b^j | 0 <= i, 0 <= j <= 1}
+++++
