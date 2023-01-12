@@ -160,3 +160,58 @@ number of edges in stem:[G].
 ++++
 "Number of edges of "G = ("sum of degree sequences of " G)/2
 ++++
+
+== Special Graphs
+
+=== Simple Graphs
+
+A **simple graph** is a graph without **loops** and **parallel** edges.
+
+image::./assets/simple_graphs.png[align=center, width=500]
+
+Given a **simple** graph stem:[G] with stem:[n] vertices, then the degree of
+each vertex of stem:[G] is at most equal to stem:[n-1].
+
+=== Regular Graphs
+
+A graph is said to be **regular** of degree if all local degrees are the same
+number. A graph stem:[G] where all the vertices are of the same degree,
+stem:[r], is called an **r-regular** graph.
+
+image::./assets/regular_graphs.png[align=center, width=550]
+
+Given a **r-regular** graph stem:[G] with stem:[n] vertices, then the following
+is true:
+
+[stem]
+++++
+"Degree sequence of " G = r, r, r, ..., r " " (n " times")\
+"Sum of degree sequence of " G = r xx n\
+"Number of edges in " G = r xx n/2
+++++
+
+image::./assets/regular_graphs_example.png[align=center, width=350]
+
+=== Special Regular Graphs: Cycles
+
+image::./assets/graph_regular_cycles.png[align=center, width=350]
+
+=== Complete Graphs
+
+A **complete graph** is a **simple** graph where **every pair of vertices** are
+**adjacent** (linked with an edge). We represent a complete graph with stem:[n]
+vertices using the symbol stem:[K_n].
+
+image::./assets/graph_complete.png[align=center, width=450]
+
+A complete graph with stem:[n] vertices, stem:[k_n], has the following
+properties:
+
+[stem]
+++++
+"Every vertex has a degree " (n-1)\
+"Sum of degree sequence" = n(n-1)\
+"Number of edges" = (n(n-1))/n
+++++
+
+image::./assets/graph_complete_example.png[align=center, width=350]
