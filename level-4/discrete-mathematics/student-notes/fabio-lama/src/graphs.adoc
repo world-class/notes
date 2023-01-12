@@ -120,3 +120,43 @@ stem:[G] has a directed path from stem:[u] to stem:[v] (stem:[u != v]),
 stem:[G^**] has a directed edge from stem:[u] to stem:[v].
 
 image::./assets/graph_transitive_closure.png[align=center, width=700]
+
+== Degree of a Vertex
+
+The degree of a vertex is the number of edges incident on stem:[v]. A loop
+contributes **twice** to the degree. An **isolated vertex** has a degree of
+stem:[0].
+
+image::./assets/degree_vertex.png[align=center, width=450]
+
+In the case of directed graphs, stem:["In-deg"(v)] is the number of edges for
+which stem:[v] is the terminal vertex. stem:["Out-deg"(v)] is the number of
+edges for which stem:[v] is the initial vertex.
+
+And the degree stem:["deg"(v)] is:
+
+[stem]
+++++
+"deg"(v) = "Out-deg"(v) + "In-deg"(v)
+++++
+
+A loop contributes **twice** to the degree as it contributes stem:[1] to both
+in-degree and out-degree.
+
+image::./assets/degree_in_out_vertex.png[align=center, width=450]
+
+=== Degree Sequence
+
+Given an undirected graph stem:[G], a **degree sequence** is a **monotonic
+non-increasing** sequence of the vertex degrees of all the vertices of stem:[G].
+The **sum of the degree sequence** of a graph is always **even**.
+
+image::./assets/degree_sequence.png[align=center, width=500]
+
+Given a graph stem:[G], the sum of the degree sequence of stem:[G] is twice the
+number of edges in stem:[G].
+
+[stem]
+++++
+"Number of edges of "G = ("sum of degree sequences of " G)/2
+++++
