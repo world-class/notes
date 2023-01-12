@@ -16,6 +16,7 @@ errors.
 * [Proofs](/level-4/fundamentals-of-computer-science/student-notes/fabio-lama/cheatsheet_proofs.pdf)
   (covered in the Authors _Fundamentals of Computer Science_ module notes)
 * [Graph Theory](./cheatsheet_graphs.pdf)
+* [Graph Theory: Isomorphism](./cheatsheet_graphs_isomorphism.pdf)
 
 # Building
 
