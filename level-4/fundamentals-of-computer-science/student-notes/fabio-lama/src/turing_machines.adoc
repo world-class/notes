@@ -62,3 +62,57 @@ processed and may process the input **several times**. A TM **always terminate**
 at the accepting or rejecting state, while in DFA the process can pass through
 those states and continue. Additionally, a TM may **manipulate** the input, may
 enter **an infinite loop** and is **deterministic**.
+
+== The Language of Turing Machines
+
+The language of a TM is:
+
+[stem]
+++++
+cc L(M) = {w in Sigma^** | M " accepts " w}
+++++
+
+If stem:[w in cc L(M)], stem:[M] reached accept state. If stem:[w !in cc L(M)],
+stem:[M] **does not** reach accept state (either it reaches reject state or
+enters an infinite loop). A language is **recognizable** if it is accepted by a
+TM, where the TM is called the **recognizer** of stem:[cc L(M)].
+
+A TM that does not enter an infinite loop is called a **decider**. The language
+is decidable if it is **accepted** by the decider.
+
+=== Halting Problem
+
+stem:[RE] ("recursively enumerable") is a class of **all** recognizable
+languages stem:[R] is a class of **all** decidable languages.
+
+Additionally:
+
+[stem]
+++++
+R sube RE
+++++
+
+In other words, every decider is a recognizer, but not the other way around. The
+**halting problem** states that we cannot determine whether an arbitrary TM and
+an input will eventually halt or run forever.
+
+
+=== Language Hierarchy
+
+[stem]
+++++
+"RL" sube "CFL" sube R sube RE sube "all languages"
+++++
+
+where "RL" refers to regular expression and "CFL" refers to Context-Free Languages.
+
+==== Chomsky Hierarchy
+
+|===
+|Grammar|Languages|Automaton|Example
+
+|Type-0|Recursively enumerable|Turing machine|
+|Type-1|Context-sensitive|Turing machines with bounded tape|stem:[a^nb^nc^n]
+|Type-2|Context-free|Push-down|stem:[a^nb^n]
+|Type-3|Regular|Finite state|stem:[a^** b^**]
+|===
