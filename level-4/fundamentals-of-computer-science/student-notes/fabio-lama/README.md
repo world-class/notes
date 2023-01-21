@@ -12,6 +12,7 @@ errors.
 * [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in the Authors _Computational Mathematics_ module notes).
 * [Automata Theory](./cheatsheet_automata_theory.pdf)
 * [Formal Languages & Regular Expressions](./cheatsheet_formal_languages_regular_expressions.pdf)
+* [Context-Free Languages](./cheatsheet_context_free_languages.pdf)
 
 # Building
 
