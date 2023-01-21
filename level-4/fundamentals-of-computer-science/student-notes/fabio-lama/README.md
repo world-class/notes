@@ -13,6 +13,7 @@ errors.
 * [Automata Theory](./cheatsheet_automata_theory.pdf)
 * [Formal Languages & Regular Expressions](./cheatsheet_formal_languages_regular_expressions.pdf)
 * [Context-Free Languages](./cheatsheet_context_free_languages.pdf)
+* [Turing Machines](./cheatsheet_turing_machines.pdf)
 
 # Building
 
