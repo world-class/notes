@@ -1,0 +1,55 @@
+= Cheatsheet - Turing Machines
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+NOTE: Make sure to check the _Automata Theory_ cheatsheet, too.
+
+== Intro
+
+A **turing machine** is a finite automation with **unbounded random access
+memory**. The **finite state automaton** (FSA) provides instructions on an
+**infinite tape**, where the input is given and can also be the working space.
+Every cell contains one character, but some cells are empty. A **tape head** reads
+and writes according to the instructions given by the FSA.
+
+=== Formal Definition
+
+A turing machine (TM) consists of:
+
+[stem]
+++++
+(Q, Sigma, Gamma, delta, q_1, q_("Acc"), q_("Rej"))
+++++
+
+where
+
+* stem:[Gamma] is the tape alphabet that included the blank symbol.
+* stem:[Sigma sube Gamma] is the input alphabet.
+* stem:[delta: Q xx Gamma -> (Q xx Gamma xx {L, R})] is the transition function.
+* stem:[q_1 in Q] is the start state.
+* stem:[q_("Acc")] is the accepting state.
+* stem:[q_("Rej")] is the rejecting state.
+
+The **transition function** takes one state and one letter from stem:[Gamma] and
+returns a **state** of the automaton, a **letter to be written** on the current
+cell of the tape and the **direction** instructing the tape head where to go,
+stem:[L] for left, stem:[R] for right.
+
+.Note that the black box means "blank".
+image::assets/turing_machine.png[width=400, align="center"]
+
+NOTE: Seeing an interactive example makes the behavior of the direction
+stem:[{L, R}] clearer. See Week 13, "7.201 Turing machines: examples" in the FCS
+course.
+
+== DFA vs TM
+
+The difference between a Deterministic Finite Automata (DFA) and a Turing
+Machine ( TM ) is that a TM **may not terminate** when the input is completely
+processed and may process the input **several times**. A TM **always terminate**
+at the accepting or rejecting state, while in DFA the process can pass through
+those states and continue. Additionally, a TM may **manipulate** the input, may
+enter **an infinite loop** and is **deterministic**.
