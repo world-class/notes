@@ -95,6 +95,95 @@ We define it formally:
 L(G_2) = a^** uu a^** b = {a^i b^j | 0 <= i, 0 <= j <= 1}
 ++++
 
-== Regular Expressions
+== Converting from Regular Expressions
 
-TODO
+=== Example 1
+
+Let's convert stem:[ab^**] to a context-free language:
+
+* stem:[b^**] can be written as stem:[U -> bU|epsilon]
+* stem:[ab^**] can be written as stem:[S -> aU]
+
+In other words:
+
+[stem]
+++++
+S -> aU\
+U -> bU|epsilon
+++++
+
+=== Example 2
+
+Let's convert stem:[ab^** uu b^**] to a context-free language:
+
+* stem:[b^**] can be written as stem:[U -> bU|epsilon]
+* stem:[ab^**] can be written as stem:[S -> aU]
+* stem:[uu] is just an "or", which can be written as stem:[|]
+
+In other words:
+
+[stem]
+++++
+S -> aU|U\
+U -> bU|epsilon
+++++
+
+=== Example 3
+
+Let's convert stem:[ab^+ uu b^+ b] to a context-free language:
+
+* stem:[b^+] can be written as stem:[U -> bU|b]
+* stem:[ab^+] can be written as stem:[S -> aU]
+* stem:[b^+b] can be written as stem:[S -> bU]
+* stem:[uu] is just an "or", which can be written as stem:[|]
+
+In other words:
+
+[stem]
+++++
+S -> aU|bU\
+U -> bU|b
+++++
+
+=== Example 4
+
+Let's convert stem:[Sigma^** a Sigma^**], where stem:[Sigma = {a, b}], to
+context-free language:
+
+* Strings starting with stem:[a], stem:[U -> aX, X in Sigma^**]
+* Strings starting with stem:[b], stem:[U -> bX, X in Sigma^**]
+* Empty string, stem:[U -> epsilon]
+
+In other words:
+
+[stem]
+++++
+S -> UaU\
+U -> aU|bU|epsilon
+++++
+
+=== Example 5
+
+Let's convert stem:[Sigma Sigma Sigma^+], a binary string of at least three
+in length, to context-free language:
+
+* stem:[Sigma^+ = (a uu b)^+] which can be written as stem:[U -> aU|bU|a|b]
+* stem:[Sigma Sigma^+] can be written as stem:[V -> aU|bU]
+* stem:[Sigma Sigma Sigma^+] can be written as stem:[S -> aV|bV]
+
+In other words:
+
+[stem]
+++++
+S -> aV|bV\
+V -> aU|bU\
+U -> aU|bU|a|b
+++++
+
+Or, alternatively:
+
+[stem]
+++++
+S -> aaU|abU|baU|b bU\
+U -> aU|bU|a|b
+++++
