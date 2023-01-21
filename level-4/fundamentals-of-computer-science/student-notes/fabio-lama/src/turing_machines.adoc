@@ -15,7 +15,7 @@ memory**. The **finite state automaton** (FSA) provides instructions on an
 Every cell contains one character, but some cells are empty. A **tape head** reads
 and writes according to the instructions given by the FSA.
 
-=== Formal Definition
+== Formal Definition
 
 A turing machine (TM) consists of:
 
@@ -44,6 +44,15 @@ image::assets/turing_machine.png[width=400, align="center"]
 NOTE: Seeing an interactive example makes the behavior of the direction
 stem:[{L, R}] clearer. See Week 13, "7.201 Turing machines: examples" and "7.202
 Designing Turing Machines" in the FCS course.
+
+=== Example
+
+Given stem:[w in (1 uu 0)^**], make stem:[w in 1^** 0^**]. For example, given
+stem:[111001001], make stem:[111110000].
+
+image::assets/turing_machine_example.png[width=600, align="center"]
+
+NOTE: For the interactive process, see Week 14, "7.301 The power of Turing machines".
 
 == DFA vs TM
 
