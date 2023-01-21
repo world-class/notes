@@ -104,7 +104,7 @@ an input will eventually halt or run forever.
 "RL" sube "CFL" sube R sube RE sube "all languages"
 ++++
 
-where "RL" refers to regular expression and "CFL" refers to Context-Free Languages.
+where "RL" refers to Regular Languages and "CFL" refers to Context-Free Languages.
 
 ==== Chomsky Hierarchy
 
