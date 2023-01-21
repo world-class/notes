@@ -42,8 +42,8 @@ stem:[L] for left, stem:[R] for right.
 image::assets/turing_machine.png[width=400, align="center"]
 
 NOTE: Seeing an interactive example makes the behavior of the direction
-stem:[{L, R}] clearer. See Week 13, "7.201 Turing machines: examples" in the FCS
-course.
+stem:[{L, R}] clearer. See Week 13, "7.201 Turing machines: examples" and "7.202
+Designing Turing Machines" in the FCS course.
 
 == DFA vs TM
 
