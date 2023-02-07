@@ -1,0 +1,68 @@
+= Cheatsheet - Trees
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+NOTE: It's recommended to read the cheatsheets on Graphs, first.
+
+== Definition
+
+In computer science, **trees** are used in a wide range of algorithms, such as
+data structures for efficient lookups or making decisions. A tree is a
+**connected acyclic undirected graph**.
+
+=== Acyclic Graphs
+
+A graph stem:[G] is called an **acyclic** graph if and only if stem:[G] has **no
+cycles**.
+
+.stem:[G_1] is NOT an acyclic graph, while stem:[G_2] is.
+image::./assets/trees/acyclic_graphs.png[align=center, width=500]
+
+Not all acyclic graphs are trees.
+
+image::./assets/trees/acyclic_graphs_trees.png[align=center, width=500]
+
+=== Forest
+
+A **forest** is a **disconnected graph** containing no cycles.
+
+image::./assets/trees/forest.png[align=center, width=500]
+
+Theorem 1::
+
+An undirected graph is a **tree** if and only if there is a **unique simple
+path** between **any two** of its vertices.
+
+Theorem 2::
+A tree with **stem:[n] vertices** has **stem:[n-1] edges**.
+
+=== Rooted Tree
+
+A **rooted tree** is when one vertex has been **designated as the root** and
+every edge is **directed away from the root**.
+
+== Spanning Tree
+
+A **spanning tree** of a graph stem:[G] is a **connected** sub graph of stem:[G]
+which **contains all vertices of stem:[G]**, but with **no cycles**.
+
+.All stem:[T_n] are spanning sub graphs of graph stem:[G].
+image::./assets/trees/spanning_trees.png[align=center, width=450]
+
+=== Constructing a Spanning Tree
+
+To get a spanning tree of a graph stem:[G]:
+
+. Keep all vertices of stem:[G]
+. Break all the cycles but keep the tree connected.
+
+image::./assets/trees/sub_graphs.png[align=center, width=500]
+
+Two spanning trees are said **isomorphic** if there is a **bijection preserving
+adjacency** between the two trees.
+
+.stem:[T_1], stem:[T_3] and stem:[T_4] are all **isomorphic** to each others. stem:[T_1], stem:[T_3] and stem:[T_4] are all **non-isomorphic** to stem:[T_2].
+image::./assets/trees/isomorphic_trees.png[align=center, width=500]
