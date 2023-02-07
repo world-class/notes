@@ -66,3 +66,25 @@ adjacency** between the two trees.
 
 .stem:[T_1], stem:[T_3] and stem:[T_4] are all **isomorphic** to each others. stem:[T_1], stem:[T_3] and stem:[T_4] are all **non-isomorphic** to stem:[T_2].
 image::./assets/trees/isomorphic_trees.png[align=center, width=500]
+
+=== Minimum-cost Spanning Tree
+
+The **cost** (or **weight**) of a spanning tree is the **sum of the costs** of
+its edges. A **minimum-cost** spanning tree is a spanning tree that has the
+**lowest weight** (lowest cost).
+
+.The weight of stem:[T_2] is stem:[w = 6+4+1+2+7 = 20].
+image::./assets/trees/minimum_cost_tree.png[align=center, width=500]
+
+There are two basic algorithms for finding minimum-cost spanning trees:
+
+Kruskal's algorithm::
+
+Start with the cheapest edges in the spanning tree, then repeatedly add the
+cheapest edge that does not create a cycle.
+
+Prim's algorithm::
+
+Start with any one node in the spanning tree, then repeatedly add the cheapest
+edge, and the node it leads to, for which the node is not already in the
+spanning tree.
