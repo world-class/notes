@@ -17,6 +17,7 @@ errors.
   (covered in the Authors _Fundamentals of Computer Science_ module notes)
 * [Graph Theory](./cheatsheet_graphs.pdf)
 * [Graph Theory: Isomorphism](./cheatsheet_graphs_isomorphism.pdf)
+* [Trees](./cheatsheet_trees.pdf)
 
 # Building
 
