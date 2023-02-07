@@ -88,3 +88,73 @@ Prim's algorithm::
 Start with any one node in the spanning tree, then repeatedly add the cheapest
 edge, and the node it leads to, for which the node is not already in the
 spanning tree.
+
+== Rooted Tree
+
+A rooted tree is a **directed tree** having one **distinguished** vertex
+stem:[r], called the root, such that for every vertex stem:[v] there is a
+**directed path** from stem:[r] to stem:[v]
+
+image::./assets/trees/rooted_tree.png[align=center, width=350]
+
+A directed tree is represented as a rooted tree **if and only if one vertex**
+has in-degree stem:[0] whereas **all** other **vertices** have in-degree
+stem:[1].
+
+image::./assets/trees/directed_tree.png[align=center, width=450]
+
+=== Terminology
+
+image::./assets/trees/terminology_tree.png[align=center, width=450]
+
+The **depth** or **path length** of a node in a tree is the number of edges from
+the root to that node. The **height** of a node in a tree is the longest path
+from that node to a leaf. The **depth or the height** of a tree is the maximum
+path length across all its nodes.
+
+=== Special Trees
+
+image::./assets/trees/special_trees.png[align=center, width=450]
+
+=== Regular Rooted Trees
+
+An stem:[m]-ary tree is **regular** if every one of its **internal** notes **has
+exactly** stem:[m] children.
+
+image::./assets/trees/regular_tree.png[align=center, width=550]
+
+An **stem:[m]-ary tree** has at most stem:[m^h] vertices at level stem:[h].
+
+image::./assets/trees/m_ary_tree.png[align=center, width=550]
+
+== Isomorphic Trees
+
+Two trees stem:[T_1] and stem:[T_2] are isomorphic if there is a **bijection**:
+
+[stem]
+++++
+f: V(T_1) -> V(T_2)
+++++
+
+which **preserves adjacency** and **non-adjacency**. That is, if stem:[uv] is in
+stem:[E(T_1)] and stem:[f(u)f(v)] is in stem:[E(T_2)].
+
+Respectively:
+
+[stem]
+++++
+T_1 ~= T_2
+++++
+
+Two trees with **different degree sequences** are **not isomorphic**. Two trees
+with the **same degree** sequence **are not necessarily isomorphic**.
+
+=== Example
+
+image::./assets/trees/isomorphic_example.png[align=center, width=450]
+
+== Isomorphic Rooted Trees
+
+Two isomorphic trees are **isomorphic as rooted trees** if and only if there is
+a **bijection** that maps the **root** of one tree to the root of the other.
+Isomorphic trees **may** or **may not** be isomorphic as **rooted trees**.
