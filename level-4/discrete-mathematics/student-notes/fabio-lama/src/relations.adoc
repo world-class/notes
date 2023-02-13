@@ -174,4 +174,17 @@ A = {1, 2, 3, 4, 5}\
 R = {x, y in A, xRy | "if and only if " x <= y}
 ++++
 
+Then the graph is:
+
 image::./assets/relation_digraph.png[align=center, width=250]
+
+And if (_strictly less_):
+
+[stem]
+++++
+R = {x, y in A, xRy | "if and only if " x < y}
+++++
+
+Then the graph is:
+
+image::./assets/relation_digraph_2.png[align=center, width=250]
