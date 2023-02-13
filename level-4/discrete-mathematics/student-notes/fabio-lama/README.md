@@ -18,6 +18,7 @@ errors.
 * [Graph Theory](./cheatsheet_graphs.pdf)
 * [Graph Theory: Isomorphism](./cheatsheet_graphs_isomorphism.pdf)
 * [Trees](./cheatsheet_trees.pdf)
+* [Relations](./cheatsheet_relations.pdf)
 
 # Building
 
