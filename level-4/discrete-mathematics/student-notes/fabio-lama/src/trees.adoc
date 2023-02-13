@@ -153,8 +153,92 @@ with the **same degree** sequence **are not necessarily isomorphic**.
 
 image::./assets/trees/isomorphic_example.png[align=center, width=450]
 
-== Isomorphic Rooted Trees
+=== Isomorphic Rooted Trees
 
 Two isomorphic trees are **isomorphic as rooted trees** if and only if there is
 a **bijection** that maps the **root** of one tree to the root of the other.
 Isomorphic trees **may** or **may not** be isomorphic as **rooted trees**.
+
+== Binary Search Trees
+
+A binary search tree is a **binary tree** in which the vertices are **labelled**
+with items so that a **label of a vertex is greater than** the labels of all
+vertices in the **left subtree** of this vertex and **is less than** the labels
+of all vertices in the **right subtree** of this vertex.
+
+image::./assets/trees/binary_tree.png[align=center, width=450]
+
+=== Application
+
+The usage of binary search trees apply in the case where we want to **store a
+modifiable collection** in a **computer's memory** and be able to **search,
+insert** or **remove** elements from the collection in an efficient way.
+
+=== Height of the Binary Search Tree
+
+There are two methods that one can use to find the height of a binary search
+tree, where stem:[N] is number of nodes in the tree and stem:[h] is the height
+(the following formula must be satisfied):
+
+[stem]
+++++
+2^(h-1) < N + 1 <= 2^h\
+-=\
+h-1 < log_2 (N + 1) <= h
+++++
+
+or the second method (hint: stem:[|~ ... ~|] means _ceiling_, i.e round up):
+
+[stem]
+++++
+...\
+-=\
+h = |~ log_2(N+1) ~|
+++++
+
+For example, if stem:[N=15], then stem:[h = 4].
+
+[stem]
+++++
+h = |~ log_2(15+1) = |~ log_2(16) ~| = 4
+++++
+
+=== Binary Search Algorithm
+
+The algorithm starts by comparing the searched element to the middle term of the
+list. The list is then split into two smaller sub-lists of the same size, or
+where one of these smaller lists has one fewer term than the other. The search
+continues by restricting the search to the appropriate sub-list based on the
+comparison of the searched element and term in the middle.
+
+For example, when searching for stem:[21] in the list of:
+
+image::./assets/trees/binary_search_example_1.png[align=center, width=450]
+
+[stem]
+++++
+darr
+++++
+
+image::./assets/trees/binary_search_example_2.png[align=center, width=450]
+
+[stem]
+++++
+darr
+++++
+
+image::./assets/trees/binary_search_example_3.png[align=center, width=450]
+
+[stem]
+++++
+darr
+++++
+
+image::./assets/trees/binary_search_example_4.png[align=center, width=450]
+
+[stem]
+++++
+darr
+++++
+
+image::./assets/trees/binary_search_example_5.png[align=center, width=450]
