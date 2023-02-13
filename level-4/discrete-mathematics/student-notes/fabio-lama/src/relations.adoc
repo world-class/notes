@@ -216,7 +216,7 @@ For example, the following is reflexive:
 
 [stem]
 ++++
-R = {(a, a) in ZZ | a = a}\
+R = {(a, a) in ZZ^2 | a = a}\
 1 = 1\
 2 = 2\
 ...
@@ -226,7 +226,7 @@ While this example is **not** reflexive:
 
 [stem]
 ++++
-R = {(a, a) in ZZ | a < a}\
+R = {(a, a) in ZZ^2 | a < a}\
 1 < 1 " (false)"\
 2 < 2 " (false)"\
 ...
@@ -246,13 +246,13 @@ For example, the following is symmetric:
 
 [stem]
 ++++
-R = {(a, b) in ZZ | a + b = b + a}\
+R = {(a, b) in ZZ^2 | a + b = b + a}\
 1 + 2 = 2 + 1\
 2 + 1 = 1 + 2\
 ...
 ++++
 
-==== Anti-Symmetric
+=== Anti-Symmetric
 
 A relation stem:[R] on a set stem:[S] is said to be **anti-symmetric** if and
 only if:
@@ -266,7 +266,27 @@ For example, the following is anti-symmetric:
 
 [stem]
 ++++
-R = {(a, b) in ZZ | a <= b}\
+R = {(a, b) in ZZ^2 | a <= b}\
 a <= b " and " b <=a\
-"implies " a = b
+"implies " a = b\
+...
+++++
+
+=== Transitivity
+
+A relation stem:[R] on set stem:[S] is called **transitive** if and only if:
+
+[stem]
+++++
+AA (a, b, c) in S, " if " (aRb " and " bRc) " then " aRc
+++++
+
+For example, the following is transitive:
+
+[stem]
+++++
+R = {(a, b) in ZZ^2 | a <= b }\
+2 <= 2 " and " 2 <= 3\
+"implies " 2 <= 2\
+...
 ++++
