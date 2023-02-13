@@ -74,6 +74,8 @@ b R 2\
 c R 3
 ++++
 
+NOTE: Relations are **defined arbitrarily**.
+
 ==== Relation on a Set
 
 When stem:[A = B], a relation stem:[R] **on the set stem:[A]** is a relation
@@ -89,7 +91,87 @@ For example:
 [stem]
 ++++
 A = {1, 2, 3, 4}\
-x, y in A, xRy " if and only if " x < y\
+R = {x, y in A, xRy | "if and only if " x < y}\
 "We have " 1R2, 1R3, 1R4, 2R3, 2R4, 3R4 " respectively:"\
 R = {(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)}
 ++++
+
+== Matrices
+
+Given a **relation** stem:[R] from a set stem:[A] to set stem:[B]. We can list
+the elements of sets stem:[A] and stem:[B] in a particular order.
+
+Let stem:[n_a = |A|] and stem:[n_b = |B|]. The **matrix of stem:[R]** is stem:[n_a xx n_b]:
+
+[stem]
+++++
+M_r = [m_(ij)] n_(ax) n_b\
+m_(ij) = {(1 " if " (a_i, bj) in R),(0 " if " (a_i, bj) !in R):}
+++++
+
+Example:
+
+[stem]
+++++
+A = {a, b, c}\
+B = {1, 2, 3}\
+R = {(a, 1), (a, 2), (b, 2), (b, 3), (c, 1), (c, 3)}\
+M_r = [[1, 1, 0],[0, 1, 1],[1, 0, 1]]
+++++
+
+=== Combining Relations
+
+The **union** of two relations is a new set that contains all of the pairs of
+elements that are in at least one of the two relations. The union is written as
+stem:[R uu S] or **"R or S"**.
+
+[stem]
+++++
+R uu S = {(a, b): (a, b) in R " or " (a, b) in S}
+++++
+
+The **intersection** of two relations is a new set that contains all of the
+pairs that are in both sets. The intersection is written as stem:[R nn S] or **"R
+and S"**.
+
+[stem]
+++++
+R nn S = {(a, b): (a, b) in R " and " (a, b) in S}
+++++
+
+For example, given:
+
+[stem]
+++++
+M_R = [[1, 0, 1],[1, 0, 0],[0, 1, 0]] " " M_S = [[1, 0, 1],[0, 1, 1],[1, 0, 0]]
+++++
+
+To **join** (union):
+
+[stem]
+++++
+M_(R uu S) = M_R vv M_S = [[1, 0, 1],[1, 1, 1],[1, 1, 0]]
+++++
+
+To **meet** (intersection):
+
+[stem]
+++++
+M_(R nn S) = M_R ^^ M_S = [[1, 0, 1],[0, 0, 0],[0, 0, 0]]
+++++
+
+== Graphs
+
+When a relation is defined on a set, it can be represented by a digraph. First,
+the elements of stem:[A] are written down, then stem:[(a, b) in R] arrows are
+drawn from stem:[a] to stem:[b].
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3, 4, 5}\
+R = {x, y in A, xRy | "if and only if " x <= y}
+++++
+
+image::./assets/relation_digraph.png[align=center, width=250]
