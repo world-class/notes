@@ -47,6 +47,13 @@ A = {a_1, a_2} " and " B = {b_1, b_2, b_3}\
 A xx B = {(a_1, b_1), (a_1, b_2), (a_1, b_3), (a_2, b_1), (a_2, b_2), (a_2, b_3)}
 ++++
 
+Note that:
+
+[stem]
+++++
+A xx A = A^2
+++++
+
 A **binary relation** from stem:[A] to stem:[B] is a **subset** of a **Cartesian
 product** stem:[A xx B]:
 
@@ -96,7 +103,9 @@ R = {x, y in A, xRy | "if and only if " x < y}\
 R = {(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)}
 ++++
 
-== Matrices
+== Representation
+
+=== Matrices
 
 Given a **relation** stem:[R] from a set stem:[A] to set stem:[B]. We can list
 the elements of sets stem:[A] and stem:[B] in a particular order.
@@ -105,7 +114,7 @@ Let stem:[n_a = |A|] and stem:[n_b = |B|]. The **matrix of stem:[R]** is stem:[n
 
 [stem]
 ++++
-M_r = [m_(ij)] n_(ax) n_b\
+M_r = [m_(ij)] n_a xx n_b\
 m_(ij) = {(1 " if " (a_i, bj) in R),(0 " if " (a_i, bj) !in R):}
 ++++
 
@@ -119,7 +128,7 @@ R = {(a, 1), (a, 2), (b, 2), (b, 3), (c, 1), (c, 3)}\
 M_r = [[1, 1, 0],[0, 1, 1],[1, 0, 1]]
 ++++
 
-=== Combining Relations
+==== Combining Relations
 
 The **union** of two relations is a new set that contains all of the pairs of
 elements that are in at least one of the two relations. The union is written as
@@ -160,7 +169,7 @@ To **meet** (intersection):
 M_(R nn S) = M_R ^^ M_S = [[1, 0, 1],[0, 0, 0],[0, 0, 0]]
 ++++
 
-== Graphs
+=== Graphs
 
 When a relation is defined on a set, it can be represented by a digraph. First,
 the elements of stem:[A] are written down, then stem:[(a, b) in R] arrows are
@@ -188,3 +197,76 @@ R = {x, y in A, xRy | "if and only if " x < y}
 Then the graph is:
 
 image::./assets/relation_digraph_2.png[align=center, width=250]
+
+== Properties
+
+=== Reflexivity
+
+A relation stem:[R] in a set stem:[S] is said to be **reflexive** if and only
+if:
+
+[stem]
+++++
+x R x, AA x in S\
+-=\
+(x, x) in R, AA x in S
+++++
+
+For example, the following is reflexive:
+
+[stem]
+++++
+R = {(a, a) in ZZ | a = a}\
+1 = 1\
+2 = 2\
+...
+++++
+
+While this example is **not** reflexive:
+
+[stem]
+++++
+R = {(a, a) in ZZ | a < a}\
+1 < 1 " (false)"\
+2 < 2 " (false)"\
+...
+++++
+
+=== Symmetry
+
+A relation stem:[R] on a set stem:[S] is said to be **symmetric** if and only
+if:
+
+[stem]
+++++
+AA (a, b) in S, " if " aRb " then " bRa
+++++
+
+For example, the following is symmetric:
+
+[stem]
+++++
+R = {(a, b) in ZZ | a + b = b + a}\
+1 + 2 = 2 + 1\
+2 + 1 = 1 + 2\
+...
+++++
+
+==== Anti-Symmetric
+
+A relation stem:[R] on a set stem:[S] is said to be **anti-symmetric** if and
+only if:
+
+[stem]
+++++
+AA (a, b) in S, " if " aRb " and " bRa " then " a = b
+++++
+
+For example, the following is anti-symmetric:
+
+[stem]
+++++
+R = {(a, b) in ZZ | a <= b}\
+a <= b " and " b <=a\
+"implies " a = b
+++++
