@@ -29,6 +29,8 @@ relation stem:[R] and we write:
 x R y " where " x in A, y in B
 ++++
 
+NOTE: Relations are **defined arbitrarily**.
+
 === Cartesian Product & Binary Relation
 
 The **Cartesian product** stem:[A xx B] is defined by a **set of pairs**
@@ -80,8 +82,6 @@ a R 1\
 b R 2\
 c R 3
 ++++
-
-NOTE: Relations are **defined arbitrarily**.
 
 ==== Relation on a Set
 
@@ -252,6 +252,15 @@ R = {(a, b) in ZZ^2 | a + b = b + a}\
 ...
 ++++
 
+While this example is **not** symmetric:
+
+[stem]
+++++
+R = {(a, b) in ZZ^2 | a <= b}\
+1 <= 2 " but " 2 <= 1 (false)\
+...
+++++
+
 === Anti-Symmetric
 
 A relation stem:[R] on a set stem:[S] is said to be **anti-symmetric** if and
@@ -259,7 +268,7 @@ only if:
 
 [stem]
 ++++
-AA (a, b) in S, " if " aRb " and " bRa " then " a = b
+AA (a, b) in S, " if " (aRb " and " bRa) " then " a = b
 ++++
 
 For example, the following is anti-symmetric:
@@ -267,8 +276,8 @@ For example, the following is anti-symmetric:
 [stem]
 ++++
 R = {(a, b) in ZZ^2 | a <= b}\
-a <= b " and " b <=a\
-"implies " a = b\
+1 <= 1 " and " 1 <=1\
+"implies " 1 = 1\
 ...
 ++++
 
@@ -286,7 +295,7 @@ For example, the following is transitive:
 [stem]
 ++++
 R = {(a, b) in ZZ^2 | a <= b }\
-2 <= 2 " and " 2 <= 3\
-"implies " 2 <= 2\
+2 <= 3 " and " 3 <= 4\
+"implies " 2 <= 4\
 ...
 ++++
