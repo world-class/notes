@@ -19,6 +19,7 @@ errors.
 * [Graph Theory: Isomorphism](./cheatsheet_graphs_isomorphism.pdf)
 * [Trees](./cheatsheet_trees.pdf)
 * [Relations](./cheatsheet_relations.pdf)
+* [Equivalence Relations & Classes](./cheatsheet_equivalence.pdf)
 
 # Building
 
