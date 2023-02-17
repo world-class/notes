@@ -72,17 +72,6 @@ where stem:[x in A] and stem:[y in B].
 (x, y) in R " means " x R y " (... is related to ...)"
 ++++
 
-For example:
-
-[stem]
-++++
-A = {a, b, c} " and " B = {1, 2, 3}\
-R = {(a,1), (b,2), (c,3)}\
-a R 1\
-b R 2\
-c R 3
-++++
-
 ==== Relation on a Set
 
 When stem:[A = B], a relation stem:[R] **on the set stem:[A]** is a relation
@@ -216,9 +205,9 @@ For example, the following is reflexive:
 
 [stem]
 ++++
-R = {(a, a) in ZZ^2 | a = a}\
-1 = 1\
-2 = 2\
+R = {(a, b) in ZZ^2 | a <= b}\
+1 <= 1 " "("i.e. " a <= a)\
+1 <= 2\
 ...
 ++++
 
@@ -226,9 +215,9 @@ While this example is **not** reflexive:
 
 [stem]
 ++++
-R = {(a, a) in ZZ^2 | a < a}\
-1 < 1 " (false)"\
-2 < 2 " (false)"\
+R = {(a, b) in ZZ^2 | a < b}\
+1 < 2\
+"but not " 1 < 1 " " ("i.e. " a < a)\
 ...
 ++++
 
@@ -257,11 +246,15 @@ While this example is **not** symmetric:
 [stem]
 ++++
 R = {(a, b) in ZZ^2 | a <= b}\
-1 <= 2 " but " 2 <= 1 (false)\
+1 <= 2\
+" but not " 2 <= 1\
 ...
 ++++
 
-=== Anti-Symmetric
+=== Anti-Symmetry
+
+NOTE: The symmetric and anti-symmetric properties are not necessarily mutually
+exclusive, meaning a relation can be both.
 
 A relation stem:[R] on a set stem:[S] is said to be **anti-symmetric** if and
 only if:

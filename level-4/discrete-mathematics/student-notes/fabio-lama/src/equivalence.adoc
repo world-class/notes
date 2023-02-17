@@ -52,3 +52,10 @@ Additionally, stem:[R] is a **total** order if and only if:
 
 * stem:[R] is a **partial order**.
 * stem:[AA (a, b) in S] we have **either** stem:[aRb] **or** stem:[bRa].
+
+For example, the following relation is a total order:
+
+[stem]
+++++
+R = {(a, b) in ZZ^2 | a <= b}
+++++
