@@ -9,11 +9,16 @@ errors.
 
 * [(First-order) Predicate & Propositional Logic](./cheatsheet_predicate_propositional_logic.pdf)
 * [Proofs](./cheatsheet_proofs.pdf)
-* [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf) (covered in the Authors _Computational Mathematics_ module notes).
+* [Permutations & Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf)
+	* (covered in the Authors _Computational Mathematics_ module notes).
 * [Automata Theory](./cheatsheet_automata_theory.pdf)
 * [Formal Languages & Regular Expressions](./cheatsheet_formal_languages_regular_expressions.pdf)
 * [Context-Free Languages](./cheatsheet_context_free_languages.pdf)
 * [Turing Machines](./cheatsheet_turing_machines.pdf)
+* [Recursion](./cheatsheet_recursion.pdf)
+	* _Note_ that some topics discussed in the _Algorithms I/II_ weeks were
+	skipped given that those were somewhat redundant with the _Algorithms and
+	Data Structures I_ module
 
 # Building
 
