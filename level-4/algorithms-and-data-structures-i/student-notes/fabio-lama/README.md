@@ -7,7 +7,8 @@ and understood. Not everything that is tested at the mid-terms or final exams is
 covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
-* [Pseudocode, Vectors, Queues & Stacks](./cheatsheet_pseudocode_data_structures.pdf)
+* [Pseudocode, Data Structures & Time
+  Complexity](./cheatsheet_pseudocode_data_structures.pdf)
 
 # Building
 

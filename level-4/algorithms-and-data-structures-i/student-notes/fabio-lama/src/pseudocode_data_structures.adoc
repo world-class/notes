@@ -1,4 +1,4 @@
-= Cheatsheet - Pseudocode, Vectors, Queues & Stacks
+= Cheatsheet - Pseudocode, Data Structures & Time Complexity
 Fabio Lama <fabio.lama@pm.me>
 :description: Module: CM1015 Computational Mathematics, started 04. April 2022
 :doctype: article
@@ -30,7 +30,9 @@ We can now call the stem:["Morning"] function:
 
 . stem:[tt "status" larr "Morning"("TRUE", 10, 5)]
 
-== Vector
+== Data Structures
+
+=== Vector
 
 A **vector** is a sequentially orderer collection of elements (like an ordered
 set). For example, the following vector stem:[v] is of size _three_ and
@@ -47,7 +49,7 @@ it (only replace individual items).
 NOTE: In some programming languages, "vector" refers to a _growable_ collection
 of data, which is very different and not the case here.
 
-=== Operations
+==== Operations
 
 We can do operations on vectors:
 
@@ -79,7 +81,7 @@ NOTE: In programming languages, the index usually starts at stem:[0],
 respectively the first element of the set is indexed at stem:[0], followed by
 stem:[1, 2, ...]. In our case, we start the index at stem:[1].
 
-== Queue
+=== Queue
 
 A **queue** is a data structure where elements need to "wait" before they get
 processed. Elements the get processed in the order the elements were added,
@@ -91,7 +93,7 @@ get added to the "tail" and come out at the "head".
 "new Queue " q = (A, B, C)
 ++++
 
-=== Operations
+==== Operations
 
 We can do operations on queues:
 
@@ -121,12 +123,12 @@ q = (Z, A, B, C)\
 "EMPTY"[q] = "false"
 ++++
 
-== Stack
+=== Stack
 
 A stack is like a queue, but elements are processed in the "last in first out"
 (LIFO) order.
 
-=== Operations
+==== Operations
 
 * stem:["PUSH"\[o,s\]]: Adds element stem:[o] to the stack.
 * stem:["TOP"\[s\]]: Returns the last inserted element from the stack.
@@ -154,3 +156,8 @@ s = (A, B, C, Z)\
 s = (A, B, C)\
 "EMPTY"[s] = "false"
 ++++
+
+== Time Complexity
+
+.Source: https://youtu.be/47GRtdHOKMg
+image::assets/time_complexity.jpg[align=center, width=600]
