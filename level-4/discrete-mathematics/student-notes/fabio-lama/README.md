@@ -21,6 +21,9 @@ errors.
 * [Trees](./cheatsheet_trees.pdf)
 * [Relations](./cheatsheet_relations.pdf)
 * [Equivalence Relations & Classes](./cheatsheet_equivalence.pdf)
+* [Combinatorics](/level-4/computational-mathematics/student-notes/fabio-lama/cheatsheet_probability_combinatorics.pdf)
+  * (covered in the Authors _Computational Mathematics_ module notes)
+* [Binomial Coefficients & Identities](./cheatsheet_binomial_coefficients.pdf)
 
 # Building
 
