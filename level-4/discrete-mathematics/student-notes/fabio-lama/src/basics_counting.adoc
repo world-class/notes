@@ -1,8 +1,0 @@
-= Cheatsheet - Basics of Counting
-Fabio Lama <fabio.lama@pm.me>
-:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
-:doctype: article
-:sectnums: 4
-:stem:
-
-TODO...
