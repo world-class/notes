@@ -160,4 +160,4 @@ s = (A, B, C)\
 == Time Complexity
 
 .Source: https://youtu.be/47GRtdHOKMg
-image::assets/time_complexity.jpg[align=center, width=600]
+image::assets/time_complexity.jpg[align=center, width=500]
