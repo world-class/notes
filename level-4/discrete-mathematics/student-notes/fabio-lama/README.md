@@ -66,7 +66,7 @@ The Presented Documents ("cheatsheets") by the Author ("Fabio Lama") are
 summaries of specific topics. The term "cheatsheet" implies that the Presented
 Documents are intended to be used as learning aids or as references for
 practicing and does not imply that the Presented Documents should be used for
-inappropriate practices during exams such as cheating or other offences.
+inappropriate practices during exams such as cheating or other offenses.
 
 The Presented Documents are heavily based on the learning material provided by
 the University of London, respectively the VLeBooks Collection database in the
