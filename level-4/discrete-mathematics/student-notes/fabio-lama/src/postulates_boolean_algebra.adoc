@@ -1,0 +1,155 @@
+= Cheatsheet - Postulates of Boolean Algebra
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Boolean algebra describes the field of study where the values of variables are
+_true_ or _false_. The following operators are used:
+
+* **AND**: represented as stem:[x.y, x nn y] or stem:[x ^^ y]
+* **OR**: represented as stem:[x + y, x uu y] or stem:[x vv y]
+* **NOT**: represented as stem:[x', bar x] or stem:[not x]
+
+Order of precedence: stem:["NOT" > "AND" > "OR"]
+
+== Axioms
+
+The following axioms must be satisfied by any boolean algebra:
+
+* **closure**: any result of logical operations belongs to the set stem:[{0, 1}]
+(_true_ or _false_).
+* **identity**: elements have an identity for the applied operator:
+	** stem:[x + 0 = x]
+	** stem:[x . 1 = x]
+* **commutativity**: the order of the applied operators does not matter.
+	** stem:[x + y = y + x]
+	** stem:[x . y = y . x]
+* **distributivity**:
+	** stem:[x(y + z) = (x . y) + (x . z)]
+	** stem:[x + (y . z) = (x + y) . (x + z)]
+* **complements**: exist for all the elements
+	** stem:[x + x' = 1]
+	** stem:[x. x' = 0]
+* **distinct elements**:
+	** stem:[0 != 1]
+
+=== Basic Theorems
+
+Based on those axioms, we can establish basic theorems:
+
+Theorem 1: Idempotent Laws
+
+[stem]
+++++
+x + x = x\
+x. x = x
+++++
+
+Theorem 2: Tautology and Contradiction
+
+[stem]
+++++
+x + 1 = 1\
+x . 0 = 0
+++++
+
+Theorem 3: Involution
+
+[stem]
+++++
+(x')' = x
+++++
+
+Theorem 4: Associative Laws
+
+[stem]
+++++
+(x + y) + z = x + (y + x)\
+(x . y) . z = x . (y . z)
+++++
+
+Theorem 5: Absorption Laws
+
+[stem]
+++++
+x + (x . y) = x\
+x . (x + y) = x
+++++
+
+Theorem 6: Uniqueness of Complement
+
+[stem]
+++++
+"if " y + x = 1 " and " y . x = 0, " then " x = y'
+++++
+
+Theorem 7: Inversion Law
+
+[stem]
+++++
+0' = 1, 1' = 0
+++++
+
+=== De Morgans' Theorems
+
+[stem]
+++++
+bar (x.y) = bar x + bar y\
+bar (x + y)= bar x . bar y
+++++
+
+=== Principles of Duality
+
+Starting with a boolean relation, we can build another equivalent boolean
+relation by:
+
+* changing each stem:["OR"(+)] to an stem:["AND"(.)]
+* changing each stem:["AND"(.)] to an stem:["OR"(+)]
+* changing each _0_ to _1_ and each _1_ to _0_.
+
+For example:
+
+[stem]
+++++
+(a . 1) . (0 + bar a) = 0\
+-=\
+(a + 0) + (1 . bar a) = 1
+++++
+
+== Boolean Functions
+
+=== Standardized Forms of a Functions
+
+The two most common standardized forms are **sum-of-products** and
+**product-of-sums**.
+
+The **sum-of-products form**: stem:[f(x, y, z) = xy + xz + yz]
+The **product-of-sums form**: stem:[f(x, y, z) = (x + y)(x + z)(y + z)]
+
+For example:
+
+[stem]
+++++
+f(x, y) = x'y + xy' + xy
+++++
+
+=== Useful Functions
+
+The **exclusive-or** function:
+
+[stem]
+++++
+x o+ y = x'y + xy'
+++++
+
+The **implies** function:
+
+[stem]
+++++
+x -> y = x' + y
+++++
+

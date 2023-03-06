@@ -1,0 +1,282 @@
+= Cheatsheet - Set Theory
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Definition
+
+A set refers to an **unordered** collection of any kind of (abstract) **unique**
+objects, so called "elements", such as numbers, figures, things, etc.
+
+=== Basic Notation
+
+We have the set stem:[E] containing four elements:
+
+[stem]
+++++
+E = {1, 2, 3, 4}
+++++
+
+or set stem:[V]:
+
+[stem]
+++++
+V = {a, b, c, d, e, f}
+++++
+
+We can see that the element stem:[2] _is in_ stem:[E], respectively:
+
+[stem]
+++++
+2 in E
+++++
+
+but _not in_ stem:[V]
+
+[stem]
+++++
+2 !in V
+++++
+
+== Cardinality
+
+Given the set stem:[S], the **cardinality** of stem:[S] is the number of
+elements contained in stem:[S]. We write the cardinality of stem:[S] as
+stem:[|S|].
+
+[stem]
+++++
+S = {a, b, c}\
+|S| = 3
+++++
+
+and the following **empty** set:
+
+[stem]
+++++
+S = O/ = {}\
+|S| = 0
+++++
+
+== Subset and Superset
+
+We have set stem:[E] and stem:[{1, 2}] is a **subset** (stem:[sube]) of stem:[E].
+We can also say that stem:[E] is a **superset** (stem:[supe]) of stem:[{1, 2}].
+The set stem:[{a, b}] is **not** a subset (latexmath:[\not \subseteq]) of stem:[E],
+however.
+
+[latexmath]
+++++
+E = \{1, 2, 3, 4\}\\
+E \subseteq E\\
+E \supseteq E\\
+\{1, 2\} \subseteq E\\
+E \supseteq \{1, 2\}\\
+\{a, b\} \not \subseteq E\\
+E \not \supseteq \{a, b\}\\
+E \not \supseteq \{1, 2, 3, 4, 5\}
+++++
+
+Importantly, we distinguish between a subset (stem:[sube]) and a **proper
+subset** (stem:[sub]):
+
+[latexmath]
+++++
+\{1, 2, 3\} \subset E\\
+\{1, 2, 3, 4\} \not \subset E\\
+\{1, 2, 3, 4\} \subseteq E
+++++
+
+Do note that any set also contains an empty subset:
+
+[stem]
+++++
+({} = O/) sube E
+++++
+
+== Special Sets
+
+Commonly defined and used sets in mathematics:
+
+[stem]
+++++
+NN = {1, 2, 3, 4, ...} " natural numbers"\
+bbb W = {0, 1, 2, 3, ...} " whole numbers"\
+ZZ = {..., -1, 0, 1, 2, ...} " integers (no fractions)"\
+QQ = {..., -1, -(1/2), 0, 2/3, 1, ...} " rational numbers"\
+RR = " real numbers (non complex-numbers)"
+++++
+
+Note that infinite numbers are _irrational numbers_ and are not part of
+stem:[QQ], such as stem:[pi !in QQ].
+
+Additionally:
+
+[stem]
+++++
+NN sub ZZ sub QQ sub RR
+++++
+
+== Set Builder
+
+We define:
+
+[stem]
+++++
+E = {1, 2, 3, 4}
+++++
+
+and use the set builder to create a new set, for example:
+
+[stem]
+++++
+V = {2n | n in E}\
+V = {2, 4, 6, 8}
+++++
+
+Read as "each element set stem:[V] is two times stem:[n] for each stem:[n] in
+set stem:[E]".
+
+We now define the set stem:[J]:
+
+[stem]
+++++
+J = {2n | n in E " and " n < 3}\
+J = {2, 4}
+++++
+
+== Powerset
+
+Given a set stem:[S], the powerset of that set is denoted as stem:[P(S)] and
+contains all subsets of stem:[S]:
+
+[stem]
+++++
+S = {a, b}\
+P(S) = {O/, {a}, {b}, {a, b}}
+++++
+
+since
+
+[stem]
+++++
+O/ sube S\
+{a} sube S\
+{b} sube S\
+{a, b} sube S
+++++
+
+=== Cardinality of a powerset
+
+We define:
+
+[stem]
+++++
+|P(S)| = 2^(|S|)
+++++
+
+For example:
+
+[stem]
+++++
+S = {1, 2, 3}\
+|S| = 3\
+P(S) = {O/, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}\
+|P(S)| = 2^3 = 8
+++++
+
+== Set Operations
+
+.Venn Diagram, source: https://www.embibe.com/exams/set-theoretic-approach/
+image::assets/set_operations.png[width=400, align="center"]
+
+=== Union
+
+Given two sets stem:[A] and stem:[B], the union of stem:[A] and stem:[B],
+stem:[A uu B], contains all the element in **either** stem:[A] and stem:[B].
+
+[stem]
+++++
+A uu B = {x | x in A " or " x in B}
+++++
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {4, 5, 6}\
+A uu B = {1, 2, 3, 4, 5, 6}
+++++
+
+and
+
+[stem]
+++++
+A = {1, 2, 3}\
+C = {2, 3, 4}\
+A uu C = {1, 2, 3, 4}
+++++
+
+=== Intersection
+
+Given two sets stem:[A] and stem:[B], the intersection of stem:[A] and stem:[B],
+stem:[A nn B], contains all the elements in both stem:[A] **and** stem:[B].
+
+[stem]
+++++
+A nn B = {x | x in A " and " x in B}
+++++
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {2, 3, 4}\
+A nn B = {2, 3}
+++++
+
+=== Set Difference
+
+Given two sets stem:[A] and stem:[B], the set difference, stem:[A - B], contains
+the elements that are in stem:[A] but not in stem:[B].
+
+[stem]
+++++
+A - B = {x | x in A " and " x !in B}
+++++
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {2, 3, 4}\
+A - B = {1}
+++++
+
+NOTE: stem:[A - B = A \\ B]
+
+=== Symmetric Difference
+
+Given two sets stem:[A] and stem:[B], the symmetric difference, stem:[A o+ B],
+contains the elements that are in stem:[A] or in stem:[B] but **not in both**.
+
+[stem]
+++++
+A o+ B = {x | (x in A " or " x in B) " and " x !in A nn B}
+++++
+
+For example
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {2, 3, 4}\
+A o+ B = {1, 4}
+++++
+
+NOTE: stem:[A o+ B = A Delta B]

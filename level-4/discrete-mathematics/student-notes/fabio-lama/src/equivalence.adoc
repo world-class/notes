@@ -1,0 +1,61 @@
+= Cheatsheet - Equivalence Relations & Classes
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+NOTE: You should read the cheatsheet on _Relations_, too.
+
+== Definitions
+
+=== Equivalence Relation
+
+Let stem:[R] be a relation of elements on set stem:[S]. stem:[R] is an
+**equivalence relation** if and only if stem:[R] is **reflexive**, **symmetric**
+and **transitive**.
+
+=== Equivalence Classes
+
+Let stem:[R] be an **equivalence relation** on a set stem:[S]. Then, the
+**equivalence class** of stem:[a in S] is the **subset** of stem:[S] containing
+all the **elements related** to stem:[a] through stem:[R]:
+
+[stem]
+++++
+[a] = {x: x in S " and " xRa}
+++++
+
+For example:
+
+[stem]
+++++
+S = {1, 2, 3, 4, 5}\
+R = {(a, b) in S^2 | a - b " is an even number" }
+++++
+
+The set stem:[R] has two equivalence classes:
+
+[stem]
+++++
+[1] = [3] = [5] = {1, 3, 5}\
+[2] = [4] = {2, 4}
+++++
+
+== Partial & Total Order
+
+Let stem:[R] be a relation on elements in a set stem:[S]. stem:[R] is a
+**partial order** if and only if stem:[R] is **reflexive**, **anti-symmetric**
+and **transitive**.
+
+Additionally, stem:[R] is a **total** order if and only if:
+
+* stem:[R] is a **partial order**.
+* stem:[AA (a, b) in S] we have **either** stem:[aRb] **or** stem:[bRa].
+
+For example, the following relation is a total order:
+
+[stem]
+++++
+R = {(a, b) in ZZ^2 | a <= b}
+++++

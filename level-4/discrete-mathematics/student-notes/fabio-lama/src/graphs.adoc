@@ -1,0 +1,217 @@
+= Cheatsheet - Graphs
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Graphs are **discrete** structures consisting of **vertices (nodes)** and
+**edges** connecting them. Graph theory is an area of discrete mathematics which
+studies these types of discrete structures.
+
+The **graph** stem:[G] can be represented as an ordered pair stem:[G = (V, E)],
+where stem:[V] is a set of nodes/vertices and stem:[E] is a set of edges, lines
+or connections. A **vertex** (singular of "vertices") is a basic element of a graph,
+usually drawn as a node or a dot. The set of vertices of stem:[G] is usually
+denoted by stem:[V(G)] or stem:[V].
+
+image::./assets/graphs/vertex.png[align=center, width=250]
+
+An **edge** is a link between 2 vertices, usually drawn as a line connecting two
+vertices. The set of edges in a graph stem:[G] is usually denoted by stem:[E(G)]
+or stem:[E].
+
+image::./assets/graphs/edge.png[align=center, width=500]
+
+Two vertices are said to be **adjacent** if they are endpoints of the same edge.
+Two edges are said to be **adjacent** if they share the same vertex. If a vertex
+stem:[v] is an endpoint of an edge stem:[e], then we say that stem:[e] and
+stem:[v] are **incident**.
+
+A **directed graph**, also called a **digraph**, is a graph in which the edges
+have a direction. This is usually indicated with an arrow on the edge.
+
+=== Examples
+
+image::./assets/graphs/graph_example_1.png[align=center, width=500]
+
+image::./assets/graphs/graph_example_2.png[align=center, width=500]
+
+And an example of a directed graph:
+
+image::./assets/graphs/graph_example_3.png[align=center, width=500]
+
+== Concepts
+
+=== Walk
+
+A **walk** is a sequence of vertices and edges of a graph were vertices and
+edges can be repeated. A **walk of length k** in a graph is a succession of
+stem:[k] (not necessarily different) edges of the form stem:[uv, vw, wx, ...,
+yz].
+
+image::./assets/graphs/graph_walk.png[align=center, width=600]
+
+=== Trail
+
+A **trail** is a walk in which no edge is repeated. In a trail, vertices can be
+repeated but no edge is ever repeated. For example, stem:[e1, e2, e3, e5, e6]
+is a trail:
+
+image::./assets/graphs/graph_trail.png[align=center, width=350]
+
+=== Circuit
+
+A **circuit** is a closed trail. Circuits can have repeated vertices only. For
+example, stem:[e7,e6, e8, e3, e2, e1] is a circuit:
+
+image::./assets/graphs/graph_circuit.png[align=center, width=350]
+
+=== Path
+
+A **path** is a trail in which neither vertices nor edges are repeated.
+
+=== Cycle
+
+A **cycle** is a closed path, consisting of edges and vertices where a vertex is
+reachable from itself.
+
+image::./assets/graphs/graph_cycle.png[align=center, width=500]
+
+=== Eulerian Path
+
+A **Eulerian path** in a graph is a path that uses each edge precisely once. If
+such a path exists, the graph is called **traversable**.
+
+image::./assets/graphs/graph_euler_path.png[align=center, width=550]
+
+=== Hamiltonian Path, Cycle & Graph
+
+A **Hamiltonian path** (also called a _traceable path_) is a path that visits
+each vertex exactly once. A **Hamiltonian cycle** is a cycle that visits each
+vertex exactly once (except for the starting vertex, which is visited once at
+the start and once again at the end).
+
+image::./assets/graphs/graph_hamiltonian_cycle.png[align=center, width=450]
+
+A graph that contains a Hamiltonian cycle is called a **Hamiltonian graph**. Any
+Hamiltonian cycle can be converted to a Hamiltonian path by removing one of its
+edges.
+
+=== Connectivity
+
+An **undirected** graph is **connected** if you can get from **any node to any other**
+by following a **sequence of edges**. Or, **any two nodes** are **connected** by a path.
+
+image::./assets/graphs/graph_connectivity.png[align=center, width=350]
+
+A directed graph is **strongly connected** if there is a **directed path** from
+any node to any other node.
+
+image::./assets/graphs/graph_strong_connectivity.png[align=center, width=400]
+
+=== Transitive Close
+
+Given a digraph stem:[G], the transitive closure of stem:[G] is the digraph
+stem:[G^**] such that stem:[G^**] has the same vertices as stem:[G]. If
+stem:[G] has a directed path from stem:[u] to stem:[v] (stem:[u != v]),
+stem:[G^**] has a directed edge from stem:[u] to stem:[v].
+
+image::./assets/graphs/graph_transitive_closure.png[align=center, width=650]
+
+== Degree of a Vertex
+
+The degree of a vertex is the number of edges incident on stem:[v]. A loop
+contributes **twice** to the degree. An **isolated vertex** has a degree of
+stem:[0].
+
+image::./assets/graphs/degree_vertex.png[align=center, width=400]
+
+In the case of directed graphs, stem:["In-deg"(v)] is the number of edges for
+which stem:[v] is the terminal vertex. stem:["Out-deg"(v)] is the number of
+edges for which stem:[v] is the initial vertex.
+
+And the degree stem:["deg"(v)] is:
+
+[stem]
+++++
+"deg"(v) = "Out-deg"(v) + "In-deg"(v)
+++++
+
+A loop contributes **twice** to the degree as it contributes stem:[1] to both
+in-degree and out-degree.
+
+image::./assets/graphs/degree_in_out_vertex.png[align=center, width=400]
+
+=== Degree Sequence
+
+Given an undirected graph stem:[G], a **degree sequence** is a **monotonic
+non-increasing** sequence of the vertex degrees of all the vertices of stem:[G].
+The **sum of the degree sequence** of a graph is always **even**.
+
+image::./assets/graphs/degree_sequence.png[align=center, width=450]
+
+Given a graph stem:[G], the sum of the degree sequence of stem:[G] is twice the
+number of edges in stem:[G].
+
+[stem]
+++++
+"Number of edges of "G = ("sum of degree sequences of " G)/2
+++++
+
+== Special Graphs
+
+=== Simple Graphs
+
+A **simple graph** is a graph without **loops** and **parallel** edges.
+
+image::./assets/graphs/simple_graphs.png[align=center, width=500]
+
+Given a **simple** graph stem:[G] with stem:[n] vertices, then the degree of
+each vertex of stem:[G] is at most equal to stem:[n-1].
+
+=== Regular Graphs
+
+A graph is said to be **regular** of degree if all local degrees are the same
+number. A graph stem:[G] where all the vertices are of the same degree,
+stem:[r], is called an **r-regular** graph.
+
+image::./assets/graphs/regular_graphs.png[align=center, width=550]
+
+Given a **r-regular** graph stem:[G] with stem:[n] vertices, then the following
+is true:
+
+[stem]
+++++
+"Degree sequence of " G = r, r, r, ..., r " " (n " times")\
+"Sum of degree sequence of " G = r xx n\
+"Number of edges in " G = r xx n/2
+++++
+
+image::./assets/graphs/regular_graphs_example.png[align=center, width=350]
+
+=== Special Regular Graphs: Cycles
+
+image::./assets/graphs/graph_regular_cycles.png[align=center, width=350]
+
+=== Complete Graphs
+
+A **complete graph** is a **simple** graph where **every pair of vertices** are
+**adjacent** (linked with an edge). We represent a complete graph with stem:[n]
+vertices using the symbol stem:[K_n].
+
+image::./assets/graphs/graph_complete.png[align=center, width=450]
+
+A complete graph with stem:[n] vertices, stem:[k_n], has the following
+properties:
+
+[stem]
+++++
+"Every vertex has a degree " (n-1)\
+"Sum of degree sequence" = n(n-1)\
+"Number of edges" = (n(n-1))/n
+++++
+
+image::./assets/graphs/graph_complete_example.png[align=center, width=350]

@@ -1,0 +1,211 @@
+= Cheatsheet - Universal Set, Complement and Laws
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1020- Discrete Mathematics, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+A universal set is a set that contains everything. We note the universal set
+with the letter stem:[U].
+
+[stem]
+++++
+A sube U
+++++
+
+== Complement of a Set
+
+The complement of set stem:[A] contains all elements of stem:[U] but not
+stem:[A].
+
+[stem]
+++++
+bar A = U-A
+++++
+
+and therefore:
+
+[stem]
+++++
+bar A uu A = U
+++++
+
+For example:
+
+[stem]
+++++
+U = {1, 2, 3, 4}\
+A = {1, 2}\
+bar A = {3, 4}\
+A uu bar A = {1, 2, 3, 4} = U
+++++
+
+== De Morgan's Law
+
+The complement of the **union** of two sets stem:[A] and stem:[B] is equal to the
+**intersection** of their complements.
+
+[stem]
+++++
+bar (A uu B) = bar A nn bar B
+++++
+
+The complement of the **intersection** of two sets stem:[A] and stem:[B] is equal to
+the **union** of their complements.
+
+[stem]
+++++
+bar (A nn B) = bar A uu bar B
+++++
+
+For example:
+
+[stem]
+++++
+U = {1, 2, 3, 4, 5, 6, 7, 8}\
+A = {1, 2, 3, 4} " and " B = {4, 5, 6}\
+A uu B = {1, 2, 3, 4, 5, 6} " and " A nn B = {4}\
+bar (A uu B) = {7, 8} " and " bar (A nn B) = {1, 2, 3, 5, 6, 7, 8}\
+bar A = {5, 6, 7, 8} " and " bar B = {1, 2, 3, 7, 8}
+++++
+
+We conclude:
+
+[stem]
+++++
+bar (A uu B) = {7, 8} = bar A nn bar B\
+bar (A nn B) = {1, 2, 3, 5, 6, 7, 8} = bar A uu bar B
+++++
+
+== Laws of Sets
+
+=== Commutativity
+
+Unions, intersections and symmetric differences are commutative.
+
+[stem]
+++++
+A uu B = B uu A\
+A nn B = B nn A\
+A o+ B = B o+ A
+++++
+
+Set difference is **not** commutative.
+
+[stem]
+++++
+A - B != B -A
+++++
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {3, 4, 5}\
+A - B = {1, 2}\
+B -A = {4 , 5}
+++++
+
+=== Associativity
+
+Unions, intersections and symmetric differences are associative.
+
+[stem]
+++++
+A uu (B uu C) = (A uu B) uu C\
+A nn (B nn C) = (A nn B) nn C\
+A o+ (B o+ C) = (A o+ B) o+ C
+++++
+
+Set difference is **not** associative:
+
+[stem]
+++++
+A - (B - C) != (A - B - C)
+++++
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {3, 4, 5}\
+C = {3}\
+A - (B - C) = {1, 2, 3}\
+(A - B) - C = {1, 2}
+++++
+
+=== Distributive
+
+Unions and  intersections are distributive.
+
+[stem]
+++++
+A uu (B nn C) = (A uu B) nn (A uu C)\
+A nn (B uu C) = (A nn B) uu (A nn C)
+++++
+
+== Set Identities
+
+=== Unions
+
+[stem]
+++++
+A uu B = B uu A\
+(A uu B) uu C = A uu (B uu C)\
+A uu (B nn C) = (A uu B) nn (A uu C)\
+bar (A uu B) = bar A nn bar B\
+A uu O/ = A\
+A uu U = U\
+A uu bar A = U\
+bar U = O/\
+bar bar A = A\
+A uu (A nn B) = A\
+A - B = A nn bar B
+++++
+
+=== Intersections
+
+[stem]
+++++
+A nn B = B nn A\
+(A nn B) nn C = A nn (B nn C)\
+A nn (B uu C) = (A nn B) uu (A nn C)\
+bar (A nn B) = bar A uu bar B\
+A nn O/ = O/\
+A nn U = A\
+A nn bar A = O/\
+bar O/ = U\
+A nn (A uu B) = A
+++++
+
+== Partition Set
+
+The two sets stem:[A] and stem:[B] are **disjoint** if and only if stem:[A nn B = O/].
+
+For example:
+
+[stem]
+++++
+A = {1, 2, 3}\
+B = {4, 5, 6}\
+A nn B = O/ " (disjoint)"
+++++
+
+The set stem:[A] consists of subsets stem:[A_1, A_2] and stem:[A_3] such that those
+subsets are disjoint and the union of all those subsets is equal to stem:[A]:
+
+[stem]
+++++
+A = {1, 2, 3, 4, 5, 6, 7, 8}\
+A_1 = {1, 2, 3}\
+A_2 = {4, 5, 6}\
+A_3 = {7, 8}\
+A_1 nn A_2 nn A_3 = O/\
+A = A_1 uu A_2 uu A_3
+++++
+
+Hence, stem:[A_1, A_2] and stem:[A_3] are **partitions** of set stem:[A].
