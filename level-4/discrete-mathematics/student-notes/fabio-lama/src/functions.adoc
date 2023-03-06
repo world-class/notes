@@ -109,7 +109,7 @@ f(x) = y =>\
 x = (y -3)/2
 ++++
 
-Hence, function stem:[f] is surjective (TODO: clarify this).
+Hence, function stem:[f] is surjective.
 
 == Composition
 

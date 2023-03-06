@@ -57,8 +57,6 @@ The coefficient of stem:[x^8 y^7] in the expansion is obtained when stem:[k=8]:
 ((15),(8)) (3)^8 (-1)^7 = -3^8 (15!)/(8!7!)
 ++++
 
-TODO: Expand on this.
-
 === Pascal's Identity
 
 If stem:[n] and stem:[k] are integers with stem:[n >= k >= 1], then:

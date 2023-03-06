@@ -70,9 +70,7 @@ inappropriate practices during exams such as cheating or other offences.
 
 The Presented Documents are heavily based on the learning material provided by
 the University of London, respectively the VLeBooks Collection database in the
-Online Library, especially on the books:
-
-* TODO
+Online Library and the material provided on the Coursera platform.
 
 The Presented Documents may incorporate direct or indirect definitions,
 examples, descriptions, graphs, sentences and/or other content used in those

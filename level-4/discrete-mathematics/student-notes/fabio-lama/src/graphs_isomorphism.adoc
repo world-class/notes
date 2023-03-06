@@ -52,7 +52,3 @@ in an **undirected** graph is equal to half the sum of all the elements
 (stem:[m_(ij)]) of it's corresponding adjacency matrix.
 
 image::./assets/graphs/adjacency_matrix.png[align=center, width=550]
-
-TODO: Adjacency matrix of a digraph
-
-TODO: Dijkstra's algorithm
