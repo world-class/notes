@@ -16,11 +16,12 @@ errors.
 * [Context-Free Languages](./cheatsheet_context_free_languages.pdf)
 * [Turing Machines](./cheatsheet_turing_machines.pdf)
 * [Recursion](./cheatsheet_recursion.pdf)
-	* _NOTE_ that some topics discussed in the _Algorithms I/II_ weeks were
+	* NOTE: some topics discussed in the _Algorithms I/II_ weeks were
 	skipped given that those were somewhat redundant with the _Algorithms and
 	Data Structures I_ module. Some of the algorithms are worth it to be studied
 	independently, however, such as the Gale-Shapely algorithm for stable
 	matching, etc.
+* NOTE: Complexity theory is not covered by the cheatsheets.
 
 # Building
 
