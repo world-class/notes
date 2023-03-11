@@ -1,0 +1,189 @@
+= Cheatsheet - Context-Free Languages
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+Context-free grammar defines a set of rules for connecting strings together,
+which is another way of representing languages. It works recursively describing
+the structure of the strings.
+
+== Definition
+
+A **context-free grammar** is a 4-tuple stem:[(V, Sigma, R, S)] where:
+
+* **Variables**: a finite set of symbols, denoted stem:[V].
+* **Terminals**: a finite set of letters, denoted by stem:[Sigma], which is
+disjoint from stem:[V].
+* **Rules**: a finite set of mappings, denoted by stem:[R], with each rule being
+a variable and a string of variables and terminals.
+* **Start variable**: a member of stem:[V], denoted by stem:[S]. It is usually
+the variable on the left-hand side of the top rule.
+
+== Generating Strings
+
+. Start from the **starting symbol**, read its rule.
+. Find a **variable** in the rule of the starting symbol and **replace it** with
+**a rule** of that variable.
+. **Repeat step 2** until there are no variables left.
+
+A **derivation** is a sequence of substitutions in generating a string. There
+may be more than one rule for a variable. Then we can use the "stem:[|]" symbol
+to indicate "or".
+
+For example:
+
+[stem]
+++++
+S -> bSa | ba
+++++
+
+Respectively:
+
+[stem]
+++++
+S -> bSa\
+S -> ba\
+S => bSa => b baa\
+S => bSa => b bSaa => b b baaa\
+S => bSa => b bSaa => b b bSaaa => b b b baaaa
+++++
+
+We say stem:[u] **derives** stem:[v], or stem:[u =>^** v] if there is a
+derivation from stem:[u] to stem:[v].
+
+=== Example
+
+[stem]
+++++
+S -> aS|T\
+T -> b|epsilon
+++++
+
+== Language of a Grammar
+
+The language of grammar is all the strings that can be derived from the
+starting symbol using the rules of the grammar.
+
+The formal definition is:
+
+[stem]
+++++
+"If " G = (V, Sigma, R, S) " then " L(G) = {w in Sigma^** | S =>^** w}
+++++
+
+=== Example
+
+We have the grammar stem:[G_2]:
+
+[stem]
+++++
+S -> aS|T\
+T -> b|epsilon
+++++
+
+A few strings in stem:[L(G_2)]: stem:[a, ab, b, epsilon, aa, aab], and **not**
+in stem:[L(G_2)]: stem:[ba, ab b, aab b].
+
+We define it formally:
+
+[stem]
+++++
+L(G_2) = a^** uu a^** b = {a^i b^j | 0 <= i, 0 <= j <= 1}
+++++
+
+== Converting from Regular Expressions
+
+=== Example 1
+
+Let's convert stem:[ab^**] to a context-free language:
+
+* stem:[b^**] can be written as stem:[U -> bU|epsilon]
+* stem:[ab^**] can be written as stem:[S -> aU]
+
+In other words:
+
+[stem]
+++++
+S -> aU\
+U -> bU|epsilon
+++++
+
+=== Example 2
+
+Let's convert stem:[ab^** uu b^**] to a context-free language:
+
+* stem:[b^**] can be written as stem:[U -> bU|epsilon]
+* stem:[ab^**] can be written as stem:[S -> aU]
+* stem:[uu] is just an "or", which can be written as stem:[|]
+
+In other words:
+
+[stem]
+++++
+S -> aU|U\
+U -> bU|epsilon
+++++
+
+=== Example 3
+
+Let's convert stem:[ab^+ uu b^+ b] to a context-free language:
+
+* stem:[b^+] can be written as stem:[U -> bU|b]
+* stem:[ab^+] can be written as stem:[S -> aU]
+* stem:[b^+b] can be written as stem:[S -> bU]
+* stem:[uu] is just an "or", which can be written as stem:[|]
+
+In other words:
+
+[stem]
+++++
+S -> aU|bU\
+U -> bU|b
+++++
+
+=== Example 4
+
+Let's convert stem:[Sigma^** a Sigma^**], where stem:[Sigma = {a, b}], to
+context-free language:
+
+* Strings starting with stem:[a], stem:[U -> aX, X in Sigma^**]
+* Strings starting with stem:[b], stem:[U -> bX, X in Sigma^**]
+* Empty string, stem:[U -> epsilon]
+
+In other words:
+
+[stem]
+++++
+S -> UaU\
+U -> aU|bU|epsilon
+++++
+
+=== Example 5
+
+Let's convert stem:[Sigma Sigma Sigma^+], a binary string of at least three
+in length, to context-free language:
+
+* stem:[Sigma^+ = (a uu b)^+] which can be written as stem:[U -> aU|bU|a|b]
+* stem:[Sigma Sigma^+] can be written as stem:[V -> aU|bU]
+* stem:[Sigma Sigma Sigma^+] can be written as stem:[S -> aV|bV]
+
+In other words:
+
+[stem]
+++++
+S -> aV|bV\
+V -> aU|bU\
+U -> aU|bU|a|b
+++++
+
+Or, alternatively:
+
+[stem]
+++++
+S -> aaU|abU|baU|b bU\
+U -> aU|bU|a|b
+++++

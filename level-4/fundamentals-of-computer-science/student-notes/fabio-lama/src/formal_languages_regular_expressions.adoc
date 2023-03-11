@@ -1,0 +1,164 @@
+= Cheatsheet - Formal Languages & Regular Expressions
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+NOTE: Make sure to check the _Automata Theory_ cheatsheet, too.
+
+== Regular Operations
+
+Let stem:[L_1] and stem:[L_2] be languages. The following operations are regular operations:
+
+* Union: stem:[L_1 uu L_2 = {x|x in L_1 " or " x in L_2}]
+* Concatenation: stem:[L_1 @ L_2 = {xy|x in L_1 " and " y in L_2}]
+* Star: stem:[L_1^** = {x_1 x_2 ... x_m | m >= 0, "each " x_1 in L_1}]
+
+For example:
+
+[stem]
+++++
+A = {a, b, c}\
+B = {x, y, z}\
+A uu B = {a, b, c, x, y, z}\
+A @ B = {ax, ay, az, bx, by, bz, cx, cy, cz}\
+A^** = {epsilon, a, b, c, aa, ab, ac, ba, b b, bc, ca, ...}
+++++
+
+Where stem:[epsilon] means "none".
+
+=== Properties
+
+==== Union
+
+[stem]
+++++
+A uu B = B uu A " (commutative)"\
+(A uu B) uu C = A uu (B uu C) " (associative)"\
+A uu O/ = A\
+A uu A = A " (idempotent)"
+++++
+
+==== Concatenation
+
+[stem]
+++++
+(A @ B) @ C = A @ (B @ C) " (associative)"\
+A @ epsilon = epsilon @ A = A\
+A @ O/ = O/
+++++
+
+_Note that concatenation is not commutative_.
+
+==== Concatenation and Union
+
+[stem]
+++++
+(A uu B) @ C = (A @ C) uu (B @ C)\
+A @ (B uu C) = (A @ B) uu (A @ C)
+++++
+
+==== Kleene Star
+
+[stem]
+++++
+O/^** = {epsilon}\
+epsilon^** = epsilon\
+(A^**)^** = A^**\
+A^** @ A^** = A^**\
+(A uu B)^** = (A^** B^**)^**
+++++
+
+== Regular Expressions
+
+=== Atomic Expressions
+
+The empty language, stem:[O/], is a regular expression, which is the empty
+regular language. Any letter stem:[a in Sigma] is a regular expression and its
+language is stem:[{a}]. Empty string, stem:[epsilon], is a regular expression
+representing the regular language stem:[{epsilon}].
+
+* _Concatenation_: if stem:[R_1] and stem:[R_2] are regular expressions, so is stem:[R_1 @ R_2].
+* _Union_: if stem:[R_1] and stem:[R_2] are regular expressions, so is stem:[R_1 uu R_2].
+* _Kleene star_: if stem:[R] is a regular expression, so is stem:[R^**].
+
+==== Examples
+
+What is the language of stem:[ab^**]?
+
+[stem]
+++++
+{a, ab, a b b, ab b b, ...}
+++++
+
+What is the language of stem:[ab^** uu b^**]?
+
+[stem]
+++++
+{a, ab, a b b, a b b b, ... } uu {epsilon, b, b b, b b b, ... } = {epsilon, a, b, ab, b b, a b b, b b b, ...}
+++++
+
+What is the language of stem:[ab^+ uu b^+b]?
+
+[stem]
+++++
+{ab, a b b, a b b b, ...} uu {b b, b b b, b b b b, ... } = ab^** uu b^** // {a, epsilon, b} " (excluding " a, epsilon, b ")"
+++++
+
+What is the language of stem:[Sigma^** a]?
+
+[stem]
+++++
+{a, aa, ba, aaa, aba, baa, b b a, ...}
+++++
+
+What is the language of stem:[Sigma^** a Sigma^**]?
+
+[stem]
+++++
+{a, aa, ab, ba, aaa, aab, aba, a b b, baa, bab, b b a, ...}
+++++
+
+=== Regular & Non-Regular Languages
+
+* A language is **regular** if it can be accepted by a **finite automata**.
+* A language is **regular** is it can be accepted by a **regular expression**.
+* Every finite language is regular.
+
+Examples of a **non-regular** language:
+
+[stem]
+++++
+L = {a^n b^n | n in NN}\
+L = {x x|x in {a, b}^**}\
+L = {a^(n!) | n in NN}
+++++
+
+=== Pumping Lemma
+
+The Pumping Lemma proves whether a language is regular or not. If stem:[L] is a
+regular language, then there is a number stem:[p] (the pumping length) where, if
+**stem:[s] is any string in stem:[L] of length at least stem:[p]**, then
+stem:[s] may be divided into three pieces, stem:[s = xyz], satisfying the
+following conditions:
+
+* stem:[AA i >= 0, xy^i z in L]
+* stem:[|y| > 0]
+* stem:[|xy| <= p]
+
+This means that if the language is finite, it is regular, we choose stem:[p] to
+be the number of states in the finite automata representing stem:[L] and if
+stem:[|s| >= p], stem:[s] must have a repeated state (Pigeonhole Principle).
+
+For example, let's prove stem:[L = {a^n b^n | n in NN}] is not regular:
+
+* Assuming stem:[L] is regular. Let stem:[p] be the pumping length.
+* Let stem:[s = a^p b^p, |s| > p]
+* Pumping Lemma: stem:[s = xyz]
+* For any stem:[i, xy^i z in L]. Let us try stem:[i=2]
+* Cases:
+** 1.) stem:[y] is only stem:[a]'s. stem:[xyyz] will have more stem:[a]'s than stem:[b]'s
+** 2.) stem:[y] is only stem:[b]'s. stem:[xyyz] will have more stem:[b]'s than stem:[a]'s
+** 3.) stem:[y] has stem:[a]'s and stem:[b]'s. stem:[xyyz] will have stem:[a]'s and stem:[b]'s jumbled up.
+* Respectively, stem:[L] is **not** regular.

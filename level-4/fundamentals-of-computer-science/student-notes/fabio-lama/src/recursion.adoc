@@ -1,0 +1,102 @@
+= Cheatsheet - Recursion
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+When a function calls itself, we refer to this process as "recursion". A
+recursive formula can be useful to solve certain kinds of problems.
+
+=== Example Exercise
+
+.Disclaimer: The following exercise was solved by ChatGPT and includes direct quotes from its output.
+====
+> There are 10 steps and you can take either one step at the time or two steps at
+the time. How many ways are there to walk all 10 steps?
+
+Let stem:[S(n)] be the number of ways to walk stem:[n] steps by taking either one or two steps
+at a time. Then:
+
+[stem]
+++++
+S(n) = S(n-1) + S(n-2)
+++++
+
+The intuition behind this formula is that to walk stem:[n] steps, we can either
+take a single step and then walk the remaining stem:[n-1] steps, or take two
+steps and then walk the remaining stem:[n-2] steps. Therefore, the total number
+of ways to walk stem:[n] steps is the sum of the number of ways to walk
+stem:[n-1] steps and the number of ways to walk stem:[n-2] steps.
+
+We can use this recursive formula to calculate stem:[S(10)]:
+
+[stem]
+++++
+S(1) = 1\
+S(2) = 2\
+S(3) = S(2) + S(1) = 3\
+S(4) = S(3) + S(2) = 5\
+S(5) = S(4) + S(3) = 8\
+...\
+S(10) = 89
+++++
+
+NOTE: We define stem:[S(1) = 1] (only one way to walk one step) and stem:[S(2) = 2]
+(two ways to walk two steps, either one step at the time or two steps at once).
+Therefore, we don't use the recursive formula directly on stem:[S(1)] and
+stem:[S(2)].
+
+Therefore, there are 89 ways to walk all 10 steps by taking either one or two
+steps at a time.
+====
+
+== Euclid's Algorithm
+
+Consider the following: there are two non-zero integers stem:[a] and stem:[b],
+now lets find the greatest integer that divides stem:[a] and stem:[b] without
+leaving a remainder.
+
+With Euclid's algorithm, lets first assume that stem:[a >= b], then lets
+divide stem:[a] by stem:[b] and the remainder is stem:[r].
+
+**Importantly**:
+
+[stem]
+++++
+gcd(a, b) = gcd(b, r) = gcd(a, r)
+++++
+
+By using division once, we have stem:[b <= a, r < b] since the arguments of stem:[gcd]
+have decreased. We continue with this until stem:[r = 0], then stem:[b] is the
+final stem:[gcd].
+
+More formally:
+
+[stem]
+++++
+gcd(a, b) = {(gcd(b, |a mod b|), if b > 0),(a, if b = 0):}
+++++
+
+For example, if we want to solve stem:[gcd(27, 36)]:
+
+[stem]
+++++
+gcd(27, 36) = gcd(36, 27)\
+gcd(36, 27) = gcd(27, 9)\
+gcd(27, 9) = gcd(9, 0)\
+gcd(9, 0) = 9
+++++
+
+Or, if the numbers were reversed:
+
+[stem]
+++++
+gcd(36, 27) = gcd(27, 9)\
+gcd(27, 9) = gcd(9, 0)\
+gcd(9, 0) = 9
+++++
+
+Hence, stem:[gcd(27, 36) = gcd(36, 27) = 9].

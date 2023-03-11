@@ -1,0 +1,91 @@
+= Cheatsheet - Automata Theory
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Basics of (finite) Automata
+
+An **alphabet**, stem:[Sigma], is a non-empty set of symbols.
+
+[stem]
+++++
+Sigma = {0, 1} " binary alphabet"\
+Sigma = {a, b, ..., z} " collection of lowercase letters"
+++++
+
+A **string** or word is a finite sequence of letters drawn from an alphabet.
+**Empty strings**, stem:[epsilon], are strings with zero occurrences of letters.
+Empty strings can be from any alphabet.
+
+The **length** of a string stem:[x] is denoted as stem:[|x|]:
+
+[stem]
+++++
+x = '"hello"'\
+|x| = 5
+++++
+
+Other string related notations:
+
+* The set of **all strings** composed from the letters in stem:[Sigma] is denoted
+by stem:[Sigma^**].
+* The set of **all non-empty strings** composed from letters
+in stem:[Sigma] is denoted by stem:[Sigma^+]
+* The set of **all strings of length stem:[k]** composed from letters in stem:[Sigma] is denoted by stem:[Sigma^k].
+
+[stem]
+++++
+Sigma = {0, 1}\
+Sigma^** = {epsilon, 0, 1, 00, 01, 10, 11, ...}\
+Sigma^+ = {0, 1, 00, 01, 10, 11, ...}\
+Sigma^2 = {00, 01, 10, 11}
+++++
+
+Note that the size of stem:[Sigma^k] is denoted as stem:[|Sigma|^k].
+
+== Automaton
+
+A **finite automaton** is a simple mathematical machine; it is a representation
+of how computations are performed with _limited memory_ space. It is a model of
+computation, which consists of a set of states that are connected by
+transitions. It has an input and it has an output.
+
+An automaton stem:[M] is a 5-tuple (stem:[Q, Sigma, delta, q_0, F]) where:
+
+* stem:[Q] is a finite set called the **states**.
+* stem:[Sigma] is a finite set called **the alphabet**.
+* stem:[delta: Q xx E -> Q] is the **transition function**.
+* stem:[q_0 in Q] is the **start state**.
+* stem:[F sube Q] is the set of **accepted states**.
+
+.Note: Bottom right is the transition table. D is the only accepted state.
+image::assets/automaton_example.png[width=550, align="center"]
+
+For example, based on the automaton in the picture above:
+
+* Input stem:[0010] results in state stem:[D]; the input is **accepted** (stem:[D in F]).
+* Input stem:[0011] results in state stem:[A]; the input is **rejected**
+(stem:[A !in F]).
+
+=== Language of Automaton
+
+The set of all strings accepted by an automaton is called the **language** of
+that automaton. If stem:[M] is an automaton on alphabet stem:[Sigma], then
+stem:[cc L(M)] is the language of stem:[M]:
+
+[stem]
+++++
+cc L(M) = {x in Sigma^** | M " accepts " x}
+++++
+
+== Determinism
+
+The difference between Deterministic Finite Automata (DFA) and Nondeterministic
+Finite Automata (NFA) is that DFA has exactly one transition and there is a
+unique starting state, which is not the case in NFA (hence,
+**nondeterministic**). Generally, in NFA there are many choices at one
+particular point and an input is accepted if at least one sequence of choices
+leads to an accepting state.
+

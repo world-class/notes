@@ -1,0 +1,296 @@
+= Cheatsheet - (First-order) Predicate & Propositional Logic
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+**Predicates** describe properties of objects.
+
+For example:
+
+[stem]
+++++
+"odd"(3)
+++++
+
+stem:["odd"(3)] means stem:[3] is an odd number. stem:["odd"] is a predicate,
+stem:[3] is an object. Predicates take arguments and become **propositions**.
+A proposition is a statement that can be either _true_ or _false_. It must be
+one or the other, and it cannot be both.
+
+Connectives can be applied:
+
+[stem]
+++++
+"odd"(3) ^^ "prime"(3)
+++++
+
+This means that stem:[3] is odd but also prime.
+
+== Syntax
+
+Propositions are denoted by capital letters, such as stem:[P, Q, ...]. General
+statements are denoted by lowercase letters, such as stem:[p, q, ...]
+
+== Connectives
+
+**Logical NOT**: stem:[not p] is true if and only if stem:[p] is false (also
+called _negation_).
+
+**Logical OR**: stem:[p vv q] is true if and only if at least one of stem:[p] or
+stem:[q] is true or if both stem:[p] and stem:[q] are true (also called
+_disjunction_).
+
+**Logical AND**: stem:[p ^^ q] is true if and only if both stem:[p] and stem:[q]
+are true (also called _conjunction_).
+
+**Logical IF...THEN**: stem:[p -> q] is true if and only if either stem:[p] is
+false or stem:[q] is true (also called _conditional_ or _implication_). stem:[p]
+is the premise, stem:[q] is the conclusion.
+
+**Logical IF and only IF**: stem:[p harr q] is true if and only if both stem:[p]
+and stem:[q] are true (also called _bi-conditional_).
+
+**Exclusive OR: XOR**: stem:[p o+ q] is true if stem:[p] or stem:[q] is true but
+not both.
+
+=== Translation to Connectives
+
+As an example, lets consider the propositions:
+
+* stem:[P = "I study 20 hours a week"]
+* stem:[R = "I will pass the exam"]
+* stem:[S = "I will be happy"]
+* stem:[Q = "I attend all the lectures"]
+
+And the following connectives:
+
+[stem]
+++++
+(P vv Q) -> (R ^^ S)
+++++
+
+which is a translation of:  "**If** I study 20 hours a week **or** attend all
+the lectures, **then** I will pass the exam **and** I will be happy."
+
+== Truth Tables
+
+=== Negation: stem:[not]
+
+[stem]
+++++
+true = not false\
+false = not true
+++++
+
+=== Conjunction: stem:[^^]
+
+[stem]
+++++
+true ^^ true = true\
+true ^^ false = false\
+false ^^ true = false\
+false ^^ false = false
+++++
+
+=== Disjunction: stem:[vv]
+
+[stem]
+++++
+true vv true = true\
+true vv false = true\
+false vv true = true\
+false vv false = false
+++++
+
+=== Implication: stem:[->]
+
+[stem]
+++++
+true -> true = true\
+true -> false = false\
+false -> true = true \
+false -> false = true 
+++++
+
+====
+NOTE: This can seem weird at first, this answer helps: https://math.stackexchange.com/a/100288
+
+> If you start out with a false premise, then, as far as implication is
+concerned, you are free to conclude anything. (This corresponds to the fact
+that, when stem:[p] is false, the implication stem:[p -> q] is true no matter
+what stem:[q] is.)
+
+> If you start out with a true premise, then the implication should be true only
+when the conclusion is also true. (This corresponds to the fact that, when
+stem:[p] is true, the truth of the implication is the same as the truth of
+stem:[q].)
+====
+
+Additionally, let stem:[p] and stem:[q] be propositions and stem:[A] the conditional statement:
+
+[stem]
+++++
+p -> q
+++++
+
+then:
+
+* stem:[p] is called the **hypothesis** (or antecedent or premise) and stem:[q]
+is called the **conclusion** (or consequence).
+* The proposition stem:[q -> p] is the **converse** of stem:[A].
+* The proposition stem:[not q -> not p] is the **contrapositive** of stem:[A].
+
+=== Bi-conditional: stem:[harr]
+
+[stem]
+++++
+1 harr 1 = 1\
+1 harr 0 = 0\
+0 harr 1 = 0\
+0 harr 0 = 1
+++++
+
+=== Exclusive or: XOR, stem:[o+]
+
+[stem]
+++++
+1 o+ 1 = 0\
+1 o+ 0 = 1\
+0 o+ 1 = 1\
+0 o+ 0 = 0
+++++
+
+== Operator Precedence
+
+Operators are applied in the following order (ascending):
+
+. stem:[not]
+. stem:[^^]
+. stem:[vv]
+. stem:[->]
+. stem:[harr]
+
+For example:
+
+[stem]
+++++
+p -> p ^^ not q vv s -= (p -> ((p ^^ (not q)) vv s))
+++++
+
+== Descriptors
+
+A formula that's always true is called a **tautology**. A formula that is true
+for at least one scenario is **consistent**. A formula that's never true is
+**inconsistent**. A formula can also result in a **contradiction**.
+
+== Equivalances
+
+Formulas are equivalanent if they result in the same logical outcomes.
+
+For example (_De Morgan's Laws_):
+
+[stem]
+++++
+not (p ^^ q) -= not p vv not q\
+not (p vv q) -= not p ^^ not q
+++++
+
+For example:
+
+[stem]
+++++
+not (true ^^ true) -= false vv false -= false\
+not true vv not true -= not (true ^^ true) = not true = false
+++++
+
+== Quantifiers
+
+We use the symbol stem:[EE] to indicate the existence of something
+(**existential quantifier**).
+
+[stem]
+++++
+EE x " odd"(x)
+++++
+
+This means that there exists some stem:[x] that is odd.
+
+We denote the **universal quantifier** as stem:[AA].
+
+[stem]
+++++
+AA x  ("odd"(x) vv "even"(x))
+++++
+
+This meant that **for all** stem:[x] the number is either even or odd.
+
+Other examples, "All Ps are Qs":
+
+[stem]
+++++
+AA x (P(x) -> Q(x))
+++++
+
+And "No Ps are Qs":
+
+[stem]
+++++
+AA x (P(x) -> not Q(x))
+++++
+
+=== Quantifiers to Connectives
+
+stem:[EE x, P(x)] where stem:[x in {x_1, x_2, ..., x_n}] means that there exists
+some stem:[x] for which stem:[P(x)] is true.
+
+Denoted alternatively:
+
+[stem]
+++++
+EE x, P(x) -= P(x_1) vv P(x_2) vv ... vv P(x_3)
+++++
+
+We can also conclude:
+
+[stem]
+++++
+not EE x, P(x) -= not(P(x_1) vv P(x_2) vv ... vv P(x_3))\
+not EE x, P(x) -= not P(x_1) ^^ not P(x_2) ^^ ... ^^ not P(x_3)\
+not EE x, P(x) -= AA x, not P(x)
+++++
+
+==== De Morgan's Law for Negation
+
+[stem]
+++++
+not AA x P(x) -= EE x not P(x)\
+not EE P(x) -= AA x not P(x)
+++++
+
+== Laws of Propositional Logic
+
+=== Logic 1
+
+|===
+||**Disjunction**|**Conjunction**
+|idempotent laws|stem:[p vv p -= p]|stem:[p ^^ p -= p]
+|commutative laws|stem:[p vv q -= q vv p]|stem:[p ^^ q -= q ^^ p]
+|associative laws|stem:[(p vv q) vv r -= p vv (q vv r)]|stem:[(p ^^ q) ^^ r -= p ^^ (q ^^ r)]
+|distributive laws|stem:[p vv (q ^^ r) -= (p vv q) ^^ (p vv r)]|stem:[p ^^ (q vv r) -= (p ^^ q) vv (p ^^ r)]
+|identity laws|stem:[p vv F -= p]|stem:[p ^^ T -= p]
+|domination laws|stem:[p vv T -= T]|stem:[p ^^ F -= F]
+|===
+
+=== Logic 2
+
+|===
+||**Disjunction**|**Conjunction**
+|De Morgan's laws|stem:[not (p vv q) -= not p ^^ not q]|stem:[not (p ^^ q) -= not p vv not q]
+|absorption laws|stem:[p vv (p ^^ q) -= p]|stem:[p ^^ (p vv q) -= p]
+|negation laws|stem:[p vv not p -= T]|stem:[p ^^ not p -= F]
+|double negation law|stem:[not not p -= p]|
+|===

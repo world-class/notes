@@ -1,0 +1,144 @@
+= Cheatsheet - Proofs
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM1025 Fundamentals to Computer Science, started 25. October 2022
+:doctype: article
+:sectnums: 4
+:stem:
+
+== Intro
+
+A **proof** is a sequence of logical statements that explain why a statement is
+true (or not true). However, some statements are true even if they cannot be
+logically proven.
+
+== Direct Proof
+
+Direct proofs are easy because no particular technique is used. But it can be
+difficult to find a starting point.
+
+Lets consider the example:
+
+[stem]
+++++
+"even"(n) ^^ "even"(m) -> "even"(n+m)
+++++
+
+I.e. if both numbers are even, then the sum of both numbers is even, too.
+
+We can prove this: knowing that when an integer is even, it is twice another
+integer. We conclude:
+
+[stem]
+++++
+n = 2k, m = 2l\
+m+n = 2k+2l = 2(k+l) " (factored)"\
+k+l = t " (arbitrary name)"\
+m+n = 2t
+++++
+
+== Proof by Contradiction (Indirect Proof)
+
+Lets say we want to prove that a statement is true. We then assume that that
+statement is false. Proof by contradiction means we now have to arrive at a
+statement that contradicts our assumption (implying that the original statement is
+true).
+
+NOTE: The following example is from Quora: https://qr.ae/pvqpcu
+
+For example, consider the statement _"there is no largest number in the world"_.
+We now assume the opposite: _"stem:[N] is the largest number in the world"_.
+What happens if we multiply that number by itself?
+
+[stem]
+++++
+N xx N = N
+++++
+
+_..._ because we assume stem:[N] is the largest number in the world, meaning
+stem:[NxxN] cannot be bigger than stem:[N].
+
+We know that when we divide a number by itself, the result is stem:[1]:
+
+[stem]
+++++
+N/N = 1
+++++
+
+Respectively:
+
+[stem]
+++++
+(N xx N)/N = (N xx cancel(N))/cancel(N) = N = 1
+++++
+
+This implies that the largest number in the world is stem:[1], but we can prove
+by contradiction that:
+
+[stem]
+++++
+2 > 1
+++++
+
+Hence the original statement _"there is not largest number in the world"_ is correct.
+
+== Proof by Contrapositive (Indirect Proof)
+
+Lets say we want to prove the following statement:
+
+[stem]
+++++
+A -> B " is true"
+++++
+
+The **contrapositive** being:
+
+[stem]
+++++
+A -> B -= not B -> not A
+++++
+
+Now prove that stem:[not B -> not A] is true. Sometimes it's easier to prove the
+contrapositive of a statement.
+
+NOTE: The following example is from StackExchange: https://math.stackexchange.com/q/88565
+
+For example:
+
+[stem]
+++++
+x^2 != x -> x != 1
+++++
+
+is equivalent to:
+
+[stem]
+++++
+x = 1 -> x^2 = x
+++++
+
+Respectively, we can prove:
+
+[stem]
+++++
+1^2 = 1
+++++
+
+Hence, the original statement is true.
+
+== Proof by Induction
+
+If stem:[P(0)], stem:[P(k)] and stem:[P(k+1)] is true, then stem:[P(n)] is
+always true. In other words, if we can prove that the proposition is true for
+the first step, the next step and the one after that, then we can conclude that
+proposition is always true.
+
+For example, lets prove that for any positive integer stem:[n], the function
+stem:[n^3 + 2n] results in a number divisible by stem:[3].
+
+[stem]
+++++
+1^3 + 2xx1 = 1 + 2 = 3 -> 3/3 = 1\
+2^3 + 2xx2 = 8 + 4 = 12 -> 12/3 = 4\
+3^3 + 2xx3 = 27 + 6 = 33 -> 33/3 = 11\
+...
+++++
