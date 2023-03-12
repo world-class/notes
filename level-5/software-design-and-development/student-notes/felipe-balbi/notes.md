@@ -2140,7 +2140,7 @@ information. The difference lies in how the data is laid out.
 
 ## 14.0301 Automated black box testing
 
-Video games are a very complex piece of software without a large
+Video games are a very complex piece of software with a large
 amount of possibilities and combinations, because of that it
 becomes very hard to test the game mechanics to an adequate level.
 
