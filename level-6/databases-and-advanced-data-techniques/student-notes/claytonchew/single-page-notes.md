@@ -435,7 +435,7 @@ WHERE {
       **TP**: True Positives (correctly identified that attribute is present);<br/>
       ∴  `TP = TR * Precision` or `TP = TR - FP`<br/>
       **TN**: True Negatives (correctly identified that attribute is absent);<br/>
-      ∴ `TN = TR - (TP + FP + FN)`<br/>
+      ∴ `TN = Total Collection - AT`<br/>
       **FP**: False Positives (incorrectly identified that attribute is present);<br/>
       ∴ `FP = (TP / Precision) - TP` or `FP = TR - TP`<br/>
       **FN**: False Negatives (incorrectly classified that attribute is absent);<br/>
