@@ -428,6 +428,22 @@ WHERE {
     - **Speed**: Precompute feature are indices; Many searches are parellelisable (mapReduce); reduce dimensions – can increase speed and reduce irrelevant results.
     - **Search**: Spatial indexes of metric spaces can be very fast for retrieval; R-trees O(log n) retrieval; built in to some RDBMS packages.
 - **Measure Success**:
-    - **Precision**: proportion of positive results that are true positive, with few irrelevant entries. (user looks for a match)
-    - **Recall**: measures how high relevant results retrieved, with few not appearing in result set. (user looks for all matches)
-    - **F-measure**: a combined measure that balance precision and recall. (user looks for some matches)
+    - **AT**: Actual Total in the whole collection, including those haven't been classified (False Negatives);<br/>
+      ∴ `AT = (TP + FP) / Precision` or `AT = (TP + FN) / Recall`<br/>
+      **TR**: Total Retrieved (the resulting sample size that was retrieved);<br/>
+      ∴ `TR = TP + FP` or `TR = AT * Recall`<br/>
+      **TP**: True Positives (correctly identified that attribute is present);<br/>
+      ∴  `TP = TR * Precision`<br/>
+      **TN**: True Negatives (correctly identified that attribute is absent);<br/>
+      ∴ `TN = TR - (TP + FP + FN)`<br/>
+      **FP**: False Positives (incorrectly identified that attribute is present);<br/>
+      ∴ `FP = TR * (1 - Precision)`<br/>
+      **FN**: False Negatives (incorrectly classified that attribute is absent);<br/>
+      ∴ `FN = TR * (1 - Recall)`<br/>
+    - **Precision**: proportion of positive results that are true positive, with few irrelevant (false positive) entries. (user looks for a match);<br/>
+      ∴ **Precision** = `TP / (TP + FP)`
+    - **Recall**: proportion of how high relevant results retrieved, with few (false negative) not appearing in result set. (user looks for all matches);<br/>
+      ∴ **Recall** = `TP / (TP + FN)`
+    - **F1-measure**: a combined measure that balance precision and recall. (user looks for some matches);<br/>
+      ∴ **F1** = `(2 * Precision * Recall) / (Precision + Recall)
+
