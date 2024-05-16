@@ -76,7 +76,8 @@ Consider:
 . stem:["    " "    " "    " bb "return " i]
 . stem:["    " bb "return " -1]
 
-If we analyze this function one by one:
+A loop is not a single instruction, meaning we need to analyze the inner
+instructions carefully. If we analyze this function one by one:
 
 ==== Step 1.
 
@@ -141,9 +142,13 @@ To summarize all the steps:
 
 [stem]
 ++++
-7N + 5 + 5N + 1\
+7N + 5\
++ 5N\
++ 1\
 = 12N + 6
 ++++
 
 In **total**, this function has a time complexity of **12*N + 6 time units**.
-This means it's running time depends on the size of the input array. The bigger the array, the longer the runtime.
+This means it's running time depends on the size of the input array. The bigger
+the array, the longer the runtime. Additionally, we only create one new variable
+(i), so the space complexity is **1 space unit**.
