@@ -10,13 +10,13 @@ Fabio Lama <fabio.lama@pm.me>
 
 To analyze an algorithm, we must determine its processing and memory requirements. The processing requirement is the time complexity, and the memory requirement is the space complexity.
 
-== Counting Up Time And Space Units
+== Counting Up Time and Space Units
 
 === Simple Algorithm
 
 Consider:
 
-. stem:[bb "function " "F1"(tt "a, b, c")]
+. stem:[bb "function " "F1"(a, b, c)]
 . stem:["    " tt "max" = a]
 . stem:["    " bb "if " (b> tt "max")]
 . stem:["    " "    " tt "max" = b]
@@ -70,7 +70,7 @@ In **total**, this function has a time complexity of **16 time units**. The only
 
 Consider:
 
-. stem:[bb "function " "F2"(tt "A, N, x")]
+. stem:[bb "function " "F2"(A, N, x)]
 . stem:["    " bb "for " 0 <= i < N]
 . stem:["    " "    " bb "if " (A\[i\] " == " x)]
 . stem:["    " "    " "    " bb "return " i]
@@ -153,7 +153,7 @@ This means it's running time depends on the size of the input array. The bigger
 the array, the longer the runtime. Additionally, we only create one new variable
 (i), so the space complexity is **1 space unit**.
 
-=== Growth of function
+=== Growth of Function
 
 As we have seen, the simple algorithm has a time complexity of **16 time units**.
 This means that the time complexity is a constant, regardless of the
@@ -181,3 +181,74 @@ Common time complexities are:
 .Source: https://www.codeproject.com/articles/1012294/algorithm-time-complexity-what-is-it
 image::assets/growth_of_function.png[align=center, width=500]
 
+=== Growth of Function Without Counting
+
+We can calculate the growth of the running time of an algorithm without counting
+every single time unit.
+
+Consider:
+
+. stem:[bb "function " "SumDiag"(A)]
+. stem:["    " tt "sum" = 0]
+. stem:["    " N = "length"(A\[0\])]
+. stem:["    " bb "for " (0 <= i < N)]
+. stem:["    " "    " tt "sum" = tt "sum" + A\[i, i\]]
+. stem:["    " bb "return " tt "sum"]
+
+If we analyze this function one by one:
+
+==== Step 1.
+
+. stem:["    " tt "sum" = 0]
+
+Constant time stem:[C_0]
+
+==== Step 2.
+
+. stem:["    " N = "length"(A\[0\])]
+
+Here we have to analyze the stem:["length"] function, but let's say we already
+knew its time complexity of stem:[T(N) = C_1 N + C_2]
+
+==== Step 3.
+
+. stem:["    " bb "for " (0 <= i < N)]
+
+As we analyzed in the section on counting time units of a for loop, for example
+stem:[7N + 5] (excluding inner instructions), we hence know that stem:[T(N) = C_3 N + C_4].
+
+==== Step 4.
+
+. stem:["    " "    " tt "sum" = tt "sum" + A\[i, i\]]
+
+Constant time stem:[C_5] times N because it's executed in a loop. Respectively:
+stem:[C_5 N].
+
+==== Step 5.
+
+. stem:["    " bb "return " tt "sum"]
+
+Constant time stem:[C_6].
+
+==== Total
+
+To summarize all the steps:
+
+[stem]
+++++
+C_0\
++ C_1 N + C_2\
++ C_3 N + C_4\
++ C_5 N\
++ C_6\
+= T(N) = (C_1 + C_3 + C_5) N + (C_0 + C_2 + C_4 + C_6)
+++++
+
+To simplify, we can group the constants together:
+
+[stem]
+++++
+T(N) = C_7 N + C_8
+++++
+
+This means that the algorithm grows linearly with the size of the input.
