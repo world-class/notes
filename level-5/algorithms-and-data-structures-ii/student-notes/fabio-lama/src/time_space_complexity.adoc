@@ -152,3 +152,32 @@ In **total**, this function has a time complexity of **12*N + 6 time units**.
 This means it's running time depends on the size of the input array. The bigger
 the array, the longer the runtime. Additionally, we only create one new variable
 (i), so the space complexity is **1 space unit**.
+
+=== Growth of function
+
+As we have seen, the simple algorithm has a time complexity of **16 time units**.
+This means that the time complexity is a constant, regardless of the
+size of the input.
+
+We can specify this as:
+
+[stem]
+++++
+T(N) = C_1
+++++
+
+In comparison, the complex algorithm has a time complexity of **12*N + 6 time units**:
+
+[stem]
+++++
+T(N) = C_1 N + C_2
+++++
+
+This means that the time complexity is linearly dependent on the size of the input. Hypothetically, if we had a time complexity of **N^2**, we would have a
+quadratic time complexity, and so on.
+
+Common time complexities are:
+
+.Source: https://www.codeproject.com/articles/1012294/algorithm-time-complexity-what-is-it
+image::assets/growth_of_function.png[align=center, width=500]
+
