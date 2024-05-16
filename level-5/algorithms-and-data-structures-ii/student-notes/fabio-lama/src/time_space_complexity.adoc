@@ -252,3 +252,46 @@ T(N) = C_7 N + C_8
 ++++
 
 This means that the algorithm grows linearly with the size of the input.
+
+=== Worst and Best Cases
+
+An algorithm can have different time complexities depending on the input.
+Generally, we're interested in the worst-case scenario, but we can also analyze
+the best-case scenario.
+
+Consider:
+
+. stem:[bb "function " "L_Search"(A, x)]
+. stem:["    " N = "length"(A)]
+. stem:["    " bb "for " 0 <= i < N]
+. stem:["    " "    " bb "if " (A\[i\] " == " x)]
+. stem:["    " "    " "    " bb "return " i]
+. stem:["    " bb "return " -1]
+
+And a given array:
+
+[stem]
+++++
+A = (13, 8, 2, 24, 5, 17, 6, 9)
+++++
+
+The **best case** is where the number we're looking for is the first element in the
+array, respectively stem:[x = 13]. In such a case, the function returns immediately:
+
+[stem]
+++++
+T(N) = C_1
+++++
+
+**Worst case**, the number we're looking for is not in the array at all, for
+example stem:[x = 7]. In that case, the function checks every element in the
+array (N amount), eventually returning stem:[-1]:
+
+[stem]
+++++
+T(N) = C_1 N + C_2
+++++
+
+We notate this as stem:["L_Search"(A, 7)] having a running time of stem:[T(N) a N]
+(worst case). Meanwhile, stem:["L_Search"(A, 13)] has a running time of
+stem:[T(N) a 1] (best case).
