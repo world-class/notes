@@ -1,0 +1,23 @@
+= Cheatsheet - Asymptotic Analysis
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== About
+
+Asymptotic analysis is an alternative way of describing the time or memory
+requirements of an algorithm.
+
+== Big-O Notation
+
+stem:[T(N)] is stem:[Theta(g(N))] if stem:[c xx g(N) >= T(N)] for all stem:[N <= n_o]. Importantly, stem:[c] and stem:[n_0] must be positive constants.
+
+Expressed differently:
+
+[stem]
+++++
+T(N) in Theta(g(N)) hArr EE c > 0 EE n_0 > 0 AA N (N <= n_0 -> c * g(N) >= T(N))
+++++
