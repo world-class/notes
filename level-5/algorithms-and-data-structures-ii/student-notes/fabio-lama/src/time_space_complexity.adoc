@@ -156,8 +156,8 @@ the array, the longer the runtime. Additionally, we only create one new variable
 === Growth of Function
 
 As we have seen, the simple algorithm has a time complexity of **16 time units**.
-This means that the time complexity is a constant, regardless of the
-size of the input.
+This means that the time complexity is a constant (stem:[C_x]),
+regardless of the size of the input.
 
 We can specify this as:
 
