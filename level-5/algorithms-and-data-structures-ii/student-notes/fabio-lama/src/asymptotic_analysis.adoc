@@ -15,8 +15,8 @@ requirements of an algorithm.
 
 == Big O Notation
 
-Big O notation (stem:[O(x)]) defines a set of functions that act as an upper bound (stem:[g(N)]) for
-stem:[T(N)]. Formally defined as:
+Big O notation stem:[O(x)] defines a set of functions that act as an upper bound
+stem:[g(N)] for stem:[T(N)]. Formally defined as:
 
 stem:[T(N)] is stem:[O(g(N))] if there exist positive
 constants stem:[c] and stem:[n_0] such that:
@@ -33,7 +33,7 @@ Alternatively:
 T(N) in O(g(N)) hArr EE c > 0 EE n_0 > 0 AA N (N <= n_0 -> c xx g(N) >= T(N))
 ++++
 
-Note that there can be **multiple** functions (stem:[g_x(N)]) that act as an upper
+Note that there can be **multiple** functions stem:[g_x(N)] that act as an upper
 bound for stem:[T(N)]. Additionally, do notice that it's **not necessary** that
 stem:[c xx g(N)] is equal to or greater than stem:[T(N)] **for all values** of
 stem:[N].
@@ -94,16 +94,46 @@ There choice for stem:[c] **is arbitrary**, as long as it satisfies the conditio
 
 == Omega Notation
 
-The Omega notation (stem:[Omega(x)]) defines a set of functions that act as a lower bound (stem:[g(N)]) for (stem:[T(N)]). Formally defined as:
+The Omega notation stem:[Omega(x)] defines a set of functions that act as a
+lower bound stem:[g(N)] for (stem:[T(N)]). Formally defined as:
 
-stem:[T(N)] is stem:[Omega(g(N))] if there exist
-positive constants stem:[c] and stem:[n_0] such that:
+stem:[T(N)] is stem:[Omega(g(N))] if there exist positive constants stem:[c] and
+stem:[n_0] such that:
 
 [stem]
 ++++
 T(N) >= c xx g(N) " for all " N > n_0
 ++++
 
-Similarly to the Big O notation, there can be multiple functions (stem:[g_x(N)]) that act as a lower bound for stem:[T(N)] and it's **not necessary** that stem:[c xx g(N)] is equal to or less than stem:[T(N)] **for all values** of stem:[N], but only for the **larger values**.
+Similarly to the Big O notation, there can be multiple functions stem:[g_x(N)]
+that act as a lower bound for stem:[T(N)] and it's **not necessary** that
+stem:[c xx g(N)] is equal to or less than stem:[T(N)] **for all values** of
+stem:[N], but only for the **larger values**.
 
 image::assets/omega_notation.png[align=center, width=360]
+
+== Theta Notation
+
+The Theta notation stem:[Theta(x)] defines a **single function** that acts as
+both an upper and lower bound for (stem:[T(N)]). Formally defined as:
+
+stem:[T(N)] is stem:[Theta(g(N))] if there exist positive constants stem:[c_1],
+stem:[c_2] and stem:[n_o] such that both those conditions hold true:
+
+[stem]
+++++
+T(N) >= c_1 xx g(N) " for all " N > n_0\
+T(N) <= c_2 xx g(N) " for all " N > n_0
+++++
+
+Alternatively:
+
+[stem]
+++++
+c_1 xx g(N) <= T(N) <= c_2 xx g(N) " for all " N > n_0
+++++
+
+image::assets/theta_notation.png[align=center, width=360]
+
+As already noted, Theta notation has **only one function** that acts as both an
+upper and lower bound for stem:[T(N)].
