@@ -1,0 +1,69 @@
+= Cheatsheet - Time Complexity of Recursive Algorithms
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+NOTE: Make sure to check the _Time and Space Complexity_ cheatsheet, too.
+
+== About
+
+== Recurrence Relation
+
+Consider:
+
+. stem:[bb "function " "fact"(N)]
+. stem:["    " bb "if " (N "==" 1)]
+. stem:["    " "    " bb "return " 1]
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+If we analyze this function one by one:
+
+. stem:["    " bb "if " (N "==" 1)]
+
+Constant time stem:[C_0] (grouped).
+
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+Only one of the two return statements is executed (we assume the second
+statement, worst case).
+
+. stem:["    " "    " bb "return " 1]
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+Constant time stem:[C_1] (return), stem:[C_2] (read N), stem:[C_3]
+(multiplication), and the stem:["fact"] function has a time of
+stem:[T(N-1)]. If we group all the constants together, we have:
+
+[stem]
+++++
+C_1 + C_2 + C_3 = C_4
+++++
+
+So we say that the return statement has a time complexity of:
+
+[stem]
+++++
+C_4 + T(N-1)
+++++
+
+Finally, we determine that the function stem:["fact"] has a time complexity of:
+
+[stem]
+++++
+T(N) = C_0 + C_4 + T(N-1)
+++++
+
+Or grouped together:
+
+[stem]
+++++
+T(N) = C_5 + T(N-1)
+++++
+
+This expression is known as a **recurrence relation**.
+
+
+== Solving a Recurrence Relation

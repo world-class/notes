@@ -133,8 +133,8 @@ Only one of the two return statements is executed.
 . stem:["    " "    " "    " bb "return " i]
 . stem:["    " bb "return " -1]
 
-We are going to assume the case where the number is not in the array, so the
-second return statement is executed which is **1 time unit**.
+We are going to assume the case where the number is not in the array (worst
+case), so the second return statement is executed which is **1 time unit**.
 
 === Total
 
