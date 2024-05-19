@@ -67,3 +67,40 @@ This expression is known as a **recurrence relation**.
 
 
 == Solving a Recurrence Relation
+
+We can demonstrate the solution of a recurrence relation by expanding the calculation:
+
+[stem]
+++++
+T(N) = C_5 + T(N-1)\
+T(N) = C_5 + T(C_5 + T(N-2))\
+T(N) = C_5 + T(C_5 + T(C_5 + T(N-3)))\
+...\
+T(N) = k xx C_5 + T(N-k)
+++++
+
+If stem:[k] is stem:[N-1], then:
+
+[stem]
+++++
+T(N) = (N-1) xx C_5 + T(N-(N-1))\
+T(N) = (N-1) xx C_5 + C
+++++
+
+That's because:
+
+[stem]
+++++
+T(N-(N-1))\
+= T(N - N + 1)\
+= T(1)\
+= C
+++++
+
+TODO...
+
+We have hence solved the recurrence equation. In summary:
+
+* Find its recurrence equation.
+* Solve the recurrence equation.
+* Asymptotic analysis.
