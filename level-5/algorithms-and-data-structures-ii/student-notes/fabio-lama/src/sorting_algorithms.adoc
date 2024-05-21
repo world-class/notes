@@ -103,4 +103,16 @@ Additionally:
 . stem:["    " bb "end for"]
 . stem:[bb "end function"]
 
-### Time Complexity
+## Selection Sort
+
+### Pseudocode
+
+. stem:[bb "function " "SelectionSort"(A, N)]
+. stem:["    " bb "for " 0 <= i < N-1 bb " do"]
+. stem:["    " "    " tt "min" = "pos_min"(A, i, N-1)]
+. stem:["    " "    " tt "swap"(A\[i\], A\[tt "min"\])]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+The function stem:["pos_min"(A, a, b)] returns the position of the minimum value
+between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
