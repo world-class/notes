@@ -1,0 +1,60 @@
+= Cheatsheet - Comparison and Non-Comparison Sorting Algorithms
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+## About
+
+This cheatsheet provides a comparison of the most common sorting algorithms. The
+algorithms are compared based on their worst case and best case running times. 
+
+## Comparison Sort Overview
+
+|=== 
+|Name |Worst case complexity |Best case complexity
+
+|Bubble
+|stem:[Theta(N^2)]
+|stem:[Theta(N)]
+
+|Insertion
+|stem:[Theta(N^2)]
+|stem:[Theta(N)]
+
+|Selection
+|stem:[Theta(N^2)]
+|stem:[Theta(N^2)]
+
+|Quicksort
+|stem:[Theta(N^2)]
+|stem:[Theta(N xx log_N)]
+
+|Mergesort
+|stem:[Theta(N xx log_N)]
+|stem:[Theta(N xx log_N)]
+|=== 
+
+Because comparison sorts must compare pairs of elements, **they cannot** run
+faster than stem:[N xx log_N].
+
+## Bubble Sort Pseudocode
+
+. stem:[bb "function " "BubbleSort"(A, N)]
+. stem:["    " tt "swapped" = true]
+. stem:["    " bb "while" (tt "swapped") bb " do"]
+. stem:["    " "    " tt "swapped" = false]
+. stem:["    " "    " bb "for " 0 <= i < N-1 bb " do"]
+. stem:["    " "    " "    " bb "if " (A\[i\] > A\[i + 1\]) bb " then"]
+. stem:["    " "    " "    " "    " "swap"(A\[i\], A\[i+1\])]
+. stem:["    " "    " "    " "    " tt "swapped" = true]
+. stem:["    " "    " "    " bb "end if"]
+. stem:["    " "    " bb "end for"]
+. stem:["    " "    " N = N - 1]
+. stem:["    " bb "end while"]
+. stem:["    " bb "return " A]
+. stem:[bb "end function"]
+
+
