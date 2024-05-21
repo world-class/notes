@@ -46,7 +46,7 @@ faster than stem:[N xx log_N].
 
 . stem:[bb "function " "BubbleSort"(A, N)]
 . stem:["    " tt "swapped" = true]
-. stem:["    " bb "while" (tt "swapped") bb " do"]
+. stem:["    " bb "while " (tt "swapped") bb " do"]
 . stem:["    " "    " tt "swapped" = false]
 . stem:["    " "    " bb "for " 0 <= i < N-1 bb " do"]
 . stem:["    " "    " "    " bb "if " (A\[i\] > A\[i + 1\]) bb " then"]
@@ -86,3 +86,21 @@ Additionally:
 * stem:[T(N)] is stem:[O(N^2)] and stem:[O(N^3)], etc.
 * stem:[T(N)] is stem:[Omega(N^2)], stem:[Omega(log_N)] and stem:[Omega(1)], etc.
 * stem:[T(N)] is stem:[Theta(N^2)]
+
+## Insertion Sort
+
+### Pseudocode
+
+. stem:[bb "function " "InsertionSort"(A, N)]
+. stem:["    " bb "for " 1 <= j <= N-1 bb " do"]
+. stem:["    " "    " tt "ins" = A\[j\]]
+. stem:["    " "    " i = j-1]
+. stem:["    " "    " bb "while " (i >= 0 " and " tt"ins" < A\[i\]) bb " do"]
+. stem:["    " "    " "    " A\[i+1\] = A\[i\]]
+. stem:["    " "    " "    " i = i-1]
+. stem:["    " "    " bb "end while"]
+. stem:["    " "    " A\[i+1\] = tt "ins"]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+### Time Complexity
