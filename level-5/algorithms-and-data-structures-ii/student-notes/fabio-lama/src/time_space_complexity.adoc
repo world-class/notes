@@ -181,7 +181,7 @@ quadratic time complexity, and so on.
 Common time complexities are:
 
 .Source: https://www.codeproject.com/articles/1012294/algorithm-time-complexity-what-is-it
-image::assets/growth_of_function.png[align=center, width=500]
+image::assets/growth_of_function.png[align=center, width=400]
 
 === Growth of Function Without Counting
 
