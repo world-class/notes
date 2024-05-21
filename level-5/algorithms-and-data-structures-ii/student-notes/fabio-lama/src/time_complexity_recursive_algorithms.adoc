@@ -141,35 +141,35 @@ The master theorem classifies the recurrence equiation in one of three cases:
 
 [stem]
 ++++
-f(n) < n^(log_b(a))
+f(n) < n^(log_b a)
 ++++
 
 where the running time is:
 
 [stem]
 ++++
-T(n) = Theta(n^(log_b(a)))
+T(n) = Theta(n^(log_b a))
 ++++
 
 ### Case 2
 
 [stem]
 ++++
-f(n) = n^(log_b(a))
+f(n) = n^(log_b a)
 ++++
 
 where the running time is:
 
 [stem]
 ++++
-T(n) = Theta(n^(log_b(a)) xx log_n)
+T(n) = Theta(n^(log_b a) xx log N)
 ++++
 
 ### Case 3
 
 [stem]
 ++++
-f(n) > n^(log_b(a))
+f(n) > n^(log_b a)
 ++++
 
 and:
@@ -202,7 +202,7 @@ To determine the case, we first calculate:
 
 [stem]
 ++++
-log_b(a) = log_2(2) = 1
+log_b a = log_2 2 = 1
 ++++
 
 For case 1, we have:
@@ -228,5 +228,5 @@ is:
 
 [stem]
 ++++
-T(n) = Theta(n xx log_n)
+T(n) = Theta(n xx log N)
 ++++

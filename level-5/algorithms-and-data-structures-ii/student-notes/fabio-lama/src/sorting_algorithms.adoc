@@ -29,15 +29,15 @@ This cheatsheet provides an overview of some common sorting algorithms.
 
 |Quicksort
 |stem:[Theta(N^2)]
-|stem:[Theta(N xx log_N)]
+|stem:[Theta(N xx log N)]
 
 |Mergesort
-|stem:[Theta(N xx log_N)]
-|stem:[Theta(N xx log_N)]
+|stem:[Theta(N xx log N)]
+|stem:[Theta(N xx log N)]
 |=== 
 
 Because comparison sorts must compare pairs of elements, **they cannot** run
-faster than stem:[N xx log_N].
+faster than stem:[N xx log N].
 
 ## Bubble Sort
 
@@ -70,7 +70,7 @@ T(N) = C_0 xx N + C_1
 Additionally:
 
 * stem:[T(N)] is stem:[O(N)], stem:[O(N^2)] and stem:[O(N^3)], etc.
-* stem:[T(N)] is stem:[Omega(N)], stem:[Omega(log_N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Omega(N)], stem:[Omega(log N)] and stem:[Omega(1)], etc.
 * stem:[T(N)] is stem:[Theta(N)]
 
 The **worst case** for bubble sort is:
@@ -83,7 +83,7 @@ T(N) = C_0 xx N^2 + C_1 xx N + C_2.
 Additionally:
 
 * stem:[T(N)] is stem:[O(N^2)] and stem:[O(N^3)], etc.
-* stem:[T(N)] is stem:[Omega(N^2)], stem:[Omega(log_N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Omega(N^2)], stem:[Omega(log N)] and stem:[Omega(1)], etc.
 * stem:[T(N)] is stem:[Theta(N^2)]
 
 ## Insertion Sort
@@ -128,6 +128,14 @@ between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
 . stem:["    " bb "end if"]
 . stem:[bb "end function"]
 
+TODO: This needs further explanation.
+
 The function stem:["partition"(A, tt "low", tt "high")] selects a number (the
 pivot), moves all numbers lower than the pivot to the left part of the array and
 moves the privot to its final position.
+
+## Mergesort
+
+### Pseudocode
+
+
