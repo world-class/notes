@@ -138,4 +138,14 @@ moves the privot to its final position.
 
 ### Pseudocode
 
+. stem:[bb "function " "MergeSort"(A, "int " l, "int " h)]
+. stem:["    " bb "if " (l < h)]
+. stem:["    " "    " tt "mid" = l + "floor"((h-1)//2)]
+. stem:["    " "    " "MergeSort"(A, l, tt "mid")]
+. stem:["    " "    " "MergeSort"(A, tt "mid" + 1, h)]
+. stem:["    " "    " "Merge"(A, l, tt "mid", h])]
+. stem:["    " bb "end if"]
+. stem:[bb "end function"]
 
+The function stem:["Merge"] creates two arrays of both halves (left and right)
+and then merges them to produce a single, sorted array.
