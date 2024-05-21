@@ -10,6 +10,9 @@ NOTE: Make sure to check the _Time and Space Complexity_ cheatsheet, too.
 
 == About
 
+This cheatsheet covers the time complexity of recursive algorithms, including
+how to apply the master theorem.
+
 == Recurrence Relation
 
 Consider:
@@ -97,7 +100,7 @@ T(N-(N-1))\
 = C
 ++++
 
-TODO...
+TODO: we need more explanation and clarification here.
 
 We have hence solved the recurrence equation. In summary:
 

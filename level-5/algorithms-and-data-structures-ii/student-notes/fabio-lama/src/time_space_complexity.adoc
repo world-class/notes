@@ -8,7 +8,9 @@ Fabio Lama <fabio.lama@pm.me>
 
 == About
 
-To analyze an algorithm, we must determine its processing and memory requirements. The processing requirement is the time complexity, and the memory requirement is the space complexity.
+To analyze an algorithm, we must determine its processing and memory
+requirements. The processing requirement is the time complexity, and the memory
+requirement is the space complexity.
 
 == Counting Up Time and Space Units
 
