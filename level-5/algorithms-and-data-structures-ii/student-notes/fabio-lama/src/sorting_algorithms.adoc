@@ -8,8 +8,7 @@ Fabio Lama <fabio.lama@pm.me>
 
 ## About
 
-This cheatsheet provides a comparison of the most common sorting algorithms. The
-algorithms are compared based on their worst case and best case running times. 
+This cheatsheet provides an overview of some common sorting algorithms.
 
 ## Comparison Sort Overview
 
@@ -116,3 +115,19 @@ Additionally:
 
 The function stem:["pos_min"(A, a, b)] returns the position of the minimum value
 between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
+
+## Quicksort
+
+### Pseudocode
+
+. stem:[bb "function " "Quicksort"(A, tt "low", tt "high")]
+. stem:["    " bb "if " tt "low " < tt " high" bb " then"]
+. stem:["    " "    " p = "partition"(A, tt "low", tt "high")]
+. stem:["    " "    " "Quicksort"(A, tt "low", p-1)]
+. stem:["    " "    " "Quicksort"(A, p+1, tt "high")]
+. stem:["    " bb "end if"]
+. stem:[bb "end function"]
+
+The function stem:["partition"(A, tt "low", tt "high")] selects a number (the
+pivot), moves all numbers lower than the pivot to the left part of the array and
+moves the privot to its final position.
