@@ -7,8 +7,11 @@ and understood. Not everything that is tested at the mid-terms or final exams is
 covered and the Author does not guarantee that the cheatsheets are free of
 errors.
 
-* [Pseudocode, Data Structures & Time
-  Complexity](./cheatsheet_pseudocode_data_structures.pdf)
+* [Time and Space Complexity](./cheatsheet_time_space_complexity.pdf)
+* [Asymptotic Analysis](./cheatsheet_asymptotic_analysis.pdf)
+* [Time Complexity of Recursive Algorithms](.cheatsheet_time_complexity_recursive_algorithms.pdf)
+* [Comparison and Non-Comparison Sorting Algorithms](./cheatsheet_sorting_algorithms.pdf)
+
 
 # Building
 
