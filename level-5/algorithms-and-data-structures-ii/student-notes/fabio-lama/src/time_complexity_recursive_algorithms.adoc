@@ -6,8 +6,6 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
-NOTE: Make sure to check the _Time and Space Complexity_ cheatsheet, too.
-
 == About
 
 This cheatsheet covers the time complexity of recursive algorithms, including

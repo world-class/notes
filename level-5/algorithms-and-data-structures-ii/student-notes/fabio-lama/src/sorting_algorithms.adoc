@@ -40,7 +40,9 @@ algorithms are compared based on their worst case and best case running times.
 Because comparison sorts must compare pairs of elements, **they cannot** run
 faster than stem:[N xx log_N].
 
-## Bubble Sort Pseudocode
+## Bubble Sort
+
+### Pseudocode
 
 . stem:[bb "function " "BubbleSort"(A, N)]
 . stem:["    " tt "swapped" = true]
@@ -57,4 +59,30 @@ faster than stem:[N xx log_N].
 . stem:["    " bb "return " A]
 . stem:[bb "end function"]
 
+### Time Complexity
 
+The **best case** for bubble sort is:
+
+[stem]
+++++
+T(N) = C_0 xx N + C_1
+++++
+
+Additionally:
+
+* stem:[T(N)] is stem:[O(N)], stem:[O(N^2)] and stem:[O(N^3)], etc.
+* stem:[T(N)] is stem:[Omega(N)], stem:[Omega(log_N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Theta(N)]
+
+The **worst case** for bubble sort is:
+
+[stem]
+++++
+T(N) = C_0 xx N^2 + C_1 xx N + C_2.
+++++
+
+Additionally:
+
+* stem:[T(N)] is stem:[O(N^2)] and stem:[O(N^3)], etc.
+* stem:[T(N)] is stem:[Omega(N^2)], stem:[Omega(log_N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Theta(N^2)]

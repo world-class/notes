@@ -6,8 +6,6 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
-NOTE: Make sure to check the _Time and Space Complexity_ cheatsheet, too.
-
 == About
 
 Asymptotic analysis is an alternative way of describing the time or memory
