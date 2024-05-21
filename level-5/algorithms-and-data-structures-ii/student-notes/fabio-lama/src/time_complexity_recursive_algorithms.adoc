@@ -104,3 +104,128 @@ We have hence solved the recurrence equation. In summary:
 * Find its recurrence equation.
 * Solve the recurrence equation.
 * Asymptotic analysis.
+
+== The Master Theorem
+
+The master theorem makes the asymptotic analysis of recursive functions much
+easier. However, it can only be applied if the recurrence equation has this
+specific structure:
+
+[stem]
+++++
+T(n) = a xx T(n/b)+f(n)
+++++
+
+where stem:[a >= 1] and stem:[b > 1].
+
+For example, this is solvable:
+
+[stem]
+++++
+T(n) = T(n/2) + n\
+= 1 xx T(n/2) + n
+++++
+
+Meanwhile, this is not:
+
+[stem]
+++++
+T(n) = 2 xx T(n) + n\
+= 2 xx T(n/1) + n
+++++
+
+The master theorem classifies the recurrence equiation in one of three cases:
+
+### Case 1
+
+[stem]
+++++
+f(n) < n^(log_b(a))
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(n^(log_b(a)))
+++++
+
+### Case 2
+
+[stem]
+++++
+f(n) = n^(log_b(a))
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(n^(log_b(a)) xx log_n)
+++++
+
+### Case 3
+
+[stem]
+++++
+f(n) > n^(log_b(a))
+++++
+
+and:
+
+[stem]
+++++
+a xx f(n/b) <= c xx f(n) " where " c < 1 " and " n " large"
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(f(n))
+++++
+
+### Example
+
+Consider:
+
+[stem]
+++++
+T(n) = 2T(n/2) + n
+++++
+
+we deterime that the master theorem can be applied here, given that stem:[a = 2 >= 1]
+and stem:[b = 2 > 1].
+
+To determine the case, we first calculate:
+
+[stem]
+++++
+log_b(a) = log_2(2) = 1
+++++
+
+For case 1, we have:
+
+[stem]
+++++
+n < n^1\
+n < n
+++++
+
+which is **false**.
+
+For case 2, we have:
+
+[stem]
+++++
+n = n^1\
+n = n
+++++
+
+which is **true**. Hence, we classify the formula as case 2 and the running time
+is:
+
+[stem]
+++++
+T(n) = Theta(n xx log_n)
+++++
