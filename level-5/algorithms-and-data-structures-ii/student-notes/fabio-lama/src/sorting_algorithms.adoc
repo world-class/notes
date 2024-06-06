@@ -148,12 +148,12 @@ The function stem:[bb "partition"(A, tt "low", tt "high")] selects a pivot eleme
 
 ### Pseudocode
 
-. stem:[bb "function " "MergeSort"(A, "int " l, "int " h)]
-. stem:["    " bb "if " (l < h)]
-. stem:["    " "    " tt "mid" = l + "floor"((h-1) -: 2)]
-. stem:["    " "    " "MergeSort"(A, l, tt "mid")]
-. stem:["    " "    " "MergeSort"(A, tt "mid" + 1, h)]
-. stem:["    " "    " "Merge"(A, l, tt "mid", h)]
+. stem:[bb "function " "MergeSort"(A, tt "low", tt "high")]
+. stem:["    " bb "if " (tt "low" < tt "high")]
+. stem:["    " "    " tt "mid" = tt "low" + "floor"((tt "high" -1) -: 2)]
+. stem:["    " "    " "MergeSort"(A, tt "low", tt "mid")]
+. stem:["    " "    " "MergeSort"(A, tt "mid" + tt "1ow", tt "high")]
+. stem:["    " "    " "Merge"(A, tt "low", tt "mid", tt "high")]
 . stem:["    " bb "end if"]
 . stem:[bb "end function"]
 
