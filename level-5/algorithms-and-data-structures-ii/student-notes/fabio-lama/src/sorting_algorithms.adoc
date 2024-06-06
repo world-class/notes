@@ -122,17 +122,27 @@ between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
 
 . stem:[bb "function " "Quicksort"(A, tt "low", tt "high")]
 . stem:["    " bb "if " tt "low " < tt " high" bb " then"]
-. stem:["    " "    " p = "partition"(A, tt "low", tt "high")]
-. stem:["    " "    " "Quicksort"(A, tt "low", p-1)]
-. stem:["    " "    " "Quicksort"(A, p+1, tt "high")]
+. stem:["    " "    " tt "p" = "partition"(A, tt "low", tt "high")]
+. stem:["    " "    " "Quicksort"(A, tt "low", tt "p-1")]
+. stem:["    " "    " "Quicksort"(A, tt "p+1", tt "high")]
 . stem:["    " bb "end if"]
 . stem:[bb "end function"]
 
-TODO: This needs further explanation.
+. stem:[bb "function " "partition"(A, tt "low", tt "high")]
+. stem:["    " tt "pivot" = A\[tt "high"\]]
+. stem:["    " tt "i" = tt "low" - 1]
+. stem:["    " bb "for " tt "j" = tt "low" bb " to " tt "high" - 1 bb " do"]
+. stem:["    " "    " bb "if " A\[tt "j"\] < tt "pivot" bb " then"]
+. stem:["    " "        " tt "i" = tt "i" + 1]
+. stem:["    " "        " tt "swap"(A\[tt "i"\], A\[tt "j"\])]
+. stem:["    " bb "end for"]
+. stem:["    " tt "swap"(A\[tt "i" + 1\], A\[tt "high"\])]
+. stem:["    " bb "return " tt "i" + 1]
+. stem:[bb "end function"]
 
-The function stem:["partition"(A, tt "low", tt "high")] selects a number (the
-pivot), moves all numbers lower than the pivot to the left part of the array and
-moves the privot to its final position.
+### Explanation
+
+The function stem:[bb "partition"(A, tt "low", tt "high")] selects a pivot element (usually the last element in the current segment of the array). It then rearranges the elements in the array such that all elements less than the pivot are moved to the left of the pivot and all elements greater than or equal to the pivot are moved to the right. The pivot is then placed in its correct position, and the index of the pivot is returned.
 
 ## Mergesort
 
@@ -143,7 +153,7 @@ moves the privot to its final position.
 . stem:["    " "    " tt "mid" = l + "floor"((h-1)//2)]
 . stem:["    " "    " "MergeSort"(A, l, tt "mid")]
 . stem:["    " "    " "MergeSort"(A, tt "mid" + 1, h)]
-. stem:["    " "    " "Merge"(A, l, tt "mid", h])]
+. stem:["    " "    " "Merge"(A, l, tt "mid", h)]
 . stem:["    " bb "end if"]
 . stem:[bb "end function"]
 
