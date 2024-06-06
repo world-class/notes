@@ -149,3 +149,38 @@ moves the privot to its final position.
 
 The function stem:["Merge"] creates two arrays of both halves (left and right)
 and then merges them to produce a single, sorted array.
+
+## Radix Sort
+
+### Pseudocode
+
+. stem:[bb "function " "RadixSort"(A, N)]
+. stem:["    " tt "max" = "findMax"(A, N)]
+. stem:["    " tt "exp" = 1]
+. stem:["    " bb "while " tt "max" -: tt "exp" > 0 bb " do"]
+. stem:["    " "    " "CountSort"(A, N, tt "exp")]
+. stem:["    " "    " tt "exp" = tt "exp" xx 10]
+. stem:["    " bb "end while"]
+. stem:[bb "end function"]
+
+. stem:[bb "function " "CountSort"(A, N, exp)]
+. stem:["    " tt "output" = "new array of size " N]
+. stem:["    " tt "count" = "new array of size " 10 " initialized to 0"]
+. stem:["    " bb "for " 0 <= i < N bb " do"]
+. stem:["    " "    " tt "index" = (A\[i\] -: tt "exp") % 10]
+. stem:["    " "    " tt "count"\[tt "index"\] = tt "count"\[tt "index"\] + 1]
+. stem:["    " bb "end for"]
+. stem:["    " bb "for " 1 <= i < 10 bb " do"]
+. stem:["    " "    " tt "count"\[i\] = tt "count"\[i\] + tt "count"\[i - 1\]]
+. stem:["    " bb "end for"]
+. stem:["    " tt "i" = N - 1]
+. stem:["    " bb "while " i >= 0 bb " do"]
+. stem:["    " "    " tt "index" = (A\[i\] -: tt "exp") % 10]
+. stem:["    " "    " tt "output"\[tt "count"\[tt "index"\] - 1\] = A\[i\]]
+. stem:["    " "    " tt "count"\[tt "index"\] = tt "count"\[tt "index"\] - 1]
+. stem:["    " "    " i = i - 1]
+. stem:["    " bb "end while"]
+. stem:["    " bb "for " 0 <= i < N bb " do"]
+. stem:["    " "    " A\[i\] = tt "output"\[i\]]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
