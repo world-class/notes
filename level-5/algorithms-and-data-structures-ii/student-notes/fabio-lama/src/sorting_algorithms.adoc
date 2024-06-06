@@ -41,8 +41,6 @@ faster than stem:[N xx log N].
 
 ## Bubble Sort
 
-### Pseudocode
-
 . stem:[bb "function " "BubbleSort"(A, N)]
 . stem:["    " tt "swapped" = true]
 . stem:["    " bb "while " (tt "swapped") bb " do"]
@@ -88,8 +86,6 @@ Additionally:
 
 ## Insertion Sort
 
-### Pseudocode
-
 . stem:[bb "function " "InsertionSort"(A, N)]
 . stem:["    " bb "for " 1 <= j <= N-1 bb " do"]
 . stem:["    " "    " tt "ins" = A\[j\]]
@@ -104,8 +100,6 @@ Additionally:
 
 ## Selection Sort
 
-### Pseudocode
-
 . stem:[bb "function " "SelectionSort"(A, N)]
 . stem:["    " bb "for " 0 <= i < N-1 bb " do"]
 . stem:["    " "    " tt "min" = "pos_min"(A, i, N-1)]
@@ -117,8 +111,6 @@ The function stem:["pos_min"(A, a, b)] returns the position of the minimum value
 between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
 
 ## Quicksort
-
-### Pseudocode
 
 . stem:[bb "function " "Quicksort"(A, tt "low", tt "high")]
 . stem:["    " bb "if " tt "low " < tt " high" bb " then"]
@@ -146,8 +138,6 @@ The function stem:[bb "partition"(A, tt "low", tt "high")] selects a pivot eleme
 
 ## Mergesort
 
-### Pseudocode
-
 . stem:[bb "function " "MergeSort"(A, tt "low", tt "high")]
 . stem:["    " bb "if " (tt "low" < tt "high")]
 . stem:["    " "    " tt "mid" = tt "low" + "floor"((tt "high" -1) -: 2)]
@@ -161,8 +151,6 @@ The function stem:["Merge"] creates two arrays of both halves (left and right)
 and then merges them to produce a single, sorted array.
 
 ## Radix Sort
-
-### Pseudocode
 
 . stem:[bb "function " "RadixSort"(A, N)]
 . stem:["    " tt "max" = "findMax"(A, N)]
@@ -192,5 +180,26 @@ and then merges them to produce a single, sorted array.
 . stem:["    " bb "end while"]
 . stem:["    " bb "for " 0 <= i < N bb " do"]
 . stem:["    " "    " A\[i\] = tt "output"\[i\]]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+## Bucket Sort
+
+. stem:[bb "function " "BucketSort"(A, N)]
+. stem:["    " tt "max_value" = "findMax"(A, N)]
+. stem:["    " tt "buckets" = "new array of empty lists of size " N]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " tt "index" = "floor"(A\[i\] -: (tt "max_value" + 1) xx N)]
+. stem:["    " "    " "append" (tt "buckets"\[tt "index"\], A\[i\])]
+. stem:["    " bb "end for"]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " "InsertionSort"(tt "buckets"\[i\])]
+. stem:["    " bb "end for"]
+. stem:["    " tt "k" = 0]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " bb "for " j = 0 bb " to " "len"(tt "buckets"\[i\]) - 1 bb " do"]
+. stem:["    " "    " "    " A\[tt "k"\] = tt "buckets"\[i\]\[j\]]
+. stem:["    " "    " "    " tt "k" = tt "k" + 1]
+. stem:["    " "    " bb "end for"]
 . stem:["    " bb "end for"]
 . stem:[bb "end function"]
