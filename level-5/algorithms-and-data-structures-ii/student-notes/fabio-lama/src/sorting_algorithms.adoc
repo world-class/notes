@@ -150,7 +150,7 @@ The function stem:[bb "partition"(A, tt "low", tt "high")] selects a pivot eleme
 
 . stem:[bb "function " "MergeSort"(A, "int " l, "int " h)]
 . stem:["    " bb "if " (l < h)]
-. stem:["    " "    " tt "mid" = l + "floor"((h-1)//2)]
+. stem:["    " "    " tt "mid" = l + "floor"((h-1) -: 2)]
 . stem:["    " "    " "MergeSort"(A, l, tt "mid")]
 . stem:["    " "    " "MergeSort"(A, tt "mid" + 1, h)]
 . stem:["    " "    " "Merge"(A, l, tt "mid", h)]
