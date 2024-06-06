@@ -50,7 +50,8 @@ pairs of elements, **they cannot** run faster than stem:[N xx log N].
 
 ## Note: Sorting Algorithm Visualizer
 
-It's recommended to lookup a sorting algorithm visualizer online, such as: https://www.toptal.com/developers/sorting-algorithms
+It's recommended to lookup a sorting algorithm visualizer online, such as:
+https://www.toptal.com/developers/sorting-algorithms
 
 ## Bubble Sort
 
