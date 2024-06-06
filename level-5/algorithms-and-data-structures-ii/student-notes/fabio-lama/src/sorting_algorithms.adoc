@@ -34,10 +34,23 @@ This cheatsheet provides an overview of some common sorting algorithms.
 |Mergesort
 |stem:[Theta(N xx log N)]
 |stem:[Theta(N xx log N)]
+
+|Radix Sort
+|stem:[Theta(d xx N)]
+|stem:[Theta(d xx N)]
+
+|Bucket Sort
+|stem:[Theta(N^2)]
+|stem:[Theta(N + N/b + b)]
 |=== 
 
-Because comparison sorts must compare pairs of elements, **they cannot** run
-faster than stem:[N xx log N].
+Note that the stem:[d] in Radix Sort is the number of digits and stem:[b] in
+Bucket Sort is the number of buckets. Because comparison sorts must compare
+pairs of elements, **they cannot** run faster than stem:[N xx log N].
+
+## Note: Sorting Algorithm Visualizer
+
+It's recommended to lookup a sorting algorithm visualizer online, such as: https://www.toptal.com/developers/sorting-algorithms
 
 ## Bubble Sort
 
@@ -185,11 +198,10 @@ and then merges them to produce a single, sorted array.
 
 ## Bucket Sort
 
-. stem:[bb "function " "BucketSort"(A, N)]
-. stem:["    " tt "max_value" = "findMax"(A, N)]
+. stem:[bb "function " "BucketSort"(A, N, tt "max")]
 . stem:["    " tt "buckets" = "new array of empty lists of size " N]
 . stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
-. stem:["    " "    " tt "index" = "floor"(A\[i\] -: (tt "max_value" + 1) xx N)]
+. stem:["    " "    " tt "index" = "floor"(A\[i\] -: (tt "max" + 1) xx N)]
 . stem:["    " "    " "append" (tt "buckets"\[tt "index"\], A\[i\])]
 . stem:["    " bb "end for"]
 . stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
