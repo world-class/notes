@@ -1,0 +1,45 @@
+= Cheatsheet - Hash Tables
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== Search Algorithms Complexity
+
+|===
+|Name |Worst case (time) |Best case (time)| Worst case (space) |Best case (space)
+
+|Linear Search
+|stem:[Theta(N)]
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+
+|Binary Search (iterative)
+|stem:[Theta(log N)]
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+
+|Binary Search (recursive)
+|stem:[Theta(log N)]
+|stem:[Theta(1)]
+|stem:[Theta(log N)]
+|stem:[Theta(1)]
+
+|Direct Addressing
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+|stem:[Theta(k)]
+|stem:[Theta(k)]
+
+|Hash Table
+|stem:[Theta(1)]
+|stem:[Theta(1)]
+|stem:[Theta(M)]
+|stem:[Theta(M)]
+|===
+
+Where stem:[k] is the maximum possible key value and stem:[M] is the size of the hash table.
