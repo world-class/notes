@@ -8,6 +8,8 @@ Fabio Lama <fabio.lama@pm.me>
 
 == Search Algorithms Complexity
 
+WARNING: This table assumes no collisions in the hash table.
+
 |===
 |Name |Worst case (time) |Best case (time)| Worst case (space) |Best case (space)
 
@@ -78,4 +80,8 @@ If necessary, the hash table can be **extended** with a larger array, but this
 requires rehashing all the existing elements. Alternatively, the method of
 **linear probing** can be applied to use the next available index in case of a
 collision (note that this information must be stored somewhere). Or, each index
-can be a pointer to a unique, nested table, which is a **separate chaining** method.
+can be a pointer to a separate, nested table, which is a **separate chaining** method.
+
+The best case and worst case complexity for hash tables must consider those
+collision handling methods as well, as in how it behaves with no collisions at
+all and with all elements colliding, respectively.
