@@ -6,6 +6,10 @@ Fabio Lama <fabio.lama@pm.me>
 :toclevels: 4
 :stem:
 
+== About
+
+A hash table is a data structure that maps keys to values using a hash function. This function transforms the input (key) into a fixed-size integer, which serves as an index in an array, enabling fast data retrieval. Hash tables are widely used due to their average stem:[Theta(1)] time complexity for both insertion and lookup operations.
+
 == Search Algorithms Complexity
 
 WARNING: This table assumes no collisions in the hash table.
@@ -46,10 +50,10 @@ WARNING: This table assumes no collisions in the hash table.
 
 Where stem:[k] is the maximum possible key value and stem:[M] is the size of the hash table.
 
-== Direct Addressing
+== Hash Tables
 
-Direct addressing uses an index of an array to represent a number. Consider an
-array of size 7 and the follwing, simple hash function:
+Hash tables use an index of an array to represent a number. Consider an array of
+size 7 and the follwing, simple hash function:
 
 [stem]
 ++++
