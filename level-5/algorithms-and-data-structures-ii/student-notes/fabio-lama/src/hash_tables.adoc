@@ -43,3 +43,39 @@ Fabio Lama <fabio.lama@pm.me>
 |===
 
 Where stem:[k] is the maximum possible key value and stem:[M] is the size of the hash table.
+
+== Direct Addressing
+
+Direct addressing uses an index of an array to represent a number. Consider an
+array of size 7 and the follwing, simple hash function:
+
+[stem]
+++++
+h(x) = x mod 7
+++++
+
+For example, lets say stem:[x = 11] and we compute:
+
+[stem]
+++++
+h(11) = 11 mod 7 = 4
+++++
+
+This means the number 11 is stored in the array at index 4. Knowing the index,
+the search for that number is very fast. However, given that the size of this 
+array is very small, **the number of collisions can be very high**, depending on
+number of inputs.
+
+For example, both 11 and 18 would be stored at index 4:
+
+[stem]
+++++
+h(11) = 11 mod 7 = 4\
+h(18) = 18 mod 7 = 4
+++++
+
+If necessary, the hash table can be **extended** with a larger array, but this
+requires rehashing all the existing elements. Alternatively, the method of
+**linear probing** can be applied to use the next available index in case of a
+collision (note that this information must be stored somewhere). Or, each index
+can be a pointer to a unique, nested table, which is a **separate chaining** method.
