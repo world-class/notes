@@ -11,7 +11,10 @@ errors.
 * [Asymptotic Analysis](./cheatsheet_asymptotic_analysis.pdf)
 * [Time Complexity of Recursive Algorithms](.cheatsheet_time_complexity_recursive_algorithms.pdf)
 * [Comparison and Non-Comparison Sorting Algorithms](./cheatsheet_sorting_algorithms.pdf)
+* [Hash Tables](./cheatsheet_hash_tables.pdf)
 
+**NOTE**: Those cheatsheets only cover the course material up to the midterms.
+The weeks after the midterms are not covered here.
 
 # Building
 
