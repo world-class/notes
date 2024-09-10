@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="438px" height="65px" viewBox="0 0 438 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rdf</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-12.000000, -13.000000)">
+            <g id="rdf" transform="translate(12.000000, 13.000000)">
+                <ellipse id="Oval" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="67" cy="32.5" rx="65.5" ry="31"></ellipse>
+                <ellipse id="Oval-Copy" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="371" cy="32.5" rx="65.5" ry="31"></ellipse>
+                <text id="Subject" font-family="MonaspaceNeon-Medium, Monaspace Neon" font-size="24" font-weight="400" fill="#000000">
+                    <tspan x="14.92" y="30">Subject</tspan>
+                </text>
+                <text id="sameAs-X" font-family="MonaspaceNeon-Medium, Monaspace Neon" font-size="18" font-weight="400" fill="#000000">
+                    <tspan x="22.36" y="49">sameAs X</tspan>
+                </text>
+                <text id="sameAs-Y" font-family="MonaspaceNeon-Medium, Monaspace Neon" font-size="18" font-weight="400" fill="#000000">
+                    <tspan x="326.36" y="49">sameAs Y</tspan>
+                </text>
+                <text id="Object" font-family="MonaspaceNeon-Medium, Monaspace Neon" font-size="24" font-weight="400" fill="#000000">
+                    <tspan x="326.36" y="30">Object</tspan>
+                </text>
+                <path id="Path-4" d="M286,23 L305,32.5 L286,42 L286,34 L134,34 L134,31 L286,31 L286,23 Z" fill="#000000" fill-rule="nonzero"></path>
+                <text id="predicate" font-family="MonaspaceNeon-Medium, Monaspace Neon" font-size="24" font-weight="400" fill="#000000">
+                    <tspan x="145.04" y="24">predicate</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
