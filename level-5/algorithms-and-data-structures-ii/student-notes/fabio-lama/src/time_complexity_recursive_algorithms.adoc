@@ -98,8 +98,6 @@ T(N-(N-1))\
 = C
 ++++
 
-TODO: we need more explanation and clarification here.
-
 We have hence solved the recurrence equation. In summary:
 
 * Find its recurrence equation.
