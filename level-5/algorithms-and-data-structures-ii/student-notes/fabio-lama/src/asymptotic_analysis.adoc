@@ -24,16 +24,9 @@ constants stem:[c] and stem:[n_0] such that:
 T(N) <= c xx g(N) " for all " N > n_0
 ++++
 
-Alternatively:
-
-[stem]
-++++
-T(N) in O(g(N)) hArr EE c > 0 EE n_0 > 0 AA N (N <= n_0 -> c xx g(N) >= T(N))
-++++
-
-Note that there can be **multiple** functions stem:[g_x(N)] that act as an upper
-bound for stem:[T(N)]. Additionally, do notice that it's **not necessary** that
-stem:[c xx g(N)] is equal to or greater than stem:[T(N)] **for all values** of
+Note that there can be **multiple functions** stem:[g_x(N)] that act as **an upper bound**
+for stem:[T(N)]. Additionally, do notice that it's **not necessary** that
+stem:[c xx g(N)] is equal to or greater than stem:[T(N)] for all values of
 stem:[N].
 
 image::assets/big_o_notation.png[align=center, width=300]
@@ -103,10 +96,10 @@ stem:[n_0] such that:
 T(N) >= c xx g(N) " for all " N > n_0
 ++++
 
-Similarly to the Big O notation, there can be multiple functions stem:[g_x(N)]
-that act as a lower bound for stem:[T(N)] and it's **not necessary** that
-stem:[c xx g(N)] is equal to or less than stem:[T(N)] **for all values** of
-stem:[N], but only for the **larger values**.
+Similarly to the Big O notation, there can be **multiple functions** stem:[g_x(N)]
+that act as **a lower bound** for stem:[T(N)] and it's **not necessary** that
+stem:[c xx g(N)] is equal to or less than stem:[T(N)] for all values of
+stem:[N], but only for the larger values.
 
 image::assets/omega_notation.png[align=center, width=300]
 
