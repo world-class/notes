@@ -13,7 +13,7 @@ errors.
 * [Comparison and Non-Comparison Sorting Algorithms](./cheatsheet_sorting_algorithms.pdf)
 * [Hash Tables](./cheatsheet_hash_tables.pdf)
 
-**NOTE**: Those cheatsheets only cover the course material up to the midterms.
+**NOTE**: Those cheatsheets only cover the course material **up to the midterms**.
 The weeks after the midterms are not covered here.
 
 # Building
