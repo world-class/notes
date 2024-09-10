@@ -1,0 +1,218 @@
+= Cheatsheet - Comparison and Non-Comparison Sorting Algorithms
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+## About
+
+This cheatsheet provides an overview of some common sorting algorithms.
+
+## Comparison Sort Overview
+
+|=== 
+|Name |Worst case complexity |Best case complexity
+
+|Bubble
+|stem:[Theta(N^2)]
+|stem:[Theta(N)]
+
+|Insertion
+|stem:[Theta(N^2)]
+|stem:[Theta(N)]
+
+|Selection
+|stem:[Theta(N^2)]
+|stem:[Theta(N^2)]
+
+|Quicksort
+|stem:[Theta(N^2)]
+|stem:[Theta(N xx log N)]
+
+|Mergesort
+|stem:[Theta(N xx log N)]
+|stem:[Theta(N xx log N)]
+
+|Radix Sort
+|stem:[Theta(d xx N)]
+|stem:[Theta(d xx N)]
+
+|Bucket Sort
+|stem:[Theta(N^2)]
+|stem:[Theta(N + N/b + b)]
+|=== 
+
+Note that the stem:[d] in Radix Sort is the number of digits and stem:[b] in
+Bucket Sort is the number of buckets. Because comparison sorts must compare
+pairs of elements, **they cannot** run faster than stem:[N xx log N].
+
+## Note: Sorting Algorithm Visualizer
+
+It's recommended to lookup a sorting algorithm visualizer online, such as:
+https://www.toptal.com/developers/sorting-algorithms
+
+## Bubble Sort
+
+. stem:[bb "function " "BubbleSort"(A, N)]
+. stem:["    " tt "swapped" = true]
+. stem:["    " bb "while " (tt "swapped") bb " do"]
+. stem:["    " "    " tt "swapped" = false]
+. stem:["    " "    " bb "for " 0 <= i < N-1 bb " do"]
+. stem:["    " "    " "    " bb "if " (A\[i\] > A\[i + 1\]) bb " then"]
+. stem:["    " "    " "    " "    " "swap"(A\[i\], A\[i+1\])]
+. stem:["    " "    " "    " "    " tt "swapped" = true]
+. stem:["    " "    " "    " bb "end if"]
+. stem:["    " "    " bb "end for"]
+. stem:["    " "    " N = N - 1]
+. stem:["    " bb "end while"]
+. stem:["    " bb "return " A]
+. stem:[bb "end function"]
+
+### Time Complexity
+
+The **best case** for bubble sort is:
+
+[stem]
+++++
+T(N) = C_0 xx N + C_1
+++++
+
+Additionally:
+
+* stem:[T(N)] is stem:[O(N)], stem:[O(N^2)] and stem:[O(N^3)], etc.
+* stem:[T(N)] is stem:[Omega(N)], stem:[Omega(log N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Theta(N)]
+
+The **worst case** for bubble sort is:
+
+[stem]
+++++
+T(N) = C_0 xx N^2 + C_1 xx N + C_2.
+++++
+
+Additionally:
+
+* stem:[T(N)] is stem:[O(N^2)] and stem:[O(N^3)], etc.
+* stem:[T(N)] is stem:[Omega(N^2)], stem:[Omega(log N)] and stem:[Omega(1)], etc.
+* stem:[T(N)] is stem:[Theta(N^2)]
+
+## Insertion Sort
+
+. stem:[bb "function " "InsertionSort"(A, N)]
+. stem:["    " bb "for " 1 <= j <= N-1 bb " do"]
+. stem:["    " "    " tt "ins" = A\[j\]]
+. stem:["    " "    " i = j-1]
+. stem:["    " "    " bb "while " (i >= 0 " and " tt"ins" < A\[i\]) bb " do"]
+. stem:["    " "    " "    " A\[i+1\] = A\[i\]]
+. stem:["    " "    " "    " i = i-1]
+. stem:["    " "    " bb "end while"]
+. stem:["    " "    " A\[i+1\] = tt "ins"]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+## Selection Sort
+
+. stem:[bb "function " "SelectionSort"(A, N)]
+. stem:["    " bb "for " 0 <= i < N-1 bb " do"]
+. stem:["    " "    " tt "min" = "pos_min"(A, i, N-1)]
+. stem:["    " "    " tt "swap"(A\[i\], A\[tt "min"\])]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+The function stem:["pos_min"(A, a, b)] returns the position of the minimum value
+between positions stem:[a] and stem:[b] (both inclusive) in array stem:[A].
+
+## Quicksort
+
+. stem:[bb "function " "Quicksort"(A, tt "low", tt "high")]
+. stem:["    " bb "if " tt "low " < tt " high" bb " then"]
+. stem:["    " "    " tt "p" = "partition"(A, tt "low", tt "high")]
+. stem:["    " "    " "Quicksort"(A, tt "low", tt "p-1")]
+. stem:["    " "    " "Quicksort"(A, tt "p+1", tt "high")]
+. stem:["    " bb "end if"]
+. stem:[bb "end function"]
+
+. stem:[bb "function " "partition"(A, tt "low", tt "high")]
+. stem:["    " tt "pivot" = A\[tt "high"\]]
+. stem:["    " tt "i" = tt "low" - 1]
+. stem:["    " bb "for " tt "j" = tt "low" bb " to " tt "high" - 1 bb " do"]
+. stem:["    " "    " bb "if " A\[tt "j"\] < tt "pivot" bb " then"]
+. stem:["    " "        " tt "i" = tt "i" + 1]
+. stem:["    " "        " tt "swap"(A\[tt "i"\], A\[tt "j"\])]
+. stem:["    " bb "end for"]
+. stem:["    " tt "swap"(A\[tt "i" + 1\], A\[tt "high"\])]
+. stem:["    " bb "return " tt "i" + 1]
+. stem:[bb "end function"]
+
+### Explanation
+
+The function stem:[bb "partition"(A, tt "low", tt "high")] selects a pivot element (usually the last element in the current segment of the array). It then rearranges the elements in the array such that all elements less than the pivot are moved to the left of the pivot and all elements greater than or equal to the pivot are moved to the right. The pivot is then placed in its correct position, and the index of the pivot is returned.
+
+## Mergesort
+
+. stem:[bb "function " "MergeSort"(A, tt "low", tt "high")]
+. stem:["    " bb "if " (tt "low" < tt "high")]
+. stem:["    " "    " tt "mid" = tt "low" + "floor"((tt "high" -1) -: 2)]
+. stem:["    " "    " "MergeSort"(A, tt "low", tt "mid")]
+. stem:["    " "    " "MergeSort"(A, tt "mid" + tt "1ow", tt "high")]
+. stem:["    " "    " "Merge"(A, tt "low", tt "mid", tt "high")]
+. stem:["    " bb "end if"]
+. stem:[bb "end function"]
+
+The function stem:["Merge"] creates two arrays of both halves (left and right)
+and then merges them to produce a single, sorted array.
+
+## Radix Sort
+
+. stem:[bb "function " "RadixSort"(A, N)]
+. stem:["    " tt "max" = "findMax"(A, N)]
+. stem:["    " tt "exp" = 1]
+. stem:["    " bb "while " tt "max" -: tt "exp" > 0 bb " do"]
+. stem:["    " "    " "CountSort"(A, N, tt "exp")]
+. stem:["    " "    " tt "exp" = tt "exp" xx 10]
+. stem:["    " bb "end while"]
+. stem:[bb "end function"]
+
+. stem:[bb "function " "CountSort"(A, N, exp)]
+. stem:["    " tt "output" = "new array of size " N]
+. stem:["    " tt "count" = "new array of size " 10 " initialized to 0"]
+. stem:["    " bb "for " 0 <= i < N bb " do"]
+. stem:["    " "    " tt "index" = (A\[i\] -: tt "exp") % 10]
+. stem:["    " "    " tt "count"\[tt "index"\] = tt "count"\[tt "index"\] + 1]
+. stem:["    " bb "end for"]
+. stem:["    " bb "for " 1 <= i < 10 bb " do"]
+. stem:["    " "    " tt "count"\[i\] = tt "count"\[i\] + tt "count"\[i - 1\]]
+. stem:["    " bb "end for"]
+. stem:["    " tt "i" = N - 1]
+. stem:["    " bb "while " i >= 0 bb " do"]
+. stem:["    " "    " tt "index" = (A\[i\] -: tt "exp") % 10]
+. stem:["    " "    " tt "output"\[tt "count"\[tt "index"\] - 1\] = A\[i\]]
+. stem:["    " "    " tt "count"\[tt "index"\] = tt "count"\[tt "index"\] - 1]
+. stem:["    " "    " i = i - 1]
+. stem:["    " bb "end while"]
+. stem:["    " bb "for " 0 <= i < N bb " do"]
+. stem:["    " "    " A\[i\] = tt "output"\[i\]]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]
+
+## Bucket Sort
+
+. stem:[bb "function " "BucketSort"(A, N, tt "max")]
+. stem:["    " tt "buckets" = "new array of empty lists of size " N]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " tt "index" = "floor"(A\[i\] -: (tt "max" + 1) xx N)]
+. stem:["    " "    " "append" (tt "buckets"\[tt "index"\], A\[i\])]
+. stem:["    " bb "end for"]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " "InsertionSort"(tt "buckets"\[i\])]
+. stem:["    " bb "end for"]
+. stem:["    " tt "k" = 0]
+. stem:["    " bb "for " i = 0 bb " to " N - 1 bb " do"]
+. stem:["    " "    " bb "for " j = 0 bb " to " "len"(tt "buckets"\[i\]) - 1 bb " do"]
+. stem:["    " "    " "    " A\[tt "k"\] = tt "buckets"\[i\]\[j\]]
+. stem:["    " "    " "    " tt "k" = tt "k" + 1]
+. stem:["    " "    " bb "end for"]
+. stem:["    " bb "end for"]
+. stem:[bb "end function"]

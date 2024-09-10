@@ -1,0 +1,230 @@
+= Cheatsheet - Time Complexity of Recursive Algorithms
+Fabio Lama <fabio.lama@pm.me>
+:description: Module: CM2035 Algorithms and Data Structures II, started April 2024
+:doctype: article
+:sectnums: 4
+:toclevels: 4
+:stem:
+
+== About
+
+This cheatsheet covers the time complexity of recursive algorithms, including
+how to apply the master theorem.
+
+== Recurrence Relation
+
+Consider:
+
+. stem:[bb "function " "fact"(N)]
+. stem:["    " bb "if " (N "==" 1)]
+. stem:["    " "    " bb "return " 1]
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+If we analyze this function one by one:
+
+. stem:["    " bb "if " (N "==" 1)]
+
+Constant time stem:[C_0] (grouped).
+
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+Only one of the two return statements is executed (we assume the second
+statement, worst case).
+
+. stem:["    " "    " bb "return " 1]
+. stem:["    " bb "return " N xx "fact"(N - 1)]
+
+Constant time stem:[C_1] (return), stem:[C_2] (read N), stem:[C_3]
+(multiplication), and the stem:["fact"] function has a time of
+stem:[T(N-1)]. If we group all the constants together, we have:
+
+[stem]
+++++
+C_1 + C_2 + C_3 = C_4
+++++
+
+So we say that the return statement has a time complexity of:
+
+[stem]
+++++
+C_4 + T(N-1)
+++++
+
+Finally, we determine that the function stem:["fact"] has a time complexity of:
+
+[stem]
+++++
+T(N) = C_0 + C_4 + T(N-1)
+++++
+
+Or grouped together:
+
+[stem]
+++++
+T(N) = C_5 + T(N-1)
+++++
+
+This expression is known as a **recurrence relation**.
+
+
+== Solving a Recurrence Relation
+
+We can demonstrate the solution of a recurrence relation by expanding the calculation:
+
+[stem]
+++++
+T(N) = C_5 + T(N-1)\
+T(N) = C_5 + T(C_5 + T(N-2))\
+T(N) = C_5 + T(C_5 + T(C_5 + T(N-3)))\
+...\
+T(N) = k xx C_5 + T(N-k)
+++++
+
+If stem:[k] is stem:[N-1], then:
+
+[stem]
+++++
+T(N) = (N-1) xx C_5 + T(N-(N-1))\
+T(N) = (N-1) xx C_5 + C
+++++
+
+That's because:
+
+[stem]
+++++
+T(N-(N-1))\
+= T(N - N + 1)\
+= T(1)\
+= C
+++++
+
+We have hence solved the recurrence equation. In summary:
+
+* Find its recurrence equation.
+* Solve the recurrence equation.
+* Asymptotic analysis.
+
+== The Master Theorem
+
+The master theorem makes the asymptotic analysis of recursive functions much
+easier. However, it can only be applied if the recurrence equation has this
+specific structure:
+
+[stem]
+++++
+T(n) = a xx T(n/b)+f(n)
+++++
+
+where stem:[a >= 1] and stem:[b > 1].
+
+For example, this is solvable:
+
+[stem]
+++++
+T(n) = T(n/2) + n\
+= 1 xx T(n/2) + n
+++++
+
+Meanwhile, this is not:
+
+[stem]
+++++
+T(n) = 2 xx T(n) + n\
+= 2 xx T(n/1) + n
+++++
+
+The master theorem classifies the recurrence equiation in one of three cases:
+
+### Case 1
+
+[stem]
+++++
+f(n) < n^(log_b a)
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(n^(log_b a))
+++++
+
+### Case 2
+
+[stem]
+++++
+f(n) = n^(log_b a)
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(n^(log_b a) xx log N)
+++++
+
+### Case 3
+
+[stem]
+++++
+f(n) > n^(log_b a)
+++++
+
+and:
+
+[stem]
+++++
+a xx f(n/b) <= c xx f(n) " where " c < 1 " and " n " large"
+++++
+
+where the running time is:
+
+[stem]
+++++
+T(n) = Theta(f(n))
+++++
+
+### Example
+
+Consider:
+
+[stem]
+++++
+T(n) = 2T(n/2) + n
+++++
+
+we deterime that the master theorem can be applied here, given that stem:[a = 2 >= 1]
+and stem:[b = 2 > 1].
+
+To determine the case, we first calculate:
+
+[stem]
+++++
+log_b a = log_2 2 = 1
+++++
+
+For case 1, we have:
+
+[stem]
+++++
+n < n^1\
+n < n
+++++
+
+which is **false**.
+
+For case 2, we have:
+
+[stem]
+++++
+n = n^1\
+n = n
+++++
+
+which is **true**. Hence, we classify the formula as case 2 and the running time
+is:
+
+[stem]
+++++
+T(n) = Theta(n xx log N)
+++++
